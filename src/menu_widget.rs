@@ -5,6 +5,7 @@ use ratatui::{
     text::Line,
     widgets::{Paragraph, Widget},
 };
+use crate::menu_widget::MenuAction::Exit;
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum MenuAction {
@@ -58,6 +59,9 @@ impl MenuWidget {
             }
             KeyCode::Enter => {
                 Some(self.items[self.selected_index].action.clone())
+            }
+            KeyCode::Esc => {
+                Some(Exit)
             }
             _ => None,
         }
