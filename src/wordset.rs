@@ -12,7 +12,15 @@ impl std::fmt::Debug for WordsetDb {
 
 impl WordsetDb {
     pub fn new() -> Result<Self> {
-        let conn = Connection::open(":memory:")?;
+        let data_dir = directories::ProjectDirs::from("com", "wpm", "app")
+            .map(|dirs| dirs.data_dir().to_path_buf())
+            .unwrap_or_else(|| std::env::current_dir().unwrap());
+        
+        std::fs::create_dir_all(&data_dir).ok();
+        
+        let db_path = data_dir.join("wordset.db");
+        let conn = Connection::open(&db_path)?;
+        
         let db = Self { conn };
         db.init_tables()?;
         db.seed_data()?;
@@ -25,15 +33,9 @@ impl WordsetDb {
                 id INTEGER PRIMARY KEY,
                 name TEXT NOT NULL UNIQUE,
                 language TEXT NOT NULL,
-                word_count INTEGER NOT NULL
-            );
-            CREATE TABLE IF NOT EXISTS words (
-                id INTEGER PRIMARY KEY,
-                word_set_id INTEGER NOT NULL,
-                word TEXT NOT NULL,
-                FOREIGN KEY (word_set_id) REFERENCES word_sets(id)
-            );
-            CREATE INDEX IF NOT EXISTS idx_words_word_set ON words(word_set_id);",
+                word_count INTEGER NOT NULL,
+                words TEXT NOT NULL
+            );",
         )?;
         Ok(())
     }
@@ -57,19 +59,14 @@ impl WordsetDb {
             ("ru_50000", "ru", include_str!("../resources/ru_50000.txt")),
         ];
 
-        let mut stmt = self.conn.prepare("INSERT INTO word_sets (name, language, word_count) VALUES (?1, ?2, ?3)")?;
-        let mut word_stmt = self.conn.prepare("INSERT INTO words (word_set_id, word) VALUES (?1, ?2)")?;
+        let mut stmt = self.conn.prepare("INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)")?;
 
         for (name, lang, content) in word_files {
             let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
             let word_count = words.len() as i64;
+            let words_blob = words.join(" ");
 
-            stmt.execute((name, lang, word_count))?;
-            let word_set_id = self.conn.last_insert_rowid();
-
-            for word in words {
-                word_stmt.execute((word_set_id, word))?;
-            }
+            stmt.execute((name, lang, word_count, words_blob))?;
         }
 
         Ok(())
@@ -82,13 +79,12 @@ impl WordsetDb {
     }
 
     pub fn get_words(&self, wordset_name: &str) -> Result<Vec<String>> {
-        let mut stmt = self.conn.prepare(
-            "SELECT w.word FROM words w
-             JOIN word_sets ws ON w.word_set_id = ws.id
-             WHERE ws.name = ?1"
+        let words_blob: String = self.conn.query_row(
+            "SELECT words FROM word_sets WHERE name = ?1",
+            [wordset_name],
+            |row| row.get(0),
         )?;
-        let words = stmt.query_map([wordset_name], |row| row.get(0))?;
-        words.collect()
+        Ok(words_blob.split_whitespace().map(|s| s.to_string()).collect())
     }
 
     pub fn get_shuffled_words(&self, wordset_name: &str) -> Result<Vec<String>> {
