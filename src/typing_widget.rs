@@ -44,8 +44,8 @@ impl TypingWidget {
     }
 
     pub fn add_char(&mut self, ch: char) {
-        self.start_timer_if_needed();
         self.input_text.push(ch);
+        self.start_timer_if_needed();
     }
 
     pub fn remove_char(&mut self) {

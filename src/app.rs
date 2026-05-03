@@ -47,6 +47,14 @@ impl App {
         while self.running {
             if self.screen == Screen::Typing {
                 self.typing_widget.update_stats();
+                if self.typing_widget.is_complete() {
+                    self.result_widget.update(
+                        self.typing_widget.get_wpm(),
+                        self.typing_widget.get_accuracy(),
+                        self.typing_widget.get_elapsed_time(),
+                    );
+                    self.screen = Screen::Result;
+                }
             }
             terminal.draw(|frame| self.render(frame))?;
             
@@ -153,17 +161,6 @@ impl App {
                 self.typing_widget.reset();
             }
             _ => {}
-        }
-        
-        self.typing_widget.update_stats();
-        
-        if self.typing_widget.is_complete() {
-            self.result_widget.update(
-                self.typing_widget.get_wpm(),
-                self.typing_widget.get_accuracy(),
-                self.typing_widget.get_elapsed_time(),
-            );
-            self.screen = Screen::Result;
         }
     }
 
