@@ -14,20 +14,26 @@ pub enum MenuAction {
     Exit,
 }
 
+#[derive(Debug, Clone)]
+struct MenuItem {
+    text: String,
+    action: MenuAction,
+}
+
 #[derive(Debug)]
 pub struct MenuWidget {
     selected_index: usize,
-    options: Vec<String>,
+    items: Vec<MenuItem>,
 }
 
 impl MenuWidget {
     pub fn new() -> Self {
         Self {
             selected_index: 0,
-            options: vec![
-                "Quick Start".to_string(),
-                "Select Mode".to_string(),
-                "Exit".to_string(),
+            items: vec![
+                MenuItem { text: "Quick Start".to_string(), action: MenuAction::QuickStart },
+                MenuItem { text: "Select Mode".to_string(), action: MenuAction::SelectMode },
+                MenuItem { text: "Exit".to_string(), action: MenuAction::Exit },
             ],
         }
     }
@@ -46,18 +52,13 @@ impl MenuWidget {
                 MenuAction::None
             }
             KeyCode::Down => {
-                if self.selected_index < self.options.len() - 1 {
+                if self.selected_index < self.items.len() - 1 {
                     self.selected_index += 1;
                 }
                 MenuAction::None
             }
             KeyCode::Enter => {
-                match self.selected_index {
-                    0 => MenuAction::QuickStart,
-                    1 => MenuAction::SelectMode,
-                    2 => MenuAction::Exit,
-                    _ => MenuAction::None,
-                }
+                self.items[self.selected_index].action.clone()
             }
             _ => MenuAction::None,
         }
@@ -70,19 +71,19 @@ impl MenuWidget {
 
 impl Widget for &MenuWidget {
     fn render(self, area: Rect, buf: &mut ratatui::prelude::Buffer) {
-        let total_lines = self.options.len();
+        let total_lines = self.items.len();
         let start_y = area.y + area.height.saturating_sub(1) / 2 - total_lines as u16 / 2;
 
-        for (i, option) in self.options.iter().enumerate() {
+        for (i, item) in self.items.iter().enumerate() {
             let y = start_y + i as u16;
             if y < area.y || y >= area.y + area.height {
                 continue;
             }
 
             let line = if i == self.selected_index {
-                Line::from(format!("> {}", option)).style(Style::default().fg(Color::Yellow))
+                Line::from(format!("> {}", item.text)).style(Style::default().fg(Color::Yellow))
             } else {
-                Line::from(format!("  {}", option)).style(Style::default().fg(Color::White))
+                Line::from(format!("  {}", item.text)).style(Style::default().fg(Color::White))
             };
 
             let option_area = Rect {

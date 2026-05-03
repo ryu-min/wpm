@@ -13,12 +13,19 @@ pub enum ResultAction {
     Menu,
 }
 
+#[derive(Debug, Clone)]
+struct ResultItem {
+    text: String,
+    action: ResultAction,
+}
+
 #[derive(Debug)]
 pub struct ResultWidget {
     wpm: f64,
     accuracy: f64,
     time: f64,
     selected_index: usize,
+    items: Vec<ResultItem>,
 }
 
 impl ResultWidget {
@@ -28,6 +35,10 @@ impl ResultWidget {
             accuracy: 0.0,
             time: 0.0,
             selected_index: 0,
+            items: vec![
+                ResultItem { text: "Restart".to_string(), action: ResultAction::Restart },
+                ResultItem { text: "Menu".to_string(), action: ResultAction::Menu },
+            ],
         }
     }
 
@@ -51,31 +62,15 @@ impl ResultWidget {
                 ResultAction::None
             }
             KeyCode::Down => {
-                if self.selected_index < 1 {
+                if self.selected_index < self.items.len() - 1 {
                     self.selected_index += 1;
                 }
                 ResultAction::None
             }
             KeyCode::Enter => {
-                match self.selected_index {
-                    0 => ResultAction::Restart,
-                    1 => ResultAction::Menu,
-                    _ => ResultAction::None,
-                }
+                self.items[self.selected_index].action.clone()
             }
             _ => ResultAction::None,
-        }
-    }
-
-    pub fn move_up(&mut self) {
-        if self.selected_index > 0 {
-            self.selected_index -= 1;
-        }
-    }
-
-    pub fn move_down(&mut self) {
-        if self.selected_index < 1 {
-            self.selected_index += 1;
         }
     }
 
@@ -86,8 +81,7 @@ impl ResultWidget {
 
 impl Widget for &ResultWidget {
     fn render(self, area: Rect, buf: &mut ratatui::prelude::Buffer) {
-        let options = vec!["Restart", "Menu"];
-        let total_lines = 5;
+        let total_lines = 3 + self.items.len();
         let start_y = area.y + (area.height - total_lines as u16) / 2;
 
         let wpm_line = Line::from(format!("WPM: {}", self.wpm as u32))
@@ -107,11 +101,11 @@ impl Widget for &ResultWidget {
             Rect { x: area.x, y: start_y + 2, width: area.width, height: 1 }, buf
         );
 
-        for (i, option) in options.iter().enumerate() {
+        for (i, item) in self.items.iter().enumerate() {
             let line = if i == self.selected_index {
-                Line::from(format!("> {}", option)).style(Style::default().fg(Color::Yellow))
+                Line::from(format!("> {}", item.text)).style(Style::default().fg(Color::Yellow))
             } else {
-                Line::from(format!("  {}", option)).style(Style::default().fg(Color::White))
+                Line::from(format!("  {}", item.text)).style(Style::default().fg(Color::White))
             };
 
             Paragraph::new(line).alignment(ratatui::layout::Alignment::Center).render(
