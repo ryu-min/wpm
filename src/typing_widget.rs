@@ -19,7 +19,10 @@ pub struct TypingWidget {
     pub wpm: f64,
     pub elapsed: f64,
     time_limit: Option<u64>,
+    last_stats_update: Option<std::time::Instant>,
 }
+
+const STATS_UPDATE_INTERVAL_MS: u64 = 100;
 
 impl TypingWidget {
     pub fn new(target_text: String) -> Self {
@@ -30,6 +33,7 @@ impl TypingWidget {
             wpm: 0.0,
             elapsed: 0.0,
             time_limit: None,
+            last_stats_update: None,
         }
     }
 
@@ -79,9 +83,17 @@ impl TypingWidget {
         self.start_time = None;
         self.wpm = 0.0;
         self.elapsed = 0.0;
+        self.last_stats_update = None;
     }
 
     pub fn update_stats(&mut self) {
+        let now = std::time::Instant::now();
+        if let Some(last) = self.last_stats_update {
+            if now.duration_since(last).as_millis() < STATS_UPDATE_INTERVAL_MS as u128 {
+                return;
+            }
+        }
+        self.last_stats_update = Some(now);
         self.elapsed = self.get_elapsed_time();
         self.wpm = self.get_wpm();
     }
