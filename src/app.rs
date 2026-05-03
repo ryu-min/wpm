@@ -16,6 +16,8 @@ pub struct App {
     typing_widget: TypingWidget,
     result_widget: ResultWidget,
     wordset_db: WordsetDb,
+    current_wordset: Option<String>,
+    current_time: Option<u32>,
 }
 
 #[derive(Debug, PartialEq)]
@@ -39,6 +41,8 @@ impl App {
             typing_widget: TypingWidget::new(String::new()),
             result_widget: ResultWidget::new(),
             wordset_db,
+            current_wordset: None,
+            current_time: None,
         }
     }
 
@@ -92,6 +96,8 @@ impl App {
                             if let Ok(words) = self.wordset_db.quick_start_words() {
                                 let text = words.join(" ");
                                 self.typing_widget = TypingWidget::new(text).with_time_limit(15);
+                                self.current_wordset = Some("en_1000".to_string());
+                                self.current_time = Some(15);
                                 self.screen = Screen::Typing;
                             }
                         }
@@ -114,6 +120,8 @@ impl App {
                             if let Ok(words) = self.wordset_db.get_shuffled_words(&wordset) {
                                 let text = words.join(" ");
                                 self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                self.current_wordset = Some(wordset);
+                                self.current_time = Some(time);
                                 self.screen = Screen::Typing;
                             }
                         }
@@ -137,7 +145,12 @@ impl App {
                 if let Some(action) = self.result_widget.handle_input(key) {
                     match action {
                         crate::result_widget::ResultAction::Restart => {
-                            self.typing_widget.reset();
+                            if let (Some(wordset), Some(time)) = (&self.current_wordset, self.current_time) {
+                                if let Ok(words) = self.wordset_db.get_shuffled_words(wordset) {
+                                    let text = words.join(" ");
+                                    self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                }
+                            }
                             self.screen = Screen::Typing;
                         }
                         crate::result_widget::ResultAction::Menu => {
