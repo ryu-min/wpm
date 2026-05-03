@@ -1,9 +1,15 @@
+use crossterm::event::KeyEvent;
 use ratatui::{
     layout::{Alignment, Rect},
     style::{Color, Modifier, Style},
     text::{Line, Span},
     widgets::{Paragraph, Widget},
 };
+
+#[derive(Debug, PartialEq, Clone)]
+pub enum TypingAction {
+    None,
+}
 
 #[derive(Debug)]
 pub struct TypingWidget {
@@ -41,6 +47,20 @@ impl TypingWidget {
     pub fn set_target_text(&mut self, target_text: String) {
         self.target_text = target_text;
         self.input_text.clear();
+    }
+
+    pub fn handle_input(&mut self, key: KeyEvent) -> TypingAction {
+        use crossterm::event::KeyCode;
+        match key.code {
+            KeyCode::Char(ch) => {
+                self.add_char(ch);
+            }
+            KeyCode::Backspace => {
+                self.remove_char();
+            }
+            _ => {}
+        }
+        TypingAction::None
     }
 
     pub fn add_char(&mut self, ch: char) {

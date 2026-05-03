@@ -1,9 +1,17 @@
+use crossterm::event::KeyEvent;
 use ratatui::{
     layout::Rect,
     style::{Color, Style},
     text::Line,
     widgets::{Paragraph, Widget},
 };
+
+#[derive(Debug, PartialEq, Clone)]
+pub enum ResultAction {
+    None,
+    Restart,
+    Menu,
+}
 
 #[derive(Debug)]
 pub struct ResultWidget {
@@ -31,6 +39,32 @@ impl ResultWidget {
 
     pub fn selected_index(&self) -> usize {
         self.selected_index
+    }
+
+    pub fn handle_input(&mut self, key: KeyEvent) -> ResultAction {
+        use crossterm::event::KeyCode;
+        match key.code {
+            KeyCode::Up => {
+                if self.selected_index > 0 {
+                    self.selected_index -= 1;
+                }
+                ResultAction::None
+            }
+            KeyCode::Down => {
+                if self.selected_index < 1 {
+                    self.selected_index += 1;
+                }
+                ResultAction::None
+            }
+            KeyCode::Enter => {
+                match self.selected_index {
+                    0 => ResultAction::Restart,
+                    1 => ResultAction::Menu,
+                    _ => ResultAction::None,
+                }
+            }
+            _ => ResultAction::None,
+        }
     }
 
     pub fn move_up(&mut self) {

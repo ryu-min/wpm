@@ -1,9 +1,16 @@
+use crossterm::event::KeyEvent;
 use ratatui::{
     layout::{Alignment, Rect},
     style::{Color, Style},
     text::Line,
     widgets::{Paragraph, Widget},
 };
+
+#[derive(Debug, PartialEq, Clone)]
+pub enum ModeSelectAction {
+    None,
+    Start,
+}
 
 #[derive(Debug)]
 enum ActiveRow {
@@ -54,6 +61,30 @@ impl ModeSelectWidget {
 
     pub fn selected_wordset(&self) -> &str {
         &self.wordset_options[self.wordset_index]
+    }
+
+    pub fn handle_input(&mut self, key: KeyEvent) -> ModeSelectAction {
+        use crossterm::event::KeyCode;
+        match key.code {
+            KeyCode::Up => {
+                self.move_up();
+                ModeSelectAction::None
+            }
+            KeyCode::Down => {
+                self.move_down();
+                ModeSelectAction::None
+            }
+            KeyCode::Left => {
+                self.move_left();
+                ModeSelectAction::None
+            }
+            KeyCode::Right => {
+                self.move_right();
+                ModeSelectAction::None
+            }
+            KeyCode::Enter => ModeSelectAction::Start,
+            _ => ModeSelectAction::None,
+        }
     }
 
     pub fn move_up(&mut self) {
