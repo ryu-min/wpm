@@ -8,7 +8,6 @@ use ratatui::{
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum ModeSelectAction {
-    None,
     Start,
     Exit,
 }
@@ -64,28 +63,28 @@ impl ModeSelectWidget {
         &self.wordset_options[self.wordset_index]
     }
 
-    pub fn handle_input(&mut self, key: KeyEvent) -> ModeSelectAction {
+    pub fn handle_input(&mut self, key: KeyEvent) -> Option<ModeSelectAction> {
         use crossterm::event::KeyCode;
         match key.code {
             KeyCode::Up => {
                 self.move_up();
-                ModeSelectAction::None
+                None
             }
             KeyCode::Down => {
                 self.move_down();
-                ModeSelectAction::None
+                None
             }
             KeyCode::Left => {
                 self.move_left();
-                ModeSelectAction::None
+                None
             }
             KeyCode::Right => {
                 self.move_right();
-                ModeSelectAction::None
+                None
             }
-            KeyCode::Enter => ModeSelectAction::Start,
-            KeyCode::Esc => ModeSelectAction::Exit,
-            _ => ModeSelectAction::None,
+            KeyCode::Enter => Some(ModeSelectAction::Start),
+            KeyCode::Esc => Some(ModeSelectAction::Exit),
+            _ => None,
         }
     }
 

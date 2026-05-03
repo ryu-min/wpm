@@ -10,12 +10,6 @@ impl std::fmt::Debug for WordsetDb {
     }
 }
 
-#[derive(Debug, Clone)]
-pub struct Mode {
-    pub word_set_name: String,
-    pub time_seconds: u32,
-}
-
 impl WordsetDb {
     pub fn new() -> Result<Self> {
         let conn = Connection::open(":memory:")?;

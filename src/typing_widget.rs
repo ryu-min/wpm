@@ -8,7 +8,6 @@ use ratatui::{
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum TypingAction {
-    None,
     Exit,
 }
 
@@ -50,19 +49,20 @@ impl TypingWidget {
         self.input_text.clear();
     }
 
-    pub fn handle_input(&mut self, key: KeyEvent) -> TypingAction {
+    pub fn handle_input(&mut self, key: KeyEvent) -> Option<TypingAction> {
         use crossterm::event::KeyCode;
         match key.code {
             KeyCode::Char(ch) => {
                 self.add_char(ch);
+                None
             }
             KeyCode::Backspace => {
                 self.remove_char();
+                None
             }
-            KeyCode::Esc => return TypingAction::Exit,
-            _ => {}
+            KeyCode::Esc => Some(TypingAction::Exit),
+            _ => None,
         }
-        TypingAction::None
     }
 
     pub fn add_char(&mut self, ch: char) {

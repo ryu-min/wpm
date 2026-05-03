@@ -86,64 +86,64 @@ impl App {
 
         match self.screen {
             Screen::Menu => {
-                match self.menu_widget.handle_input(key) {
-                    crate::menu_widget::MenuAction::QuickStart => {
-                        if let Ok(words) = self.wordset_db.quick_start_words() {
-                            let text = words.join(" ");
-                            self.typing_widget = TypingWidget::new(text).with_time_limit(15);
-                            self.screen = Screen::Typing;
+                if let Some(action) = self.menu_widget.handle_input(key) {
+                    match action {
+                        crate::menu_widget::MenuAction::QuickStart => {
+                            if let Ok(words) = self.wordset_db.quick_start_words() {
+                                let text = words.join(" ");
+                                self.typing_widget = TypingWidget::new(text).with_time_limit(15);
+                                self.screen = Screen::Typing;
+                            }
+                        }
+                        crate::menu_widget::MenuAction::SelectMode => {
+                            self.mode_select_widget.reset();
+                            self.screen = Screen::ModeSelect;
+                        }
+                        crate::menu_widget::MenuAction::Exit => {
+                            self.quit();
                         }
                     }
-                    crate::menu_widget::MenuAction::SelectMode => {
-                        self.mode_select_widget.reset();
-                        self.screen = Screen::ModeSelect;
-                    }
-                    crate::menu_widget::MenuAction::Exit => {
-                        self.quit();
-                    }
-                    _ => {}
                 }
             }
             Screen::ModeSelect => {
-                match self.mode_select_widget.handle_input(key) {
-                    crate::mode_select_widget::ModeSelectAction::Start => {
-                        let wordset = self.mode_select_widget.selected_wordset().to_string();
-                        let time = self.mode_select_widget.selected_time();
-                        if let Ok(words) = self.wordset_db.get_shuffled_words(&wordset) {
-                            let text = words.join(" ");
-                            self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
-                            self.screen = Screen::Typing;
+                if let Some(action) = self.mode_select_widget.handle_input(key) {
+                    match action {
+                        crate::mode_select_widget::ModeSelectAction::Start => {
+                            let wordset = self.mode_select_widget.selected_wordset().to_string();
+                            let time = self.mode_select_widget.selected_time();
+                            if let Ok(words) = self.wordset_db.get_shuffled_words(&wordset) {
+                                let text = words.join(" ");
+                                self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                self.screen = Screen::Typing;
+                            }
+                        }
+                        crate::mode_select_widget::ModeSelectAction::Exit => {
+                            self.screen = Screen::Menu;
                         }
                     }
-                    crate::mode_select_widget::ModeSelectAction::Exit => {
-                        self.screen = Screen::Menu;
-                    }
-                    _ => {}
                 }
             }
             Screen::Typing => {
-                match self.typing_widget.handle_input(key) {
-                    crate::typing_widget::TypingAction::Exit => {
-                        self.screen = Screen::Menu;
-                        self.typing_widget.reset();
+                if let Some(action) = self.typing_widget.handle_input(key) {
+                    match action {
+                        crate::typing_widget::TypingAction::Exit => {
+                            self.screen = Screen::Menu;
+                            self.typing_widget.reset();
+                        }
                     }
-                    _ => {}
                 }
             }
             Screen::Result => {
-                if key.code == KeyCode::Esc {
-                    self.screen = Screen::Menu;
-                    self.typing_widget.reset();
-                    return;
-                }
-                match self.result_widget.handle_input(key) {
-                    crate::result_widget::ResultAction::Restart => {
-                        self.typing_widget.reset();
-                        self.screen = Screen::Typing;
-                    }
-                    _ => {
-                        self.screen = Screen::Menu;
-                        self.typing_widget.reset();
+                if let Some(action) = self.result_widget.handle_input(key) {
+                    match action {
+                        crate::result_widget::ResultAction::Restart => {
+                            self.typing_widget.reset();
+                            self.screen = Screen::Typing;
+                        }
+                        crate::result_widget::ResultAction::Menu => {
+                            self.screen = Screen::Menu;
+                            self.typing_widget.reset();
+                        }
                     }
                 }
             }

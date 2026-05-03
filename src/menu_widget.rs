@@ -8,7 +8,6 @@ use ratatui::{
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum MenuAction {
-    None,
     QuickStart,
     SelectMode,
     Exit,
@@ -42,25 +41,25 @@ impl MenuWidget {
         self.selected_index
     }
 
-    pub fn handle_input(&mut self, key: KeyEvent) -> MenuAction {
+    pub fn handle_input(&mut self, key: KeyEvent) -> Option<MenuAction> {
         use crossterm::event::KeyCode;
         match key.code {
             KeyCode::Up => {
                 if self.selected_index > 0 {
                     self.selected_index -= 1;
                 }
-                MenuAction::None
+                None
             }
             KeyCode::Down => {
                 if self.selected_index < self.items.len() - 1 {
                     self.selected_index += 1;
                 }
-                MenuAction::None
+                None
             }
             KeyCode::Enter => {
-                self.items[self.selected_index].action.clone()
+                Some(self.items[self.selected_index].action.clone())
             }
-            _ => MenuAction::None,
+            _ => None,
         }
     }
 

@@ -8,7 +8,6 @@ use ratatui::{
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum ResultAction {
-    None,
     Restart,
     Menu,
 }
@@ -47,31 +46,27 @@ impl ResultWidget {
         self.accuracy = accuracy;
         self.time = time;
     }
-
-    pub fn selected_index(&self) -> usize {
-        self.selected_index
-    }
-
-    pub fn handle_input(&mut self, key: KeyEvent) -> ResultAction {
+    
+    pub fn handle_input(&mut self, key: KeyEvent) -> Option<ResultAction> {
         use crossterm::event::KeyCode;
         match key.code {
             KeyCode::Up => {
                 if self.selected_index > 0 {
                     self.selected_index -= 1;
                 }
-                ResultAction::None
+                None
             }
             KeyCode::Down => {
                 if self.selected_index < self.items.len() - 1 {
                     self.selected_index += 1;
                 }
-                ResultAction::None
+                None
             }
             KeyCode::Enter => {
-                self.items[self.selected_index].action.clone()
+                Some(self.items[self.selected_index].action.clone())
             }
-            KeyCode::Esc => ResultAction::None,
-            _ => ResultAction::None,
+            KeyCode::Esc => Some(ResultAction::Menu),
+            _ => None,
         }
     }
 
