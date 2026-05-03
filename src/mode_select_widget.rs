@@ -5,7 +5,14 @@ use ratatui::{
     widgets::{Paragraph, Widget},
 };
 
+#[derive(Debug)]
+enum ActiveRow {
+    Wordset,
+    Time,
+}
+
 pub struct ModeSelectWidget {
+    active_row: ActiveRow,
     wordset_index: usize,
     time_index: usize,
     wordset_options: Vec<String>,
@@ -25,6 +32,7 @@ impl ModeSelectWidget {
     pub fn new(wordset_names: Vec<String>) -> Self {
         let times: Vec<u32> = (15..=300).step_by(15).collect();
         Self {
+            active_row: ActiveRow::Wordset,
             wordset_index: 0,
             time_index: 0,
             wordset_options: wordset_names,
@@ -48,31 +56,60 @@ impl ModeSelectWidget {
         &self.wordset_options[self.wordset_index]
     }
 
-    pub fn move_left(&mut self) {
-        if self.wordset_index > 0 {
-            self.wordset_index -= 1;
-        }
-    }
-
-    pub fn move_right(&mut self) {
-        if self.wordset_index < self.wordset_options.len() - 1 {
-            self.wordset_index += 1;
-        }
-    }
-
     pub fn move_up(&mut self) {
-        if self.time_index < self.time_options.len() - 1 {
-            self.time_index += 1;
+        match self.active_row {
+            ActiveRow::Wordset => {
+                self.active_row = ActiveRow::Time;
+            }
+            ActiveRow::Time => {
+                self.active_row = ActiveRow::Wordset;
+            }
         }
     }
 
     pub fn move_down(&mut self) {
-        if self.time_index > 0 {
-            self.time_index -= 1;
+        match self.active_row {
+            ActiveRow::Wordset => {
+                self.active_row = ActiveRow::Time;
+            }
+            ActiveRow::Time => {
+                self.active_row = ActiveRow::Wordset;
+            }
+        }
+    }
+
+    pub fn move_left(&mut self) {
+        match self.active_row {
+            ActiveRow::Wordset => {
+                if self.wordset_index > 0 {
+                    self.wordset_index -= 1;
+                }
+            }
+            ActiveRow::Time => {
+                if self.time_index > 0 {
+                    self.time_index -= 1;
+                }
+            }
+        }
+    }
+
+    pub fn move_right(&mut self) {
+        match self.active_row {
+            ActiveRow::Wordset => {
+                if self.wordset_index < self.wordset_options.len() - 1 {
+                    self.wordset_index += 1;
+                }
+            }
+            ActiveRow::Time => {
+                if self.time_index < self.time_options.len() - 1 {
+                    self.time_index += 1;
+                }
+            }
         }
     }
 
     pub fn reset(&mut self) {
+        self.active_row = ActiveRow::Wordset;
         self.wordset_index = 0;
         self.time_index = 0;
     }
@@ -85,42 +122,24 @@ impl Widget for &ModeSelectWidget {
 
         let title = Paragraph::new(Line::from("Select Mode").style(Style::default().fg(Color::Cyan)))
             .alignment(Alignment::Center);
-        let title_area = Rect {
-            x: area.x,
-            y: start_y,
-            width: area.width,
-            height: 1,
-        };
-        title.render(title_area, buf);
+        title.render(Rect { x: area.x, y: start_y, width: area.width, height: 1 }, buf);
 
         let wordset_label = Paragraph::new(Line::from("Wordset:").style(Style::default().fg(Color::White)))
             .alignment(Alignment::Center);
-        let wordset_label_area = Rect {
-            x: area.x,
-            y: start_y + 2,
-            width: area.width,
-            height: 1,
-        };
-        wordset_label.render(wordset_label_area, buf);
+        wordset_label.render(Rect { x: area.x, y: start_y + 2, width: area.width, height: 1 }, buf);
 
-        let wordset_value = Line::from(format!("< {} >", self.wordset_options[self.wordset_index])).style(Style::default().fg(Color::Yellow));
-        let wordset_value_area = Rect {
-            x: area.x,
-            y: start_y + 3,
-            width: area.width,
-            height: 1,
+        let wordset_value_style = match self.active_row {
+            ActiveRow::Wordset => Style::default().fg(Color::Yellow),
+            ActiveRow::Time => Style::default().fg(Color::White),
         };
-        Paragraph::new(wordset_value).alignment(Alignment::Center).render(wordset_value_area, buf);
+        let wordset_value = Line::from(format!("< {} >", self.wordset_options[self.wordset_index])).style(wordset_value_style);
+        Paragraph::new(wordset_value).alignment(Alignment::Center).render(
+            Rect { x: area.x, y: start_y + 3, width: area.width, height: 1 }, buf
+        );
 
         let time_label = Paragraph::new(Line::from("Time:").style(Style::default().fg(Color::White)))
             .alignment(Alignment::Center);
-        let time_label_area = Rect {
-            x: area.x,
-            y: start_y + 5,
-            width: area.width,
-            height: 1,
-        };
-        time_label.render(time_label_area, buf);
+        time_label.render(Rect { x: area.x, y: start_y + 5, width: area.width, height: 1 }, buf);
 
         let seconds = self.time_options[self.time_index];
         let time_str = if seconds >= 60 {
@@ -134,24 +153,18 @@ impl Widget for &ModeSelectWidget {
         } else {
             format!("{} sec", seconds)
         };
-        let time_value = Line::from(format!("< {} >", time_str)).style(Style::default().fg(Color::Yellow));
-        let time_value_area = Rect {
-            x: area.x,
-            y: start_y + 6,
-            width: area.width,
-            height: 1,
+        let time_value_style = match self.active_row {
+            ActiveRow::Time => Style::default().fg(Color::Yellow),
+            ActiveRow::Wordset => Style::default().fg(Color::White),
         };
-        Paragraph::new(time_value).alignment(Alignment::Center).render(time_value_area, buf);
+        let time_value = Line::from(format!("< {} >", time_str)).style(time_value_style);
+        Paragraph::new(time_value).alignment(Alignment::Center).render(
+            Rect { x: area.x, y: start_y + 6, width: area.width, height: 1 }, buf
+        );
 
         let hint = Paragraph::new(
-            Line::from("← → : wordset  ↑ ↓ : time  Enter : start  Esc : back").style(Style::default().fg(Color::DarkGray))
+            Line::from("↑ ↓ : select row  ← → : change value  Enter : start  Esc : back").style(Style::default().fg(Color::DarkGray))
         ).alignment(Alignment::Center);
-        let hint_area = Rect {
-            x: area.x,
-            y: start_y + 8,
-            width: area.width,
-            height: 1,
-        };
-        hint.render(hint_area, buf);
+        hint.render(Rect { x: area.x, y: start_y + 8, width: area.width, height: 1 }, buf);
     }
 }
