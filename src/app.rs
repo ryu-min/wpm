@@ -86,8 +86,24 @@ impl App {
                     Screen::Menu => {
                         if key.code == KeyCode::Esc {
                             self.quit();
-                        } else {
-                            self.on_menu_key_event(key);
+                            return;
+                        }
+                        match self.menu_widget.handle_input(key) {
+                            crate::menu_widget::MenuAction::QuickStart => {
+                                if let Ok(words) = self.wordset_db.quick_start_words() {
+                                    let text = words.join(" ");
+                                    self.typing_widget = TypingWidget::new(text).with_time_limit(15);
+                                    self.screen = Screen::Typing;
+                                }
+                            }
+                            crate::menu_widget::MenuAction::SelectMode => {
+                                self.mode_select_widget.reset();
+                                self.screen = Screen::ModeSelect;
+                            }
+                            crate::menu_widget::MenuAction::Exit => {
+                                self.quit();
+                            }
+                            _ => {}
                         }
                     }
                     Screen::ModeSelect => {
@@ -101,31 +117,6 @@ impl App {
                     Screen::Result => self.on_result_key_event(key),
                 }
             }
-        }
-    }
-
-    fn on_menu_key_event(&mut self, key: KeyEvent) {
-        match key.code {
-            KeyCode::Up => self.menu_widget.move_up(),
-            KeyCode::Down => self.menu_widget.move_down(),
-            KeyCode::Enter => {
-                match self.menu_widget.selected_index() {
-                    0 => {
-                        if let Ok(words) = self.wordset_db.quick_start_words() {
-                            let text = words.join(" ");
-                            self.typing_widget = TypingWidget::new(text).with_time_limit(15);
-                            self.screen = Screen::Typing;
-                        }
-                    }
-                    1 => {
-                        self.mode_select_widget.reset();
-                        self.screen = Screen::ModeSelect;
-                    }
-                    2 => self.quit(),
-                    _ => {}
-                }
-            }
-            _ => {}
         }
     }
 

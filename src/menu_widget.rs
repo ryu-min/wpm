@@ -1,9 +1,18 @@
+use crossterm::event::KeyEvent;
 use ratatui::{
     layout::{Alignment, Rect},
     style::{Color, Style},
     text::Line,
     widgets::{Paragraph, Widget},
 };
+
+#[derive(Debug, PartialEq, Clone)]
+pub enum MenuAction {
+    None,
+    QuickStart,
+    SelectMode,
+    Exit,
+}
 
 #[derive(Debug)]
 pub struct MenuWidget {
@@ -27,15 +36,30 @@ impl MenuWidget {
         self.selected_index
     }
 
-    pub fn move_up(&mut self) {
-        if self.selected_index > 0 {
-            self.selected_index -= 1;
-        }
-    }
-
-    pub fn move_down(&mut self) {
-        if self.selected_index < self.options.len() - 1 {
-            self.selected_index += 1;
+    pub fn handle_input(&mut self, key: KeyEvent) -> MenuAction {
+        use crossterm::event::KeyCode;
+        match key.code {
+            KeyCode::Up => {
+                if self.selected_index > 0 {
+                    self.selected_index -= 1;
+                }
+                MenuAction::None
+            }
+            KeyCode::Down => {
+                if self.selected_index < self.options.len() - 1 {
+                    self.selected_index += 1;
+                }
+                MenuAction::None
+            }
+            KeyCode::Enter => {
+                match self.selected_index {
+                    0 => MenuAction::QuickStart,
+                    1 => MenuAction::SelectMode,
+                    2 => MenuAction::Exit,
+                    _ => MenuAction::None,
+                }
+            }
+            _ => MenuAction::None,
         }
     }
 
