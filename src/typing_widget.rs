@@ -115,13 +115,16 @@ impl TypingWidget {
         if self.input_text.is_empty() {
             return 0.0;
         }
+        let total = self.input_text.chars().count();
+        if total == 0 {
+            return 0.0;
+        }
         let correct = self
             .input_text
             .chars()
             .zip(self.target_text.chars())
             .filter(|(a, b)| a == b)
             .count();
-        let total = self.input_text.len();
         correct as f64 / total as f64
     }
 }
