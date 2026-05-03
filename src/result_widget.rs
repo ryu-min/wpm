@@ -70,6 +70,7 @@ impl ResultWidget {
             KeyCode::Enter => {
                 self.items[self.selected_index].action.clone()
             }
+            KeyCode::Esc => ResultAction::None,
             _ => ResultAction::None,
         }
     }

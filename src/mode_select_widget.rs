@@ -10,6 +10,7 @@ use ratatui::{
 pub enum ModeSelectAction {
     None,
     Start,
+    Exit,
 }
 
 #[derive(Debug)]
@@ -83,6 +84,7 @@ impl ModeSelectWidget {
                 ModeSelectAction::None
             }
             KeyCode::Enter => ModeSelectAction::Start,
+            KeyCode::Esc => ModeSelectAction::Exit,
             _ => ModeSelectAction::None,
         }
     }

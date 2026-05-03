@@ -9,6 +9,7 @@ use ratatui::{
 #[derive(Debug, PartialEq, Clone)]
 pub enum TypingAction {
     None,
+    Exit,
 }
 
 #[derive(Debug)]
@@ -58,6 +59,7 @@ impl TypingWidget {
             KeyCode::Backspace => {
                 self.remove_char();
             }
+            KeyCode::Esc => return TypingAction::Exit,
             _ => {}
         }
         TypingAction::None

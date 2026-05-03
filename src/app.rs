@@ -79,17 +79,6 @@ impl App {
     }
 
     fn on_key_event(&mut self, key: KeyEvent) {
-        if key.code == KeyCode::Esc {
-            match self.screen {
-                Screen::Menu => self.quit(),
-                _ => {
-                    self.screen = Screen::Menu;
-                    self.typing_widget.reset();
-                }
-            }
-            return;
-        }
-        
         if key.code == KeyCode::Char('c') && key.modifiers.contains(crossterm::event::KeyModifiers::CONTROL) {
             self.quit();
             return;
@@ -126,23 +115,36 @@ impl App {
                             self.screen = Screen::Typing;
                         }
                     }
+                    crate::mode_select_widget::ModeSelectAction::Exit => {
+                        self.screen = Screen::Menu;
+                    }
                     _ => {}
                 }
             }
             Screen::Typing => {
-                self.typing_widget.handle_input(key);
+                match self.typing_widget.handle_input(key) {
+                    crate::typing_widget::TypingAction::Exit => {
+                        self.screen = Screen::Menu;
+                        self.typing_widget.reset();
+                    }
+                    _ => {}
+                }
             }
             Screen::Result => {
+                if key.code == KeyCode::Esc {
+                    self.screen = Screen::Menu;
+                    self.typing_widget.reset();
+                    return;
+                }
                 match self.result_widget.handle_input(key) {
                     crate::result_widget::ResultAction::Restart => {
                         self.typing_widget.reset();
                         self.screen = Screen::Typing;
                     }
-                    crate::result_widget::ResultAction::Menu => {
+                    _ => {
                         self.screen = Screen::Menu;
                         self.typing_widget.reset();
                     }
-                    _ => {}
                 }
             }
         }
