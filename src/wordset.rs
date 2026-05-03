@@ -97,7 +97,47 @@ impl WordsetDb {
         words.collect()
     }
 
+    pub fn get_shuffled_words(&self, wordset_name: &str) -> Result<Vec<String>> {
+        let mut words = self.get_words(wordset_name)?;
+        use std::collections::hash_map::DefaultHasher;
+        use std::hash::{Hash, Hasher};
+        let mut hasher = DefaultHasher::new();
+        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
+        let seed = hasher.finish() as usize;
+        let mut rng = seed_rng(seed);
+        shuffle(&mut words, &mut rng);
+        Ok(words)
+    }
+
     pub fn quick_start_words(&self) -> Result<Vec<String>> {
-        self.get_words("en_1000")
+        let mut words = self.get_words("en_1000")?;
+        use std::collections::hash_map::DefaultHasher;
+        use std::hash::{Hash, Hasher};
+        let mut hasher = DefaultHasher::new();
+        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
+        let seed = hasher.finish() as usize;
+        let mut rng = seed_rng(seed);
+        shuffle(&mut words, &mut rng);
+        Ok(words)
+    }
+}
+
+fn seed_rng(seed: usize) -> Rand {
+    Rand { state: seed }
+}
+
+struct Rand { state: usize }
+
+impl Rand {
+    fn next(&mut self) -> usize {
+        self.state = self.state.wrapping_mul(1103515245).wrapping_add(12345);
+        self.state >> 16
+    }
+}
+
+fn shuffle<T>(v: &mut [T], rng: &mut Rand) {
+    for i in (1..v.len()).rev() {
+        let j = rng.next() % (i + 1);
+        v.swap(i, j);
     }
 }

@@ -130,7 +130,7 @@ impl App {
             KeyCode::Enter => {
                 let wordset = self.mode_select_widget.selected_wordset().to_string();
                 let time = self.mode_select_widget.selected_time();
-                if let Ok(words) = self.wordset_db.get_words(&wordset) {
+                if let Ok(words) = self.wordset_db.get_shuffled_words(&wordset) {
                     let text = words.join(" ");
                     self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
                     self.screen = Screen::Typing;
