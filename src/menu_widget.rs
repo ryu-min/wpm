@@ -5,12 +5,12 @@ use ratatui::{
     text::Line,
     widgets::{Paragraph, Widget},
 };
-use crate::menu_widget::MenuAction::Exit;
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum MenuAction {
     QuickStart,
     SelectMode,
+    Settings,
     Exit,
 }
 
@@ -33,6 +33,7 @@ impl MenuWidget {
             items: vec![
                 MenuItem { text: "Quick Start".to_string(), action: MenuAction::QuickStart },
                 MenuItem { text: "Select Mode".to_string(), action: MenuAction::SelectMode },
+                MenuItem { text: "Settings".to_string(), action: MenuAction::Settings },
                 MenuItem { text: "Exit".to_string(), action: MenuAction::Exit },
             ],
         }
@@ -61,7 +62,7 @@ impl MenuWidget {
                 Some(self.items[self.selected_index].action.clone())
             }
             KeyCode::Esc => {
-                Some(Exit)
+                Some(MenuAction::Exit)
             }
             _ => None,
         }

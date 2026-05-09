@@ -1,16 +1,34 @@
 use rusqlite::{Connection, Result};
+use serde::{Deserialize, Serialize};
+use std::path::PathBuf;
 
-pub struct WordsetDb {
-    conn: Connection,
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Settings {
+    pub quick_start_time: u32,
+    pub quick_start_wordset: String,
 }
 
-impl std::fmt::Debug for WordsetDb {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        f.debug_struct("WordsetDb").finish()
+impl Default for Settings {
+    fn default() -> Self {
+        Self {
+            quick_start_time: 15,
+            quick_start_wordset: "en_1000".to_string(),
+        }
     }
 }
 
-impl WordsetDb {
+pub struct Configuration {
+    pub settings: Settings,
+    conn: Connection,
+}
+
+impl std::fmt::Debug for Configuration {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.debug_struct("Configuration").finish()
+    }
+}
+
+impl Configuration {
     pub fn new() -> Result<Self> {
         let data_dir = directories::ProjectDirs::from("com", "wpm", "app")
             .map(|dirs| dirs.data_dir().to_path_buf())
@@ -21,10 +39,35 @@ impl WordsetDb {
         let db_path = data_dir.join("wordset.db");
         let conn = Connection::open(&db_path)?;
         
-        let db = Self { conn };
-        db.init_tables()?;
-        db.seed_data()?;
-        Ok(db)
+        let settings = Self::load_settings(&data_dir);
+        
+        let config = Self { settings, conn };
+        config.init_tables()?;
+        config.seed_data()?;
+        Ok(config)
+    }
+
+    fn load_settings(data_dir: &PathBuf) -> Settings {
+        let settings_path = data_dir.join("settings.json");
+        if settings_path.exists() {
+            if let Ok(content) = std::fs::read_to_string(&settings_path) {
+                if let Ok(settings) = serde_json::from_str(&content) {
+                    return settings;
+                }
+            }
+        }
+        Settings::default()
+    }
+
+    pub fn save_settings(&self) -> std::io::Result<()> {
+        let data_dir = directories::ProjectDirs::from("com", "wpm", "app")
+            .map(|dirs| dirs.data_dir().to_path_buf())
+            .unwrap_or_else(|| std::env::current_dir().unwrap());
+        
+        let settings_path = data_dir.join("settings.json");
+        let content = serde_json::to_string_pretty(&self.settings).map_err(|e| std::io::Error::new(std::io::ErrorKind::InvalidData, e))?;
+        std::fs::write(settings_path, content)?;
+        Ok(())
     }
 
     fn init_tables(&self) -> Result<()> {
@@ -65,7 +108,6 @@ impl WordsetDb {
             let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
             let word_count = words.len() as i64;
             let words_blob = words.join(" ");
-
             stmt.execute((name, lang, word_count, words_blob))?;
         }
 
@@ -100,15 +142,8 @@ impl WordsetDb {
     }
 
     pub fn quick_start_words(&self) -> Result<Vec<String>> {
-        let mut words = self.get_words("en_1000")?;
-        use std::collections::hash_map::DefaultHasher;
-        use std::hash::{Hash, Hasher};
-        let mut hasher = DefaultHasher::new();
-        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
-        let seed = hasher.finish() as usize;
-        let mut rng = seed_rng(seed);
-        shuffle(&mut words, &mut rng);
-        Ok(words)
+        let wordset = &self.settings.quick_start_wordset;
+        self.get_shuffled_words(wordset)
     }
 }
 

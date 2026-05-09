@@ -2230,6 +2230,8 @@ dependencies = [
  "directories",
  "ratatui",
  "rusqlite",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
