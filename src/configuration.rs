@@ -22,6 +22,12 @@ pub struct Configuration {
     conn: Connection,
 }
 
+#[derive(Debug, Serialize, Deserialize)]
+struct TranslationPair {
+    ru: String,
+    en: String,
+}
+
 impl std::fmt::Debug for Configuration {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.debug_struct("Configuration").finish()
@@ -78,39 +84,61 @@ impl Configuration {
                 language TEXT NOT NULL,
                 word_count INTEGER NOT NULL,
                 words TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS translation_sets (
+                id INTEGER PRIMARY KEY,
+                name TEXT NOT NULL UNIQUE,
+                source_lang TEXT NOT NULL,
+                target_lang TEXT NOT NULL,
+                pair_count INTEGER NOT NULL,
+                pairs_json TEXT NOT NULL
             );",
         )?;
         Ok(())
     }
 
     fn seed_data(&self) -> Result<()> {
-        let count: i64 = self.conn.query_row(
+        let wordset_count: i64 = self.conn.query_row(
             "SELECT COUNT(*) FROM word_sets",
             [],
             |row| row.get(0),
         )?;
 
-        if count > 0 {
-            return Ok(());
+        if wordset_count == 0 {
+            let word_files = vec![
+                ("en_1000", "en", include_str!("../resources/en_1000.txt")),
+                ("en_10000", "en", include_str!("../resources/en_10000.txt")),
+                ("ru_5000", "ru", include_str!("../resources/ru_5000.txt")),
+                ("ru_10000", "ru", include_str!("../resources/ru_10000.txt")),
+                ("ru_50000", "ru", include_str!("../resources/ru_50000.txt")),
+            ];
+
+            let mut stmt = self.conn.prepare("INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)")?;
+
+            for (name, lang, content) in word_files {
+                let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
+                let word_count = words.len() as i64;
+                let words_blob = words.join(" ");
+                stmt.execute((name, lang, word_count, words_blob))?;
+            }
         }
 
-        let word_files = vec![
-            ("en_1000", "en", include_str!("../resources/en_1000.txt")),
-            ("en_10000", "en", include_str!("../resources/en_10000.txt")),
-            ("ru_5000", "ru", include_str!("../resources/ru_5000.txt")),
-            ("ru_10000", "ru", include_str!("../resources/ru_10000.txt")),
-            ("ru_50000", "ru", include_str!("../resources/ru_50000.txt")),
-        ];
-
-        let mut stmt = self.conn.prepare("INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)")?;
-
-        for (name, lang, content) in word_files {
-            let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
-            let word_count = words.len() as i64;
-            let words_blob = words.join(" ");
-            stmt.execute((name, lang, word_count, words_blob))?;
+        let translation_count: i64 = self.conn.query_row(
+            "SELECT COUNT(*) FROM translation_sets",
+            [],
+            |row| row.get(0),
+        )?;
+        if translation_count == 0 {
+            let pairs_raw = include_str!("../resources/ru_en_basic.json");
+            let pairs: Vec<TranslationPair> =
+                serde_json::from_str(pairs_raw).unwrap_or_default();
+            let pair_count = pairs.len() as i64;
+            let pairs_json = serde_json::to_string(&pairs).unwrap_or_else(|_| "[]".to_string());
+            self.conn.execute(
+                "INSERT INTO translation_sets (name, source_lang, target_lang, pair_count, pairs_json) VALUES (?1, ?2, ?3, ?4, ?5)",
+                ("ru_en_basic", "ru", "en", pair_count, pairs_json),
+            )?;
         }
-
         Ok(())
     }
 
@@ -144,6 +172,36 @@ impl Configuration {
     pub fn quick_start_words(&self) -> Result<Vec<String>> {
         let wordset = &self.settings.quick_start_wordset;
         self.get_shuffled_words(wordset)
+    }
+
+    pub fn get_translation_set_names(&self) -> Result<Vec<String>> {
+        let mut stmt = self
+            .conn
+            .prepare("SELECT name FROM translation_sets ORDER BY source_lang, target_lang, pair_count")?;
+        let names = stmt.query_map([], |row| row.get(0))?;
+        names.collect()
+    }
+
+    pub fn get_translation_pairs(&self, set_name: &str) -> Result<Vec<(String, String)>> {
+        let pairs_json: String = self.conn.query_row(
+            "SELECT pairs_json FROM translation_sets WHERE name = ?1",
+            [set_name],
+            |row| row.get(0),
+        )?;
+        let pairs: Vec<TranslationPair> = serde_json::from_str(&pairs_json).unwrap_or_default();
+        Ok(pairs.into_iter().map(|p| (p.ru, p.en)).collect())
+    }
+
+    pub fn get_shuffled_translation_pairs(&self, set_name: &str) -> Result<Vec<(String, String)>> {
+        let mut pairs = self.get_translation_pairs(set_name)?;
+        use std::collections::hash_map::DefaultHasher;
+        use std::hash::{Hash, Hasher};
+        let mut hasher = DefaultHasher::new();
+        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
+        let seed = hasher.finish() as usize;
+        let mut rng = seed_rng(seed);
+        shuffle(&mut pairs, &mut rng);
+        Ok(pairs)
     }
 }
 

@@ -9,6 +9,7 @@ use ratatui::{
 #[derive(Debug, PartialEq, Clone)]
 pub enum MenuAction {
     QuickStart,
+    Translation,
     SelectMode,
     Settings,
     Exit,
@@ -32,6 +33,7 @@ impl MenuWidget {
             selected_index: 0,
             items: vec![
                 MenuItem { text: "Quick Start".to_string(), action: MenuAction::QuickStart },
+                MenuItem { text: "Translation".to_string(), action: MenuAction::Translation },
                 MenuItem { text: "Select Mode".to_string(), action: MenuAction::SelectMode },
                 MenuItem { text: "Settings".to_string(), action: MenuAction::Settings },
                 MenuItem { text: "Exit".to_string(), action: MenuAction::Exit },

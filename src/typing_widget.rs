@@ -70,7 +70,12 @@ impl TypingWidget {
     }
 
     pub fn add_char(&mut self, ch: char) {
-        self.input_text.push(ch);
+        let expected = self.target_text.chars().nth(self.input_text.chars().count());
+        let interpreted = match expected {
+            Some(target) => interpret_char_for_target_layout(ch, target),
+            None => ch,
+        };
+        self.input_text.push(interpreted);
         self.start_timer_if_needed();
     }
 
@@ -160,6 +165,96 @@ impl TypingWidget {
             .filter(|(a, b)| a == b)
             .count();
         correct as f64 / total as f64
+    }
+}
+
+fn is_cyrillic(ch: char) -> bool {
+    ('а'..='я').contains(&ch) || ('А'..='Я').contains(&ch) || ch == 'ё' || ch == 'Ё'
+}
+
+fn interpret_char_for_target_layout(input: char, target: char) -> char {
+    if target.is_ascii_alphabetic() && is_cyrillic(input) {
+        map_ru_to_en_qwerty(input)
+    } else if is_cyrillic(target) && input.is_ascii_alphabetic() {
+        map_en_to_ru_qwerty(input)
+    } else {
+        input
+    }
+}
+
+fn map_en_to_ru_qwerty(ch: char) -> char {
+    match ch.to_ascii_lowercase() {
+        'q' => 'й',
+        'w' => 'ц',
+        'e' => 'у',
+        'r' => 'к',
+        't' => 'е',
+        'y' => 'н',
+        'u' => 'г',
+        'i' => 'ш',
+        'o' => 'щ',
+        'p' => 'з',
+        '[' => 'х',
+        ']' => 'ъ',
+        'a' => 'ф',
+        's' => 'ы',
+        'd' => 'в',
+        'f' => 'а',
+        'g' => 'п',
+        'h' => 'р',
+        'j' => 'о',
+        'k' => 'л',
+        'l' => 'д',
+        ';' => 'ж',
+        '\'' => 'э',
+        'z' => 'я',
+        'x' => 'ч',
+        'c' => 'с',
+        'v' => 'м',
+        'b' => 'и',
+        'n' => 'т',
+        'm' => 'ь',
+        ',' => 'б',
+        '.' => 'ю',
+        _ => ch,
+    }
+}
+
+fn map_ru_to_en_qwerty(ch: char) -> char {
+    match ch.to_ascii_lowercase() {
+        'й' => 'q',
+        'ц' => 'w',
+        'у' => 'e',
+        'к' => 'r',
+        'е' => 't',
+        'н' => 'y',
+        'г' => 'u',
+        'ш' => 'i',
+        'щ' => 'o',
+        'з' => 'p',
+        'х' => '[',
+        'ъ' => ']',
+        'ф' => 'a',
+        'ы' => 's',
+        'в' => 'd',
+        'а' => 'f',
+        'п' => 'g',
+        'р' => 'h',
+        'о' => 'j',
+        'л' => 'k',
+        'д' => 'l',
+        'ж' => ';',
+        'э' => '\'',
+        'я' => 'z',
+        'ч' => 'x',
+        'с' => 'c',
+        'м' => 'v',
+        'и' => 'b',
+        'т' => 'n',
+        'ь' => 'm',
+        'б' => ',',
+        'ю' => '.',
+        _ => ch,
     }
 }
 
@@ -346,4 +441,3 @@ impl Widget for &TypingWidget {
         }
     }
 }
-
