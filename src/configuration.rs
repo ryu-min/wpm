@@ -4,17 +4,31 @@ use std::path::PathBuf;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Settings {
+    #[serde(default = "default_quick_start_mode")]
+    pub quick_start_mode: String,
     pub quick_start_time: u32,
     pub quick_start_wordset: String,
+    #[serde(default = "default_quick_start_translation_set")]
+    pub quick_start_translation_set: String,
 }
 
 impl Default for Settings {
     fn default() -> Self {
         Self {
+            quick_start_mode: default_quick_start_mode(),
             quick_start_time: 15,
             quick_start_wordset: "en_1000".to_string(),
+            quick_start_translation_set: default_quick_start_translation_set(),
         }
     }
+}
+
+fn default_quick_start_mode() -> String {
+    "typing".to_string()
+}
+
+fn default_quick_start_translation_set() -> String {
+    "ru_en_a1".to_string()
 }
 
 pub struct Configuration {
@@ -123,20 +137,31 @@ impl Configuration {
             }
         }
 
-        let translation_count: i64 = self.conn.query_row(
-            "SELECT COUNT(*) FROM translation_sets",
-            [],
-            |row| row.get(0),
-        )?;
-        if translation_count == 0 {
-            let pairs_raw = include_str!("../resources/ru_en_basic.json");
-            let pairs: Vec<TranslationPair> =
-                serde_json::from_str(pairs_raw).unwrap_or_default();
+        let translation_sets: Vec<(&str, &str)> = vec![
+            ("ru_en_a1", include_str!("../resources/ru_en_a1.json")),
+            ("ru_en_a2", include_str!("../resources/ru_en_a2.json")),
+            ("ru_en_b1", include_str!("../resources/ru_en_b1.json")),
+            ("ru_en_b2", include_str!("../resources/ru_en_b2.json")),
+            ("ru_en_c1", include_str!("../resources/ru_en_c1.json")),
+            ("ru_en_c2", include_str!("../resources/ru_en_c2.json")),
+            ("ru_en_basic", include_str!("../resources/ru_en_basic.json")),
+        ];
+
+        for (set_name, pairs_raw) in translation_sets {
+            let existing: i64 = self.conn.query_row(
+                "SELECT COUNT(*) FROM translation_sets WHERE name = ?1",
+                [set_name],
+                |row| row.get(0),
+            )?;
+            if existing > 0 {
+                continue;
+            }
+            let pairs: Vec<TranslationPair> = serde_json::from_str(pairs_raw).unwrap_or_default();
             let pair_count = pairs.len() as i64;
             let pairs_json = serde_json::to_string(&pairs).unwrap_or_else(|_| "[]".to_string());
             self.conn.execute(
                 "INSERT INTO translation_sets (name, source_lang, target_lang, pair_count, pairs_json) VALUES (?1, ?2, ?3, ?4, ?5)",
-                ("ru_en_basic", "ru", "en", pair_count, pairs_json),
+                (set_name, "ru", "en", pair_count, pairs_json),
             )?;
         }
         Ok(())
@@ -177,7 +202,7 @@ impl Configuration {
     pub fn get_translation_set_names(&self) -> Result<Vec<String>> {
         let mut stmt = self
             .conn
-            .prepare("SELECT name FROM translation_sets ORDER BY source_lang, target_lang, pair_count")?;
+            .prepare("SELECT name FROM translation_sets ORDER BY name")?;
         let names = stmt.query_map([], |row| row.get(0))?;
         names.collect()
     }

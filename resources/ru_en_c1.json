@@ -1,0 +1,3778 @@
+[
+  {
+    "ru": "экстерьер",
+    "en": "exterior"
+  },
+  {
+    "ru": "плащ",
+    "en": "cloak"
+  },
+  {
+    "ru": "робкий",
+    "en": "timid"
+  },
+  {
+    "ru": "неохотно",
+    "en": "reluctantly"
+  },
+  {
+    "ru": "сложность",
+    "en": "complexity"
+  },
+  {
+    "ru": "соглашаться",
+    "en": "concur"
+  },
+  {
+    "ru": "жадный",
+    "en": "avid"
+  },
+  {
+    "ru": "удивляться",
+    "en": "marvel"
+  },
+  {
+    "ru": "крыло",
+    "en": "wing"
+  },
+  {
+    "ru": "завидный",
+    "en": "enviable"
+  },
+  {
+    "ru": "организационный",
+    "en": "organizational"
+  },
+  {
+    "ru": "психиатр",
+    "en": "psychiatrist"
+  },
+  {
+    "ru": "психиатрический",
+    "en": "psychiatric"
+  },
+  {
+    "ru": "клинический",
+    "en": "clinical"
+  },
+  {
+    "ru": "корпус",
+    "en": "corps"
+  },
+  {
+    "ru": "судебно-медицинский",
+    "en": "forensic"
+  },
+  {
+    "ru": "несовершеннолетний",
+    "en": "juvenile"
+  },
+  {
+    "ru": "юрисдикция",
+    "en": "jurisdiction"
+  },
+  {
+    "ru": "привыкший",
+    "en": "accustomed"
+  },
+  {
+    "ru": "травма",
+    "en": "trauma"
+  },
+  {
+    "ru": "травмирующий",
+    "en": "traumatic"
+  },
+  {
+    "ru": "ограничение",
+    "en": "constraint"
+  },
+  {
+    "ru": "раскрывающий",
+    "en": "revealing"
+  },
+  {
+    "ru": "эксцентричный",
+    "en": "eccentric"
+  },
+  {
+    "ru": "святость",
+    "en": "sanctity"
+  },
+  {
+    "ru": "соответствовать",
+    "en": "conform"
+  },
+  {
+    "ru": "нормы",
+    "en": "norms"
+  },
+  {
+    "ru": "причуда",
+    "en": "quirk"
+  },
+  {
+    "ru": "странность",
+    "en": "oddity"
+  },
+  {
+    "ru": "принуждать",
+    "en": "compel"
+  },
+  {
+    "ru": "принуждение",
+    "en": "compulsion"
+  },
+  {
+    "ru": "зачать",
+    "en": "conceive"
+  },
+  {
+    "ru": "мыслимый",
+    "en": "conceivable"
+  },
+  {
+    "ru": "утверждение",
+    "en": "assertion"
+  },
+  {
+    "ru": "индивидуальность",
+    "en": "individuality"
+  },
+  {
+    "ru": "психика",
+    "en": "psyche"
+  },
+  {
+    "ru": "соответствие",
+    "en": "conformity"
+  },
+  {
+    "ru": "нетрадиционный",
+    "en": "unconventional"
+  },
+  {
+    "ru": "собираться",
+    "en": "congregate"
+  },
+  {
+    "ru": "митинг",
+    "en": "rally"
+  },
+  {
+    "ru": "возмущаться",
+    "en": "resent"
+  },
+  {
+    "ru": "застенчивый",
+    "en": "self-conscious"
+  },
+  {
+    "ru": "осторожный",
+    "en": "wary"
+  },
+  {
+    "ru": "топить",
+    "en": "stoke"
+  },
+  {
+    "ru": "динамически",
+    "en": "dynamically"
+  },
+  {
+    "ru": "хозяйка",
+    "en": "hostess"
+  },
+  {
+    "ru": "увековечить",
+    "en": "perpetuate"
+  },
+  {
+    "ru": "естественность",
+    "en": "naturalness"
+  },
+  {
+    "ru": "эксгибиционист",
+    "en": "exhibitionist"
+  },
+  {
+    "ru": "изолировать",
+    "en": "isolate"
+  },
+  {
+    "ru": "изолированный",
+    "en": "isolated"
+  },
+  {
+    "ru": "скромный",
+    "en": "humble"
+  },
+  {
+    "ru": "освежающе",
+    "en": "refreshingly"
+  },
+  {
+    "ru": "легкий",
+    "en": "effortless"
+  },
+  {
+    "ru": "растительность",
+    "en": "vegetation"
+  },
+  {
+    "ru": "краткий",
+    "en": "brief"
+  },
+  {
+    "ru": "передышка",
+    "en": "respite"
+  },
+  {
+    "ru": "достаточно",
+    "en": "suffice"
+  },
+  {
+    "ru": "чистота",
+    "en": "purity"
+  },
+  {
+    "ru": "изнурительный",
+    "en": "gruelling"
+  },
+  {
+    "ru": "штукатурка",
+    "en": "plaster"
+  },
+  {
+    "ru": "индукция",
+    "en": "induction"
+  },
+  {
+    "ru": "запас",
+    "en": "stock"
+  },
+  {
+    "ru": "ископаемое",
+    "en": "fossil"
+  },
+  {
+    "ru": "геологический",
+    "en": "geological"
+  },
+  {
+    "ru": "геологически",
+    "en": "geologically"
+  },
+  {
+    "ru": "дом",
+    "en": "house"
+  },
+  {
+    "ru": "образец",
+    "en": "specimen"
+  },
+  {
+    "ru": "чрезвычайно",
+    "en": "enormously"
+  },
+  {
+    "ru": "пояснительный",
+    "en": "explanatory"
+  },
+  {
+    "ru": "вертикальный",
+    "en": "vertical"
+  },
+  {
+    "ru": "знающий",
+    "en": "knowledgeable"
+  },
+  {
+    "ru": "обычно",
+    "en": "ordinarily"
+  },
+  {
+    "ru": "висит",
+    "en": "hanging"
+  },
+  {
+    "ru": "могила",
+    "en": "tomb"
+  },
+  {
+    "ru": "формулировать",
+    "en": "formulate"
+  },
+  {
+    "ru": "смола",
+    "en": "resin"
+  },
+  {
+    "ru": "жертвовать",
+    "en": "sacrifice"
+  },
+  {
+    "ru": "чисто",
+    "en": "cleanly"
+  },
+  {
+    "ru": "одобрение",
+    "en": "endorsement"
+  },
+  {
+    "ru": "растягивание",
+    "en": "stretching"
+  },
+  {
+    "ru": "преемственность",
+    "en": "continuity"
+  },
+  {
+    "ru": "руины",
+    "en": "shambles"
+  },
+  {
+    "ru": "клаустрофобный",
+    "en": "claustrophobic"
+  },
+  {
+    "ru": "клаустрофобия",
+    "en": "claustrophobia"
+  },
+  {
+    "ru": "упрямый",
+    "en": "headstrong"
+  },
+  {
+    "ru": "такт",
+    "en": "tact"
+  },
+  {
+    "ru": "тактичный",
+    "en": "tactful"
+  },
+  {
+    "ru": "тактично",
+    "en": "tactfully"
+  },
+  {
+    "ru": "волдырь",
+    "en": "blister"
+  },
+  {
+    "ru": "спонсорство",
+    "en": "sponsorship"
+  },
+  {
+    "ru": "эго",
+    "en": "ego"
+  },
+  {
+    "ru": "класс",
+    "en": "class"
+  },
+  {
+    "ru": "салон",
+    "en": "saloon"
+  },
+  {
+    "ru": "колени",
+    "en": "lap"
+  },
+  {
+    "ru": "заранее",
+    "en": "beforehand"
+  },
+  {
+    "ru": "неряха",
+    "en": "slob"
+  },
+  {
+    "ru": "покрытие",
+    "en": "coverage"
+  },
+  {
+    "ru": "отключить",
+    "en": "unplug"
+  },
+  {
+    "ru": "гаджет",
+    "en": "gadget"
+  },
+  {
+    "ru": "тонко",
+    "en": "subtly"
+  },
+  {
+    "ru": "вовлекать",
+    "en": "implicate"
+  },
+  {
+    "ru": "ремесло",
+    "en": "craft"
+  },
+  {
+    "ru": "неисправность",
+    "en": "malfunction"
+  },
+  {
+    "ru": "зависимый",
+    "en": "dependent"
+  },
+  {
+    "ru": "обочина",
+    "en": "wayside"
+  },
+  {
+    "ru": "истекает",
+    "en": "expire"
+  },
+  {
+    "ru": "мошенничество",
+    "en": "con"
+  },
+  {
+    "ru": "головоломка",
+    "en": "puzzle"
+  },
+  {
+    "ru": "влажный",
+    "en": "damply"
+  },
+  {
+    "ru": "призрачный",
+    "en": "ghostly"
+  },
+  {
+    "ru": "перевозчик",
+    "en": "carrier"
+  },
+  {
+    "ru": "умывальник",
+    "en": "washtub"
+  },
+  {
+    "ru": "подходящий",
+    "en": "apt"
+  },
+  {
+    "ru": "портативный",
+    "en": "portable"
+  },
+  {
+    "ru": "декоративный",
+    "en": "ornamental"
+  },
+  {
+    "ru": "спокойный",
+    "en": "placid"
+  },
+  {
+    "ru": "спокойно",
+    "en": "placidly"
+  },
+  {
+    "ru": "неуправляемый",
+    "en": "unmanageable"
+  },
+  {
+    "ru": "прибор",
+    "en": "appliance"
+  },
+  {
+    "ru": "отказаться",
+    "en": "relinquish"
+  },
+  {
+    "ru": "утомительный",
+    "en": "tedious"
+  },
+  {
+    "ru": "скука",
+    "en": "tedium"
+  },
+  {
+    "ru": "оказывать",
+    "en": "exert"
+  },
+  {
+    "ru": "вымогательство",
+    "en": "extortion"
+  },
+  {
+    "ru": "облегчить",
+    "en": "alleviate"
+  },
+  {
+    "ru": "разрабатывать",
+    "en": "elaborate"
+  },
+  {
+    "ru": "разработка",
+    "en": "elaboration"
+  },
+  {
+    "ru": "ненавидеть",
+    "en": "detest"
+  },
+  {
+    "ru": "отвратительный",
+    "en": "detestable"
+  },
+  {
+    "ru": "пена",
+    "en": "suds"
+  },
+  {
+    "ru": "приятный",
+    "en": "agreeable"
+  },
+  {
+    "ru": "бродить",
+    "en": "prowl"
+  },
+  {
+    "ru": "спекулировать",
+    "en": "speculate"
+  },
+  {
+    "ru": "спекуляция",
+    "en": "speculation"
+  },
+  {
+    "ru": "спекулятивный",
+    "en": "speculative"
+  },
+  {
+    "ru": "павлин",
+    "en": "peacock"
+  },
+  {
+    "ru": "презрение",
+    "en": "disdain"
+  },
+  {
+    "ru": "воспроизвести",
+    "en": "reenact"
+  },
+  {
+    "ru": "мучить",
+    "en": "torment"
+  },
+  {
+    "ru": "расточительность",
+    "en": "extravagance"
+  },
+  {
+    "ru": "эксплуатировать",
+    "en": "exploit"
+  },
+  {
+    "ru": "эксплуатация",
+    "en": "exploitation"
+  },
+  {
+    "ru": "механизм",
+    "en": "mechanism"
+  },
+  {
+    "ru": "следовательно",
+    "en": "hence"
+  },
+  {
+    "ru": "потомство",
+    "en": "offspring"
+  },
+  {
+    "ru": "подходит",
+    "en": "fit"
+  },
+  {
+    "ru": "обязывать",
+    "en": "oblige"
+  },
+  {
+    "ru": "ездить",
+    "en": "drive"
+  },
+  {
+    "ru": "сотрудничать",
+    "en": "collaborate"
+  },
+  {
+    "ru": "сотрудник",
+    "en": "collaborator"
+  },
+  {
+    "ru": "сотрудничество",
+    "en": "collaboration"
+  },
+  {
+    "ru": "совместный",
+    "en": "collaborative"
+  },
+  {
+    "ru": "эффектный",
+    "en": "showy"
+  },
+  {
+    "ru": "спорить",
+    "en": "wrangle"
+  },
+  {
+    "ru": "помещение",
+    "en": "premise"
+  },
+  {
+    "ru": "выгодный",
+    "en": "advantageous"
+  },
+  {
+    "ru": "паразит",
+    "en": "parasite"
+  },
+  {
+    "ru": "причудливый",
+    "en": "fanciful"
+  },
+  {
+    "ru": "уравновешенность",
+    "en": "poise"
+  },
+  {
+    "ru": "привычный",
+    "en": "customary"
+  },
+  {
+    "ru": "проницательный",
+    "en": "insightful"
+  },
+  {
+    "ru": "заметный",
+    "en": "notable"
+  },
+  {
+    "ru": "порочный",
+    "en": "vicious"
+  },
+  {
+    "ru": "злобно",
+    "en": "viciously"
+  },
+  {
+    "ru": "ученик",
+    "en": "pupil"
+  },
+  {
+    "ru": "отозван",
+    "en": "withdrawn"
+  },
+  {
+    "ru": "вывод",
+    "en": "withdrawal"
+  },
+  {
+    "ru": "мучительный",
+    "en": "torturous"
+  },
+  {
+    "ru": "изображать",
+    "en": "depict"
+  },
+  {
+    "ru": "изображение",
+    "en": "depiction"
+  },
+  {
+    "ru": "переворот",
+    "en": "upheaval"
+  },
+  {
+    "ru": "шорт-лист",
+    "en": "shortlist"
+  },
+  {
+    "ru": "уместный",
+    "en": "pertinent"
+  },
+  {
+    "ru": "мечтать",
+    "en": "daydream"
+  },
+  {
+    "ru": "простота",
+    "en": "simplicity"
+  },
+  {
+    "ru": "блокбастер",
+    "en": "blockbuster"
+  },
+  {
+    "ru": "резонировать",
+    "en": "resonate"
+  },
+  {
+    "ru": "продолжение",
+    "en": "sequel"
+  },
+  {
+    "ru": "ирония",
+    "en": "irony"
+  },
+  {
+    "ru": "кислый",
+    "en": "acidic"
+  },
+  {
+    "ru": "выровнять",
+    "en": "align"
+  },
+  {
+    "ru": "выравнивание",
+    "en": "alignment"
+  },
+  {
+    "ru": "манипуляция",
+    "en": "manipulation"
+  },
+  {
+    "ru": "жених",
+    "en": "suitor"
+  },
+  {
+    "ru": "обман",
+    "en": "deceit"
+  },
+  {
+    "ru": "отчуждать",
+    "en": "alienate"
+  },
+  {
+    "ru": "убедительно",
+    "en": "persuasively"
+  },
+  {
+    "ru": "заключение",
+    "en": "confinement"
+  },
+  {
+    "ru": "мелочи",
+    "en": "minutiae"
+  },
+  {
+    "ru": "крестьянин",
+    "en": "peasant"
+  },
+  {
+    "ru": "необъяснимый",
+    "en": "inexplicable"
+  },
+  {
+    "ru": "необъяснимо",
+    "en": "inexplicably"
+  },
+  {
+    "ru": "голубь",
+    "en": "pigeon"
+  },
+  {
+    "ru": "преследовать",
+    "en": "harass"
+  },
+  {
+    "ru": "преследование",
+    "en": "harassment"
+  },
+  {
+    "ru": "правдоподобно",
+    "en": "believably"
+  },
+  {
+    "ru": "читаемый",
+    "en": "readable"
+  },
+  {
+    "ru": "ум",
+    "en": "cleverness"
+  },
+  {
+    "ru": "преследовать",
+    "en": "persecute"
+  },
+  {
+    "ru": "преследование",
+    "en": "persecution"
+  },
+  {
+    "ru": "самодовольный",
+    "en": "smug"
+  },
+  {
+    "ru": "самодовольно",
+    "en": "smugly"
+  },
+  {
+    "ru": "свирепый",
+    "en": "ferocious"
+  },
+  {
+    "ru": "яростно",
+    "en": "ferociously"
+  },
+  {
+    "ru": "враждебный",
+    "en": "hostile"
+  },
+  {
+    "ru": "враждебность",
+    "en": "hostility"
+  },
+  {
+    "ru": "смятение",
+    "en": "dismay"
+  },
+  {
+    "ru": "методический",
+    "en": "methodical"
+  },
+  {
+    "ru": "безжалостный",
+    "en": "ruthless"
+  },
+  {
+    "ru": "безжалостность",
+    "en": "ruthlessness"
+  },
+  {
+    "ru": "разговорчивый",
+    "en": "talkative"
+  },
+  {
+    "ru": "трепет",
+    "en": "awe"
+  },
+  {
+    "ru": "клан",
+    "en": "clan"
+  },
+  {
+    "ru": "привилегированный",
+    "en": "privileged"
+  },
+  {
+    "ru": "рушиться",
+    "en": "crumble"
+  },
+  {
+    "ru": "крошка",
+    "en": "crumb"
+  },
+  {
+    "ru": "темп",
+    "en": "pace"
+  },
+  {
+    "ru": "близость",
+    "en": "closeness"
+  },
+  {
+    "ru": "редкость",
+    "en": "rarity"
+  },
+  {
+    "ru": "вызывать",
+    "en": "evoke"
+  },
+  {
+    "ru": "отталкивать",
+    "en": "repel"
+  },
+  {
+    "ru": "репеллент",
+    "en": "repellant"
+  },
+  {
+    "ru": "вода",
+    "en": "aqua"
+  },
+  {
+    "ru": "аквариум",
+    "en": "aquarium"
+  },
+  {
+    "ru": "проницательно",
+    "en": "insightfully"
+  },
+  {
+    "ru": "воспоминания",
+    "en": "flashback"
+  },
+  {
+    "ru": "самооценка",
+    "en": "self-worth"
+  },
+  {
+    "ru": "мучиться",
+    "en": "agonize"
+  },
+  {
+    "ru": "цитировать",
+    "en": "cite"
+  },
+  {
+    "ru": "цитирование",
+    "en": "citation"
+  },
+  {
+    "ru": "читать",
+    "en": "recite"
+  },
+  {
+    "ru": "экстази",
+    "en": "ecstasy"
+  },
+  {
+    "ru": "восторженный",
+    "en": "ecstatic"
+  },
+  {
+    "ru": "экстатически",
+    "en": "ecstatically"
+  },
+  {
+    "ru": "приятный",
+    "en": "pleasurable"
+  },
+  {
+    "ru": "природа",
+    "en": "nature"
+  },
+  {
+    "ru": "существенно",
+    "en": "substantially"
+  },
+  {
+    "ru": "разнообразие",
+    "en": "diversity"
+  },
+  {
+    "ru": "элитарный",
+    "en": "elitist"
+  },
+  {
+    "ru": "ворчать",
+    "en": "grumble"
+  },
+  {
+    "ru": "гул",
+    "en": "rumble"
+  },
+  {
+    "ru": "небрежный",
+    "en": "neglectful"
+  },
+  {
+    "ru": "добросовестный",
+    "en": "conscientious"
+  },
+  {
+    "ru": "добросовестно",
+    "en": "conscientiously"
+  },
+  {
+    "ru": "неопределенный",
+    "en": "indefinite"
+  },
+  {
+    "ru": "атмосферный",
+    "en": "atmospheric"
+  },
+  {
+    "ru": "предохранитель",
+    "en": "fuse"
+  },
+  {
+    "ru": "слияние",
+    "en": "fusion"
+  },
+  {
+    "ru": "крепкий",
+    "en": "robust"
+  },
+  {
+    "ru": "сильно",
+    "en": "robustly"
+  },
+  {
+    "ru": "мрачный",
+    "en": "dismal"
+  },
+  {
+    "ru": "уныло",
+    "en": "dismally"
+  },
+  {
+    "ru": "жаждать",
+    "en": "crave"
+  },
+  {
+    "ru": "жажда",
+    "en": "craving"
+  },
+  {
+    "ru": "перспективный",
+    "en": "prospective"
+  },
+  {
+    "ru": "обмениваться",
+    "en": "swap"
+  },
+  {
+    "ru": "удаленно",
+    "en": "remotely"
+  },
+  {
+    "ru": "брызги",
+    "en": "splatter"
+  },
+  {
+    "ru": "автоматический",
+    "en": "automatic"
+  },
+  {
+    "ru": "автоматически",
+    "en": "automatically"
+  },
+  {
+    "ru": "выхлоп",
+    "en": "exhaust"
+  },
+  {
+    "ru": "фиолетовый",
+    "en": "violet"
+  },
+  {
+    "ru": "игристый",
+    "en": "bubbly"
+  },
+  {
+    "ru": "хаотично",
+    "en": "chaotically"
+  },
+  {
+    "ru": "опасающийся",
+    "en": "apprehensive"
+  },
+  {
+    "ru": "диван",
+    "en": "settee"
+  },
+  {
+    "ru": "батут",
+    "en": "trampoline"
+  },
+  {
+    "ru": "выносливость",
+    "en": "stamina"
+  },
+  {
+    "ru": "уловка",
+    "en": "ploy"
+  },
+  {
+    "ru": "дизеринг",
+    "en": "dither"
+  },
+  {
+    "ru": "комбинезон",
+    "en": "overalls"
+  },
+  {
+    "ru": "унисон",
+    "en": "unison"
+  },
+  {
+    "ru": "улитка",
+    "en": "snail"
+  },
+  {
+    "ru": "блаженство",
+    "en": "bliss"
+  },
+  {
+    "ru": "неисчерпаемый",
+    "en": "inexhaustible"
+  },
+  {
+    "ru": "акр",
+    "en": "acre"
+  },
+  {
+    "ru": "теленок",
+    "en": "calf"
+  },
+  {
+    "ru": "телка",
+    "en": "heifer"
+  },
+  {
+    "ru": "овца",
+    "en": "ewe"
+  },
+  {
+    "ru": "противник",
+    "en": "adversary"
+  },
+  {
+    "ru": "победоносный",
+    "en": "victorious"
+  },
+  {
+    "ru": "победоносно",
+    "en": "victoriously"
+  },
+  {
+    "ru": "глубокий",
+    "en": "profound"
+  },
+  {
+    "ru": "глубоко",
+    "en": "profoundly"
+  },
+  {
+    "ru": "наголо",
+    "en": "baldly"
+  },
+  {
+    "ru": "лысый",
+    "en": "bald"
+  },
+  {
+    "ru": "бородатый",
+    "en": "bearded"
+  },
+  {
+    "ru": "профессионализм",
+    "en": "professionalism"
+  },
+  {
+    "ru": "художественно",
+    "en": "artistically"
+  },
+  {
+    "ru": "популяризация",
+    "en": "popularization"
+  },
+  {
+    "ru": "маятник",
+    "en": "pendulum"
+  },
+  {
+    "ru": "предшественник",
+    "en": "predecessor"
+  },
+  {
+    "ru": "хвастаться",
+    "en": "boast"
+  },
+  {
+    "ru": "упущение",
+    "en": "lapse"
+  },
+  {
+    "ru": "непрерывный",
+    "en": "ceaseless"
+  },
+  {
+    "ru": "непрерывно",
+    "en": "ceaselessly"
+  },
+  {
+    "ru": "кульминация",
+    "en": "climax"
+  },
+  {
+    "ru": "решающий",
+    "en": "climactic"
+  },
+  {
+    "ru": "разочаровывающий",
+    "en": "anticlimactic"
+  },
+  {
+    "ru": "карабкаться",
+    "en": "scramble"
+  },
+  {
+    "ru": "дергаться",
+    "en": "twitch"
+  },
+  {
+    "ru": "интеллект",
+    "en": "intellect"
+  },
+  {
+    "ru": "спуск",
+    "en": "descent"
+  },
+  {
+    "ru": "сарай",
+    "en": "shed"
+  },
+  {
+    "ru": "исход",
+    "en": "exodus"
+  },
+  {
+    "ru": "увековечить",
+    "en": "immortalize"
+  },
+  {
+    "ru": "геном",
+    "en": "genome"
+  },
+  {
+    "ru": "фракция",
+    "en": "fraction"
+  },
+  {
+    "ru": "фракция",
+    "en": "faction"
+  },
+  {
+    "ru": "телосложение",
+    "en": "physique"
+  },
+  {
+    "ru": "посуда",
+    "en": "utensil"
+  },
+  {
+    "ru": "выдра",
+    "en": "otter"
+  },
+  {
+    "ru": "липкий",
+    "en": "clammy"
+  },
+  {
+    "ru": "абсолютный",
+    "en": "absolute"
+  },
+  {
+    "ru": "распределять",
+    "en": "dispense"
+  },
+  {
+    "ru": "необязательный",
+    "en": "dispensable"
+  },
+  {
+    "ru": "амбулатория",
+    "en": "dispensary"
+  },
+  {
+    "ru": "незаменимый",
+    "en": "indispensable"
+  },
+  {
+    "ru": "расходиться",
+    "en": "diverge"
+  },
+  {
+    "ru": "расхождение",
+    "en": "divergence"
+  },
+  {
+    "ru": "расходящийся",
+    "en": "divergent"
+  },
+  {
+    "ru": "взрыв",
+    "en": "burst"
+  },
+  {
+    "ru": "поверхностный",
+    "en": "superficial"
+  },
+  {
+    "ru": "поверхностно",
+    "en": "superficially"
+  },
+  {
+    "ru": "эстетический",
+    "en": "aesthetic"
+  },
+  {
+    "ru": "эстетически",
+    "en": "aesthetically"
+  },
+  {
+    "ru": "исследование",
+    "en": "scrutiny"
+  },
+  {
+    "ru": "шутка",
+    "en": "quip"
+  },
+  {
+    "ru": "вуу",
+    "en": "woo"
+  },
+  {
+    "ru": "критерии",
+    "en": "criteria"
+  },
+  {
+    "ru": "правдоподобный",
+    "en": "plausible"
+  },
+  {
+    "ru": "правдоподобие",
+    "en": "plausibility"
+  },
+  {
+    "ru": "правдоподобно",
+    "en": "plausibly"
+  },
+  {
+    "ru": "инстинктивный",
+    "en": "instinctive"
+  },
+  {
+    "ru": "инстинктивно",
+    "en": "instinctively"
+  },
+  {
+    "ru": "стилистический",
+    "en": "stylistic"
+  },
+  {
+    "ru": "стилистически",
+    "en": "stylistically"
+  },
+  {
+    "ru": "наследство",
+    "en": "inheritance"
+  },
+  {
+    "ru": "присущий",
+    "en": "inherent"
+  },
+  {
+    "ru": "настраивать",
+    "en": "tune"
+  },
+  {
+    "ru": "спонтанный",
+    "en": "spontaneous"
+  },
+  {
+    "ru": "спонтанно",
+    "en": "spontaneously"
+  },
+  {
+    "ru": "сигналить",
+    "en": "honk"
+  },
+  {
+    "ru": "гусь",
+    "en": "goose"
+  },
+  {
+    "ru": "инновации",
+    "en": "innovation"
+  },
+  {
+    "ru": "инновационный",
+    "en": "innovative"
+  },
+  {
+    "ru": "знаток",
+    "en": "connoisseur"
+  },
+  {
+    "ru": "абстракция",
+    "en": "abstraction"
+  },
+  {
+    "ru": "истерика",
+    "en": "tantrum"
+  },
+  {
+    "ru": "институт",
+    "en": "institute"
+  },
+  {
+    "ru": "выбросить",
+    "en": "discard"
+  },
+  {
+    "ru": "фатальность",
+    "en": "fatality"
+  },
+  {
+    "ru": "угол",
+    "en": "angle"
+  },
+  {
+    "ru": "напрягаться",
+    "en": "stiffen"
+  },
+  {
+    "ru": "лесистый",
+    "en": "wooded"
+  },
+  {
+    "ru": "льстить",
+    "en": "flatter"
+  },
+  {
+    "ru": "лесть",
+    "en": "flattery"
+  },
+  {
+    "ru": "бесцельный",
+    "en": "aimless"
+  },
+  {
+    "ru": "бесцельно",
+    "en": "aimlessly"
+  },
+  {
+    "ru": "бессмысленный",
+    "en": "meaningless"
+  },
+  {
+    "ru": "бессмысленно",
+    "en": "meaninglessly"
+  },
+  {
+    "ru": "откровенный",
+    "en": "candid"
+  },
+  {
+    "ru": "откровенно",
+    "en": "candidly"
+  },
+  {
+    "ru": "провоцировать",
+    "en": "provoke"
+  },
+  {
+    "ru": "провокационный",
+    "en": "provocative"
+  },
+  {
+    "ru": "вызывающе",
+    "en": "provocatively"
+  },
+  {
+    "ru": "сжимать",
+    "en": "clench"
+  },
+  {
+    "ru": "торговаться",
+    "en": "haggle"
+  },
+  {
+    "ru": "презрение",
+    "en": "scorn"
+  },
+  {
+    "ru": "презрительный",
+    "en": "scornful"
+  },
+  {
+    "ru": "пренебрежительно",
+    "en": "scornfully"
+  },
+  {
+    "ru": "оживленно",
+    "en": "animatedly"
+  },
+  {
+    "ru": "неясный",
+    "en": "obscure"
+  },
+  {
+    "ru": "неясно",
+    "en": "obscurely"
+  },
+  {
+    "ru": "возвышать",
+    "en": "elevate"
+  },
+  {
+    "ru": "высота",
+    "en": "elevation"
+  },
+  {
+    "ru": "поза",
+    "en": "pose"
+  },
+  {
+    "ru": "утомительно",
+    "en": "tediously"
+  },
+  {
+    "ru": "преемственность",
+    "en": "succession"
+  },
+  {
+    "ru": "формальность",
+    "en": "formality"
+  },
+  {
+    "ru": "альпинист",
+    "en": "mountaineer"
+  },
+  {
+    "ru": "пионер",
+    "en": "pioneer"
+  },
+  {
+    "ru": "квест",
+    "en": "quest"
+  },
+  {
+    "ru": "трансатлантический",
+    "en": "transatlantic"
+  },
+  {
+    "ru": "рудименты",
+    "en": "rudiments"
+  },
+  {
+    "ru": "элементарный",
+    "en": "rudimentary"
+  },
+  {
+    "ru": "весло",
+    "en": "paddle"
+  },
+  {
+    "ru": "огромный",
+    "en": "immense"
+  },
+  {
+    "ru": "безмерно",
+    "en": "immensely"
+  },
+  {
+    "ru": "консультативный",
+    "en": "advisory"
+  },
+  {
+    "ru": "пытаюсь",
+    "en": "trying"
+  },
+  {
+    "ru": "адреналин",
+    "en": "adrenaline"
+  },
+  {
+    "ru": "возиться",
+    "en": "tinker"
+  },
+  {
+    "ru": "туалет",
+    "en": "lavatory"
+  },
+  {
+    "ru": "экспедиция",
+    "en": "expedition"
+  },
+  {
+    "ru": "вершина",
+    "en": "pinnacle"
+  },
+  {
+    "ru": "небезопасный",
+    "en": "insecure"
+  },
+  {
+    "ru": "неуверенно",
+    "en": "insecurely"
+  },
+  {
+    "ru": "успокоить",
+    "en": "reassure"
+  },
+  {
+    "ru": "заверение",
+    "en": "reassurance"
+  },
+  {
+    "ru": "бесчувственный",
+    "en": "insensitive"
+  },
+  {
+    "ru": "бесчувственно",
+    "en": "insensitively"
+  },
+  {
+    "ru": "исповедовать",
+    "en": "profess"
+  },
+  {
+    "ru": "недостаток",
+    "en": "drawback"
+  },
+  {
+    "ru": "курорт",
+    "en": "resort"
+  },
+  {
+    "ru": "наблюдать",
+    "en": "oversee"
+  },
+  {
+    "ru": "надзиратель",
+    "en": "overseer"
+  },
+  {
+    "ru": "оценка",
+    "en": "estimation"
+  },
+  {
+    "ru": "комиссия",
+    "en": "commission"
+  },
+  {
+    "ru": "связь",
+    "en": "liaison"
+  },
+  {
+    "ru": "напряженно",
+    "en": "stressfully"
+  },
+  {
+    "ru": "структурно",
+    "en": "structurally"
+  },
+  {
+    "ru": "структурный",
+    "en": "structural"
+  },
+  {
+    "ru": "шофер",
+    "en": "chauffer"
+  },
+  {
+    "ru": "малоподвижный",
+    "en": "sedentary"
+  },
+  {
+    "ru": "взаимопонимание",
+    "en": "rapport"
+  },
+  {
+    "ru": "пейзаж",
+    "en": "landscape"
+  },
+  {
+    "ru": "консультация",
+    "en": "consultation"
+  },
+  {
+    "ru": "консультации",
+    "en": "consultancy"
+  },
+  {
+    "ru": "цветение",
+    "en": "bloom"
+  },
+  {
+    "ru": "инженер",
+    "en": "engineer"
+  },
+  {
+    "ru": "удержание",
+    "en": "retention"
+  },
+  {
+    "ru": "карьер",
+    "en": "quarry"
+  },
+  {
+    "ru": "спецификация",
+    "en": "specification"
+  },
+  {
+    "ru": "контракт",
+    "en": "contract"
+  },
+  {
+    "ru": "подрядчик",
+    "en": "contractor"
+  },
+  {
+    "ru": "запрос",
+    "en": "query"
+  },
+  {
+    "ru": "владелец",
+    "en": "possessor"
+  },
+  {
+    "ru": "охладить",
+    "en": "chill"
+  },
+  {
+    "ru": "холодно",
+    "en": "chilly"
+  },
+  {
+    "ru": "мороз",
+    "en": "frost"
+  },
+  {
+    "ru": "морозный",
+    "en": "frosty"
+  },
+  {
+    "ru": "морозный",
+    "en": "frostily"
+  },
+  {
+    "ru": "мужчина",
+    "en": "man"
+  },
+  {
+    "ru": "беспилотный",
+    "en": "unmanned"
+  },
+  {
+    "ru": "безличный",
+    "en": "impersonal"
+  },
+  {
+    "ru": "безлично",
+    "en": "impersonally"
+  },
+  {
+    "ru": "имитатор",
+    "en": "impersonator"
+  },
+  {
+    "ru": "олицетворение",
+    "en": "impersonation"
+  },
+  {
+    "ru": "зуммер",
+    "en": "buzzer"
+  },
+  {
+    "ru": "пустыня",
+    "en": "desert"
+  },
+  {
+    "ru": "дезертирство",
+    "en": "desertion"
+  },
+  {
+    "ru": "незанятый",
+    "en": "unoccupied"
+  },
+  {
+    "ru": "душно",
+    "en": "stuffy"
+  },
+  {
+    "ru": "душно",
+    "en": "stuffily"
+  },
+  {
+    "ru": "духота",
+    "en": "stuffiness"
+  },
+  {
+    "ru": "зиять",
+    "en": "gape"
+  },
+  {
+    "ru": "репутация",
+    "en": "repute"
+  },
+  {
+    "ru": "прочность",
+    "en": "toughness"
+  },
+  {
+    "ru": "вспомнить",
+    "en": "recall"
+  },
+  {
+    "ru": "воспоминание",
+    "en": "recollection"
+  },
+  {
+    "ru": "сантехника",
+    "en": "plumbing"
+  },
+  {
+    "ru": "помощник",
+    "en": "usher"
+  },
+  {
+    "ru": "мрачный",
+    "en": "glum"
+  },
+  {
+    "ru": "мрачно",
+    "en": "glumly"
+  },
+  {
+    "ru": "храбрый",
+    "en": "gamely"
+  },
+  {
+    "ru": "рассекать",
+    "en": "dissect"
+  },
+  {
+    "ru": "рассечение",
+    "en": "dissection"
+  },
+  {
+    "ru": "хвалить",
+    "en": "commend"
+  },
+  {
+    "ru": "похвала",
+    "en": "commendation"
+  },
+  {
+    "ru": "щелкнуть",
+    "en": "flick"
+  },
+  {
+    "ru": "мерцать",
+    "en": "flicker"
+  },
+  {
+    "ru": "незавидный",
+    "en": "unenviable"
+  },
+  {
+    "ru": "незавидно",
+    "en": "unenviably"
+  },
+  {
+    "ru": "голос",
+    "en": "voice"
+  },
+  {
+    "ru": "ступать",
+    "en": "tread"
+  },
+  {
+    "ru": "утверждать",
+    "en": "allege"
+  },
+  {
+    "ru": "обвинение",
+    "en": "allegation"
+  },
+  {
+    "ru": "подкупить",
+    "en": "bribe"
+  },
+  {
+    "ru": "взяточничество",
+    "en": "bribery"
+  },
+  {
+    "ru": "включение",
+    "en": "inclusion"
+  },
+  {
+    "ru": "инклюзивный",
+    "en": "inclusive"
+  },
+  {
+    "ru": "включительно",
+    "en": "inclusively"
+  },
+  {
+    "ru": "неубедительно",
+    "en": "unconvincing"
+  },
+  {
+    "ru": "неубедительно",
+    "en": "unconvincingly"
+  },
+  {
+    "ru": "перезарядка",
+    "en": "recharge"
+  },
+  {
+    "ru": "содействие",
+    "en": "facilitation"
+  },
+  {
+    "ru": "состояние",
+    "en": "condition"
+  },
+  {
+    "ru": "условный",
+    "en": "conditional"
+  },
+  {
+    "ru": "условно",
+    "en": "conditionally"
+  },
+  {
+    "ru": "тон",
+    "en": "tone"
+  },
+  {
+    "ru": "гибкий",
+    "en": "supple"
+  },
+  {
+    "ru": "маникюр",
+    "en": "manicure"
+  },
+  {
+    "ru": "педикюр",
+    "en": "pedicure"
+  },
+  {
+    "ru": "букет",
+    "en": "bouquet"
+  },
+  {
+    "ru": "ремонтировать",
+    "en": "refurbish"
+  },
+  {
+    "ru": "ремонт",
+    "en": "refurbishment"
+  },
+  {
+    "ru": "основания",
+    "en": "grounds"
+  },
+  {
+    "ru": "земля",
+    "en": "ground"
+  },
+  {
+    "ru": "вялость",
+    "en": "lethargy"
+  },
+  {
+    "ru": "вялый",
+    "en": "lethargic"
+  },
+  {
+    "ru": "вяло",
+    "en": "lethargically"
+  },
+  {
+    "ru": "величественный",
+    "en": "stately"
+  },
+  {
+    "ru": "сохранять",
+    "en": "conserve"
+  },
+  {
+    "ru": "консерватория",
+    "en": "conservatory"
+  },
+  {
+    "ru": "тревожный",
+    "en": "disquieting"
+  },
+  {
+    "ru": "яростно",
+    "en": "fiercely"
+  },
+  {
+    "ru": "грейпфрут",
+    "en": "grapefruit"
+  },
+  {
+    "ru": "экзотика",
+    "en": "exotic"
+  },
+  {
+    "ru": "экзотично",
+    "en": "exotically"
+  },
+  {
+    "ru": "колба",
+    "en": "flask"
+  },
+  {
+    "ru": "просторный",
+    "en": "spacious"
+  },
+  {
+    "ru": "гурман",
+    "en": "gourmet"
+  },
+  {
+    "ru": "богатый",
+    "en": "rich"
+  },
+  {
+    "ru": "сливочный",
+    "en": "creamy"
+  },
+  {
+    "ru": "сауна",
+    "en": "sauna"
+  },
+  {
+    "ru": "исправительный",
+    "en": "remedial"
+  },
+  {
+    "ru": "поза",
+    "en": "posture"
+  },
+  {
+    "ru": "успокаивать",
+    "en": "sedate"
+  },
+  {
+    "ru": "степенно",
+    "en": "sedately"
+  },
+  {
+    "ru": "сцепление",
+    "en": "clutch"
+  },
+  {
+    "ru": "шататься",
+    "en": "stagger"
+  },
+  {
+    "ru": "ошеломляющий",
+    "en": "staggering"
+  },
+  {
+    "ru": "послушный",
+    "en": "dutiful"
+  },
+  {
+    "ru": "послушно",
+    "en": "dutifully"
+  },
+  {
+    "ru": "калория",
+    "en": "calorie"
+  },
+  {
+    "ru": "фирма",
+    "en": "firm"
+  },
+  {
+    "ru": "сказочно",
+    "en": "fabulously"
+  },
+  {
+    "ru": "помещения",
+    "en": "premises"
+  },
+  {
+    "ru": "эклектичный",
+    "en": "eclectic"
+  },
+  {
+    "ru": "эклектично",
+    "en": "eclectically"
+  },
+  {
+    "ru": "почитать",
+    "en": "revere"
+  },
+  {
+    "ru": "тесто",
+    "en": "batter"
+  },
+  {
+    "ru": "батарея",
+    "en": "battery"
+  },
+  {
+    "ru": "ненадежно",
+    "en": "unreliably"
+  },
+  {
+    "ru": "набережная",
+    "en": "waterfront"
+  },
+  {
+    "ru": "достаточно",
+    "en": "amply"
+  },
+  {
+    "ru": "усиление",
+    "en": "amplification"
+  },
+  {
+    "ru": "избитый",
+    "en": "battered"
+  },
+  {
+    "ru": "соблюдать",
+    "en": "comply"
+  },
+  {
+    "ru": "соответствие",
+    "en": "compliance"
+  },
+  {
+    "ru": "совместимый",
+    "en": "compliant"
+  },
+  {
+    "ru": "послушно",
+    "en": "compliantly"
+  },
+  {
+    "ru": "пустота",
+    "en": "blankness"
+  },
+  {
+    "ru": "буйный",
+    "en": "exuberant"
+  },
+  {
+    "ru": "изобилие",
+    "en": "exuberance"
+  },
+  {
+    "ru": "буйно",
+    "en": "exuberantly"
+  },
+  {
+    "ru": "линейный",
+    "en": "linear"
+  },
+  {
+    "ru": "линейно",
+    "en": "linearly"
+  },
+  {
+    "ru": "процветать",
+    "en": "flourish"
+  },
+  {
+    "ru": "якорь",
+    "en": "anchor"
+  },
+  {
+    "ru": "господство",
+    "en": "domination"
+  },
+  {
+    "ru": "доминирующий",
+    "en": "dominant"
+  },
+  {
+    "ru": "преимущественно",
+    "en": "dominantly"
+  },
+  {
+    "ru": "вставлять",
+    "en": "interject"
+  },
+  {
+    "ru": "междометие",
+    "en": "interjection"
+  },
+  {
+    "ru": "хлестать",
+    "en": "gush"
+  },
+  {
+    "ru": "хлынул",
+    "en": "gushing"
+  },
+  {
+    "ru": "хлещущий",
+    "en": "gushingly"
+  },
+  {
+    "ru": "прожорливый",
+    "en": "voracious"
+  },
+  {
+    "ru": "жадно",
+    "en": "voraciously"
+  },
+  {
+    "ru": "эскиз",
+    "en": "sketch"
+  },
+  {
+    "ru": "опора",
+    "en": "prop"
+  },
+  {
+    "ru": "имп",
+    "en": "imp"
+  },
+  {
+    "ru": "озорной",
+    "en": "impish"
+  },
+  {
+    "ru": "озорно",
+    "en": "impishly"
+  },
+  {
+    "ru": "злой",
+    "en": "wicked"
+  },
+  {
+    "ru": "злобно",
+    "en": "wickedly"
+  },
+  {
+    "ru": "жуткий",
+    "en": "macabre"
+  },
+  {
+    "ru": "удовольствие",
+    "en": "gusto"
+  },
+  {
+    "ru": "равнозначный",
+    "en": "tantamount"
+  },
+  {
+    "ru": "выходки",
+    "en": "antics"
+  },
+  {
+    "ru": "рецидив",
+    "en": "relapse"
+  },
+  {
+    "ru": "препятствовать",
+    "en": "impede"
+  },
+  {
+    "ru": "препятствие",
+    "en": "impediment"
+  },
+  {
+    "ru": "тугой",
+    "en": "taut"
+  },
+  {
+    "ru": "туго",
+    "en": "tautly"
+  },
+  {
+    "ru": "джерси",
+    "en": "jersey"
+  },
+  {
+    "ru": "поразительный",
+    "en": "startling"
+  },
+  {
+    "ru": "поразительно",
+    "en": "startlingly"
+  },
+  {
+    "ru": "слабый",
+    "en": "slack"
+  },
+  {
+    "ru": "вяло",
+    "en": "slackly"
+  },
+  {
+    "ru": "непоколебимый",
+    "en": "unwavering"
+  },
+  {
+    "ru": "непоколебимо",
+    "en": "unwaveringly"
+  },
+  {
+    "ru": "удалено",
+    "en": "removed"
+  },
+  {
+    "ru": "шут",
+    "en": "buffoon"
+  },
+  {
+    "ru": "соблазнительный",
+    "en": "beguiling"
+  },
+  {
+    "ru": "соблазнительно",
+    "en": "beguilingly"
+  },
+  {
+    "ru": "беспечно",
+    "en": "blithely"
+  },
+  {
+    "ru": "заблудиться",
+    "en": "stray"
+  },
+  {
+    "ru": "мифологический",
+    "en": "mythological"
+  },
+  {
+    "ru": "мифология",
+    "en": "mythology"
+  },
+  {
+    "ru": "почитать",
+    "en": "venerate"
+  },
+  {
+    "ru": "почитание",
+    "en": "veneration"
+  },
+  {
+    "ru": "этический",
+    "en": "ethical"
+  },
+  {
+    "ru": "этически",
+    "en": "ethically"
+  },
+  {
+    "ru": "героиня",
+    "en": "heroine"
+  },
+  {
+    "ru": "освежающий",
+    "en": "refreshing"
+  },
+  {
+    "ru": "обновить",
+    "en": "refresh"
+  },
+  {
+    "ru": "безумный",
+    "en": "zany"
+  },
+  {
+    "ru": "преданный",
+    "en": "devotee"
+  },
+  {
+    "ru": "мазь",
+    "en": "salve"
+  },
+  {
+    "ru": "спасение",
+    "en": "salvation"
+  },
+  {
+    "ru": "спасение",
+    "en": "salvage"
+  },
+  {
+    "ru": "стаккато",
+    "en": "staccato"
+  },
+  {
+    "ru": "воодушевление",
+    "en": "verve"
+  },
+  {
+    "ru": "пестрый",
+    "en": "motley"
+  },
+  {
+    "ru": "проповедовать",
+    "en": "preach"
+  },
+  {
+    "ru": "проповедник",
+    "en": "preacher"
+  },
+  {
+    "ru": "позади",
+    "en": "behind"
+  },
+  {
+    "ru": "справедливо",
+    "en": "justly"
+  },
+  {
+    "ru": "криво",
+    "en": "wry"
+  },
+  {
+    "ru": "криво",
+    "en": "wryly"
+  },
+  {
+    "ru": "поэтесса",
+    "en": "poetess"
+  },
+  {
+    "ru": "доверять",
+    "en": "confide"
+  },
+  {
+    "ru": "разумный",
+    "en": "sentient"
+  },
+  {
+    "ru": "настроение",
+    "en": "sentiment"
+  },
+  {
+    "ru": "сентиментальный",
+    "en": "sentimental"
+  },
+  {
+    "ru": "сентиментально",
+    "en": "sentimentally"
+  },
+  {
+    "ru": "запутывать",
+    "en": "tangle"
+  },
+  {
+    "ru": "запутанный",
+    "en": "tangled"
+  },
+  {
+    "ru": "распутывать",
+    "en": "untangle"
+  },
+  {
+    "ru": "распутанный",
+    "en": "untangled"
+  },
+  {
+    "ru": "проницательный",
+    "en": "perceptive"
+  },
+  {
+    "ru": "проницательно",
+    "en": "perceptively"
+  },
+  {
+    "ru": "начало",
+    "en": "outset"
+  },
+  {
+    "ru": "магнат",
+    "en": "tycoon"
+  },
+  {
+    "ru": "запуск",
+    "en": "launch"
+  },
+  {
+    "ru": "поглощать",
+    "en": "engross"
+  },
+  {
+    "ru": "увлекательный",
+    "en": "engrossing"
+  },
+  {
+    "ru": "чума",
+    "en": "plague"
+  },
+  {
+    "ru": "сирота",
+    "en": "orphan"
+  },
+  {
+    "ru": "детрит",
+    "en": "detritus"
+  },
+  {
+    "ru": "ущерб",
+    "en": "detriment"
+  },
+  {
+    "ru": "вредный",
+    "en": "detrimental"
+  },
+  {
+    "ru": "вредно",
+    "en": "detrimentally"
+  },
+  {
+    "ru": "приручить",
+    "en": "domesticate"
+  },
+  {
+    "ru": "приручение",
+    "en": "domestication"
+  },
+  {
+    "ru": "эксцентрично",
+    "en": "eccentrically"
+  },
+  {
+    "ru": "оказывать",
+    "en": "render"
+  },
+  {
+    "ru": "рендеринг",
+    "en": "rendering"
+  },
+  {
+    "ru": "пафос",
+    "en": "pathos"
+  },
+  {
+    "ru": "портной",
+    "en": "tailor"
+  },
+  {
+    "ru": "олицетворение",
+    "en": "personification"
+  },
+  {
+    "ru": "безграничный",
+    "en": "limitless"
+  },
+  {
+    "ru": "ученик",
+    "en": "apprentice"
+  },
+  {
+    "ru": "ученичество",
+    "en": "apprenticeship"
+  },
+  {
+    "ru": "точность",
+    "en": "precision"
+  },
+  {
+    "ru": "идеальный",
+    "en": "perfect"
+  },
+  {
+    "ru": "силуэт",
+    "en": "silhouette"
+  },
+  {
+    "ru": "невзрачный",
+    "en": "nondescript"
+  },
+  {
+    "ru": "сигнал",
+    "en": "signal"
+  },
+  {
+    "ru": "незначительный",
+    "en": "negligible"
+  },
+  {
+    "ru": "небрежный",
+    "en": "negligent"
+  },
+  {
+    "ru": "небрежно",
+    "en": "negligently"
+  },
+  {
+    "ru": "альтруизм",
+    "en": "altruism"
+  },
+  {
+    "ru": "альтруистический",
+    "en": "altruistic"
+  },
+  {
+    "ru": "сценарий",
+    "en": "scenario"
+  },
+  {
+    "ru": "добровольный",
+    "en": "voluntary"
+  },
+  {
+    "ru": "добровольно",
+    "en": "voluntarily"
+  },
+  {
+    "ru": "пожинать",
+    "en": "reap"
+  },
+  {
+    "ru": "материнский",
+    "en": "maternal"
+  },
+  {
+    "ru": "материнский",
+    "en": "maternalistic"
+  },
+  {
+    "ru": "патерналистский",
+    "en": "paternalistic"
+  },
+  {
+    "ru": "положения",
+    "en": "provisions"
+  },
+  {
+    "ru": "несправедливость",
+    "en": "injustice"
+  },
+  {
+    "ru": "обедневший",
+    "en": "impoverished"
+  },
+  {
+    "ru": "неустойчивый",
+    "en": "unsustainable"
+  },
+  {
+    "ru": "неустойчиво",
+    "en": "unsustainably"
+  },
+  {
+    "ru": "устойчивый",
+    "en": "sustainable"
+  },
+  {
+    "ru": "устойчиво",
+    "en": "sustainably"
+  },
+  {
+    "ru": "обойти",
+    "en": "bypass"
+  },
+  {
+    "ru": "императив",
+    "en": "imperative"
+  },
+  {
+    "ru": "циник",
+    "en": "cynic"
+  },
+  {
+    "ru": "циничный",
+    "en": "cynical"
+  },
+  {
+    "ru": "цинично",
+    "en": "cynically"
+  },
+  {
+    "ru": "цинизм",
+    "en": "cynicism"
+  },
+  {
+    "ru": "сарказм",
+    "en": "sarcasm"
+  },
+  {
+    "ru": "саркастический",
+    "en": "sarcastic"
+  },
+  {
+    "ru": "саркастически",
+    "en": "sarcastically"
+  },
+  {
+    "ru": "неуместен",
+    "en": "misplace"
+  },
+  {
+    "ru": "симптоматический",
+    "en": "symptomatic"
+  },
+  {
+    "ru": "деградировать",
+    "en": "degrade"
+  },
+  {
+    "ru": "деградация",
+    "en": "degradation"
+  },
+  {
+    "ru": "дискурс",
+    "en": "discourse"
+  },
+  {
+    "ru": "среди",
+    "en": "amid"
+  },
+  {
+    "ru": "ежик",
+    "en": "hedgehog"
+  },
+  {
+    "ru": "ночной",
+    "en": "nocturnal"
+  },
+  {
+    "ru": "спячка",
+    "en": "hibernation"
+  },
+  {
+    "ru": "осужденный",
+    "en": "convict"
+  },
+  {
+    "ru": "убеждение",
+    "en": "conviction"
+  },
+  {
+    "ru": "скрытый",
+    "en": "latent"
+  },
+  {
+    "ru": "отложить",
+    "en": "snooze"
+  },
+  {
+    "ru": "стильный",
+    "en": "classy"
+  },
+  {
+    "ru": "вспоминать",
+    "en": "reminisce"
+  },
+  {
+    "ru": "напоминающий",
+    "en": "reminiscent"
+  },
+  {
+    "ru": "интуиция",
+    "en": "intuit"
+  },
+  {
+    "ru": "интуиция",
+    "en": "intuition"
+  },
+  {
+    "ru": "интуитивный",
+    "en": "intuitive"
+  },
+  {
+    "ru": "интуитивно",
+    "en": "intuitively"
+  },
+  {
+    "ru": "маргинальный",
+    "en": "marginal"
+  },
+  {
+    "ru": "незначительно",
+    "en": "marginally"
+  },
+  {
+    "ru": "сырой",
+    "en": "crude"
+  },
+  {
+    "ru": "грубо",
+    "en": "crudely"
+  },
+  {
+    "ru": "ремень",
+    "en": "strap"
+  },
+  {
+    "ru": "связывание",
+    "en": "strapping"
+  },
+  {
+    "ru": "насмехаться",
+    "en": "scoff"
+  },
+  {
+    "ru": "неуклюжий",
+    "en": "fiddly"
+  },
+  {
+    "ru": "скрипач",
+    "en": "fiddler"
+  },
+  {
+    "ru": "скрипка",
+    "en": "fiddle"
+  },
+  {
+    "ru": "немузыкальный",
+    "en": "unmusical"
+  },
+  {
+    "ru": "немузыкально",
+    "en": "unmusically"
+  },
+  {
+    "ru": "репертуар",
+    "en": "repertory"
+  },
+  {
+    "ru": "концерт",
+    "en": "concerto"
+  },
+  {
+    "ru": "премьер",
+    "en": "premier"
+  },
+  {
+    "ru": "фанатик",
+    "en": "fanatic"
+  },
+  {
+    "ru": "фанатично",
+    "en": "fanatically"
+  },
+  {
+    "ru": "акустически",
+    "en": "acoustically"
+  },
+  {
+    "ru": "акустический",
+    "en": "acoustic"
+  },
+  {
+    "ru": "акустика",
+    "en": "acoustics"
+  },
+  {
+    "ru": "скомпрометирован",
+    "en": "compromised"
+  },
+  {
+    "ru": "устрашать",
+    "en": "daunt"
+  },
+  {
+    "ru": "устрашающий",
+    "en": "daunting"
+  },
+  {
+    "ru": "реалист",
+    "en": "realist"
+  },
+  {
+    "ru": "реализм",
+    "en": "realism"
+  },
+  {
+    "ru": "перерыв",
+    "en": "recess"
+  },
+  {
+    "ru": "рецессивный",
+    "en": "recessive"
+  },
+  {
+    "ru": "плодовитый",
+    "en": "prolific"
+  },
+  {
+    "ru": "плодовито",
+    "en": "prolifically"
+  },
+  {
+    "ru": "размножаться",
+    "en": "proliferate"
+  },
+  {
+    "ru": "фрагментация",
+    "en": "fragmentation"
+  },
+  {
+    "ru": "кампания",
+    "en": "campaign"
+  },
+  {
+    "ru": "продолжительность",
+    "en": "duration"
+  },
+  {
+    "ru": "прочный",
+    "en": "durable"
+  },
+  {
+    "ru": "вероятность",
+    "en": "likelihood"
+  },
+  {
+    "ru": "наивный",
+    "en": "naive"
+  },
+  {
+    "ru": "наивно",
+    "en": "naively"
+  },
+  {
+    "ru": "наивность",
+    "en": "naivety"
+  },
+  {
+    "ru": "непроницаемый",
+    "en": "impervious"
+  },
+  {
+    "ru": "нелепый",
+    "en": "ludicrous"
+  },
+  {
+    "ru": "смехотворно",
+    "en": "ludicrously"
+  },
+  {
+    "ru": "ужасный",
+    "en": "gruesome"
+  },
+  {
+    "ru": "ужасно",
+    "en": "gruesomely"
+  },
+  {
+    "ru": "предвидеть",
+    "en": "envisage"
+  },
+  {
+    "ru": "сценарист",
+    "en": "screenwriter"
+  },
+  {
+    "ru": "смешиваться",
+    "en": "mingle"
+  },
+  {
+    "ru": "сбивать",
+    "en": "churn"
+  },
+  {
+    "ru": "буфер",
+    "en": "buffer"
+  },
+  {
+    "ru": "разгневанный",
+    "en": "irate"
+  },
+  {
+    "ru": "раздраженно",
+    "en": "irately"
+  },
+  {
+    "ru": "послушный",
+    "en": "docile"
+  },
+  {
+    "ru": "послушно",
+    "en": "docilely"
+  },
+  {
+    "ru": "злодей",
+    "en": "fiend"
+  },
+  {
+    "ru": "дьявольский",
+    "en": "fiendish"
+  },
+  {
+    "ru": "дьявольски",
+    "en": "fiendishly"
+  },
+  {
+    "ru": "перефиксировать",
+    "en": "transfix"
+  },
+  {
+    "ru": "цыган",
+    "en": "gypsy"
+  },
+  {
+    "ru": "темперамент",
+    "en": "temperament"
+  },
+  {
+    "ru": "темпераментный",
+    "en": "temperamental"
+  },
+  {
+    "ru": "темпераментно",
+    "en": "temperamentally"
+  },
+  {
+    "ru": "сценарий",
+    "en": "screenplay"
+  },
+  {
+    "ru": "разочарование",
+    "en": "disillusionment"
+  },
+  {
+    "ru": "кончина",
+    "en": "demise"
+  },
+  {
+    "ru": "непристойный",
+    "en": "raunchy"
+  },
+  {
+    "ru": "непристойно",
+    "en": "raunchily"
+  },
+  {
+    "ru": "овердрафт",
+    "en": "overdraft"
+  },
+  {
+    "ru": "синопсис",
+    "en": "synopsis"
+  },
+  {
+    "ru": "слава",
+    "en": "renown"
+  },
+  {
+    "ru": "конкурс",
+    "en": "contest"
+  },
+  {
+    "ru": "оспариваемый",
+    "en": "contested"
+  },
+  {
+    "ru": "веранда",
+    "en": "verandah"
+  },
+  {
+    "ru": "профессиональный",
+    "en": "occupational"
+  },
+  {
+    "ru": "приговор",
+    "en": "verdict"
+  },
+  {
+    "ru": "проветривать",
+    "en": "ventilate"
+  },
+  {
+    "ru": "вентиляция",
+    "en": "ventilation"
+  },
+  {
+    "ru": "обитатель",
+    "en": "occupant"
+  },
+  {
+    "ru": "радиатор",
+    "en": "radiator"
+  },
+  {
+    "ru": "домашний",
+    "en": "homely"
+  },
+  {
+    "ru": "бюрократический",
+    "en": "bureaucratic"
+  },
+  {
+    "ru": "бюрократически",
+    "en": "bureaucratically"
+  },
+  {
+    "ru": "регулируемый",
+    "en": "adjustable"
+  },
+  {
+    "ru": "усталость",
+    "en": "fatigue"
+  },
+  {
+    "ru": "мускулистый",
+    "en": "muscular"
+  },
+  {
+    "ru": "универсальный",
+    "en": "versatile"
+  },
+  {
+    "ru": "универсальность",
+    "en": "versatility"
+  },
+  {
+    "ru": "стимулы",
+    "en": "stimuli"
+  },
+  {
+    "ru": "скучный",
+    "en": "uninspiring"
+  },
+  {
+    "ru": "взаимно",
+    "en": "mutually"
+  },
+  {
+    "ru": "беспорядок",
+    "en": "clutter"
+  },
+  {
+    "ru": "домик",
+    "en": "lodge"
+  },
+  {
+    "ru": "вытеснять",
+    "en": "dislodge"
+  },
+  {
+    "ru": "плотник",
+    "en": "carpenter"
+  },
+  {
+    "ru": "транзит",
+    "en": "transit"
+  },
+  {
+    "ru": "падать",
+    "en": "plummet"
+  },
+  {
+    "ru": "распространять",
+    "en": "circulate"
+  },
+  {
+    "ru": "обращение",
+    "en": "circulation"
+  },
+  {
+    "ru": "демография",
+    "en": "demography"
+  },
+  {
+    "ru": "демографический",
+    "en": "demographic"
+  },
+  {
+    "ru": "демографически",
+    "en": "demographically"
+  },
+  {
+    "ru": "феноменальный",
+    "en": "phenomenal"
+  },
+  {
+    "ru": "феноменально",
+    "en": "phenomenally"
+  },
+  {
+    "ru": "пророк",
+    "en": "prophet"
+  },
+  {
+    "ru": "пророческий",
+    "en": "prophetic"
+  },
+  {
+    "ru": "брандмауэр",
+    "en": "firewall"
+  },
+  {
+    "ru": "счет-фактура",
+    "en": "invoice"
+  },
+  {
+    "ru": "снос",
+    "en": "demolition"
+  },
+  {
+    "ru": "демо",
+    "en": "demo"
+  },
+  {
+    "ru": "концерт",
+    "en": "gig"
+  },
+  {
+    "ru": "социализация",
+    "en": "socialization"
+  },
+  {
+    "ru": "древность",
+    "en": "antiquity"
+  },
+  {
+    "ru": "устаревший",
+    "en": "antiquated"
+  },
+  {
+    "ru": "восстановление",
+    "en": "restoration"
+  },
+  {
+    "ru": "восстановительный",
+    "en": "restorative"
+  },
+  {
+    "ru": "вращать",
+    "en": "rotate"
+  },
+  {
+    "ru": "до",
+    "en": "till"
+  },
+  {
+    "ru": "соединенный",
+    "en": "coupled"
+  },
+  {
+    "ru": "маршрут",
+    "en": "itinerary"
+  },
+  {
+    "ru": "устав",
+    "en": "charter"
+  },
+  {
+    "ru": "местность",
+    "en": "terrain"
+  },
+  {
+    "ru": "упругий",
+    "en": "resilient"
+  },
+  {
+    "ru": "устойчивость",
+    "en": "resilience"
+  },
+  {
+    "ru": "предприимчивый",
+    "en": "enterprising"
+  },
+  {
+    "ru": "интеграл",
+    "en": "integral"
+  },
+  {
+    "ru": "каноэ",
+    "en": "canoe"
+  },
+  {
+    "ru": "магнитный",
+    "en": "magnetic"
+  },
+  {
+    "ru": "магнетизм",
+    "en": "magnetism"
+  },
+  {
+    "ru": "магнитно",
+    "en": "magnetically"
+  },
+  {
+    "ru": "достоверно",
+    "en": "credibly"
+  },
+  {
+    "ru": "авторитет",
+    "en": "credibility"
+  },
+  {
+    "ru": "полномочия",
+    "en": "credential"
+  },
+  {
+    "ru": "остро",
+    "en": "acutely"
+  },
+  {
+    "ru": "непомерно",
+    "en": "prohibitively"
+  },
+  {
+    "ru": "трещина",
+    "en": "fissure"
+  },
+  {
+    "ru": "висячий",
+    "en": "pendulous"
+  },
+  {
+    "ru": "подвеска",
+    "en": "suspension"
+  },
+  {
+    "ru": "дрель",
+    "en": "drill"
+  },
+  {
+    "ru": "антропология",
+    "en": "anthropology"
+  },
+  {
+    "ru": "антрополог",
+    "en": "anthropologist"
+  },
+  {
+    "ru": "транжирить",
+    "en": "squander"
+  },
+  {
+    "ru": "жевать",
+    "en": "munch"
+  },
+  {
+    "ru": "примыкать",
+    "en": "adjoin"
+  },
+  {
+    "ru": "прилегающий",
+    "en": "adjoining"
+  },
+  {
+    "ru": "высохший",
+    "en": "wizened"
+  },
+  {
+    "ru": "взяточничество",
+    "en": "graft"
+  },
+  {
+    "ru": "рассада",
+    "en": "seedling"
+  },
+  {
+    "ru": "тракт",
+    "en": "tract"
+  },
+  {
+    "ru": "сказка",
+    "en": "folktale"
+  },
+  {
+    "ru": "росток",
+    "en": "sprout"
+  },
+  {
+    "ru": "лицемерие",
+    "en": "hypocrisy"
+  },
+  {
+    "ru": "лицемер",
+    "en": "hypocrite"
+  },
+  {
+    "ru": "лицемерный",
+    "en": "hypocritical"
+  },
+  {
+    "ru": "лицемерно",
+    "en": "hypocritically"
+  },
+  {
+    "ru": "акушерка",
+    "en": "midwife"
+  },
+  {
+    "ru": "урожай",
+    "en": "harvest"
+  },
+  {
+    "ru": "коммерчески",
+    "en": "commercially"
+  },
+  {
+    "ru": "единообразие",
+    "en": "uniformity"
+  },
+  {
+    "ru": "онемение",
+    "en": "numb"
+  },
+  {
+    "ru": "любитель",
+    "en": "amateur"
+  },
+  {
+    "ru": "проследить",
+    "en": "retrace"
+  },
+  {
+    "ru": "диаграмма",
+    "en": "chart"
+  },
+  {
+    "ru": "непокорный",
+    "en": "insubordinate"
+  },
+  {
+    "ru": "неповиновение",
+    "en": "insubordination"
+  },
+  {
+    "ru": "непокорно",
+    "en": "insubordinately"
+  },
+  {
+    "ru": "подчиненный",
+    "en": "subordinate"
+  },
+  {
+    "ru": "примитивно",
+    "en": "primitively"
+  },
+  {
+    "ru": "ускорить",
+    "en": "expedite"
+  },
+  {
+    "ru": "контекстуальный",
+    "en": "contextual"
+  },
+  {
+    "ru": "контекстуально",
+    "en": "contextually"
+  },
+  {
+    "ru": "пока",
+    "en": "whilst"
+  },
+  {
+    "ru": "захватывающий",
+    "en": "riveting"
+  },
+  {
+    "ru": "погружаться",
+    "en": "plunge"
+  },
+  {
+    "ru": "дебют",
+    "en": "debut"
+  },
+  {
+    "ru": "суматоха",
+    "en": "turmoil"
+  },
+  {
+    "ru": "резкий",
+    "en": "scathing"
+  },
+  {
+    "ru": "невредимый",
+    "en": "unscathing"
+  },
+  {
+    "ru": "запутанный",
+    "en": "convoluted"
+  },
+  {
+    "ru": "неустрашимый",
+    "en": "undaunted"
+  },
+  {
+    "ru": "бесстрашный",
+    "en": "gutsy"
+  },
+  {
+    "ru": "лишение",
+    "en": "deprivation"
+  },
+  {
+    "ru": "фарс",
+    "en": "farce"
+  },
+  {
+    "ru": "изображать",
+    "en": "portray"
+  },
+  {
+    "ru": "изображение",
+    "en": "portrayal"
+  },
+  {
+    "ru": "неуловимый",
+    "en": "elusive"
+  },
+  {
+    "ru": "ускользать",
+    "en": "elude"
+  },
+  {
+    "ru": "резец",
+    "en": "incisor"
+  },
+  {
+    "ru": "разрез",
+    "en": "incision"
+  },
+  {
+    "ru": "долото",
+    "en": "chisel"
+  },
+  {
+    "ru": "точеный",
+    "en": "chiselled"
+  },
+  {
+    "ru": "грызть",
+    "en": "gnaw"
+  },
+  {
+    "ru": "удлинять",
+    "en": "elongate"
+  },
+  {
+    "ru": "предатель",
+    "en": "telltale"
+  },
+  {
+    "ru": "полость",
+    "en": "cavity"
+  },
+  {
+    "ru": "шелестеть",
+    "en": "rustle"
+  },
+  {
+    "ru": "подбирать",
+    "en": "glean"
+  },
+  {
+    "ru": "ниша",
+    "en": "niche"
+  },
+  {
+    "ru": "сальто",
+    "en": "somersault"
+  },
+  {
+    "ru": "веселить",
+    "en": "exhilarate"
+  },
+  {
+    "ru": "волнующий",
+    "en": "exhilarating"
+  },
+  {
+    "ru": "возбуждение",
+    "en": "exhilaration"
+  },
+  {
+    "ru": "телесность",
+    "en": "physicality"
+  },
+  {
+    "ru": "взломать",
+    "en": "hack"
+  },
+  {
+    "ru": "похоть",
+    "en": "lust"
+  },
+  {
+    "ru": "тревожный",
+    "en": "unsettling"
+  },
+  {
+    "ru": "тревожить",
+    "en": "unsettle"
+  },
+  {
+    "ru": "пригородный",
+    "en": "suburban"
+  },
+  {
+    "ru": "пригород",
+    "en": "suburbia"
+  },
+  {
+    "ru": "драматург",
+    "en": "dramatist"
+  },
+  {
+    "ru": "причудливый",
+    "en": "quirky"
+  },
+  {
+    "ru": "разрастаться",
+    "en": "sprawl"
+  },
+  {
+    "ru": "изобретательность",
+    "en": "ingenuity"
+  },
+  {
+    "ru": "панорама",
+    "en": "panorama"
+  },
+  {
+    "ru": "панорамный",
+    "en": "panoramic"
+  },
+  {
+    "ru": "доброкачественный",
+    "en": "benign"
+  },
+  {
+    "ru": "доброжелательно",
+    "en": "benignly"
+  },
+  {
+    "ru": "взрывоопасно",
+    "en": "explosively"
+  },
+  {
+    "ru": "завещать",
+    "en": "bequeath"
+  },
+  {
+    "ru": "наследие",
+    "en": "legacy"
+  },
+  {
+    "ru": "синтетический",
+    "en": "synthetic"
+  },
+  {
+    "ru": "синтетически",
+    "en": "synthetically"
+  },
+  {
+    "ru": "эластичный",
+    "en": "elastic"
+  },
+  {
+    "ru": "ужасающий",
+    "en": "appalling"
+  },
+  {
+    "ru": "ужасно",
+    "en": "appallingly"
+  },
+  {
+    "ru": "наброситься",
+    "en": "pounce"
+  },
+  {
+    "ru": "изобилуют",
+    "en": "abound"
+  },
+  {
+    "ru": "истощать",
+    "en": "sap"
+  },
+  {
+    "ru": "монотонный",
+    "en": "monotonous"
+  },
+  {
+    "ru": "монотонно",
+    "en": "monotonously"
+  },
+  {
+    "ru": "монотонность",
+    "en": "monotony"
+  },
+  {
+    "ru": "гениальный",
+    "en": "ingenious"
+  },
+  {
+    "ru": "бляшка",
+    "en": "plaque"
+  },
+  {
+    "ru": "прекращение",
+    "en": "cessation"
+  },
+  {
+    "ru": "раскаяние",
+    "en": "remorse"
+  },
+  {
+    "ru": "безжалостный",
+    "en": "remorseless"
+  },
+  {
+    "ru": "безжалостно",
+    "en": "remorselessly"
+  },
+  {
+    "ru": "непростительный",
+    "en": "inexcusable"
+  },
+  {
+    "ru": "непростительно",
+    "en": "inexcusably"
+  },
+  {
+    "ru": "повысить",
+    "en": "heighten"
+  },
+  {
+    "ru": "приспособление",
+    "en": "fixture"
+  },
+  {
+    "ru": "объемный",
+    "en": "bulk"
+  },
+  {
+    "ru": "громоздкий",
+    "en": "bulky"
+  },
+  {
+    "ru": "наценка",
+    "en": "mark-up"
+  },
+  {
+    "ru": "дополнительный",
+    "en": "complementary"
+  },
+  {
+    "ru": "бесплатный",
+    "en": "complimentary"
+  },
+  {
+    "ru": "штапель",
+    "en": "staple"
+  },
+  {
+    "ru": "товары",
+    "en": "wares"
+  },
+  {
+    "ru": "завещание",
+    "en": "testament"
+  },
+  {
+    "ru": "сочный",
+    "en": "succulent"
+  },
+  {
+    "ru": "сочно",
+    "en": "succulently"
+  },
+  {
+    "ru": "спокойный",
+    "en": "tranquil"
+  },
+  {
+    "ru": "спокойствие",
+    "en": "tranquility"
+  },
+  {
+    "ru": "спартанский",
+    "en": "spartan"
+  },
+  {
+    "ru": "полуостров",
+    "en": "peninsula"
+  },
+  {
+    "ru": "бильярд",
+    "en": "billiards"
+  }
+]

@@ -44,7 +44,10 @@ impl App {
 
         let settings_widget = SettingsWidget::new(
             wordset_names.clone(),
+            translation_set_names.clone(),
+            &settings.quick_start_mode,
             &settings.quick_start_wordset,
+            &settings.quick_start_translation_set,
             settings.quick_start_time,
         );
 
@@ -112,8 +115,19 @@ impl App {
                 if let Some(action) = self.menu_widget.handle_input(key) {
                     match action {
                         crate::menu_widget::MenuAction::QuickStart => {
-                            if let Ok(words) = self.config.quick_start_words() {
-                                let time = self.config.settings.quick_start_time;
+                            let time = self.config.settings.quick_start_time;
+                            if self.config.settings.quick_start_mode == "translation" {
+                                let set_name = self.config.settings.quick_start_translation_set.clone();
+                                if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name) {
+                                    let text = build_translation_target(&pairs);
+                                    self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                    self.current_mode = TestMode::Translation;
+                                    self.current_wordset = None;
+                                    self.current_translation_set = Some(set_name);
+                                    self.current_time = Some(time);
+                                    self.screen = Screen::Typing;
+                                }
+                            } else if let Ok(words) = self.config.quick_start_words() {
                                 let text = words.join(" ");
                                 self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
                                 self.current_mode = TestMode::Typing;
@@ -125,12 +139,16 @@ impl App {
                         }
                         crate::menu_widget::MenuAction::Translation => {
                             let time = self.config.settings.quick_start_time;
-                            let set_name = self
-                                .config
-                                .get_translation_set_names()
-                                .ok()
-                                .and_then(|v| v.into_iter().next())
-                                .unwrap_or_else(|| "ru_en_basic".to_string());
+                            let preferred_set = self.config.settings.quick_start_translation_set.clone();
+                            let set_name = if self.config.get_translation_pairs(&preferred_set).is_ok() {
+                                preferred_set
+                            } else {
+                                self.config
+                                    .get_translation_set_names()
+                                    .ok()
+                                    .and_then(|v| v.into_iter().next())
+                                    .unwrap_or_else(|| "ru_en_a1".to_string())
+                            };
                             if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name) {
                                 let text = build_translation_target(&pairs);
                                 self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
@@ -149,7 +167,10 @@ impl App {
                             let settings = &self.config.settings;
                             self.settings_widget = SettingsWidget::new(
                                 self.config.get_wordset_names().unwrap_or_default(),
+                                self.config.get_translation_set_names().unwrap_or_default(),
+                                &settings.quick_start_mode,
                                 &settings.quick_start_wordset,
+                                &settings.quick_start_translation_set,
                                 settings.quick_start_time,
                             );
                             self.screen = Screen::Settings;
@@ -202,7 +223,9 @@ impl App {
                 if let Some(action) = self.settings_widget.handle_input(key) {
                     match action {
                         crate::settings_widget::SettingsAction::Save => {
+                            self.config.settings.quick_start_mode = self.settings_widget.current_mode().to_string();
                             self.config.settings.quick_start_wordset = self.settings_widget.current_wordset().to_string();
+                            self.config.settings.quick_start_translation_set = self.settings_widget.current_translation_set().to_string();
                             self.config.settings.quick_start_time = self.settings_widget.current_time();
                             self.config.save_settings().ok();
                             self.screen = Screen::Menu;
