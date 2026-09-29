@@ -1,6 +1,6 @@
 use rusqlite::{Connection, Result};
 use serde::{Deserialize, Serialize};
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Settings {
@@ -10,6 +10,10 @@ pub struct Settings {
     pub quick_start_wordset: String,
     #[serde(default = "default_quick_start_translation_set")]
     pub quick_start_translation_set: String,
+    #[serde(default = "default_translation_time")]
+    pub translation_time: u32,
+    #[serde(default = "default_translation_set")]
+    pub translation_set: String,
 }
 
 impl Default for Settings {
@@ -19,6 +23,8 @@ impl Default for Settings {
             quick_start_time: 15,
             quick_start_wordset: "en_1000".to_string(),
             quick_start_translation_set: default_quick_start_translation_set(),
+            translation_time: default_translation_time(),
+            translation_set: default_translation_set(),
         }
     }
 }
@@ -28,6 +34,14 @@ fn default_quick_start_mode() -> String {
 }
 
 fn default_quick_start_translation_set() -> String {
+    "ru_en_a1".to_string()
+}
+
+fn default_translation_time() -> u32 {
+    60
+}
+
+fn default_translation_set() -> String {
     "ru_en_a1".to_string()
 }
 
@@ -50,42 +64,51 @@ impl std::fmt::Debug for Configuration {
 
 impl Configuration {
     pub fn new() -> Result<Self> {
-        let data_dir = directories::ProjectDirs::from("com", "wpm", "app")
-            .map(|dirs| dirs.data_dir().to_path_buf())
-            .unwrap_or_else(|| std::env::current_dir().unwrap());
-        
+        let data_dir = Self::data_dir();
+
         std::fs::create_dir_all(&data_dir).ok();
-        
+
         let db_path = data_dir.join("wordset.db");
         let conn = Connection::open(&db_path)?;
-        
+
         let settings = Self::load_settings(&data_dir);
-        
+
         let config = Self { settings, conn };
         config.init_tables()?;
         config.seed_data()?;
         Ok(config)
     }
 
-    fn load_settings(data_dir: &PathBuf) -> Settings {
+    fn data_dir() -> PathBuf {
+        if let Some(path) = std::env::var_os("WMP_DATA_DIR")
+            && !path.is_empty()
+        {
+            return PathBuf::from(path);
+        }
+
+        directories::ProjectDirs::from("com", "wpm", "app")
+            .map(|dirs| dirs.data_dir().to_path_buf())
+            .unwrap_or_else(|| std::env::current_dir().unwrap())
+    }
+
+    fn load_settings(data_dir: &Path) -> Settings {
         let settings_path = data_dir.join("settings.json");
-        if settings_path.exists() {
-            if let Ok(content) = std::fs::read_to_string(&settings_path) {
-                if let Ok(settings) = serde_json::from_str(&content) {
-                    return settings;
-                }
-            }
+        if settings_path.exists()
+            && let Ok(content) = std::fs::read_to_string(&settings_path)
+            && let Ok(settings) = serde_json::from_str(&content)
+        {
+            return settings;
         }
         Settings::default()
     }
 
     pub fn save_settings(&self) -> std::io::Result<()> {
-        let data_dir = directories::ProjectDirs::from("com", "wpm", "app")
-            .map(|dirs| dirs.data_dir().to_path_buf())
-            .unwrap_or_else(|| std::env::current_dir().unwrap());
-        
+        let data_dir = Self::data_dir();
+        std::fs::create_dir_all(&data_dir)?;
+
         let settings_path = data_dir.join("settings.json");
-        let content = serde_json::to_string_pretty(&self.settings).map_err(|e| std::io::Error::new(std::io::ErrorKind::InvalidData, e))?;
+        let content = serde_json::to_string_pretty(&self.settings)
+            .map_err(|e| std::io::Error::new(std::io::ErrorKind::InvalidData, e))?;
         std::fs::write(settings_path, content)?;
         Ok(())
     }
@@ -112,11 +135,9 @@ impl Configuration {
     }
 
     fn seed_data(&self) -> Result<()> {
-        let wordset_count: i64 = self.conn.query_row(
-            "SELECT COUNT(*) FROM word_sets",
-            [],
-            |row| row.get(0),
-        )?;
+        let wordset_count: i64 =
+            self.conn
+                .query_row("SELECT COUNT(*) FROM word_sets", [], |row| row.get(0))?;
 
         if wordset_count == 0 {
             let word_files = vec![
@@ -127,7 +148,9 @@ impl Configuration {
                 ("ru_50000", "ru", include_str!("../resources/ru_50000.txt")),
             ];
 
-            let mut stmt = self.conn.prepare("INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)")?;
+            let mut stmt = self.conn.prepare(
+                "INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)",
+            )?;
 
             for (name, lang, content) in word_files {
                 let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
@@ -168,7 +191,9 @@ impl Configuration {
     }
 
     pub fn get_wordset_names(&self) -> Result<Vec<String>> {
-        let mut stmt = self.conn.prepare("SELECT name FROM word_sets ORDER BY language, word_count")?;
+        let mut stmt = self
+            .conn
+            .prepare("SELECT name FROM word_sets ORDER BY language, word_count")?;
         let names = stmt.query_map([], |row| row.get(0))?;
         names.collect()
     }
@@ -179,7 +204,10 @@ impl Configuration {
             [wordset_name],
             |row| row.get(0),
         )?;
-        Ok(words_blob.split_whitespace().map(|s| s.to_string()).collect())
+        Ok(words_blob
+            .split_whitespace()
+            .map(|s| s.to_string())
+            .collect())
     }
 
     pub fn get_shuffled_words(&self, wordset_name: &str) -> Result<Vec<String>> {
@@ -187,7 +215,11 @@ impl Configuration {
         use std::collections::hash_map::DefaultHasher;
         use std::hash::{Hash, Hasher};
         let mut hasher = DefaultHasher::new();
-        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
+        std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap()
+            .as_nanos()
+            .hash(&mut hasher);
         let seed = hasher.finish() as usize;
         let mut rng = seed_rng(seed);
         shuffle(&mut words, &mut rng);
@@ -222,7 +254,11 @@ impl Configuration {
         use std::collections::hash_map::DefaultHasher;
         use std::hash::{Hash, Hasher};
         let mut hasher = DefaultHasher::new();
-        std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_nanos().hash(&mut hasher);
+        std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap()
+            .as_nanos()
+            .hash(&mut hasher);
         let seed = hasher.finish() as usize;
         let mut rng = seed_rng(seed);
         shuffle(&mut pairs, &mut rng);
@@ -234,7 +270,9 @@ fn seed_rng(seed: usize) -> Rand {
     Rand { state: seed }
 }
 
-struct Rand { state: usize }
+struct Rand {
+    state: usize,
+}
 
 impl Rand {
     fn next(&mut self) -> usize {

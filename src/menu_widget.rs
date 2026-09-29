@@ -32,11 +32,26 @@ impl MenuWidget {
         Self {
             selected_index: 0,
             items: vec![
-                MenuItem { text: "Quick Start".to_string(), action: MenuAction::QuickStart },
-                MenuItem { text: "Translation".to_string(), action: MenuAction::Translation },
-                MenuItem { text: "Select Mode".to_string(), action: MenuAction::SelectMode },
-                MenuItem { text: "Settings".to_string(), action: MenuAction::Settings },
-                MenuItem { text: "Exit".to_string(), action: MenuAction::Exit },
+                MenuItem {
+                    text: "Quick Start".to_string(),
+                    action: MenuAction::QuickStart,
+                },
+                MenuItem {
+                    text: "Translation".to_string(),
+                    action: MenuAction::Translation,
+                },
+                MenuItem {
+                    text: "Select Mode".to_string(),
+                    action: MenuAction::SelectMode,
+                },
+                MenuItem {
+                    text: "Settings".to_string(),
+                    action: MenuAction::Settings,
+                },
+                MenuItem {
+                    text: "Exit".to_string(),
+                    action: MenuAction::Exit,
+                },
             ],
         }
     }
@@ -60,12 +75,8 @@ impl MenuWidget {
                 }
                 None
             }
-            KeyCode::Enter => {
-                Some(self.items[self.selected_index].action.clone())
-            }
-            KeyCode::Esc => {
-                Some(MenuAction::Exit)
-            }
+            KeyCode::Enter => Some(self.items[self.selected_index].action.clone()),
+            KeyCode::Esc => Some(MenuAction::Exit),
             _ => None,
         }
     }

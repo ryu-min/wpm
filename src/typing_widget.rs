@@ -70,7 +70,10 @@ impl TypingWidget {
     }
 
     pub fn add_char(&mut self, ch: char) {
-        let expected = self.target_text.chars().nth(self.input_text.chars().count());
+        let expected = self
+            .target_text
+            .chars()
+            .nth(self.input_text.chars().count());
         let interpreted = match expected {
             Some(target) => interpret_char_for_target_layout(ch, target),
             None => ch,
@@ -93,10 +96,10 @@ impl TypingWidget {
 
     pub fn update_stats(&mut self) {
         let now = std::time::Instant::now();
-        if let Some(last) = self.last_stats_update {
-            if now.duration_since(last).as_millis() < STATS_UPDATE_INTERVAL_MS as u128 {
-                return;
-            }
+        if let Some(last) = self.last_stats_update
+            && now.duration_since(last).as_millis() < STATS_UPDATE_INTERVAL_MS as u128
+        {
+            return;
         }
         self.last_stats_update = Some(now);
         self.elapsed = self.get_elapsed_time();
@@ -111,7 +114,9 @@ impl TypingWidget {
         if elapsed == 0.0 {
             return 0.0;
         }
-        let correct = self.input_text.chars()
+        let correct = self
+            .input_text
+            .chars()
             .zip(self.target_text.chars())
             .filter(|(a, b)| a == b)
             .count() as f64;
@@ -140,12 +145,11 @@ impl TypingWidget {
     }
 
     pub fn is_complete(&self) -> bool {
-        if let Some(limit) = self.time_limit {
-            if let Some(start) = self.start_time {
-                if start.elapsed().as_secs() >= limit {
-                    return true;
-                }
-            }
+        if let Some(limit) = self.time_limit
+            && let Some(start) = self.start_time
+            && start.elapsed().as_secs() >= limit
+        {
+            return true;
         }
         self.input_text.len() >= self.target_text.len()
     }
@@ -263,46 +267,42 @@ impl TypingWidget {
         let mut lines = Vec::new();
         let chars: Vec<char> = text.chars().collect();
         let mut start = 0;
-        
+
         while start < chars.len() {
             if chars[start] == '\n' {
                 lines.push((start, start + 1));
                 start += 1;
                 continue;
             }
-            
+
             let mut end = start + max_width.min(chars.len() - start);
             let mut newline_pos = None;
-            
-            for i in start..end {
-                if chars[i] == '\n' {
+
+            for (i, ch) in chars.iter().enumerate().take(end).skip(start) {
+                if *ch == '\n' {
                     newline_pos = Some(i + 1);
                     break;
                 }
             }
-            
+
             if let Some(nl) = newline_pos {
                 end = nl;
-            } else if end < chars.len() {
-                let mut last_space = end;
-                for i in (start..end).rev() {
-                    if chars[i].is_whitespace() {
-                        last_space = i + 1;
-                        break;
-                    }
-                }
-                if last_space > start {
-                    end = last_space;
-                }
+            } else if end < chars.len()
+                && let Some(last_space) = chars[start..end]
+                    .iter()
+                    .rposition(|ch| ch.is_whitespace())
+                    .map(|idx| start + idx + 1)
+            {
+                end = last_space;
             }
-            
+
             lines.push((start, end));
             start = end;
         }
-        
+
         lines
     }
-    
+
     fn get_current_line_index(&self, line_ranges: &[(usize, usize)], input_len: usize) -> usize {
         for (idx, &(start, end)) in line_ranges.iter().enumerate() {
             if input_len >= start && input_len <= end {
@@ -319,48 +319,48 @@ impl TypingWidget {
 impl Widget for &TypingWidget {
     fn render(self, area: Rect, buf: &mut ratatui::prelude::Buffer) {
         let available_width = area.width.saturating_sub(2) as usize;
-        
+
         if available_width == 0 {
             return;
         }
 
         let line_width = (available_width as f64 * 0.7) as usize;
         let line_ranges = self.split_text_into_lines(&self.target_text, line_width);
-        
+
         if line_ranges.is_empty() {
             return;
         }
 
         let input_len = self.input_text.chars().count();
         let current_line_idx = self.get_current_line_index(&line_ranges, input_len);
-        
+
         let target_chars: Vec<char> = self.target_text.chars().collect();
         let input_chars: Vec<char> = self.input_text.chars().collect();
-        
+
         let wpm_str = format!("{} wpm", self.wpm as u32);
         let time_str = format!("{:.1}s", self.elapsed);
-        
+
         let wpm_line = Line::from(wpm_str).style(Style::default().fg(Color::Cyan));
         let time_line = Line::from(time_str).style(Style::default().fg(Color::Yellow));
-        
+
         let wpm_area = Rect {
             x: area.x,
             y: area.y,
             width: 10,
             height: 1,
         };
-        
+
         let time_area = Rect {
             x: area.x.saturating_add(area.width).saturating_sub(8),
             y: area.y,
             width: 8,
             height: 1,
         };
-        
+
         Paragraph::new(wpm_line)
             .alignment(Alignment::Left)
             .render(wpm_area, buf);
-        
+
         Paragraph::new(time_line)
             .alignment(Alignment::Right)
             .render(time_area, buf);
@@ -372,20 +372,20 @@ impl Widget for &TypingWidget {
         } else {
             current_line_idx.saturating_sub(1)
         };
-        
+
         let num_lines = 3.min(line_ranges.len());
         let text_area_y = area.y + area.height.saturating_sub(1) / 2 - num_lines as u16 / 2;
-        
+
         for (idx, &(start, end)) in line_ranges.iter().enumerate().skip(start_idx).take(3) {
             let line_length = end - start;
             let y = text_area_y + idx.saturating_sub(start_idx) as u16;
-            
+
             if y < area.y || y >= area.y + area.height {
                 continue;
             }
-            
+
             let is_current = idx == current_line_idx;
-            
+
             let spans: Vec<Span> = (0..line_length)
                 .map(|i| {
                     let global_idx = start + i;
@@ -414,27 +414,24 @@ impl Widget for &TypingWidget {
                                     .add_modifier(Modifier::UNDERLINED),
                             )
                         } else {
-                            Span::styled(
-                                target_char.to_string(),
-                                Style::default().fg(Color::White),
-                            )
+                            Span::styled(target_char.to_string(), Style::default().fg(Color::White))
                         }
                     } else {
                         Span::raw(" ")
                     }
                 })
                 .collect();
-            
+
             let line = Line::from(spans);
             let line_x = area.x + ((area.width as usize - line_length) / 2) as u16;
-            
+
             let line_area = Rect {
                 x: line_x,
                 y,
                 width: line_length as u16,
                 height: 1,
             };
-            
+
             Paragraph::new(line)
                 .alignment(Alignment::Left)
                 .render(line_area, buf);

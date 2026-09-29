@@ -199,13 +199,31 @@ impl Widget for &ModeSelectWidget {
         let total_lines = 12;
         let start_y = area.y + (area.height - total_lines as u16) / 2;
 
-        let title = Paragraph::new(Line::from("Select Mode").style(Style::default().fg(Color::Cyan)))
-            .alignment(Alignment::Center);
-        title.render(Rect { x: area.x, y: start_y, width: area.width, height: 1 }, buf);
+        let title =
+            Paragraph::new(Line::from("Select Mode").style(Style::default().fg(Color::Cyan)))
+                .alignment(Alignment::Center);
+        title.render(
+            Rect {
+                x: area.x,
+                y: start_y,
+                width: area.width,
+                height: 1,
+            },
+            buf,
+        );
 
-        let mode_label = Paragraph::new(Line::from("Mode:").style(Style::default().fg(Color::White)))
-            .alignment(Alignment::Center);
-        mode_label.render(Rect { x: area.x, y: start_y + 2, width: area.width, height: 1 }, buf);
+        let mode_label =
+            Paragraph::new(Line::from("Mode:").style(Style::default().fg(Color::White)))
+                .alignment(Alignment::Center);
+        mode_label.render(
+            Rect {
+                x: area.x,
+                y: start_y + 2,
+                width: area.width,
+                height: 1,
+            },
+            buf,
+        );
 
         let mode_name = match self.selected_mode() {
             TestMode::Typing => "Typing",
@@ -218,7 +236,15 @@ impl Widget for &ModeSelectWidget {
         };
         Paragraph::new(Line::from(format!("< {} >", mode_name)).style(mode_style))
             .alignment(Alignment::Center)
-            .render(Rect { x: area.x, y: start_y + 3, width: area.width, height: 1 }, buf);
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 3,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
 
         let primary_label_text = match self.selected_mode() {
             TestMode::Typing => "Wordset:",
@@ -230,13 +256,24 @@ impl Widget for &ModeSelectWidget {
                 if self.translation_set_options.is_empty() {
                     "< empty >".to_string()
                 } else {
-                    format!("< {} >", self.translation_set_options[self.translation_set_index])
+                    format!(
+                        "< {} >",
+                        self.translation_set_options[self.translation_set_index]
+                    )
                 }
             }
         };
         Paragraph::new(Line::from(primary_label_text).style(Style::default().fg(Color::White)))
             .alignment(Alignment::Center)
-            .render(Rect { x: area.x, y: start_y + 5, width: area.width, height: 1 }, buf);
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 5,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
 
         let primary_style = match self.active_row {
             ActiveRow::Primary => Style::default().fg(Color::Yellow),
@@ -244,11 +281,28 @@ impl Widget for &ModeSelectWidget {
         };
         Paragraph::new(Line::from(primary_value_text).style(primary_style))
             .alignment(Alignment::Center)
-            .render(Rect { x: area.x, y: start_y + 6, width: area.width, height: 1 }, buf);
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 6,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
 
-        let time_label = Paragraph::new(Line::from("Time:").style(Style::default().fg(Color::White)))
-            .alignment(Alignment::Center);
-        time_label.render(Rect { x: area.x, y: start_y + 8, width: area.width, height: 1 }, buf);
+        let time_label =
+            Paragraph::new(Line::from("Time:").style(Style::default().fg(Color::White)))
+                .alignment(Alignment::Center);
+        time_label.render(
+            Rect {
+                x: area.x,
+                y: start_y + 8,
+                width: area.width,
+                height: 1,
+            },
+            buf,
+        );
 
         let seconds = self.time_options[self.time_index];
         let time_str = if seconds >= 60 {
@@ -267,13 +321,31 @@ impl Widget for &ModeSelectWidget {
             _ => Style::default().fg(Color::White),
         };
         let time_value = Line::from(format!("< {} >", time_str)).style(time_value_style);
-        Paragraph::new(time_value).alignment(Alignment::Center).render(
-            Rect { x: area.x, y: start_y + 9, width: area.width, height: 1 }, buf
-        );
+        Paragraph::new(time_value)
+            .alignment(Alignment::Center)
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 9,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
 
         let hint = Paragraph::new(
-            Line::from("↑ ↓ : select row  ← → : change value  Enter : start  Esc : back").style(Style::default().fg(Color::DarkGray))
-        ).alignment(Alignment::Center);
-        hint.render(Rect { x: area.x, y: start_y + 11, width: area.width, height: 1 }, buf);
+            Line::from("↑ ↓ : select row  ← → : change value  Enter : start  Esc : back")
+                .style(Style::default().fg(Color::DarkGray)),
+        )
+        .alignment(Alignment::Center);
+        hint.render(
+            Rect {
+                x: area.x,
+                y: start_y + 11,
+                width: area.width,
+                height: 1,
+            },
+            buf,
+        );
     }
 }

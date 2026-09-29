@@ -35,8 +35,14 @@ impl ResultWidget {
             time: 0.0,
             selected_index: 0,
             items: vec![
-                ResultItem { text: "Restart".to_string(), action: ResultAction::Restart },
-                ResultItem { text: "Menu".to_string(), action: ResultAction::Menu },
+                ResultItem {
+                    text: "Restart".to_string(),
+                    action: ResultAction::Restart,
+                },
+                ResultItem {
+                    text: "Menu".to_string(),
+                    action: ResultAction::Menu,
+                },
             ],
         }
     }
@@ -46,7 +52,7 @@ impl ResultWidget {
         self.accuracy = accuracy;
         self.time = time;
     }
-    
+
     pub fn handle_input(&mut self, key: KeyEvent) -> Option<ResultAction> {
         use crossterm::event::KeyCode;
         match key.code {
@@ -62,9 +68,7 @@ impl ResultWidget {
                 }
                 None
             }
-            KeyCode::Enter => {
-                Some(self.items[self.selected_index].action.clone())
-            }
+            KeyCode::Enter => Some(self.items[self.selected_index].action.clone()),
             KeyCode::Esc => Some(ResultAction::Menu),
             _ => None,
         }
@@ -80,22 +84,46 @@ impl Widget for &ResultWidget {
         let total_lines = 3 + self.items.len();
         let start_y = area.y + (area.height - total_lines as u16) / 2;
 
-        let wpm_line = Line::from(format!("WPM: {}", self.wpm as u32))
-            .style(Style::default().fg(Color::Cyan));
+        let wpm_line =
+            Line::from(format!("WPM: {}", self.wpm as u32)).style(Style::default().fg(Color::Cyan));
         let acc_line = Line::from(format!("Accuracy: {:.0}%", self.accuracy * 100.0))
             .style(Style::default().fg(Color::Green));
         let time_line = Line::from(format!("Time: {:.1}s", self.time))
             .style(Style::default().fg(Color::Yellow));
 
-        Paragraph::new(wpm_line).alignment(ratatui::layout::Alignment::Center).render(
-            Rect { x: area.x, y: start_y, width: area.width, height: 1 }, buf
-        );
-        Paragraph::new(acc_line).alignment(ratatui::layout::Alignment::Center).render(
-            Rect { x: area.x, y: start_y + 1, width: area.width, height: 1 }, buf
-        );
-        Paragraph::new(time_line).alignment(ratatui::layout::Alignment::Center).render(
-            Rect { x: area.x, y: start_y + 2, width: area.width, height: 1 }, buf
-        );
+        Paragraph::new(wpm_line)
+            .alignment(ratatui::layout::Alignment::Center)
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
+        Paragraph::new(acc_line)
+            .alignment(ratatui::layout::Alignment::Center)
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 1,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
+        Paragraph::new(time_line)
+            .alignment(ratatui::layout::Alignment::Center)
+            .render(
+                Rect {
+                    x: area.x,
+                    y: start_y + 2,
+                    width: area.width,
+                    height: 1,
+                },
+                buf,
+            );
 
         for (i, item) in self.items.iter().enumerate() {
             let line = if i == self.selected_index {
@@ -104,9 +132,17 @@ impl Widget for &ResultWidget {
                 Line::from(format!("  {}", item.text)).style(Style::default().fg(Color::White))
             };
 
-            Paragraph::new(line).alignment(ratatui::layout::Alignment::Center).render(
-                Rect { x: area.x, y: start_y + 4 + i as u16, width: area.width, height: 1 }, buf
-            );
+            Paragraph::new(line)
+                .alignment(ratatui::layout::Alignment::Center)
+                .render(
+                    Rect {
+                        x: area.x,
+                        y: start_y + 4 + i as u16,
+                        width: area.width,
+                        height: 1,
+                    },
+                    buf,
+                );
         }
     }
 }

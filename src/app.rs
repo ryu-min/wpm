@@ -49,6 +49,8 @@ impl App {
             &settings.quick_start_wordset,
             &settings.quick_start_translation_set,
             settings.quick_start_time,
+            &settings.translation_set,
+            settings.translation_time,
         );
 
         Self {
@@ -82,13 +84,12 @@ impl App {
                 }
             }
             terminal.draw(|frame| self.render(frame))?;
-            
-            if event::poll(Duration::from_millis(50))? {
-                if let Event::Key(key) = event::read()? {
-                    if key.kind == KeyEventKind::Press {
-                        self.on_key_event(key);
-                    }
-                }
+
+            if event::poll(Duration::from_millis(50))?
+                && let Event::Key(key) = event::read()?
+                && key.kind == KeyEventKind::Press
+            {
+                self.on_key_event(key);
             }
         }
         Ok(())
@@ -105,7 +106,11 @@ impl App {
     }
 
     fn on_key_event(&mut self, key: KeyEvent) {
-        if key.code == KeyCode::Char('c') && key.modifiers.contains(crossterm::event::KeyModifiers::CONTROL) {
+        if key.code == KeyCode::Char('c')
+            && key
+                .modifiers
+                .contains(crossterm::event::KeyModifiers::CONTROL)
+        {
             self.quit();
             return;
         }
@@ -117,10 +122,14 @@ impl App {
                         crate::menu_widget::MenuAction::QuickStart => {
                             let time = self.config.settings.quick_start_time;
                             if self.config.settings.quick_start_mode == "translation" {
-                                let set_name = self.config.settings.quick_start_translation_set.clone();
-                                if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name) {
+                                let set_name =
+                                    self.config.settings.quick_start_translation_set.clone();
+                                if let Ok(pairs) =
+                                    self.config.get_shuffled_translation_pairs(&set_name)
+                                {
                                     let text = build_translation_target(&pairs);
-                                    self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                    self.typing_widget =
+                                        TypingWidget::new(text).with_time_limit(time as u64);
                                     self.current_mode = TestMode::Translation;
                                     self.current_wordset = None;
                                     self.current_translation_set = Some(set_name);
@@ -129,29 +138,34 @@ impl App {
                                 }
                             } else if let Ok(words) = self.config.quick_start_words() {
                                 let text = words.join(" ");
-                                self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                self.typing_widget =
+                                    TypingWidget::new(text).with_time_limit(time as u64);
                                 self.current_mode = TestMode::Typing;
-                                self.current_wordset = Some(self.config.settings.quick_start_wordset.clone());
+                                self.current_wordset =
+                                    Some(self.config.settings.quick_start_wordset.clone());
                                 self.current_translation_set = None;
                                 self.current_time = Some(time);
                                 self.screen = Screen::Typing;
                             }
                         }
                         crate::menu_widget::MenuAction::Translation => {
-                            let time = self.config.settings.quick_start_time;
-                            let preferred_set = self.config.settings.quick_start_translation_set.clone();
-                            let set_name = if self.config.get_translation_pairs(&preferred_set).is_ok() {
-                                preferred_set
-                            } else {
-                                self.config
-                                    .get_translation_set_names()
-                                    .ok()
-                                    .and_then(|v| v.into_iter().next())
-                                    .unwrap_or_else(|| "ru_en_a1".to_string())
-                            };
-                            if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name) {
+                            let time = self.config.settings.translation_time;
+                            let preferred_set = self.config.settings.translation_set.clone();
+                            let set_name =
+                                if self.config.get_translation_pairs(&preferred_set).is_ok() {
+                                    preferred_set
+                                } else {
+                                    self.config
+                                        .get_translation_set_names()
+                                        .ok()
+                                        .and_then(|v| v.into_iter().next())
+                                        .unwrap_or_else(|| "ru_en_a1".to_string())
+                                };
+                            if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name)
+                            {
                                 let text = build_translation_target(&pairs);
-                                self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                self.typing_widget =
+                                    TypingWidget::new(text).with_time_limit(time as u64);
                                 self.current_mode = TestMode::Translation;
                                 self.current_wordset = None;
                                 self.current_translation_set = Some(set_name);
@@ -172,6 +186,8 @@ impl App {
                                 &settings.quick_start_wordset,
                                 &settings.quick_start_translation_set,
                                 settings.quick_start_time,
+                                &settings.translation_set,
+                                settings.translation_time,
                             );
                             self.screen = Screen::Settings;
                         }
@@ -190,10 +206,12 @@ impl App {
                             self.current_mode = mode;
                             match mode {
                                 TestMode::Typing => {
-                                    let wordset = self.mode_select_widget.selected_wordset().to_string();
+                                    let wordset =
+                                        self.mode_select_widget.selected_wordset().to_string();
                                     if let Ok(words) = self.config.get_shuffled_words(&wordset) {
                                         let text = words.join(" ");
-                                        self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                        self.typing_widget =
+                                            TypingWidget::new(text).with_time_limit(time as u64);
                                         self.current_wordset = Some(wordset);
                                         self.current_translation_set = None;
                                         self.current_time = Some(time);
@@ -201,10 +219,16 @@ impl App {
                                     }
                                 }
                                 TestMode::Translation => {
-                                    let set_name = self.mode_select_widget.selected_translation_set().to_string();
-                                    if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name) {
+                                    let set_name = self
+                                        .mode_select_widget
+                                        .selected_translation_set()
+                                        .to_string();
+                                    if let Ok(pairs) =
+                                        self.config.get_shuffled_translation_pairs(&set_name)
+                                    {
                                         let text = build_translation_target(&pairs);
-                                        self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
+                                        self.typing_widget =
+                                            TypingWidget::new(text).with_time_limit(time as u64);
                                         self.current_wordset = None;
                                         self.current_translation_set = Some(set_name);
                                         self.current_time = Some(time);
@@ -223,10 +247,20 @@ impl App {
                 if let Some(action) = self.settings_widget.handle_input(key) {
                     match action {
                         crate::settings_widget::SettingsAction::Save => {
-                            self.config.settings.quick_start_mode = self.settings_widget.current_mode().to_string();
-                            self.config.settings.quick_start_wordset = self.settings_widget.current_wordset().to_string();
-                            self.config.settings.quick_start_translation_set = self.settings_widget.current_translation_set().to_string();
-                            self.config.settings.quick_start_time = self.settings_widget.current_time();
+                            self.config.settings.quick_start_mode =
+                                self.settings_widget.quick_start_mode().to_string();
+                            self.config.settings.quick_start_wordset =
+                                self.settings_widget.quick_start_wordset().to_string();
+                            self.config.settings.quick_start_translation_set = self
+                                .settings_widget
+                                .quick_start_translation_set()
+                                .to_string();
+                            self.config.settings.quick_start_time =
+                                self.settings_widget.quick_start_time();
+                            self.config.settings.translation_set =
+                                self.settings_widget.translation_set().to_string();
+                            self.config.settings.translation_time =
+                                self.settings_widget.translation_time();
                             self.config.save_settings().ok();
                             self.screen = Screen::Menu;
                         }
@@ -254,19 +288,23 @@ impl App {
                             if let Some(time) = self.current_time {
                                 match self.current_mode {
                                     TestMode::Typing => {
-                                        if let Some(wordset) = &self.current_wordset {
-                                            if let Ok(words) = self.config.get_shuffled_words(wordset) {
-                                                let text = words.join(" ");
-                                                self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
-                                            }
+                                        if let Some(wordset) = &self.current_wordset
+                                            && let Ok(words) =
+                                                self.config.get_shuffled_words(wordset)
+                                        {
+                                            let text = words.join(" ");
+                                            self.typing_widget = TypingWidget::new(text)
+                                                .with_time_limit(time as u64);
                                         }
                                     }
                                     TestMode::Translation => {
-                                        if let Some(set_name) = &self.current_translation_set {
-                                            if let Ok(pairs) = self.config.get_shuffled_translation_pairs(set_name) {
-                                                let text = build_translation_target(&pairs);
-                                                self.typing_widget = TypingWidget::new(text).with_time_limit(time as u64);
-                                            }
+                                        if let Some(set_name) = &self.current_translation_set
+                                            && let Ok(pairs) =
+                                                self.config.get_shuffled_translation_pairs(set_name)
+                                        {
+                                            let text = build_translation_target(&pairs);
+                                            self.typing_widget = TypingWidget::new(text)
+                                                .with_time_limit(time as u64);
                                         }
                                     }
                                 }
