@@ -64,15 +64,15 @@ impl MenuWidget {
         use crossterm::event::KeyCode;
         match key.code {
             KeyCode::Up => {
-                if self.selected_index > 0 {
-                    self.selected_index -= 1;
-                }
+                self.selected_index = if self.selected_index == 0 {
+                    self.items.len() - 1
+                } else {
+                    self.selected_index - 1
+                };
                 None
             }
             KeyCode::Down => {
-                if self.selected_index < self.items.len() - 1 {
-                    self.selected_index += 1;
-                }
+                self.selected_index = (self.selected_index + 1) % self.items.len();
                 None
             }
             KeyCode::Enter => Some(self.items[self.selected_index].action.clone()),
