@@ -2232,6 +2232,7 @@ dependencies = [
  "rusqlite",
  "serde",
  "serde_json",
+ "termwiz",
 ]
 
 [[package]]
