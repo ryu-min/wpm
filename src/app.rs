@@ -51,6 +51,7 @@ impl App {
             settings.quick_start_time,
             &settings.translation_set,
             settings.translation_time,
+            settings.typing_layout_conversion,
         );
 
         Self {
@@ -128,8 +129,9 @@ impl App {
                                     self.config.get_shuffled_translation_pairs(&set_name)
                                 {
                                     let text = build_translation_target(&pairs);
-                                    self.typing_widget =
-                                        TypingWidget::new(text).with_time_limit(time as u64);
+                                    self.typing_widget = TypingWidget::new(text)
+                                        .with_time_limit(time as u64)
+                                        .with_layout_conversion(true);
                                     self.current_mode = TestMode::Translation;
                                     self.current_wordset = None;
                                     self.current_translation_set = Some(set_name);
@@ -138,8 +140,11 @@ impl App {
                                 }
                             } else if let Ok(words) = self.config.quick_start_words() {
                                 let text = words.join(" ");
-                                self.typing_widget =
-                                    TypingWidget::new(text).with_time_limit(time as u64);
+                                self.typing_widget = TypingWidget::new(text)
+                                    .with_time_limit(time as u64)
+                                    .with_layout_conversion(
+                                        self.config.settings.typing_layout_conversion,
+                                    );
                                 self.current_mode = TestMode::Typing;
                                 self.current_wordset =
                                     Some(self.config.settings.quick_start_wordset.clone());
@@ -164,8 +169,9 @@ impl App {
                             if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name)
                             {
                                 let text = build_translation_target(&pairs);
-                                self.typing_widget =
-                                    TypingWidget::new(text).with_time_limit(time as u64);
+                                self.typing_widget = TypingWidget::new(text)
+                                    .with_time_limit(time as u64)
+                                    .with_layout_conversion(true);
                                 self.current_mode = TestMode::Translation;
                                 self.current_wordset = None;
                                 self.current_translation_set = Some(set_name);
@@ -188,6 +194,7 @@ impl App {
                                 settings.quick_start_time,
                                 &settings.translation_set,
                                 settings.translation_time,
+                                settings.typing_layout_conversion,
                             );
                             self.screen = Screen::Settings;
                         }
@@ -210,8 +217,11 @@ impl App {
                                         self.mode_select_widget.selected_wordset().to_string();
                                     if let Ok(words) = self.config.get_shuffled_words(&wordset) {
                                         let text = words.join(" ");
-                                        self.typing_widget =
-                                            TypingWidget::new(text).with_time_limit(time as u64);
+                                        self.typing_widget = TypingWidget::new(text)
+                                            .with_time_limit(time as u64)
+                                            .with_layout_conversion(
+                                                self.config.settings.typing_layout_conversion,
+                                            );
                                         self.current_wordset = Some(wordset);
                                         self.current_translation_set = None;
                                         self.current_time = Some(time);
@@ -227,8 +237,9 @@ impl App {
                                         self.config.get_shuffled_translation_pairs(&set_name)
                                     {
                                         let text = build_translation_target(&pairs);
-                                        self.typing_widget =
-                                            TypingWidget::new(text).with_time_limit(time as u64);
+                                        self.typing_widget = TypingWidget::new(text)
+                                            .with_time_limit(time as u64)
+                                            .with_layout_conversion(true);
                                         self.current_wordset = None;
                                         self.current_translation_set = Some(set_name);
                                         self.current_time = Some(time);
@@ -261,6 +272,8 @@ impl App {
                                 self.settings_widget.translation_set().to_string();
                             self.config.settings.translation_time =
                                 self.settings_widget.translation_time();
+                            self.config.settings.typing_layout_conversion =
+                                self.settings_widget.typing_layout_conversion();
                             self.config.save_settings().ok();
                             self.screen = Screen::Menu;
                         }
@@ -294,7 +307,10 @@ impl App {
                                         {
                                             let text = words.join(" ");
                                             self.typing_widget = TypingWidget::new(text)
-                                                .with_time_limit(time as u64);
+                                                .with_time_limit(time as u64)
+                                                .with_layout_conversion(
+                                                    self.config.settings.typing_layout_conversion,
+                                                );
                                         }
                                     }
                                     TestMode::Translation => {
@@ -304,7 +320,8 @@ impl App {
                                         {
                                             let text = build_translation_target(&pairs);
                                             self.typing_widget = TypingWidget::new(text)
-                                                .with_time_limit(time as u64);
+                                                .with_time_limit(time as u64)
+                                                .with_layout_conversion(true);
                                         }
                                     }
                                 }

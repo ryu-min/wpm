@@ -14,6 +14,8 @@ pub struct Settings {
     pub translation_time: u32,
     #[serde(default = "default_translation_set")]
     pub translation_set: String,
+    #[serde(default)]
+    pub typing_layout_conversion: bool,
 }
 
 impl Default for Settings {
@@ -25,6 +27,7 @@ impl Default for Settings {
             quick_start_translation_set: default_quick_start_translation_set(),
             translation_time: default_translation_time(),
             translation_set: default_translation_set(),
+            typing_layout_conversion: false,
         }
     }
 }

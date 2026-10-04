@@ -17,6 +17,7 @@ pub enum SettingsAction {
 enum SettingsSection {
     QuickStart,
     Translation,
+    Typing,
 }
 
 #[derive(Debug)]
@@ -29,6 +30,7 @@ pub struct SettingsWidget {
     quick_start_time_index: usize,
     translation_set_index: usize,
     translation_time_index: usize,
+    typing_layout_conversion: bool,
     mode_options: Vec<String>,
     wordset_options: Vec<String>,
     translation_set_options: Vec<String>,
@@ -46,6 +48,7 @@ impl SettingsWidget {
         current_quick_start_time: u32,
         current_translation_set: &str,
         current_translation_time: u32,
+        typing_layout_conversion: bool,
     ) -> Self {
         let times: Vec<u32> = vec![15, 30, 45, 60, 90, 120, 180, 300];
         let mode_options = vec!["typing".to_string(), "translation".to_string()];
@@ -89,6 +92,7 @@ impl SettingsWidget {
             quick_start_time_index,
             translation_set_index,
             translation_time_index,
+            typing_layout_conversion,
             mode_options,
             wordset_options: wordset_names,
             translation_set_options: translation_set_names,
@@ -135,13 +139,16 @@ impl SettingsWidget {
         match self.section {
             SettingsSection::QuickStart => 4,
             SettingsSection::Translation => 3,
+            SettingsSection::Typing => 2,
         }
     }
 
     fn switch_section(&mut self, delta: i32) {
         self.section = match (self.section, delta) {
             (SettingsSection::QuickStart, d) if d > 0 => SettingsSection::Translation,
+            (SettingsSection::Translation, d) if d > 0 => SettingsSection::Typing,
             (SettingsSection::Translation, d) if d < 0 => SettingsSection::QuickStart,
+            (SettingsSection::Typing, d) if d < 0 => SettingsSection::Translation,
             (s, _) => s,
         };
         let max = self.row_count().saturating_sub(1);
@@ -204,7 +211,18 @@ impl SettingsWidget {
                 ),
                 _ => {}
             },
+            SettingsSection::Typing => {
+                if self.active_row == 0 {
+                    self.switch_section(delta);
+                } else if self.active_row == 1 {
+                    self.typing_layout_conversion = delta > 0;
+                }
+            }
         }
+    }
+
+    pub fn typing_layout_conversion(&self) -> bool {
+        self.typing_layout_conversion
     }
 
     pub fn quick_start_mode(&self) -> &str {
@@ -297,6 +315,7 @@ impl Widget for &SettingsWidget {
         let section_text = match self.section {
             SettingsSection::QuickStart => "Quick Start",
             SettingsSection::Translation => "Translation",
+            SettingsSection::Typing => "Typing",
         };
         let section_style = if self.active_row == 0 {
             Style::default().fg(Color::Yellow)
@@ -482,6 +501,43 @@ impl Widget for &SettingsWidget {
                     },
                     buf,
                 );
+            }
+            SettingsSection::Typing => {
+                Paragraph::new(
+                    Line::from("Layout conversion:").style(Style::default().fg(Color::White)),
+                )
+                .alignment(Alignment::Center)
+                .render(
+                    Rect {
+                        x: area.x,
+                        y: start_y + 5,
+                        width: area.width,
+                        height: 1,
+                    },
+                    buf,
+                );
+
+                let value = if self.typing_layout_conversion {
+                    "On"
+                } else {
+                    "Off"
+                };
+                let style = if self.active_row == 1 {
+                    Style::default().fg(Color::Yellow)
+                } else {
+                    Style::default().fg(Color::White)
+                };
+                Paragraph::new(Line::from(format!("< {value} >")).style(style))
+                    .alignment(Alignment::Center)
+                    .render(
+                        Rect {
+                            x: area.x,
+                            y: start_y + 6,
+                            width: area.width,
+                            height: 1,
+                        },
+                        buf,
+                    );
             }
         }
 

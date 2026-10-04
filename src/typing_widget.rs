@@ -20,6 +20,7 @@ pub struct TypingWidget {
     pub elapsed: f64,
     time_limit: Option<u64>,
     last_stats_update: Option<std::time::Instant>,
+    layout_conversion: bool,
 }
 
 const STATS_UPDATE_INTERVAL_MS: u64 = 100;
@@ -34,11 +35,17 @@ impl TypingWidget {
             elapsed: 0.0,
             time_limit: None,
             last_stats_update: None,
+            layout_conversion: false,
         }
     }
 
     pub fn with_time_limit(mut self, seconds: u64) -> Self {
         self.time_limit = Some(seconds);
+        self
+    }
+
+    pub fn with_layout_conversion(mut self, enabled: bool) -> Self {
+        self.layout_conversion = enabled;
         self
     }
 
@@ -75,8 +82,9 @@ impl TypingWidget {
             .chars()
             .nth(self.input_text.chars().count());
         let interpreted = match expected {
-            Some(target) => interpret_char_for_target_layout(ch, target),
+            Some(target) if self.layout_conversion => interpret_char_for_target_layout(ch, target),
             None => ch,
+            Some(_) => ch,
         };
         self.input_text.push(interpreted);
         self.start_timer_if_needed();
@@ -151,7 +159,7 @@ impl TypingWidget {
         {
             return true;
         }
-        self.input_text.len() >= self.target_text.len()
+        self.input_text.chars().count() >= self.target_text.chars().count()
     }
 
     pub fn get_accuracy(&self) -> f64 {
@@ -172,93 +180,72 @@ impl TypingWidget {
     }
 }
 
-fn is_cyrillic(ch: char) -> bool {
-    ('а'..='я').contains(&ch) || ('А'..='Я').contains(&ch) || ch == 'ё' || ch == 'Ё'
-}
-
 fn interpret_char_for_target_layout(input: char, target: char) -> char {
-    if target.is_ascii_alphabetic() && is_cyrillic(input) {
-        map_ru_to_en_qwerty(input)
-    } else if is_cyrillic(target) && input.is_ascii_alphabetic() {
-        map_en_to_ru_qwerty(input)
-    } else {
-        input
+    if input == target {
+        return input;
     }
+
+    for &(russian, english) in LAYOUT_PAIRS {
+        let russian_upper = russian.to_uppercase().next().unwrap();
+        let english_upper = shifted_english_key(english);
+        if (input == english && target == russian)
+            || (input == russian && target == english)
+            || (input == english_upper && target == russian_upper)
+            || (input == russian_upper && target == english_upper)
+        {
+            return target;
+        }
+    }
+
+    input
 }
 
-fn map_en_to_ru_qwerty(ch: char) -> char {
-    match ch.to_ascii_lowercase() {
-        'q' => 'й',
-        'w' => 'ц',
-        'e' => 'у',
-        'r' => 'к',
-        't' => 'е',
-        'y' => 'н',
-        'u' => 'г',
-        'i' => 'ш',
-        'o' => 'щ',
-        'p' => 'з',
-        '[' => 'х',
-        ']' => 'ъ',
-        'a' => 'ф',
-        's' => 'ы',
-        'd' => 'в',
-        'f' => 'а',
-        'g' => 'п',
-        'h' => 'р',
-        'j' => 'о',
-        'k' => 'л',
-        'l' => 'д',
-        ';' => 'ж',
-        '\'' => 'э',
-        'z' => 'я',
-        'x' => 'ч',
-        'c' => 'с',
-        'v' => 'м',
-        'b' => 'и',
-        'n' => 'т',
-        'm' => 'ь',
-        ',' => 'б',
-        '.' => 'ю',
-        _ => ch,
-    }
-}
+const LAYOUT_PAIRS: &[(char, char)] = &[
+    ('й', 'q'),
+    ('ц', 'w'),
+    ('у', 'e'),
+    ('к', 'r'),
+    ('е', 't'),
+    ('н', 'y'),
+    ('г', 'u'),
+    ('ш', 'i'),
+    ('щ', 'o'),
+    ('з', 'p'),
+    ('х', '['),
+    ('ъ', ']'),
+    ('ф', 'a'),
+    ('ы', 's'),
+    ('в', 'd'),
+    ('а', 'f'),
+    ('п', 'g'),
+    ('р', 'h'),
+    ('о', 'j'),
+    ('л', 'k'),
+    ('д', 'l'),
+    ('ж', ';'),
+    ('э', '\''),
+    ('я', 'z'),
+    ('ч', 'x'),
+    ('с', 'c'),
+    ('м', 'v'),
+    ('и', 'b'),
+    ('т', 'n'),
+    ('ь', 'm'),
+    ('б', ','),
+    ('ю', '.'),
+    ('ё', '`'),
+];
 
-fn map_ru_to_en_qwerty(ch: char) -> char {
-    match ch.to_ascii_lowercase() {
-        'й' => 'q',
-        'ц' => 'w',
-        'у' => 'e',
-        'к' => 'r',
-        'е' => 't',
-        'н' => 'y',
-        'г' => 'u',
-        'ш' => 'i',
-        'щ' => 'o',
-        'з' => 'p',
-        'х' => '[',
-        'ъ' => ']',
-        'ф' => 'a',
-        'ы' => 's',
-        'в' => 'd',
-        'а' => 'f',
-        'п' => 'g',
-        'р' => 'h',
-        'о' => 'j',
-        'л' => 'k',
-        'д' => 'l',
-        'ж' => ';',
-        'э' => '\'',
-        'я' => 'z',
-        'ч' => 'x',
-        'с' => 'c',
-        'м' => 'v',
-        'и' => 'b',
-        'т' => 'n',
-        'ь' => 'm',
-        'б' => ',',
-        'ю' => '.',
-        _ => ch,
+fn shifted_english_key(key: char) -> char {
+    match key {
+        '[' => '{',
+        ']' => '}',
+        ';' => ':',
+        '\'' => '"',
+        ',' => '<',
+        '.' => '>',
+        '`' => '~',
+        _ => key.to_ascii_uppercase(),
     }
 }
 

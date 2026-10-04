@@ -131,3 +131,93 @@ fn translation_result_can_restart() {
         run.screens[4]
     );
 }
+
+const RUSSIAN_KEY_PAIRS: [(char, char); 33] = [
+    ('а', 'f'),
+    ('б', ','),
+    ('в', 'd'),
+    ('г', 'u'),
+    ('д', 'l'),
+    ('е', 't'),
+    ('ё', '`'),
+    ('ж', ';'),
+    ('з', 'p'),
+    ('и', 'b'),
+    ('й', 'q'),
+    ('к', 'r'),
+    ('л', 'k'),
+    ('м', 'v'),
+    ('н', 'y'),
+    ('о', 'j'),
+    ('п', 'g'),
+    ('р', 'h'),
+    ('с', 'c'),
+    ('т', 'n'),
+    ('у', 'e'),
+    ('ф', 'a'),
+    ('х', '['),
+    ('ц', 'w'),
+    ('ч', 'x'),
+    ('ш', 'i'),
+    ('щ', 'o'),
+    ('ъ', ']'),
+    ('ы', 's'),
+    ('ь', 'm'),
+    ('э', '\''),
+    ('ю', '.'),
+    ('я', 'z'),
+];
+
+#[test]
+fn layout_translation_accepts_mac_semicolon_for_zhe() {
+    let data_dir = TestDataDir::new();
+    data_dir.seed_wordset(TEST_WORD);
+    data_dir.seed_translation("ж", "x");
+
+    let run = run_wpm_capture(&[DOWN, ENTER, b"; x", ESC, ESC], data_dir.as_ref());
+    assert!(
+        run.screens[2].contains(PERFECT_ACCURACY),
+        "semicolon must count as Russian ж\nscreen:\n{}",
+        run.screens[2]
+    );
+}
+
+#[test]
+fn layout_translation_accepts_all_russian_letters_from_english_keys() {
+    let data_dir = TestDataDir::new();
+    data_dir.seed_wordset(TEST_WORD);
+    let russian: String = RUSSIAN_KEY_PAIRS.iter().map(|(ru, _)| ru).collect();
+    let english: String = RUSSIAN_KEY_PAIRS.iter().map(|(_, en)| en).collect();
+    data_dir.seed_translation(&russian, "x");
+    let input = format!("{english} x");
+
+    let run = run_wpm_capture(
+        &[DOWN, ENTER, input.as_bytes(), ESC, ESC],
+        data_dir.as_ref(),
+    );
+    assert!(
+        run.screens[2].contains(PERFECT_ACCURACY),
+        "all 33 Russian letters must map from English keys\nscreen:\n{}",
+        run.screens[2]
+    );
+}
+
+#[test]
+fn layout_translation_accepts_all_english_keys_from_russian_letters() {
+    let data_dir = TestDataDir::new();
+    data_dir.seed_wordset(TEST_WORD);
+    let russian: String = RUSSIAN_KEY_PAIRS.iter().map(|(ru, _)| ru).collect();
+    let english: String = RUSSIAN_KEY_PAIRS.iter().map(|(_, en)| en).collect();
+    data_dir.seed_translation("ж", &english);
+    let input = format!("ж {russian}");
+
+    let run = run_wpm_capture(
+        &[DOWN, ENTER, input.as_bytes(), ESC, ESC],
+        data_dir.as_ref(),
+    );
+    assert!(
+        run.screens[2].contains(PERFECT_ACCURACY),
+        "all English keys must map from Russian letters\nscreen:\n{}",
+        run.screens[2]
+    );
+}
