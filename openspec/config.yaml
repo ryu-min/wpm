@@ -1,32 +1,11 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
-
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
-
-# Per-operation guidance (optional)
-# Add advisory guidance for how apply and archive work should be conducted.
-# This is separate from artifact rules above.
-# Example:
-#   operations:
-#     apply:
-#       guidance:
-#         - Keep test summaries concise
-#     archive:
-#       guidance:
-#         - Summarize the archive outcome before finishing
+context: |
+  wpm is a Rust 2024 terminal application built with Ratatui and Crossterm.
+  It offers timed typing and Russian-to-English translation exercises, a mode
+  selector, settings, and a result screen with speed and accuracy statistics.
+  Application state and screen transitions live in src/app.rs; screen widgets
+  live in src/*_widget.rs. src/configuration.rs stores settings as JSON and
+  word and translation sets in SQLite. Bundled exercise data lives in resources/.
+  Integration tests in tests/ drive the terminal through a pseudo-terminal.
+  Run cargo test to verify behavior after implementation changes.

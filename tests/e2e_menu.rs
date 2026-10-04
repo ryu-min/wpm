@@ -4,14 +4,14 @@ mod common;
 
 use common::{
     CTRL_C, DOWN, ENTER, ESC, EXIT, MENU_LABELS, QUICK_START, SELECT_MODE, SETTINGS, TRANSLATION,
-    TestDataDir, UP, run_wmp_capture, run_wmp_with_keys,
+    TestDataDir, UP, run_wpm_capture, run_wpm_with_keys,
 };
 
 #[test]
 fn menu_shows_all_actions_and_exits_on_escape() {
     let data_dir = TestDataDir::new();
 
-    let stdout = run_wmp_with_keys(&[ESC], data_dir.as_ref());
+    let stdout = run_wpm_with_keys(&[ESC], data_dir.as_ref());
     for label in MENU_LABELS {
         assert!(
             stdout.contains(label),
@@ -28,7 +28,7 @@ fn menu_shows_all_actions_and_exits_on_escape() {
 fn menu_selection_moves_in_both_directions_and_wraps() {
     let data_dir = TestDataDir::new();
 
-    let stdout = run_wmp_with_keys(
+    let stdout = run_wpm_with_keys(
         &[
             UP, DOWN, DOWN, DOWN, DOWN, DOWN, DOWN, UP, UP, UP, UP, UP, ESC,
         ],
@@ -62,7 +62,7 @@ fn menu_selection_moves_in_both_directions_and_wraps() {
 #[test]
 fn menu_exit_action_closes_application() {
     let data_dir = TestDataDir::new();
-    let run = run_wmp_capture(&[UP, ENTER], data_dir.as_ref());
+    let run = run_wpm_capture(&[UP, ENTER], data_dir.as_ref());
 
     assert!(
         run.screens[0].contains("> Exit"),
@@ -74,5 +74,5 @@ fn menu_exit_action_closes_application() {
 #[test]
 fn control_c_closes_application() {
     let data_dir = TestDataDir::new();
-    run_wmp_with_keys(&[CTRL_C], data_dir.as_ref());
+    run_wpm_with_keys(&[CTRL_C], data_dir.as_ref());
 }

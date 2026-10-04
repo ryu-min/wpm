@@ -4,14 +4,14 @@ mod common;
 
 use common::{
     DOWN, ENTER, ESC, TEST_SOURCE, TEST_TRANSLATION, TEST_TRANSLATION_TEXT, TEST_WORD, TestDataDir,
-    run_wmp_capture,
+    run_wpm_capture,
 };
 
 #[test]
 fn quick_start_shows_target_and_escape_returns_to_menu() {
     let data_dir = TestDataDir::new();
     data_dir.seed_wordset(TEST_WORD);
-    let run = run_wmp_capture(&[ENTER, ESC, ESC], data_dir.as_ref());
+    let run = run_wpm_capture(&[ENTER, ESC, ESC], data_dir.as_ref());
     let typing_screen = &run.screens[0];
 
     assert!(
@@ -34,7 +34,7 @@ fn translation_starts_from_menu() {
     let data_dir = TestDataDir::new();
     data_dir.seed_wordset(TEST_WORD);
     data_dir.seed_translation(TEST_SOURCE, TEST_TRANSLATION);
-    let run = run_wmp_capture(&[DOWN, ENTER, ESC, ESC], data_dir.as_ref());
+    let run = run_wpm_capture(&[DOWN, ENTER, ESC, ESC], data_dir.as_ref());
     let typing_screen = &run.screens[1];
 
     assert!(

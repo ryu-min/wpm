@@ -80,7 +80,7 @@ impl Configuration {
     }
 
     fn data_dir() -> PathBuf {
-        if let Some(path) = std::env::var_os("WMP_DATA_DIR")
+        if let Some(path) = std::env::var_os("WPM_DATA_DIR")
             && !path.is_empty()
         {
             return PathBuf::from(path);

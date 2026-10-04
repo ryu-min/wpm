@@ -43,15 +43,15 @@ pub struct TestRun {
     pub screens: Vec<String>,
 }
 
-pub fn run_wmp_with_keys(keys: &[&[u8]], data_dir: &Path) -> String {
-    run_wmp_capture(keys, data_dir).transcript
+pub fn run_wpm_with_keys(keys: &[&[u8]], data_dir: &Path) -> String {
+    run_wpm_capture(keys, data_dir).transcript
 }
 
-pub fn run_wmp_capture(keys: &[&[u8]], data_dir: &Path) -> TestRun {
-    run_wmp_capture_with_pause(keys, data_dir, None)
+pub fn run_wpm_capture(keys: &[&[u8]], data_dir: &Path) -> TestRun {
+    run_wpm_capture_with_pause(keys, data_dir, None)
 }
 
-pub fn run_wmp_capture_with_pause(
+pub fn run_wpm_capture_with_pause(
     keys: &[&[u8]],
     data_dir: &Path,
     pause_after: Option<(usize, Duration)>,
@@ -59,8 +59,8 @@ pub fn run_wmp_capture_with_pause(
     let mut command = script_command();
     command
         .env("TERM", "xterm-256color")
-        .env("WMP_BIN", env!("CARGO_BIN_EXE_wmp"))
-        .env("WMP_DATA_DIR", data_dir)
+        .env("WPM_BIN", env!("CARGO_BIN_EXE_wpm"))
+        .env("WPM_DATA_DIR", data_dir)
         .stdin(Stdio::piped())
         .stdout(Stdio::piped())
         .stderr(Stdio::piped());
@@ -162,13 +162,13 @@ fn script_command() -> Command {
             .arg("/dev/null")
             .arg("sh")
             .arg("-c")
-            .arg("stty rows 24 cols 80; exec \"$WMP_BIN\"");
+            .arg("stty rows 24 cols 80; exec \"$WPM_BIN\"");
     } else {
         command
             .arg("-q")
             .arg("-e")
             .arg("-c")
-            .arg("stty rows 24 cols 80; exec \"$WMP_BIN\"")
+            .arg("stty rows 24 cols 80; exec \"$WPM_BIN\"")
             .arg("/dev/null");
     }
 
@@ -219,7 +219,7 @@ impl TestDataDir {
             .expect("system time is before unix epoch")
             .as_nanos();
         let id = NEXT_DIR_ID.fetch_add(1, Ordering::Relaxed);
-        path.push(format!("wmp-e2e-{}-{nonce}-{id}", std::process::id()));
+        path.push(format!("wpm-e2e-{}-{nonce}-{id}", std::process::id()));
         fs::create_dir(&path).expect("failed to create temporary data dir");
 
         Self { path }

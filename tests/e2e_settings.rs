@@ -4,13 +4,13 @@ mod common;
 
 use common::{
     DOWN, ENTER, ESC, RIGHT, SETTINGS, TEST_SOURCE, TEST_TRANSLATION, TEST_TRANSLATION_TEXT,
-    TEST_WORD, TestDataDir, run_wmp_capture, run_wmp_with_keys,
+    TEST_WORD, TestDataDir, run_wpm_capture, run_wpm_with_keys,
 };
 
 #[test]
 fn settings_show_both_sections() {
     let data_dir = TestDataDir::new();
-    let run = run_wmp_capture(
+    let run = run_wpm_capture(
         &[DOWN, DOWN, DOWN, ENTER, RIGHT, ESC, ESC],
         data_dir.as_ref(),
     );
@@ -45,10 +45,12 @@ fn settings_save_and_load_on_next_launch() {
     let change_settings = [
         DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, DOWN, RIGHT, DOWN, RIGHT, ENTER, ESC,
     ];
-    run_wmp_with_keys(&change_settings, data_dir.as_ref());
+    run_wpm_with_keys(&change_settings, data_dir.as_ref());
+    assert!(data_dir.as_ref().join("wordset.db").is_file());
+    assert!(data_dir.as_ref().join("settings.json").is_file());
 
     let reopen_settings = [DOWN, DOWN, DOWN, ENTER, ESC, ESC];
-    let run = run_wmp_capture(&reopen_settings, data_dir.as_ref());
+    let run = run_wpm_capture(&reopen_settings, data_dir.as_ref());
     let screen = &run.screens[3];
 
     for value in [
@@ -69,7 +71,7 @@ fn escape_discards_unsaved_settings() {
     let data_dir = TestDataDir::new();
     let keys = [DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ESC, ENTER, ESC, ESC];
 
-    let run = run_wmp_capture(&keys, data_dir.as_ref());
+    let run = run_wpm_capture(&keys, data_dir.as_ref());
 
     assert!(
         run.screens[7].contains("< typing >"),
@@ -84,9 +86,9 @@ fn translation_settings_save_independently() {
     let keys = [
         DOWN, DOWN, DOWN, ENTER, RIGHT, DOWN, RIGHT, DOWN, RIGHT, ENTER, ESC,
     ];
-    run_wmp_with_keys(&keys, data_dir.as_ref());
+    run_wpm_with_keys(&keys, data_dir.as_ref());
 
-    let reopen = run_wmp_capture(
+    let reopen = run_wpm_capture(
         &[DOWN, DOWN, DOWN, ENTER, RIGHT, ESC, ESC],
         data_dir.as_ref(),
     );
@@ -110,7 +112,7 @@ fn saved_quick_start_translation_is_used() {
         DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, ENTER, ESC, ESC,
     ];
 
-    let run = run_wmp_capture(&keys, data_dir.as_ref());
+    let run = run_wpm_capture(&keys, data_dir.as_ref());
     let screen = &run.screens[9];
     assert!(
         screen.contains(TEST_TRANSLATION_TEXT),
@@ -121,12 +123,12 @@ fn saved_quick_start_translation_is_used() {
 #[test]
 fn quick_start_wordset_can_be_changed_and_saved() {
     let data_dir = TestDataDir::new();
-    run_wmp_with_keys(
+    run_wpm_with_keys(
         &[DOWN, DOWN, DOWN, ENTER, DOWN, DOWN, RIGHT, ENTER, ESC],
         data_dir.as_ref(),
     );
 
-    let run = run_wmp_capture(&[DOWN, DOWN, DOWN, ENTER, ESC, ESC], data_dir.as_ref());
+    let run = run_wpm_capture(&[DOWN, DOWN, DOWN, ENTER, ESC, ESC], data_dir.as_ref());
     assert!(
         run.screens[3].contains("< en_10000 >"),
         "expected saved wordset\nscreen:\n{}",

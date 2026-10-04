@@ -1,7 +1,7 @@
 [package]
-name = "wmp"
+name = "wpm"
 version = "0.1.0"
-description = "An example generated using the simple template"
+description = "Terminal typing and translation practice with speed and accuracy tracking"
 authors = ["ryu-min <SergeyR6@yandex.ru>"]
 license = "MIT"
 edition = "2024"
