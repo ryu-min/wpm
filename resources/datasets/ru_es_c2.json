@@ -1,0 +1,4859 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_c2",
+  "description": "Испанские слова ru_es_c2",
+  "profile": "spanish-words",
+  "level": "c2",
+  "entries": [
+    {
+      "id": "ru_es_c2:abducción",
+      "ru": "абдуктивное умозаключение",
+      "target": "abducción"
+    },
+    {
+      "id": "ru_es_c2:abstraccionismo",
+      "ru": "абстракционизм",
+      "target": "abstraccionismo"
+    },
+    {
+      "id": "ru_es_c2:absurdismo",
+      "ru": "философия абсурда",
+      "target": "absurdismo"
+    },
+    {
+      "id": "ru_es_c2:academicismo",
+      "ru": "академизм",
+      "target": "academicismo"
+    },
+    {
+      "id": "ru_es_c2:acmé",
+      "ru": "высшая точка развития",
+      "target": "acmé"
+    },
+    {
+      "id": "ru_es_c2:acontecer",
+      "ru": "происходить",
+      "target": "acontecer"
+    },
+    {
+      "id": "ru_es_c2:acuciosidad",
+      "ru": "дотошность",
+      "target": "acuciosidad"
+    },
+    {
+      "id": "ru_es_c2:adagio",
+      "ru": "крылатое изречение",
+      "target": "adagio"
+    },
+    {
+      "id": "ru_es_c2:adamantino",
+      "ru": "несокрушимый",
+      "target": "adamantino"
+    },
+    {
+      "id": "ru_es_c2:aditamento",
+      "ru": "дополнение",
+      "target": "aditamento"
+    },
+    {
+      "id": "ru_es_c2:adyuvante",
+      "ru": "вспомогательное средство",
+      "target": "adyuvante"
+    },
+    {
+      "id": "ru_es_c2:aforismo",
+      "ru": "афоризм",
+      "target": "aforismo"
+    },
+    {
+      "id": "ru_es_c2:agnosticismo",
+      "ru": "агностицизм",
+      "target": "agnosticismo"
+    },
+    {
+      "id": "ru_es_c2:agnóstico",
+      "ru": "агностик",
+      "target": "agnóstico"
+    },
+    {
+      "id": "ru_es_c2:agonía",
+      "ru": "агония",
+      "target": "agonía"
+    },
+    {
+      "id": "ru_es_c2:agudeza",
+      "ru": "острота ума",
+      "target": "agudeza"
+    },
+    {
+      "id": "ru_es_c2:ahínco",
+      "ru": "рвение",
+      "target": "ahínco"
+    },
+    {
+      "id": "ru_es_c2:albedrío",
+      "ru": "свободное усмотрение",
+      "target": "albedrío"
+    },
+    {
+      "id": "ru_es_c2:alcurnia",
+      "ru": "знатное происхождение",
+      "target": "alcurnia"
+    },
+    {
+      "id": "ru_es_c2:alevosía",
+      "ru": "вероломство",
+      "target": "alevosía"
+    },
+    {
+      "id": "ru_es_c2:algarabía",
+      "ru": "шумный говор",
+      "target": "algarabía"
+    },
+    {
+      "id": "ru_es_c2:alocución",
+      "ru": "краткая торжественная речь",
+      "target": "alocución"
+    },
+    {
+      "id": "ru_es_c2:altruista",
+      "ru": "альтруист",
+      "target": "altruista"
+    },
+    {
+      "id": "ru_es_c2:ambages",
+      "ru": "словесные обходы",
+      "target": "ambages"
+    },
+    {
+      "id": "ru_es_c2:ambrosía",
+      "ru": "амброзия",
+      "target": "ambrosía"
+    },
+    {
+      "id": "ru_es_c2:anacoreta",
+      "ru": "отшельник",
+      "target": "anacoreta"
+    },
+    {
+      "id": "ru_es_c2:anagógico",
+      "ru": "иносказательно духовный",
+      "target": "anagógico"
+    },
+    {
+      "id": "ru_es_c2:analectas",
+      "ru": "избранные отрывки",
+      "target": "analectas"
+    },
+    {
+      "id": "ru_es_c2:analepsis",
+      "ru": "повествовательный возврат в прошлое",
+      "target": "analepsis"
+    },
+    {
+      "id": "ru_es_c2:anamnesis",
+      "ru": "анамнез",
+      "target": "anamnesis"
+    },
+    {
+      "id": "ru_es_c2:anatematizar",
+      "ru": "предавать анафеме",
+      "target": "anatematizar"
+    },
+    {
+      "id": "ru_es_c2:anatema",
+      "ru": "проклятие",
+      "target": "anatema"
+    },
+    {
+      "id": "ru_es_c2:anomia",
+      "ru": "распад социальных норм",
+      "target": "anomia"
+    },
+    {
+      "id": "ru_es_c2:antinomia",
+      "ru": "антиномия",
+      "target": "antinomia"
+    },
+    {
+      "id": "ru_es_c2:antropocentrismo",
+      "ru": "антропоцентризм",
+      "target": "antropocentrismo"
+    },
+    {
+      "id": "ru_es_c2:antropomorfismo",
+      "ru": "антропоморфизм",
+      "target": "antropomorfismo"
+    },
+    {
+      "id": "ru_es_c2:apodíctico",
+      "ru": "безусловно достоверный",
+      "target": "apodíctico"
+    },
+    {
+      "id": "ru_es_c2:apócrifo",
+      "ru": "недостоверно приписанный",
+      "target": "apócrifo"
+    },
+    {
+      "id": "ru_es_c2:apofonía",
+      "ru": "чередование гласных",
+      "target": "apofonía"
+    },
+    {
+      "id": "ru_es_c2:aporía",
+      "ru": "неразрешимое логическое затруднение",
+      "target": "aporía"
+    },
+    {
+      "id": "ru_es_c2:apoteosis",
+      "ru": "торжественное прославление",
+      "target": "apoteosis"
+    },
+    {
+      "id": "ru_es_c2:aprehensión",
+      "ru": "мысленное постижение",
+      "target": "aprehensión"
+    },
+    {
+      "id": "ru_es_c2:arbitrista",
+      "ru": "автор проектов реформ",
+      "target": "arbitrista"
+    },
+    {
+      "id": "ru_es_c2:arcano",
+      "ru": "сокровенная тайна",
+      "target": "arcano"
+    },
+    {
+      "id": "ru_es_c2:areópago",
+      "ru": "собрание авторитетных лиц",
+      "target": "areópago"
+    },
+    {
+      "id": "ru_es_c2:aristotelismo",
+      "ru": "аристотелизм",
+      "target": "aristotelismo"
+    },
+    {
+      "id": "ru_es_c2:ascetismo",
+      "ru": "аскетизм",
+      "target": "ascetismo"
+    },
+    {
+      "id": "ru_es_c2:asepsia",
+      "ru": "отсутствие микробного загрязнения",
+      "target": "asepsia"
+    },
+    {
+      "id": "ru_es_c2:aséptico",
+      "ru": "асептический",
+      "target": "aséptico"
+    },
+    {
+      "id": "ru_es_c2:ataraxia",
+      "ru": "невозмутимость",
+      "target": "ataraxia"
+    },
+    {
+      "id": "ru_es_c2:atavismo",
+      "ru": "атавизм",
+      "target": "atavismo"
+    },
+    {
+      "id": "ru_es_c2:atomismo",
+      "ru": "атомизм",
+      "target": "atomismo"
+    },
+    {
+      "id": "ru_es_c2:aura",
+      "ru": "особое обаяние",
+      "target": "aura"
+    },
+    {
+      "id": "ru_es_c2:autarquía",
+      "ru": "экономическая самодостаточность",
+      "target": "autarquía"
+    },
+    {
+      "id": "ru_es_c2:axiología",
+      "ru": "учение о ценностях",
+      "target": "axiología"
+    },
+    {
+      "id": "ru_es_c2:axiomático",
+      "ru": "аксиоматический",
+      "target": "axiomático"
+    },
+    {
+      "id": "ru_es_c2:baladí",
+      "ru": "малозначительный",
+      "target": "baladí"
+    },
+    {
+      "id": "ru_es_c2:barbarismo",
+      "ru": "неправильное иностранное заимствование",
+      "target": "barbarismo"
+    },
+    {
+      "id": "ru_es_c2:barroquismo",
+      "ru": "вычурность стиля",
+      "target": "barroquismo"
+    },
+    {
+      "id": "ru_es_c2:belicismo",
+      "ru": "милитаристская идеология",
+      "target": "belicismo"
+    },
+    {
+      "id": "ru_es_c2:beodez",
+      "ru": "опьянение",
+      "target": "beodez"
+    },
+    {
+      "id": "ru_es_c2:bisoño",
+      "ru": "неопытный",
+      "target": "bisoño"
+    },
+    {
+      "id": "ru_es_c2:boato",
+      "ru": "пышность",
+      "target": "boato"
+    },
+    {
+      "id": "ru_es_c2:brío",
+      "ru": "живость",
+      "target": "brío"
+    },
+    {
+      "id": "ru_es_c2:burlesco",
+      "ru": "шутливо насмешливый",
+      "target": "burlesco"
+    },
+    {
+      "id": "ru_es_c2:cadencia",
+      "ru": "ритмическое завершение",
+      "target": "cadencia"
+    },
+    {
+      "id": "ru_es_c2:calambur",
+      "ru": "игра слов на разном членении",
+      "target": "calambur"
+    },
+    {
+      "id": "ru_es_c2:caletre",
+      "ru": "смекалка",
+      "target": "caletre"
+    },
+    {
+      "id": "ru_es_c2:cantiga",
+      "ru": "средневековая лирическая песня",
+      "target": "cantiga"
+    },
+    {
+      "id": "ru_es_c2:capcioso",
+      "ru": "содержащий логическую ловушку",
+      "target": "capcioso"
+    },
+    {
+      "id": "ru_es_c2:cartapacio",
+      "ru": "папка с бумагами",
+      "target": "cartapacio"
+    },
+    {
+      "id": "ru_es_c2:casuística",
+      "ru": "казуистика",
+      "target": "casuística"
+    },
+    {
+      "id": "ru_es_c2:catarsis",
+      "ru": "катарсис",
+      "target": "catarsis"
+    },
+    {
+      "id": "ru_es_c2:cavilación",
+      "ru": "длительное раздумье",
+      "target": "cavilación"
+    },
+    {
+      "id": "ru_es_c2:cenáculo",
+      "ru": "узкий кружок единомышленников",
+      "target": "cenáculo"
+    },
+    {
+      "id": "ru_es_c2:cenobio",
+      "ru": "монастырская община",
+      "target": "cenobio"
+    },
+    {
+      "id": "ru_es_c2:circunloquio",
+      "ru": "иносказательное многословие",
+      "target": "circunloquio"
+    },
+    {
+      "id": "ru_es_c2:claroscuro",
+      "ru": "светотень",
+      "target": "claroscuro"
+    },
+    {
+      "id": "ru_es_c2:clímax",
+      "ru": "высшая точка напряжения",
+      "target": "clímax"
+    },
+    {
+      "id": "ru_es_c2:cognición",
+      "ru": "познание",
+      "target": "cognición"
+    },
+    {
+      "id": "ru_es_c2:cognoscible",
+      "ru": "познаваемый",
+      "target": "cognoscible"
+    },
+    {
+      "id": "ru_es_c2:cohonestar",
+      "ru": "оправдывать сомнительное",
+      "target": "cohonestar"
+    },
+    {
+      "id": "ru_es_c2:colofón",
+      "ru": "завершающий штрих",
+      "target": "colofón"
+    },
+    {
+      "id": "ru_es_c2:conato",
+      "ru": "попытка действия",
+      "target": "conato"
+    },
+    {
+      "id": "ru_es_c2:conciliábulo",
+      "ru": "тайное совещание",
+      "target": "conciliábulo"
+    },
+    {
+      "id": "ru_es_c2:concupiscencia",
+      "ru": "чувственное вожделение",
+      "target": "concupiscencia"
+    },
+    {
+      "id": "ru_es_c2:conculcar",
+      "ru": "попирать право",
+      "target": "conculcar"
+    },
+    {
+      "id": "ru_es_c2:consuetudinario",
+      "ru": "основанный на обычае",
+      "target": "consuetudinario"
+    },
+    {
+      "id": "ru_es_c2:contumacia",
+      "ru": "упорное неповиновение",
+      "target": "contumacia"
+    },
+    {
+      "id": "ru_es_c2:cosmogonía",
+      "ru": "учение о происхождении мира",
+      "target": "cosmogonía"
+    },
+    {
+      "id": "ru_es_c2:cosmovisión",
+      "ru": "мировоззрение",
+      "target": "cosmovisión"
+    },
+    {
+      "id": "ru_es_c2:credulidad",
+      "ru": "легковерие",
+      "target": "credulidad"
+    },
+    {
+      "id": "ru_es_c2:críptico",
+      "ru": "загадочно непонятный",
+      "target": "críptico"
+    },
+    {
+      "id": "ru_es_c2:crisol",
+      "ru": "горнило",
+      "target": "crisol"
+    },
+    {
+      "id": "ru_es_c2:culteranismo",
+      "ru": "вычурное направление испанского барокко",
+      "target": "culteranismo"
+    },
+    {
+      "id": "ru_es_c2:deconstrucción",
+      "ru": "деконструкция",
+      "target": "deconstrucción"
+    },
+    {
+      "id": "ru_es_c2:deísmo",
+      "ru": "деизм",
+      "target": "deísmo"
+    },
+    {
+      "id": "ru_es_c2:demiurgo",
+      "ru": "творец мироздания",
+      "target": "demiurgo"
+    },
+    {
+      "id": "ru_es_c2:denuesto",
+      "ru": "оскорбительное слово",
+      "target": "denuesto"
+    },
+    {
+      "id": "ru_es_c2:deontología",
+      "ru": "учение о долге",
+      "target": "deontología"
+    },
+    {
+      "id": "ru_es_c2:deprecación",
+      "ru": "мольба",
+      "target": "deprecación"
+    },
+    {
+      "id": "ru_es_c2:desacato",
+      "ru": "неуважение к власти",
+      "target": "desacato"
+    },
+    {
+      "id": "ru_es_c2:desasosiego",
+      "ru": "душевное беспокойство",
+      "target": "desasosiego"
+    },
+    {
+      "id": "ru_es_c2:desazón",
+      "ru": "тревожное неудовольствие",
+      "target": "desazón"
+    },
+    {
+      "id": "ru_es_c2:desiderátum",
+      "ru": "желательная цель",
+      "target": "desiderátum"
+    },
+    {
+      "id": "ru_es_c2:determinismo",
+      "ru": "детерминизм",
+      "target": "determinismo"
+    },
+    {
+      "id": "ru_es_c2:diacronía",
+      "ru": "историческое развитие языка",
+      "target": "diacronía"
+    },
+    {
+      "id": "ru_es_c2:dialéctica",
+      "ru": "диалектика",
+      "target": "dialéctica"
+    },
+    {
+      "id": "ru_es_c2:diatriba",
+      "ru": "резкая обличительная речь",
+      "target": "diatriba"
+    },
+    {
+      "id": "ru_es_c2:dicotomía",
+      "ru": "разделение надвое",
+      "target": "dicotomía"
+    },
+    {
+      "id": "ru_es_c2:diletantismo",
+      "ru": "дилетантство",
+      "target": "diletantismo"
+    },
+    {
+      "id": "ru_es_c2:dilogía",
+      "ru": "двойной смысл выражения",
+      "target": "dilogía"
+    },
+    {
+      "id": "ru_es_c2:díscolo",
+      "ru": "непокорный",
+      "target": "díscolo"
+    },
+    {
+      "id": "ru_es_c2:disonancia",
+      "ru": "диссонанс",
+      "target": "disonancia"
+    },
+    {
+      "id": "ru_es_c2:ditirambo",
+      "ru": "восторженная хвала",
+      "target": "ditirambo"
+    },
+    {
+      "id": "ru_es_c2:ecuménico",
+      "ru": "вселенский",
+      "target": "ecuménico"
+    },
+    {
+      "id": "ru_es_c2:eidético",
+      "ru": "эйдетический",
+      "target": "eidético"
+    },
+    {
+      "id": "ru_es_c2:elucubración",
+      "ru": "отвлечённое мудрствование",
+      "target": "elucubración"
+    },
+    {
+      "id": "ru_es_c2:empirismo",
+      "ru": "эмпиризм",
+      "target": "empirismo"
+    },
+    {
+      "id": "ru_es_c2:encomio",
+      "ru": "похвала",
+      "target": "encomio"
+    },
+    {
+      "id": "ru_es_c2:endecasílabo",
+      "ru": "одиннадцатисложный стих",
+      "target": "endecasílabo"
+    },
+    {
+      "id": "ru_es_c2:entelequia",
+      "ru": "осуществлённая возможность",
+      "target": "entelequia"
+    },
+    {
+      "id": "ru_es_c2:entimema",
+      "ru": "сокращённое умозаключение",
+      "target": "entimema"
+    },
+    {
+      "id": "ru_es_c2:epicureísmo",
+      "ru": "эпикуреизм",
+      "target": "epicureísmo"
+    },
+    {
+      "id": "ru_es_c2:epistemología",
+      "ru": "теория научного познания",
+      "target": "epistemología"
+    },
+    {
+      "id": "ru_es_c2:epistolar",
+      "ru": "эпистолярный",
+      "target": "epistolar"
+    },
+    {
+      "id": "ru_es_c2:epítome",
+      "ru": "краткое изложение",
+      "target": "epítome"
+    },
+    {
+      "id": "ru_es_c2:equívoco",
+      "ru": "двусмысленный",
+      "target": "equívoco"
+    },
+    {
+      "id": "ru_es_c2:erística",
+      "ru": "искусство спора",
+      "target": "erística"
+    },
+    {
+      "id": "ru_es_c2:escatología",
+      "ru": "учение о конце мира",
+      "target": "escatología"
+    },
+    {
+      "id": "ru_es_c2:escolástica",
+      "ru": "схоластика",
+      "target": "escolástica"
+    },
+    {
+      "id": "ru_es_c2:esdrújulo",
+      "ru": "с ударением на третьем слоге с конца",
+      "target": "esdrújulo"
+    },
+    {
+      "id": "ru_es_c2:esotérico",
+      "ru": "доступный посвящённым",
+      "target": "esotérico"
+    },
+    {
+      "id": "ru_es_c2:esteticismo",
+      "ru": "эстетизм",
+      "target": "esteticismo"
+    },
+    {
+      "id": "ru_es_c2:estocástico",
+      "ru": "стохастический",
+      "target": "estocástico"
+    },
+    {
+      "id": "ru_es_c2:estrambote",
+      "ru": "добавочные строки сонета",
+      "target": "estrambote"
+    },
+    {
+      "id": "ru_es_c2:estrambótico",
+      "ru": "причудливый",
+      "target": "estrambótico"
+    },
+    {
+      "id": "ru_es_c2:estulticia",
+      "ru": "глупость",
+      "target": "estulticia"
+    },
+    {
+      "id": "ru_es_c2:etiología",
+      "ru": "учение о причинах болезни",
+      "target": "etiología"
+    },
+    {
+      "id": "ru_es_c2:eudemonismo",
+      "ru": "этическое учение о счастье",
+      "target": "eudemonismo"
+    },
+    {
+      "id": "ru_es_c2:eufemismo",
+      "ru": "эвфемизм",
+      "target": "eufemismo"
+    },
+    {
+      "id": "ru_es_c2:eufonía",
+      "ru": "благозвучие",
+      "target": "eufonía"
+    },
+    {
+      "id": "ru_es_c2:exabrupto",
+      "ru": "резкая неожиданная реплика",
+      "target": "exabrupto"
+    },
+    {
+      "id": "ru_es_c2:exordio",
+      "ru": "вступление речи",
+      "target": "exordio"
+    },
+    {
+      "id": "ru_es_c2:exotérico",
+      "ru": "общедоступный",
+      "target": "exotérico"
+    },
+    {
+      "id": "ru_es_c2:expurgar",
+      "ru": "очищать текст от нежелательного",
+      "target": "expurgar"
+    },
+    {
+      "id": "ru_es_c2:fáctico",
+      "ru": "фактический",
+      "target": "fáctico"
+    },
+    {
+      "id": "ru_es_c2:falibilismo",
+      "ru": "признание погрешимости знания",
+      "target": "falibilismo"
+    },
+    {
+      "id": "ru_es_c2:fenomenología",
+      "ru": "феноменология",
+      "target": "fenomenología"
+    },
+    {
+      "id": "ru_es_c2:filípica",
+      "ru": "гневная обличительная речь",
+      "target": "filípica"
+    },
+    {
+      "id": "ru_es_c2:filogenia",
+      "ru": "историческое развитие организмов",
+      "target": "filogenia"
+    },
+    {
+      "id": "ru_es_c2:filosofar",
+      "ru": "философствовать",
+      "target": "filosofar"
+    },
+    {
+      "id": "ru_es_c2:flemático",
+      "ru": "флегматичный",
+      "target": "flemático"
+    },
+    {
+      "id": "ru_es_c2:florilegio",
+      "ru": "сборник избранных произведений",
+      "target": "florilegio"
+    },
+    {
+      "id": "ru_es_c2:fonemática",
+      "ru": "учение о фонемах",
+      "target": "fonemática"
+    },
+    {
+      "id": "ru_es_c2:formalismo",
+      "ru": "формализм",
+      "target": "formalismo"
+    },
+    {
+      "id": "ru_es_c2:fruición",
+      "ru": "наслаждение",
+      "target": "fruición"
+    },
+    {
+      "id": "ru_es_c2:fustigar",
+      "ru": "резко порицать",
+      "target": "fustigar"
+    },
+    {
+      "id": "ru_es_c2:galimatías",
+      "ru": "бессмыслица",
+      "target": "galimatías"
+    },
+    {
+      "id": "ru_es_c2:gnoseología",
+      "ru": "теория познания",
+      "target": "gnoseología"
+    },
+    {
+      "id": "ru_es_c2:gnosticismo",
+      "ru": "гностицизм",
+      "target": "gnosticismo"
+    },
+    {
+      "id": "ru_es_c2:gnómico",
+      "ru": "содержащий нравоучительные изречения",
+      "target": "gnómico"
+    },
+    {
+      "id": "ru_es_c2:hermenéutica",
+      "ru": "теория толкования",
+      "target": "hermenéutica"
+    },
+    {
+      "id": "ru_es_c2:heurística",
+      "ru": "эвристика",
+      "target": "heurística"
+    },
+    {
+      "id": "ru_es_c2:hilemorfismo",
+      "ru": "учение о материи и форме",
+      "target": "hilemorfismo"
+    },
+    {
+      "id": "ru_es_c2:hipérbaton",
+      "ru": "необычный порядок слов",
+      "target": "hipérbaton"
+    },
+    {
+      "id": "ru_es_c2:hipóstasis",
+      "ru": "ипостась",
+      "target": "hipóstasis"
+    },
+    {
+      "id": "ru_es_c2:hipotiposis",
+      "ru": "яркое словесное изображение",
+      "target": "hipotiposis"
+    },
+    {
+      "id": "ru_es_c2:holismo",
+      "ru": "учение о целостности",
+      "target": "holismo"
+    },
+    {
+      "id": "ru_es_c2:homilía",
+      "ru": "проповедь",
+      "target": "homilía"
+    },
+    {
+      "id": "ru_es_c2:iconoclasia",
+      "ru": "отрицание почитаемых образов",
+      "target": "iconoclasia"
+    },
+    {
+      "id": "ru_es_c2:ideario",
+      "ru": "совокупность идей",
+      "target": "ideario"
+    },
+    {
+      "id": "ru_es_c2:idealismo",
+      "ru": "идеализм",
+      "target": "idealismo"
+    },
+    {
+      "id": "ru_es_c2:idiomatismo",
+      "ru": "устойчивый оборот языка",
+      "target": "idiomatismo"
+    },
+    {
+      "id": "ru_es_c2:idílico",
+      "ru": "идиллический",
+      "target": "idílico"
+    },
+    {
+      "id": "ru_es_c2:ilativo",
+      "ru": "выражающий вывод",
+      "target": "ilativo"
+    },
+    {
+      "id": "ru_es_c2:imbricación",
+      "ru": "тесное переплетение",
+      "target": "imbricación"
+    },
+    {
+      "id": "ru_es_c2:impetrar",
+      "ru": "испросить",
+      "target": "impetrar"
+    },
+    {
+      "id": "ru_es_c2:impronta",
+      "ru": "характерный отпечаток",
+      "target": "impronta"
+    },
+    {
+      "id": "ru_es_c2:inanidad",
+      "ru": "бессодержательность",
+      "target": "inanidad"
+    },
+    {
+      "id": "ru_es_c2:incólume",
+      "ru": "невредимый",
+      "target": "incólume"
+    },
+    {
+      "id": "ru_es_c2:inefabilidad",
+      "ru": "невыразимость",
+      "target": "inefabilidad"
+    },
+    {
+      "id": "ru_es_c2:inescrutable",
+      "ru": "непостижимый",
+      "target": "inescrutable"
+    },
+    {
+      "id": "ru_es_c2:inextricable",
+      "ru": "неразрешимо запутанный",
+      "target": "inextricable"
+    },
+    {
+      "id": "ru_es_c2:inmarcesible",
+      "ru": "неувядающий",
+      "target": "inmarcesible"
+    },
+    {
+      "id": "ru_es_c2:inopia",
+      "ru": "крайняя нужда",
+      "target": "inopia"
+    },
+    {
+      "id": "ru_es_c2:insidia",
+      "ru": "коварный замысел",
+      "target": "insidia"
+    },
+    {
+      "id": "ru_es_c2:intelección",
+      "ru": "постижение разумом",
+      "target": "intelección"
+    },
+    {
+      "id": "ru_es_c2:inteligible",
+      "ru": "постижимый",
+      "target": "inteligible"
+    },
+    {
+      "id": "ru_es_c2:intemporal",
+      "ru": "вневременной",
+      "target": "intemporal"
+    },
+    {
+      "id": "ru_es_c2:interregno",
+      "ru": "междуцарствие",
+      "target": "interregno"
+    },
+    {
+      "id": "ru_es_c2:invectiva",
+      "ru": "обличительная речь",
+      "target": "invectiva"
+    },
+    {
+      "id": "ru_es_c2:ipsilateral",
+      "ru": "расположенный на той же стороне",
+      "target": "ipsilateral"
+    },
+    {
+      "id": "ru_es_c2:ábaco",
+      "ru": "счётная доска",
+      "target": "ábaco"
+    },
+    {
+      "id": "ru_es_c2:abscisa",
+      "ru": "абсцисса",
+      "target": "abscisa"
+    },
+    {
+      "id": "ru_es_c2:acelerómetro",
+      "ru": "акселерометр",
+      "target": "acelerómetro"
+    },
+    {
+      "id": "ru_es_c2:acimut",
+      "ru": "азимут",
+      "target": "acimut"
+    },
+    {
+      "id": "ru_es_c2:acústica",
+      "ru": "акустика",
+      "target": "acústica"
+    },
+    {
+      "id": "ru_es_c2:adimensional",
+      "ru": "безразмерный",
+      "target": "adimensional"
+    },
+    {
+      "id": "ru_es_c2:adsorción",
+      "ru": "адсорбция",
+      "target": "adsorción"
+    },
+    {
+      "id": "ru_es_c2:álgebra",
+      "ru": "алгебра",
+      "target": "álgebra"
+    },
+    {
+      "id": "ru_es_c2:algoritmo",
+      "ru": "алгоритм",
+      "target": "algoritmo"
+    },
+    {
+      "id": "ru_es_c2:alícuota",
+      "ru": "равная доля целого",
+      "target": "alícuota"
+    },
+    {
+      "id": "ru_es_c2:alótropo",
+      "ru": "аллотропная форма",
+      "target": "alótropo"
+    },
+    {
+      "id": "ru_es_c2:amperímetro",
+      "ru": "амперметр",
+      "target": "amperímetro"
+    },
+    {
+      "id": "ru_es_c2:anemómetro",
+      "ru": "анемометр",
+      "target": "anemómetro"
+    },
+    {
+      "id": "ru_es_c2:angular",
+      "ru": "угловой",
+      "target": "angular"
+    },
+    {
+      "id": "ru_es_c2:anisotropía",
+      "ru": "анизотропия",
+      "target": "anisotropía"
+    },
+    {
+      "id": "ru_es_c2:antiderivada",
+      "ru": "первообразная функция",
+      "target": "antiderivada"
+    },
+    {
+      "id": "ru_es_c2:antimateria",
+      "ru": "антиматерия",
+      "target": "antimateria"
+    },
+    {
+      "id": "ru_es_c2:antípoda",
+      "ru": "диаметрально противоположная точка",
+      "target": "antípoda"
+    },
+    {
+      "id": "ru_es_c2:apotema",
+      "ru": "апофема",
+      "target": "apotema"
+    },
+    {
+      "id": "ru_es_c2:arco",
+      "ru": "дуга",
+      "target": "arco"
+    },
+    {
+      "id": "ru_es_c2:arcoseno",
+      "ru": "арксинус",
+      "target": "arcoseno"
+    },
+    {
+      "id": "ru_es_c2:asíntota",
+      "ru": "асимптота",
+      "target": "asíntota"
+    },
+    {
+      "id": "ru_es_c2:astrofísica",
+      "ru": "астрофизика",
+      "target": "astrofísica"
+    },
+    {
+      "id": "ru_es_c2:astrometría",
+      "ru": "астрометрия",
+      "target": "astrometría"
+    },
+    {
+      "id": "ru_es_c2:atenuador",
+      "ru": "ослабитель сигнала",
+      "target": "atenuador"
+    },
+    {
+      "id": "ru_es_c2:autovalor",
+      "ru": "собственное значение",
+      "target": "autovalor"
+    },
+    {
+      "id": "ru_es_c2:axiomatización",
+      "ru": "аксиоматизация",
+      "target": "axiomatización"
+    },
+    {
+      "id": "ru_es_c2:baricentro",
+      "ru": "барицентр",
+      "target": "baricentro"
+    },
+    {
+      "id": "ru_es_c2:barómetro",
+      "ru": "барометр",
+      "target": "barómetro"
+    },
+    {
+      "id": "ru_es_c2:binario",
+      "ru": "двоичный",
+      "target": "binario"
+    },
+    {
+      "id": "ru_es_c2:binomio",
+      "ru": "двучлен",
+      "target": "binomio"
+    },
+    {
+      "id": "ru_es_c2:biunívoco",
+      "ru": "взаимно однозначный",
+      "target": "biunívoco"
+    },
+    {
+      "id": "ru_es_c2:bosón",
+      "ru": "бозон",
+      "target": "bosón"
+    },
+    {
+      "id": "ru_es_c2:bóveda",
+      "ru": "свод",
+      "target": "bóveda"
+    },
+    {
+      "id": "ru_es_c2:calorimetría",
+      "ru": "калориметрия",
+      "target": "calorimetría"
+    },
+    {
+      "id": "ru_es_c2:capacitancia",
+      "ru": "электрическая ёмкость",
+      "target": "capacitancia"
+    },
+    {
+      "id": "ru_es_c2:cardinalidad",
+      "ru": "мощность множества",
+      "target": "cardinalidad"
+    },
+    {
+      "id": "ru_es_c2:cateto",
+      "ru": "катет",
+      "target": "cateto"
+    },
+    {
+      "id": "ru_es_c2:celda",
+      "ru": "ячейка",
+      "target": "celda"
+    },
+    {
+      "id": "ru_es_c2:cenit",
+      "ru": "зенит",
+      "target": "cenit"
+    },
+    {
+      "id": "ru_es_c2:centroide",
+      "ru": "центроид",
+      "target": "centroide"
+    },
+    {
+      "id": "ru_es_c2:cibernética",
+      "ru": "кибернетика",
+      "target": "cibernética"
+    },
+    {
+      "id": "ru_es_c2:cicloide",
+      "ru": "циклоида",
+      "target": "cicloide"
+    },
+    {
+      "id": "ru_es_c2:cinemática",
+      "ru": "кинематика",
+      "target": "cinemática"
+    },
+    {
+      "id": "ru_es_c2:coaxial",
+      "ru": "соосный",
+      "target": "coaxial"
+    },
+    {
+      "id": "ru_es_c2:cociente",
+      "ru": "частное",
+      "target": "cociente"
+    },
+    {
+      "id": "ru_es_c2:coeficiente",
+      "ru": "коэффициент",
+      "target": "coeficiente"
+    },
+    {
+      "id": "ru_es_c2:colimador",
+      "ru": "коллиматор",
+      "target": "colimador"
+    },
+    {
+      "id": "ru_es_c2:combinatoria",
+      "ru": "комбинаторика",
+      "target": "combinatoria"
+    },
+    {
+      "id": "ru_es_c2:conmutatividad",
+      "ru": "коммутативность",
+      "target": "conmutatividad"
+    },
+    {
+      "id": "ru_es_c2:complemento",
+      "ru": "дополнение множества",
+      "target": "complemento"
+    },
+    {
+      "id": "ru_es_c2:concavidad",
+      "ru": "вогнутость",
+      "target": "concavidad"
+    },
+    {
+      "id": "ru_es_c2:condensador",
+      "ru": "конденсатор",
+      "target": "condensador"
+    },
+    {
+      "id": "ru_es_c2:conductancia",
+      "ru": "электрическая проводимость",
+      "target": "conductancia"
+    },
+    {
+      "id": "ru_es_c2:congruencia",
+      "ru": "конгруэнтность",
+      "target": "congruencia"
+    },
+    {
+      "id": "ru_es_c2:conicidad",
+      "ru": "коничность",
+      "target": "conicidad"
+    },
+    {
+      "id": "ru_es_c2:conjetural",
+      "ru": "предположительный",
+      "target": "conjetural"
+    },
+    {
+      "id": "ru_es_c2:conmutador",
+      "ru": "переключатель",
+      "target": "conmutador"
+    },
+    {
+      "id": "ru_es_c2:convección",
+      "ru": "конвекция",
+      "target": "convección"
+    },
+    {
+      "id": "ru_es_c2:convexidad",
+      "ru": "выпуклость",
+      "target": "convexidad"
+    },
+    {
+      "id": "ru_es_c2:coordenada",
+      "ru": "координата",
+      "target": "coordenada"
+    },
+    {
+      "id": "ru_es_c2:corolario",
+      "ru": "следствие теоремы",
+      "target": "corolario"
+    },
+    {
+      "id": "ru_es_c2:coseno",
+      "ru": "косинус",
+      "target": "coseno"
+    },
+    {
+      "id": "ru_es_c2:cosecante",
+      "ru": "косеканс",
+      "target": "cosecante"
+    },
+    {
+      "id": "ru_es_c2:cosmología",
+      "ru": "космология",
+      "target": "cosmología"
+    },
+    {
+      "id": "ru_es_c2:cotangente",
+      "ru": "котангенс",
+      "target": "cotangente"
+    },
+    {
+      "id": "ru_es_c2:cuadratura",
+      "ru": "квадратура",
+      "target": "cuadratura"
+    },
+    {
+      "id": "ru_es_c2:cuadrilátero",
+      "ru": "четырёхугольник",
+      "target": "cuadrilátero"
+    },
+    {
+      "id": "ru_es_c2:cuanto",
+      "ru": "квант",
+      "target": "cuanto"
+    },
+    {
+      "id": "ru_es_c2:cuántico",
+      "ru": "квантовый",
+      "target": "cuántico"
+    },
+    {
+      "id": "ru_es_c2:cuásar",
+      "ru": "квазар",
+      "target": "cuásar"
+    },
+    {
+      "id": "ru_es_c2:decibelio",
+      "ru": "децибел",
+      "target": "decibelio"
+    },
+    {
+      "id": "ru_es_c2:deductivo",
+      "ru": "дедуктивный",
+      "target": "deductivo"
+    },
+    {
+      "id": "ru_es_c2:denominador",
+      "ru": "знаменатель",
+      "target": "denominador"
+    },
+    {
+      "id": "ru_es_c2:derivada",
+      "ru": "производная",
+      "target": "derivada"
+    },
+    {
+      "id": "ru_es_c2:desviación",
+      "ru": "отклонение",
+      "target": "desviación"
+    },
+    {
+      "id": "ru_es_c2:dieléctrico",
+      "ru": "диэлектрик",
+      "target": "dieléctrico"
+    },
+    {
+      "id": "ru_es_c2:difracción",
+      "ru": "дифракция",
+      "target": "difracción"
+    },
+    {
+      "id": "ru_es_c2:dígrafo",
+      "ru": "двухбуквенное обозначение одного звука",
+      "target": "dígrafo"
+    },
+    {
+      "id": "ru_es_c2:dilatación",
+      "ru": "расширение",
+      "target": "dilatación"
+    },
+    {
+      "id": "ru_es_c2:dioptría",
+      "ru": "диоптрия",
+      "target": "dioptría"
+    },
+    {
+      "id": "ru_es_c2:dipolo",
+      "ru": "диполь",
+      "target": "dipolo"
+    },
+    {
+      "id": "ru_es_c2:discontinuidad",
+      "ru": "разрывность",
+      "target": "discontinuidad"
+    },
+    {
+      "id": "ru_es_c2:disipación",
+      "ru": "рассеивание энергии",
+      "target": "disipación"
+    },
+    {
+      "id": "ru_es_c2:dispersión",
+      "ru": "дисперсия",
+      "target": "dispersión"
+    },
+    {
+      "id": "ru_es_c2:dividendo",
+      "ru": "делимое",
+      "target": "dividendo"
+    },
+    {
+      "id": "ru_es_c2:divisor",
+      "ru": "делитель",
+      "target": "divisor"
+    },
+    {
+      "id": "ru_es_c2:doblete",
+      "ru": "дублет",
+      "target": "doblete"
+    },
+    {
+      "id": "ru_es_c2:dodecaedro",
+      "ru": "додекаэдр",
+      "target": "dodecaedro"
+    },
+    {
+      "id": "ru_es_c2:eclíptica",
+      "ru": "эклиптика",
+      "target": "eclíptica"
+    },
+    {
+      "id": "ru_es_c2:ecuación",
+      "ru": "уравнение",
+      "target": "ecuación"
+    },
+    {
+      "id": "ru_es_c2:efemérides",
+      "ru": "астрономические таблицы",
+      "target": "efemérides"
+    },
+    {
+      "id": "ru_es_c2:electrodinámica",
+      "ru": "электродинамика",
+      "target": "electrodinámica"
+    },
+    {
+      "id": "ru_es_c2:electromagnetismo",
+      "ru": "электромагнетизм",
+      "target": "electromagnetismo"
+    },
+    {
+      "id": "ru_es_c2:electrón",
+      "ru": "электрон",
+      "target": "electrón"
+    },
+    {
+      "id": "ru_es_c2:electrostática",
+      "ru": "электростатика",
+      "target": "electrostática"
+    },
+    {
+      "id": "ru_es_c2:elipsoide",
+      "ru": "эллипсоид",
+      "target": "elipsoide"
+    },
+    {
+      "id": "ru_es_c2:elíptico",
+      "ru": "эллиптический",
+      "target": "elíptico"
+    },
+    {
+      "id": "ru_es_c2:endomorfismo",
+      "ru": "эндоморфизм",
+      "target": "endomorfismo"
+    },
+    {
+      "id": "ru_es_c2:energético",
+      "ru": "энергетический",
+      "target": "energético"
+    },
+    {
+      "id": "ru_es_c2:entero",
+      "ru": "целое число",
+      "target": "entero"
+    },
+    {
+      "id": "ru_es_c2:equipotencial",
+      "ru": "эквипотенциальный",
+      "target": "equipotencial"
+    },
+    {
+      "id": "ru_es_c2:equivalente",
+      "ru": "эквивалентный",
+      "target": "equivalente"
+    },
+    {
+      "id": "ru_es_c2:ergio",
+      "ru": "эрг",
+      "target": "ergio"
+    },
+    {
+      "id": "ru_es_c2:escalar",
+      "ru": "скаляр",
+      "target": "escalar"
+    },
+    {
+      "id": "ru_es_c2:esferoide",
+      "ru": "сфероид",
+      "target": "esferoide"
+    },
+    {
+      "id": "ru_es_c2:espectrómetro",
+      "ru": "спектрометр",
+      "target": "espectrómetro"
+    },
+    {
+      "id": "ru_es_c2:espín",
+      "ru": "спин",
+      "target": "espín"
+    },
+    {
+      "id": "ru_es_c2:estereometría",
+      "ru": "стереометрия",
+      "target": "estereometría"
+    },
+    {
+      "id": "ru_es_c2:estocasticidad",
+      "ru": "случайный характер процесса",
+      "target": "estocasticidad"
+    },
+    {
+      "id": "ru_es_c2:estratósfera",
+      "ru": "стратосфера",
+      "target": "estratósfera"
+    },
+    {
+      "id": "ru_es_c2:euleriano",
+      "ru": "эйлеров",
+      "target": "euleriano"
+    },
+    {
+      "id": "ru_es_c2:excentricidad",
+      "ru": "эксцентриситет",
+      "target": "excentricidad"
+    },
+    {
+      "id": "ru_es_c2:exoplaneta",
+      "ru": "экзопланета",
+      "target": "exoplaneta"
+    },
+    {
+      "id": "ru_es_c2:exponente",
+      "ru": "показатель степени",
+      "target": "exponente"
+    },
+    {
+      "id": "ru_es_c2:factorial",
+      "ru": "факториал",
+      "target": "factorial"
+    },
+    {
+      "id": "ru_es_c2:ferromagnetismo",
+      "ru": "ферромагнетизм",
+      "target": "ferromagnetismo"
+    },
+    {
+      "id": "ru_es_c2:fluorescencia",
+      "ru": "флуоресценция",
+      "target": "fluorescencia"
+    },
+    {
+      "id": "ru_es_c2:fotometría",
+      "ru": "фотометрия",
+      "target": "fotometría"
+    },
+    {
+      "id": "ru_es_c2:fotón",
+      "ru": "фотон",
+      "target": "fotón"
+    },
+    {
+      "id": "ru_es_c2:fractal",
+      "ru": "фрактал",
+      "target": "fractal"
+    },
+    {
+      "id": "ru_es_c2:fulcro",
+      "ru": "точка опоры",
+      "target": "fulcro"
+    },
+    {
+      "id": "ru_es_c2:galvanómetro",
+      "ru": "гальванометр",
+      "target": "galvanómetro"
+    },
+    {
+      "id": "ru_es_c2:geodésica",
+      "ru": "геодезическая линия",
+      "target": "geodésica"
+    },
+    {
+      "id": "ru_es_c2:geodesia",
+      "ru": "геодезия",
+      "target": "geodesia"
+    },
+    {
+      "id": "ru_es_c2:giroscopio",
+      "ru": "гироскоп",
+      "target": "giroscopio"
+    },
+    {
+      "id": "ru_es_c2:gnomon",
+      "ru": "гномон",
+      "target": "gnomon"
+    },
+    {
+      "id": "ru_es_c2:gradiente",
+      "ru": "градиент",
+      "target": "gradiente"
+    },
+    {
+      "id": "ru_es_c2:gravitación",
+      "ru": "гравитация",
+      "target": "gravitación"
+    },
+    {
+      "id": "ru_es_c2:heliocéntrico",
+      "ru": "гелиоцентрический",
+      "target": "heliocéntrico"
+    },
+    {
+      "id": "ru_es_c2:heliofísica",
+      "ru": "физика Солнца",
+      "target": "heliofísica"
+    },
+    {
+      "id": "ru_es_c2:hemisferio",
+      "ru": "полушарие",
+      "target": "hemisferio"
+    },
+    {
+      "id": "ru_es_c2:heptágono",
+      "ru": "семиугольник",
+      "target": "heptágono"
+    },
+    {
+      "id": "ru_es_c2:hercio",
+      "ru": "герц",
+      "target": "hercio"
+    },
+    {
+      "id": "ru_es_c2:hexágono",
+      "ru": "шестиугольник",
+      "target": "hexágono"
+    },
+    {
+      "id": "ru_es_c2:hidrodinámica",
+      "ru": "гидродинамика",
+      "target": "hidrodinámica"
+    },
+    {
+      "id": "ru_es_c2:hiperboloide",
+      "ru": "гиперболоид",
+      "target": "hiperboloide"
+    },
+    {
+      "id": "ru_es_c2:hipérbola",
+      "ru": "гипербола математическая",
+      "target": "hipérbola"
+    },
+    {
+      "id": "ru_es_c2:hipotenusa",
+      "ru": "гипотенуза",
+      "target": "hipotenusa"
+    },
+    {
+      "id": "ru_es_c2:holografía",
+      "ru": "голография",
+      "target": "holografía"
+    },
+    {
+      "id": "ru_es_c2:homeomorfismo",
+      "ru": "гомеоморфизм",
+      "target": "homeomorfismo"
+    },
+    {
+      "id": "ru_es_c2:homotecia",
+      "ru": "гомотетия",
+      "target": "homotecia"
+    },
+    {
+      "id": "ru_es_c2:icosaedro",
+      "ru": "икосаэдр",
+      "target": "icosaedro"
+    },
+    {
+      "id": "ru_es_c2:impedancia",
+      "ru": "электрический импеданс",
+      "target": "impedancia"
+    },
+    {
+      "id": "ru_es_c2:incógnita",
+      "ru": "неизвестная величина",
+      "target": "incógnita"
+    },
+    {
+      "id": "ru_es_c2:inductancia",
+      "ru": "индуктивность",
+      "target": "inductancia"
+    },
+    {
+      "id": "ru_es_c2:infrarrojo",
+      "ru": "инфракрасный",
+      "target": "infrarrojo"
+    },
+    {
+      "id": "ru_es_c2:integral",
+      "ru": "интеграл",
+      "target": "integral"
+    },
+    {
+      "id": "ru_es_c2:interferometría",
+      "ru": "интерферометрия",
+      "target": "interferometría"
+    },
+    {
+      "id": "ru_es_c2:interpolación",
+      "ru": "интерполяция",
+      "target": "interpolación"
+    },
+    {
+      "id": "ru_es_c2:invariante",
+      "ru": "инвариант",
+      "target": "invariante"
+    },
+    {
+      "id": "ru_es_c2:irradiancia",
+      "ru": "облучённость",
+      "target": "irradiancia"
+    },
+    {
+      "id": "ru_es_c2:isóbaro",
+      "ru": "изобар",
+      "target": "isóbaro"
+    },
+    {
+      "id": "ru_es_c2:isocórico",
+      "ru": "изохорный",
+      "target": "isocórico"
+    },
+    {
+      "id": "ru_es_c2:isométrico",
+      "ru": "изометрический",
+      "target": "isométrico"
+    },
+    {
+      "id": "ru_es_c2:isomorfismo",
+      "ru": "изоморфизм",
+      "target": "isomorfismo"
+    },
+    {
+      "id": "ru_es_c2:isósceles",
+      "ru": "равнобедренный",
+      "target": "isósceles"
+    },
+    {
+      "id": "ru_es_c2:isoterma",
+      "ru": "изотерма",
+      "target": "isoterma"
+    },
+    {
+      "id": "ru_es_c2:isotrópico",
+      "ru": "изотропный",
+      "target": "isotrópico"
+    },
+    {
+      "id": "ru_es_c2:laplaciano",
+      "ru": "оператор Лапласа",
+      "target": "laplaciano"
+    },
+    {
+      "id": "ru_es_c2:lema",
+      "ru": "вспомогательная теорема",
+      "target": "lema"
+    },
+    {
+      "id": "ru_es_c2:logaritmo",
+      "ru": "логарифм",
+      "target": "logaritmo"
+    },
+    {
+      "id": "ru_es_c2:longitudinal",
+      "ru": "продольный",
+      "target": "longitudinal"
+    },
+    {
+      "id": "ru_es_c2:luminancia",
+      "ru": "яркость свечения",
+      "target": "luminancia"
+    },
+    {
+      "id": "ru_es_c2:magnetómetro",
+      "ru": "магнитометр",
+      "target": "magnetómetro"
+    },
+    {
+      "id": "ru_es_c2:magnitud",
+      "ru": "величина",
+      "target": "magnitud"
+    },
+    {
+      "id": "ru_es_c2:manómetro",
+      "ru": "манометр",
+      "target": "manómetro"
+    },
+    {
+      "id": "ru_es_c2:matriz",
+      "ru": "матрица",
+      "target": "matriz"
+    },
+    {
+      "id": "ru_es_c2:mediana",
+      "ru": "медиана",
+      "target": "mediana"
+    },
+    {
+      "id": "ru_es_c2:meridiano",
+      "ru": "меридиан",
+      "target": "meridiano"
+    },
+    {
+      "id": "ru_es_c2:metrología",
+      "ru": "метрология",
+      "target": "metrología"
+    },
+    {
+      "id": "ru_es_c2:módulo",
+      "ru": "модуль",
+      "target": "módulo"
+    },
+    {
+      "id": "ru_es_c2:momento",
+      "ru": "момент силы",
+      "target": "momento"
+    },
+    {
+      "id": "ru_es_c2:monomio",
+      "ru": "одночлен",
+      "target": "monomio"
+    },
+    {
+      "id": "ru_es_c2:multímetro",
+      "ru": "мультиметр",
+      "target": "multímetro"
+    },
+    {
+      "id": "ru_es_c2:nadir",
+      "ru": "надир",
+      "target": "nadir"
+    },
+    {
+      "id": "ru_es_c2:neutrino",
+      "ru": "нейтрино",
+      "target": "neutrino"
+    },
+    {
+      "id": "ru_es_c2:neutrón",
+      "ru": "нейтрон",
+      "target": "neutrón"
+    },
+    {
+      "id": "ru_es_c2:newton",
+      "ru": "ньютон",
+      "target": "newton"
+    },
+    {
+      "id": "ru_es_c2:numerador",
+      "ru": "числитель",
+      "target": "numerador"
+    },
+    {
+      "id": "ru_es_c2:oblicuo",
+      "ru": "наклонный",
+      "target": "oblicuo"
+    },
+    {
+      "id": "ru_es_c2:octaedro",
+      "ru": "октаэдр",
+      "target": "octaedro"
+    },
+    {
+      "id": "ru_es_c2:ohmio",
+      "ru": "ом",
+      "target": "ohmio"
+    },
+    {
+      "id": "ru_es_c2:ondulatorio",
+      "ru": "волновой",
+      "target": "ondulatorio"
+    },
+    {
+      "id": "ru_es_c2:ordenada",
+      "ru": "ордината",
+      "target": "ordenada"
+    },
+    {
+      "id": "ru_es_c2:ortogonal",
+      "ru": "ортогональный",
+      "target": "ortogonal"
+    },
+    {
+      "id": "ru_es_c2:oscilador",
+      "ru": "осциллятор",
+      "target": "oscilador"
+    },
+    {
+      "id": "ru_es_c2:osciloscopio",
+      "ru": "осциллограф",
+      "target": "osciloscopio"
+    },
+    {
+      "id": "ru_es_c2:paraboloide",
+      "ru": "параболоид",
+      "target": "paraboloide"
+    },
+    {
+      "id": "ru_es_c2:paralaje",
+      "ru": "параллакс",
+      "target": "paralaje"
+    },
+    {
+      "id": "ru_es_c2:paralelepípedo",
+      "ru": "параллелепипед",
+      "target": "paralelepípedo"
+    },
+    {
+      "id": "ru_es_c2:parámetro",
+      "ru": "параметр",
+      "target": "parámetro"
+    },
+    {
+      "id": "ru_es_c2:pársec",
+      "ru": "парсек",
+      "target": "pársec"
+    },
+    {
+      "id": "ru_es_c2:pentágono",
+      "ru": "пятиугольник",
+      "target": "pentágono"
+    },
+    {
+      "id": "ru_es_c2:perihelio",
+      "ru": "перигелий",
+      "target": "perihelio"
+    },
+    {
+      "id": "ru_es_c2:perpendicular",
+      "ru": "перпендикулярный",
+      "target": "perpendicular"
+    },
+    {
+      "id": "ru_es_c2:piezoelectricidad",
+      "ru": "пьезоэлектричество",
+      "target": "piezoelectricidad"
+    },
+    {
+      "id": "ru_es_c2:planimetría",
+      "ru": "планиметрия",
+      "target": "planimetría"
+    },
+    {
+      "id": "ru_es_c2:polarización",
+      "ru": "поляризация",
+      "target": "polarización"
+    },
+    {
+      "id": "ru_es_c2:poliédrico",
+      "ru": "многогранный",
+      "target": "poliédrico"
+    },
+    {
+      "id": "ru_es_c2:polinomio",
+      "ru": "многочлен",
+      "target": "polinomio"
+    },
+    {
+      "id": "ru_es_c2:positrón",
+      "ru": "позитрон",
+      "target": "positrón"
+    },
+    {
+      "id": "ru_es_c2:potenciómetro",
+      "ru": "потенциометр",
+      "target": "potenciómetro"
+    },
+    {
+      "id": "ru_es_c2:prisma",
+      "ru": "призма",
+      "target": "prisma"
+    },
+    {
+      "id": "ru_es_c2:protón",
+      "ru": "протон",
+      "target": "protón"
+    },
+    {
+      "id": "ru_es_c2:púlsar",
+      "ru": "пульсар",
+      "target": "púlsar"
+    },
+    {
+      "id": "ru_es_c2:radián",
+      "ru": "радиан",
+      "target": "radián"
+    },
+    {
+      "id": "ru_es_c2:radicando",
+      "ru": "подкоренное выражение",
+      "target": "radicando"
+    },
+    {
+      "id": "ru_es_c2:radiactividad",
+      "ru": "радиоактивность",
+      "target": "radiactividad"
+    },
+    {
+      "id": "ru_es_c2:radiometría",
+      "ru": "радиометрия",
+      "target": "radiometría"
+    },
+    {
+      "id": "ru_es_c2:refracción",
+      "ru": "преломление",
+      "target": "refracción"
+    },
+    {
+      "id": "ru_es_c2:refractómetro",
+      "ru": "рефрактометр",
+      "target": "refractómetro"
+    },
+    {
+      "id": "ru_es_c2:relatividad",
+      "ru": "относительность",
+      "target": "relatividad"
+    },
+    {
+      "id": "ru_es_c2:resistividad",
+      "ru": "удельное электрическое сопротивление",
+      "target": "resistividad"
+    },
+    {
+      "id": "ru_es_c2:reóstato",
+      "ru": "реостат",
+      "target": "reóstato"
+    },
+    {
+      "id": "ru_es_c2:resultante",
+      "ru": "равнодействующая",
+      "target": "resultante"
+    },
+    {
+      "id": "ru_es_c2:romboedro",
+      "ru": "ромбоэдр",
+      "target": "romboedro"
+    },
+    {
+      "id": "ru_es_c2:secante",
+      "ru": "секущая",
+      "target": "secante"
+    },
+    {
+      "id": "ru_es_c2:sextante",
+      "ru": "секстант",
+      "target": "sextante"
+    },
+    {
+      "id": "ru_es_c2:sismógrafo",
+      "ru": "сейсмограф",
+      "target": "sismógrafo"
+    },
+    {
+      "id": "ru_es_c2:solenoide",
+      "ru": "соленоид",
+      "target": "solenoide"
+    },
+    {
+      "id": "ru_es_c2:subconjunto",
+      "ru": "подмножество",
+      "target": "subconjunto"
+    },
+    {
+      "id": "ru_es_c2:sumando",
+      "ru": "слагаемое",
+      "target": "sumando"
+    },
+    {
+      "id": "ru_es_c2:sumatorio",
+      "ru": "сумма ряда",
+      "target": "sumatorio"
+    },
+    {
+      "id": "ru_es_c2:superconductor",
+      "ru": "сверхпроводник",
+      "target": "superconductor"
+    },
+    {
+      "id": "ru_es_c2:tangente",
+      "ru": "касательная",
+      "target": "tangente"
+    },
+    {
+      "id": "ru_es_c2:tensor",
+      "ru": "тензор",
+      "target": "tensor"
+    },
+    {
+      "id": "ru_es_c2:teodolito",
+      "ru": "теодолит",
+      "target": "teodolito"
+    },
+    {
+      "id": "ru_es_c2:teorema",
+      "ru": "теорема",
+      "target": "teorema"
+    },
+    {
+      "id": "ru_es_c2:termodinámica",
+      "ru": "термодинамика",
+      "target": "termodinámica"
+    },
+    {
+      "id": "ru_es_c2:tetraedro",
+      "ru": "тетраэдр",
+      "target": "tetraedro"
+    },
+    {
+      "id": "ru_es_c2:topología",
+      "ru": "топология",
+      "target": "topología"
+    },
+    {
+      "id": "ru_es_c2:toroide",
+      "ru": "тороид",
+      "target": "toroide"
+    },
+    {
+      "id": "ru_es_c2:transversal",
+      "ru": "поперечный",
+      "target": "transversal"
+    },
+    {
+      "id": "ru_es_c2:trapecio",
+      "ru": "трапеция",
+      "target": "trapecio"
+    },
+    {
+      "id": "ru_es_c2:trigonometría",
+      "ru": "тригонометрия",
+      "target": "trigonometría"
+    },
+    {
+      "id": "ru_es_c2:tropósfera",
+      "ru": "тропосфера",
+      "target": "tropósfera"
+    },
+    {
+      "id": "ru_es_c2:turbulencia",
+      "ru": "турбулентность",
+      "target": "turbulencia"
+    },
+    {
+      "id": "ru_es_c2:ultravioleta",
+      "ru": "ультрафиолетовый",
+      "target": "ultravioleta"
+    },
+    {
+      "id": "ru_es_c2:vacuómetro",
+      "ru": "вакуумметр",
+      "target": "vacuómetro"
+    },
+    {
+      "id": "ru_es_c2:varianza",
+      "ru": "дисперсия случайной величины",
+      "target": "varianza"
+    },
+    {
+      "id": "ru_es_c2:vatio",
+      "ru": "ватт",
+      "target": "vatio"
+    },
+    {
+      "id": "ru_es_c2:vector",
+      "ru": "вектор",
+      "target": "vector"
+    },
+    {
+      "id": "ru_es_c2:voltímetro",
+      "ru": "вольтметр",
+      "target": "voltímetro"
+    },
+    {
+      "id": "ru_es_c2:vorticidad",
+      "ru": "завихренность",
+      "target": "vorticidad"
+    },
+    {
+      "id": "ru_es_c2:abintestato",
+      "ru": "без завещания",
+      "target": "abintestato"
+    },
+    {
+      "id": "ru_es_c2:abogacía",
+      "ru": "адвокатура",
+      "target": "abogacía"
+    },
+    {
+      "id": "ru_es_c2:abrogación",
+      "ru": "полная отмена закона",
+      "target": "abrogación"
+    },
+    {
+      "id": "ru_es_c2:absolver",
+      "ru": "оправдывать подсудимого",
+      "target": "absolver"
+    },
+    {
+      "id": "ru_es_c2:accesión",
+      "ru": "приращение собственности",
+      "target": "accesión"
+    },
+    {
+      "id": "ru_es_c2:accesorio",
+      "ru": "дополнительный",
+      "target": "accesorio"
+    },
+    {
+      "id": "ru_es_c2:acreedor",
+      "ru": "кредитор",
+      "target": "acreedor"
+    },
+    {
+      "id": "ru_es_c2:actuario",
+      "ru": "судебный делопроизводитель",
+      "target": "actuario"
+    },
+    {
+      "id": "ru_es_c2:adjudicatario",
+      "ru": "лицо получившее присуждённое",
+      "target": "adjudicatario"
+    },
+    {
+      "id": "ru_es_c2:aforamiento",
+      "ru": "особая подсудность",
+      "target": "aforamiento"
+    },
+    {
+      "id": "ru_es_c2:albacea",
+      "ru": "душеприказчик",
+      "target": "albacea"
+    },
+    {
+      "id": "ru_es_c2:alegato",
+      "ru": "защитительная речь",
+      "target": "alegato"
+    },
+    {
+      "id": "ru_es_c2:allanamiento",
+      "ru": "согласие с иском",
+      "target": "allanamiento"
+    },
+    {
+      "id": "ru_es_c2:anticresis",
+      "ru": "залог с правом пользования доходами",
+      "target": "anticresis"
+    },
+    {
+      "id": "ru_es_c2:antijurídico",
+      "ru": "противоправный",
+      "target": "antijurídico"
+    },
+    {
+      "id": "ru_es_c2:apercibimiento",
+      "ru": "официальное предупреждение",
+      "target": "apercibimiento"
+    },
+    {
+      "id": "ru_es_c2:apoderamiento",
+      "ru": "наделение полномочиями",
+      "target": "apoderamiento"
+    },
+    {
+      "id": "ru_es_c2:apremio",
+      "ru": "принудительное взыскание",
+      "target": "apremio"
+    },
+    {
+      "id": "ru_es_c2:arancel",
+      "ru": "тарифный сбор",
+      "target": "arancel"
+    },
+    {
+      "id": "ru_es_c2:arrendatario",
+      "ru": "арендатор",
+      "target": "arrendatario"
+    },
+    {
+      "id": "ru_es_c2:aseveración",
+      "ru": "категорическое утверждение",
+      "target": "aseveración"
+    },
+    {
+      "id": "ru_es_c2:atenuante",
+      "ru": "смягчающее обстоятельство",
+      "target": "atenuante"
+    },
+    {
+      "id": "ru_es_c2:autoinculpación",
+      "ru": "признание собственной вины",
+      "target": "autoinculpación"
+    },
+    {
+      "id": "ru_es_c2:avocación",
+      "ru": "принятие дела вышестоящим органом",
+      "target": "avocación"
+    },
+    {
+      "id": "ru_es_c2:beneficiario",
+      "ru": "выгодоприобретатель",
+      "target": "beneficiario"
+    },
+    {
+      "id": "ru_es_c2:caducar",
+      "ru": "утрачивать силу",
+      "target": "caducar"
+    },
+    {
+      "id": "ru_es_c2:capitulación",
+      "ru": "договор об условиях",
+      "target": "capitulación"
+    },
+    {
+      "id": "ru_es_c2:casación",
+      "ru": "кассация",
+      "target": "casación"
+    },
+    {
+      "id": "ru_es_c2:cautelar",
+      "ru": "обеспечительный",
+      "target": "cautelar"
+    },
+    {
+      "id": "ru_es_c2:cedente",
+      "ru": "уступающий право",
+      "target": "cedente"
+    },
+    {
+      "id": "ru_es_c2:cesionario",
+      "ru": "получатель уступленного права",
+      "target": "cesionario"
+    },
+    {
+      "id": "ru_es_c2:citación",
+      "ru": "судебная повестка",
+      "target": "citación"
+    },
+    {
+      "id": "ru_es_c2:codicilo",
+      "ru": "дополнение к завещанию",
+      "target": "codicilo"
+    },
+    {
+      "id": "ru_es_c2:coerción",
+      "ru": "принуждение",
+      "target": "coerción"
+    },
+    {
+      "id": "ru_es_c2:coercitivo",
+      "ru": "принудительный",
+      "target": "coercitivo"
+    },
+    {
+      "id": "ru_es_c2:colegiado",
+      "ru": "коллегиальный",
+      "target": "colegiado"
+    },
+    {
+      "id": "ru_es_c2:comiso",
+      "ru": "конфискация",
+      "target": "comiso"
+    },
+    {
+      "id": "ru_es_c2:comodato",
+      "ru": "безвозмездное пользование",
+      "target": "comodato"
+    },
+    {
+      "id": "ru_es_c2:comodatario",
+      "ru": "получатель вещи в безвозмездное пользование",
+      "target": "comodatario"
+    },
+    {
+      "id": "ru_es_c2:comparecer",
+      "ru": "являться в суд",
+      "target": "comparecer"
+    },
+    {
+      "id": "ru_es_c2:concursal",
+      "ru": "связанный с процедурой банкротства",
+      "target": "concursal"
+    },
+    {
+      "id": "ru_es_c2:condonación",
+      "ru": "прощение долга",
+      "target": "condonación"
+    },
+    {
+      "id": "ru_es_c2:conminación",
+      "ru": "угрожающее предупреждение",
+      "target": "conminación"
+    },
+    {
+      "id": "ru_es_c2:conmutación",
+      "ru": "замена наказания",
+      "target": "conmutación"
+    },
+    {
+      "id": "ru_es_c2:consignación",
+      "ru": "внесение на депозит",
+      "target": "consignación"
+    },
+    {
+      "id": "ru_es_c2:contencioso",
+      "ru": "судебно спорный",
+      "target": "contencioso"
+    },
+    {
+      "id": "ru_es_c2:contrafuero",
+      "ru": "нарушение установленной привилегии",
+      "target": "contrafuero"
+    },
+    {
+      "id": "ru_es_c2:contravención",
+      "ru": "правонарушение",
+      "target": "contravención"
+    },
+    {
+      "id": "ru_es_c2:contrayente",
+      "ru": "вступающий в брак",
+      "target": "contrayente"
+    },
+    {
+      "id": "ru_es_c2:copropiedad",
+      "ru": "общая собственность",
+      "target": "copropiedad"
+    },
+    {
+      "id": "ru_es_c2:correduría",
+      "ru": "посредническая контора",
+      "target": "correduría"
+    },
+    {
+      "id": "ru_es_c2:costas",
+      "ru": "судебные расходы",
+      "target": "costas"
+    },
+    {
+      "id": "ru_es_c2:curatela",
+      "ru": "попечительство",
+      "target": "curatela"
+    },
+    {
+      "id": "ru_es_c2:damnificado",
+      "ru": "потерпевший",
+      "target": "damnificado"
+    },
+    {
+      "id": "ru_es_c2:decomiso",
+      "ru": "изъятие имущества",
+      "target": "decomiso"
+    },
+    {
+      "id": "ru_es_c2:defraudación",
+      "ru": "мошенническое уклонение",
+      "target": "defraudación"
+    },
+    {
+      "id": "ru_es_c2:deponente",
+      "ru": "лицо дающее показания",
+      "target": "deponente"
+    },
+    {
+      "id": "ru_es_c2:derechohabiente",
+      "ru": "правопреемник",
+      "target": "derechohabiente"
+    },
+    {
+      "id": "ru_es_c2:desacreditar",
+      "ru": "подрывать репутацию",
+      "target": "desacreditar"
+    },
+    {
+      "id": "ru_es_c2:desafuero",
+      "ru": "снятие особой подсудности",
+      "target": "desafuero"
+    },
+    {
+      "id": "ru_es_c2:desahucio",
+      "ru": "выселение по суду",
+      "target": "desahucio"
+    },
+    {
+      "id": "ru_es_c2:desapoderamiento",
+      "ru": "лишение правомочий",
+      "target": "desapoderamiento"
+    },
+    {
+      "id": "ru_es_c2:desheredación",
+      "ru": "лишение наследства",
+      "target": "desheredación"
+    },
+    {
+      "id": "ru_es_c2:desistimiento",
+      "ru": "отказ от иска",
+      "target": "desistimiento"
+    },
+    {
+      "id": "ru_es_c2:deslinde",
+      "ru": "разграничение владений",
+      "target": "deslinde"
+    },
+    {
+      "id": "ru_es_c2:devengar",
+      "ru": "начислять вознаграждение",
+      "target": "devengar"
+    },
+    {
+      "id": "ru_es_c2:dictaminar",
+      "ru": "давать официальное заключение",
+      "target": "dictaminar"
+    },
+    {
+      "id": "ru_es_c2:dilatorio",
+      "ru": "затягивающий разбирательство",
+      "target": "dilatorio"
+    },
+    {
+      "id": "ru_es_c2:domiciliación",
+      "ru": "указание места платежа",
+      "target": "domiciliación"
+    },
+    {
+      "id": "ru_es_c2:donatario",
+      "ru": "одаряемый",
+      "target": "donatario"
+    },
+    {
+      "id": "ru_es_c2:ejecutoria",
+      "ru": "вступившее в силу судебное решение",
+      "target": "ejecutoria"
+    },
+    {
+      "id": "ru_es_c2:embargable",
+      "ru": "подлежащий аресту",
+      "target": "embargable"
+    },
+    {
+      "id": "ru_es_c2:emplazamiento",
+      "ru": "вызов в суд",
+      "target": "emplazamiento"
+    },
+    {
+      "id": "ru_es_c2:encausado",
+      "ru": "обвиняемый по делу",
+      "target": "encausado"
+    },
+    {
+      "id": "ru_es_c2:encomienda",
+      "ru": "поручение",
+      "target": "encomienda"
+    },
+    {
+      "id": "ru_es_c2:enfiteusis",
+      "ru": "долгосрочное наследуемое пользование землёй",
+      "target": "enfiteusis"
+    },
+    {
+      "id": "ru_es_c2:enjuiciamiento",
+      "ru": "судебное разбирательство",
+      "target": "enjuiciamiento"
+    },
+    {
+      "id": "ru_es_c2:entredicho",
+      "ru": "запрет на действие",
+      "target": "entredicho"
+    },
+    {
+      "id": "ru_es_c2:erario",
+      "ru": "государственная казна",
+      "target": "erario"
+    },
+    {
+      "id": "ru_es_c2:escribanía",
+      "ru": "нотариальная контора",
+      "target": "escribanía"
+    },
+    {
+      "id": "ru_es_c2:exacción",
+      "ru": "принудительный сбор",
+      "target": "exacción"
+    },
+    {
+      "id": "ru_es_c2:excusa",
+      "ru": "основание для освобождения",
+      "target": "excusa"
+    },
+    {
+      "id": "ru_es_c2:exequátur",
+      "ru": "разрешение исполнения иностранного решения",
+      "target": "exequátur"
+    },
+    {
+      "id": "ru_es_c2:eximente",
+      "ru": "исключающее ответственность обстоятельство",
+      "target": "eximente"
+    },
+    {
+      "id": "ru_es_c2:expedientar",
+      "ru": "возбуждать дисциплинарное производство",
+      "target": "expedientar"
+    },
+    {
+      "id": "ru_es_c2:exhorto",
+      "ru": "судебное поручение",
+      "target": "exhorto"
+    },
+    {
+      "id": "ru_es_c2:falsedad",
+      "ru": "подлог",
+      "target": "falsedad"
+    },
+    {
+      "id": "ru_es_c2:fedatario",
+      "ru": "лицо удостоверяющее факты",
+      "target": "fedatario"
+    },
+    {
+      "id": "ru_es_c2:fideicomiso",
+      "ru": "доверительное распоряжение имуществом",
+      "target": "fideicomiso"
+    },
+    {
+      "id": "ru_es_c2:fideicomisario",
+      "ru": "получатель имущества по фидеикомиссу",
+      "target": "fideicomisario"
+    },
+    {
+      "id": "ru_es_c2:fiduciario",
+      "ru": "доверительный",
+      "target": "fiduciario"
+    },
+    {
+      "id": "ru_es_c2:filiatorio",
+      "ru": "связанный с установлением происхождения",
+      "target": "filiatorio"
+    },
+    {
+      "id": "ru_es_c2:finiquito",
+      "ru": "окончательный расчёт",
+      "target": "finiquito"
+    },
+    {
+      "id": "ru_es_c2:fiscalización",
+      "ru": "проверка соблюдения правил",
+      "target": "fiscalización"
+    },
+    {
+      "id": "ru_es_c2:forense",
+      "ru": "судебный",
+      "target": "forense"
+    },
+    {
+      "id": "ru_es_c2:gravamen",
+      "ru": "обременение",
+      "target": "gravamen"
+    },
+    {
+      "id": "ru_es_c2:hipotecario",
+      "ru": "ипотечный",
+      "target": "hipotecario"
+    },
+    {
+      "id": "ru_es_c2:imputabilidad",
+      "ru": "способность нести уголовную ответственность",
+      "target": "imputabilidad"
+    },
+    {
+      "id": "ru_es_c2:imputación",
+      "ru": "вменение",
+      "target": "imputación"
+    },
+    {
+      "id": "ru_es_c2:incoación",
+      "ru": "возбуждение производства",
+      "target": "incoación"
+    },
+    {
+      "id": "ru_es_c2:incomparecencia",
+      "ru": "неявка",
+      "target": "incomparecencia"
+    },
+    {
+      "id": "ru_es_c2:inculpación",
+      "ru": "привлечение к обвинению",
+      "target": "inculpación"
+    },
+    {
+      "id": "ru_es_c2:indemnidad",
+      "ru": "освобождение от ущерба",
+      "target": "indemnidad"
+    },
+    {
+      "id": "ru_es_c2:indiviso",
+      "ru": "неразделённый",
+      "target": "indiviso"
+    },
+    {
+      "id": "ru_es_c2:inhabilitación",
+      "ru": "лишение права занимать должность",
+      "target": "inhabilitación"
+    },
+    {
+      "id": "ru_es_c2:inhibitoria",
+      "ru": "требование передачи дела по подсудности",
+      "target": "inhibitoria"
+    },
+    {
+      "id": "ru_es_c2:interdicto",
+      "ru": "временный судебный запрет",
+      "target": "interdicto"
+    },
+    {
+      "id": "ru_es_c2:interdicción",
+      "ru": "ограничение дееспособности",
+      "target": "interdicción"
+    },
+    {
+      "id": "ru_es_c2:interlocutorio",
+      "ru": "промежуточный судебный",
+      "target": "interlocutorio"
+    },
+    {
+      "id": "ru_es_c2:irretroactividad",
+      "ru": "отсутствие обратной силы",
+      "target": "irretroactividad"
+    },
+    {
+      "id": "ru_es_c2:jurídico",
+      "ru": "юридический",
+      "target": "jurídico"
+    },
+    {
+      "id": "ru_es_c2:jurisconsulto",
+      "ru": "правовед",
+      "target": "jurisconsulto"
+    },
+    {
+      "id": "ru_es_c2:justiciable",
+      "ru": "лицо подлежащее суду",
+      "target": "justiciable"
+    },
+    {
+      "id": "ru_es_c2:laudo",
+      "ru": "арбитражное решение",
+      "target": "laudo"
+    },
+    {
+      "id": "ru_es_c2:legatario",
+      "ru": "получатель завещательного отказа",
+      "target": "legatario"
+    },
+    {
+      "id": "ru_es_c2:litis",
+      "ru": "судебный спор",
+      "target": "litis"
+    },
+    {
+      "id": "ru_es_c2:litisconsorcio",
+      "ru": "процессуальное соучастие",
+      "target": "litisconsorcio"
+    },
+    {
+      "id": "ru_es_c2:litispendencia",
+      "ru": "нахождение спора на рассмотрении",
+      "target": "litispendencia"
+    },
+    {
+      "id": "ru_es_c2:lucro",
+      "ru": "прибыль",
+      "target": "lucro"
+    },
+    {
+      "id": "ru_es_c2:mancomunidad",
+      "ru": "объединение органов самоуправления",
+      "target": "mancomunidad"
+    },
+    {
+      "id": "ru_es_c2:mancomunado",
+      "ru": "совместный",
+      "target": "mancomunado"
+    },
+    {
+      "id": "ru_es_c2:mandatario",
+      "ru": "уполномоченный",
+      "target": "mandatario"
+    },
+    {
+      "id": "ru_es_c2:mandante",
+      "ru": "доверитель",
+      "target": "mandante"
+    },
+    {
+      "id": "ru_es_c2:moratoria",
+      "ru": "отсрочка исполнения",
+      "target": "moratoria"
+    },
+    {
+      "id": "ru_es_c2:nulidad",
+      "ru": "недействительность",
+      "target": "nulidad"
+    },
+    {
+      "id": "ru_es_c2:objeción",
+      "ru": "возражение",
+      "target": "objeción"
+    },
+    {
+      "id": "ru_es_c2:obligacionista",
+      "ru": "владелец облигаций",
+      "target": "obligacionista"
+    },
+    {
+      "id": "ru_es_c2:otorgante",
+      "ru": "лицо совершающее юридический акт",
+      "target": "otorgante"
+    },
+    {
+      "id": "ru_es_c2:pactante",
+      "ru": "сторона соглашения",
+      "target": "pactante"
+    },
+    {
+      "id": "ru_es_c2:peculado",
+      "ru": "хищение казённых средств",
+      "target": "peculado"
+    },
+    {
+      "id": "ru_es_c2:perito",
+      "ru": "эксперт",
+      "target": "perito"
+    },
+    {
+      "id": "ru_es_c2:pignoración",
+      "ru": "передача в залог",
+      "target": "pignoración"
+    },
+    {
+      "id": "ru_es_c2:plenario",
+      "ru": "пленарный",
+      "target": "plenario"
+    },
+    {
+      "id": "ru_es_c2:preclusión",
+      "ru": "утрата процессуального права по сроку",
+      "target": "preclusión"
+    },
+    {
+      "id": "ru_es_c2:prelación",
+      "ru": "очерёдность удовлетворения",
+      "target": "prelación"
+    },
+    {
+      "id": "ru_es_c2:prescriptible",
+      "ru": "подлежащий давности",
+      "target": "prescriptible"
+    },
+    {
+      "id": "ru_es_c2:preterición",
+      "ru": "лишение обязательной доли наследства",
+      "target": "preterición"
+    },
+    {
+      "id": "ru_es_c2:prevaricación",
+      "ru": "вынесение заведомо неправосудного решения",
+      "target": "prevaricación"
+    },
+    {
+      "id": "ru_es_c2:providencia",
+      "ru": "процессуальное распоряжение",
+      "target": "providencia"
+    },
+    {
+      "id": "ru_es_c2:punibilidad",
+      "ru": "наказуемость",
+      "target": "punibilidad"
+    },
+    {
+      "id": "ru_es_c2:querellante",
+      "ru": "заявитель уголовной жалобы",
+      "target": "querellante"
+    },
+    {
+      "id": "ru_es_c2:ratificación",
+      "ru": "утверждение",
+      "target": "ratificación"
+    },
+    {
+      "id": "ru_es_c2:reconvención",
+      "ru": "встречный иск",
+      "target": "reconvención"
+    },
+    {
+      "id": "ru_es_c2:recusación",
+      "ru": "отвод",
+      "target": "recusación"
+    },
+    {
+      "id": "ru_es_c2:redhibición",
+      "ru": "расторжение покупки из-за недостатков",
+      "target": "redhibición"
+    },
+    {
+      "id": "ru_es_c2:refrendo",
+      "ru": "скрепление подписью",
+      "target": "refrendo"
+    },
+    {
+      "id": "ru_es_c2:reintegro",
+      "ru": "возврат выплаченного",
+      "target": "reintegro"
+    },
+    {
+      "id": "ru_es_c2:remisión",
+      "ru": "прощение долга",
+      "target": "remisión"
+    },
+    {
+      "id": "ru_es_c2:resolutorio",
+      "ru": "отменительный",
+      "target": "resolutorio"
+    },
+    {
+      "id": "ru_es_c2:retroactividad",
+      "ru": "обратная сила",
+      "target": "retroactividad"
+    },
+    {
+      "id": "ru_es_c2:retracto",
+      "ru": "право преимущественного выкупа",
+      "target": "retracto"
+    },
+    {
+      "id": "ru_es_c2:salvedad",
+      "ru": "оговорка",
+      "target": "salvedad"
+    },
+    {
+      "id": "ru_es_c2:secuestro",
+      "ru": "судебное секвестирование",
+      "target": "secuestro"
+    },
+    {
+      "id": "ru_es_c2:sedición",
+      "ru": "мятеж",
+      "target": "sedición"
+    },
+    {
+      "id": "ru_es_c2:sobreseimiento",
+      "ru": "прекращение дела",
+      "target": "sobreseimiento"
+    },
+    {
+      "id": "ru_es_c2:suplicatorio",
+      "ru": "запрос о снятии неприкосновенности",
+      "target": "suplicatorio"
+    },
+    {
+      "id": "ru_es_c2:tipicidad",
+      "ru": "соответствие составу преступления",
+      "target": "tipicidad"
+    },
+    {
+      "id": "ru_es_c2:usucapión",
+      "ru": "приобретательная давность",
+      "target": "usucapión"
+    },
+    {
+      "id": "ru_es_c2:usufructo",
+      "ru": "право пользования чужой вещью",
+      "target": "usufructo"
+    },
+    {
+      "id": "ru_es_c2:usurpación",
+      "ru": "незаконное присвоение права",
+      "target": "usurpación"
+    },
+    {
+      "id": "ru_es_c2:vencimiento",
+      "ru": "наступление срока исполнения",
+      "target": "vencimiento"
+    },
+    {
+      "id": "ru_es_c2:vindicativo",
+      "ru": "мстительный",
+      "target": "vindicativo"
+    },
+    {
+      "id": "ru_es_c2:yacente",
+      "ru": "лежащий; непринятый о наследстве",
+      "target": "yacente"
+    },
+    {
+      "id": "ru_es_c2:isomorfía",
+      "ru": "структурное соответствие",
+      "target": "isomorfía"
+    },
+    {
+      "id": "ru_es_c2:isótopo",
+      "ru": "изотоп",
+      "target": "isótopo"
+    },
+    {
+      "id": "ru_es_c2:jactancia",
+      "ru": "хвастовство",
+      "target": "jactancia"
+    },
+    {
+      "id": "ru_es_c2:jitanjáfora",
+      "ru": "бессмысленное звукосочетание",
+      "target": "jitanjáfora"
+    },
+    {
+      "id": "ru_es_c2:lacónico",
+      "ru": "немногословный",
+      "target": "lacónico"
+    },
+    {
+      "id": "ru_es_c2:laicismo",
+      "ru": "светскость",
+      "target": "laicismo"
+    },
+    {
+      "id": "ru_es_c2:latiguillo",
+      "ru": "избитое выражение",
+      "target": "latiguillo"
+    },
+    {
+      "id": "ru_es_c2:leitmotiv",
+      "ru": "лейтмотив",
+      "target": "leitmotiv"
+    },
+    {
+      "id": "ru_es_c2:letrilla",
+      "ru": "короткое сатирическое стихотворение",
+      "target": "letrilla"
+    },
+    {
+      "id": "ru_es_c2:libelo",
+      "ru": "клеветническое сочинение",
+      "target": "libelo"
+    },
+    {
+      "id": "ru_es_c2:liminar",
+      "ru": "вводный",
+      "target": "liminar"
+    },
+    {
+      "id": "ru_es_c2:litote",
+      "ru": "риторическое преуменьшение",
+      "target": "litote"
+    },
+    {
+      "id": "ru_es_c2:logomaquia",
+      "ru": "спор о словах",
+      "target": "logomaquia"
+    },
+    {
+      "id": "ru_es_c2:madrigal",
+      "ru": "мадригал",
+      "target": "madrigal"
+    },
+    {
+      "id": "ru_es_c2:maniqueísmo",
+      "ru": "манихейство",
+      "target": "maniqueísmo"
+    },
+    {
+      "id": "ru_es_c2:materialismo",
+      "ru": "материализм",
+      "target": "materialismo"
+    },
+    {
+      "id": "ru_es_c2:mayéutica",
+      "ru": "метод извлечения знания вопросами",
+      "target": "mayéutica"
+    },
+    {
+      "id": "ru_es_c2:metafísica",
+      "ru": "метафизика",
+      "target": "metafísica"
+    },
+    {
+      "id": "ru_es_c2:metalingüística",
+      "ru": "металингвистика",
+      "target": "metalingüística"
+    },
+    {
+      "id": "ru_es_c2:metatexto",
+      "ru": "текст о другом тексте",
+      "target": "metatexto"
+    },
+    {
+      "id": "ru_es_c2:metempsicosis",
+      "ru": "переселение душ",
+      "target": "metempsicosis"
+    },
+    {
+      "id": "ru_es_c2:metonímico",
+      "ru": "метонимический",
+      "target": "metonímico"
+    },
+    {
+      "id": "ru_es_c2:mímesis",
+      "ru": "подражание действительности",
+      "target": "mímesis"
+    },
+    {
+      "id": "ru_es_c2:misantropía",
+      "ru": "мизантропия",
+      "target": "misantropía"
+    },
+    {
+      "id": "ru_es_c2:monismo",
+      "ru": "монизм",
+      "target": "monismo"
+    },
+    {
+      "id": "ru_es_c2:monografía",
+      "ru": "монография",
+      "target": "monografía"
+    },
+    {
+      "id": "ru_es_c2:multívoco",
+      "ru": "многозначный",
+      "target": "multívoco"
+    },
+    {
+      "id": "ru_es_c2:necedad",
+      "ru": "глупость",
+      "target": "necedad"
+    },
+    {
+      "id": "ru_es_c2:neoplatonismo",
+      "ru": "неоплатонизм",
+      "target": "neoplatonismo"
+    },
+    {
+      "id": "ru_es_c2:nihilismo",
+      "ru": "нигилизм",
+      "target": "nihilismo"
+    },
+    {
+      "id": "ru_es_c2:noesis",
+      "ru": "акт мышления",
+      "target": "noesis"
+    },
+    {
+      "id": "ru_es_c2:nóumeno",
+      "ru": "вещь постигаемая умом",
+      "target": "nóumeno"
+    },
+    {
+      "id": "ru_es_c2:numinoso",
+      "ru": "вызывающий священный трепет",
+      "target": "numinoso"
+    },
+    {
+      "id": "ru_es_c2:óbice",
+      "ru": "препятствие",
+      "target": "óbice"
+    },
+    {
+      "id": "ru_es_c2:obnubilación",
+      "ru": "помрачение сознания",
+      "target": "obnubilación"
+    },
+    {
+      "id": "ru_es_c2:ontología",
+      "ru": "онтология",
+      "target": "ontología"
+    },
+    {
+      "id": "ru_es_c2:oprobio",
+      "ru": "бесчестье",
+      "target": "oprobio"
+    },
+    {
+      "id": "ru_es_c2:oropel",
+      "ru": "мишурный блеск",
+      "target": "oropel"
+    },
+    {
+      "id": "ru_es_c2:ostracismo",
+      "ru": "изгнание из общества",
+      "target": "ostracismo"
+    },
+    {
+      "id": "ru_es_c2:palimpsesto",
+      "ru": "палимпсест",
+      "target": "palimpsesto"
+    },
+    {
+      "id": "ru_es_c2:panegírico",
+      "ru": "хвалебная речь",
+      "target": "panegírico"
+    },
+    {
+      "id": "ru_es_c2:panteísmo",
+      "ru": "пантеизм",
+      "target": "panteísmo"
+    },
+    {
+      "id": "ru_es_c2:parangón",
+      "ru": "образец для сравнения",
+      "target": "parangón"
+    },
+    {
+      "id": "ru_es_c2:paremiología",
+      "ru": "наука о пословицах",
+      "target": "paremiología"
+    },
+    {
+      "id": "ru_es_c2:paronomasia",
+      "ru": "сближение сходно звучащих слов",
+      "target": "paronomasia"
+    },
+    {
+      "id": "ru_es_c2:paroxismo",
+      "ru": "высшая степень возбуждения",
+      "target": "paroxismo"
+    },
+    {
+      "id": "ru_es_c2:paternalismo",
+      "ru": "покровительственный подход",
+      "target": "paternalismo"
+    },
+    {
+      "id": "ru_es_c2:patético",
+      "ru": "вызывающий сильное сочувствие",
+      "target": "patético"
+    },
+    {
+      "id": "ru_es_c2:pedantería",
+      "ru": "педантизм",
+      "target": "pedantería"
+    },
+    {
+      "id": "ru_es_c2:perífrasis",
+      "ru": "описательный оборот",
+      "target": "perífrasis"
+    },
+    {
+      "id": "ru_es_c2:peroración",
+      "ru": "заключительная часть речи",
+      "target": "peroración"
+    },
+    {
+      "id": "ru_es_c2:petulancia",
+      "ru": "заносчивость",
+      "target": "petulancia"
+    },
+    {
+      "id": "ru_es_c2:plétora",
+      "ru": "изобилие",
+      "target": "plétora"
+    },
+    {
+      "id": "ru_es_c2:polisemia",
+      "ru": "многозначность",
+      "target": "polisemia"
+    },
+    {
+      "id": "ru_es_c2:polisíndeton",
+      "ru": "многосоюзие",
+      "target": "polisíndeton"
+    },
+    {
+      "id": "ru_es_c2:pragmatismo",
+      "ru": "прагматизм",
+      "target": "pragmatismo"
+    },
+    {
+      "id": "ru_es_c2:praxis",
+      "ru": "практическая деятельность",
+      "target": "praxis"
+    },
+    {
+      "id": "ru_es_c2:preconizar",
+      "ru": "восхвалять",
+      "target": "preconizar"
+    },
+    {
+      "id": "ru_es_c2:preludio",
+      "ru": "вступление",
+      "target": "preludio"
+    },
+    {
+      "id": "ru_es_c2:prístino",
+      "ru": "первозданный",
+      "target": "prístino"
+    },
+    {
+      "id": "ru_es_c2:prosopopeya",
+      "ru": "олицетворение",
+      "target": "prosopopeya"
+    },
+    {
+      "id": "ru_es_c2:protervo",
+      "ru": "упорно злобный",
+      "target": "protervo"
+    },
+    {
+      "id": "ru_es_c2:proverbial",
+      "ru": "вошедший в поговорку",
+      "target": "proverbial"
+    },
+    {
+      "id": "ru_es_c2:psicologismo",
+      "ru": "психологизм",
+      "target": "psicologismo"
+    },
+    {
+      "id": "ru_es_c2:purismo",
+      "ru": "стремление к чистоте языка",
+      "target": "purismo"
+    },
+    {
+      "id": "ru_es_c2:quiasmo",
+      "ru": "перекрёстное построение фразы",
+      "target": "quiasmo"
+    },
+    {
+      "id": "ru_es_c2:quijotesco",
+      "ru": "бескорыстно мечтательный",
+      "target": "quijotesco"
+    },
+    {
+      "id": "ru_es_c2:rapsodia",
+      "ru": "рапсодия",
+      "target": "rapsodia"
+    },
+    {
+      "id": "ru_es_c2:recalcitrante",
+      "ru": "упорно сопротивляющийся",
+      "target": "recalcitrante"
+    },
+    {
+      "id": "ru_es_c2:recatado",
+      "ru": "сдержанный в поведении",
+      "target": "recatado"
+    },
+    {
+      "id": "ru_es_c2:reificación",
+      "ru": "овеществление",
+      "target": "reificación"
+    },
+    {
+      "id": "ru_es_c2:reminiscente",
+      "ru": "напоминающий прежнее",
+      "target": "reminiscente"
+    },
+    {
+      "id": "ru_es_c2:retahíla",
+      "ru": "длинная череда",
+      "target": "retahíla"
+    },
+    {
+      "id": "ru_es_c2:retrógrado",
+      "ru": "ретроградный",
+      "target": "retrógrado"
+    },
+    {
+      "id": "ru_es_c2:retruécano",
+      "ru": "игра слов с перестановкой",
+      "target": "retruécano"
+    },
+    {
+      "id": "ru_es_c2:rocambolesco",
+      "ru": "невероятно приключенческий",
+      "target": "rocambolesco"
+    },
+    {
+      "id": "ru_es_c2:romancero",
+      "ru": "сборник испанских романсов",
+      "target": "romancero"
+    },
+    {
+      "id": "ru_es_c2:saeta",
+      "ru": "традиционная религиозная песня",
+      "target": "saeta"
+    },
+    {
+      "id": "ru_es_c2:salmodia",
+      "ru": "монотонное пение",
+      "target": "salmodia"
+    },
+    {
+      "id": "ru_es_c2:secular",
+      "ru": "светский",
+      "target": "secular"
+    },
+    {
+      "id": "ru_es_c2:semiótica",
+      "ru": "семиотика",
+      "target": "semiótica"
+    },
+    {
+      "id": "ru_es_c2:silogismo",
+      "ru": "силлогизм",
+      "target": "silogismo"
+    },
+    {
+      "id": "ru_es_c2:sinécdoque",
+      "ru": "синекдоха",
+      "target": "sinécdoque"
+    },
+    {
+      "id": "ru_es_c2:sinestesia",
+      "ru": "синестезия",
+      "target": "sinestesia"
+    },
+    {
+      "id": "ru_es_c2:sinonimia",
+      "ru": "синонимия",
+      "target": "sinonimia"
+    },
+    {
+      "id": "ru_es_c2:sinopsis",
+      "ru": "обзор содержания",
+      "target": "sinopsis"
+    },
+    {
+      "id": "ru_es_c2:sofisma",
+      "ru": "софизм",
+      "target": "sofisma"
+    },
+    {
+      "id": "ru_es_c2:solipsismo",
+      "ru": "солипсизм",
+      "target": "solipsismo"
+    },
+    {
+      "id": "ru_es_c2:solipsista",
+      "ru": "сторонник солипсизма",
+      "target": "solipsista"
+    },
+    {
+      "id": "ru_es_c2:tautología",
+      "ru": "тавтология",
+      "target": "tautología"
+    },
+    {
+      "id": "ru_es_c2:teleología",
+      "ru": "учение о целесообразности",
+      "target": "teleología"
+    },
+    {
+      "id": "ru_es_c2:teodicea",
+      "ru": "оправдание Бога",
+      "target": "teodicea"
+    },
+    {
+      "id": "ru_es_c2:teogonía",
+      "ru": "миф о происхождении богов",
+      "target": "teogonía"
+    },
+    {
+      "id": "ru_es_c2:teosofía",
+      "ru": "теософия",
+      "target": "teosofía"
+    },
+    {
+      "id": "ru_es_c2:tropo",
+      "ru": "троп",
+      "target": "tropo"
+    },
+    {
+      "id": "ru_es_c2:ubérrimo",
+      "ru": "чрезвычайно плодородный",
+      "target": "ubérrimo"
+    },
+    {
+      "id": "ru_es_c2:ubicuidad",
+      "ru": "вездесущность",
+      "target": "ubicuidad"
+    },
+    {
+      "id": "ru_es_c2:ucronía",
+      "ru": "альтернативная история",
+      "target": "ucronía"
+    },
+    {
+      "id": "ru_es_c2:ulterior",
+      "ru": "последующий",
+      "target": "ulterior"
+    },
+    {
+      "id": "ru_es_c2:univocidad",
+      "ru": "однозначность",
+      "target": "univocidad"
+    },
+    {
+      "id": "ru_es_c2:usufructuario",
+      "ru": "пользователь чужой вещи",
+      "target": "usufructuario"
+    },
+    {
+      "id": "ru_es_c2:utilitarismo",
+      "ru": "утилитаризм",
+      "target": "utilitarismo"
+    },
+    {
+      "id": "ru_es_c2:veleidad",
+      "ru": "непостоянное желание",
+      "target": "veleidad"
+    },
+    {
+      "id": "ru_es_c2:venial",
+      "ru": "простительный",
+      "target": "venial"
+    },
+    {
+      "id": "ru_es_c2:verbigracia",
+      "ru": "например",
+      "target": "verbigracia"
+    },
+    {
+      "id": "ru_es_c2:vericueto",
+      "ru": "извилистый путь",
+      "target": "vericueto"
+    },
+    {
+      "id": "ru_es_c2:vituperio",
+      "ru": "резкое порицание",
+      "target": "vituperio"
+    },
+    {
+      "id": "ru_es_c2:volición",
+      "ru": "волеизъявление",
+      "target": "volición"
+    },
+    {
+      "id": "ru_es_c2:zeugma",
+      "ru": "зевгма",
+      "target": "zeugma"
+    },
+    {
+      "id": "ru_es_c2:zéjel",
+      "ru": "средневековая строфическая форма",
+      "target": "zéjel"
+    },
+    {
+      "id": "ru_es_c2:ablación",
+      "ru": "удаление поверхностного слоя",
+      "target": "ablación"
+    },
+    {
+      "id": "ru_es_c2:abrasión",
+      "ru": "истирание",
+      "target": "abrasión"
+    },
+    {
+      "id": "ru_es_c2:acidez",
+      "ru": "кислотность",
+      "target": "acidez"
+    },
+    {
+      "id": "ru_es_c2:acrílico",
+      "ru": "акриловый",
+      "target": "acrílico"
+    },
+    {
+      "id": "ru_es_c2:actínido",
+      "ru": "актиноид",
+      "target": "actínido"
+    },
+    {
+      "id": "ru_es_c2:adsorbente",
+      "ru": "адсорбент",
+      "target": "adsorbente"
+    },
+    {
+      "id": "ru_es_c2:aerogel",
+      "ru": "аэрогель",
+      "target": "aerogel"
+    },
+    {
+      "id": "ru_es_c2:alcalinidad",
+      "ru": "щёлочность",
+      "target": "alcalinidad"
+    },
+    {
+      "id": "ru_es_c2:alcaloide",
+      "ru": "алкалоид",
+      "target": "alcaloide"
+    },
+    {
+      "id": "ru_es_c2:alquimia",
+      "ru": "алхимия",
+      "target": "alquimia"
+    },
+    {
+      "id": "ru_es_c2:alúmina",
+      "ru": "оксид алюминия",
+      "target": "alúmina"
+    },
+    {
+      "id": "ru_es_c2:amalgama",
+      "ru": "амальгама",
+      "target": "amalgama"
+    },
+    {
+      "id": "ru_es_c2:anfótero",
+      "ru": "амфотерный",
+      "target": "anfótero"
+    },
+    {
+      "id": "ru_es_c2:anión",
+      "ru": "анион",
+      "target": "anión"
+    },
+    {
+      "id": "ru_es_c2:antioxidante",
+      "ru": "антиоксидант",
+      "target": "antioxidante"
+    },
+    {
+      "id": "ru_es_c2:arcilloso",
+      "ru": "глинистый",
+      "target": "arcilloso"
+    },
+    {
+      "id": "ru_es_c2:argón",
+      "ru": "аргон",
+      "target": "argón"
+    },
+    {
+      "id": "ru_es_c2:arseniato",
+      "ru": "арсенат",
+      "target": "arseniato"
+    },
+    {
+      "id": "ru_es_c2:arsénico",
+      "ru": "мышьяк",
+      "target": "arsénico"
+    },
+    {
+      "id": "ru_es_c2:azimutal",
+      "ru": "азимутальный",
+      "target": "azimutal"
+    },
+    {
+      "id": "ru_es_c2:bario",
+      "ru": "барий",
+      "target": "bario"
+    },
+    {
+      "id": "ru_es_c2:bauxita",
+      "ru": "боксит",
+      "target": "bauxita"
+    },
+    {
+      "id": "ru_es_c2:benceno",
+      "ru": "бензол",
+      "target": "benceno"
+    },
+    {
+      "id": "ru_es_c2:berilio",
+      "ru": "бериллий",
+      "target": "berilio"
+    },
+    {
+      "id": "ru_es_c2:bicarbonato",
+      "ru": "бикарбонат",
+      "target": "bicarbonato"
+    },
+    {
+      "id": "ru_es_c2:bismuto",
+      "ru": "висмут",
+      "target": "bismuto"
+    },
+    {
+      "id": "ru_es_c2:borato",
+      "ru": "борат",
+      "target": "borato"
+    },
+    {
+      "id": "ru_es_c2:boro",
+      "ru": "бор",
+      "target": "boro"
+    },
+    {
+      "id": "ru_es_c2:bromuro",
+      "ru": "бромид",
+      "target": "bromuro"
+    },
+    {
+      "id": "ru_es_c2:cadmio",
+      "ru": "кадмий",
+      "target": "cadmio"
+    },
+    {
+      "id": "ru_es_c2:calcita",
+      "ru": "кальцит",
+      "target": "calcita"
+    },
+    {
+      "id": "ru_es_c2:caliza",
+      "ru": "известняк",
+      "target": "caliza"
+    },
+    {
+      "id": "ru_es_c2:carburo",
+      "ru": "карбид",
+      "target": "carburo"
+    },
+    {
+      "id": "ru_es_c2:catálisis",
+      "ru": "катализ",
+      "target": "catálisis"
+    },
+    {
+      "id": "ru_es_c2:catión",
+      "ru": "катион",
+      "target": "catión"
+    },
+    {
+      "id": "ru_es_c2:caudal",
+      "ru": "расход потока",
+      "target": "caudal"
+    },
+    {
+      "id": "ru_es_c2:cáustico",
+      "ru": "едкий",
+      "target": "cáustico"
+    },
+    {
+      "id": "ru_es_c2:cementación",
+      "ru": "цементация",
+      "target": "cementación"
+    },
+    {
+      "id": "ru_es_c2:cerio",
+      "ru": "церий",
+      "target": "cerio"
+    },
+    {
+      "id": "ru_es_c2:cinabrio",
+      "ru": "киноварь",
+      "target": "cinabrio"
+    },
+    {
+      "id": "ru_es_c2:circonio",
+      "ru": "цирконий",
+      "target": "circonio"
+    },
+    {
+      "id": "ru_es_c2:cloruro",
+      "ru": "хлорид",
+      "target": "cloruro"
+    },
+    {
+      "id": "ru_es_c2:cobalto",
+      "ru": "кобальт",
+      "target": "cobalto"
+    },
+    {
+      "id": "ru_es_c2:coloide",
+      "ru": "коллоид",
+      "target": "coloide"
+    },
+    {
+      "id": "ru_es_c2:conglomerado",
+      "ru": "конгломерат",
+      "target": "conglomerado"
+    },
+    {
+      "id": "ru_es_c2:copolímero",
+      "ru": "сополимер",
+      "target": "copolímero"
+    },
+    {
+      "id": "ru_es_c2:corindón",
+      "ru": "корунд",
+      "target": "corindón"
+    },
+    {
+      "id": "ru_es_c2:covalente",
+      "ru": "ковалентный",
+      "target": "covalente"
+    },
+    {
+      "id": "ru_es_c2:cristalización",
+      "ru": "кристаллизация",
+      "target": "cristalización"
+    },
+    {
+      "id": "ru_es_c2:cromatografía",
+      "ru": "хроматография",
+      "target": "cromatografía"
+    },
+    {
+      "id": "ru_es_c2:cromo",
+      "ru": "хром",
+      "target": "cromo"
+    },
+    {
+      "id": "ru_es_c2:cuarzo",
+      "ru": "кварц",
+      "target": "cuarzo"
+    },
+    {
+      "id": "ru_es_c2:dendrita",
+      "ru": "дендрит",
+      "target": "dendrita"
+    },
+    {
+      "id": "ru_es_c2:desecación",
+      "ru": "высушивание",
+      "target": "desecación"
+    },
+    {
+      "id": "ru_es_c2:desorción",
+      "ru": "десорбция",
+      "target": "desorción"
+    },
+    {
+      "id": "ru_es_c2:deuterio",
+      "ru": "дейтерий",
+      "target": "deuterio"
+    },
+    {
+      "id": "ru_es_c2:diamagnetismo",
+      "ru": "диамагнетизм",
+      "target": "diamagnetismo"
+    },
+    {
+      "id": "ru_es_c2:diluyente",
+      "ru": "разбавитель",
+      "target": "diluyente"
+    },
+    {
+      "id": "ru_es_c2:dolomita",
+      "ru": "доломит",
+      "target": "dolomita"
+    },
+    {
+      "id": "ru_es_c2:ductilidad",
+      "ru": "пластичность металла",
+      "target": "ductilidad"
+    },
+    {
+      "id": "ru_es_c2:ebullición",
+      "ru": "кипение",
+      "target": "ebullición"
+    },
+    {
+      "id": "ru_es_c2:eflorescencia",
+      "ru": "образование налёта кристаллов",
+      "target": "eflorescencia"
+    },
+    {
+      "id": "ru_es_c2:electrólisis",
+      "ru": "электролиз",
+      "target": "electrólisis"
+    },
+    {
+      "id": "ru_es_c2:electronegatividad",
+      "ru": "электроотрицательность",
+      "target": "electronegatividad"
+    },
+    {
+      "id": "ru_es_c2:emulsión",
+      "ru": "эмульсия",
+      "target": "emulsión"
+    },
+    {
+      "id": "ru_es_c2:entalpía",
+      "ru": "энтальпия",
+      "target": "entalpía"
+    },
+    {
+      "id": "ru_es_c2:epoxi",
+      "ru": "эпоксидный",
+      "target": "epoxi"
+    },
+    {
+      "id": "ru_es_c2:escisión",
+      "ru": "расщепление",
+      "target": "escisión"
+    },
+    {
+      "id": "ru_es_c2:espectroscopia",
+      "ru": "спектроскопия",
+      "target": "espectroscopia"
+    },
+    {
+      "id": "ru_es_c2:espinela",
+      "ru": "шпинель",
+      "target": "espinela"
+    },
+    {
+      "id": "ru_es_c2:estequiometría",
+      "ru": "стехиометрия",
+      "target": "estequiometría"
+    },
+    {
+      "id": "ru_es_c2:estroncio",
+      "ru": "стронций",
+      "target": "estroncio"
+    },
+    {
+      "id": "ru_es_c2:eutéctico",
+      "ru": "эвтектический",
+      "target": "eutéctico"
+    },
+    {
+      "id": "ru_es_c2:evaporita",
+      "ru": "эвапорит",
+      "target": "evaporita"
+    },
+    {
+      "id": "ru_es_c2:exotérmico",
+      "ru": "экзотермический",
+      "target": "exotérmico"
+    },
+    {
+      "id": "ru_es_c2:feldespato",
+      "ru": "полевой шпат",
+      "target": "feldespato"
+    },
+    {
+      "id": "ru_es_c2:ferroso",
+      "ru": "содержащий двухвалентное железо",
+      "target": "ferroso"
+    },
+    {
+      "id": "ru_es_c2:fluorita",
+      "ru": "флюорит",
+      "target": "fluorita"
+    },
+    {
+      "id": "ru_es_c2:fluoruro",
+      "ru": "фторид",
+      "target": "fluoruro"
+    },
+    {
+      "id": "ru_es_c2:fosfato",
+      "ru": "фосфат",
+      "target": "fosfato"
+    },
+    {
+      "id": "ru_es_c2:fosforescencia",
+      "ru": "фосфоресценция",
+      "target": "fosforescencia"
+    },
+    {
+      "id": "ru_es_c2:fraguado",
+      "ru": "затвердевание раствора",
+      "target": "fraguado"
+    },
+    {
+      "id": "ru_es_c2:fullereno",
+      "ru": "фуллерен",
+      "target": "fullereno"
+    },
+    {
+      "id": "ru_es_c2:galio",
+      "ru": "галлий",
+      "target": "galio"
+    },
+    {
+      "id": "ru_es_c2:ganga",
+      "ru": "пустая порода",
+      "target": "ganga"
+    },
+    {
+      "id": "ru_es_c2:germanio",
+      "ru": "германий",
+      "target": "germanio"
+    },
+    {
+      "id": "ru_es_c2:grafeno",
+      "ru": "графен",
+      "target": "grafeno"
+    },
+    {
+      "id": "ru_es_c2:grafito",
+      "ru": "графит",
+      "target": "grafito"
+    },
+    {
+      "id": "ru_es_c2:granulometría",
+      "ru": "распределение частиц по размеру",
+      "target": "granulometría"
+    },
+    {
+      "id": "ru_es_c2:halógeno",
+      "ru": "галоген",
+      "target": "halógeno"
+    },
+    {
+      "id": "ru_es_c2:hematita",
+      "ru": "гематит",
+      "target": "hematita"
+    },
+    {
+      "id": "ru_es_c2:hidrocarburo",
+      "ru": "углеводород",
+      "target": "hidrocarburo"
+    },
+    {
+      "id": "ru_es_c2:hidrólisis",
+      "ru": "гидролиз",
+      "target": "hidrólisis"
+    },
+    {
+      "id": "ru_es_c2:hidróxido",
+      "ru": "гидроксид",
+      "target": "hidróxido"
+    },
+    {
+      "id": "ru_es_c2:higroscópico",
+      "ru": "гигроскопичный",
+      "target": "higroscópico"
+    },
+    {
+      "id": "ru_es_c2:hipoclorito",
+      "ru": "гипохлорит",
+      "target": "hipoclorito"
+    },
+    {
+      "id": "ru_es_c2:humectante",
+      "ru": "увлажняющее вещество",
+      "target": "humectante"
+    },
+    {
+      "id": "ru_es_c2:intersticial",
+      "ru": "межтканевой",
+      "target": "intersticial"
+    },
+    {
+      "id": "ru_es_c2:ionización",
+      "ru": "ионизация",
+      "target": "ionización"
+    },
+    {
+      "id": "ru_es_c2:iridio",
+      "ru": "иридий",
+      "target": "iridio"
+    },
+    {
+      "id": "ru_es_c2:itrio",
+      "ru": "иттрий",
+      "target": "itrio"
+    },
+    {
+      "id": "ru_es_c2:lantánido",
+      "ru": "лантаноид",
+      "target": "lantánido"
+    },
+    {
+      "id": "ru_es_c2:lixiviación",
+      "ru": "выщелачивание",
+      "target": "lixiviación"
+    },
+    {
+      "id": "ru_es_c2:magnetita",
+      "ru": "магнетит",
+      "target": "magnetita"
+    },
+    {
+      "id": "ru_es_c2:maleable",
+      "ru": "ковкий",
+      "target": "maleable"
+    },
+    {
+      "id": "ru_es_c2:manganeso",
+      "ru": "марганец",
+      "target": "manganeso"
+    },
+    {
+      "id": "ru_es_c2:mena",
+      "ru": "руда",
+      "target": "mena"
+    },
+    {
+      "id": "ru_es_c2:metaloide",
+      "ru": "металлоид",
+      "target": "metaloide"
+    },
+    {
+      "id": "ru_es_c2:mica",
+      "ru": "слюда",
+      "target": "mica"
+    },
+    {
+      "id": "ru_es_c2:molalidad",
+      "ru": "моляльность",
+      "target": "molalidad"
+    },
+    {
+      "id": "ru_es_c2:molibdeno",
+      "ru": "молибден",
+      "target": "molibdeno"
+    },
+    {
+      "id": "ru_es_c2:monómero",
+      "ru": "мономер",
+      "target": "monómero"
+    },
+    {
+      "id": "ru_es_c2:nanotubo",
+      "ru": "нанотрубка",
+      "target": "nanotubo"
+    },
+    {
+      "id": "ru_es_c2:neodimio",
+      "ru": "неодим",
+      "target": "neodimio"
+    },
+    {
+      "id": "ru_es_c2:neón",
+      "ru": "неон",
+      "target": "neón"
+    },
+    {
+      "id": "ru_es_c2:niobio",
+      "ru": "ниобий",
+      "target": "niobio"
+    },
+    {
+      "id": "ru_es_c2:nitruro",
+      "ru": "нитрид",
+      "target": "nitruro"
+    },
+    {
+      "id": "ru_es_c2:osmio",
+      "ru": "осмий",
+      "target": "osmio"
+    },
+    {
+      "id": "ru_es_c2:ósmosis",
+      "ru": "осмос",
+      "target": "ósmosis"
+    },
+    {
+      "id": "ru_es_c2:oxidante",
+      "ru": "окислитель",
+      "target": "oxidante"
+    },
+    {
+      "id": "ru_es_c2:óxido",
+      "ru": "оксид",
+      "target": "óxido"
+    },
+    {
+      "id": "ru_es_c2:paladio",
+      "ru": "палладий",
+      "target": "paladio"
+    },
+    {
+      "id": "ru_es_c2:pasivación",
+      "ru": "пассивация",
+      "target": "pasivación"
+    },
+    {
+      "id": "ru_es_c2:pátina",
+      "ru": "патина",
+      "target": "pátina"
+    },
+    {
+      "id": "ru_es_c2:patinado",
+      "ru": "патинирование",
+      "target": "patinado"
+    },
+    {
+      "id": "ru_es_c2:peptídico",
+      "ru": "пептидный",
+      "target": "peptídico"
+    },
+    {
+      "id": "ru_es_c2:peróxido",
+      "ru": "пероксид",
+      "target": "peróxido"
+    },
+    {
+      "id": "ru_es_c2:pigmentación",
+      "ru": "пигментация",
+      "target": "pigmentación"
+    },
+    {
+      "id": "ru_es_c2:pirita",
+      "ru": "пирит",
+      "target": "pirita"
+    },
+    {
+      "id": "ru_es_c2:pirólisis",
+      "ru": "пиролиз",
+      "target": "pirólisis"
+    },
+    {
+      "id": "ru_es_c2:plagioclasa",
+      "ru": "плагиоклаз",
+      "target": "plagioclasa"
+    },
+    {
+      "id": "ru_es_c2:polimerización",
+      "ru": "полимеризация",
+      "target": "polimerización"
+    },
+    {
+      "id": "ru_es_c2:polímero",
+      "ru": "полимер",
+      "target": "polímero"
+    },
+    {
+      "id": "ru_es_c2:poliuretano",
+      "ru": "полиуретан",
+      "target": "poliuretano"
+    },
+    {
+      "id": "ru_es_c2:porosidad",
+      "ru": "пористость",
+      "target": "porosidad"
+    },
+    {
+      "id": "ru_es_c2:potasa",
+      "ru": "поташ",
+      "target": "potasa"
+    },
+    {
+      "id": "ru_es_c2:precipitado",
+      "ru": "осадок реакции",
+      "target": "precipitado"
+    },
+    {
+      "id": "ru_es_c2:quimioluminiscencia",
+      "ru": "хемилюминесценция",
+      "target": "quimioluminiscencia"
+    },
+    {
+      "id": "ru_es_c2:reactividad",
+      "ru": "реакционная способность",
+      "target": "reactividad"
+    },
+    {
+      "id": "ru_es_c2:recristalización",
+      "ru": "перекристаллизация",
+      "target": "recristalización"
+    },
+    {
+      "id": "ru_es_c2:renio",
+      "ru": "рений",
+      "target": "renio"
+    },
+    {
+      "id": "ru_es_c2:rodio",
+      "ru": "родий",
+      "target": "rodio"
+    },
+    {
+      "id": "ru_es_c2:rubidio",
+      "ru": "рубидий",
+      "target": "rubidio"
+    },
+    {
+      "id": "ru_es_c2:rutenio",
+      "ru": "рутений",
+      "target": "rutenio"
+    },
+    {
+      "id": "ru_es_c2:saponificación",
+      "ru": "омыление",
+      "target": "saponificación"
+    },
+    {
+      "id": "ru_es_c2:selenio",
+      "ru": "селен",
+      "target": "selenio"
+    },
+    {
+      "id": "ru_es_c2:silicato",
+      "ru": "силикат",
+      "target": "silicato"
+    },
+    {
+      "id": "ru_es_c2:silíceo",
+      "ru": "кремнезёмистый",
+      "target": "silíceo"
+    },
+    {
+      "id": "ru_es_c2:silicio",
+      "ru": "кремний",
+      "target": "silicio"
+    },
+    {
+      "id": "ru_es_c2:sílice",
+      "ru": "кремнезём",
+      "target": "sílice"
+    },
+    {
+      "id": "ru_es_c2:sinterización",
+      "ru": "спекание",
+      "target": "sinterización"
+    },
+    {
+      "id": "ru_es_c2:sublimación",
+      "ru": "сублимация",
+      "target": "sublimación"
+    },
+    {
+      "id": "ru_es_c2:sulfato",
+      "ru": "сульфат",
+      "target": "sulfato"
+    },
+    {
+      "id": "ru_es_c2:sulfuro",
+      "ru": "сульфид",
+      "target": "sulfuro"
+    },
+    {
+      "id": "ru_es_c2:surfactante",
+      "ru": "поверхностно активное вещество",
+      "target": "surfactante"
+    },
+    {
+      "id": "ru_es_c2:talio",
+      "ru": "таллий",
+      "target": "talio"
+    },
+    {
+      "id": "ru_es_c2:tantalio",
+      "ru": "тантал",
+      "target": "tantalio"
+    },
+    {
+      "id": "ru_es_c2:telurio",
+      "ru": "теллур",
+      "target": "telurio"
+    },
+    {
+      "id": "ru_es_c2:termoplástico",
+      "ru": "термопластичный",
+      "target": "termoplástico"
+    },
+    {
+      "id": "ru_es_c2:tiocianato",
+      "ru": "тиоцианат",
+      "target": "tiocianato"
+    },
+    {
+      "id": "ru_es_c2:titanio",
+      "ru": "титан",
+      "target": "titanio"
+    },
+    {
+      "id": "ru_es_c2:torio",
+      "ru": "торий",
+      "target": "torio"
+    },
+    {
+      "id": "ru_es_c2:trazador",
+      "ru": "индикаторная метка",
+      "target": "trazador"
+    },
+    {
+      "id": "ru_es_c2:tungsteno",
+      "ru": "вольфрам",
+      "target": "tungsteno"
+    },
+    {
+      "id": "ru_es_c2:valencia",
+      "ru": "валентность",
+      "target": "valencia"
+    },
+    {
+      "id": "ru_es_c2:vanadio",
+      "ru": "ванадий",
+      "target": "vanadio"
+    },
+    {
+      "id": "ru_es_c2:viscoelasticidad",
+      "ru": "вязкоупругость",
+      "target": "viscoelasticidad"
+    },
+    {
+      "id": "ru_es_c2:vulcanización",
+      "ru": "вулканизация",
+      "target": "vulcanización"
+    },
+    {
+      "id": "ru_es_c2:xenón",
+      "ru": "ксенон",
+      "target": "xenón"
+    },
+    {
+      "id": "ru_es_c2:yoduro",
+      "ru": "йодид",
+      "target": "yoduro"
+    },
+    {
+      "id": "ru_es_c2:zeolita",
+      "ru": "цеолит",
+      "target": "zeolita"
+    },
+    {
+      "id": "ru_es_c2:ablativo",
+      "ru": "падеж отделения",
+      "target": "ablativo"
+    },
+    {
+      "id": "ru_es_c2:acusativo",
+      "ru": "винительный падеж",
+      "target": "acusativo"
+    },
+    {
+      "id": "ru_es_c2:aglutinante",
+      "ru": "агглютинативный",
+      "target": "aglutinante"
+    },
+    {
+      "id": "ru_es_c2:alófono",
+      "ru": "аллофон",
+      "target": "alófono"
+    },
+    {
+      "id": "ru_es_c2:alomorfo",
+      "ru": "алломорф",
+      "target": "alomorfo"
+    },
+    {
+      "id": "ru_es_c2:anadiplosis",
+      "ru": "повтор окончания в начале следующей фразы",
+      "target": "anadiplosis"
+    },
+    {
+      "id": "ru_es_c2:anáfora",
+      "ru": "анафора",
+      "target": "anáfora"
+    },
+    {
+      "id": "ru_es_c2:anástrofe",
+      "ru": "перестановка обычного порядка слов",
+      "target": "anástrofe"
+    },
+    {
+      "id": "ru_es_c2:apócope",
+      "ru": "усечение конца слова",
+      "target": "apócope"
+    },
+    {
+      "id": "ru_es_c2:apódosis",
+      "ru": "главная часть условного предложения",
+      "target": "apódosis"
+    },
+    {
+      "id": "ru_es_c2:asíndeton",
+      "ru": "бессоюзие",
+      "target": "asíndeton"
+    },
+    {
+      "id": "ru_es_c2:aspectual",
+      "ru": "связанный с видом глагола",
+      "target": "aspectual"
+    },
+    {
+      "id": "ru_es_c2:bimembre",
+      "ru": "двусоставный",
+      "target": "bimembre"
+    },
+    {
+      "id": "ru_es_c2:circunfijo",
+      "ru": "циркумфикс",
+      "target": "circunfijo"
+    },
+    {
+      "id": "ru_es_c2:clítico",
+      "ru": "клитика",
+      "target": "clítico"
+    },
+    {
+      "id": "ru_es_c2:deixis",
+      "ru": "дейксис",
+      "target": "deixis"
+    },
+    {
+      "id": "ru_es_c2:denotación",
+      "ru": "прямое обозначение",
+      "target": "denotación"
+    },
+    {
+      "id": "ru_es_c2:diacrítico",
+      "ru": "различительный знак",
+      "target": "diacrítico"
+    },
+    {
+      "id": "ru_es_c2:disfemismo",
+      "ru": "грубая замена выражения",
+      "target": "disfemismo"
+    },
+    {
+      "id": "ru_es_c2:epanadiplosis",
+      "ru": "повтор начала в конце фразы",
+      "target": "epanadiplosis"
+    },
+    {
+      "id": "ru_es_c2:epéntesis",
+      "ru": "вставка звука",
+      "target": "epéntesis"
+    },
+    {
+      "id": "ru_es_c2:ergativo",
+      "ru": "эргативный",
+      "target": "ergativo"
+    },
+    {
+      "id": "ru_es_c2:etimón",
+      "ru": "исходная форма слова",
+      "target": "etimón"
+    },
+    {
+      "id": "ru_es_c2:expletivo",
+      "ru": "избыточный для смысла",
+      "target": "expletivo"
+    },
+    {
+      "id": "ru_es_c2:fático",
+      "ru": "поддерживающий речевой контакт",
+      "target": "fático"
+    },
+    {
+      "id": "ru_es_c2:fricativo",
+      "ru": "щелевой",
+      "target": "fricativo"
+    },
+    {
+      "id": "ru_es_c2:hiperónimo",
+      "ru": "родовое наименование",
+      "target": "hiperónimo"
+    },
+    {
+      "id": "ru_es_c2:hipocorístico",
+      "ru": "ласкательное имя",
+      "target": "hipocorístico"
+    },
+    {
+      "id": "ru_es_c2:hipónimo",
+      "ru": "видовое наименование",
+      "target": "hipónimo"
+    },
+    {
+      "id": "ru_es_c2:interfijo",
+      "ru": "соединительная морфема",
+      "target": "interfijo"
+    },
+    {
+      "id": "ru_es_c2:isoglosa",
+      "ru": "граница языкового явления",
+      "target": "isoglosa"
+    },
+    {
+      "id": "ru_es_c2:lexicografía",
+      "ru": "лексикография",
+      "target": "lexicografía"
+    },
+    {
+      "id": "ru_es_c2:lexicología",
+      "ru": "лексикология",
+      "target": "lexicología"
+    },
+    {
+      "id": "ru_es_c2:locativo",
+      "ru": "местный падеж",
+      "target": "locativo"
+    },
+    {
+      "id": "ru_es_c2:metalenguaje",
+      "ru": "метаязык",
+      "target": "metalenguaje"
+    },
+    {
+      "id": "ru_es_c2:metátesis",
+      "ru": "перестановка звуков",
+      "target": "metátesis"
+    },
+    {
+      "id": "ru_es_c2:morfosintaxis",
+      "ru": "морфосинтаксис",
+      "target": "morfosintaxis"
+    },
+    {
+      "id": "ru_es_c2:onomástica",
+      "ru": "наука об именах",
+      "target": "onomástica"
+    },
+    {
+      "id": "ru_es_c2:paradigmático",
+      "ru": "парадигматический",
+      "target": "paradigmático"
+    },
+    {
+      "id": "ru_es_c2:paralingüístico",
+      "ru": "паралингвистический",
+      "target": "paralingüístico"
+    },
+    {
+      "id": "ru_es_c2:parasíntesis",
+      "ru": "одновременное сложное словообразование",
+      "target": "parasíntesis"
+    },
+    {
+      "id": "ru_es_c2:parónimo",
+      "ru": "сходно звучащее слово",
+      "target": "parónimo"
+    },
+    {
+      "id": "ru_es_c2:pragmática",
+      "ru": "лингвистическая прагматика",
+      "target": "pragmática"
+    },
+    {
+      "id": "ru_es_c2:prótasis",
+      "ru": "условная часть предложения",
+      "target": "prótasis"
+    },
+    {
+      "id": "ru_es_c2:rotacismo",
+      "ru": "переход звука в звук р",
+      "target": "rotacismo"
+    },
+    {
+      "id": "ru_es_c2:semema",
+      "ru": "единица значения",
+      "target": "semema"
+    },
+    {
+      "id": "ru_es_c2:semivocal",
+      "ru": "полугласный",
+      "target": "semivocal"
+    },
+    {
+      "id": "ru_es_c2:seseo",
+      "ru": "произношение с вместо межзубного звука",
+      "target": "seseo"
+    },
+    {
+      "id": "ru_es_c2:sincrónico",
+      "ru": "относящийся к одному периоду",
+      "target": "sincrónico"
+    },
+    {
+      "id": "ru_es_c2:sintagma",
+      "ru": "синтагма",
+      "target": "sintagma"
+    },
+    {
+      "id": "ru_es_c2:transitividad",
+      "ru": "переходность глагола",
+      "target": "transitividad"
+    },
+    {
+      "id": "ru_es_c2:yeísmo",
+      "ru": "одинаковое произношение ll и y",
+      "target": "yeísmo"
+    },
+    {
+      "id": "ru_es_c2:andadura",
+      "ru": "ход развития",
+      "target": "andadura"
+    },
+    {
+      "id": "ru_es_c2:antropónimo",
+      "ru": "личное имя",
+      "target": "antropónimo"
+    },
+    {
+      "id": "ru_es_c2:apresto",
+      "ru": "подготовка",
+      "target": "apresto"
+    },
+    {
+      "id": "ru_es_c2:arquitrabe",
+      "ru": "архитрав",
+      "target": "arquitrabe"
+    },
+    {
+      "id": "ru_es_c2:aluvión",
+      "ru": "речные наносы",
+      "target": "aluvión"
+    },
+    {
+      "id": "ru_es_c2:anticlinal",
+      "ru": "антиклиналь",
+      "target": "anticlinal"
+    },
+    {
+      "id": "ru_es_c2:batolito",
+      "ru": "батолит",
+      "target": "batolito"
+    },
+    {
+      "id": "ru_es_c2:caldera",
+      "ru": "вулканическая кальдера",
+      "target": "caldera"
+    },
+    {
+      "id": "ru_es_c2:cratón",
+      "ru": "древняя платформа земной коры",
+      "target": "cratón"
+    },
+    {
+      "id": "ru_es_c2:diagénesis",
+      "ru": "образование осадочной породы",
+      "target": "diagénesis"
+    },
+    {
+      "id": "ru_es_c2:diapiro",
+      "ru": "диапир",
+      "target": "diapiro"
+    },
+    {
+      "id": "ru_es_c2:discordancia",
+      "ru": "несогласное залегание",
+      "target": "discordancia"
+    },
+    {
+      "id": "ru_es_c2:esquisto",
+      "ru": "сланец",
+      "target": "esquisto"
+    },
+    {
+      "id": "ru_es_c2:estratigrafía",
+      "ru": "стратиграфия",
+      "target": "estratigrafía"
+    },
+    {
+      "id": "ru_es_c2:filón",
+      "ru": "рудная жила",
+      "target": "filón"
+    },
+    {
+      "id": "ru_es_c2:geocronología",
+      "ru": "геохронология",
+      "target": "geocronología"
+    },
+    {
+      "id": "ru_es_c2:gneis",
+      "ru": "гнейс",
+      "target": "gneis"
+    },
+    {
+      "id": "ru_es_c2:graben",
+      "ru": "грабен",
+      "target": "graben"
+    },
+    {
+      "id": "ru_es_c2:horst",
+      "ru": "горст",
+      "target": "horst"
+    },
+    {
+      "id": "ru_es_c2:isostasia",
+      "ru": "изостатическое равновесие",
+      "target": "isostasia"
+    },
+    {
+      "id": "ru_es_c2:karst",
+      "ru": "карст",
+      "target": "karst"
+    },
+    {
+      "id": "ru_es_c2:litología",
+      "ru": "литология",
+      "target": "litología"
+    },
+    {
+      "id": "ru_es_c2:loess",
+      "ru": "лёсс",
+      "target": "loess"
+    },
+    {
+      "id": "ru_es_c2:magmatismo",
+      "ru": "магматизм",
+      "target": "magmatismo"
+    },
+    {
+      "id": "ru_es_c2:metamorfismo",
+      "ru": "метаморфизм",
+      "target": "metamorfismo"
+    },
+    {
+      "id": "ru_es_c2:orogenia",
+      "ru": "горообразование",
+      "target": "orogenia"
+    },
+    {
+      "id": "ru_es_c2:petrografía",
+      "ru": "петрография",
+      "target": "petrografía"
+    },
+    {
+      "id": "ru_es_c2:petrología",
+      "ru": "петрология",
+      "target": "petrología"
+    },
+    {
+      "id": "ru_es_c2:plutónico",
+      "ru": "глубинный магматический",
+      "target": "plutónico"
+    },
+    {
+      "id": "ru_es_c2:riolita",
+      "ru": "риолит",
+      "target": "riolita"
+    },
+    {
+      "id": "ru_es_c2:sinclinal",
+      "ru": "синклиналь",
+      "target": "sinclinal"
+    },
+    {
+      "id": "ru_es_c2:subducción",
+      "ru": "погружение литосферной плиты",
+      "target": "subducción"
+    },
+    {
+      "id": "ru_es_c2:tectónica",
+      "ru": "тектоника",
+      "target": "tectónica"
+    },
+    {
+      "id": "ru_es_c2:travertino",
+      "ru": "травертин",
+      "target": "travertino"
+    },
+    {
+      "id": "ru_es_c2:turbidita",
+      "ru": "турбидит",
+      "target": "turbidita"
+    },
+    {
+      "id": "ru_es_c2:vulcanismo",
+      "ru": "вулканизм",
+      "target": "vulcanismo"
+    }
+  ]
+}

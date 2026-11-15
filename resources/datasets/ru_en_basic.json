@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ru_en_basic",
+  "description": "Русско-английский словарь ru_en_basic",
+  "profile": "translation-ru-en",
+  "level": "basic",
+  "entries": [
+    {
+      "id": "ru_en_basic:0",
+      "ru": "дом",
+      "target": "home"
+    },
+    {
+      "id": "ru_en_basic:1",
+      "ru": "вода",
+      "target": "water"
+    },
+    {
+      "id": "ru_en_basic:2",
+      "ru": "солнце",
+      "target": "sun"
+    },
+    {
+      "id": "ru_en_basic:3",
+      "ru": "луна",
+      "target": "moon"
+    },
+    {
+      "id": "ru_en_basic:4",
+      "ru": "книга",
+      "target": "book"
+    },
+    {
+      "id": "ru_en_basic:5",
+      "ru": "ручка",
+      "target": "pen"
+    },
+    {
+      "id": "ru_en_basic:6",
+      "ru": "школа",
+      "target": "school"
+    },
+    {
+      "id": "ru_en_basic:7",
+      "ru": "город",
+      "target": "city"
+    },
+    {
+      "id": "ru_en_basic:8",
+      "ru": "улица",
+      "target": "street"
+    },
+    {
+      "id": "ru_en_basic:9",
+      "ru": "машина",
+      "target": "car"
+    },
+    {
+      "id": "ru_en_basic:10",
+      "ru": "поезд",
+      "target": "train"
+    },
+    {
+      "id": "ru_en_basic:11",
+      "ru": "самолет",
+      "target": "plane"
+    },
+    {
+      "id": "ru_en_basic:12",
+      "ru": "работа",
+      "target": "work"
+    },
+    {
+      "id": "ru_en_basic:13",
+      "ru": "друг",
+      "target": "friend"
+    },
+    {
+      "id": "ru_en_basic:14",
+      "ru": "семья",
+      "target": "family"
+    },
+    {
+      "id": "ru_en_basic:15",
+      "ru": "ребенок",
+      "target": "child"
+    },
+    {
+      "id": "ru_en_basic:16",
+      "ru": "время",
+      "target": "time"
+    },
+    {
+      "id": "ru_en_basic:17",
+      "ru": "день",
+      "target": "day"
+    },
+    {
+      "id": "ru_en_basic:18",
+      "ru": "ночь",
+      "target": "night"
+    },
+    {
+      "id": "ru_en_basic:19",
+      "ru": "утро",
+      "target": "morning"
+    },
+    {
+      "id": "ru_en_basic:20",
+      "ru": "вечер",
+      "target": "evening"
+    },
+    {
+      "id": "ru_en_basic:21",
+      "ru": "еда",
+      "target": "food"
+    },
+    {
+      "id": "ru_en_basic:22",
+      "ru": "хлеб",
+      "target": "bread"
+    },
+    {
+      "id": "ru_en_basic:23",
+      "ru": "молоко",
+      "target": "milk"
+    },
+    {
+      "id": "ru_en_basic:24",
+      "ru": "яблоко",
+      "target": "apple"
+    },
+    {
+      "id": "ru_en_basic:25",
+      "ru": "стол",
+      "target": "table"
+    },
+    {
+      "id": "ru_en_basic:26",
+      "ru": "стул",
+      "target": "chair"
+    },
+    {
+      "id": "ru_en_basic:27",
+      "ru": "окно",
+      "target": "window"
+    },
+    {
+      "id": "ru_en_basic:28",
+      "ru": "дверь",
+      "target": "door"
+    },
+    {
+      "id": "ru_en_basic:29",
+      "ru": "комната",
+      "target": "room"
+    },
+    {
+      "id": "ru_en_basic:30",
+      "ru": "язык",
+      "target": "language"
+    },
+    {
+      "id": "ru_en_basic:31",
+      "ru": "слово",
+      "target": "word"
+    },
+    {
+      "id": "ru_en_basic:32",
+      "ru": "вопрос",
+      "target": "question"
+    },
+    {
+      "id": "ru_en_basic:33",
+      "ru": "ответ",
+      "target": "answer"
+    },
+    {
+      "id": "ru_en_basic:34",
+      "ru": "правда",
+      "target": "truth"
+    },
+    {
+      "id": "ru_en_basic:35",
+      "ru": "ошибка",
+      "target": "mistake"
+    },
+    {
+      "id": "ru_en_basic:36",
+      "ru": "помощь",
+      "target": "help"
+    },
+    {
+      "id": "ru_en_basic:37",
+      "ru": "деньги",
+      "target": "money"
+    },
+    {
+      "id": "ru_en_basic:38",
+      "ru": "цена",
+      "target": "price"
+    },
+    {
+      "id": "ru_en_basic:39",
+      "ru": "рынок",
+      "target": "market"
+    },
+    {
+      "id": "ru_en_basic:40",
+      "ru": "море",
+      "target": "sea"
+    },
+    {
+      "id": "ru_en_basic:41",
+      "ru": "река",
+      "target": "river"
+    },
+    {
+      "id": "ru_en_basic:42",
+      "ru": "лес",
+      "target": "forest"
+    },
+    {
+      "id": "ru_en_basic:43",
+      "ru": "гора",
+      "target": "mountain"
+    },
+    {
+      "id": "ru_en_basic:44",
+      "ru": "снег",
+      "target": "snow"
+    },
+    {
+      "id": "ru_en_basic:45",
+      "ru": "дождь",
+      "target": "rain"
+    },
+    {
+      "id": "ru_en_basic:46",
+      "ru": "ветер",
+      "target": "wind"
+    },
+    {
+      "id": "ru_en_basic:47",
+      "ru": "тепло",
+      "target": "warm"
+    },
+    {
+      "id": "ru_en_basic:48",
+      "ru": "холод",
+      "target": "cold"
+    },
+    {
+      "id": "ru_en_basic:49",
+      "ru": "быстро",
+      "target": "fast"
+    },
+    {
+      "id": "ru_en_basic:50",
+      "ru": "медленно",
+      "target": "slow"
+    },
+    {
+      "id": "ru_en_basic:51",
+      "ru": "новый",
+      "target": "new"
+    },
+    {
+      "id": "ru_en_basic:52",
+      "ru": "старый",
+      "target": "old"
+    },
+    {
+      "id": "ru_en_basic:53",
+      "ru": "большой",
+      "target": "big"
+    },
+    {
+      "id": "ru_en_basic:54",
+      "ru": "маленький",
+      "target": "small"
+    },
+    {
+      "id": "ru_en_basic:55",
+      "ru": "хороший",
+      "target": "good"
+    },
+    {
+      "id": "ru_en_basic:56",
+      "ru": "плохой",
+      "target": "bad"
+    },
+    {
+      "id": "ru_en_basic:57",
+      "ru": "легкий",
+      "target": "easy"
+    },
+    {
+      "id": "ru_en_basic:58",
+      "ru": "трудный",
+      "target": "hard"
+    },
+    {
+      "id": "ru_en_basic:59",
+      "ru": "красный",
+      "target": "red"
+    },
+    {
+      "id": "ru_en_basic:60",
+      "ru": "синий",
+      "target": "blue"
+    }
+  ]
+}

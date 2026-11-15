@@ -1,0 +1,5009 @@
+{
+  "schema_version": 1,
+  "id": "ru_en_a2",
+  "description": "Русско-английский словарь ru_en_a2",
+  "profile": "translation-ru-en",
+  "level": "a2",
+  "entries": [
+    {
+      "id": "ru_en_a2:0",
+      "ru": "способность",
+      "target": "ability"
+    },
+    {
+      "id": "ru_en_a2:1",
+      "ru": "принять",
+      "target": "accept"
+    },
+    {
+      "id": "ru_en_a2:2",
+      "ru": "приемлемо",
+      "target": "acceptable"
+    },
+    {
+      "id": "ru_en_a2:3",
+      "ru": "счет",
+      "target": "account"
+    },
+    {
+      "id": "ru_en_a2:4",
+      "ru": "достичь",
+      "target": "achieve"
+    },
+    {
+      "id": "ru_en_a2:5",
+      "ru": "через",
+      "target": "across"
+    },
+    {
+      "id": "ru_en_a2:6",
+      "ru": "действовать",
+      "target": "act"
+    },
+    {
+      "id": "ru_en_a2:7",
+      "ru": "дополнение",
+      "target": "addition"
+    },
+    {
+      "id": "ru_en_a2:8",
+      "ru": "дополнительный",
+      "target": "additional"
+    },
+    {
+      "id": "ru_en_a2:9",
+      "ru": "прилагательное",
+      "target": "adjective"
+    },
+    {
+      "id": "ru_en_a2:10",
+      "ru": "корректировать",
+      "target": "adjust"
+    },
+    {
+      "id": "ru_en_a2:11",
+      "ru": "восхищаться",
+      "target": "admire"
+    },
+    {
+      "id": "ru_en_a2:12",
+      "ru": "признать",
+      "target": "admit"
+    },
+    {
+      "id": "ru_en_a2:13",
+      "ru": "взрослый",
+      "target": "adult"
+    },
+    {
+      "id": "ru_en_a2:14",
+      "ru": "продвинутый",
+      "target": "advanced"
+    },
+    {
+      "id": "ru_en_a2:15",
+      "ru": "преимущество",
+      "target": "advantage"
+    },
+    {
+      "id": "ru_en_a2:16",
+      "ru": "приключение",
+      "target": "adventure"
+    },
+    {
+      "id": "ru_en_a2:17",
+      "ru": "реклама",
+      "target": "advertisement"
+    },
+    {
+      "id": "ru_en_a2:18",
+      "ru": "совет",
+      "target": "advice"
+    },
+    {
+      "id": "ru_en_a2:19",
+      "ru": "советовать",
+      "target": "advise"
+    },
+    {
+      "id": "ru_en_a2:20",
+      "ru": "дело",
+      "target": "affair"
+    },
+    {
+      "id": "ru_en_a2:21",
+      "ru": "после",
+      "target": "after"
+    },
+    {
+      "id": "ru_en_a2:22",
+      "ru": "против",
+      "target": "against"
+    },
+    {
+      "id": "ru_en_a2:23",
+      "ru": "агентство",
+      "target": "agency"
+    },
+    {
+      "id": "ru_en_a2:24",
+      "ru": "агент",
+      "target": "agent"
+    },
+    {
+      "id": "ru_en_a2:25",
+      "ru": "впереди",
+      "target": "ahead"
+    },
+    {
+      "id": "ru_en_a2:26",
+      "ru": "воздух",
+      "target": "air"
+    },
+    {
+      "id": "ru_en_a2:27",
+      "ru": "проход",
+      "target": "aisle"
+    },
+    {
+      "id": "ru_en_a2:28",
+      "ru": "сигнализация",
+      "target": "alarm"
+    },
+    {
+      "id": "ru_en_a2:29",
+      "ru": "жив",
+      "target": "alive"
+    },
+    {
+      "id": "ru_en_a2:30",
+      "ru": "все",
+      "target": "all"
+    },
+    {
+      "id": "ru_en_a2:31",
+      "ru": "разрешить",
+      "target": "allow"
+    },
+    {
+      "id": "ru_en_a2:32",
+      "ru": "один",
+      "target": "alone"
+    },
+    {
+      "id": "ru_en_a2:33",
+      "ru": "вдоль",
+      "target": "along"
+    },
+    {
+      "id": "ru_en_a2:34",
+      "ru": "хорошо",
+      "target": "alright"
+    },
+    {
+      "id": "ru_en_a2:35",
+      "ru": "хотя",
+      "target": "although"
+    },
+    {
+      "id": "ru_en_a2:36",
+      "ru": "амбиции",
+      "target": "ambition"
+    },
+    {
+      "id": "ru_en_a2:37",
+      "ru": "среди",
+      "target": "among"
+    },
+    {
+      "id": "ru_en_a2:38",
+      "ru": "позабавлен",
+      "target": "amused"
+    },
+    {
+      "id": "ru_en_a2:39",
+      "ru": "развлечение",
+      "target": "amusement"
+    },
+    {
+      "id": "ru_en_a2:40",
+      "ru": "предок",
+      "target": "ancestor"
+    },
+    {
+      "id": "ru_en_a2:41",
+      "ru": "древний",
+      "target": "ancient"
+    },
+    {
+      "id": "ru_en_a2:42",
+      "ru": "ангел",
+      "target": "angel"
+    },
+    {
+      "id": "ru_en_a2:43",
+      "ru": "сердито",
+      "target": "angrily"
+    },
+    {
+      "id": "ru_en_a2:44",
+      "ru": "лодыжка",
+      "target": "ankle"
+    },
+    {
+      "id": "ru_en_a2:45",
+      "ru": "юбилей",
+      "target": "anniversary"
+    },
+    {
+      "id": "ru_en_a2:46",
+      "ru": "раздражать",
+      "target": "annoy"
+    },
+    {
+      "id": "ru_en_a2:47",
+      "ru": "раздражает",
+      "target": "annoying"
+    },
+    {
+      "id": "ru_en_a2:48",
+      "ru": "другой",
+      "target": "another"
+    },
+    {
+      "id": "ru_en_a2:49",
+      "ru": "тревожный",
+      "target": "anxious"
+    },
+    {
+      "id": "ru_en_a2:50",
+      "ru": "больше",
+      "target": "anymore"
+    },
+    {
+      "id": "ru_en_a2:51",
+      "ru": "отдельно",
+      "target": "apart"
+    },
+    {
+      "id": "ru_en_a2:52",
+      "ru": "квартира",
+      "target": "apartment"
+    },
+    {
+      "id": "ru_en_a2:53",
+      "ru": "видимо",
+      "target": "apparently"
+    },
+    {
+      "id": "ru_en_a2:54",
+      "ru": "появиться",
+      "target": "appear"
+    },
+    {
+      "id": "ru_en_a2:55",
+      "ru": "применить",
+      "target": "apply"
+    },
+    {
+      "id": "ru_en_a2:56",
+      "ru": "назначение",
+      "target": "appointment"
+    },
+    {
+      "id": "ru_en_a2:57",
+      "ru": "ценить",
+      "target": "appreciate"
+    },
+    {
+      "id": "ru_en_a2:58",
+      "ru": "соответствующий",
+      "target": "appropriate"
+    },
+    {
+      "id": "ru_en_a2:59",
+      "ru": "архитектура",
+      "target": "architecture"
+    },
+    {
+      "id": "ru_en_a2:60",
+      "ru": "площадь",
+      "target": "area"
+    },
+    {
+      "id": "ru_en_a2:61",
+      "ru": "спорить",
+      "target": "argue"
+    },
+    {
+      "id": "ru_en_a2:62",
+      "ru": "аргумент",
+      "target": "argument"
+    },
+    {
+      "id": "ru_en_a2:63",
+      "ru": "кресло",
+      "target": "armchair"
+    },
+    {
+      "id": "ru_en_a2:64",
+      "ru": "вооруженный",
+      "target": "armed"
+    },
+    {
+      "id": "ru_en_a2:65",
+      "ru": "вокруг",
+      "target": "around"
+    },
+    {
+      "id": "ru_en_a2:66",
+      "ru": "искусственный",
+      "target": "artificial"
+    },
+    {
+      "id": "ru_en_a2:67",
+      "ru": "как",
+      "target": "as"
+    },
+    {
+      "id": "ru_en_a2:68",
+      "ru": "спит",
+      "target": "asleep"
+    },
+    {
+      "id": "ru_en_a2:69",
+      "ru": "помощник",
+      "target": "assistant"
+    },
+    {
+      "id": "ru_en_a2:70",
+      "ru": "ассоциация",
+      "target": "association"
+    },
+    {
+      "id": "ru_en_a2:71",
+      "ru": "космонавт",
+      "target": "astronaut"
+    },
+    {
+      "id": "ru_en_a2:72",
+      "ru": "спортсмен",
+      "target": "athlete"
+    },
+    {
+      "id": "ru_en_a2:73",
+      "ru": "атом",
+      "target": "atom"
+    },
+    {
+      "id": "ru_en_a2:74",
+      "ru": "атаковать",
+      "target": "attack"
+    },
+    {
+      "id": "ru_en_a2:75",
+      "ru": "попытка",
+      "target": "attempt"
+    },
+    {
+      "id": "ru_en_a2:76",
+      "ru": "внимание",
+      "target": "attention"
+    },
+    {
+      "id": "ru_en_a2:77",
+      "ru": "отношение",
+      "target": "attitude"
+    },
+    {
+      "id": "ru_en_a2:78",
+      "ru": "привлекательный",
+      "target": "attractive"
+    },
+    {
+      "id": "ru_en_a2:79",
+      "ru": "аудитория",
+      "target": "audience"
+    },
+    {
+      "id": "ru_en_a2:80",
+      "ru": "аудио",
+      "target": "audio"
+    },
+    {
+      "id": "ru_en_a2:81",
+      "ru": "автор",
+      "target": "author"
+    },
+    {
+      "id": "ru_en_a2:82",
+      "ru": "автоматический",
+      "target": "automatic"
+    },
+    {
+      "id": "ru_en_a2:83",
+      "ru": "автоматически",
+      "target": "automatically"
+    },
+    {
+      "id": "ru_en_a2:84",
+      "ru": "средний",
+      "target": "average"
+    },
+    {
+      "id": "ru_en_a2:85",
+      "ru": "избегать",
+      "target": "avoid"
+    },
+    {
+      "id": "ru_en_a2:86",
+      "ru": "награда",
+      "target": "award"
+    },
+    {
+      "id": "ru_en_a2:87",
+      "ru": "ужасно",
+      "target": "awful"
+    },
+    {
+      "id": "ru_en_a2:88",
+      "ru": "назад",
+      "target": "back"
+    },
+    {
+      "id": "ru_en_a2:89",
+      "ru": "фон",
+      "target": "background"
+    },
+    {
+      "id": "ru_en_a2:90",
+      "ru": "плохо",
+      "target": "badly"
+    },
+    {
+      "id": "ru_en_a2:91",
+      "ru": "бадминтон",
+      "target": "badminton"
+    },
+    {
+      "id": "ru_en_a2:92",
+      "ru": "выпекать",
+      "target": "bake"
+    },
+    {
+      "id": "ru_en_a2:93",
+      "ru": "балкон",
+      "target": "balcony"
+    },
+    {
+      "id": "ru_en_a2:94",
+      "ru": "банк",
+      "target": "bank"
+    },
+    {
+      "id": "ru_en_a2:95",
+      "ru": "барбекю",
+      "target": "barbecue"
+    },
+    {
+      "id": "ru_en_a2:96",
+      "ru": "парикмахер",
+      "target": "barber"
+    },
+    {
+      "id": "ru_en_a2:97",
+      "ru": "торговаться",
+      "target": "bargain"
+    },
+    {
+      "id": "ru_en_a2:98",
+      "ru": "база",
+      "target": "base"
+    },
+    {
+      "id": "ru_en_a2:99",
+      "ru": "базовый",
+      "target": "basic"
+    },
+    {
+      "id": "ru_en_a2:100",
+      "ru": "корзина",
+      "target": "basket"
+    },
+    {
+      "id": "ru_en_a2:101",
+      "ru": "партия",
+      "target": "batch"
+    },
+    {
+      "id": "ru_en_a2:102",
+      "ru": "батарея",
+      "target": "battery"
+    },
+    {
+      "id": "ru_en_a2:103",
+      "ru": "бухта",
+      "target": "bay"
+    },
+    {
+      "id": "ru_en_a2:104",
+      "ru": "медведь",
+      "target": "bear"
+    },
+    {
+      "id": "ru_en_a2:105",
+      "ru": "красота",
+      "target": "beauty"
+    },
+    {
+      "id": "ru_en_a2:106",
+      "ru": "был",
+      "target": "been"
+    },
+    {
+      "id": "ru_en_a2:107",
+      "ru": "пиво",
+      "target": "beer"
+    },
+    {
+      "id": "ru_en_a2:108",
+      "ru": "раньше",
+      "target": "before"
+    },
+    {
+      "id": "ru_en_a2:109",
+      "ru": "просить",
+      "target": "beg"
+    },
+    {
+      "id": "ru_en_a2:110",
+      "ru": "новичок",
+      "target": "beginner"
+    },
+    {
+      "id": "ru_en_a2:111",
+      "ru": "начало",
+      "target": "beginning"
+    },
+    {
+      "id": "ru_en_a2:112",
+      "ru": "будучи",
+      "target": "being"
+    },
+    {
+      "id": "ru_en_a2:113",
+      "ru": "живот",
+      "target": "belly"
+    },
+    {
+      "id": "ru_en_a2:114",
+      "ru": "принадлежать",
+      "target": "belong"
+    },
+    {
+      "id": "ru_en_a2:115",
+      "ru": "ремень",
+      "target": "belt"
+    },
+    {
+      "id": "ru_en_a2:116",
+      "ru": "скамейка",
+      "target": "bench"
+    },
+    {
+      "id": "ru_en_a2:117",
+      "ru": "изгиб",
+      "target": "bend"
+    },
+    {
+      "id": "ru_en_a2:118",
+      "ru": "лучше",
+      "target": "better"
+    },
+    {
+      "id": "ru_en_a2:119",
+      "ru": "немного",
+      "target": "bit"
+    },
+    {
+      "id": "ru_en_a2:120",
+      "ru": "кусать",
+      "target": "bite"
+    },
+    {
+      "id": "ru_en_a2:121",
+      "ru": "доска",
+      "target": "blackboard"
+    },
+    {
+      "id": "ru_en_a2:122",
+      "ru": "винить",
+      "target": "blame"
+    },
+    {
+      "id": "ru_en_a2:123",
+      "ru": "одеяло",
+      "target": "blanket"
+    },
+    {
+      "id": "ru_en_a2:124",
+      "ru": "блондинка",
+      "target": "blonde"
+    },
+    {
+      "id": "ru_en_a2:125",
+      "ru": "кровь",
+      "target": "blood"
+    },
+    {
+      "id": "ru_en_a2:126",
+      "ru": "цветение",
+      "target": "bloom"
+    },
+    {
+      "id": "ru_en_a2:127",
+      "ru": "удар",
+      "target": "blow"
+    },
+    {
+      "id": "ru_en_a2:128",
+      "ru": "варить",
+      "target": "boil"
+    },
+    {
+      "id": "ru_en_a2:129",
+      "ru": "вареный",
+      "target": "boiled"
+    },
+    {
+      "id": "ru_en_a2:130",
+      "ru": "бонус",
+      "target": "bonus"
+    },
+    {
+      "id": "ru_en_a2:131",
+      "ru": "скучно",
+      "target": "bored"
+    },
+    {
+      "id": "ru_en_a2:132",
+      "ru": "босс",
+      "target": "boss"
+    },
+    {
+      "id": "ru_en_a2:133",
+      "ru": "беспокоить",
+      "target": "bother"
+    },
+    {
+      "id": "ru_en_a2:134",
+      "ru": "бюстгальтер",
+      "target": "bra"
+    },
+    {
+      "id": "ru_en_a2:135",
+      "ru": "тормоз",
+      "target": "brake"
+    },
+    {
+      "id": "ru_en_a2:136",
+      "ru": "филиал",
+      "target": "branch"
+    },
+    {
+      "id": "ru_en_a2:137",
+      "ru": "бренд",
+      "target": "brand"
+    },
+    {
+      "id": "ru_en_a2:138",
+      "ru": "храбрый",
+      "target": "brave"
+    },
+    {
+      "id": "ru_en_a2:139",
+      "ru": "сломать",
+      "target": "break"
+    },
+    {
+      "id": "ru_en_a2:140",
+      "ru": "ветерок",
+      "target": "breeze"
+    },
+    {
+      "id": "ru_en_a2:141",
+      "ru": "невеста",
+      "target": "bride"
+    },
+    {
+      "id": "ru_en_a2:142",
+      "ru": "блестящий",
+      "target": "brilliant"
+    },
+    {
+      "id": "ru_en_a2:143",
+      "ru": "коричневый",
+      "target": "brown"
+    },
+    {
+      "id": "ru_en_a2:144",
+      "ru": "бюджет",
+      "target": "budget"
+    },
+    {
+      "id": "ru_en_a2:145",
+      "ru": "ошибка",
+      "target": "bug"
+    },
+    {
+      "id": "ru_en_a2:146",
+      "ru": "лампочка",
+      "target": "bulb"
+    },
+    {
+      "id": "ru_en_a2:147",
+      "ru": "сжечь",
+      "target": "burn"
+    },
+    {
+      "id": "ru_en_a2:148",
+      "ru": "хоронить",
+      "target": "bury"
+    },
+    {
+      "id": "ru_en_a2:149",
+      "ru": "куст",
+      "target": "bush"
+    },
+    {
+      "id": "ru_en_a2:150",
+      "ru": "бизнесмен",
+      "target": "businessman"
+    },
+    {
+      "id": "ru_en_a2:151",
+      "ru": "такси",
+      "target": "cab"
+    },
+    {
+      "id": "ru_en_a2:152",
+      "ru": "столовая",
+      "target": "cafeteria"
+    },
+    {
+      "id": "ru_en_a2:153",
+      "ru": "календарь",
+      "target": "calendar"
+    },
+    {
+      "id": "ru_en_a2:154",
+      "ru": "позвонить",
+      "target": "call"
+    },
+    {
+      "id": "ru_en_a2:155",
+      "ru": "лагерь",
+      "target": "camp"
+    },
+    {
+      "id": "ru_en_a2:156",
+      "ru": "кемпинг",
+      "target": "camping"
+    },
+    {
+      "id": "ru_en_a2:157",
+      "ru": "кампус",
+      "target": "campus"
+    },
+    {
+      "id": "ru_en_a2:158",
+      "ru": "может",
+      "target": "can"
+    },
+    {
+      "id": "ru_en_a2:159",
+      "ru": "капитал",
+      "target": "capital"
+    },
+    {
+      "id": "ru_en_a2:160",
+      "ru": "капитан",
+      "target": "captain"
+    },
+    {
+      "id": "ru_en_a2:161",
+      "ru": "морковь",
+      "target": "carrot"
+    },
+    {
+      "id": "ru_en_a2:162",
+      "ru": "наличные",
+      "target": "cash"
+    },
+    {
+      "id": "ru_en_a2:163",
+      "ru": "кассета",
+      "target": "cassette"
+    },
+    {
+      "id": "ru_en_a2:164",
+      "ru": "замок",
+      "target": "castle"
+    },
+    {
+      "id": "ru_en_a2:165",
+      "ru": "причина",
+      "target": "cause"
+    },
+    {
+      "id": "ru_en_a2:166",
+      "ru": "цент",
+      "target": "cent"
+    },
+    {
+      "id": "ru_en_a2:167",
+      "ru": "век",
+      "target": "century"
+    },
+    {
+      "id": "ru_en_a2:168",
+      "ru": "хлопья",
+      "target": "cereal"
+    },
+    {
+      "id": "ru_en_a2:169",
+      "ru": "уверенный",
+      "target": "certain"
+    },
+    {
+      "id": "ru_en_a2:170",
+      "ru": "конечно",
+      "target": "certainly"
+    },
+    {
+      "id": "ru_en_a2:171",
+      "ru": "цепь",
+      "target": "chain"
+    },
+    {
+      "id": "ru_en_a2:172",
+      "ru": "председатель",
+      "target": "chairman"
+    },
+    {
+      "id": "ru_en_a2:173",
+      "ru": "вызов",
+      "target": "challenge"
+    },
+    {
+      "id": "ru_en_a2:174",
+      "ru": "шампанское",
+      "target": "champagne"
+    },
+    {
+      "id": "ru_en_a2:175",
+      "ru": "чемпионат",
+      "target": "championship"
+    },
+    {
+      "id": "ru_en_a2:176",
+      "ru": "шанс",
+      "target": "chance"
+    },
+    {
+      "id": "ru_en_a2:177",
+      "ru": "глава",
+      "target": "chapter"
+    },
+    {
+      "id": "ru_en_a2:178",
+      "ru": "диаграмма",
+      "target": "chart"
+    },
+    {
+      "id": "ru_en_a2:179",
+      "ru": "чат",
+      "target": "chat"
+    },
+    {
+      "id": "ru_en_a2:180",
+      "ru": "дешево",
+      "target": "cheap"
+    },
+    {
+      "id": "ru_en_a2:181",
+      "ru": "проверить",
+      "target": "check"
+    },
+    {
+      "id": "ru_en_a2:182",
+      "ru": "щека",
+      "target": "cheek"
+    },
+    {
+      "id": "ru_en_a2:183",
+      "ru": "развеселить",
+      "target": "cheer"
+    },
+    {
+      "id": "ru_en_a2:184",
+      "ru": "повар",
+      "target": "chef"
+    },
+    {
+      "id": "ru_en_a2:185",
+      "ru": "химический",
+      "target": "chemical"
+    },
+    {
+      "id": "ru_en_a2:186",
+      "ru": "шахматы",
+      "target": "chess"
+    },
+    {
+      "id": "ru_en_a2:187",
+      "ru": "грудь",
+      "target": "chest"
+    },
+    {
+      "id": "ru_en_a2:188",
+      "ru": "детство",
+      "target": "childhood"
+    },
+    {
+      "id": "ru_en_a2:189",
+      "ru": "шимпанзе",
+      "target": "chimpanzee"
+    },
+    {
+      "id": "ru_en_a2:190",
+      "ru": "подбородок",
+      "target": "chin"
+    },
+    {
+      "id": "ru_en_a2:191",
+      "ru": "чирикать",
+      "target": "chirp"
+    },
+    {
+      "id": "ru_en_a2:192",
+      "ru": "выбор",
+      "target": "choice"
+    },
+    {
+      "id": "ru_en_a2:193",
+      "ru": "сигарета",
+      "target": "cigarette"
+    },
+    {
+      "id": "ru_en_a2:194",
+      "ru": "гражданин",
+      "target": "citizen"
+    },
+    {
+      "id": "ru_en_a2:195",
+      "ru": "требовать",
+      "target": "claim"
+    },
+    {
+      "id": "ru_en_a2:196",
+      "ru": "классический",
+      "target": "classic"
+    },
+    {
+      "id": "ru_en_a2:197",
+      "ru": "чище",
+      "target": "cleaner"
+    },
+    {
+      "id": "ru_en_a2:198",
+      "ru": "ясно",
+      "target": "clear"
+    },
+    {
+      "id": "ru_en_a2:199",
+      "ru": "клерк",
+      "target": "clerk"
+    },
+    {
+      "id": "ru_en_a2:200",
+      "ru": "щелкнуть",
+      "target": "click"
+    },
+    {
+      "id": "ru_en_a2:201",
+      "ru": "подниматься",
+      "target": "climb"
+    },
+    {
+      "id": "ru_en_a2:202",
+      "ru": "восхождение",
+      "target": "climbing"
+    },
+    {
+      "id": "ru_en_a2:203",
+      "ru": "клонировать",
+      "target": "clone"
+    },
+    {
+      "id": "ru_en_a2:204",
+      "ru": "клоун",
+      "target": "clown"
+    },
+    {
+      "id": "ru_en_a2:205",
+      "ru": "подсказка",
+      "target": "clue"
+    },
+    {
+      "id": "ru_en_a2:206",
+      "ru": "побережье",
+      "target": "coast"
+    },
+    {
+      "id": "ru_en_a2:207",
+      "ru": "монета",
+      "target": "coin"
+    },
+    {
+      "id": "ru_en_a2:208",
+      "ru": "кола",
+      "target": "cola"
+    },
+    {
+      "id": "ru_en_a2:209",
+      "ru": "столбец",
+      "target": "column"
+    },
+    {
+      "id": "ru_en_a2:210",
+      "ru": "расческа",
+      "target": "comb"
+    },
+    {
+      "id": "ru_en_a2:211",
+      "ru": "удобный",
+      "target": "comfortable"
+    },
+    {
+      "id": "ru_en_a2:212",
+      "ru": "комикс",
+      "target": "comic"
+    },
+    {
+      "id": "ru_en_a2:213",
+      "ru": "обязательство",
+      "target": "commitment"
+    },
+    {
+      "id": "ru_en_a2:214",
+      "ru": "комитет",
+      "target": "committee"
+    },
+    {
+      "id": "ru_en_a2:215",
+      "ru": "общий",
+      "target": "common"
+    },
+    {
+      "id": "ru_en_a2:216",
+      "ru": "общаться",
+      "target": "communicate"
+    },
+    {
+      "id": "ru_en_a2:217",
+      "ru": "общение",
+      "target": "communication"
+    },
+    {
+      "id": "ru_en_a2:218",
+      "ru": "компания",
+      "target": "company"
+    },
+    {
+      "id": "ru_en_a2:219",
+      "ru": "сравнительный",
+      "target": "comparative"
+    },
+    {
+      "id": "ru_en_a2:220",
+      "ru": "сравнивать",
+      "target": "compare"
+    },
+    {
+      "id": "ru_en_a2:221",
+      "ru": "конкуренция",
+      "target": "competition"
+    },
+    {
+      "id": "ru_en_a2:222",
+      "ru": "жаловаться",
+      "target": "complain"
+    },
+    {
+      "id": "ru_en_a2:223",
+      "ru": "жалоба",
+      "target": "complaint"
+    },
+    {
+      "id": "ru_en_a2:224",
+      "ru": "полный",
+      "target": "complete"
+    },
+    {
+      "id": "ru_en_a2:225",
+      "ru": "композитор",
+      "target": "composer"
+    },
+    {
+      "id": "ru_en_a2:226",
+      "ru": "сконцентрироваться",
+      "target": "concentrate"
+    },
+    {
+      "id": "ru_en_a2:227",
+      "ru": "беспокойство",
+      "target": "concern"
+    },
+    {
+      "id": "ru_en_a2:228",
+      "ru": "состояние",
+      "target": "condition"
+    },
+    {
+      "id": "ru_en_a2:229",
+      "ru": "путать",
+      "target": "confuse"
+    },
+    {
+      "id": "ru_en_a2:230",
+      "ru": "смущенный",
+      "target": "confused"
+    },
+    {
+      "id": "ru_en_a2:231",
+      "ru": "следствие",
+      "target": "consequence"
+    },
+    {
+      "id": "ru_en_a2:232",
+      "ru": "рассмотреть",
+      "target": "consider"
+    },
+    {
+      "id": "ru_en_a2:233",
+      "ru": "состоять",
+      "target": "consist"
+    },
+    {
+      "id": "ru_en_a2:234",
+      "ru": "контакт",
+      "target": "contact"
+    },
+    {
+      "id": "ru_en_a2:235",
+      "ru": "контейнер",
+      "target": "container"
+    },
+    {
+      "id": "ru_en_a2:236",
+      "ru": "контекст",
+      "target": "context"
+    },
+    {
+      "id": "ru_en_a2:237",
+      "ru": "континент",
+      "target": "continent"
+    },
+    {
+      "id": "ru_en_a2:238",
+      "ru": "продолжать",
+      "target": "continue"
+    },
+    {
+      "id": "ru_en_a2:239",
+      "ru": "контраст",
+      "target": "contrast"
+    },
+    {
+      "id": "ru_en_a2:240",
+      "ru": "контроль",
+      "target": "control"
+    },
+    {
+      "id": "ru_en_a2:241",
+      "ru": "удобство",
+      "target": "convenience"
+    },
+    {
+      "id": "ru_en_a2:242",
+      "ru": "плита",
+      "target": "cooker"
+    },
+    {
+      "id": "ru_en_a2:243",
+      "ru": "круче",
+      "target": "cooler"
+    },
+    {
+      "id": "ru_en_a2:244",
+      "ru": "копировать",
+      "target": "copy"
+    },
+    {
+      "id": "ru_en_a2:245",
+      "ru": "правильно",
+      "target": "correctly"
+    },
+    {
+      "id": "ru_en_a2:246",
+      "ru": "стоимость",
+      "target": "cost"
+    },
+    {
+      "id": "ru_en_a2:247",
+      "ru": "считать",
+      "target": "count"
+    },
+    {
+      "id": "ru_en_a2:248",
+      "ru": "страна",
+      "target": "country"
+    },
+    {
+      "id": "ru_en_a2:249",
+      "ru": "пара",
+      "target": "couple"
+    },
+    {
+      "id": "ru_en_a2:250",
+      "ru": "суд",
+      "target": "court"
+    },
+    {
+      "id": "ru_en_a2:251",
+      "ru": "обложка",
+      "target": "cover"
+    },
+    {
+      "id": "ru_en_a2:252",
+      "ru": "сумасшедший",
+      "target": "crazy"
+    },
+    {
+      "id": "ru_en_a2:253",
+      "ru": "крем",
+      "target": "cream"
+    },
+    {
+      "id": "ru_en_a2:254",
+      "ru": "создавать",
+      "target": "create"
+    },
+    {
+      "id": "ru_en_a2:255",
+      "ru": "творческий",
+      "target": "creative"
+    },
+    {
+      "id": "ru_en_a2:256",
+      "ru": "творчество",
+      "target": "creativity"
+    },
+    {
+      "id": "ru_en_a2:257",
+      "ru": "существо",
+      "target": "creature"
+    },
+    {
+      "id": "ru_en_a2:258",
+      "ru": "кредит",
+      "target": "credit"
+    },
+    {
+      "id": "ru_en_a2:259",
+      "ru": "крикет",
+      "target": "cricket"
+    },
+    {
+      "id": "ru_en_a2:260",
+      "ru": "преступление",
+      "target": "crime"
+    },
+    {
+      "id": "ru_en_a2:261",
+      "ru": "свежий",
+      "target": "crisp"
+    },
+    {
+      "id": "ru_en_a2:262",
+      "ru": "крест",
+      "target": "cross"
+    },
+    {
+      "id": "ru_en_a2:263",
+      "ru": "толпа",
+      "target": "crowd"
+    },
+    {
+      "id": "ru_en_a2:264",
+      "ru": "многолюдный",
+      "target": "crowded"
+    },
+    {
+      "id": "ru_en_a2:265",
+      "ru": "корона",
+      "target": "crown"
+    },
+    {
+      "id": "ru_en_a2:266",
+      "ru": "круиз",
+      "target": "cruise"
+    },
+    {
+      "id": "ru_en_a2:267",
+      "ru": "плакать",
+      "target": "cry"
+    },
+    {
+      "id": "ru_en_a2:268",
+      "ru": "шкаф",
+      "target": "cupboard"
+    },
+    {
+      "id": "ru_en_a2:269",
+      "ru": "карри",
+      "target": "curry"
+    },
+    {
+      "id": "ru_en_a2:270",
+      "ru": "проклятие",
+      "target": "curse"
+    },
+    {
+      "id": "ru_en_a2:271",
+      "ru": "обычай",
+      "target": "custom"
+    },
+    {
+      "id": "ru_en_a2:272",
+      "ru": "клиент",
+      "target": "customer"
+    },
+    {
+      "id": "ru_en_a2:273",
+      "ru": "ежедневно",
+      "target": "daily"
+    },
+    {
+      "id": "ru_en_a2:274",
+      "ru": "плотина",
+      "target": "dam"
+    },
+    {
+      "id": "ru_en_a2:275",
+      "ru": "танцор",
+      "target": "dancer"
+    },
+    {
+      "id": "ru_en_a2:276",
+      "ru": "опасность",
+      "target": "danger"
+    },
+    {
+      "id": "ru_en_a2:277",
+      "ru": "опасный",
+      "target": "dangerous"
+    },
+    {
+      "id": "ru_en_a2:278",
+      "ru": "мертвый",
+      "target": "dead"
+    },
+    {
+      "id": "ru_en_a2:279",
+      "ru": "сделка",
+      "target": "deal"
+    },
+    {
+      "id": "ru_en_a2:280",
+      "ru": "смерть",
+      "target": "death"
+    },
+    {
+      "id": "ru_en_a2:281",
+      "ru": "дебаты",
+      "target": "debate"
+    },
+    {
+      "id": "ru_en_a2:282",
+      "ru": "решить",
+      "target": "decide"
+    },
+    {
+      "id": "ru_en_a2:283",
+      "ru": "глубокий",
+      "target": "deep"
+    },
+    {
+      "id": "ru_en_a2:284",
+      "ru": "глубоко",
+      "target": "deeply"
+    },
+    {
+      "id": "ru_en_a2:285",
+      "ru": "степень",
+      "target": "degree"
+    },
+    {
+      "id": "ru_en_a2:286",
+      "ru": "задержка",
+      "target": "delay"
+    },
+    {
+      "id": "ru_en_a2:287",
+      "ru": "дантист",
+      "target": "dentist"
+    },
+    {
+      "id": "ru_en_a2:288",
+      "ru": "зависеть",
+      "target": "depend"
+    },
+    {
+      "id": "ru_en_a2:289",
+      "ru": "описание",
+      "target": "description"
+    },
+    {
+      "id": "ru_en_a2:290",
+      "ru": "пустыня",
+      "target": "desert"
+    },
+    {
+      "id": "ru_en_a2:291",
+      "ru": "десерт",
+      "target": "dessert"
+    },
+    {
+      "id": "ru_en_a2:292",
+      "ru": "уничтожить",
+      "target": "destroy"
+    },
+    {
+      "id": "ru_en_a2:293",
+      "ru": "деталь",
+      "target": "detail"
+    },
+    {
+      "id": "ru_en_a2:294",
+      "ru": "развивать",
+      "target": "develop"
+    },
+    {
+      "id": "ru_en_a2:295",
+      "ru": "развитый",
+      "target": "developed"
+    },
+    {
+      "id": "ru_en_a2:296",
+      "ru": "алмаз",
+      "target": "diamond"
+    },
+    {
+      "id": "ru_en_a2:297",
+      "ru": "дневник",
+      "target": "diary"
+    },
+    {
+      "id": "ru_en_a2:298",
+      "ru": "умереть",
+      "target": "die"
+    },
+    {
+      "id": "ru_en_a2:299",
+      "ru": "диета",
+      "target": "diet"
+    },
+    {
+      "id": "ru_en_a2:300",
+      "ru": "по-другому",
+      "target": "differently"
+    },
+    {
+      "id": "ru_en_a2:301",
+      "ru": "трудность",
+      "target": "difficulty"
+    },
+    {
+      "id": "ru_en_a2:302",
+      "ru": "динозавр",
+      "target": "dinosaur"
+    },
+    {
+      "id": "ru_en_a2:303",
+      "ru": "прямой",
+      "target": "direct"
+    },
+    {
+      "id": "ru_en_a2:304",
+      "ru": "направление",
+      "target": "direction"
+    },
+    {
+      "id": "ru_en_a2:305",
+      "ru": "директор",
+      "target": "director"
+    },
+    {
+      "id": "ru_en_a2:306",
+      "ru": "недостаток",
+      "target": "disadvantage"
+    },
+    {
+      "id": "ru_en_a2:307",
+      "ru": "исчезнуть",
+      "target": "disappear"
+    },
+    {
+      "id": "ru_en_a2:308",
+      "ru": "разочарован",
+      "target": "disappointed"
+    },
+    {
+      "id": "ru_en_a2:309",
+      "ru": "разочаровывающий",
+      "target": "disappointing"
+    },
+    {
+      "id": "ru_en_a2:310",
+      "ru": "дискотека",
+      "target": "disco"
+    },
+    {
+      "id": "ru_en_a2:311",
+      "ru": "обнаружить",
+      "target": "discover"
+    },
+    {
+      "id": "ru_en_a2:312",
+      "ru": "обсуждение",
+      "target": "discussion"
+    },
+    {
+      "id": "ru_en_a2:313",
+      "ru": "нечестный",
+      "target": "dishonest"
+    },
+    {
+      "id": "ru_en_a2:314",
+      "ru": "дисплей",
+      "target": "display"
+    },
+    {
+      "id": "ru_en_a2:315",
+      "ru": "делить",
+      "target": "divide"
+    },
+    {
+      "id": "ru_en_a2:316",
+      "ru": "головокружение",
+      "target": "dizzy"
+    },
+    {
+      "id": "ru_en_a2:317",
+      "ru": "сделано",
+      "target": "done"
+    },
+    {
+      "id": "ru_en_a2:318",
+      "ru": "двойной",
+      "target": "double"
+    },
+    {
+      "id": "ru_en_a2:319",
+      "ru": "сомнение",
+      "target": "doubt"
+    },
+    {
+      "id": "ru_en_a2:320",
+      "ru": "вниз",
+      "target": "down"
+    },
+    {
+      "id": "ru_en_a2:321",
+      "ru": "скачать",
+      "target": "download"
+    },
+    {
+      "id": "ru_en_a2:322",
+      "ru": "внизу",
+      "target": "downstairs"
+    },
+    {
+      "id": "ru_en_a2:323",
+      "ru": "рисовать",
+      "target": "draw"
+    },
+    {
+      "id": "ru_en_a2:324",
+      "ru": "ящик",
+      "target": "drawer"
+    },
+    {
+      "id": "ru_en_a2:325",
+      "ru": "рисунок",
+      "target": "drawing"
+    },
+    {
+      "id": "ru_en_a2:326",
+      "ru": "мечтать",
+      "target": "dream"
+    },
+    {
+      "id": "ru_en_a2:327",
+      "ru": "платье",
+      "target": "dress"
+    },
+    {
+      "id": "ru_en_a2:328",
+      "ru": "одет",
+      "target": "dressed"
+    },
+    {
+      "id": "ru_en_a2:329",
+      "ru": "дрель",
+      "target": "drill"
+    },
+    {
+      "id": "ru_en_a2:330",
+      "ru": "ездить",
+      "target": "drive"
+    },
+    {
+      "id": "ru_en_a2:331",
+      "ru": "падение",
+      "target": "drop"
+    },
+    {
+      "id": "ru_en_a2:332",
+      "ru": "наркотик",
+      "target": "drug"
+    },
+    {
+      "id": "ru_en_a2:333",
+      "ru": "аптека",
+      "target": "drugstore"
+    },
+    {
+      "id": "ru_en_a2:334",
+      "ru": "сухой",
+      "target": "dry"
+    },
+    {
+      "id": "ru_en_a2:335",
+      "ru": "утка",
+      "target": "duck"
+    },
+    {
+      "id": "ru_en_a2:336",
+      "ru": "пыль",
+      "target": "dust"
+    },
+    {
+      "id": "ru_en_a2:337",
+      "ru": "ранний",
+      "target": "early"
+    },
+    {
+      "id": "ru_en_a2:338",
+      "ru": "зарабатывать",
+      "target": "earn"
+    },
+    {
+      "id": "ru_en_a2:339",
+      "ru": "серьга",
+      "target": "earring"
+    },
+    {
+      "id": "ru_en_a2:340",
+      "ru": "земля",
+      "target": "earth"
+    },
+    {
+      "id": "ru_en_a2:341",
+      "ru": "землетрясение",
+      "target": "earthquake"
+    },
+    {
+      "id": "ru_en_a2:342",
+      "ru": "легко",
+      "target": "easily"
+    },
+    {
+      "id": "ru_en_a2:343",
+      "ru": "восток",
+      "target": "east"
+    },
+    {
+      "id": "ru_en_a2:344",
+      "ru": "редактор",
+      "target": "editor"
+    },
+    {
+      "id": "ru_en_a2:345",
+      "ru": "образование",
+      "target": "education"
+    },
+    {
+      "id": "ru_en_a2:346",
+      "ru": "образовательный",
+      "target": "educational"
+    },
+    {
+      "id": "ru_en_a2:347",
+      "ru": "эффект",
+      "target": "effect"
+    },
+    {
+      "id": "ru_en_a2:348",
+      "ru": "усилие",
+      "target": "effort"
+    },
+    {
+      "id": "ru_en_a2:349",
+      "ru": "либо",
+      "target": "either"
+    },
+    {
+      "id": "ru_en_a2:350",
+      "ru": "пожилой",
+      "target": "elderly"
+    },
+    {
+      "id": "ru_en_a2:351",
+      "ru": "электрический",
+      "target": "electric"
+    },
+    {
+      "id": "ru_en_a2:352",
+      "ru": "слон",
+      "target": "elephant"
+    },
+    {
+      "id": "ru_en_a2:353",
+      "ru": "лифт",
+      "target": "elevator"
+    },
+    {
+      "id": "ru_en_a2:354",
+      "ru": "смущающий",
+      "target": "embarrassing"
+    },
+    {
+      "id": "ru_en_a2:355",
+      "ru": "пустой",
+      "target": "empty"
+    },
+    {
+      "id": "ru_en_a2:356",
+      "ru": "поощрять",
+      "target": "encourage"
+    },
+    {
+      "id": "ru_en_a2:357",
+      "ru": "конец",
+      "target": "end"
+    },
+    {
+      "id": "ru_en_a2:358",
+      "ru": "окончание",
+      "target": "ending"
+    },
+    {
+      "id": "ru_en_a2:359",
+      "ru": "энергичный",
+      "target": "energetic"
+    },
+    {
+      "id": "ru_en_a2:360",
+      "ru": "огромный",
+      "target": "enormous"
+    },
+    {
+      "id": "ru_en_a2:361",
+      "ru": "достаточно",
+      "target": "enough"
+    },
+    {
+      "id": "ru_en_a2:362",
+      "ru": "войти",
+      "target": "enter"
+    },
+    {
+      "id": "ru_en_a2:363",
+      "ru": "вход",
+      "target": "entrance"
+    },
+    {
+      "id": "ru_en_a2:364",
+      "ru": "конверт",
+      "target": "envelope"
+    },
+    {
+      "id": "ru_en_a2:365",
+      "ru": "зависть",
+      "target": "envy"
+    },
+    {
+      "id": "ru_en_a2:366",
+      "ru": "эпизод",
+      "target": "episode"
+    },
+    {
+      "id": "ru_en_a2:367",
+      "ru": "эскалатор",
+      "target": "escalator"
+    },
+    {
+      "id": "ru_en_a2:368",
+      "ru": "побег",
+      "target": "escape"
+    },
+    {
+      "id": "ru_en_a2:369",
+      "ru": "особенно",
+      "target": "especially"
+    },
+    {
+      "id": "ru_en_a2:370",
+      "ru": "эссе",
+      "target": "essay"
+    },
+    {
+      "id": "ru_en_a2:371",
+      "ru": "установить",
+      "target": "establish"
+    },
+    {
+      "id": "ru_en_a2:372",
+      "ru": "евро",
+      "target": "euro"
+    },
+    {
+      "id": "ru_en_a2:373",
+      "ru": "даже",
+      "target": "even"
+    },
+    {
+      "id": "ru_en_a2:374",
+      "ru": "когда-либо",
+      "target": "ever"
+    },
+    {
+      "id": "ru_en_a2:375",
+      "ru": "доказательства",
+      "target": "evidence"
+    },
+    {
+      "id": "ru_en_a2:376",
+      "ru": "точно",
+      "target": "exactly"
+    },
+    {
+      "id": "ru_en_a2:377",
+      "ru": "экзамен",
+      "target": "exam"
+    },
+    {
+      "id": "ru_en_a2:378",
+      "ru": "кроме",
+      "target": "except"
+    },
+    {
+      "id": "ru_en_a2:379",
+      "ru": "обменивать",
+      "target": "exchange"
+    },
+    {
+      "id": "ru_en_a2:380",
+      "ru": "упражнение",
+      "target": "exercise"
+    },
+    {
+      "id": "ru_en_a2:381",
+      "ru": "выставка",
+      "target": "exhibition"
+    },
+    {
+      "id": "ru_en_a2:382",
+      "ru": "существовать",
+      "target": "exist"
+    },
+    {
+      "id": "ru_en_a2:383",
+      "ru": "ожидать",
+      "target": "expect"
+    },
+    {
+      "id": "ru_en_a2:384",
+      "ru": "опыт",
+      "target": "experience"
+    },
+    {
+      "id": "ru_en_a2:385",
+      "ru": "эксперт",
+      "target": "expert"
+    },
+    {
+      "id": "ru_en_a2:386",
+      "ru": "объяснить",
+      "target": "explain"
+    },
+    {
+      "id": "ru_en_a2:387",
+      "ru": "объяснение",
+      "target": "explanation"
+    },
+    {
+      "id": "ru_en_a2:388",
+      "ru": "исследовать",
+      "target": "explore"
+    },
+    {
+      "id": "ru_en_a2:389",
+      "ru": "выражать",
+      "target": "express"
+    },
+    {
+      "id": "ru_en_a2:390",
+      "ru": "выражение",
+      "target": "expression"
+    },
+    {
+      "id": "ru_en_a2:391",
+      "ru": "чрезвычайно",
+      "target": "extremely"
+    },
+    {
+      "id": "ru_en_a2:392",
+      "ru": "лицо",
+      "target": "face"
+    },
+    {
+      "id": "ru_en_a2:393",
+      "ru": "факт",
+      "target": "fact"
+    },
+    {
+      "id": "ru_en_a2:394",
+      "ru": "довольно",
+      "target": "fairly"
+    },
+    {
+      "id": "ru_en_a2:395",
+      "ru": "падать",
+      "target": "fall"
+    },
+    {
+      "id": "ru_en_a2:396",
+      "ru": "знакомый",
+      "target": "familiar"
+    },
+    {
+      "id": "ru_en_a2:397",
+      "ru": "причудливый",
+      "target": "fancy"
+    },
+    {
+      "id": "ru_en_a2:398",
+      "ru": "фантастический",
+      "target": "fantastic"
+    },
+    {
+      "id": "ru_en_a2:399",
+      "ru": "далеко",
+      "target": "far"
+    },
+    {
+      "id": "ru_en_a2:400",
+      "ru": "увлекательный",
+      "target": "fascinating"
+    },
+    {
+      "id": "ru_en_a2:401",
+      "ru": "мода",
+      "target": "fashion"
+    },
+    {
+      "id": "ru_en_a2:402",
+      "ru": "вина",
+      "target": "fault"
+    },
+    {
+      "id": "ru_en_a2:403",
+      "ru": "страх",
+      "target": "fear"
+    },
+    {
+      "id": "ru_en_a2:404",
+      "ru": "перо",
+      "target": "feather"
+    },
+    {
+      "id": "ru_en_a2:405",
+      "ru": "особенность",
+      "target": "feature"
+    },
+    {
+      "id": "ru_en_a2:406",
+      "ru": "плата",
+      "target": "fee"
+    },
+    {
+      "id": "ru_en_a2:407",
+      "ru": "чувствовать",
+      "target": "feel"
+    },
+    {
+      "id": "ru_en_a2:408",
+      "ru": "женщина",
+      "target": "female"
+    },
+    {
+      "id": "ru_en_a2:409",
+      "ru": "забор",
+      "target": "fence"
+    },
+    {
+      "id": "ru_en_a2:410",
+      "ru": "несколько",
+      "target": "few"
+    },
+    {
+      "id": "ru_en_a2:411",
+      "ru": "фантастика",
+      "target": "fiction"
+    },
+    {
+      "id": "ru_en_a2:412",
+      "ru": "боец",
+      "target": "fighter"
+    },
+    {
+      "id": "ru_en_a2:413",
+      "ru": "фигура",
+      "target": "figure"
+    },
+    {
+      "id": "ru_en_a2:414",
+      "ru": "фильм",
+      "target": "film"
+    },
+    {
+      "id": "ru_en_a2:415",
+      "ru": "финальный",
+      "target": "final"
+    },
+    {
+      "id": "ru_en_a2:416",
+      "ru": "наконец",
+      "target": "finally"
+    },
+    {
+      "id": "ru_en_a2:417",
+      "ru": "рыбак",
+      "target": "fisherman"
+    },
+    {
+      "id": "ru_en_a2:418",
+      "ru": "подходит",
+      "target": "fit"
+    },
+    {
+      "id": "ru_en_a2:419",
+      "ru": "исправить",
+      "target": "fix"
+    },
+    {
+      "id": "ru_en_a2:420",
+      "ru": "блоха",
+      "target": "flea"
+    },
+    {
+      "id": "ru_en_a2:421",
+      "ru": "полет",
+      "target": "flight"
+    },
+    {
+      "id": "ru_en_a2:422",
+      "ru": "плавать",
+      "target": "float"
+    },
+    {
+      "id": "ru_en_a2:423",
+      "ru": "наводнение",
+      "target": "flood"
+    },
+    {
+      "id": "ru_en_a2:424",
+      "ru": "мука",
+      "target": "flour"
+    },
+    {
+      "id": "ru_en_a2:425",
+      "ru": "туман",
+      "target": "fog"
+    },
+    {
+      "id": "ru_en_a2:426",
+      "ru": "папка",
+      "target": "folder"
+    },
+    {
+      "id": "ru_en_a2:427",
+      "ru": "следовать",
+      "target": "follow"
+    },
+    {
+      "id": "ru_en_a2:428",
+      "ru": "дурак",
+      "target": "fool"
+    },
+    {
+      "id": "ru_en_a2:429",
+      "ru": "футболист",
+      "target": "footballer"
+    },
+    {
+      "id": "ru_en_a2:430",
+      "ru": "для",
+      "target": "for"
+    },
+    {
+      "id": "ru_en_a2:431",
+      "ru": "запретить",
+      "target": "forbid"
+    },
+    {
+      "id": "ru_en_a2:432",
+      "ru": "сила",
+      "target": "force"
+    },
+    {
+      "id": "ru_en_a2:433",
+      "ru": "лес",
+      "target": "forest"
+    },
+    {
+      "id": "ru_en_a2:434",
+      "ru": "навсегда",
+      "target": "forever"
+    },
+    {
+      "id": "ru_en_a2:435",
+      "ru": "вилка",
+      "target": "fork"
+    },
+    {
+      "id": "ru_en_a2:436",
+      "ru": "удача",
+      "target": "fortune"
+    },
+    {
+      "id": "ru_en_a2:437",
+      "ru": "вперед",
+      "target": "forward"
+    },
+    {
+      "id": "ru_en_a2:438",
+      "ru": "рамка",
+      "target": "frame"
+    },
+    {
+      "id": "ru_en_a2:439",
+      "ru": "откровенный",
+      "target": "frank"
+    },
+    {
+      "id": "ru_en_a2:440",
+      "ru": "бесплатно",
+      "target": "free"
+    },
+    {
+      "id": "ru_en_a2:441",
+      "ru": "свобода",
+      "target": "freedom"
+    },
+    {
+      "id": "ru_en_a2:442",
+      "ru": "заморозить",
+      "target": "freeze"
+    },
+    {
+      "id": "ru_en_a2:443",
+      "ru": "холодильник",
+      "target": "fridge"
+    },
+    {
+      "id": "ru_en_a2:444",
+      "ru": "жареный",
+      "target": "fried"
+    },
+    {
+      "id": "ru_en_a2:445",
+      "ru": "дружба",
+      "target": "friendship"
+    },
+    {
+      "id": "ru_en_a2:446",
+      "ru": "пугать",
+      "target": "frighten"
+    },
+    {
+      "id": "ru_en_a2:447",
+      "ru": "испуганный",
+      "target": "frightened"
+    },
+    {
+      "id": "ru_en_a2:448",
+      "ru": "пугающий",
+      "target": "frightening"
+    },
+    {
+      "id": "ru_en_a2:449",
+      "ru": "фронт",
+      "target": "front"
+    },
+    {
+      "id": "ru_en_a2:450",
+      "ru": "жарить",
+      "target": "fry"
+    },
+    {
+      "id": "ru_en_a2:451",
+      "ru": "полностью",
+      "target": "fully"
+    },
+    {
+      "id": "ru_en_a2:452",
+      "ru": "функция",
+      "target": "function"
+    },
+    {
+      "id": "ru_en_a2:453",
+      "ru": "мебель",
+      "target": "furniture"
+    },
+    {
+      "id": "ru_en_a2:454",
+      "ru": "дальше",
+      "target": "further"
+    },
+    {
+      "id": "ru_en_a2:455",
+      "ru": "галерея",
+      "target": "gallery"
+    },
+    {
+      "id": "ru_en_a2:456",
+      "ru": "гараж",
+      "target": "garage"
+    },
+    {
+      "id": "ru_en_a2:457",
+      "ru": "чеснок",
+      "target": "garlic"
+    },
+    {
+      "id": "ru_en_a2:458",
+      "ru": "газ",
+      "target": "gas"
+    },
+    {
+      "id": "ru_en_a2:459",
+      "ru": "ворота",
+      "target": "gate"
+    },
+    {
+      "id": "ru_en_a2:460",
+      "ru": "собрать",
+      "target": "gather"
+    },
+    {
+      "id": "ru_en_a2:461",
+      "ru": "пол",
+      "target": "gender"
+    },
+    {
+      "id": "ru_en_a2:462",
+      "ru": "поколение",
+      "target": "generation"
+    },
+    {
+      "id": "ru_en_a2:463",
+      "ru": "нежный",
+      "target": "gentle"
+    },
+    {
+      "id": "ru_en_a2:464",
+      "ru": "данный",
+      "target": "given"
+    },
+    {
+      "id": "ru_en_a2:465",
+      "ru": "глобус",
+      "target": "globe"
+    },
+    {
+      "id": "ru_en_a2:466",
+      "ru": "перчатка",
+      "target": "glove"
+    },
+    {
+      "id": "ru_en_a2:467",
+      "ru": "золото",
+      "target": "gold"
+    },
+    {
+      "id": "ru_en_a2:468",
+      "ru": "золотой",
+      "target": "golden"
+    },
+    {
+      "id": "ru_en_a2:469",
+      "ru": "гольф",
+      "target": "golf"
+    },
+    {
+      "id": "ru_en_a2:470",
+      "ru": "красивый",
+      "target": "good-looking"
+    },
+    {
+      "id": "ru_en_a2:471",
+      "ru": "правительство",
+      "target": "government"
+    },
+    {
+      "id": "ru_en_a2:472",
+      "ru": "благодать",
+      "target": "grace"
+    },
+    {
+      "id": "ru_en_a2:473",
+      "ru": "постепенно",
+      "target": "gradually"
+    },
+    {
+      "id": "ru_en_a2:474",
+      "ru": "выпускник",
+      "target": "graduate"
+    },
+    {
+      "id": "ru_en_a2:475",
+      "ru": "внук",
+      "target": "grandchild"
+    },
+    {
+      "id": "ru_en_a2:476",
+      "ru": "дедушка",
+      "target": "granddad"
+    },
+    {
+      "id": "ru_en_a2:477",
+      "ru": "внучка",
+      "target": "granddaughter"
+    },
+    {
+      "id": "ru_en_a2:478",
+      "ru": "бабушка",
+      "target": "granny"
+    },
+    {
+      "id": "ru_en_a2:479",
+      "ru": "благодарен",
+      "target": "grateful"
+    },
+    {
+      "id": "ru_en_a2:480",
+      "ru": "значительно",
+      "target": "greatly"
+    },
+    {
+      "id": "ru_en_a2:481",
+      "ru": "жадный",
+      "target": "greedy"
+    },
+    {
+      "id": "ru_en_a2:482",
+      "ru": "зеленый",
+      "target": "green"
+    },
+    {
+      "id": "ru_en_a2:483",
+      "ru": "охранник",
+      "target": "guard"
+    },
+    {
+      "id": "ru_en_a2:484",
+      "ru": "путеводитель",
+      "target": "guidebook"
+    },
+    {
+      "id": "ru_en_a2:485",
+      "ru": "пистолет",
+      "target": "gun"
+    },
+    {
+      "id": "ru_en_a2:486",
+      "ru": "половина",
+      "target": "half"
+    },
+    {
+      "id": "ru_en_a2:487",
+      "ru": "полцены",
+      "target": "half-price"
+    },
+    {
+      "id": "ru_en_a2:488",
+      "ru": "ветчина",
+      "target": "ham"
+    },
+    {
+      "id": "ru_en_a2:489",
+      "ru": "рука",
+      "target": "hand"
+    },
+    {
+      "id": "ru_en_a2:490",
+      "ru": "сумочка",
+      "target": "handbag"
+    },
+    {
+      "id": "ru_en_a2:491",
+      "ru": "инвалид",
+      "target": "handicapped"
+    },
+    {
+      "id": "ru_en_a2:492",
+      "ru": "ручка",
+      "target": "handle"
+    },
+    {
+      "id": "ru_en_a2:493",
+      "ru": "счастливо",
+      "target": "happily"
+    },
+    {
+      "id": "ru_en_a2:494",
+      "ru": "счастье",
+      "target": "happiness"
+    },
+    {
+      "id": "ru_en_a2:495",
+      "ru": "вред",
+      "target": "harm"
+    },
+    {
+      "id": "ru_en_a2:496",
+      "ru": "вредный",
+      "target": "harmful"
+    },
+    {
+      "id": "ru_en_a2:497",
+      "ru": "гармония",
+      "target": "harmony"
+    },
+    {
+      "id": "ru_en_a2:498",
+      "ru": "урожай",
+      "target": "harvest"
+    },
+    {
+      "id": "ru_en_a2:499",
+      "ru": "ненавижу",
+      "target": "hate"
+    },
+    {
+      "id": "ru_en_a2:500",
+      "ru": "голова",
+      "target": "head"
+    },
+    {
+      "id": "ru_en_a2:501",
+      "ru": "наушники",
+      "target": "headphone"
+    },
+    {
+      "id": "ru_en_a2:502",
+      "ru": "тепло",
+      "target": "heat"
+    },
+    {
+      "id": "ru_en_a2:503",
+      "ru": "отопление",
+      "target": "heating"
+    },
+    {
+      "id": "ru_en_a2:504",
+      "ru": "сильно",
+      "target": "heavily"
+    },
+    {
+      "id": "ru_en_a2:505",
+      "ru": "помочь",
+      "target": "help"
+    },
+    {
+      "id": "ru_en_a2:506",
+      "ru": "полезный",
+      "target": "helpful"
+    },
+    {
+      "id": "ru_en_a2:507",
+      "ru": "герой",
+      "target": "hero"
+    },
+    {
+      "id": "ru_en_a2:508",
+      "ru": "сама",
+      "target": "herself"
+    },
+    {
+      "id": "ru_en_a2:509",
+      "ru": "эй",
+      "target": "hey"
+    },
+    {
+      "id": "ru_en_a2:510",
+      "ru": "высокий",
+      "target": "high"
+    },
+    {
+      "id": "ru_en_a2:511",
+      "ru": "шоссе",
+      "target": "highway"
+    },
+    {
+      "id": "ru_en_a2:512",
+      "ru": "поход",
+      "target": "hike"
+    },
+    {
+      "id": "ru_en_a2:513",
+      "ru": "походы",
+      "target": "hiking"
+    },
+    {
+      "id": "ru_en_a2:514",
+      "ru": "сам",
+      "target": "himself"
+    },
+    {
+      "id": "ru_en_a2:515",
+      "ru": "ударить",
+      "target": "hit"
+    },
+    {
+      "id": "ru_en_a2:516",
+      "ru": "хоккей",
+      "target": "hockey"
+    },
+    {
+      "id": "ru_en_a2:517",
+      "ru": "держать",
+      "target": "hold"
+    },
+    {
+      "id": "ru_en_a2:518",
+      "ru": "дом",
+      "target": "home"
+    },
+    {
+      "id": "ru_en_a2:519",
+      "ru": "мед",
+      "target": "honey"
+    },
+    {
+      "id": "ru_en_a2:520",
+      "ru": "ужас",
+      "target": "horror"
+    },
+    {
+      "id": "ru_en_a2:521",
+      "ru": "хозяин",
+      "target": "host"
+    },
+    {
+      "id": "ru_en_a2:522",
+      "ru": "однако",
+      "target": "however"
+    },
+    {
+      "id": "ru_en_a2:523",
+      "ru": "обнимать",
+      "target": "hug"
+    },
+    {
+      "id": "ru_en_a2:524",
+      "ru": "человек",
+      "target": "human"
+    },
+    {
+      "id": "ru_en_a2:525",
+      "ru": "сто",
+      "target": "hundred"
+    },
+    {
+      "id": "ru_en_a2:526",
+      "ru": "охотник",
+      "target": "hunter"
+    },
+    {
+      "id": "ru_en_a2:527",
+      "ru": "спешить",
+      "target": "hurry"
+    },
+    {
+      "id": "ru_en_a2:528",
+      "ru": "идентификатор",
+      "target": "id"
+    },
+    {
+      "id": "ru_en_a2:529",
+      "ru": "болен",
+      "target": "ill"
+    },
+    {
+      "id": "ru_en_a2:530",
+      "ru": "незаконный",
+      "target": "illegal"
+    },
+    {
+      "id": "ru_en_a2:531",
+      "ru": "изображение",
+      "target": "image"
+    },
+    {
+      "id": "ru_en_a2:532",
+      "ru": "воображение",
+      "target": "imagination"
+    },
+    {
+      "id": "ru_en_a2:533",
+      "ru": "воздействие",
+      "target": "impact"
+    },
+    {
+      "id": "ru_en_a2:534",
+      "ru": "нетерпеливый",
+      "target": "impatient"
+    },
+    {
+      "id": "ru_en_a2:535",
+      "ru": "важность",
+      "target": "importance"
+    },
+    {
+      "id": "ru_en_a2:536",
+      "ru": "главное",
+      "target": "importantly"
+    },
+    {
+      "id": "ru_en_a2:537",
+      "ru": "невозможно",
+      "target": "impossible"
+    },
+    {
+      "id": "ru_en_a2:538",
+      "ru": "улучшить",
+      "target": "improve"
+    },
+    {
+      "id": "ru_en_a2:539",
+      "ru": "в",
+      "target": "in"
+    },
+    {
+      "id": "ru_en_a2:540",
+      "ru": "дюйм",
+      "target": "inch"
+    },
+    {
+      "id": "ru_en_a2:541",
+      "ru": "включать",
+      "target": "include"
+    },
+    {
+      "id": "ru_en_a2:542",
+      "ru": "увеличение",
+      "target": "increase"
+    },
+    {
+      "id": "ru_en_a2:543",
+      "ru": "действительно",
+      "target": "indeed"
+    },
+    {
+      "id": "ru_en_a2:544",
+      "ru": "независимость",
+      "target": "independence"
+    },
+    {
+      "id": "ru_en_a2:545",
+      "ru": "указать",
+      "target": "indicate"
+    },
+    {
+      "id": "ru_en_a2:546",
+      "ru": "крытый",
+      "target": "indoor"
+    },
+    {
+      "id": "ru_en_a2:547",
+      "ru": "недорогой",
+      "target": "inexpensive"
+    },
+    {
+      "id": "ru_en_a2:548",
+      "ru": "влияние",
+      "target": "influence"
+    },
+    {
+      "id": "ru_en_a2:549",
+      "ru": "ранить",
+      "target": "injure"
+    },
+    {
+      "id": "ru_en_a2:550",
+      "ru": "внутренний",
+      "target": "inner"
+    },
+    {
+      "id": "ru_en_a2:551",
+      "ru": "насекомое",
+      "target": "insect"
+    },
+    {
+      "id": "ru_en_a2:552",
+      "ru": "внутри",
+      "target": "inside"
+    },
+    {
+      "id": "ru_en_a2:553",
+      "ru": "вдохновение",
+      "target": "inspiration"
+    },
+    {
+      "id": "ru_en_a2:554",
+      "ru": "мгновенный",
+      "target": "instant"
+    },
+    {
+      "id": "ru_en_a2:555",
+      "ru": "инструмент",
+      "target": "instrument"
+    },
+    {
+      "id": "ru_en_a2:556",
+      "ru": "интеллект",
+      "target": "intelligence"
+    },
+    {
+      "id": "ru_en_a2:557",
+      "ru": "умный",
+      "target": "intelligent"
+    },
+    {
+      "id": "ru_en_a2:558",
+      "ru": "интерес",
+      "target": "interest"
+    },
+    {
+      "id": "ru_en_a2:559",
+      "ru": "международный",
+      "target": "international"
+    },
+    {
+      "id": "ru_en_a2:560",
+      "ru": "вторгаться",
+      "target": "invade"
+    },
+    {
+      "id": "ru_en_a2:561",
+      "ru": "изобретать",
+      "target": "invent"
+    },
+    {
+      "id": "ru_en_a2:562",
+      "ru": "изобретение",
+      "target": "invention"
+    },
+    {
+      "id": "ru_en_a2:563",
+      "ru": "пригласить",
+      "target": "invite"
+    },
+    {
+      "id": "ru_en_a2:564",
+      "ru": "выпуск",
+      "target": "issue"
+    },
+    {
+      "id": "ru_en_a2:565",
+      "ru": "это",
+      "target": "it"
+    },
+    {
+      "id": "ru_en_a2:566",
+      "ru": "варенье",
+      "target": "jam"
+    },
+    {
+      "id": "ru_en_a2:567",
+      "ru": "желе",
+      "target": "jelly"
+    },
+    {
+      "id": "ru_en_a2:568",
+      "ru": "шутка",
+      "target": "joke"
+    },
+    {
+      "id": "ru_en_a2:569",
+      "ru": "путешествие",
+      "target": "journey"
+    },
+    {
+      "id": "ru_en_a2:570",
+      "ru": "радость",
+      "target": "joy"
+    },
+    {
+      "id": "ru_en_a2:571",
+      "ru": "младший",
+      "target": "junior"
+    },
+    {
+      "id": "ru_en_a2:572",
+      "ru": "мусор",
+      "target": "junk"
+    },
+    {
+      "id": "ru_en_a2:573",
+      "ru": "убийца",
+      "target": "killer"
+    },
+    {
+      "id": "ru_en_a2:574",
+      "ru": "килограмм",
+      "target": "kilo"
+    },
+    {
+      "id": "ru_en_a2:575",
+      "ru": "добрый",
+      "target": "kind"
+    },
+    {
+      "id": "ru_en_a2:576",
+      "ru": "любезно",
+      "target": "kindly"
+    },
+    {
+      "id": "ru_en_a2:577",
+      "ru": "королевство",
+      "target": "kingdom"
+    },
+    {
+      "id": "ru_en_a2:578",
+      "ru": "комплект",
+      "target": "kit"
+    },
+    {
+      "id": "ru_en_a2:579",
+      "ru": "стучать",
+      "target": "knock"
+    },
+    {
+      "id": "ru_en_a2:580",
+      "ru": "знания",
+      "target": "knowledge"
+    },
+    {
+      "id": "ru_en_a2:581",
+      "ru": "озеро",
+      "target": "lake"
+    },
+    {
+      "id": "ru_en_a2:582",
+      "ru": "лампа",
+      "target": "lamp"
+    },
+    {
+      "id": "ru_en_a2:583",
+      "ru": "пейзаж",
+      "target": "landscape"
+    },
+    {
+      "id": "ru_en_a2:584",
+      "ru": "переулок",
+      "target": "lane"
+    },
+    {
+      "id": "ru_en_a2:585",
+      "ru": "последний",
+      "target": "last"
+    },
+    {
+      "id": "ru_en_a2:586",
+      "ru": "закон",
+      "target": "law"
+    },
+    {
+      "id": "ru_en_a2:587",
+      "ru": "адвокат",
+      "target": "lawyer"
+    },
+    {
+      "id": "ru_en_a2:588",
+      "ru": "лень",
+      "target": "laziness"
+    },
+    {
+      "id": "ru_en_a2:589",
+      "ru": "вести",
+      "target": "lead"
+    },
+    {
+      "id": "ru_en_a2:590",
+      "ru": "ученик",
+      "target": "learner"
+    },
+    {
+      "id": "ru_en_a2:591",
+      "ru": "минимум",
+      "target": "least"
+    },
+    {
+      "id": "ru_en_a2:592",
+      "ru": "кожа",
+      "target": "leather"
+    },
+    {
+      "id": "ru_en_a2:593",
+      "ru": "ушел",
+      "target": "left"
+    },
+    {
+      "id": "ru_en_a2:594",
+      "ru": "досуг",
+      "target": "leisure"
+    },
+    {
+      "id": "ru_en_a2:595",
+      "ru": "лимон",
+      "target": "lemon"
+    },
+    {
+      "id": "ru_en_a2:596",
+      "ru": "лимонад",
+      "target": "lemonade"
+    },
+    {
+      "id": "ru_en_a2:597",
+      "ru": "одолжить",
+      "target": "lend"
+    },
+    {
+      "id": "ru_en_a2:598",
+      "ru": "меньше",
+      "target": "less"
+    },
+    {
+      "id": "ru_en_a2:599",
+      "ru": "уровень",
+      "target": "level"
+    },
+    {
+      "id": "ru_en_a2:600",
+      "ru": "ложь",
+      "target": "lie"
+    },
+    {
+      "id": "ru_en_a2:601",
+      "ru": "вероятно",
+      "target": "likely"
+    },
+    {
+      "id": "ru_en_a2:602",
+      "ru": "губа",
+      "target": "lip"
+    },
+    {
+      "id": "ru_en_a2:603",
+      "ru": "живой",
+      "target": "lively"
+    },
+    {
+      "id": "ru_en_a2:604",
+      "ru": "нагрузка",
+      "target": "load"
+    },
+    {
+      "id": "ru_en_a2:605",
+      "ru": "местный",
+      "target": "local"
+    },
+    {
+      "id": "ru_en_a2:606",
+      "ru": "логичный",
+      "target": "logical"
+    },
+    {
+      "id": "ru_en_a2:607",
+      "ru": "длинный",
+      "target": "long"
+    },
+    {
+      "id": "ru_en_a2:608",
+      "ru": "свободный",
+      "target": "loose"
+    },
+    {
+      "id": "ru_en_a2:609",
+      "ru": "проиграть",
+      "target": "lose"
+    },
+    {
+      "id": "ru_en_a2:610",
+      "ru": "потерянный",
+      "target": "lost"
+    },
+    {
+      "id": "ru_en_a2:611",
+      "ru": "много",
+      "target": "lot"
+    },
+    {
+      "id": "ru_en_a2:612",
+      "ru": "громко",
+      "target": "loudly"
+    },
+    {
+      "id": "ru_en_a2:613",
+      "ru": "любовник",
+      "target": "lover"
+    },
+    {
+      "id": "ru_en_a2:614",
+      "ru": "низкий",
+      "target": "low"
+    },
+    {
+      "id": "ru_en_a2:615",
+      "ru": "лирический",
+      "target": "lyric"
+    },
+    {
+      "id": "ru_en_a2:616",
+      "ru": "безумный",
+      "target": "mad"
+    },
+    {
+      "id": "ru_en_a2:617",
+      "ru": "магия",
+      "target": "magic"
+    },
+    {
+      "id": "ru_en_a2:618",
+      "ru": "майор",
+      "target": "major"
+    },
+    {
+      "id": "ru_en_a2:619",
+      "ru": "создатель",
+      "target": "maker"
+    },
+    {
+      "id": "ru_en_a2:620",
+      "ru": "макияж",
+      "target": "make-up"
+    },
+    {
+      "id": "ru_en_a2:621",
+      "ru": "мужчина",
+      "target": "male"
+    },
+    {
+      "id": "ru_en_a2:622",
+      "ru": "управлять",
+      "target": "manage"
+    },
+    {
+      "id": "ru_en_a2:623",
+      "ru": "менеджер",
+      "target": "manager"
+    },
+    {
+      "id": "ru_en_a2:624",
+      "ru": "манера",
+      "target": "manner"
+    },
+    {
+      "id": "ru_en_a2:625",
+      "ru": "отметка",
+      "target": "mark"
+    },
+    {
+      "id": "ru_en_a2:626",
+      "ru": "рынок",
+      "target": "market"
+    },
+    {
+      "id": "ru_en_a2:627",
+      "ru": "женат",
+      "target": "married"
+    },
+    {
+      "id": "ru_en_a2:628",
+      "ru": "жениться",
+      "target": "marry"
+    },
+    {
+      "id": "ru_en_a2:629",
+      "ru": "материал",
+      "target": "material"
+    },
+    {
+      "id": "ru_en_a2:630",
+      "ru": "вопрос",
+      "target": "matter"
+    },
+    {
+      "id": "ru_en_a2:631",
+      "ru": "макс",
+      "target": "max"
+    },
+    {
+      "id": "ru_en_a2:632",
+      "ru": "смысл",
+      "target": "meaning"
+    },
+    {
+      "id": "ru_en_a2:633",
+      "ru": "медаль",
+      "target": "medal"
+    },
+    {
+      "id": "ru_en_a2:634",
+      "ru": "медицинский",
+      "target": "medical"
+    },
+    {
+      "id": "ru_en_a2:635",
+      "ru": "дыня",
+      "target": "melon"
+    },
+    {
+      "id": "ru_en_a2:636",
+      "ru": "член",
+      "target": "member"
+    },
+    {
+      "id": "ru_en_a2:637",
+      "ru": "упомянуть",
+      "target": "mention"
+    },
+    {
+      "id": "ru_en_a2:638",
+      "ru": "меню",
+      "target": "menu"
+    },
+    {
+      "id": "ru_en_a2:639",
+      "ru": "металл",
+      "target": "metal"
+    },
+    {
+      "id": "ru_en_a2:640",
+      "ru": "метод",
+      "target": "method"
+    },
+    {
+      "id": "ru_en_a2:641",
+      "ru": "полдень",
+      "target": "midday"
+    },
+    {
+      "id": "ru_en_a2:642",
+      "ru": "полночь",
+      "target": "midnight"
+    },
+    {
+      "id": "ru_en_a2:643",
+      "ru": "военный",
+      "target": "military"
+    },
+    {
+      "id": "ru_en_a2:644",
+      "ru": "миллион",
+      "target": "million"
+    },
+    {
+      "id": "ru_en_a2:645",
+      "ru": "ум",
+      "target": "mind"
+    },
+    {
+      "id": "ru_en_a2:646",
+      "ru": "зеркало",
+      "target": "mirror"
+    },
+    {
+      "id": "ru_en_a2:647",
+      "ru": "отсутствует",
+      "target": "missing"
+    },
+    {
+      "id": "ru_en_a2:648",
+      "ru": "смешивать",
+      "target": "mix"
+    },
+    {
+      "id": "ru_en_a2:649",
+      "ru": "мобильный",
+      "target": "mobile"
+    },
+    {
+      "id": "ru_en_a2:650",
+      "ru": "модель",
+      "target": "model"
+    },
+    {
+      "id": "ru_en_a2:651",
+      "ru": "современный",
+      "target": "modern"
+    },
+    {
+      "id": "ru_en_a2:652",
+      "ru": "настроение",
+      "target": "mood"
+    },
+    {
+      "id": "ru_en_a2:653",
+      "ru": "мечеть",
+      "target": "mosque"
+    },
+    {
+      "id": "ru_en_a2:654",
+      "ru": "большинство",
+      "target": "most"
+    },
+    {
+      "id": "ru_en_a2:655",
+      "ru": "автомагистраль",
+      "target": "motorway"
+    },
+    {
+      "id": "ru_en_a2:656",
+      "ru": "двигаться",
+      "target": "move"
+    },
+    {
+      "id": "ru_en_a2:657",
+      "ru": "кружка",
+      "target": "mug"
+    },
+    {
+      "id": "ru_en_a2:658",
+      "ru": "убийство",
+      "target": "murder"
+    },
+    {
+      "id": "ru_en_a2:659",
+      "ru": "музей",
+      "target": "museum"
+    },
+    {
+      "id": "ru_en_a2:660",
+      "ru": "гриб",
+      "target": "mushroom"
+    },
+    {
+      "id": "ru_en_a2:661",
+      "ru": "мюзикл",
+      "target": "musical"
+    },
+    {
+      "id": "ru_en_a2:662",
+      "ru": "загадочный",
+      "target": "mysterious"
+    },
+    {
+      "id": "ru_en_a2:663",
+      "ru": "тайна",
+      "target": "mystery"
+    },
+    {
+      "id": "ru_en_a2:664",
+      "ru": "салфетка",
+      "target": "napkin"
+    },
+    {
+      "id": "ru_en_a2:665",
+      "ru": "нация",
+      "target": "nation"
+    },
+    {
+      "id": "ru_en_a2:666",
+      "ru": "национальный",
+      "target": "national"
+    },
+    {
+      "id": "ru_en_a2:667",
+      "ru": "родной",
+      "target": "native"
+    },
+    {
+      "id": "ru_en_a2:668",
+      "ru": "естественный",
+      "target": "natural"
+    },
+    {
+      "id": "ru_en_a2:669",
+      "ru": "природа",
+      "target": "nature"
+    },
+    {
+      "id": "ru_en_a2:670",
+      "ru": "почти",
+      "target": "nearly"
+    },
+    {
+      "id": "ru_en_a2:671",
+      "ru": "необходимо",
+      "target": "necessary"
+    },
+    {
+      "id": "ru_en_a2:672",
+      "ru": "необходимость",
+      "target": "need"
+    },
+    {
+      "id": "ru_en_a2:673",
+      "ru": "отрицательный",
+      "target": "negative"
+    },
+    {
+      "id": "ru_en_a2:674",
+      "ru": "нервный",
+      "target": "nervous"
+    },
+    {
+      "id": "ru_en_a2:675",
+      "ru": "сеть",
+      "target": "net"
+    },
+    {
+      "id": "ru_en_a2:676",
+      "ru": "следующий",
+      "target": "next"
+    },
+    {
+      "id": "ru_en_a2:677",
+      "ru": "никто",
+      "target": "nobody"
+    },
+    {
+      "id": "ru_en_a2:678",
+      "ru": "шумный",
+      "target": "noisy"
+    },
+    {
+      "id": "ru_en_a2:679",
+      "ru": "нормальный",
+      "target": "normal"
+    },
+    {
+      "id": "ru_en_a2:680",
+      "ru": "север",
+      "target": "north"
+    },
+    {
+      "id": "ru_en_a2:681",
+      "ru": "уведомление",
+      "target": "notice"
+    },
+    {
+      "id": "ru_en_a2:682",
+      "ru": "существительное",
+      "target": "noun"
+    },
+    {
+      "id": "ru_en_a2:683",
+      "ru": "роман",
+      "target": "novel"
+    },
+    {
+      "id": "ru_en_a2:684",
+      "ru": "сегодня",
+      "target": "nowadays"
+    },
+    {
+      "id": "ru_en_a2:685",
+      "ru": "дуб",
+      "target": "oak"
+    },
+    {
+      "id": "ru_en_a2:686",
+      "ru": "оккупация",
+      "target": "occupation"
+    },
+    {
+      "id": "ru_en_a2:687",
+      "ru": "предложение",
+      "target": "offer"
+    },
+    {
+      "id": "ru_en_a2:688",
+      "ru": "чиновник",
+      "target": "official"
+    },
+    {
+      "id": "ru_en_a2:689",
+      "ru": "масло",
+      "target": "oil"
+    },
+    {
+      "id": "ru_en_a2:690",
+      "ru": "олимпийский",
+      "target": "olympic"
+    },
+    {
+      "id": "ru_en_a2:691",
+      "ru": "на",
+      "target": "on"
+    },
+    {
+      "id": "ru_en_a2:692",
+      "ru": "лук",
+      "target": "onion"
+    },
+    {
+      "id": "ru_en_a2:693",
+      "ru": "онлайн",
+      "target": "online"
+    },
+    {
+      "id": "ru_en_a2:694",
+      "ru": "мнение",
+      "target": "opinion"
+    },
+    {
+      "id": "ru_en_a2:695",
+      "ru": "возможность",
+      "target": "opportunity"
+    },
+    {
+      "id": "ru_en_a2:696",
+      "ru": "напротив",
+      "target": "opposite"
+    },
+    {
+      "id": "ru_en_a2:697",
+      "ru": "заказать",
+      "target": "order"
+    },
+    {
+      "id": "ru_en_a2:698",
+      "ru": "оригинальный",
+      "target": "original"
+    },
+    {
+      "id": "ru_en_a2:699",
+      "ru": "сирота",
+      "target": "orphan"
+    },
+    {
+      "id": "ru_en_a2:700",
+      "ru": "снаружи",
+      "target": "outside"
+    },
+    {
+      "id": "ru_en_a2:701",
+      "ru": "духовка",
+      "target": "oven"
+    },
+    {
+      "id": "ru_en_a2:702",
+      "ru": "закончилось",
+      "target": "over"
+    },
+    {
+      "id": "ru_en_a2:703",
+      "ru": "собственный",
+      "target": "own"
+    },
+    {
+      "id": "ru_en_a2:704",
+      "ru": "тихоокеанский",
+      "target": "pacific"
+    },
+    {
+      "id": "ru_en_a2:705",
+      "ru": "упаковка",
+      "target": "pack"
+    },
+    {
+      "id": "ru_en_a2:706",
+      "ru": "художник",
+      "target": "painter"
+    },
+    {
+      "id": "ru_en_a2:707",
+      "ru": "приятель",
+      "target": "pal"
+    },
+    {
+      "id": "ru_en_a2:708",
+      "ru": "кастрюля",
+      "target": "pan"
+    },
+    {
+      "id": "ru_en_a2:709",
+      "ru": "паника",
+      "target": "panic"
+    },
+    {
+      "id": "ru_en_a2:710",
+      "ru": "парк",
+      "target": "park"
+    },
+    {
+      "id": "ru_en_a2:711",
+      "ru": "часть",
+      "target": "part"
+    },
+    {
+      "id": "ru_en_a2:712",
+      "ru": "частично",
+      "target": "partly"
+    },
+    {
+      "id": "ru_en_a2:713",
+      "ru": "пройти",
+      "target": "pass"
+    },
+    {
+      "id": "ru_en_a2:714",
+      "ru": "пассажир",
+      "target": "passenger"
+    },
+    {
+      "id": "ru_en_a2:715",
+      "ru": "макароны",
+      "target": "pasta"
+    },
+    {
+      "id": "ru_en_a2:716",
+      "ru": "путь",
+      "target": "path"
+    },
+    {
+      "id": "ru_en_a2:717",
+      "ru": "пациент",
+      "target": "patient"
+    },
+    {
+      "id": "ru_en_a2:718",
+      "ru": "пк",
+      "target": "pc"
+    },
+    {
+      "id": "ru_en_a2:719",
+      "ru": "горох",
+      "target": "pea"
+    },
+    {
+      "id": "ru_en_a2:720",
+      "ru": "мирный",
+      "target": "peaceful"
+    },
+    {
+      "id": "ru_en_a2:721",
+      "ru": "груша",
+      "target": "pear"
+    },
+    {
+      "id": "ru_en_a2:722",
+      "ru": "пенсы",
+      "target": "pence"
+    },
+    {
+      "id": "ru_en_a2:723",
+      "ru": "перец",
+      "target": "pepper"
+    },
+    {
+      "id": "ru_en_a2:724",
+      "ru": "идеальный",
+      "target": "perfect"
+    },
+    {
+      "id": "ru_en_a2:725",
+      "ru": "совершенно",
+      "target": "perfectly"
+    },
+    {
+      "id": "ru_en_a2:726",
+      "ru": "выполнять",
+      "target": "perform"
+    },
+    {
+      "id": "ru_en_a2:727",
+      "ru": "производительность",
+      "target": "performance"
+    },
+    {
+      "id": "ru_en_a2:728",
+      "ru": "духи",
+      "target": "perfume"
+    },
+    {
+      "id": "ru_en_a2:729",
+      "ru": "возможно",
+      "target": "perhaps"
+    },
+    {
+      "id": "ru_en_a2:730",
+      "ru": "разрешение",
+      "target": "permission"
+    },
+    {
+      "id": "ru_en_a2:731",
+      "ru": "личность",
+      "target": "personality"
+    },
+    {
+      "id": "ru_en_a2:732",
+      "ru": "бензин",
+      "target": "petrol"
+    },
+    {
+      "id": "ru_en_a2:733",
+      "ru": "фотография",
+      "target": "photograph"
+    },
+    {
+      "id": "ru_en_a2:734",
+      "ru": "фотограф",
+      "target": "photographer"
+    },
+    {
+      "id": "ru_en_a2:735",
+      "ru": "физический",
+      "target": "physical"
+    },
+    {
+      "id": "ru_en_a2:736",
+      "ru": "физически",
+      "target": "physically"
+    },
+    {
+      "id": "ru_en_a2:737",
+      "ru": "куча",
+      "target": "pile"
+    },
+    {
+      "id": "ru_en_a2:738",
+      "ru": "паломник",
+      "target": "pilgrim"
+    },
+    {
+      "id": "ru_en_a2:739",
+      "ru": "таблетка",
+      "target": "pill"
+    },
+    {
+      "id": "ru_en_a2:740",
+      "ru": "пилот",
+      "target": "pilot"
+    },
+    {
+      "id": "ru_en_a2:741",
+      "ru": "розовый",
+      "target": "pink"
+    },
+    {
+      "id": "ru_en_a2:742",
+      "ru": "жалость",
+      "target": "pity"
+    },
+    {
+      "id": "ru_en_a2:743",
+      "ru": "планета",
+      "target": "planet"
+    },
+    {
+      "id": "ru_en_a2:744",
+      "ru": "растение",
+      "target": "plant"
+    },
+    {
+      "id": "ru_en_a2:745",
+      "ru": "пластик",
+      "target": "plastic"
+    },
+    {
+      "id": "ru_en_a2:746",
+      "ru": "тарелка",
+      "target": "plate"
+    },
+    {
+      "id": "ru_en_a2:747",
+      "ru": "игривый",
+      "target": "playful"
+    },
+    {
+      "id": "ru_en_a2:748",
+      "ru": "приятный",
+      "target": "pleasant"
+    },
+    {
+      "id": "ru_en_a2:749",
+      "ru": "доволен",
+      "target": "pleased"
+    },
+    {
+      "id": "ru_en_a2:750",
+      "ru": "плюс",
+      "target": "plus"
+    },
+    {
+      "id": "ru_en_a2:751",
+      "ru": "точка",
+      "target": "point"
+    },
+    {
+      "id": "ru_en_a2:752",
+      "ru": "полиция",
+      "target": "police"
+    },
+    {
+      "id": "ru_en_a2:753",
+      "ru": "полицейский",
+      "target": "policeman"
+    },
+    {
+      "id": "ru_en_a2:754",
+      "ru": "женщина-полицейский",
+      "target": "policewoman"
+    },
+    {
+      "id": "ru_en_a2:755",
+      "ru": "вежливый",
+      "target": "polite"
+    },
+    {
+      "id": "ru_en_a2:756",
+      "ru": "политический",
+      "target": "political"
+    },
+    {
+      "id": "ru_en_a2:757",
+      "ru": "загрязнять",
+      "target": "pollute"
+    },
+    {
+      "id": "ru_en_a2:758",
+      "ru": "популярный",
+      "target": "popular"
+    },
+    {
+      "id": "ru_en_a2:759",
+      "ru": "население",
+      "target": "population"
+    },
+    {
+      "id": "ru_en_a2:760",
+      "ru": "портрет",
+      "target": "portrait"
+    },
+    {
+      "id": "ru_en_a2:761",
+      "ru": "позиция",
+      "target": "position"
+    },
+    {
+      "id": "ru_en_a2:762",
+      "ru": "пост",
+      "target": "post"
+    },
+    {
+      "id": "ru_en_a2:763",
+      "ru": "налить",
+      "target": "pour"
+    },
+    {
+      "id": "ru_en_a2:764",
+      "ru": "власть",
+      "target": "power"
+    },
+    {
+      "id": "ru_en_a2:765",
+      "ru": "мощный",
+      "target": "powerful"
+    },
+    {
+      "id": "ru_en_a2:766",
+      "ru": "точный",
+      "target": "precise"
+    },
+    {
+      "id": "ru_en_a2:767",
+      "ru": "предсказать",
+      "target": "predict"
+    },
+    {
+      "id": "ru_en_a2:768",
+      "ru": "предсказание",
+      "target": "prediction"
+    },
+    {
+      "id": "ru_en_a2:769",
+      "ru": "предпочитаю",
+      "target": "prefer"
+    },
+    {
+      "id": "ru_en_a2:770",
+      "ru": "подготовить",
+      "target": "prepare"
+    },
+    {
+      "id": "ru_en_a2:771",
+      "ru": "давление",
+      "target": "pressure"
+    },
+    {
+      "id": "ru_en_a2:772",
+      "ru": "притворяться",
+      "target": "pretend"
+    },
+    {
+      "id": "ru_en_a2:773",
+      "ru": "красивая",
+      "target": "pretty"
+    },
+    {
+      "id": "ru_en_a2:774",
+      "ru": "предотвратить",
+      "target": "prevent"
+    },
+    {
+      "id": "ru_en_a2:775",
+      "ru": "гордость",
+      "target": "pride"
+    },
+    {
+      "id": "ru_en_a2:776",
+      "ru": "распечатать",
+      "target": "print"
+    },
+    {
+      "id": "ru_en_a2:777",
+      "ru": "принтер",
+      "target": "printer"
+    },
+    {
+      "id": "ru_en_a2:778",
+      "ru": "частный",
+      "target": "private"
+    },
+    {
+      "id": "ru_en_a2:779",
+      "ru": "про",
+      "target": "pro"
+    },
+    {
+      "id": "ru_en_a2:780",
+      "ru": "производить",
+      "target": "produce"
+    },
+    {
+      "id": "ru_en_a2:781",
+      "ru": "продукт",
+      "target": "product"
+    },
+    {
+      "id": "ru_en_a2:782",
+      "ru": "производство",
+      "target": "production"
+    },
+    {
+      "id": "ru_en_a2:783",
+      "ru": "профессиональный",
+      "target": "professional"
+    },
+    {
+      "id": "ru_en_a2:784",
+      "ru": "прогрессивный",
+      "target": "progressive"
+    },
+    {
+      "id": "ru_en_a2:785",
+      "ru": "обещание",
+      "target": "promise"
+    },
+    {
+      "id": "ru_en_a2:786",
+      "ru": "произносить",
+      "target": "pronounce"
+    },
+    {
+      "id": "ru_en_a2:787",
+      "ru": "произношение",
+      "target": "pronunciation"
+    },
+    {
+      "id": "ru_en_a2:788",
+      "ru": "надлежащий",
+      "target": "proper"
+    },
+    {
+      "id": "ru_en_a2:789",
+      "ru": "предоставить",
+      "target": "provide"
+    },
+    {
+      "id": "ru_en_a2:790",
+      "ru": "психолог",
+      "target": "psychologist"
+    },
+    {
+      "id": "ru_en_a2:791",
+      "ru": "общественный",
+      "target": "public"
+    },
+    {
+      "id": "ru_en_a2:792",
+      "ru": "публиковать",
+      "target": "publish"
+    },
+    {
+      "id": "ru_en_a2:793",
+      "ru": "тянуть",
+      "target": "pull"
+    },
+    {
+      "id": "ru_en_a2:794",
+      "ru": "пунктуация",
+      "target": "punctuation"
+    },
+    {
+      "id": "ru_en_a2:795",
+      "ru": "фиолетовый",
+      "target": "purple"
+    },
+    {
+      "id": "ru_en_a2:796",
+      "ru": "цель",
+      "target": "purpose"
+    },
+    {
+      "id": "ru_en_a2:797",
+      "ru": "преследовать",
+      "target": "pursue"
+    },
+    {
+      "id": "ru_en_a2:798",
+      "ru": "качество",
+      "target": "quality"
+    },
+    {
+      "id": "ru_en_a2:799",
+      "ru": "королева",
+      "target": "queen"
+    },
+    {
+      "id": "ru_en_a2:800",
+      "ru": "быстрый",
+      "target": "quick"
+    },
+    {
+      "id": "ru_en_a2:801",
+      "ru": "тихо",
+      "target": "quietly"
+    },
+    {
+      "id": "ru_en_a2:802",
+      "ru": "уйти",
+      "target": "quit"
+    },
+    {
+      "id": "ru_en_a2:803",
+      "ru": "вполне",
+      "target": "quite"
+    },
+    {
+      "id": "ru_en_a2:804",
+      "ru": "викторина",
+      "target": "quiz"
+    },
+    {
+      "id": "ru_en_a2:805",
+      "ru": "ракетка",
+      "target": "racket"
+    },
+    {
+      "id": "ru_en_a2:806",
+      "ru": "плащ",
+      "target": "raincoat"
+    },
+    {
+      "id": "ru_en_a2:807",
+      "ru": "поднять",
+      "target": "raise"
+    },
+    {
+      "id": "ru_en_a2:808",
+      "ru": "диапазон",
+      "target": "range"
+    },
+    {
+      "id": "ru_en_a2:809",
+      "ru": "рэп",
+      "target": "rap"
+    },
+    {
+      "id": "ru_en_a2:810",
+      "ru": "ставка",
+      "target": "rate"
+    },
+    {
+      "id": "ru_en_a2:811",
+      "ru": "скорее",
+      "target": "rather"
+    },
+    {
+      "id": "ru_en_a2:812",
+      "ru": "рейтинг",
+      "target": "rating"
+    },
+    {
+      "id": "ru_en_a2:813",
+      "ru": "сырой",
+      "target": "raw"
+    },
+    {
+      "id": "ru_en_a2:814",
+      "ru": "луч",
+      "target": "ray"
+    },
+    {
+      "id": "ru_en_a2:815",
+      "ru": "достигать",
+      "target": "reach"
+    },
+    {
+      "id": "ru_en_a2:816",
+      "ru": "квитанция",
+      "target": "receipt"
+    },
+    {
+      "id": "ru_en_a2:817",
+      "ru": "получать",
+      "target": "receive"
+    },
+    {
+      "id": "ru_en_a2:818",
+      "ru": "недавний",
+      "target": "recent"
+    },
+    {
+      "id": "ru_en_a2:819",
+      "ru": "недавно",
+      "target": "recently"
+    },
+    {
+      "id": "ru_en_a2:820",
+      "ru": "регистратор",
+      "target": "receptionist"
+    },
+    {
+      "id": "ru_en_a2:821",
+      "ru": "запись",
+      "target": "record"
+    },
+    {
+      "id": "ru_en_a2:822",
+      "ru": "перерабатывать",
+      "target": "recycle"
+    },
+    {
+      "id": "ru_en_a2:823",
+      "ru": "красный",
+      "target": "red"
+    },
+    {
+      "id": "ru_en_a2:824",
+      "ru": "обратиться",
+      "target": "refer"
+    },
+    {
+      "id": "ru_en_a2:825",
+      "ru": "отражать",
+      "target": "reflect"
+    },
+    {
+      "id": "ru_en_a2:826",
+      "ru": "сожаление",
+      "target": "regret"
+    },
+    {
+      "id": "ru_en_a2:827",
+      "ru": "регулярный",
+      "target": "regular"
+    },
+    {
+      "id": "ru_en_a2:828",
+      "ru": "регулярно",
+      "target": "regularly"
+    },
+    {
+      "id": "ru_en_a2:829",
+      "ru": "расслабиться",
+      "target": "relax"
+    },
+    {
+      "id": "ru_en_a2:830",
+      "ru": "расслабленный",
+      "target": "relaxed"
+    },
+    {
+      "id": "ru_en_a2:831",
+      "ru": "оставаться",
+      "target": "remain"
+    },
+    {
+      "id": "ru_en_a2:832",
+      "ru": "напомнить",
+      "target": "remind"
+    },
+    {
+      "id": "ru_en_a2:833",
+      "ru": "удаленный",
+      "target": "remote"
+    },
+    {
+      "id": "ru_en_a2:834",
+      "ru": "аренда",
+      "target": "rent"
+    },
+    {
+      "id": "ru_en_a2:835",
+      "ru": "ремонт",
+      "target": "repair"
+    },
+    {
+      "id": "ru_en_a2:836",
+      "ru": "заменить",
+      "target": "replace"
+    },
+    {
+      "id": "ru_en_a2:837",
+      "ru": "ответить",
+      "target": "reply"
+    },
+    {
+      "id": "ru_en_a2:838",
+      "ru": "отчет",
+      "target": "report"
+    },
+    {
+      "id": "ru_en_a2:839",
+      "ru": "представлять",
+      "target": "represent"
+    },
+    {
+      "id": "ru_en_a2:840",
+      "ru": "запрос",
+      "target": "request"
+    },
+    {
+      "id": "ru_en_a2:841",
+      "ru": "исследование",
+      "target": "research"
+    },
+    {
+      "id": "ru_en_a2:842",
+      "ru": "ответ",
+      "target": "response"
+    },
+    {
+      "id": "ru_en_a2:843",
+      "ru": "пенсионер",
+      "target": "retired"
+    },
+    {
+      "id": "ru_en_a2:844",
+      "ru": "возвращение",
+      "target": "return"
+    },
+    {
+      "id": "ru_en_a2:845",
+      "ru": "воссоединение",
+      "target": "reunion"
+    },
+    {
+      "id": "ru_en_a2:846",
+      "ru": "раскрыть",
+      "target": "reveal"
+    },
+    {
+      "id": "ru_en_a2:847",
+      "ru": "ритм",
+      "target": "rhythm"
+    },
+    {
+      "id": "ru_en_a2:848",
+      "ru": "кольцо",
+      "target": "ring"
+    },
+    {
+      "id": "ru_en_a2:849",
+      "ru": "дорога",
+      "target": "road"
+    },
+    {
+      "id": "ru_en_a2:850",
+      "ru": "грабить",
+      "target": "rob"
+    },
+    {
+      "id": "ru_en_a2:851",
+      "ru": "грабеж",
+      "target": "robbery"
+    },
+    {
+      "id": "ru_en_a2:852",
+      "ru": "робин",
+      "target": "robin"
+    },
+    {
+      "id": "ru_en_a2:853",
+      "ru": "рок",
+      "target": "rock"
+    },
+    {
+      "id": "ru_en_a2:854",
+      "ru": "рулон",
+      "target": "roll"
+    },
+    {
+      "id": "ru_en_a2:855",
+      "ru": "романтика",
+      "target": "romance"
+    },
+    {
+      "id": "ru_en_a2:856",
+      "ru": "романтический",
+      "target": "romantic"
+    },
+    {
+      "id": "ru_en_a2:857",
+      "ru": "крыша",
+      "target": "roof"
+    },
+    {
+      "id": "ru_en_a2:858",
+      "ru": "корень",
+      "target": "root"
+    },
+    {
+      "id": "ru_en_a2:859",
+      "ru": "веревка",
+      "target": "rope"
+    },
+    {
+      "id": "ru_en_a2:860",
+      "ru": "примерно",
+      "target": "roughly"
+    },
+    {
+      "id": "ru_en_a2:861",
+      "ru": "круглый",
+      "target": "round"
+    },
+    {
+      "id": "ru_en_a2:862",
+      "ru": "королевский",
+      "target": "royal"
+    },
+    {
+      "id": "ru_en_a2:863",
+      "ru": "регби",
+      "target": "rugby"
+    },
+    {
+      "id": "ru_en_a2:864",
+      "ru": "разорение",
+      "target": "ruin"
+    },
+    {
+      "id": "ru_en_a2:865",
+      "ru": "бегун",
+      "target": "runner"
+    },
+    {
+      "id": "ru_en_a2:866",
+      "ru": "бег",
+      "target": "running"
+    },
+    {
+      "id": "ru_en_a2:867",
+      "ru": "безопасный",
+      "target": "safe"
+    },
+    {
+      "id": "ru_en_a2:868",
+      "ru": "ради",
+      "target": "sake"
+    },
+    {
+      "id": "ru_en_a2:869",
+      "ru": "соль",
+      "target": "salt"
+    },
+    {
+      "id": "ru_en_a2:870",
+      "ru": "образец",
+      "target": "sample"
+    },
+    {
+      "id": "ru_en_a2:871",
+      "ru": "песчаный",
+      "target": "sandy"
+    },
+    {
+      "id": "ru_en_a2:872",
+      "ru": "удовлетворить",
+      "target": "satisfy"
+    },
+    {
+      "id": "ru_en_a2:873",
+      "ru": "соус",
+      "target": "sauce"
+    },
+    {
+      "id": "ru_en_a2:874",
+      "ru": "колбаса",
+      "target": "sausage"
+    },
+    {
+      "id": "ru_en_a2:875",
+      "ru": "масштаб",
+      "target": "scale"
+    },
+    {
+      "id": "ru_en_a2:876",
+      "ru": "шарф",
+      "target": "scarf"
+    },
+    {
+      "id": "ru_en_a2:877",
+      "ru": "сцена",
+      "target": "scene"
+    },
+    {
+      "id": "ru_en_a2:878",
+      "ru": "декорации",
+      "target": "scenery"
+    },
+    {
+      "id": "ru_en_a2:879",
+      "ru": "график",
+      "target": "schedule"
+    },
+    {
+      "id": "ru_en_a2:880",
+      "ru": "школьник",
+      "target": "schoolchild"
+    },
+    {
+      "id": "ru_en_a2:881",
+      "ru": "научный",
+      "target": "scientific"
+    },
+    {
+      "id": "ru_en_a2:882",
+      "ru": "ножницы",
+      "target": "scissors"
+    },
+    {
+      "id": "ru_en_a2:883",
+      "ru": "кричать",
+      "target": "scream"
+    },
+    {
+      "id": "ru_en_a2:884",
+      "ru": "экран",
+      "target": "screen"
+    },
+    {
+      "id": "ru_en_a2:885",
+      "ru": "винт",
+      "target": "screw"
+    },
+    {
+      "id": "ru_en_a2:886",
+      "ru": "сценарий",
+      "target": "script"
+    },
+    {
+      "id": "ru_en_a2:887",
+      "ru": "морепродукты",
+      "target": "seafood"
+    },
+    {
+      "id": "ru_en_a2:888",
+      "ru": "поиск",
+      "target": "search"
+    },
+    {
+      "id": "ru_en_a2:889",
+      "ru": "морской",
+      "target": "seaside"
+    },
+    {
+      "id": "ru_en_a2:890",
+      "ru": "второй",
+      "target": "second"
+    },
+    {
+      "id": "ru_en_a2:891",
+      "ru": "секрет",
+      "target": "secret"
+    },
+    {
+      "id": "ru_en_a2:892",
+      "ru": "секретарь",
+      "target": "secretary"
+    },
+    {
+      "id": "ru_en_a2:893",
+      "ru": "семя",
+      "target": "seed"
+    },
+    {
+      "id": "ru_en_a2:894",
+      "ru": "искать",
+      "target": "seek"
+    },
+    {
+      "id": "ru_en_a2:895",
+      "ru": "казаться",
+      "target": "seem"
+    },
+    {
+      "id": "ru_en_a2:896",
+      "ru": "семестр",
+      "target": "semester"
+    },
+    {
+      "id": "ru_en_a2:897",
+      "ru": "отправить",
+      "target": "send"
+    },
+    {
+      "id": "ru_en_a2:898",
+      "ru": "старший",
+      "target": "senior"
+    },
+    {
+      "id": "ru_en_a2:899",
+      "ru": "отдельный",
+      "target": "separate"
+    },
+    {
+      "id": "ru_en_a2:900",
+      "ru": "серьезно",
+      "target": "seriously"
+    },
+    {
+      "id": "ru_en_a2:901",
+      "ru": "служить",
+      "target": "serve"
+    },
+    {
+      "id": "ru_en_a2:902",
+      "ru": "набор",
+      "target": "set"
+    },
+    {
+      "id": "ru_en_a2:903",
+      "ru": "шить",
+      "target": "sew"
+    },
+    {
+      "id": "ru_en_a2:904",
+      "ru": "тень",
+      "target": "shade"
+    },
+    {
+      "id": "ru_en_a2:905",
+      "ru": "должен",
+      "target": "shall"
+    },
+    {
+      "id": "ru_en_a2:906",
+      "ru": "шампунь",
+      "target": "shampoo"
+    },
+    {
+      "id": "ru_en_a2:907",
+      "ru": "форма",
+      "target": "shape"
+    },
+    {
+      "id": "ru_en_a2:908",
+      "ru": "поделиться",
+      "target": "share"
+    },
+    {
+      "id": "ru_en_a2:909",
+      "ru": "оболочка",
+      "target": "shell"
+    },
+    {
+      "id": "ru_en_a2:910",
+      "ru": "сиять",
+      "target": "shine"
+    },
+    {
+      "id": "ru_en_a2:911",
+      "ru": "шок",
+      "target": "shock"
+    },
+    {
+      "id": "ru_en_a2:912",
+      "ru": "стрелять",
+      "target": "shoot"
+    },
+    {
+      "id": "ru_en_a2:913",
+      "ru": "берег",
+      "target": "shore"
+    },
+    {
+      "id": "ru_en_a2:914",
+      "ru": "выстрел",
+      "target": "shot"
+    },
+    {
+      "id": "ru_en_a2:915",
+      "ru": "показать",
+      "target": "show"
+    },
+    {
+      "id": "ru_en_a2:916",
+      "ru": "закрыть",
+      "target": "shut"
+    },
+    {
+      "id": "ru_en_a2:917",
+      "ru": "значительный",
+      "target": "significant"
+    },
+    {
+      "id": "ru_en_a2:918",
+      "ru": "тишина",
+      "target": "silence"
+    },
+    {
+      "id": "ru_en_a2:919",
+      "ru": "молча",
+      "target": "silently"
+    },
+    {
+      "id": "ru_en_a2:920",
+      "ru": "глупый",
+      "target": "silly"
+    },
+    {
+      "id": "ru_en_a2:921",
+      "ru": "серебро",
+      "target": "silver"
+    },
+    {
+      "id": "ru_en_a2:922",
+      "ru": "похожий",
+      "target": "similar"
+    },
+    {
+      "id": "ru_en_a2:923",
+      "ru": "простой",
+      "target": "simple"
+    },
+    {
+      "id": "ru_en_a2:924",
+      "ru": "просто",
+      "target": "simply"
+    },
+    {
+      "id": "ru_en_a2:925",
+      "ru": "пение",
+      "target": "singing"
+    },
+    {
+      "id": "ru_en_a2:926",
+      "ru": "одинокий",
+      "target": "single"
+    },
+    {
+      "id": "ru_en_a2:927",
+      "ru": "тонуть",
+      "target": "sink"
+    },
+    {
+      "id": "ru_en_a2:928",
+      "ru": "ситуация",
+      "target": "situation"
+    },
+    {
+      "id": "ru_en_a2:929",
+      "ru": "скейтбординг",
+      "target": "skateboarding"
+    },
+    {
+      "id": "ru_en_a2:930",
+      "ru": "лыжи",
+      "target": "ski"
+    },
+    {
+      "id": "ru_en_a2:931",
+      "ru": "раб",
+      "target": "slave"
+    },
+    {
+      "id": "ru_en_a2:932",
+      "ru": "бессонный",
+      "target": "sleepless"
+    },
+    {
+      "id": "ru_en_a2:933",
+      "ru": "сонный",
+      "target": "sleepy"
+    },
+    {
+      "id": "ru_en_a2:934",
+      "ru": "кусочек",
+      "target": "slice"
+    },
+    {
+      "id": "ru_en_a2:935",
+      "ru": "слайд",
+      "target": "slide"
+    },
+    {
+      "id": "ru_en_a2:936",
+      "ru": "тонкий",
+      "target": "slim"
+    },
+    {
+      "id": "ru_en_a2:937",
+      "ru": "медленно",
+      "target": "slowly"
+    },
+    {
+      "id": "ru_en_a2:938",
+      "ru": "курить",
+      "target": "smoke"
+    },
+    {
+      "id": "ru_en_a2:939",
+      "ru": "гладкий",
+      "target": "smooth"
+    },
+    {
+      "id": "ru_en_a2:940",
+      "ru": "плавно",
+      "target": "smoothly"
+    },
+    {
+      "id": "ru_en_a2:941",
+      "ru": "закуска",
+      "target": "snack"
+    },
+    {
+      "id": "ru_en_a2:942",
+      "ru": "снег",
+      "target": "snow"
+    },
+    {
+      "id": "ru_en_a2:943",
+      "ru": "сноуборд",
+      "target": "snowboarding"
+    },
+    {
+      "id": "ru_en_a2:944",
+      "ru": "так",
+      "target": "so"
+    },
+    {
+      "id": "ru_en_a2:945",
+      "ru": "мыло",
+      "target": "soap"
+    },
+    {
+      "id": "ru_en_a2:946",
+      "ru": "общество",
+      "target": "society"
+    },
+    {
+      "id": "ru_en_a2:947",
+      "ru": "носок",
+      "target": "sock"
+    },
+    {
+      "id": "ru_en_a2:948",
+      "ru": "сода",
+      "target": "soda"
+    },
+    {
+      "id": "ru_en_a2:949",
+      "ru": "мягкий",
+      "target": "soft"
+    },
+    {
+      "id": "ru_en_a2:950",
+      "ru": "мягко",
+      "target": "softly"
+    },
+    {
+      "id": "ru_en_a2:951",
+      "ru": "солдат",
+      "target": "soldier"
+    },
+    {
+      "id": "ru_en_a2:952",
+      "ru": "решение",
+      "target": "solution"
+    },
+    {
+      "id": "ru_en_a2:953",
+      "ru": "кто-то",
+      "target": "somebody"
+    },
+    {
+      "id": "ru_en_a2:954",
+      "ru": "когда-нибудь",
+      "target": "someday"
+    },
+    {
+      "id": "ru_en_a2:955",
+      "ru": "где-то",
+      "target": "somewhere"
+    },
+    {
+      "id": "ru_en_a2:956",
+      "ru": "звук",
+      "target": "sound"
+    },
+    {
+      "id": "ru_en_a2:957",
+      "ru": "источник",
+      "target": "source"
+    },
+    {
+      "id": "ru_en_a2:958",
+      "ru": "юг",
+      "target": "south"
+    },
+    {
+      "id": "ru_en_a2:959",
+      "ru": "пространство",
+      "target": "space"
+    },
+    {
+      "id": "ru_en_a2:960",
+      "ru": "спагетти",
+      "target": "spaghetti"
+    },
+    {
+      "id": "ru_en_a2:961",
+      "ru": "оратор",
+      "target": "speaker"
+    },
+    {
+      "id": "ru_en_a2:962",
+      "ru": "конкретный",
+      "target": "specific"
+    },
+    {
+      "id": "ru_en_a2:963",
+      "ru": "скорость",
+      "target": "speed"
+    },
+    {
+      "id": "ru_en_a2:964",
+      "ru": "заклинание",
+      "target": "spell"
+    },
+    {
+      "id": "ru_en_a2:965",
+      "ru": "разливать",
+      "target": "spill"
+    },
+    {
+      "id": "ru_en_a2:966",
+      "ru": "всплеск",
+      "target": "splash"
+    },
+    {
+      "id": "ru_en_a2:967",
+      "ru": "раскол",
+      "target": "split"
+    },
+    {
+      "id": "ru_en_a2:968",
+      "ru": "ложка",
+      "target": "spoon"
+    },
+    {
+      "id": "ru_en_a2:969",
+      "ru": "распространение",
+      "target": "spread"
+    },
+    {
+      "id": "ru_en_a2:970",
+      "ru": "квадрат",
+      "target": "square"
+    },
+    {
+      "id": "ru_en_a2:971",
+      "ru": "стадион",
+      "target": "stadium"
+    },
+    {
+      "id": "ru_en_a2:972",
+      "ru": "персонал",
+      "target": "staff"
+    },
+    {
+      "id": "ru_en_a2:973",
+      "ru": "лестница",
+      "target": "stair"
+    },
+    {
+      "id": "ru_en_a2:974",
+      "ru": "штамп",
+      "target": "stamp"
+    },
+    {
+      "id": "ru_en_a2:975",
+      "ru": "стоять",
+      "target": "stand"
+    },
+    {
+      "id": "ru_en_a2:976",
+      "ru": "государство",
+      "target": "state"
+    },
+    {
+      "id": "ru_en_a2:977",
+      "ru": "заявление",
+      "target": "statement"
+    },
+    {
+      "id": "ru_en_a2:978",
+      "ru": "статуя",
+      "target": "statue"
+    },
+    {
+      "id": "ru_en_a2:979",
+      "ru": "стейк",
+      "target": "steak"
+    },
+    {
+      "id": "ru_en_a2:980",
+      "ru": "украсть",
+      "target": "steal"
+    },
+    {
+      "id": "ru_en_a2:981",
+      "ru": "шаг",
+      "target": "step"
+    },
+    {
+      "id": "ru_en_a2:982",
+      "ru": "желудок",
+      "target": "stomach"
+    },
+    {
+      "id": "ru_en_a2:983",
+      "ru": "шторм",
+      "target": "storm"
+    },
+    {
+      "id": "ru_en_a2:984",
+      "ru": "незнакомец",
+      "target": "stranger"
+    },
+    {
+      "id": "ru_en_a2:985",
+      "ru": "стратегия",
+      "target": "strategy"
+    },
+    {
+      "id": "ru_en_a2:986",
+      "ru": "забастовка",
+      "target": "strike"
+    },
+    {
+      "id": "ru_en_a2:987",
+      "ru": "строка",
+      "target": "string"
+    },
+    {
+      "id": "ru_en_a2:988",
+      "ru": "структура",
+      "target": "structure"
+    },
+    {
+      "id": "ru_en_a2:989",
+      "ru": "вещи",
+      "target": "stuff"
+    },
+    {
+      "id": "ru_en_a2:990",
+      "ru": "стиль",
+      "target": "style"
+    },
+    {
+      "id": "ru_en_a2:991",
+      "ru": "успех",
+      "target": "success"
+    },
+    {
+      "id": "ru_en_a2:992",
+      "ru": "успешно",
+      "target": "successfully"
+    },
+    {
+      "id": "ru_en_a2:993",
+      "ru": "такой",
+      "target": "such"
+    },
+    {
+      "id": "ru_en_a2:994",
+      "ru": "внезапный",
+      "target": "sudden"
+    },
+    {
+      "id": "ru_en_a2:995",
+      "ru": "предложить",
+      "target": "suggest"
+    },
+    {
+      "id": "ru_en_a2:996",
+      "ru": "костюм",
+      "target": "suit"
+    },
+    {
+      "id": "ru_en_a2:997",
+      "ru": "подходящий",
+      "target": "suitable"
+    },
+    {
+      "id": "ru_en_a2:998",
+      "ru": "чемодан",
+      "target": "suitcase"
+    },
+    {
+      "id": "ru_en_a2:999",
+      "ru": "резюме",
+      "target": "summary"
+    }
+  ]
+}

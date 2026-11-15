@@ -107,25 +107,8 @@ priority. This is a local workaround, not a required SDK version for other
 machines; remove the SDKROOT entry after repairing or updating the toolchain.
 Delete the config file only if it contains no other local settings.
 
-## Кафе и знакомство
+## Adding exercise data
 
-`ru_es_cafe_beginner` is a separate beginner set of 31 Russian–Spanish words
-and phrases about café orders, introductions, work, study, travel, and where
-you live. It is an original thematic selection, not an exact Duolingo module
-or a certified CEFR level. The six A1–C2 sets keep their separate 5675-lemma
-catalog and lowercase single-word rules.
-
-Choose Settings → Translation or Dictation → Dataset → `ru_es_cafe_beginner`
-and press Enter to save. For Quick Start choose its mode and the same set in
-Settings → Quick Start; these selections are independent of the direct modes.
-Select Mode also offers the set under Translation and Dictation. Settings
-survive restarting the app.
-
-The set preserves `Sergio` and `España`, correcting the spellings in the source
-notes. Pronunciation hints, conjugation explanations, and unfinished sentences
-are not exercises. In this set's Dictation only, case and accents are optional:
-`me llamo sergio` and `vivo en espana` are accepted for `Me llamo Sergio` and
-`Vivo en España`. Audio and revealed answers keep canonical spelling.
-Translation still checks case. Type every word, including articles and `Yo`;
-internal spaces matter. Each full phrase is one task and one checked entry,
-so a size of 50 uses all 31 entries without repetition.
+Every built-in set uses one JSON file in `resources/datasets/`. See
+[the dataset format and required checks](docs/datasets.md). Existing SQLite
+sets are preserved when a resource changes; new ids are added at startup.

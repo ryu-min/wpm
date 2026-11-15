@@ -1,6 +1,7 @@
 mod app;
 mod audio;
 mod configuration;
+mod dataset;
 mod dictation;
 mod dictation_widget;
 mod language_input;

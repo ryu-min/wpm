@@ -1,0 +1,4604 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_a2",
+  "description": "Испанские слова ru_es_a2",
+  "profile": "spanish-words",
+  "level": "a2",
+  "entries": [
+    {
+      "id": "ru_es_a2:acompañar",
+      "ru": "сопровождать",
+      "target": "acompañar"
+    },
+    {
+      "id": "ru_es_a2:aconsejar",
+      "ru": "советовать",
+      "target": "aconsejar"
+    },
+    {
+      "id": "ru_es_a2:acordar",
+      "ru": "договариваться",
+      "target": "acordar"
+    },
+    {
+      "id": "ru_es_a2:acostumbrar",
+      "ru": "приучать",
+      "target": "acostumbrar"
+    },
+    {
+      "id": "ru_es_a2:actuar",
+      "ru": "действовать",
+      "target": "actuar"
+    },
+    {
+      "id": "ru_es_a2:adivinar",
+      "ru": "угадывать",
+      "target": "adivinar"
+    },
+    {
+      "id": "ru_es_a2:admirar",
+      "ru": "восхищаться",
+      "target": "admirar"
+    },
+    {
+      "id": "ru_es_a2:alquilar",
+      "ru": "арендовать",
+      "target": "alquilar"
+    },
+    {
+      "id": "ru_es_a2:andar",
+      "ru": "ходить",
+      "target": "andar"
+    },
+    {
+      "id": "ru_es_a2:aparecer",
+      "ru": "появляться",
+      "target": "aparecer"
+    },
+    {
+      "id": "ru_es_a2:apoyar",
+      "ru": "поддерживать",
+      "target": "apoyar"
+    },
+    {
+      "id": "ru_es_a2:aprovechar",
+      "ru": "использовать с пользой",
+      "target": "aprovechar"
+    },
+    {
+      "id": "ru_es_a2:asistir",
+      "ru": "присутствовать",
+      "target": "asistir"
+    },
+    {
+      "id": "ru_es_a2:atender",
+      "ru": "обслуживать",
+      "target": "atender"
+    },
+    {
+      "id": "ru_es_a2:atreverse",
+      "ru": "осмеливаться",
+      "target": "atreverse"
+    },
+    {
+      "id": "ru_es_a2:aumentar",
+      "ru": "увеличивать",
+      "target": "aumentar"
+    },
+    {
+      "id": "ru_es_a2:avisar",
+      "ru": "предупреждать",
+      "target": "avisar"
+    },
+    {
+      "id": "ru_es_a2:besar",
+      "ru": "целовать",
+      "target": "besar"
+    },
+    {
+      "id": "ru_es_a2:borrar",
+      "ru": "стирать",
+      "target": "borrar"
+    },
+    {
+      "id": "ru_es_a2:bromear",
+      "ru": "шутить",
+      "target": "bromear"
+    },
+    {
+      "id": "ru_es_a2:calentar",
+      "ru": "нагревать",
+      "target": "calentar"
+    },
+    {
+      "id": "ru_es_a2:calmar",
+      "ru": "успокаивать",
+      "target": "calmar"
+    },
+    {
+      "id": "ru_es_a2:cargar",
+      "ru": "грузить",
+      "target": "cargar"
+    },
+    {
+      "id": "ru_es_a2:celebrar",
+      "ru": "праздновать",
+      "target": "celebrar"
+    },
+    {
+      "id": "ru_es_a2:charlar",
+      "ru": "болтать",
+      "target": "charlar"
+    },
+    {
+      "id": "ru_es_a2:cobrar",
+      "ru": "получать плату",
+      "target": "cobrar"
+    },
+    {
+      "id": "ru_es_a2:colgar",
+      "ru": "вешать",
+      "target": "colgar"
+    },
+    {
+      "id": "ru_es_a2:colocar",
+      "ru": "размещать",
+      "target": "colocar"
+    },
+    {
+      "id": "ru_es_a2:comparar",
+      "ru": "сравнивать",
+      "target": "comparar"
+    },
+    {
+      "id": "ru_es_a2:compartir",
+      "ru": "делиться",
+      "target": "compartir"
+    },
+    {
+      "id": "ru_es_a2:comprobar",
+      "ru": "проверять",
+      "target": "comprobar"
+    },
+    {
+      "id": "ru_es_a2:conseguir",
+      "ru": "добиваться",
+      "target": "conseguir"
+    },
+    {
+      "id": "ru_es_a2:construir",
+      "ru": "строить",
+      "target": "construir"
+    },
+    {
+      "id": "ru_es_a2:continuar",
+      "ru": "продолжать",
+      "target": "continuar"
+    },
+    {
+      "id": "ru_es_a2:copiar",
+      "ru": "копировать",
+      "target": "copiar"
+    },
+    {
+      "id": "ru_es_a2:corregir",
+      "ru": "исправлять",
+      "target": "corregir"
+    },
+    {
+      "id": "ru_es_a2:cuidar",
+      "ru": "заботиться",
+      "target": "cuidar"
+    },
+    {
+      "id": "ru_es_a2:cumplir",
+      "ru": "выполнять",
+      "target": "cumplir"
+    },
+    {
+      "id": "ru_es_a2:decidir",
+      "ru": "решать",
+      "target": "decidir"
+    },
+    {
+      "id": "ru_es_a2:dedicar",
+      "ru": "посвящать",
+      "target": "dedicar"
+    },
+    {
+      "id": "ru_es_a2:defender",
+      "ru": "защищать",
+      "target": "defender"
+    },
+    {
+      "id": "ru_es_a2:devolver",
+      "ru": "возвращать",
+      "target": "devolver"
+    },
+    {
+      "id": "ru_es_a2:dibujar",
+      "ru": "рисовать",
+      "target": "dibujar"
+    },
+    {
+      "id": "ru_es_a2:dirigir",
+      "ru": "руководить",
+      "target": "dirigir"
+    },
+    {
+      "id": "ru_es_a2:discutir",
+      "ru": "спорить",
+      "target": "discutir"
+    },
+    {
+      "id": "ru_es_a2:divertir",
+      "ru": "развлекать",
+      "target": "divertir"
+    },
+    {
+      "id": "ru_es_a2:dudar",
+      "ru": "сомневаться",
+      "target": "dudar"
+    },
+    {
+      "id": "ru_es_a2:durar",
+      "ru": "длиться",
+      "target": "durar"
+    },
+    {
+      "id": "ru_es_a2:empujar",
+      "ru": "толкать",
+      "target": "empujar"
+    },
+    {
+      "id": "ru_es_a2:enfadar",
+      "ru": "сердить",
+      "target": "enfadar"
+    },
+    {
+      "id": "ru_es_a2:enfriar",
+      "ru": "охлаждать",
+      "target": "enfriar"
+    },
+    {
+      "id": "ru_es_a2:engañar",
+      "ru": "обманывать",
+      "target": "engañar"
+    },
+    {
+      "id": "ru_es_a2:entregar",
+      "ru": "вручать",
+      "target": "entregar"
+    },
+    {
+      "id": "ru_es_a2:escoger",
+      "ru": "выбирать",
+      "target": "escoger"
+    },
+    {
+      "id": "ru_es_a2:esconder",
+      "ru": "прятать",
+      "target": "esconder"
+    },
+    {
+      "id": "ru_es_a2:evitar",
+      "ru": "избегать",
+      "target": "evitar"
+    },
+    {
+      "id": "ru_es_a2:existir",
+      "ru": "существовать",
+      "target": "existir"
+    },
+    {
+      "id": "ru_es_a2:faltar",
+      "ru": "недоставать",
+      "target": "faltar"
+    },
+    {
+      "id": "ru_es_a2:firmar",
+      "ru": "подписывать",
+      "target": "firmar"
+    },
+    {
+      "id": "ru_es_a2:funcionar",
+      "ru": "работать исправно",
+      "target": "funcionar"
+    },
+    {
+      "id": "ru_es_a2:gastar",
+      "ru": "тратить",
+      "target": "gastar"
+    },
+    {
+      "id": "ru_es_a2:golpear",
+      "ru": "ударять",
+      "target": "golpear"
+    },
+    {
+      "id": "ru_es_a2:gritar",
+      "ru": "кричать",
+      "target": "gritar"
+    },
+    {
+      "id": "ru_es_a2:imaginar",
+      "ru": "воображать",
+      "target": "imaginar"
+    },
+    {
+      "id": "ru_es_a2:importar",
+      "ru": "иметь значение",
+      "target": "importar"
+    },
+    {
+      "id": "ru_es_a2:insistir",
+      "ru": "настаивать",
+      "target": "insistir"
+    },
+    {
+      "id": "ru_es_a2:intentar",
+      "ru": "пытаться",
+      "target": "intentar"
+    },
+    {
+      "id": "ru_es_a2:interesar",
+      "ru": "интересовать",
+      "target": "interesar"
+    },
+    {
+      "id": "ru_es_a2:juntar",
+      "ru": "соединять",
+      "target": "juntar"
+    },
+    {
+      "id": "ru_es_a2:jurar",
+      "ru": "клясться",
+      "target": "jurar"
+    },
+    {
+      "id": "ru_es_a2:limitar",
+      "ru": "ограничивать",
+      "target": "limitar"
+    },
+    {
+      "id": "ru_es_a2:luchar",
+      "ru": "бороться",
+      "target": "luchar"
+    },
+    {
+      "id": "ru_es_a2:mandar",
+      "ru": "посылать",
+      "target": "mandar"
+    },
+    {
+      "id": "ru_es_a2:mantener",
+      "ru": "сохранять",
+      "target": "mantener"
+    },
+    {
+      "id": "ru_es_a2:mejorar",
+      "ru": "улучшать",
+      "target": "mejorar"
+    },
+    {
+      "id": "ru_es_a2:mentir",
+      "ru": "лгать",
+      "target": "mentir"
+    },
+    {
+      "id": "ru_es_a2:merecer",
+      "ru": "заслуживать",
+      "target": "merecer"
+    },
+    {
+      "id": "ru_es_a2:mezclar",
+      "ru": "смешивать",
+      "target": "mezclar"
+    },
+    {
+      "id": "ru_es_a2:molestar",
+      "ru": "мешать",
+      "target": "molestar"
+    },
+    {
+      "id": "ru_es_a2:mostrar",
+      "ru": "показывать",
+      "target": "mostrar"
+    },
+    {
+      "id": "ru_es_a2:mover",
+      "ru": "двигать",
+      "target": "mover"
+    },
+    {
+      "id": "ru_es_a2:negar",
+      "ru": "отрицать",
+      "target": "negar"
+    },
+    {
+      "id": "ru_es_a2:notar",
+      "ru": "замечать",
+      "target": "notar"
+    },
+    {
+      "id": "ru_es_a2:obedecer",
+      "ru": "слушаться",
+      "target": "obedecer"
+    },
+    {
+      "id": "ru_es_a2:ocurrir",
+      "ru": "происходить",
+      "target": "ocurrir"
+    },
+    {
+      "id": "ru_es_a2:organizar",
+      "ru": "организовывать",
+      "target": "organizar"
+    },
+    {
+      "id": "ru_es_a2:participar",
+      "ru": "участвовать",
+      "target": "participar"
+    },
+    {
+      "id": "ru_es_a2:parecer",
+      "ru": "казаться",
+      "target": "parecer"
+    },
+    {
+      "id": "ru_es_a2:permitir",
+      "ru": "разрешать",
+      "target": "permitir"
+    },
+    {
+      "id": "ru_es_a2:pertenecer",
+      "ru": "принадлежать",
+      "target": "pertenecer"
+    },
+    {
+      "id": "ru_es_a2:pintar",
+      "ru": "красить",
+      "target": "pintar"
+    },
+    {
+      "id": "ru_es_a2:planear",
+      "ru": "планировать",
+      "target": "planear"
+    },
+    {
+      "id": "ru_es_a2:practicar",
+      "ru": "практиковать",
+      "target": "practicar"
+    },
+    {
+      "id": "ru_es_a2:preparar",
+      "ru": "готовить",
+      "target": "preparar"
+    },
+    {
+      "id": "ru_es_a2:prestar",
+      "ru": "одалживать",
+      "target": "prestar"
+    },
+    {
+      "id": "ru_es_a2:producir",
+      "ru": "производить",
+      "target": "producir"
+    },
+    {
+      "id": "ru_es_a2:prohibir",
+      "ru": "запрещать",
+      "target": "prohibir"
+    },
+    {
+      "id": "ru_es_a2:prometer",
+      "ru": "обещать",
+      "target": "prometer"
+    },
+    {
+      "id": "ru_es_a2:proteger",
+      "ru": "защищать",
+      "target": "proteger"
+    },
+    {
+      "id": "ru_es_a2:quejarse",
+      "ru": "жаловаться",
+      "target": "quejarse"
+    },
+    {
+      "id": "ru_es_a2:quedar",
+      "ru": "оставаться",
+      "target": "quedar"
+    },
+    {
+      "id": "ru_es_a2:realizar",
+      "ru": "осуществлять",
+      "target": "realizar"
+    },
+    {
+      "id": "ru_es_a2:recoger",
+      "ru": "собирать",
+      "target": "recoger"
+    },
+    {
+      "id": "ru_es_a2:reconocer",
+      "ru": "узнавать",
+      "target": "reconocer"
+    },
+    {
+      "id": "ru_es_a2:recomendar",
+      "ru": "рекомендовать",
+      "target": "recomendar"
+    },
+    {
+      "id": "ru_es_a2:reducir",
+      "ru": "сокращать",
+      "target": "reducir"
+    },
+    {
+      "id": "ru_es_a2:regresar",
+      "ru": "возвращаться",
+      "target": "regresar"
+    },
+    {
+      "id": "ru_es_a2:reservar",
+      "ru": "бронировать",
+      "target": "reservar"
+    },
+    {
+      "id": "ru_es_a2:resolver",
+      "ru": "решать проблему",
+      "target": "resolver"
+    },
+    {
+      "id": "ru_es_a2:respetar",
+      "ru": "уважать",
+      "target": "respetar"
+    },
+    {
+      "id": "ru_es_a2:respirar",
+      "ru": "дышать",
+      "target": "respirar"
+    },
+    {
+      "id": "ru_es_a2:resultar",
+      "ru": "оказываться",
+      "target": "resultar"
+    },
+    {
+      "id": "ru_es_a2:robar",
+      "ru": "красть",
+      "target": "robar"
+    },
+    {
+      "id": "ru_es_a2:salvar",
+      "ru": "спасать",
+      "target": "salvar"
+    },
+    {
+      "id": "ru_es_a2:señalar",
+      "ru": "указывать",
+      "target": "señalar"
+    },
+    {
+      "id": "ru_es_a2:separar",
+      "ru": "разделять",
+      "target": "separar"
+    },
+    {
+      "id": "ru_es_a2:servir",
+      "ru": "подавать",
+      "target": "servir"
+    },
+    {
+      "id": "ru_es_a2:significar",
+      "ru": "означать",
+      "target": "significar"
+    },
+    {
+      "id": "ru_es_a2:solicitar",
+      "ru": "запрашивать",
+      "target": "solicitar"
+    },
+    {
+      "id": "ru_es_a2:soñar",
+      "ru": "видеть сны",
+      "target": "soñar"
+    },
+    {
+      "id": "ru_es_a2:sorprender",
+      "ru": "удивлять",
+      "target": "sorprender"
+    },
+    {
+      "id": "ru_es_a2:suceder",
+      "ru": "случаться",
+      "target": "suceder"
+    },
+    {
+      "id": "ru_es_a2:sufrir",
+      "ru": "страдать",
+      "target": "sufrir"
+    },
+    {
+      "id": "ru_es_a2:suponer",
+      "ru": "предполагать",
+      "target": "suponer"
+    },
+    {
+      "id": "ru_es_a2:tardar",
+      "ru": "медлить",
+      "target": "tardar"
+    },
+    {
+      "id": "ru_es_a2:tirar",
+      "ru": "бросать",
+      "target": "tirar"
+    },
+    {
+      "id": "ru_es_a2:traducir",
+      "ru": "переводить",
+      "target": "traducir"
+    },
+    {
+      "id": "ru_es_a2:tratar",
+      "ru": "обращаться",
+      "target": "tratar"
+    },
+    {
+      "id": "ru_es_a2:utilizar",
+      "ru": "использовать",
+      "target": "utilizar"
+    },
+    {
+      "id": "ru_es_a2:valer",
+      "ru": "стоить",
+      "target": "valer"
+    },
+    {
+      "id": "ru_es_a2:vestir",
+      "ru": "одевать",
+      "target": "vestir"
+    },
+    {
+      "id": "ru_es_a2:vigilar",
+      "ru": "следить",
+      "target": "vigilar"
+    },
+    {
+      "id": "ru_es_a2:volar",
+      "ru": "летать",
+      "target": "volar"
+    },
+    {
+      "id": "ru_es_a2:abrazar",
+      "ru": "обнимать",
+      "target": "abrazar"
+    },
+    {
+      "id": "ru_es_a2:ahorrar",
+      "ru": "экономить",
+      "target": "ahorrar"
+    },
+    {
+      "id": "ru_es_a2:afeitar",
+      "ru": "брить",
+      "target": "afeitar"
+    },
+    {
+      "id": "ru_es_a2:alojar",
+      "ru": "размещать на ночлег",
+      "target": "alojar"
+    },
+    {
+      "id": "ru_es_a2:anunciar",
+      "ru": "объявлять",
+      "target": "anunciar"
+    },
+    {
+      "id": "ru_es_a2:apuntar",
+      "ru": "записывать",
+      "target": "apuntar"
+    },
+    {
+      "id": "ru_es_a2:arrepentirse",
+      "ru": "раскаиваться",
+      "target": "arrepentirse"
+    },
+    {
+      "id": "ru_es_a2:asar",
+      "ru": "жарить",
+      "target": "asar"
+    },
+    {
+      "id": "ru_es_a2:atraer",
+      "ru": "привлекать",
+      "target": "atraer"
+    },
+    {
+      "id": "ru_es_a2:bañarse",
+      "ru": "купаться",
+      "target": "bañarse"
+    },
+    {
+      "id": "ru_es_a2:casarse",
+      "ru": "вступать в брак",
+      "target": "casarse"
+    },
+    {
+      "id": "ru_es_a2:chocar",
+      "ru": "сталкиваться",
+      "target": "chocar"
+    },
+    {
+      "id": "ru_es_a2:conectar",
+      "ru": "соединять",
+      "target": "conectar"
+    },
+    {
+      "id": "ru_es_a2:desayunar",
+      "ru": "завтракать",
+      "target": "desayunar"
+    },
+    {
+      "id": "ru_es_a2:despedir",
+      "ru": "прощаться или увольнять",
+      "target": "despedir"
+    },
+    {
+      "id": "ru_es_a2:desvestir",
+      "ru": "раздевать",
+      "target": "desvestir"
+    },
+    {
+      "id": "ru_es_a2:doblar",
+      "ru": "складывать",
+      "target": "doblar"
+    },
+    {
+      "id": "ru_es_a2:empaquetar",
+      "ru": "упаковывать",
+      "target": "empaquetar"
+    },
+    {
+      "id": "ru_es_a2:entrenar",
+      "ru": "тренировать",
+      "target": "entrenar"
+    },
+    {
+      "id": "ru_es_a2:estornudar",
+      "ru": "чихать",
+      "target": "estornudar"
+    },
+    {
+      "id": "ru_es_a2:felicitar",
+      "ru": "поздравлять",
+      "target": "felicitar"
+    },
+    {
+      "id": "ru_es_a2:fregar",
+      "ru": "мыть посуду",
+      "target": "fregar"
+    },
+    {
+      "id": "ru_es_a2:freír",
+      "ru": "жарить в масле",
+      "target": "freír"
+    },
+    {
+      "id": "ru_es_a2:hervir",
+      "ru": "кипятить",
+      "target": "hervir"
+    },
+    {
+      "id": "ru_es_a2:hospedar",
+      "ru": "принимать на постой",
+      "target": "hospedar"
+    },
+    {
+      "id": "ru_es_a2:llover",
+      "ru": "идти о дожде",
+      "target": "llover"
+    },
+    {
+      "id": "ru_es_a2:marear",
+      "ru": "вызывать головокружение",
+      "target": "marear"
+    },
+    {
+      "id": "ru_es_a2:mudarse",
+      "ru": "переезжать",
+      "target": "mudarse"
+    },
+    {
+      "id": "ru_es_a2:nevar",
+      "ru": "идти о снеге",
+      "target": "nevar"
+    },
+    {
+      "id": "ru_es_a2:peinar",
+      "ru": "причёсывать",
+      "target": "peinar"
+    },
+    {
+      "id": "ru_es_a2:pesar",
+      "ru": "взвешивать",
+      "target": "pesar"
+    },
+    {
+      "id": "ru_es_a2:reciclar",
+      "ru": "перерабатывать отходы",
+      "target": "reciclar"
+    },
+    {
+      "id": "ru_es_a2:regar",
+      "ru": "поливать",
+      "target": "regar"
+    },
+    {
+      "id": "ru_es_a2:reparar",
+      "ru": "ремонтировать",
+      "target": "reparar"
+    },
+    {
+      "id": "ru_es_a2:reunir",
+      "ru": "собирать вместе",
+      "target": "reunir"
+    },
+    {
+      "id": "ru_es_a2:roncar",
+      "ru": "храпеть",
+      "target": "roncar"
+    },
+    {
+      "id": "ru_es_a2:toser",
+      "ru": "кашлять",
+      "target": "toser"
+    },
+    {
+      "id": "ru_es_a2:aburrir",
+      "ru": "наводить скуку",
+      "target": "aburrir"
+    },
+    {
+      "id": "ru_es_a2:agotar",
+      "ru": "истощать",
+      "target": "agotar"
+    },
+    {
+      "id": "ru_es_a2:alargar",
+      "ru": "удлинять",
+      "target": "alargar"
+    },
+    {
+      "id": "ru_es_a2:amanecer",
+      "ru": "рассветать",
+      "target": "amanecer"
+    },
+    {
+      "id": "ru_es_a2:anochecer",
+      "ru": "смеркаться",
+      "target": "anochecer"
+    },
+    {
+      "id": "ru_es_a2:aparcar",
+      "ru": "парковать",
+      "target": "aparcar"
+    },
+    {
+      "id": "ru_es_a2:aplaudir",
+      "ru": "аплодировать",
+      "target": "aplaudir"
+    },
+    {
+      "id": "ru_es_a2:apretar",
+      "ru": "нажимать",
+      "target": "apretar"
+    },
+    {
+      "id": "ru_es_a2:apresurar",
+      "ru": "торопить",
+      "target": "apresurar"
+    },
+    {
+      "id": "ru_es_a2:arrastrar",
+      "ru": "тащить",
+      "target": "arrastrar"
+    },
+    {
+      "id": "ru_es_a2:asustar",
+      "ru": "пугать",
+      "target": "asustar"
+    },
+    {
+      "id": "ru_es_a2:atrapar",
+      "ru": "ловить",
+      "target": "atrapar"
+    },
+    {
+      "id": "ru_es_a2:avanzar",
+      "ru": "продвигаться",
+      "target": "avanzar"
+    },
+    {
+      "id": "ru_es_a2:balancear",
+      "ru": "раскачивать",
+      "target": "balancear"
+    },
+    {
+      "id": "ru_es_a2:barrer",
+      "ru": "подметать",
+      "target": "barrer"
+    },
+    {
+      "id": "ru_es_a2:bostezar",
+      "ru": "зевать",
+      "target": "bostezar"
+    },
+    {
+      "id": "ru_es_a2:bucear",
+      "ru": "нырять",
+      "target": "bucear"
+    },
+    {
+      "id": "ru_es_a2:calcular",
+      "ru": "вычислять",
+      "target": "calcular"
+    },
+    {
+      "id": "ru_es_a2:cerradura",
+      "ru": "замок дверной",
+      "target": "cerradura"
+    },
+    {
+      "id": "ru_es_a2:coser",
+      "ru": "шить",
+      "target": "coser"
+    },
+    {
+      "id": "ru_es_a2:derramar",
+      "ru": "проливать",
+      "target": "derramar"
+    },
+    {
+      "id": "ru_es_a2:deshacer",
+      "ru": "разбирать",
+      "target": "deshacer"
+    },
+    {
+      "id": "ru_es_a2:despegar",
+      "ru": "взлетать",
+      "target": "despegar"
+    },
+    {
+      "id": "ru_es_a2:disculpar",
+      "ru": "извинять",
+      "target": "disculpar"
+    },
+    {
+      "id": "ru_es_a2:emigrar",
+      "ru": "эмигрировать",
+      "target": "emigrar"
+    },
+    {
+      "id": "ru_es_a2:encargar",
+      "ru": "заказывать",
+      "target": "encargar"
+    },
+    {
+      "id": "ru_es_a2:envolver",
+      "ru": "заворачивать",
+      "target": "envolver"
+    },
+    {
+      "id": "ru_es_a2:esquiar",
+      "ru": "кататься на лыжах",
+      "target": "esquiar"
+    },
+    {
+      "id": "ru_es_a2:estrenar",
+      "ru": "впервые использовать",
+      "target": "estrenar"
+    },
+    {
+      "id": "ru_es_a2:fingir",
+      "ru": "притворяться",
+      "target": "fingir"
+    },
+    {
+      "id": "ru_es_a2:flotar",
+      "ru": "держаться на воде",
+      "target": "flotar"
+    },
+    {
+      "id": "ru_es_a2:fracasar",
+      "ru": "терпеть неудачу",
+      "target": "fracasar"
+    },
+    {
+      "id": "ru_es_a2:fumar",
+      "ru": "курить",
+      "target": "fumar"
+    },
+    {
+      "id": "ru_es_a2:girar",
+      "ru": "поворачивать",
+      "target": "girar"
+    },
+    {
+      "id": "ru_es_a2:guiar",
+      "ru": "вести",
+      "target": "guiar"
+    },
+    {
+      "id": "ru_es_a2:herir",
+      "ru": "ранить",
+      "target": "herir"
+    },
+    {
+      "id": "ru_es_a2:huir",
+      "ru": "убегать",
+      "target": "huir"
+    },
+    {
+      "id": "ru_es_a2:lavarse",
+      "ru": "мыться",
+      "target": "lavarse"
+    },
+    {
+      "id": "ru_es_a2:matricular",
+      "ru": "записывать на курс",
+      "target": "matricular"
+    },
+    {
+      "id": "ru_es_a2:morder",
+      "ru": "кусать",
+      "target": "morder"
+    },
+    {
+      "id": "ru_es_a2:oler",
+      "ru": "пахнуть",
+      "target": "oler"
+    },
+    {
+      "id": "ru_es_a2:ordenar",
+      "ru": "упорядочивать",
+      "target": "ordenar"
+    },
+    {
+      "id": "ru_es_a2:pasear",
+      "ru": "гулять",
+      "target": "pasear"
+    },
+    {
+      "id": "ru_es_a2:patinar",
+      "ru": "кататься на коньках",
+      "target": "patinar"
+    },
+    {
+      "id": "ru_es_a2:pegar",
+      "ru": "приклеивать",
+      "target": "pegar"
+    },
+    {
+      "id": "ru_es_a2:pescar",
+      "ru": "ловить рыбу",
+      "target": "pescar"
+    },
+    {
+      "id": "ru_es_a2:pisar",
+      "ru": "наступать",
+      "target": "pisar"
+    },
+    {
+      "id": "ru_es_a2:plantar",
+      "ru": "сажать растение",
+      "target": "plantar"
+    },
+    {
+      "id": "ru_es_a2:platicar",
+      "ru": "беседовать",
+      "target": "platicar"
+    },
+    {
+      "id": "ru_es_a2:quemar",
+      "ru": "жечь",
+      "target": "quemar"
+    },
+    {
+      "id": "ru_es_a2:recetar",
+      "ru": "выписывать лекарство",
+      "target": "recetar"
+    },
+    {
+      "id": "ru_es_a2:retrasar",
+      "ru": "задерживать",
+      "target": "retrasar"
+    },
+    {
+      "id": "ru_es_a2:rodear",
+      "ru": "окружать",
+      "target": "rodear"
+    },
+    {
+      "id": "ru_es_a2:silbar",
+      "ru": "свистеть",
+      "target": "silbar"
+    },
+    {
+      "id": "ru_es_a2:sonar",
+      "ru": "звучать",
+      "target": "sonar"
+    },
+    {
+      "id": "ru_es_a2:temblar",
+      "ru": "дрожать",
+      "target": "temblar"
+    },
+    {
+      "id": "ru_es_a2:tropezar",
+      "ru": "спотыкаться",
+      "target": "tropezar"
+    },
+    {
+      "id": "ru_es_a2:vencer",
+      "ru": "побеждать",
+      "target": "vencer"
+    },
+    {
+      "id": "ru_es_a2:votar",
+      "ru": "голосовать",
+      "target": "votar"
+    },
+    {
+      "id": "ru_es_a2:actividad",
+      "ru": "деятельность",
+      "target": "actividad"
+    },
+    {
+      "id": "ru_es_a2:afición",
+      "ru": "увлечение",
+      "target": "afición"
+    },
+    {
+      "id": "ru_es_a2:amistad",
+      "ru": "дружба",
+      "target": "amistad"
+    },
+    {
+      "id": "ru_es_a2:aventura",
+      "ru": "приключение",
+      "target": "aventura"
+    },
+    {
+      "id": "ru_es_a2:beso",
+      "ru": "поцелуй",
+      "target": "beso"
+    },
+    {
+      "id": "ru_es_a2:abrazo",
+      "ru": "объятие",
+      "target": "abrazo"
+    },
+    {
+      "id": "ru_es_a2:broma",
+      "ru": "шутка",
+      "target": "broma"
+    },
+    {
+      "id": "ru_es_a2:carácter",
+      "ru": "характер",
+      "target": "carácter"
+    },
+    {
+      "id": "ru_es_a2:confianza",
+      "ru": "доверие",
+      "target": "confianza"
+    },
+    {
+      "id": "ru_es_a2:costumbre",
+      "ru": "обычай",
+      "target": "costumbre"
+    },
+    {
+      "id": "ru_es_a2:cultura",
+      "ru": "культура",
+      "target": "cultura"
+    },
+    {
+      "id": "ru_es_a2:deseo",
+      "ru": "желание",
+      "target": "deseo"
+    },
+    {
+      "id": "ru_es_a2:emoción",
+      "ru": "эмоция",
+      "target": "emoción"
+    },
+    {
+      "id": "ru_es_a2:esperanza",
+      "ru": "надежда",
+      "target": "esperanza"
+    },
+    {
+      "id": "ru_es_a2:experiencia",
+      "ru": "опыт",
+      "target": "experiencia"
+    },
+    {
+      "id": "ru_es_a2:gana",
+      "ru": "желание",
+      "target": "gana"
+    },
+    {
+      "id": "ru_es_a2:humor",
+      "ru": "настроение",
+      "target": "humor"
+    },
+    {
+      "id": "ru_es_a2:ilusión",
+      "ru": "надежда",
+      "target": "ilusión"
+    },
+    {
+      "id": "ru_es_a2:interés",
+      "ru": "интерес",
+      "target": "interés"
+    },
+    {
+      "id": "ru_es_a2:lágrima",
+      "ru": "слеза",
+      "target": "lágrima"
+    },
+    {
+      "id": "ru_es_a2:libertad",
+      "ru": "свобода",
+      "target": "libertad"
+    },
+    {
+      "id": "ru_es_a2:paciencia",
+      "ru": "терпение",
+      "target": "paciencia"
+    },
+    {
+      "id": "ru_es_a2:pena",
+      "ru": "печаль",
+      "target": "pena"
+    },
+    {
+      "id": "ru_es_a2:placer",
+      "ru": "удовольствие",
+      "target": "placer"
+    },
+    {
+      "id": "ru_es_a2:preocupación",
+      "ru": "беспокойство",
+      "target": "preocupación"
+    },
+    {
+      "id": "ru_es_a2:respeto",
+      "ru": "уважение",
+      "target": "respeto"
+    },
+    {
+      "id": "ru_es_a2:riesgo",
+      "ru": "риск",
+      "target": "riesgo"
+    },
+    {
+      "id": "ru_es_a2:sorpresa",
+      "ru": "сюрприз",
+      "target": "sorpresa"
+    },
+    {
+      "id": "ru_es_a2:vergüenza",
+      "ru": "стыд",
+      "target": "vergüenza"
+    },
+    {
+      "id": "ru_es_a2:voluntad",
+      "ru": "воля",
+      "target": "voluntad"
+    },
+    {
+      "id": "ru_es_a2:accidente",
+      "ru": "несчастный случай",
+      "target": "accidente"
+    },
+    {
+      "id": "ru_es_a2:anuncio",
+      "ru": "объявление",
+      "target": "anuncio"
+    },
+    {
+      "id": "ru_es_a2:asunto",
+      "ru": "дело",
+      "target": "asunto"
+    },
+    {
+      "id": "ru_es_a2:aviso",
+      "ru": "предупреждение",
+      "target": "aviso"
+    },
+    {
+      "id": "ru_es_a2:calidad",
+      "ru": "качество",
+      "target": "calidad"
+    },
+    {
+      "id": "ru_es_a2:cantidad",
+      "ru": "количество",
+      "target": "cantidad"
+    },
+    {
+      "id": "ru_es_a2:consejo",
+      "ru": "совет",
+      "target": "consejo"
+    },
+    {
+      "id": "ru_es_a2:decisión",
+      "ru": "решение",
+      "target": "decisión"
+    },
+    {
+      "id": "ru_es_a2:defecto",
+      "ru": "недостаток",
+      "target": "defecto"
+    },
+    {
+      "id": "ru_es_a2:detalle",
+      "ru": "подробность",
+      "target": "detalle"
+    },
+    {
+      "id": "ru_es_a2:diferencia",
+      "ru": "разница",
+      "target": "diferencia"
+    },
+    {
+      "id": "ru_es_a2:dificultad",
+      "ru": "трудность",
+      "target": "dificultad"
+    },
+    {
+      "id": "ru_es_a2:ejemplo",
+      "ru": "пример",
+      "target": "ejemplo"
+    },
+    {
+      "id": "ru_es_a2:éxito",
+      "ru": "успех",
+      "target": "éxito"
+    },
+    {
+      "id": "ru_es_a2:fallo",
+      "ru": "ошибка",
+      "target": "fallo"
+    },
+    {
+      "id": "ru_es_a2:falta",
+      "ru": "нехватка",
+      "target": "falta"
+    },
+    {
+      "id": "ru_es_a2:hecho",
+      "ru": "факт",
+      "target": "hecho"
+    },
+    {
+      "id": "ru_es_a2:intención",
+      "ru": "намерение",
+      "target": "intención"
+    },
+    {
+      "id": "ru_es_a2:invitación",
+      "ru": "приглашение",
+      "target": "invitación"
+    },
+    {
+      "id": "ru_es_a2:ocasión",
+      "ru": "случай",
+      "target": "ocasión"
+    },
+    {
+      "id": "ru_es_a2:opción",
+      "ru": "вариант",
+      "target": "opción"
+    },
+    {
+      "id": "ru_es_a2:orden",
+      "ru": "порядок",
+      "target": "orden"
+    },
+    {
+      "id": "ru_es_a2:paso",
+      "ru": "шаг",
+      "target": "paso"
+    },
+    {
+      "id": "ru_es_a2:plan",
+      "ru": "план",
+      "target": "plan"
+    },
+    {
+      "id": "ru_es_a2:posibilidad",
+      "ru": "возможность",
+      "target": "posibilidad"
+    },
+    {
+      "id": "ru_es_a2:prisa",
+      "ru": "спешка",
+      "target": "prisa"
+    },
+    {
+      "id": "ru_es_a2:promesa",
+      "ru": "обещание",
+      "target": "promesa"
+    },
+    {
+      "id": "ru_es_a2:queja",
+      "ru": "жалоба",
+      "target": "queja"
+    },
+    {
+      "id": "ru_es_a2:recuerdo",
+      "ru": "воспоминание",
+      "target": "recuerdo"
+    },
+    {
+      "id": "ru_es_a2:regalo",
+      "ru": "подарок",
+      "target": "regalo"
+    },
+    {
+      "id": "ru_es_a2:reunión",
+      "ru": "встреча",
+      "target": "reunión"
+    },
+    {
+      "id": "ru_es_a2:secreto",
+      "ru": "секрет",
+      "target": "secreto"
+    },
+    {
+      "id": "ru_es_a2:señal",
+      "ru": "знак",
+      "target": "señal"
+    },
+    {
+      "id": "ru_es_a2:situación",
+      "ru": "ситуация",
+      "target": "situación"
+    },
+    {
+      "id": "ru_es_a2:solución",
+      "ru": "решение",
+      "target": "solución"
+    },
+    {
+      "id": "ru_es_a2:ventaja",
+      "ru": "преимущество",
+      "target": "ventaja"
+    },
+    {
+      "id": "ru_es_a2:visita",
+      "ru": "визит",
+      "target": "visita"
+    },
+    {
+      "id": "ru_es_a2:academia",
+      "ru": "учебный центр",
+      "target": "academia"
+    },
+    {
+      "id": "ru_es_a2:acera",
+      "ru": "тротуар",
+      "target": "acera"
+    },
+    {
+      "id": "ru_es_a2:aduana",
+      "ru": "таможня",
+      "target": "aduana"
+    },
+    {
+      "id": "ru_es_a2:agencia",
+      "ru": "агентство",
+      "target": "agencia"
+    },
+    {
+      "id": "ru_es_a2:albergue",
+      "ru": "хостел",
+      "target": "albergue"
+    },
+    {
+      "id": "ru_es_a2:almacén",
+      "ru": "склад",
+      "target": "almacén"
+    },
+    {
+      "id": "ru_es_a2:alquiler",
+      "ru": "аренда",
+      "target": "alquiler"
+    },
+    {
+      "id": "ru_es_a2:ambulatorio",
+      "ru": "поликлиника",
+      "target": "ambulatorio"
+    },
+    {
+      "id": "ru_es_a2:aparcamiento",
+      "ru": "парковка",
+      "target": "aparcamiento"
+    },
+    {
+      "id": "ru_es_a2:autopista",
+      "ru": "автомагистраль",
+      "target": "autopista"
+    },
+    {
+      "id": "ru_es_a2:boleto",
+      "ru": "билет",
+      "target": "boleto"
+    },
+    {
+      "id": "ru_es_a2:bono",
+      "ru": "абонемент",
+      "target": "bono"
+    },
+    {
+      "id": "ru_es_a2:cabina",
+      "ru": "кабина",
+      "target": "cabina"
+    },
+    {
+      "id": "ru_es_a2:camping",
+      "ru": "кемпинг",
+      "target": "camping"
+    },
+    {
+      "id": "ru_es_a2:capital",
+      "ru": "столица",
+      "target": "capital"
+    },
+    {
+      "id": "ru_es_a2:carnicería",
+      "ru": "мясная лавка",
+      "target": "carnicería"
+    },
+    {
+      "id": "ru_es_a2:castillo",
+      "ru": "замок",
+      "target": "castillo"
+    },
+    {
+      "id": "ru_es_a2:cementerio",
+      "ru": "кладбище",
+      "target": "cementerio"
+    },
+    {
+      "id": "ru_es_a2:circo",
+      "ru": "цирк",
+      "target": "circo"
+    },
+    {
+      "id": "ru_es_a2:clínica",
+      "ru": "клиника",
+      "target": "clínica"
+    },
+    {
+      "id": "ru_es_a2:costa",
+      "ru": "побережье",
+      "target": "costa"
+    },
+    {
+      "id": "ru_es_a2:edificio",
+      "ru": "здание",
+      "target": "edificio"
+    },
+    {
+      "id": "ru_es_a2:embajada",
+      "ru": "посольство",
+      "target": "embajada"
+    },
+    {
+      "id": "ru_es_a2:espectáculo",
+      "ru": "представление",
+      "target": "espectáculo"
+    },
+    {
+      "id": "ru_es_a2:faro",
+      "ru": "маяк",
+      "target": "faro"
+    },
+    {
+      "id": "ru_es_a2:feria",
+      "ru": "ярмарка",
+      "target": "feria"
+    },
+    {
+      "id": "ru_es_a2:frontera",
+      "ru": "граница",
+      "target": "frontera"
+    },
+    {
+      "id": "ru_es_a2:frutería",
+      "ru": "фруктовая лавка",
+      "target": "frutería"
+    },
+    {
+      "id": "ru_es_a2:gasolinera",
+      "ru": "заправка",
+      "target": "gasolinera"
+    },
+    {
+      "id": "ru_es_a2:hostal",
+      "ru": "небольшая гостиница",
+      "target": "hostal"
+    },
+    {
+      "id": "ru_es_a2:kiosco",
+      "ru": "киоск",
+      "target": "kiosco"
+    },
+    {
+      "id": "ru_es_a2:librería",
+      "ru": "книжный магазин",
+      "target": "librería"
+    },
+    {
+      "id": "ru_es_a2:monumento",
+      "ru": "памятник",
+      "target": "monumento"
+    },
+    {
+      "id": "ru_es_a2:oferta",
+      "ru": "предложение",
+      "target": "oferta"
+    },
+    {
+      "id": "ru_es_a2:palacio",
+      "ru": "дворец",
+      "target": "palacio"
+    },
+    {
+      "id": "ru_es_a2:papelería",
+      "ru": "канцелярский магазин",
+      "target": "papelería"
+    },
+    {
+      "id": "ru_es_a2:peluquería",
+      "ru": "парикмахерская",
+      "target": "peluquería"
+    },
+    {
+      "id": "ru_es_a2:pensión",
+      "ru": "пансион",
+      "target": "pensión"
+    },
+    {
+      "id": "ru_es_a2:periferia",
+      "ru": "окраина",
+      "target": "periferia"
+    },
+    {
+      "id": "ru_es_a2:pescadería",
+      "ru": "рыбная лавка",
+      "target": "pescadería"
+    },
+    {
+      "id": "ru_es_a2:quiosco",
+      "ru": "киоск",
+      "target": "quiosco"
+    },
+    {
+      "id": "ru_es_a2:rotonda",
+      "ru": "кольцевой перекрёсток",
+      "target": "rotonda"
+    },
+    {
+      "id": "ru_es_a2:semáforo",
+      "ru": "светофор",
+      "target": "semáforo"
+    },
+    {
+      "id": "ru_es_a2:sótano",
+      "ru": "подвал",
+      "target": "sótano"
+    },
+    {
+      "id": "ru_es_a2:taller",
+      "ru": "мастерская",
+      "target": "taller"
+    },
+    {
+      "id": "ru_es_a2:taquilla",
+      "ru": "билетная касса",
+      "target": "taquilla"
+    },
+    {
+      "id": "ru_es_a2:túnel",
+      "ru": "туннель",
+      "target": "túnel"
+    },
+    {
+      "id": "ru_es_a2:urbanización",
+      "ru": "жилой комплекс",
+      "target": "urbanización"
+    },
+    {
+      "id": "ru_es_a2:vivienda",
+      "ru": "жильё",
+      "target": "vivienda"
+    },
+    {
+      "id": "ru_es_a2:vuelo",
+      "ru": "полёт",
+      "target": "vuelo"
+    },
+    {
+      "id": "ru_es_a2:vagón",
+      "ru": "вагон",
+      "target": "vagón"
+    },
+    {
+      "id": "ru_es_a2:velero",
+      "ru": "парусник",
+      "target": "velero"
+    },
+    {
+      "id": "ru_es_a2:volante",
+      "ru": "руль",
+      "target": "volante"
+    },
+    {
+      "id": "ru_es_a2:rueda",
+      "ru": "колесо",
+      "target": "rueda"
+    },
+    {
+      "id": "ru_es_a2:motor",
+      "ru": "двигатель",
+      "target": "motor"
+    },
+    {
+      "id": "ru_es_a2:freno",
+      "ru": "тормоз",
+      "target": "freno"
+    },
+    {
+      "id": "ru_es_a2:gasolina",
+      "ru": "бензин",
+      "target": "gasolina"
+    },
+    {
+      "id": "ru_es_a2:matrícula",
+      "ru": "регистрационный номер",
+      "target": "matrícula"
+    },
+    {
+      "id": "ru_es_a2:maletero",
+      "ru": "багажник",
+      "target": "maletero"
+    },
+    {
+      "id": "ru_es_a2:conexión",
+      "ru": "соединение",
+      "target": "conexión"
+    },
+    {
+      "id": "ru_es_a2:destino",
+      "ru": "место назначения",
+      "target": "destino"
+    },
+    {
+      "id": "ru_es_a2:documento",
+      "ru": "документ",
+      "target": "documento"
+    },
+    {
+      "id": "ru_es_a2:ida",
+      "ru": "поездка туда",
+      "target": "ida"
+    },
+    {
+      "id": "ru_es_a2:vuelta",
+      "ru": "возвращение",
+      "target": "vuelta"
+    },
+    {
+      "id": "ru_es_a2:retraso",
+      "ru": "опоздание",
+      "target": "retraso"
+    },
+    {
+      "id": "ru_es_a2:horario",
+      "ru": "расписание",
+      "target": "horario"
+    },
+    {
+      "id": "ru_es_a2:itinerario",
+      "ru": "маршрут",
+      "target": "itinerario"
+    },
+    {
+      "id": "ru_es_a2:reserva",
+      "ru": "бронирование",
+      "target": "reserva"
+    },
+    {
+      "id": "ru_es_a2:recepción",
+      "ru": "стойка регистрации",
+      "target": "recepción"
+    },
+    {
+      "id": "ru_es_a2:recepcionista",
+      "ru": "администратор",
+      "target": "recepcionista"
+    },
+    {
+      "id": "ru_es_a2:turismo",
+      "ru": "туризм",
+      "target": "turismo"
+    },
+    {
+      "id": "ru_es_a2:turista",
+      "ru": "турист",
+      "target": "turista"
+    },
+    {
+      "id": "ru_es_a2:guía",
+      "ru": "путеводитель",
+      "target": "guía"
+    },
+    {
+      "id": "ru_es_a2:excursión",
+      "ru": "экскурсия",
+      "target": "excursión"
+    },
+    {
+      "id": "ru_es_a2:alojamiento",
+      "ru": "размещение",
+      "target": "alojamiento"
+    },
+    {
+      "id": "ru_es_a2:camioneta",
+      "ru": "фургон",
+      "target": "camioneta"
+    },
+    {
+      "id": "ru_es_a2:camión",
+      "ru": "грузовик",
+      "target": "camión"
+    },
+    {
+      "id": "ru_es_a2:helicóptero",
+      "ru": "вертолёт",
+      "target": "helicóptero"
+    },
+    {
+      "id": "ru_es_a2:patinete",
+      "ru": "самокат",
+      "target": "patinete"
+    },
+    {
+      "id": "ru_es_a2:ambulancia",
+      "ru": "скорая помощь",
+      "target": "ambulancia"
+    },
+    {
+      "id": "ru_es_a2:peatón",
+      "ru": "пешеход",
+      "target": "peatón"
+    },
+    {
+      "id": "ru_es_a2:tráfico",
+      "ru": "дорожное движение",
+      "target": "tráfico"
+    },
+    {
+      "id": "ru_es_a2:atasco",
+      "ru": "пробка",
+      "target": "atasco"
+    },
+    {
+      "id": "ru_es_a2:trayecto",
+      "ru": "путь",
+      "target": "trayecto"
+    },
+    {
+      "id": "ru_es_a2:peaje",
+      "ru": "плата за проезд",
+      "target": "peaje"
+    },
+    {
+      "id": "ru_es_a2:velocidad",
+      "ru": "скорость",
+      "target": "velocidad"
+    },
+    {
+      "id": "ru_es_a2:kilómetro",
+      "ru": "километр",
+      "target": "kilómetro"
+    },
+    {
+      "id": "ru_es_a2:centímetro",
+      "ru": "сантиметр",
+      "target": "centímetro"
+    },
+    {
+      "id": "ru_es_a2:litro",
+      "ru": "литр",
+      "target": "litro"
+    },
+    {
+      "id": "ru_es_a2:kilo",
+      "ru": "килограмм",
+      "target": "kilo"
+    },
+    {
+      "id": "ru_es_a2:gramo",
+      "ru": "грамм",
+      "target": "gramo"
+    },
+    {
+      "id": "ru_es_a2:auricular",
+      "ru": "наушник",
+      "target": "auricular"
+    },
+    {
+      "id": "ru_es_a2:altavoz",
+      "ru": "динамик",
+      "target": "altavoz"
+    },
+    {
+      "id": "ru_es_a2:batería",
+      "ru": "аккумулятор",
+      "target": "batería"
+    },
+    {
+      "id": "ru_es_a2:cable",
+      "ru": "кабель",
+      "target": "cable"
+    },
+    {
+      "id": "ru_es_a2:cargador",
+      "ru": "зарядное устройство",
+      "target": "cargador"
+    },
+    {
+      "id": "ru_es_a2:contraseña",
+      "ru": "пароль",
+      "target": "contraseña"
+    },
+    {
+      "id": "ru_es_a2:mensaje",
+      "ru": "сообщение",
+      "target": "mensaje"
+    },
+    {
+      "id": "ru_es_a2:llamada",
+      "ru": "звонок",
+      "target": "llamada"
+    },
+    {
+      "id": "ru_es_a2:contacto",
+      "ru": "контакт",
+      "target": "contacto"
+    },
+    {
+      "id": "ru_es_a2:red",
+      "ru": "сеть",
+      "target": "red"
+    },
+    {
+      "id": "ru_es_a2:archivo",
+      "ru": "файл",
+      "target": "archivo"
+    },
+    {
+      "id": "ru_es_a2:carpeta",
+      "ru": "папка",
+      "target": "carpeta"
+    },
+    {
+      "id": "ru_es_a2:programa",
+      "ru": "программа",
+      "target": "programa"
+    },
+    {
+      "id": "ru_es_a2:aplicación",
+      "ru": "приложение",
+      "target": "aplicación"
+    },
+    {
+      "id": "ru_es_a2:enlace",
+      "ru": "ссылка",
+      "target": "enlace"
+    },
+    {
+      "id": "ru_es_a2:sitio",
+      "ru": "сайт",
+      "target": "sitio"
+    },
+    {
+      "id": "ru_es_a2:internet",
+      "ru": "интернет",
+      "target": "internet"
+    },
+    {
+      "id": "ru_es_a2:tecnología",
+      "ru": "технология",
+      "target": "tecnología"
+    },
+    {
+      "id": "ru_es_a2:videojuego",
+      "ru": "видеоигра",
+      "target": "videojuego"
+    },
+    {
+      "id": "ru_es_a2:vídeo",
+      "ru": "видеозапись",
+      "target": "vídeo"
+    },
+    {
+      "id": "ru_es_a2:micrófono",
+      "ru": "микрофон",
+      "target": "micrófono"
+    },
+    {
+      "id": "ru_es_a2:disco",
+      "ru": "диск",
+      "target": "disco"
+    },
+    {
+      "id": "ru_es_a2:memoria",
+      "ru": "память",
+      "target": "memoria"
+    },
+    {
+      "id": "ru_es_a2:ratonera",
+      "ru": "мышеловка",
+      "target": "ratonera"
+    },
+    {
+      "id": "ru_es_a2:agenda",
+      "ru": "ежедневник",
+      "target": "agenda"
+    },
+    {
+      "id": "ru_es_a2:sello",
+      "ru": "почтовая марка",
+      "target": "sello"
+    },
+    {
+      "id": "ru_es_a2:paquete",
+      "ru": "посылка",
+      "target": "paquete"
+    },
+    {
+      "id": "ru_es_a2:postal",
+      "ru": "открытка",
+      "target": "postal"
+    },
+    {
+      "id": "ru_es_a2:firma",
+      "ru": "подпись",
+      "target": "firma"
+    },
+    {
+      "id": "ru_es_a2:formulario",
+      "ru": "бланк",
+      "target": "formulario"
+    },
+    {
+      "id": "ru_es_a2:copia",
+      "ru": "копия",
+      "target": "copia"
+    },
+    {
+      "id": "ru_es_a2:fotocopia",
+      "ru": "ксерокопия",
+      "target": "fotocopia"
+    },
+    {
+      "id": "ru_es_a2:impresión",
+      "ru": "печать",
+      "target": "impresión"
+    },
+    {
+      "id": "ru_es_a2:certificado",
+      "ru": "справка",
+      "target": "certificado"
+    },
+    {
+      "id": "ru_es_a2:contrato",
+      "ru": "договор",
+      "target": "contrato"
+    },
+    {
+      "id": "ru_es_a2:factura",
+      "ru": "счёт на оплату",
+      "target": "factura"
+    },
+    {
+      "id": "ru_es_a2:recibo",
+      "ru": "квитанция",
+      "target": "recibo"
+    },
+    {
+      "id": "ru_es_a2:descuento",
+      "ru": "скидка",
+      "target": "descuento"
+    },
+    {
+      "id": "ru_es_a2:rebaja",
+      "ru": "снижение цены",
+      "target": "rebaja"
+    },
+    {
+      "id": "ru_es_a2:propina",
+      "ru": "чаевые",
+      "target": "propina"
+    },
+    {
+      "id": "ru_es_a2:deuda",
+      "ru": "долг",
+      "target": "deuda"
+    },
+    {
+      "id": "ru_es_a2:préstamo",
+      "ru": "заём",
+      "target": "préstamo"
+    },
+    {
+      "id": "ru_es_a2:sueldo",
+      "ru": "оклад",
+      "target": "sueldo"
+    },
+    {
+      "id": "ru_es_a2:salario",
+      "ru": "зарплата",
+      "target": "salario"
+    },
+    {
+      "id": "ru_es_a2:ahorro",
+      "ru": "сбережение",
+      "target": "ahorro"
+    },
+    {
+      "id": "ru_es_a2:gasto",
+      "ru": "расход",
+      "target": "gasto"
+    },
+    {
+      "id": "ru_es_a2:impuesto",
+      "ru": "налог",
+      "target": "impuesto"
+    },
+    {
+      "id": "ru_es_a2:seguro",
+      "ru": "страховка",
+      "target": "seguro"
+    },
+    {
+      "id": "ru_es_a2:empleo",
+      "ru": "занятость",
+      "target": "empleo"
+    },
+    {
+      "id": "ru_es_a2:paro",
+      "ru": "безработица",
+      "target": "paro"
+    },
+    {
+      "id": "ru_es_a2:profesión",
+      "ru": "профессия",
+      "target": "profesión"
+    },
+    {
+      "id": "ru_es_a2:candidato",
+      "ru": "кандидат",
+      "target": "candidato"
+    },
+    {
+      "id": "ru_es_a2:entrevista",
+      "ru": "собеседование",
+      "target": "entrevista"
+    },
+    {
+      "id": "ru_es_a2:currículum",
+      "ru": "резюме",
+      "target": "currículum"
+    },
+    {
+      "id": "ru_es_a2:empresa",
+      "ru": "компания",
+      "target": "empresa"
+    },
+    {
+      "id": "ru_es_a2:negocio",
+      "ru": "дело",
+      "target": "negocio"
+    },
+    {
+      "id": "ru_es_a2:cliente",
+      "ru": "клиент",
+      "target": "cliente"
+    },
+    {
+      "id": "ru_es_a2:colega",
+      "ru": "коллега",
+      "target": "colega"
+    },
+    {
+      "id": "ru_es_a2:encargado",
+      "ru": "ответственный",
+      "target": "encargado"
+    },
+    {
+      "id": "ru_es_a2:director",
+      "ru": "директор",
+      "target": "director"
+    },
+    {
+      "id": "ru_es_a2:secretario",
+      "ru": "секретарь",
+      "target": "secretario"
+    },
+    {
+      "id": "ru_es_a2:contable",
+      "ru": "бухгалтер",
+      "target": "contable"
+    },
+    {
+      "id": "ru_es_a2:electricista",
+      "ru": "электрик",
+      "target": "electricista"
+    },
+    {
+      "id": "ru_es_a2:fontanero",
+      "ru": "водопроводчик",
+      "target": "fontanero"
+    },
+    {
+      "id": "ru_es_a2:mecánico",
+      "ru": "механик",
+      "target": "mecánico"
+    },
+    {
+      "id": "ru_es_a2:carpintero",
+      "ru": "плотник",
+      "target": "carpintero"
+    },
+    {
+      "id": "ru_es_a2:albañil",
+      "ru": "каменщик",
+      "target": "albañil"
+    },
+    {
+      "id": "ru_es_a2:traductor",
+      "ru": "переводчик",
+      "target": "traductor"
+    },
+    {
+      "id": "ru_es_a2:intérprete",
+      "ru": "устный переводчик",
+      "target": "intérprete"
+    },
+    {
+      "id": "ru_es_a2:guardián",
+      "ru": "сторож",
+      "target": "guardián"
+    },
+    {
+      "id": "ru_es_a2:veterinario",
+      "ru": "ветеринар",
+      "target": "veterinario"
+    },
+    {
+      "id": "ru_es_a2:azafata",
+      "ru": "стюардесса",
+      "target": "azafata"
+    },
+    {
+      "id": "ru_es_a2:piloto",
+      "ru": "пилот",
+      "target": "piloto"
+    },
+    {
+      "id": "ru_es_a2:marinero",
+      "ru": "моряк",
+      "target": "marinero"
+    },
+    {
+      "id": "ru_es_a2:jardinero",
+      "ru": "садовник",
+      "target": "jardinero"
+    },
+    {
+      "id": "ru_es_a2:limpiador",
+      "ru": "уборщик",
+      "target": "limpiador"
+    },
+    {
+      "id": "ru_es_a2:repartidor",
+      "ru": "курьер",
+      "target": "repartidor"
+    },
+    {
+      "id": "ru_es_a2:dependiente",
+      "ru": "продавец",
+      "target": "dependiente"
+    },
+    {
+      "id": "ru_es_a2:empresario",
+      "ru": "предприниматель",
+      "target": "empresario"
+    },
+    {
+      "id": "ru_es_a2:jubilado",
+      "ru": "пенсионер",
+      "target": "jubilado"
+    },
+    {
+      "id": "ru_es_a2:desempleado",
+      "ru": "безработный",
+      "target": "desempleado"
+    },
+    {
+      "id": "ru_es_a2:práctica",
+      "ru": "практика",
+      "target": "práctica"
+    },
+    {
+      "id": "ru_es_a2:requisito",
+      "ru": "требование",
+      "target": "requisito"
+    },
+    {
+      "id": "ru_es_a2:responsabilidad",
+      "ru": "ответственность",
+      "target": "responsabilidad"
+    },
+    {
+      "id": "ru_es_a2:turno",
+      "ru": "смена",
+      "target": "turno"
+    },
+    {
+      "id": "ru_es_a2:descanso",
+      "ru": "отдых",
+      "target": "descanso"
+    },
+    {
+      "id": "ru_es_a2:aceptable",
+      "ru": "приемлемый",
+      "target": "aceptable"
+    },
+    {
+      "id": "ru_es_a2:activo",
+      "ru": "активный",
+      "target": "activo"
+    },
+    {
+      "id": "ru_es_a2:agradable",
+      "ru": "приятный",
+      "target": "agradable"
+    },
+    {
+      "id": "ru_es_a2:alegre",
+      "ru": "весёлый",
+      "target": "alegre"
+    },
+    {
+      "id": "ru_es_a2:amplio",
+      "ru": "просторный",
+      "target": "amplio"
+    },
+    {
+      "id": "ru_es_a2:antiguo",
+      "ru": "древний",
+      "target": "antiguo"
+    },
+    {
+      "id": "ru_es_a2:apretado",
+      "ru": "тесный",
+      "target": "apretado"
+    },
+    {
+      "id": "ru_es_a2:barbudo",
+      "ru": "бородатый",
+      "target": "barbudo"
+    },
+    {
+      "id": "ru_es_a2:blando",
+      "ru": "мягкий",
+      "target": "blando"
+    },
+    {
+      "id": "ru_es_a2:brillante",
+      "ru": "блестящий",
+      "target": "brillante"
+    },
+    {
+      "id": "ru_es_a2:callado",
+      "ru": "молчаливый",
+      "target": "callado"
+    },
+    {
+      "id": "ru_es_a2:cariñoso",
+      "ru": "ласковый",
+      "target": "cariñoso"
+    },
+    {
+      "id": "ru_es_a2:casado",
+      "ru": "женатый",
+      "target": "casado"
+    },
+    {
+      "id": "ru_es_a2:casero",
+      "ru": "домашний",
+      "target": "casero"
+    },
+    {
+      "id": "ru_es_a2:cómodo",
+      "ru": "удобный",
+      "target": "cómodo"
+    },
+    {
+      "id": "ru_es_a2:completo",
+      "ru": "полный",
+      "target": "completo"
+    },
+    {
+      "id": "ru_es_a2:complicado",
+      "ru": "сложный",
+      "target": "complicado"
+    },
+    {
+      "id": "ru_es_a2:conocido",
+      "ru": "знакомый",
+      "target": "conocido"
+    },
+    {
+      "id": "ru_es_a2:cotidiano",
+      "ru": "повседневный",
+      "target": "cotidiano"
+    },
+    {
+      "id": "ru_es_a2:creativo",
+      "ru": "творческий",
+      "target": "creativo"
+    },
+    {
+      "id": "ru_es_a2:cuidadoso",
+      "ru": "осторожный",
+      "target": "cuidadoso"
+    },
+    {
+      "id": "ru_es_a2:curioso",
+      "ru": "любопытный",
+      "target": "curioso"
+    },
+    {
+      "id": "ru_es_a2:delgado",
+      "ru": "худой",
+      "target": "delgado"
+    },
+    {
+      "id": "ru_es_a2:delicioso",
+      "ru": "очень вкусный",
+      "target": "delicioso"
+    },
+    {
+      "id": "ru_es_a2:deportivo",
+      "ru": "спортивный",
+      "target": "deportivo"
+    },
+    {
+      "id": "ru_es_a2:desagradable",
+      "ru": "неприятный",
+      "target": "desagradable"
+    },
+    {
+      "id": "ru_es_a2:desconocido",
+      "ru": "неизвестный",
+      "target": "desconocido"
+    },
+    {
+      "id": "ru_es_a2:divertido",
+      "ru": "весёлый",
+      "target": "divertido"
+    },
+    {
+      "id": "ru_es_a2:duro",
+      "ru": "твёрдый",
+      "target": "duro"
+    },
+    {
+      "id": "ru_es_a2:educado",
+      "ru": "воспитанный",
+      "target": "educado"
+    },
+    {
+      "id": "ru_es_a2:egoísta",
+      "ru": "эгоистичный",
+      "target": "egoísta"
+    },
+    {
+      "id": "ru_es_a2:elegante",
+      "ru": "элегантный",
+      "target": "elegante"
+    },
+    {
+      "id": "ru_es_a2:enorme",
+      "ru": "огромный",
+      "target": "enorme"
+    },
+    {
+      "id": "ru_es_a2:extraño",
+      "ru": "странный",
+      "target": "extraño"
+    },
+    {
+      "id": "ru_es_a2:falso",
+      "ru": "ложный",
+      "target": "falso"
+    },
+    {
+      "id": "ru_es_a2:familiar",
+      "ru": "семейный",
+      "target": "familiar"
+    },
+    {
+      "id": "ru_es_a2:famoso",
+      "ru": "знаменитый",
+      "target": "famoso"
+    },
+    {
+      "id": "ru_es_a2:fino",
+      "ru": "тонкий",
+      "target": "fino"
+    },
+    {
+      "id": "ru_es_a2:gordo",
+      "ru": "толстый",
+      "target": "gordo"
+    },
+    {
+      "id": "ru_es_a2:gracioso",
+      "ru": "забавный",
+      "target": "gracioso"
+    },
+    {
+      "id": "ru_es_a2:guapo",
+      "ru": "красивый",
+      "target": "guapo"
+    },
+    {
+      "id": "ru_es_a2:hábil",
+      "ru": "умелый",
+      "target": "hábil"
+    },
+    {
+      "id": "ru_es_a2:honesto",
+      "ru": "честный",
+      "target": "honesto"
+    },
+    {
+      "id": "ru_es_a2:horrible",
+      "ru": "ужасный",
+      "target": "horrible"
+    },
+    {
+      "id": "ru_es_a2:húmedo",
+      "ru": "влажный",
+      "target": "húmedo"
+    },
+    {
+      "id": "ru_es_a2:ideal",
+      "ru": "идеальный",
+      "target": "ideal"
+    },
+    {
+      "id": "ru_es_a2:increíble",
+      "ru": "невероятный",
+      "target": "increíble"
+    },
+    {
+      "id": "ru_es_a2:independiente",
+      "ru": "независимый",
+      "target": "independiente"
+    },
+    {
+      "id": "ru_es_a2:interesante",
+      "ru": "интересный",
+      "target": "interesante"
+    },
+    {
+      "id": "ru_es_a2:ligero",
+      "ru": "лёгкий",
+      "target": "ligero"
+    },
+    {
+      "id": "ru_es_a2:listo",
+      "ru": "готовый или сообразительный",
+      "target": "listo"
+    },
+    {
+      "id": "ru_es_a2:lógico",
+      "ru": "логичный",
+      "target": "lógico"
+    },
+    {
+      "id": "ru_es_a2:moderno",
+      "ru": "современный",
+      "target": "moderno"
+    },
+    {
+      "id": "ru_es_a2:mojado",
+      "ru": "мокрый",
+      "target": "mojado"
+    },
+    {
+      "id": "ru_es_a2:musical",
+      "ru": "музыкальный",
+      "target": "musical"
+    },
+    {
+      "id": "ru_es_a2:natural",
+      "ru": "природный",
+      "target": "natural"
+    },
+    {
+      "id": "ru_es_a2:optimista",
+      "ru": "оптимистичный",
+      "target": "optimista"
+    },
+    {
+      "id": "ru_es_a2:ordenado",
+      "ru": "аккуратный",
+      "target": "ordenado"
+    },
+    {
+      "id": "ru_es_a2:orgulloso",
+      "ru": "гордый",
+      "target": "orgulloso"
+    },
+    {
+      "id": "ru_es_a2:original",
+      "ru": "оригинальный",
+      "target": "original"
+    },
+    {
+      "id": "ru_es_a2:pálido",
+      "ru": "бледный",
+      "target": "pálido"
+    },
+    {
+      "id": "ru_es_a2:pesado",
+      "ru": "тяжёлый",
+      "target": "pesado"
+    },
+    {
+      "id": "ru_es_a2:peligroso",
+      "ru": "опасный",
+      "target": "peligroso"
+    },
+    {
+      "id": "ru_es_a2:personal",
+      "ru": "личный",
+      "target": "personal"
+    },
+    {
+      "id": "ru_es_a2:pesimista",
+      "ru": "пессимистичный",
+      "target": "pesimista"
+    },
+    {
+      "id": "ru_es_a2:puntual",
+      "ru": "пунктуальный",
+      "target": "puntual"
+    },
+    {
+      "id": "ru_es_a2:redondo",
+      "ru": "круглый",
+      "target": "redondo"
+    },
+    {
+      "id": "ru_es_a2:relajado",
+      "ru": "расслабленный",
+      "target": "relajado"
+    },
+    {
+      "id": "ru_es_a2:responsable",
+      "ru": "ответственный",
+      "target": "responsable"
+    },
+    {
+      "id": "ru_es_a2:rubio",
+      "ru": "светловолосый",
+      "target": "rubio"
+    },
+    {
+      "id": "ru_es_a2:rural",
+      "ru": "сельский",
+      "target": "rural"
+    },
+    {
+      "id": "ru_es_a2:salvaje",
+      "ru": "дикий",
+      "target": "salvaje"
+    },
+    {
+      "id": "ru_es_a2:seco",
+      "ru": "сухой",
+      "target": "seco"
+    },
+    {
+      "id": "ru_es_a2:sencillo",
+      "ru": "простой",
+      "target": "sencillo"
+    },
+    {
+      "id": "ru_es_a2:sensible",
+      "ru": "чувствительный",
+      "target": "sensible"
+    },
+    {
+      "id": "ru_es_a2:serio",
+      "ru": "серьёзный",
+      "target": "serio"
+    },
+    {
+      "id": "ru_es_a2:soltero",
+      "ru": "неженатый",
+      "target": "soltero"
+    },
+    {
+      "id": "ru_es_a2:suave",
+      "ru": "мягкий",
+      "target": "suave"
+    },
+    {
+      "id": "ru_es_a2:terrible",
+      "ru": "ужасный",
+      "target": "terrible"
+    },
+    {
+      "id": "ru_es_a2:tímido",
+      "ru": "застенчивый",
+      "target": "tímido"
+    },
+    {
+      "id": "ru_es_a2:típico",
+      "ru": "типичный",
+      "target": "típico"
+    },
+    {
+      "id": "ru_es_a2:útil",
+      "ru": "полезный",
+      "target": "útil"
+    },
+    {
+      "id": "ru_es_a2:valiente",
+      "ru": "смелый",
+      "target": "valiente"
+    },
+    {
+      "id": "ru_es_a2:variado",
+      "ru": "разнообразный",
+      "target": "variado"
+    },
+    {
+      "id": "ru_es_a2:verdadero",
+      "ru": "истинный",
+      "target": "verdadero"
+    },
+    {
+      "id": "ru_es_a2:violeta",
+      "ru": "фиолетовый",
+      "target": "violeta"
+    },
+    {
+      "id": "ru_es_a2:vivo",
+      "ru": "живой",
+      "target": "vivo"
+    },
+    {
+      "id": "ru_es_a2:único",
+      "ru": "единственный",
+      "target": "único"
+    },
+    {
+      "id": "ru_es_a2:urbano",
+      "ru": "городской",
+      "target": "urbano"
+    },
+    {
+      "id": "ru_es_a2:abrelatas",
+      "ru": "консервный нож",
+      "target": "abrelatas"
+    },
+    {
+      "id": "ru_es_a2:abrebotellas",
+      "ru": "открывалка",
+      "target": "abrebotellas"
+    },
+    {
+      "id": "ru_es_a2:alfiler",
+      "ru": "булавка",
+      "target": "alfiler"
+    },
+    {
+      "id": "ru_es_a2:aguja",
+      "ru": "игла",
+      "target": "aguja"
+    },
+    {
+      "id": "ru_es_a2:albornoz",
+      "ru": "халат",
+      "target": "albornoz"
+    },
+    {
+      "id": "ru_es_a2:algodón",
+      "ru": "хлопок",
+      "target": "algodón"
+    },
+    {
+      "id": "ru_es_a2:aluminio",
+      "ru": "алюминий",
+      "target": "aluminio"
+    },
+    {
+      "id": "ru_es_a2:anchoa",
+      "ru": "анчоус",
+      "target": "anchoa"
+    },
+    {
+      "id": "ru_es_a2:atún",
+      "ru": "тунец",
+      "target": "atún"
+    },
+    {
+      "id": "ru_es_a2:avena",
+      "ru": "овёс",
+      "target": "avena"
+    },
+    {
+      "id": "ru_es_a2:azafrán",
+      "ru": "шафран",
+      "target": "azafrán"
+    },
+    {
+      "id": "ru_es_a2:bacalao",
+      "ru": "треска",
+      "target": "bacalao"
+    },
+    {
+      "id": "ru_es_a2:batido",
+      "ru": "молочный коктейль",
+      "target": "batido"
+    },
+    {
+      "id": "ru_es_a2:berro",
+      "ru": "кресс-салат",
+      "target": "berro"
+    },
+    {
+      "id": "ru_es_a2:bizcocho",
+      "ru": "бисквит",
+      "target": "bizcocho"
+    },
+    {
+      "id": "ru_es_a2:bombilla",
+      "ru": "лампочка",
+      "target": "bombilla"
+    },
+    {
+      "id": "ru_es_a2:bol",
+      "ru": "миска",
+      "target": "bol"
+    },
+    {
+      "id": "ru_es_a2:bote",
+      "ru": "банка",
+      "target": "bote"
+    },
+    {
+      "id": "ru_es_a2:botiquín",
+      "ru": "аптечка",
+      "target": "botiquín"
+    },
+    {
+      "id": "ru_es_a2:brocha",
+      "ru": "кисть",
+      "target": "brocha"
+    },
+    {
+      "id": "ru_es_a2:buñuelo",
+      "ru": "пончик",
+      "target": "buñuelo"
+    },
+    {
+      "id": "ru_es_a2:calabaza",
+      "ru": "тыква",
+      "target": "calabaza"
+    },
+    {
+      "id": "ru_es_a2:calamar",
+      "ru": "кальмар",
+      "target": "calamar"
+    },
+    {
+      "id": "ru_es_a2:canela",
+      "ru": "корица",
+      "target": "canela"
+    },
+    {
+      "id": "ru_es_a2:cangrejo",
+      "ru": "краб",
+      "target": "cangrejo"
+    },
+    {
+      "id": "ru_es_a2:caqui",
+      "ru": "хурма",
+      "target": "caqui"
+    },
+    {
+      "id": "ru_es_a2:castaña",
+      "ru": "каштан",
+      "target": "castaña"
+    },
+    {
+      "id": "ru_es_a2:cebolleta",
+      "ru": "зелёный лук",
+      "target": "cebolleta"
+    },
+    {
+      "id": "ru_es_a2:centeno",
+      "ru": "рожь",
+      "target": "centeno"
+    },
+    {
+      "id": "ru_es_a2:champiñón",
+      "ru": "шампиньон",
+      "target": "champiñón"
+    },
+    {
+      "id": "ru_es_a2:chorizo",
+      "ru": "колбаса чорисо",
+      "target": "chorizo"
+    },
+    {
+      "id": "ru_es_a2:chuleta",
+      "ru": "отбивная",
+      "target": "chuleta"
+    },
+    {
+      "id": "ru_es_a2:cilantro",
+      "ru": "кориандр",
+      "target": "cilantro"
+    },
+    {
+      "id": "ru_es_a2:coco",
+      "ru": "кокос",
+      "target": "coco"
+    },
+    {
+      "id": "ru_es_a2:coliflor",
+      "ru": "цветная капуста",
+      "target": "coliflor"
+    },
+    {
+      "id": "ru_es_a2:colonia",
+      "ru": "одеколон",
+      "target": "colonia"
+    },
+    {
+      "id": "ru_es_a2:colador",
+      "ru": "дуршлаг",
+      "target": "colador"
+    },
+    {
+      "id": "ru_es_a2:comino",
+      "ru": "кумин",
+      "target": "comino"
+    },
+    {
+      "id": "ru_es_a2:corcho",
+      "ru": "пробка",
+      "target": "corcho"
+    },
+    {
+      "id": "ru_es_a2:costilla",
+      "ru": "ребро",
+      "target": "costilla"
+    },
+    {
+      "id": "ru_es_a2:crema",
+      "ru": "крем",
+      "target": "crema"
+    },
+    {
+      "id": "ru_es_a2:croqueta",
+      "ru": "крокет",
+      "target": "croqueta"
+    },
+    {
+      "id": "ru_es_a2:cucharón",
+      "ru": "половник",
+      "target": "cucharón"
+    },
+    {
+      "id": "ru_es_a2:dátil",
+      "ru": "финик",
+      "target": "dátil"
+    },
+    {
+      "id": "ru_es_a2:delantal",
+      "ru": "фартук",
+      "target": "delantal"
+    },
+    {
+      "id": "ru_es_a2:dentífrico",
+      "ru": "зубная паста",
+      "target": "dentífrico"
+    },
+    {
+      "id": "ru_es_a2:detergente",
+      "ru": "моющее средство",
+      "target": "detergente"
+    },
+    {
+      "id": "ru_es_a2:embudo",
+      "ru": "воронка",
+      "target": "embudo"
+    },
+    {
+      "id": "ru_es_a2:empanada",
+      "ru": "пирог с начинкой",
+      "target": "empanada"
+    },
+    {
+      "id": "ru_es_a2:enchilada",
+      "ru": "энчилада",
+      "target": "enchilada"
+    },
+    {
+      "id": "ru_es_a2:endibia",
+      "ru": "салатный цикорий",
+      "target": "endibia"
+    },
+    {
+      "id": "ru_es_a2:espárrago",
+      "ru": "спаржа",
+      "target": "espárrago"
+    },
+    {
+      "id": "ru_es_a2:esponja",
+      "ru": "губка",
+      "target": "esponja"
+    },
+    {
+      "id": "ru_es_a2:estofado",
+      "ru": "тушёное блюдо",
+      "target": "estofado"
+    },
+    {
+      "id": "ru_es_a2:estuche",
+      "ru": "пенал",
+      "target": "estuche"
+    },
+    {
+      "id": "ru_es_a2:fideo",
+      "ru": "лапша",
+      "target": "fideo"
+    },
+    {
+      "id": "ru_es_a2:filete",
+      "ru": "филе",
+      "target": "filete"
+    },
+    {
+      "id": "ru_es_a2:flan",
+      "ru": "карамельный пудинг",
+      "target": "flan"
+    },
+    {
+      "id": "ru_es_a2:frambuesa",
+      "ru": "малина",
+      "target": "frambuesa"
+    },
+    {
+      "id": "ru_es_a2:fregadero",
+      "ru": "кухонная раковина",
+      "target": "fregadero"
+    },
+    {
+      "id": "ru_es_a2:fregona",
+      "ru": "швабра",
+      "target": "fregona"
+    },
+    {
+      "id": "ru_es_a2:funda",
+      "ru": "чехол",
+      "target": "funda"
+    },
+    {
+      "id": "ru_es_a2:galón",
+      "ru": "галлон",
+      "target": "galón"
+    },
+    {
+      "id": "ru_es_a2:gamba",
+      "ru": "креветка",
+      "target": "gamba"
+    },
+    {
+      "id": "ru_es_a2:garrafa",
+      "ru": "большая бутыль",
+      "target": "garrafa"
+    },
+    {
+      "id": "ru_es_a2:gazpacho",
+      "ru": "гаспачо",
+      "target": "gazpacho"
+    },
+    {
+      "id": "ru_es_a2:granada",
+      "ru": "гранат",
+      "target": "granada"
+    },
+    {
+      "id": "ru_es_a2:grosella",
+      "ru": "смородина",
+      "target": "grosella"
+    },
+    {
+      "id": "ru_es_a2:guayaba",
+      "ru": "гуава",
+      "target": "guayaba"
+    },
+    {
+      "id": "ru_es_a2:guiso",
+      "ru": "тушёное блюдо",
+      "target": "guiso"
+    },
+    {
+      "id": "ru_es_a2:habichuela",
+      "ru": "фасоль",
+      "target": "habichuela"
+    },
+    {
+      "id": "ru_es_a2:higo",
+      "ru": "инжир",
+      "target": "higo"
+    },
+    {
+      "id": "ru_es_a2:hilo",
+      "ru": "нить",
+      "target": "hilo"
+    },
+    {
+      "id": "ru_es_a2:hinojo",
+      "ru": "фенхель",
+      "target": "hinojo"
+    },
+    {
+      "id": "ru_es_a2:hojaldre",
+      "ru": "слоёное тесто",
+      "target": "hojaldre"
+    },
+    {
+      "id": "ru_es_a2:impermeable",
+      "ru": "дождевик",
+      "target": "impermeable"
+    },
+    {
+      "id": "ru_es_a2:jengibre",
+      "ru": "имбирь",
+      "target": "jengibre"
+    },
+    {
+      "id": "ru_es_a2:langosta",
+      "ru": "лангуст",
+      "target": "langosta"
+    },
+    {
+      "id": "ru_es_a2:lana",
+      "ru": "шерсть",
+      "target": "lana"
+    },
+    {
+      "id": "ru_es_a2:langostino",
+      "ru": "крупная креветка",
+      "target": "langostino"
+    },
+    {
+      "id": "ru_es_a2:limonada",
+      "ru": "лимонад",
+      "target": "limonada"
+    },
+    {
+      "id": "ru_es_a2:lino",
+      "ru": "лён",
+      "target": "lino"
+    },
+    {
+      "id": "ru_es_a2:lomo",
+      "ru": "корейка",
+      "target": "lomo"
+    },
+    {
+      "id": "ru_es_a2:lupa",
+      "ru": "лупа",
+      "target": "lupa"
+    },
+    {
+      "id": "ru_es_a2:macarrón",
+      "ru": "макаронина",
+      "target": "macarrón"
+    },
+    {
+      "id": "ru_es_a2:maceta",
+      "ru": "цветочный горшок",
+      "target": "maceta"
+    },
+    {
+      "id": "ru_es_a2:magdalena",
+      "ru": "кекс",
+      "target": "magdalena"
+    },
+    {
+      "id": "ru_es_a2:mango",
+      "ru": "манго",
+      "target": "mango"
+    },
+    {
+      "id": "ru_es_a2:manopla",
+      "ru": "рукавица",
+      "target": "manopla"
+    },
+    {
+      "id": "ru_es_a2:marisco",
+      "ru": "морепродукт",
+      "target": "marisco"
+    },
+    {
+      "id": "ru_es_a2:mayonesa",
+      "ru": "майонез",
+      "target": "mayonesa"
+    },
+    {
+      "id": "ru_es_a2:mejillón",
+      "ru": "мидия",
+      "target": "mejillón"
+    },
+    {
+      "id": "ru_es_a2:melocotonero",
+      "ru": "персиковое дерево",
+      "target": "melocotonero"
+    },
+    {
+      "id": "ru_es_a2:melisa",
+      "ru": "мелисса",
+      "target": "melisa"
+    },
+    {
+      "id": "ru_es_a2:merluza",
+      "ru": "хек",
+      "target": "merluza"
+    },
+    {
+      "id": "ru_es_a2:mora",
+      "ru": "ежевика",
+      "target": "mora"
+    },
+    {
+      "id": "ru_es_a2:mostaza",
+      "ru": "горчица",
+      "target": "mostaza"
+    },
+    {
+      "id": "ru_es_a2:natilla",
+      "ru": "заварной крем",
+      "target": "natilla"
+    },
+    {
+      "id": "ru_es_a2:nectarina",
+      "ru": "нектарин",
+      "target": "nectarina"
+    },
+    {
+      "id": "ru_es_a2:níspero",
+      "ru": "мушмула",
+      "target": "níspero"
+    },
+    {
+      "id": "ru_es_a2:orégano",
+      "ru": "душица",
+      "target": "orégano"
+    },
+    {
+      "id": "ru_es_a2:paella",
+      "ru": "паэлья",
+      "target": "paella"
+    },
+    {
+      "id": "ru_es_a2:palillo",
+      "ru": "зубочистка",
+      "target": "palillo"
+    },
+    {
+      "id": "ru_es_a2:papaya",
+      "ru": "папайя",
+      "target": "papaya"
+    },
+    {
+      "id": "ru_es_a2:papelera",
+      "ru": "мусорная корзина",
+      "target": "papelera"
+    },
+    {
+      "id": "ru_es_a2:pimentón",
+      "ru": "молотый красный перец",
+      "target": "pimentón"
+    },
+    {
+      "id": "ru_es_a2:pasador",
+      "ru": "заколка",
+      "target": "pasador"
+    },
+    {
+      "id": "ru_es_a2:pavo",
+      "ru": "индейка",
+      "target": "pavo"
+    },
+    {
+      "id": "ru_es_a2:perejil",
+      "ru": "петрушка",
+      "target": "perejil"
+    },
+    {
+      "id": "ru_es_a2:percha",
+      "ru": "вешалка",
+      "target": "percha"
+    },
+    {
+      "id": "ru_es_a2:persiana",
+      "ru": "жалюзи",
+      "target": "persiana"
+    },
+    {
+      "id": "ru_es_a2:pesa",
+      "ru": "гиря",
+      "target": "pesa"
+    },
+    {
+      "id": "ru_es_a2:pijama",
+      "ru": "пижама",
+      "target": "pijama"
+    },
+    {
+      "id": "ru_es_a2:pistacho",
+      "ru": "фисташка",
+      "target": "pistacho"
+    },
+    {
+      "id": "ru_es_a2:pomelo",
+      "ru": "грейпфрут",
+      "target": "pomelo"
+    },
+    {
+      "id": "ru_es_a2:puré",
+      "ru": "пюре",
+      "target": "puré"
+    },
+    {
+      "id": "ru_es_a2:puerro",
+      "ru": "лук-порей",
+      "target": "puerro"
+    },
+    {
+      "id": "ru_es_a2:pulpo",
+      "ru": "осьминог",
+      "target": "pulpo"
+    },
+    {
+      "id": "ru_es_a2:rábano",
+      "ru": "редис",
+      "target": "rábano"
+    },
+    {
+      "id": "ru_es_a2:rebanada",
+      "ru": "ломтик",
+      "target": "rebanada"
+    },
+    {
+      "id": "ru_es_a2:receta",
+      "ru": "рецепт",
+      "target": "receta"
+    },
+    {
+      "id": "ru_es_a2:remolacha",
+      "ru": "свёкла",
+      "target": "remolacha"
+    },
+    {
+      "id": "ru_es_a2:repollo",
+      "ru": "кочанная капуста",
+      "target": "repollo"
+    },
+    {
+      "id": "ru_es_a2:romero",
+      "ru": "розмарин",
+      "target": "romero"
+    },
+    {
+      "id": "ru_es_a2:rosquilla",
+      "ru": "бублик",
+      "target": "rosquilla"
+    },
+    {
+      "id": "ru_es_a2:sacacorchos",
+      "ru": "штопор",
+      "target": "sacacorchos"
+    },
+    {
+      "id": "ru_es_a2:salmón",
+      "ru": "лосось",
+      "target": "salmón"
+    },
+    {
+      "id": "ru_es_a2:sardina",
+      "ru": "сардина",
+      "target": "sardina"
+    },
+    {
+      "id": "ru_es_a2:salchichón",
+      "ru": "сырокопчёная колбаса",
+      "target": "salchichón"
+    },
+    {
+      "id": "ru_es_a2:satén",
+      "ru": "сатин",
+      "target": "satén"
+    },
+    {
+      "id": "ru_es_a2:seda",
+      "ru": "шёлк",
+      "target": "seda"
+    },
+    {
+      "id": "ru_es_a2:sémola",
+      "ru": "манная крупа",
+      "target": "sémola"
+    },
+    {
+      "id": "ru_es_a2:sésamo",
+      "ru": "кунжут",
+      "target": "sésamo"
+    },
+    {
+      "id": "ru_es_a2:taburete",
+      "ru": "табурет",
+      "target": "taburete"
+    },
+    {
+      "id": "ru_es_a2:tapón",
+      "ru": "пробка",
+      "target": "tapón"
+    },
+    {
+      "id": "ru_es_a2:tetera",
+      "ru": "чайник",
+      "target": "tetera"
+    },
+    {
+      "id": "ru_es_a2:tomillo",
+      "ru": "тимьян",
+      "target": "tomillo"
+    },
+    {
+      "id": "ru_es_a2:tostada",
+      "ru": "тост",
+      "target": "tostada"
+    },
+    {
+      "id": "ru_es_a2:trapo",
+      "ru": "тряпка",
+      "target": "trapo"
+    },
+    {
+      "id": "ru_es_a2:trigo",
+      "ru": "пшеница",
+      "target": "trigo"
+    },
+    {
+      "id": "ru_es_a2:trucha",
+      "ru": "форель",
+      "target": "trucha"
+    },
+    {
+      "id": "ru_es_a2:táper",
+      "ru": "пищевой контейнер",
+      "target": "táper"
+    },
+    {
+      "id": "ru_es_a2:vajilla",
+      "ru": "посуда",
+      "target": "vajilla"
+    },
+    {
+      "id": "ru_es_a2:vela",
+      "ru": "свеча",
+      "target": "vela"
+    },
+    {
+      "id": "ru_es_a2:yema",
+      "ru": "желток",
+      "target": "yema"
+    },
+    {
+      "id": "ru_es_a2:yeso",
+      "ru": "гипс",
+      "target": "yeso"
+    },
+    {
+      "id": "ru_es_a2:alergia",
+      "ru": "аллергия",
+      "target": "alergia"
+    },
+    {
+      "id": "ru_es_a2:análisis",
+      "ru": "анализ",
+      "target": "análisis"
+    },
+    {
+      "id": "ru_es_a2:antibiótico",
+      "ru": "антибиотик",
+      "target": "antibiótico"
+    },
+    {
+      "id": "ru_es_a2:apetito",
+      "ru": "аппетит",
+      "target": "apetito"
+    },
+    {
+      "id": "ru_es_a2:articulación",
+      "ru": "сустав",
+      "target": "articulación"
+    },
+    {
+      "id": "ru_es_a2:bastón",
+      "ru": "трость",
+      "target": "bastón"
+    },
+    {
+      "id": "ru_es_a2:cerebro",
+      "ru": "головной мозг",
+      "target": "cerebro"
+    },
+    {
+      "id": "ru_es_a2:cicatriz",
+      "ru": "шрам",
+      "target": "cicatriz"
+    },
+    {
+      "id": "ru_es_a2:cita",
+      "ru": "назначенная встреча",
+      "target": "cita"
+    },
+    {
+      "id": "ru_es_a2:cirujano",
+      "ru": "хирург",
+      "target": "cirujano"
+    },
+    {
+      "id": "ru_es_a2:codo",
+      "ru": "локоть",
+      "target": "codo"
+    },
+    {
+      "id": "ru_es_a2:columna",
+      "ru": "позвоночник",
+      "target": "columna"
+    },
+    {
+      "id": "ru_es_a2:consulta",
+      "ru": "консультация",
+      "target": "consulta"
+    },
+    {
+      "id": "ru_es_a2:dentadura",
+      "ru": "зубной ряд",
+      "target": "dentadura"
+    },
+    {
+      "id": "ru_es_a2:desmayo",
+      "ru": "обморок",
+      "target": "desmayo"
+    },
+    {
+      "id": "ru_es_a2:diarrea",
+      "ru": "диарея",
+      "target": "diarrea"
+    },
+    {
+      "id": "ru_es_a2:dieta",
+      "ru": "диета",
+      "target": "dieta"
+    },
+    {
+      "id": "ru_es_a2:embarazo",
+      "ru": "беременность",
+      "target": "embarazo"
+    },
+    {
+      "id": "ru_es_a2:emergencia",
+      "ru": "чрезвычайная ситуация",
+      "target": "emergencia"
+    },
+    {
+      "id": "ru_es_a2:enfermería",
+      "ru": "сестринское дело",
+      "target": "enfermería"
+    },
+    {
+      "id": "ru_es_a2:espina",
+      "ru": "колючка",
+      "target": "espina"
+    },
+    {
+      "id": "ru_es_a2:estreñimiento",
+      "ru": "запор",
+      "target": "estreñimiento"
+    },
+    {
+      "id": "ru_es_a2:fractura",
+      "ru": "перелом",
+      "target": "fractura"
+    },
+    {
+      "id": "ru_es_a2:garganta",
+      "ru": "горло",
+      "target": "garganta"
+    },
+    {
+      "id": "ru_es_a2:gripe",
+      "ru": "грипп",
+      "target": "gripe"
+    },
+    {
+      "id": "ru_es_a2:herida",
+      "ru": "рана",
+      "target": "herida"
+    },
+    {
+      "id": "ru_es_a2:hígado",
+      "ru": "печень",
+      "target": "hígado"
+    },
+    {
+      "id": "ru_es_a2:inyección",
+      "ru": "укол",
+      "target": "inyección"
+    },
+    {
+      "id": "ru_es_a2:mareo",
+      "ru": "головокружение",
+      "target": "mareo"
+    },
+    {
+      "id": "ru_es_a2:mejilla",
+      "ru": "щека",
+      "target": "mejilla"
+    },
+    {
+      "id": "ru_es_a2:muela",
+      "ru": "коренной зуб",
+      "target": "muela"
+    },
+    {
+      "id": "ru_es_a2:muñeca",
+      "ru": "запястье",
+      "target": "muñeca"
+    },
+    {
+      "id": "ru_es_a2:músculo",
+      "ru": "мышца",
+      "target": "músculo"
+    },
+    {
+      "id": "ru_es_a2:ombligo",
+      "ru": "пупок",
+      "target": "ombligo"
+    },
+    {
+      "id": "ru_es_a2:operación",
+      "ru": "операция",
+      "target": "operación"
+    },
+    {
+      "id": "ru_es_a2:pulmón",
+      "ru": "лёгкое",
+      "target": "pulmón"
+    },
+    {
+      "id": "ru_es_a2:pulso",
+      "ru": "пульс",
+      "target": "pulso"
+    },
+    {
+      "id": "ru_es_a2:quemadura",
+      "ru": "ожог",
+      "target": "quemadura"
+    },
+    {
+      "id": "ru_es_a2:radiografía",
+      "ru": "рентгеновский снимок",
+      "target": "radiografía"
+    },
+    {
+      "id": "ru_es_a2:riñón",
+      "ru": "почка",
+      "target": "riñón"
+    },
+    {
+      "id": "ru_es_a2:sanitario",
+      "ru": "медицинский",
+      "target": "sanitario"
+    },
+    {
+      "id": "ru_es_a2:talón",
+      "ru": "пятка",
+      "target": "talón"
+    },
+    {
+      "id": "ru_es_a2:termómetro",
+      "ru": "термометр",
+      "target": "termómetro"
+    },
+    {
+      "id": "ru_es_a2:tobillo",
+      "ru": "лодыжка",
+      "target": "tobillo"
+    },
+    {
+      "id": "ru_es_a2:tratamiento",
+      "ru": "лечение",
+      "target": "tratamiento"
+    },
+    {
+      "id": "ru_es_a2:vacuna",
+      "ru": "вакцина",
+      "target": "vacuna"
+    },
+    {
+      "id": "ru_es_a2:venda",
+      "ru": "бинт",
+      "target": "venda"
+    },
+    {
+      "id": "ru_es_a2:vómito",
+      "ru": "рвота",
+      "target": "vómito"
+    },
+    {
+      "id": "ru_es_a2:urgencia",
+      "ru": "неотложность",
+      "target": "urgencia"
+    },
+    {
+      "id": "ru_es_a2:adolescente",
+      "ru": "подросток",
+      "target": "adolescente"
+    },
+    {
+      "id": "ru_es_a2:antepasado",
+      "ru": "предок",
+      "target": "antepasado"
+    },
+    {
+      "id": "ru_es_a2:boda",
+      "ru": "свадьба",
+      "target": "boda"
+    },
+    {
+      "id": "ru_es_a2:divorcio",
+      "ru": "развод",
+      "target": "divorcio"
+    },
+    {
+      "id": "ru_es_a2:esposo",
+      "ru": "супруг",
+      "target": "esposo"
+    },
+    {
+      "id": "ru_es_a2:gemelo",
+      "ru": "близнец",
+      "target": "gemelo"
+    },
+    {
+      "id": "ru_es_a2:hogar",
+      "ru": "домашний очаг",
+      "target": "hogar"
+    },
+    {
+      "id": "ru_es_a2:huérfano",
+      "ru": "сирота",
+      "target": "huérfano"
+    },
+    {
+      "id": "ru_es_a2:madrina",
+      "ru": "крёстная мать",
+      "target": "madrina"
+    },
+    {
+      "id": "ru_es_a2:mascota",
+      "ru": "домашний питомец",
+      "target": "mascota"
+    },
+    {
+      "id": "ru_es_a2:nacimiento",
+      "ru": "рождение",
+      "target": "nacimiento"
+    },
+    {
+      "id": "ru_es_a2:padrastro",
+      "ru": "отчим",
+      "target": "padrastro"
+    },
+    {
+      "id": "ru_es_a2:padrino",
+      "ru": "крёстный отец",
+      "target": "padrino"
+    },
+    {
+      "id": "ru_es_a2:pariente",
+      "ru": "родственник",
+      "target": "pariente"
+    },
+    {
+      "id": "ru_es_a2:sobrino",
+      "ru": "племянник",
+      "target": "sobrino"
+    },
+    {
+      "id": "ru_es_a2:suegro",
+      "ru": "свёкор",
+      "target": "suegro"
+    },
+    {
+      "id": "ru_es_a2:viudo",
+      "ru": "вдовец",
+      "target": "viudo"
+    },
+    {
+      "id": "ru_es_a2:yerno",
+      "ru": "зять",
+      "target": "yerno"
+    },
+    {
+      "id": "ru_es_a2:nuera",
+      "ru": "невестка",
+      "target": "nuera"
+    },
+    {
+      "id": "ru_es_a2:madrastra",
+      "ru": "мачеха",
+      "target": "madrastra"
+    },
+    {
+      "id": "ru_es_a2:bisabuelo",
+      "ru": "прадед",
+      "target": "bisabuelo"
+    },
+    {
+      "id": "ru_es_a2:cuñado",
+      "ru": "шурин",
+      "target": "cuñado"
+    },
+    {
+      "id": "ru_es_a2:heredero",
+      "ru": "наследник",
+      "target": "heredero"
+    },
+    {
+      "id": "ru_es_a2:matrimonio",
+      "ru": "брак",
+      "target": "matrimonio"
+    },
+    {
+      "id": "ru_es_a2:convivencia",
+      "ru": "совместная жизнь",
+      "target": "convivencia"
+    },
+    {
+      "id": "ru_es_a2:invitado",
+      "ru": "гость",
+      "target": "invitado"
+    },
+    {
+      "id": "ru_es_a2:aniversario",
+      "ru": "годовщина",
+      "target": "aniversario"
+    },
+    {
+      "id": "ru_es_a2:ceremonia",
+      "ru": "церемония",
+      "target": "ceremonia"
+    },
+    {
+      "id": "ru_es_a2:entierro",
+      "ru": "похороны",
+      "target": "entierro"
+    },
+    {
+      "id": "ru_es_a2:bautizo",
+      "ru": "крещение",
+      "target": "bautizo"
+    },
+    {
+      "id": "ru_es_a2:celebración",
+      "ru": "празднование",
+      "target": "celebración"
+    },
+    {
+      "id": "ru_es_a2:cariño",
+      "ru": "привязанность",
+      "target": "cariño"
+    },
+    {
+      "id": "ru_es_a2:enfado",
+      "ru": "злость",
+      "target": "enfado"
+    },
+    {
+      "id": "ru_es_a2:envidia",
+      "ru": "зависть",
+      "target": "envidia"
+    },
+    {
+      "id": "ru_es_a2:celo",
+      "ru": "ревность",
+      "target": "celo"
+    },
+    {
+      "id": "ru_es_a2:orgullo",
+      "ru": "гордость",
+      "target": "orgullo"
+    },
+    {
+      "id": "ru_es_a2:tristeza",
+      "ru": "грусть",
+      "target": "tristeza"
+    },
+    {
+      "id": "ru_es_a2:soledad",
+      "ru": "одиночество",
+      "target": "soledad"
+    },
+    {
+      "id": "ru_es_a2:nervio",
+      "ru": "нерв",
+      "target": "nervio"
+    },
+    {
+      "id": "ru_es_a2:satisfacción",
+      "ru": "удовлетворение",
+      "target": "satisfacción"
+    },
+    {
+      "id": "ru_es_a2:calma",
+      "ru": "спокойствие",
+      "target": "calma"
+    },
+    {
+      "id": "ru_es_a2:aburrimiento",
+      "ru": "скука",
+      "target": "aburrimiento"
+    },
+    {
+      "id": "ru_es_a2:entusiasmo",
+      "ru": "воодушевление",
+      "target": "entusiasmo"
+    },
+    {
+      "id": "ru_es_a2:simpatía",
+      "ru": "симпатия",
+      "target": "simpatía"
+    },
+    {
+      "id": "ru_es_a2:ternura",
+      "ru": "нежность",
+      "target": "ternura"
+    },
+    {
+      "id": "ru_es_a2:ilustración",
+      "ru": "иллюстрация",
+      "target": "ilustración"
+    },
+    {
+      "id": "ru_es_a2:capítulo",
+      "ru": "глава",
+      "target": "capítulo"
+    },
+    {
+      "id": "ru_es_a2:portada",
+      "ru": "обложка",
+      "target": "portada"
+    },
+    {
+      "id": "ru_es_a2:argumento",
+      "ru": "сюжет",
+      "target": "argumento"
+    },
+    {
+      "id": "ru_es_a2:novela",
+      "ru": "роман",
+      "target": "novela"
+    },
+    {
+      "id": "ru_es_a2:poema",
+      "ru": "стихотворение",
+      "target": "poema"
+    },
+    {
+      "id": "ru_es_a2:verso",
+      "ru": "стих",
+      "target": "verso"
+    },
+    {
+      "id": "ru_es_a2:personaje",
+      "ru": "персонаж",
+      "target": "personaje"
+    },
+    {
+      "id": "ru_es_a2:pintura",
+      "ru": "живопись",
+      "target": "pintura"
+    },
+    {
+      "id": "ru_es_a2:escultura",
+      "ru": "скульптура",
+      "target": "escultura"
+    },
+    {
+      "id": "ru_es_a2:exposición",
+      "ru": "выставка",
+      "target": "exposición"
+    },
+    {
+      "id": "ru_es_a2:fotografía",
+      "ru": "фотография",
+      "target": "fotografía"
+    },
+    {
+      "id": "ru_es_a2:retrato",
+      "ru": "портрет",
+      "target": "retrato"
+    },
+    {
+      "id": "ru_es_a2:paisaje",
+      "ru": "пейзаж",
+      "target": "paisaje"
+    },
+    {
+      "id": "ru_es_a2:escenario",
+      "ru": "сцена",
+      "target": "escenario"
+    },
+    {
+      "id": "ru_es_a2:actriz",
+      "ru": "актриса",
+      "target": "actriz"
+    },
+    {
+      "id": "ru_es_a2:espectador",
+      "ru": "зритель",
+      "target": "espectador"
+    },
+    {
+      "id": "ru_es_a2:aplauso",
+      "ru": "аплодисменты",
+      "target": "aplauso"
+    },
+    {
+      "id": "ru_es_a2:violín",
+      "ru": "скрипка",
+      "target": "violín"
+    },
+    {
+      "id": "ru_es_a2:flauta",
+      "ru": "флейта",
+      "target": "flauta"
+    },
+    {
+      "id": "ru_es_a2:tambor",
+      "ru": "барабан",
+      "target": "tambor"
+    },
+    {
+      "id": "ru_es_a2:trompeta",
+      "ru": "труба музыкальная",
+      "target": "trompeta"
+    },
+    {
+      "id": "ru_es_a2:orquesta",
+      "ru": "оркестр",
+      "target": "orquesta"
+    },
+    {
+      "id": "ru_es_a2:coro",
+      "ru": "хор",
+      "target": "coro"
+    },
+    {
+      "id": "ru_es_a2:ritmo",
+      "ru": "ритм",
+      "target": "ritmo"
+    },
+    {
+      "id": "ru_es_a2:melodía",
+      "ru": "мелодия",
+      "target": "melodía"
+    },
+    {
+      "id": "ru_es_a2:instrumento",
+      "ru": "инструмент",
+      "target": "instrumento"
+    },
+    {
+      "id": "ru_es_a2:aurora",
+      "ru": "заря",
+      "target": "aurora"
+    },
+    {
+      "id": "ru_es_a2:arcoíris",
+      "ru": "радуга",
+      "target": "arcoíris"
+    },
+    {
+      "id": "ru_es_a2:ola",
+      "ru": "волна",
+      "target": "ola"
+    },
+    {
+      "id": "ru_es_a2:orilla",
+      "ru": "берег",
+      "target": "orilla"
+    },
+    {
+      "id": "ru_es_a2:valle",
+      "ru": "долина",
+      "target": "valle"
+    },
+    {
+      "id": "ru_es_a2:colina",
+      "ru": "холм",
+      "target": "colina"
+    },
+    {
+      "id": "ru_es_a2:cueva",
+      "ru": "пещера",
+      "target": "cueva"
+    },
+    {
+      "id": "ru_es_a2:desierto",
+      "ru": "пустыня",
+      "target": "desierto"
+    },
+    {
+      "id": "ru_es_a2:selva",
+      "ru": "джунгли",
+      "target": "selva"
+    },
+    {
+      "id": "ru_es_a2:prado",
+      "ru": "луг",
+      "target": "prado"
+    },
+    {
+      "id": "ru_es_a2:sendero",
+      "ru": "тропинка",
+      "target": "sendero"
+    },
+    {
+      "id": "ru_es_a2:raíz",
+      "ru": "корень",
+      "target": "raíz"
+    },
+    {
+      "id": "ru_es_a2:tronco",
+      "ru": "ствол",
+      "target": "tronco"
+    },
+    {
+      "id": "ru_es_a2:rama",
+      "ru": "ветка",
+      "target": "rama"
+    },
+    {
+      "id": "ru_es_a2:semilla",
+      "ru": "семя",
+      "target": "semilla"
+    },
+    {
+      "id": "ru_es_a2:fruto",
+      "ru": "плод",
+      "target": "fruto"
+    },
+    {
+      "id": "ru_es_a2:espiga",
+      "ru": "колос",
+      "target": "espiga"
+    },
+    {
+      "id": "ru_es_a2:musgo",
+      "ru": "мох",
+      "target": "musgo"
+    },
+    {
+      "id": "ru_es_a2:helecho",
+      "ru": "папоротник",
+      "target": "helecho"
+    },
+    {
+      "id": "ru_es_a2:roble",
+      "ru": "дуб",
+      "target": "roble"
+    },
+    {
+      "id": "ru_es_a2:pino",
+      "ru": "сосна",
+      "target": "pino"
+    },
+    {
+      "id": "ru_es_a2:olivo",
+      "ru": "оливковое дерево",
+      "target": "olivo"
+    },
+    {
+      "id": "ru_es_a2:palmera",
+      "ru": "пальма",
+      "target": "palmera"
+    },
+    {
+      "id": "ru_es_a2:abeto",
+      "ru": "пихта",
+      "target": "abeto"
+    },
+    {
+      "id": "ru_es_a2:álamo",
+      "ru": "тополь",
+      "target": "álamo"
+    },
+    {
+      "id": "ru_es_a2:ciprés",
+      "ru": "кипарис",
+      "target": "ciprés"
+    },
+    {
+      "id": "ru_es_a2:eucalipto",
+      "ru": "эвкалипт",
+      "target": "eucalipto"
+    },
+    {
+      "id": "ru_es_a2:almendro",
+      "ru": "миндальное дерево",
+      "target": "almendro"
+    },
+    {
+      "id": "ru_es_a2:naranjo",
+      "ru": "апельсиновое дерево",
+      "target": "naranjo"
+    },
+    {
+      "id": "ru_es_a2:limonero",
+      "ru": "лимонное дерево",
+      "target": "limonero"
+    },
+    {
+      "id": "ru_es_a2:manzano",
+      "ru": "яблоня",
+      "target": "manzano"
+    },
+    {
+      "id": "ru_es_a2:peral",
+      "ru": "груша как дерево",
+      "target": "peral"
+    },
+    {
+      "id": "ru_es_a2:castaño",
+      "ru": "каштановое дерево",
+      "target": "castaño"
+    },
+    {
+      "id": "ru_es_a2:nogal",
+      "ru": "ореховое дерево",
+      "target": "nogal"
+    },
+    {
+      "id": "ru_es_a2:sauce",
+      "ru": "ива",
+      "target": "sauce"
+    },
+    {
+      "id": "ru_es_a2:higuera",
+      "ru": "инжирное дерево",
+      "target": "higuera"
+    },
+    {
+      "id": "ru_es_a2:abejorro",
+      "ru": "шмель",
+      "target": "abejorro"
+    },
+    {
+      "id": "ru_es_a2:avispa",
+      "ru": "оса",
+      "target": "avispa"
+    },
+    {
+      "id": "ru_es_a2:caracol",
+      "ru": "улитка",
+      "target": "caracol"
+    },
+    {
+      "id": "ru_es_a2:gusano",
+      "ru": "червь",
+      "target": "gusano"
+    },
+    {
+      "id": "ru_es_a2:escarabajo",
+      "ru": "жук",
+      "target": "escarabajo"
+    },
+    {
+      "id": "ru_es_a2:grillo",
+      "ru": "сверчок",
+      "target": "grillo"
+    },
+    {
+      "id": "ru_es_a2:saltamontes",
+      "ru": "кузнечик",
+      "target": "saltamontes"
+    },
+    {
+      "id": "ru_es_a2:libélula",
+      "ru": "стрекоза",
+      "target": "libélula"
+    },
+    {
+      "id": "ru_es_a2:mariquita",
+      "ru": "божья коровка",
+      "target": "mariquita"
+    },
+    {
+      "id": "ru_es_a2:murciélago",
+      "ru": "летучая мышь",
+      "target": "murciélago"
+    },
+    {
+      "id": "ru_es_a2:erizo",
+      "ru": "ёж",
+      "target": "erizo"
+    },
+    {
+      "id": "ru_es_a2:ardilla",
+      "ru": "белка",
+      "target": "ardilla"
+    },
+    {
+      "id": "ru_es_a2:jabalí",
+      "ru": "кабан",
+      "target": "jabalí"
+    },
+    {
+      "id": "ru_es_a2:burro",
+      "ru": "осёл",
+      "target": "burro"
+    },
+    {
+      "id": "ru_es_a2:mula",
+      "ru": "мул",
+      "target": "mula"
+    },
+    {
+      "id": "ru_es_a2:toro",
+      "ru": "бык",
+      "target": "toro"
+    },
+    {
+      "id": "ru_es_a2:ternero",
+      "ru": "телёнок",
+      "target": "ternero"
+    },
+    {
+      "id": "ru_es_a2:potro",
+      "ru": "жеребёнок",
+      "target": "potro"
+    },
+    {
+      "id": "ru_es_a2:cordero",
+      "ru": "ягнёнок",
+      "target": "cordero"
+    },
+    {
+      "id": "ru_es_a2:gallo",
+      "ru": "петух",
+      "target": "gallo"
+    },
+    {
+      "id": "ru_es_a2:gorrión",
+      "ru": "воробей",
+      "target": "gorrión"
+    },
+    {
+      "id": "ru_es_a2:golondrina",
+      "ru": "ласточка",
+      "target": "golondrina"
+    },
+    {
+      "id": "ru_es_a2:cuervo",
+      "ru": "ворон",
+      "target": "cuervo"
+    },
+    {
+      "id": "ru_es_a2:gaviota",
+      "ru": "чайка",
+      "target": "gaviota"
+    },
+    {
+      "id": "ru_es_a2:cigüeña",
+      "ru": "аист",
+      "target": "cigüeña"
+    },
+    {
+      "id": "ru_es_a2:pingüino",
+      "ru": "пингвин",
+      "target": "pingüino"
+    },
+    {
+      "id": "ru_es_a2:cisne",
+      "ru": "лебедь",
+      "target": "cisne"
+    },
+    {
+      "id": "ru_es_a2:hámster",
+      "ru": "хомяк",
+      "target": "hámster"
+    },
+    {
+      "id": "ru_es_a2:foca",
+      "ru": "тюлень",
+      "target": "foca"
+    },
+    {
+      "id": "ru_es_a2:pulga",
+      "ru": "блоха",
+      "target": "pulga"
+    },
+    {
+      "id": "ru_es_a2:piojo",
+      "ru": "вошь",
+      "target": "piojo"
+    },
+    {
+      "id": "ru_es_a2:medusa",
+      "ru": "медуза",
+      "target": "medusa"
+    },
+    {
+      "id": "ru_es_a2:lagarto",
+      "ru": "ящерица",
+      "target": "lagarto"
+    },
+    {
+      "id": "ru_es_a2:camaleón",
+      "ru": "хамелеон",
+      "target": "camaleón"
+    },
+    {
+      "id": "ru_es_a2:alejar",
+      "ru": "отдалять",
+      "target": "alejar"
+    },
+    {
+      "id": "ru_es_a2:acercar",
+      "ru": "приближать",
+      "target": "acercar"
+    },
+    {
+      "id": "ru_es_a2:describir",
+      "ru": "описывать",
+      "target": "describir"
+    },
+    {
+      "id": "ru_es_a2:distraer",
+      "ru": "отвлекать",
+      "target": "distraer"
+    },
+    {
+      "id": "ru_es_a2:desconectar",
+      "ru": "отключать",
+      "target": "desconectar"
+    },
+    {
+      "id": "ru_es_a2:entretenimiento",
+      "ru": "развлечение",
+      "target": "entretenimiento"
+    },
+    {
+      "id": "ru_es_a2:escapada",
+      "ru": "короткая поездка",
+      "target": "escapada"
+    },
+    {
+      "id": "ru_es_a2:chapuzón",
+      "ru": "купание с погружением",
+      "target": "chapuzón"
+    },
+    {
+      "id": "ru_es_a2:merienda",
+      "ru": "полдник",
+      "target": "merienda"
+    },
+    {
+      "id": "ru_es_a2:tentempié",
+      "ru": "перекус",
+      "target": "tentempié"
+    },
+    {
+      "id": "ru_es_a2:tablero",
+      "ru": "доска",
+      "target": "tablero"
+    },
+    {
+      "id": "ru_es_a2:dominó",
+      "ru": "домино",
+      "target": "dominó"
+    },
+    {
+      "id": "ru_es_a2:ajedrez",
+      "ru": "шахматы",
+      "target": "ajedrez"
+    },
+    {
+      "id": "ru_es_a2:dado",
+      "ru": "игральная кость",
+      "target": "dado"
+    },
+    {
+      "id": "ru_es_a2:rompecabezas",
+      "ru": "головоломка",
+      "target": "rompecabezas"
+    },
+    {
+      "id": "ru_es_a2:cometa",
+      "ru": "воздушный змей",
+      "target": "cometa"
+    },
+    {
+      "id": "ru_es_a2:peonza",
+      "ru": "волчок",
+      "target": "peonza"
+    },
+    {
+      "id": "ru_es_a2:canica",
+      "ru": "игральный шарик",
+      "target": "canica"
+    },
+    {
+      "id": "ru_es_a2:columpio",
+      "ru": "качели",
+      "target": "columpio"
+    },
+    {
+      "id": "ru_es_a2:tobogán",
+      "ru": "горка",
+      "target": "tobogán"
+    }
+  ]
+}

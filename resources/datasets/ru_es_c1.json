@@ -1,0 +1,4764 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_c1",
+  "description": "Испанские слова ru_es_c1",
+  "profile": "spanish-words",
+  "level": "c1",
+  "entries": [
+    {
+      "id": "ru_es_c1:abstracción",
+      "ru": "абстракция",
+      "target": "abstracción"
+    },
+    {
+      "id": "ru_es_c1:absolutismo",
+      "ru": "абсолютизм",
+      "target": "absolutismo"
+    },
+    {
+      "id": "ru_es_c1:abstinencia",
+      "ru": "воздержание",
+      "target": "abstinencia"
+    },
+    {
+      "id": "ru_es_c1:absurdo",
+      "ru": "нелепость",
+      "target": "absurdo"
+    },
+    {
+      "id": "ru_es_c1:acatamiento",
+      "ru": "подчинение",
+      "target": "acatamiento"
+    },
+    {
+      "id": "ru_es_c1:acervo",
+      "ru": "совокупное достояние",
+      "target": "acervo"
+    },
+    {
+      "id": "ru_es_c1:acreditación",
+      "ru": "аккредитация",
+      "target": "acreditación"
+    },
+    {
+      "id": "ru_es_c1:acumulación",
+      "ru": "накопление",
+      "target": "acumulación"
+    },
+    {
+      "id": "ru_es_c1:adecuación",
+      "ru": "соответствие",
+      "target": "adecuación"
+    },
+    {
+      "id": "ru_es_c1:adhesión",
+      "ru": "присоединение",
+      "target": "adhesión"
+    },
+    {
+      "id": "ru_es_c1:adjudicación",
+      "ru": "присуждение",
+      "target": "adjudicación"
+    },
+    {
+      "id": "ru_es_c1:admisibilidad",
+      "ru": "допустимость",
+      "target": "admisibilidad"
+    },
+    {
+      "id": "ru_es_c1:adopción",
+      "ru": "принятие",
+      "target": "adopción"
+    },
+    {
+      "id": "ru_es_c1:adversidad",
+      "ru": "невзгоды",
+      "target": "adversidad"
+    },
+    {
+      "id": "ru_es_c1:afinidad",
+      "ru": "сходство",
+      "target": "afinidad"
+    },
+    {
+      "id": "ru_es_c1:afirmación",
+      "ru": "утверждение",
+      "target": "afirmación"
+    },
+    {
+      "id": "ru_es_c1:agilidad",
+      "ru": "проворство",
+      "target": "agilidad"
+    },
+    {
+      "id": "ru_es_c1:agravio",
+      "ru": "оскорбление",
+      "target": "agravio"
+    },
+    {
+      "id": "ru_es_c1:aleatoriedad",
+      "ru": "случайность",
+      "target": "aleatoriedad"
+    },
+    {
+      "id": "ru_es_c1:alegación",
+      "ru": "довод",
+      "target": "alegación"
+    },
+    {
+      "id": "ru_es_c1:alienación",
+      "ru": "отчуждение",
+      "target": "alienación"
+    },
+    {
+      "id": "ru_es_c1:altruismo",
+      "ru": "альтруизм",
+      "target": "altruismo"
+    },
+    {
+      "id": "ru_es_c1:ambigüedad",
+      "ru": "двусмысленность",
+      "target": "ambigüedad"
+    },
+    {
+      "id": "ru_es_c1:ambivalencia",
+      "ru": "двойственность",
+      "target": "ambivalencia"
+    },
+    {
+      "id": "ru_es_c1:amparo",
+      "ru": "защита",
+      "target": "amparo"
+    },
+    {
+      "id": "ru_es_c1:analogía",
+      "ru": "аналогия",
+      "target": "analogía"
+    },
+    {
+      "id": "ru_es_c1:anarquía",
+      "ru": "анархия",
+      "target": "anarquía"
+    },
+    {
+      "id": "ru_es_c1:anhelo",
+      "ru": "сильное желание",
+      "target": "anhelo"
+    },
+    {
+      "id": "ru_es_c1:anomalía",
+      "ru": "отклонение от нормы",
+      "target": "anomalía"
+    },
+    {
+      "id": "ru_es_c1:antagonismo",
+      "ru": "противостояние",
+      "target": "antagonismo"
+    },
+    {
+      "id": "ru_es_c1:anticipación",
+      "ru": "предвосхищение",
+      "target": "anticipación"
+    },
+    {
+      "id": "ru_es_c1:antigüedad",
+      "ru": "древность",
+      "target": "antigüedad"
+    },
+    {
+      "id": "ru_es_c1:apaciguamiento",
+      "ru": "умиротворение",
+      "target": "apaciguamiento"
+    },
+    {
+      "id": "ru_es_c1:apariencia",
+      "ru": "видимость",
+      "target": "apariencia"
+    },
+    {
+      "id": "ru_es_c1:apelación",
+      "ru": "обжалование",
+      "target": "apelación"
+    },
+    {
+      "id": "ru_es_c1:apogeo",
+      "ru": "расцвет",
+      "target": "apogeo"
+    },
+    {
+      "id": "ru_es_c1:apología",
+      "ru": "защита учения",
+      "target": "apología"
+    },
+    {
+      "id": "ru_es_c1:aprensión",
+      "ru": "опасение",
+      "target": "aprensión"
+    },
+    {
+      "id": "ru_es_c1:arbitrariedad",
+      "ru": "произвол",
+      "target": "arbitrariedad"
+    },
+    {
+      "id": "ru_es_c1:arquetipo",
+      "ru": "архетип",
+      "target": "arquetipo"
+    },
+    {
+      "id": "ru_es_c1:arraigo",
+      "ru": "укоренённость",
+      "target": "arraigo"
+    },
+    {
+      "id": "ru_es_c1:ascendencia",
+      "ru": "происхождение",
+      "target": "ascendencia"
+    },
+    {
+      "id": "ru_es_c1:asentimiento",
+      "ru": "согласие",
+      "target": "asentimiento"
+    },
+    {
+      "id": "ru_es_c1:asimilación",
+      "ru": "усвоение",
+      "target": "asimilación"
+    },
+    {
+      "id": "ru_es_c1:asociación",
+      "ru": "объединение",
+      "target": "asociación"
+    },
+    {
+      "id": "ru_es_c1:aspereza",
+      "ru": "шероховатость",
+      "target": "aspereza"
+    },
+    {
+      "id": "ru_es_c1:asunción",
+      "ru": "принятие на себя",
+      "target": "asunción"
+    },
+    {
+      "id": "ru_es_c1:atenuación",
+      "ru": "смягчение",
+      "target": "atenuación"
+    },
+    {
+      "id": "ru_es_c1:atribución",
+      "ru": "приписывание",
+      "target": "atribución"
+    },
+    {
+      "id": "ru_es_c1:audacia",
+      "ru": "смелость",
+      "target": "audacia"
+    },
+    {
+      "id": "ru_es_c1:auspicio",
+      "ru": "покровительство",
+      "target": "auspicio"
+    },
+    {
+      "id": "ru_es_c1:autenticidad",
+      "ru": "подлинность",
+      "target": "autenticidad"
+    },
+    {
+      "id": "ru_es_c1:autocrítica",
+      "ru": "самокритика",
+      "target": "autocrítica"
+    },
+    {
+      "id": "ru_es_c1:autodeterminación",
+      "ru": "самоопределение",
+      "target": "autodeterminación"
+    },
+    {
+      "id": "ru_es_c1:autonomía",
+      "ru": "автономия",
+      "target": "autonomía"
+    },
+    {
+      "id": "ru_es_c1:axioma",
+      "ru": "аксиома",
+      "target": "axioma"
+    },
+    {
+      "id": "ru_es_c1:bagaje",
+      "ru": "накопленный опыт",
+      "target": "bagaje"
+    },
+    {
+      "id": "ru_es_c1:banalidad",
+      "ru": "банальность",
+      "target": "banalidad"
+    },
+    {
+      "id": "ru_es_c1:benevolencia",
+      "ru": "доброжелательность",
+      "target": "benevolencia"
+    },
+    {
+      "id": "ru_es_c1:bienestar",
+      "ru": "благополучие",
+      "target": "bienestar"
+    },
+    {
+      "id": "ru_es_c1:brevedad",
+      "ru": "краткость",
+      "target": "brevedad"
+    },
+    {
+      "id": "ru_es_c1:caducidad",
+      "ru": "истечение срока",
+      "target": "caducidad"
+    },
+    {
+      "id": "ru_es_c1:calamidad",
+      "ru": "бедствие",
+      "target": "calamidad"
+    },
+    {
+      "id": "ru_es_c1:calumnia",
+      "ru": "клевета",
+      "target": "calumnia"
+    },
+    {
+      "id": "ru_es_c1:canon",
+      "ru": "общепринятый образец",
+      "target": "canon"
+    },
+    {
+      "id": "ru_es_c1:carencia",
+      "ru": "нехватка",
+      "target": "carencia"
+    },
+    {
+      "id": "ru_es_c1:carisma",
+      "ru": "харизма",
+      "target": "carisma"
+    },
+    {
+      "id": "ru_es_c1:casualidad",
+      "ru": "случайность",
+      "target": "casualidad"
+    },
+    {
+      "id": "ru_es_c1:causalidad",
+      "ru": "причинность",
+      "target": "causalidad"
+    },
+    {
+      "id": "ru_es_c1:cautela",
+      "ru": "осторожность",
+      "target": "cautela"
+    },
+    {
+      "id": "ru_es_c1:censura",
+      "ru": "цензура",
+      "target": "censura"
+    },
+    {
+      "id": "ru_es_c1:certidumbre",
+      "ru": "уверенность",
+      "target": "certidumbre"
+    },
+    {
+      "id": "ru_es_c1:cesión",
+      "ru": "уступка права",
+      "target": "cesión"
+    },
+    {
+      "id": "ru_es_c1:circunstancia",
+      "ru": "обстоятельство",
+      "target": "circunstancia"
+    },
+    {
+      "id": "ru_es_c1:civilización",
+      "ru": "цивилизация",
+      "target": "civilización"
+    },
+    {
+      "id": "ru_es_c1:clarividencia",
+      "ru": "проницательность",
+      "target": "clarividencia"
+    },
+    {
+      "id": "ru_es_c1:coacción",
+      "ru": "принуждение",
+      "target": "coacción"
+    },
+    {
+      "id": "ru_es_c1:coherencia",
+      "ru": "согласованность",
+      "target": "coherencia"
+    },
+    {
+      "id": "ru_es_c1:cohesión",
+      "ru": "сплочённость",
+      "target": "cohesión"
+    },
+    {
+      "id": "ru_es_c1:coincidencia",
+      "ru": "совпадение",
+      "target": "coincidencia"
+    },
+    {
+      "id": "ru_es_c1:colectividad",
+      "ru": "сообщество",
+      "target": "colectividad"
+    },
+    {
+      "id": "ru_es_c1:colisión",
+      "ru": "столкновение",
+      "target": "colisión"
+    },
+    {
+      "id": "ru_es_c1:compasión",
+      "ru": "сострадание",
+      "target": "compasión"
+    },
+    {
+      "id": "ru_es_c1:compatibilidad",
+      "ru": "совместимость",
+      "target": "compatibilidad"
+    },
+    {
+      "id": "ru_es_c1:complacencia",
+      "ru": "самодовольство",
+      "target": "complacencia"
+    },
+    {
+      "id": "ru_es_c1:complejidad",
+      "ru": "сложность",
+      "target": "complejidad"
+    },
+    {
+      "id": "ru_es_c1:complicidad",
+      "ru": "соучастие",
+      "target": "complicidad"
+    },
+    {
+      "id": "ru_es_c1:composición",
+      "ru": "состав",
+      "target": "composición"
+    },
+    {
+      "id": "ru_es_c1:comprensión",
+      "ru": "понимание",
+      "target": "comprensión"
+    },
+    {
+      "id": "ru_es_c1:concepción",
+      "ru": "представление",
+      "target": "concepción"
+    },
+    {
+      "id": "ru_es_c1:concesión",
+      "ru": "уступка",
+      "target": "concesión"
+    },
+    {
+      "id": "ru_es_c1:conciliación",
+      "ru": "примирение",
+      "target": "conciliación"
+    },
+    {
+      "id": "ru_es_c1:concordancia",
+      "ru": "согласование",
+      "target": "concordancia"
+    },
+    {
+      "id": "ru_es_c1:concreción",
+      "ru": "конкретизация",
+      "target": "concreción"
+    },
+    {
+      "id": "ru_es_c1:concurrencia",
+      "ru": "одновременное совпадение",
+      "target": "concurrencia"
+    },
+    {
+      "id": "ru_es_c1:condescendencia",
+      "ru": "снисходительность",
+      "target": "condescendencia"
+    },
+    {
+      "id": "ru_es_c1:conjetura",
+      "ru": "предположение",
+      "target": "conjetura"
+    },
+    {
+      "id": "ru_es_c1:connivencia",
+      "ru": "попустительство",
+      "target": "connivencia"
+    },
+    {
+      "id": "ru_es_c1:connotación",
+      "ru": "смысловой оттенок",
+      "target": "connotación"
+    },
+    {
+      "id": "ru_es_c1:consagración",
+      "ru": "посвящение",
+      "target": "consagración"
+    },
+    {
+      "id": "ru_es_c1:consenso",
+      "ru": "общее согласие",
+      "target": "consenso"
+    },
+    {
+      "id": "ru_es_c1:conservadurismo",
+      "ru": "консерватизм",
+      "target": "conservadurismo"
+    },
+    {
+      "id": "ru_es_c1:consistencia",
+      "ru": "устойчивость",
+      "target": "consistencia"
+    },
+    {
+      "id": "ru_es_c1:consolidación",
+      "ru": "укрепление",
+      "target": "consolidación"
+    },
+    {
+      "id": "ru_es_c1:constancia",
+      "ru": "постоянство",
+      "target": "constancia"
+    },
+    {
+      "id": "ru_es_c1:constitución",
+      "ru": "конституция",
+      "target": "constitución"
+    },
+    {
+      "id": "ru_es_c1:contemplación",
+      "ru": "созерцание",
+      "target": "contemplación"
+    },
+    {
+      "id": "ru_es_c1:contingencia",
+      "ru": "непредвиденное обстоятельство",
+      "target": "contingencia"
+    },
+    {
+      "id": "ru_es_c1:continuidad",
+      "ru": "непрерывность",
+      "target": "continuidad"
+    },
+    {
+      "id": "ru_es_c1:contradicción",
+      "ru": "противоречие",
+      "target": "contradicción"
+    },
+    {
+      "id": "ru_es_c1:contrapartida",
+      "ru": "встречное предоставление",
+      "target": "contrapartida"
+    },
+    {
+      "id": "ru_es_c1:convergencia",
+      "ru": "сближение",
+      "target": "convergencia"
+    },
+    {
+      "id": "ru_es_c1:convicción",
+      "ru": "убеждённость",
+      "target": "convicción"
+    },
+    {
+      "id": "ru_es_c1:correlación",
+      "ru": "взаимосвязь",
+      "target": "correlación"
+    },
+    {
+      "id": "ru_es_c1:correspondencia",
+      "ru": "соответствие",
+      "target": "correspondencia"
+    },
+    {
+      "id": "ru_es_c1:credibilidad",
+      "ru": "достоверность",
+      "target": "credibilidad"
+    },
+    {
+      "id": "ru_es_c1:criterio",
+      "ru": "критерий",
+      "target": "criterio"
+    },
+    {
+      "id": "ru_es_c1:culminación",
+      "ru": "кульминация",
+      "target": "culminación"
+    },
+    {
+      "id": "ru_es_c1:debilidad",
+      "ru": "слабость",
+      "target": "debilidad"
+    },
+    {
+      "id": "ru_es_c1:decadencia",
+      "ru": "упадок",
+      "target": "decadencia"
+    },
+    {
+      "id": "ru_es_c1:decoro",
+      "ru": "благопристойность",
+      "target": "decoro"
+    },
+    {
+      "id": "ru_es_c1:deducción",
+      "ru": "вывод",
+      "target": "deducción"
+    },
+    {
+      "id": "ru_es_c1:deferencia",
+      "ru": "почтительность",
+      "target": "deferencia"
+    },
+    {
+      "id": "ru_es_c1:deficiencia",
+      "ru": "недостаток",
+      "target": "deficiencia"
+    },
+    {
+      "id": "ru_es_c1:degradación",
+      "ru": "ухудшение",
+      "target": "degradación"
+    },
+    {
+      "id": "ru_es_c1:deliberación",
+      "ru": "обдумывание",
+      "target": "deliberación"
+    },
+    {
+      "id": "ru_es_c1:delimitación",
+      "ru": "определение границ",
+      "target": "delimitación"
+    },
+    {
+      "id": "ru_es_c1:demagogia",
+      "ru": "демагогия",
+      "target": "demagogia"
+    },
+    {
+      "id": "ru_es_c1:dependencia",
+      "ru": "зависимость",
+      "target": "dependencia"
+    },
+    {
+      "id": "ru_es_c1:depravación",
+      "ru": "нравственная испорченность",
+      "target": "depravación"
+    },
+    {
+      "id": "ru_es_c1:derogación",
+      "ru": "отмена закона",
+      "target": "derogación"
+    },
+    {
+      "id": "ru_es_c1:desarraigo",
+      "ru": "оторванность от корней",
+      "target": "desarraigo"
+    },
+    {
+      "id": "ru_es_c1:desavenencia",
+      "ru": "разногласие",
+      "target": "desavenencia"
+    },
+    {
+      "id": "ru_es_c1:desdén",
+      "ru": "пренебрежение",
+      "target": "desdén"
+    },
+    {
+      "id": "ru_es_c1:desencanto",
+      "ru": "разочарование",
+      "target": "desencanto"
+    },
+    {
+      "id": "ru_es_c1:desenlace",
+      "ru": "развязка",
+      "target": "desenlace"
+    },
+    {
+      "id": "ru_es_c1:desidia",
+      "ru": "бездеятельность",
+      "target": "desidia"
+    },
+    {
+      "id": "ru_es_c1:desmesura",
+      "ru": "неумеренность",
+      "target": "desmesura"
+    },
+    {
+      "id": "ru_es_c1:despotismo",
+      "ru": "деспотизм",
+      "target": "despotismo"
+    },
+    {
+      "id": "ru_es_c1:destreza",
+      "ru": "сноровка",
+      "target": "destreza"
+    },
+    {
+      "id": "ru_es_c1:determinación",
+      "ru": "решимость",
+      "target": "determinación"
+    },
+    {
+      "id": "ru_es_c1:detrimento",
+      "ru": "ущерб",
+      "target": "detrimento"
+    },
+    {
+      "id": "ru_es_c1:devenir",
+      "ru": "становление",
+      "target": "devenir"
+    },
+    {
+      "id": "ru_es_c1:dignidad",
+      "ru": "достоинство",
+      "target": "dignidad"
+    },
+    {
+      "id": "ru_es_c1:dilema",
+      "ru": "дилемма",
+      "target": "dilema"
+    },
+    {
+      "id": "ru_es_c1:diligencia",
+      "ru": "усердие",
+      "target": "diligencia"
+    },
+    {
+      "id": "ru_es_c1:discernimiento",
+      "ru": "умение различать",
+      "target": "discernimiento"
+    },
+    {
+      "id": "ru_es_c1:discrepancia",
+      "ru": "расхождение во мнениях",
+      "target": "discrepancia"
+    },
+    {
+      "id": "ru_es_c1:discreción",
+      "ru": "осмотрительность",
+      "target": "discreción"
+    },
+    {
+      "id": "ru_es_c1:disidencia",
+      "ru": "инакомыслие",
+      "target": "disidencia"
+    },
+    {
+      "id": "ru_es_c1:disociación",
+      "ru": "разъединение",
+      "target": "disociación"
+    },
+    {
+      "id": "ru_es_c1:disparidad",
+      "ru": "неравенство",
+      "target": "disparidad"
+    },
+    {
+      "id": "ru_es_c1:disposición",
+      "ru": "расположение",
+      "target": "disposición"
+    },
+    {
+      "id": "ru_es_c1:distorsión",
+      "ru": "искажение",
+      "target": "distorsión"
+    },
+    {
+      "id": "ru_es_c1:divergencia",
+      "ru": "расхождение",
+      "target": "divergencia"
+    },
+    {
+      "id": "ru_es_c1:dogma",
+      "ru": "догма",
+      "target": "dogma"
+    },
+    {
+      "id": "ru_es_c1:dualidad",
+      "ru": "двойственность",
+      "target": "dualidad"
+    },
+    {
+      "id": "ru_es_c1:eclecticismo",
+      "ru": "эклектизм",
+      "target": "eclecticismo"
+    },
+    {
+      "id": "ru_es_c1:ecuanimidad",
+      "ru": "невозмутимая беспристрастность",
+      "target": "ecuanimidad"
+    },
+    {
+      "id": "ru_es_c1:eficacia",
+      "ru": "действенность",
+      "target": "eficacia"
+    },
+    {
+      "id": "ru_es_c1:eficiencia",
+      "ru": "эффективность",
+      "target": "eficiencia"
+    },
+    {
+      "id": "ru_es_c1:elocuencia",
+      "ru": "красноречие",
+      "target": "elocuencia"
+    },
+    {
+      "id": "ru_es_c1:emancipación",
+      "ru": "освобождение от зависимости",
+      "target": "emancipación"
+    },
+    {
+      "id": "ru_es_c1:empatía",
+      "ru": "эмпатия",
+      "target": "empatía"
+    },
+    {
+      "id": "ru_es_c1:empeño",
+      "ru": "настойчивость",
+      "target": "empeño"
+    },
+    {
+      "id": "ru_es_c1:emulación",
+      "ru": "стремление превзойти",
+      "target": "emulación"
+    },
+    {
+      "id": "ru_es_c1:enajenación",
+      "ru": "отчуждение имущества",
+      "target": "enajenación"
+    },
+    {
+      "id": "ru_es_c1:encubrimiento",
+      "ru": "сокрытие преступления",
+      "target": "encubrimiento"
+    },
+    {
+      "id": "ru_es_c1:enigma",
+      "ru": "загадка",
+      "target": "enigma"
+    },
+    {
+      "id": "ru_es_c1:entereza",
+      "ru": "стойкость",
+      "target": "entereza"
+    },
+    {
+      "id": "ru_es_c1:entidad",
+      "ru": "сущность",
+      "target": "entidad"
+    },
+    {
+      "id": "ru_es_c1:entropía",
+      "ru": "энтропия",
+      "target": "entropía"
+    },
+    {
+      "id": "ru_es_c1:equidad",
+      "ru": "справедливость",
+      "target": "equidad"
+    },
+    {
+      "id": "ru_es_c1:equilibrio",
+      "ru": "равновесие",
+      "target": "equilibrio"
+    },
+    {
+      "id": "ru_es_c1:equivalencia",
+      "ru": "равнозначность",
+      "target": "equivalencia"
+    },
+    {
+      "id": "ru_es_c1:erudición",
+      "ru": "эрудиция",
+      "target": "erudición"
+    },
+    {
+      "id": "ru_es_c1:escepticismo",
+      "ru": "скептицизм",
+      "target": "escepticismo"
+    },
+    {
+      "id": "ru_es_c1:esencia",
+      "ru": "сущность",
+      "target": "esencia"
+    },
+    {
+      "id": "ru_es_c1:esmero",
+      "ru": "старательность",
+      "target": "esmero"
+    },
+    {
+      "id": "ru_es_c1:especificidad",
+      "ru": "специфичность",
+      "target": "especificidad"
+    },
+    {
+      "id": "ru_es_c1:especulación",
+      "ru": "умозрение",
+      "target": "especulación"
+    },
+    {
+      "id": "ru_es_c1:estabilidad",
+      "ru": "стабильность",
+      "target": "estabilidad"
+    },
+    {
+      "id": "ru_es_c1:estética",
+      "ru": "эстетика",
+      "target": "estética"
+    },
+    {
+      "id": "ru_es_c1:estigma",
+      "ru": "клеймо",
+      "target": "estigma"
+    },
+    {
+      "id": "ru_es_c1:estipulación",
+      "ru": "договорное условие",
+      "target": "estipulación"
+    },
+    {
+      "id": "ru_es_c1:estoicismo",
+      "ru": "стоицизм",
+      "target": "estoicismo"
+    },
+    {
+      "id": "ru_es_c1:estratagema",
+      "ru": "уловка",
+      "target": "estratagema"
+    },
+    {
+      "id": "ru_es_c1:estructura",
+      "ru": "структура",
+      "target": "estructura"
+    },
+    {
+      "id": "ru_es_c1:eternidad",
+      "ru": "вечность",
+      "target": "eternidad"
+    },
+    {
+      "id": "ru_es_c1:ética",
+      "ru": "этика",
+      "target": "ética"
+    },
+    {
+      "id": "ru_es_c1:etimología",
+      "ru": "этимология",
+      "target": "etimología"
+    },
+    {
+      "id": "ru_es_c1:etnia",
+      "ru": "этническая группа",
+      "target": "etnia"
+    },
+    {
+      "id": "ru_es_c1:evasión",
+      "ru": "уклонение",
+      "target": "evasión"
+    },
+    {
+      "id": "ru_es_c1:eventualidad",
+      "ru": "возможный случай",
+      "target": "eventualidad"
+    },
+    {
+      "id": "ru_es_c1:evidencia",
+      "ru": "очевидность",
+      "target": "evidencia"
+    },
+    {
+      "id": "ru_es_c1:evolución",
+      "ru": "эволюция",
+      "target": "evolución"
+    },
+    {
+      "id": "ru_es_c1:exaltación",
+      "ru": "возбуждённость",
+      "target": "exaltación"
+    },
+    {
+      "id": "ru_es_c1:excelencia",
+      "ru": "превосходство",
+      "target": "excelencia"
+    },
+    {
+      "id": "ru_es_c1:exclusión",
+      "ru": "исключение",
+      "target": "exclusión"
+    },
+    {
+      "id": "ru_es_c1:exégesis",
+      "ru": "толкование текста",
+      "target": "exégesis"
+    },
+    {
+      "id": "ru_es_c1:exención",
+      "ru": "освобождение от обязанности",
+      "target": "exención"
+    },
+    {
+      "id": "ru_es_c1:exhortación",
+      "ru": "призыв",
+      "target": "exhortación"
+    },
+    {
+      "id": "ru_es_c1:exilio",
+      "ru": "изгнание",
+      "target": "exilio"
+    },
+    {
+      "id": "ru_es_c1:expectativa",
+      "ru": "ожидание",
+      "target": "expectativa"
+    },
+    {
+      "id": "ru_es_c1:explicación",
+      "ru": "объяснение",
+      "target": "explicación"
+    },
+    {
+      "id": "ru_es_c1:expropiación",
+      "ru": "отчуждение собственности",
+      "target": "expropiación"
+    },
+    {
+      "id": "ru_es_c1:extinción",
+      "ru": "прекращение существования",
+      "target": "extinción"
+    },
+    {
+      "id": "ru_es_c1:extravagancia",
+      "ru": "причуда",
+      "target": "extravagancia"
+    },
+    {
+      "id": "ru_es_c1:faceta",
+      "ru": "грань явления",
+      "target": "faceta"
+    },
+    {
+      "id": "ru_es_c1:falacia",
+      "ru": "ошибочное рассуждение",
+      "target": "falacia"
+    },
+    {
+      "id": "ru_es_c1:fatalismo",
+      "ru": "фатализм",
+      "target": "fatalismo"
+    },
+    {
+      "id": "ru_es_c1:fechoría",
+      "ru": "злодеяние",
+      "target": "fechoría"
+    },
+    {
+      "id": "ru_es_c1:fiabilidad",
+      "ru": "надёжность",
+      "target": "fiabilidad"
+    },
+    {
+      "id": "ru_es_c1:fidelidad",
+      "ru": "верность",
+      "target": "fidelidad"
+    },
+    {
+      "id": "ru_es_c1:filantropía",
+      "ru": "благотворительность",
+      "target": "filantropía"
+    },
+    {
+      "id": "ru_es_c1:filiación",
+      "ru": "происхождение",
+      "target": "filiación"
+    },
+    {
+      "id": "ru_es_c1:finalidad",
+      "ru": "цель",
+      "target": "finalidad"
+    },
+    {
+      "id": "ru_es_c1:finitud",
+      "ru": "конечность",
+      "target": "finitud"
+    },
+    {
+      "id": "ru_es_c1:firmeza",
+      "ru": "твёрдость",
+      "target": "firmeza"
+    },
+    {
+      "id": "ru_es_c1:flexibilidad",
+      "ru": "гибкость",
+      "target": "flexibilidad"
+    },
+    {
+      "id": "ru_es_c1:formalidad",
+      "ru": "формальность",
+      "target": "formalidad"
+    },
+    {
+      "id": "ru_es_c1:fortaleza",
+      "ru": "сила духа",
+      "target": "fortaleza"
+    },
+    {
+      "id": "ru_es_c1:fraternidad",
+      "ru": "братство",
+      "target": "fraternidad"
+    },
+    {
+      "id": "ru_es_c1:frivolidad",
+      "ru": "легкомыслие",
+      "target": "frivolidad"
+    },
+    {
+      "id": "ru_es_c1:frustración",
+      "ru": "фрустрация",
+      "target": "frustración"
+    },
+    {
+      "id": "ru_es_c1:fundamento",
+      "ru": "основание",
+      "target": "fundamento"
+    },
+    {
+      "id": "ru_es_c1:futilidad",
+      "ru": "бесполезность",
+      "target": "futilidad"
+    },
+    {
+      "id": "ru_es_c1:garantía",
+      "ru": "гарантия",
+      "target": "garantía"
+    },
+    {
+      "id": "ru_es_c1:genialidad",
+      "ru": "гениальность",
+      "target": "genialidad"
+    },
+    {
+      "id": "ru_es_c1:gestación",
+      "ru": "формирование",
+      "target": "gestación"
+    },
+    {
+      "id": "ru_es_c1:globalización",
+      "ru": "глобализация",
+      "target": "globalización"
+    },
+    {
+      "id": "ru_es_c1:gravedad",
+      "ru": "серьёзность",
+      "target": "gravedad"
+    },
+    {
+      "id": "ru_es_c1:hegemonía",
+      "ru": "гегемония",
+      "target": "hegemonía"
+    },
+    {
+      "id": "ru_es_c1:herencia",
+      "ru": "наследие",
+      "target": "herencia"
+    },
+    {
+      "id": "ru_es_c1:hermetismo",
+      "ru": "замкнутость",
+      "target": "hermetismo"
+    },
+    {
+      "id": "ru_es_c1:heterogeneidad",
+      "ru": "разнородность",
+      "target": "heterogeneidad"
+    },
+    {
+      "id": "ru_es_c1:hipocresía",
+      "ru": "лицемерие",
+      "target": "hipocresía"
+    },
+    {
+      "id": "ru_es_c1:hipótesis",
+      "ru": "гипотеза",
+      "target": "hipótesis"
+    },
+    {
+      "id": "ru_es_c1:honorabilidad",
+      "ru": "добропорядочность",
+      "target": "honorabilidad"
+    },
+    {
+      "id": "ru_es_c1:hostilidad",
+      "ru": "враждебность",
+      "target": "hostilidad"
+    },
+    {
+      "id": "ru_es_c1:humanismo",
+      "ru": "гуманизм",
+      "target": "humanismo"
+    },
+    {
+      "id": "ru_es_c1:humildad",
+      "ru": "скромность",
+      "target": "humildad"
+    },
+    {
+      "id": "ru_es_c1:idiosincrasia",
+      "ru": "своеобразие",
+      "target": "idiosincrasia"
+    },
+    {
+      "id": "ru_es_c1:idoneidad",
+      "ru": "пригодность",
+      "target": "idoneidad"
+    },
+    {
+      "id": "ru_es_c1:igualdad",
+      "ru": "равенство",
+      "target": "igualdad"
+    },
+    {
+      "id": "ru_es_c1:imparcialidad",
+      "ru": "беспристрастность",
+      "target": "imparcialidad"
+    },
+    {
+      "id": "ru_es_c1:impasibilidad",
+      "ru": "бесстрастие",
+      "target": "impasibilidad"
+    },
+    {
+      "id": "ru_es_c1:impedimento",
+      "ru": "препятствие",
+      "target": "impedimento"
+    },
+    {
+      "id": "ru_es_c1:imperativo",
+      "ru": "настоятельное требование",
+      "target": "imperativo"
+    },
+    {
+      "id": "ru_es_c1:implicación",
+      "ru": "вовлечённость",
+      "target": "implicación"
+    },
+    {
+      "id": "ru_es_c1:imposición",
+      "ru": "навязывание",
+      "target": "imposición"
+    },
+    {
+      "id": "ru_es_c1:improcedencia",
+      "ru": "необоснованность",
+      "target": "improcedencia"
+    },
+    {
+      "id": "ru_es_c1:impugnación",
+      "ru": "оспаривание",
+      "target": "impugnación"
+    },
+    {
+      "id": "ru_es_c1:impunidad",
+      "ru": "безнаказанность",
+      "target": "impunidad"
+    },
+    {
+      "id": "ru_es_c1:incertidumbre",
+      "ru": "неопределённость",
+      "target": "incertidumbre"
+    },
+    {
+      "id": "ru_es_c1:incidencia",
+      "ru": "влияние",
+      "target": "incidencia"
+    },
+    {
+      "id": "ru_es_c1:inclinación",
+      "ru": "склонность",
+      "target": "inclinación"
+    },
+    {
+      "id": "ru_es_c1:incongruencia",
+      "ru": "несообразность",
+      "target": "incongruencia"
+    },
+    {
+      "id": "ru_es_c1:incorporación",
+      "ru": "включение",
+      "target": "incorporación"
+    },
+    {
+      "id": "ru_es_c1:incremento",
+      "ru": "прирост",
+      "target": "incremento"
+    },
+    {
+      "id": "ru_es_c1:indagación",
+      "ru": "исследование",
+      "target": "indagación"
+    },
+    {
+      "id": "ru_es_c1:indicio",
+      "ru": "признак",
+      "target": "indicio"
+    },
+    {
+      "id": "ru_es_c1:indiferencia",
+      "ru": "равнодушие",
+      "target": "indiferencia"
+    },
+    {
+      "id": "ru_es_c1:indignación",
+      "ru": "возмущение",
+      "target": "indignación"
+    },
+    {
+      "id": "ru_es_c1:indulgencia",
+      "ru": "снисходительность",
+      "target": "indulgencia"
+    },
+    {
+      "id": "ru_es_c1:inercia",
+      "ru": "инерция",
+      "target": "inercia"
+    },
+    {
+      "id": "ru_es_c1:inferencia",
+      "ru": "логический вывод",
+      "target": "inferencia"
+    },
+    {
+      "id": "ru_es_c1:influencia",
+      "ru": "влияние",
+      "target": "influencia"
+    },
+    {
+      "id": "ru_es_c1:infracción",
+      "ru": "нарушение",
+      "target": "infracción"
+    },
+    {
+      "id": "ru_es_c1:ingenio",
+      "ru": "изобретательность",
+      "target": "ingenio"
+    },
+    {
+      "id": "ru_es_c1:inherencia",
+      "ru": "неотъемлемая связь",
+      "target": "inherencia"
+    },
+    {
+      "id": "ru_es_c1:injerencia",
+      "ru": "вмешательство",
+      "target": "injerencia"
+    },
+    {
+      "id": "ru_es_c1:inmediatez",
+      "ru": "непосредственность",
+      "target": "inmediatez"
+    },
+    {
+      "id": "ru_es_c1:inminencia",
+      "ru": "неминуемое приближение",
+      "target": "inminencia"
+    },
+    {
+      "id": "ru_es_c1:inmunidad",
+      "ru": "неприкосновенность",
+      "target": "inmunidad"
+    },
+    {
+      "id": "ru_es_c1:innovación",
+      "ru": "нововведение",
+      "target": "innovación"
+    },
+    {
+      "id": "ru_es_c1:insolvencia",
+      "ru": "неплатёжеспособность",
+      "target": "insolvencia"
+    },
+    {
+      "id": "ru_es_c1:integridad",
+      "ru": "целостность",
+      "target": "integridad"
+    },
+    {
+      "id": "ru_es_c1:inteligibilidad",
+      "ru": "понятность",
+      "target": "inteligibilidad"
+    },
+    {
+      "id": "ru_es_c1:interdependencia",
+      "ru": "взаимозависимость",
+      "target": "interdependencia"
+    },
+    {
+      "id": "ru_es_c1:interlocución",
+      "ru": "ведение диалога",
+      "target": "interlocución"
+    },
+    {
+      "id": "ru_es_c1:interpretación",
+      "ru": "толкование",
+      "target": "interpretación"
+    },
+    {
+      "id": "ru_es_c1:intervención",
+      "ru": "вмешательство",
+      "target": "intervención"
+    },
+    {
+      "id": "ru_es_c1:intimidad",
+      "ru": "частная жизнь",
+      "target": "intimidad"
+    },
+    {
+      "id": "ru_es_c1:intuición",
+      "ru": "интуиция",
+      "target": "intuición"
+    },
+    {
+      "id": "ru_es_c1:invariabilidad",
+      "ru": "неизменность",
+      "target": "invariabilidad"
+    },
+    {
+      "id": "ru_es_c1:ironía",
+      "ru": "ирония",
+      "target": "ironía"
+    },
+    {
+      "id": "ru_es_c1:jerarquía",
+      "ru": "иерархия",
+      "target": "jerarquía"
+    },
+    {
+      "id": "ru_es_c1:jurisprudencia",
+      "ru": "судебная практика",
+      "target": "jurisprudencia"
+    },
+    {
+      "id": "ru_es_c1:legado",
+      "ru": "наследие",
+      "target": "legado"
+    },
+    {
+      "id": "ru_es_c1:legalidad",
+      "ru": "законность",
+      "target": "legalidad"
+    },
+    {
+      "id": "ru_es_c1:legitimidad",
+      "ru": "правомерность",
+      "target": "legitimidad"
+    },
+    {
+      "id": "ru_es_c1:liberalismo",
+      "ru": "либерализм",
+      "target": "liberalismo"
+    },
+    {
+      "id": "ru_es_c1:lucidez",
+      "ru": "ясность ума",
+      "target": "lucidez"
+    },
+    {
+      "id": "ru_es_c1:magnanimidad",
+      "ru": "великодушие",
+      "target": "magnanimidad"
+    },
+    {
+      "id": "ru_es_c1:maleabilidad",
+      "ru": "податливость",
+      "target": "maleabilidad"
+    },
+    {
+      "id": "ru_es_c1:manipulación",
+      "ru": "манипуляция",
+      "target": "manipulación"
+    },
+    {
+      "id": "ru_es_c1:mediación",
+      "ru": "посредничество",
+      "target": "mediación"
+    },
+    {
+      "id": "ru_es_c1:mesura",
+      "ru": "умеренность",
+      "target": "mesura"
+    },
+    {
+      "id": "ru_es_c1:metáfora",
+      "ru": "метафора",
+      "target": "metáfora"
+    },
+    {
+      "id": "ru_es_c1:metodología",
+      "ru": "методология",
+      "target": "metodología"
+    },
+    {
+      "id": "ru_es_c1:mitigación",
+      "ru": "смягчение",
+      "target": "mitigación"
+    },
+    {
+      "id": "ru_es_c1:moderación",
+      "ru": "сдержанность",
+      "target": "moderación"
+    },
+    {
+      "id": "ru_es_c1:monotonía",
+      "ru": "однообразие",
+      "target": "monotonía"
+    },
+    {
+      "id": "ru_es_c1:moralidad",
+      "ru": "нравственность",
+      "target": "moralidad"
+    },
+    {
+      "id": "ru_es_c1:mutabilidad",
+      "ru": "изменчивость",
+      "target": "mutabilidad"
+    },
+    {
+      "id": "ru_es_c1:narrativa",
+      "ru": "повествовательная литература",
+      "target": "narrativa"
+    },
+    {
+      "id": "ru_es_c1:negligencia",
+      "ru": "небрежность",
+      "target": "negligencia"
+    },
+    {
+      "id": "ru_es_c1:neutralidad",
+      "ru": "нейтральность",
+      "target": "neutralidad"
+    },
+    {
+      "id": "ru_es_c1:nobleza",
+      "ru": "благородство",
+      "target": "nobleza"
+    },
+    {
+      "id": "ru_es_c1:noción",
+      "ru": "понятие",
+      "target": "noción"
+    },
+    {
+      "id": "ru_es_c1:normativa",
+      "ru": "совокупность норм",
+      "target": "normativa"
+    },
+    {
+      "id": "ru_es_c1:objetividad",
+      "ru": "объективность",
+      "target": "objetividad"
+    },
+    {
+      "id": "ru_es_c1:obsolescencia",
+      "ru": "устаревание",
+      "target": "obsolescencia"
+    },
+    {
+      "id": "ru_es_c1:obstinación",
+      "ru": "упрямство",
+      "target": "obstinación"
+    },
+    {
+      "id": "ru_es_c1:ocurrencia",
+      "ru": "неожиданная мысль",
+      "target": "ocurrencia"
+    },
+    {
+      "id": "ru_es_c1:omisión",
+      "ru": "упущение",
+      "target": "omisión"
+    },
+    {
+      "id": "ru_es_c1:opacidad",
+      "ru": "непрозрачность",
+      "target": "opacidad"
+    },
+    {
+      "id": "ru_es_c1:opresión",
+      "ru": "угнетение",
+      "target": "opresión"
+    },
+    {
+      "id": "ru_es_c1:optimismo",
+      "ru": "оптимизм",
+      "target": "optimismo"
+    },
+    {
+      "id": "ru_es_c1:ostentación",
+      "ru": "показная роскошь",
+      "target": "ostentación"
+    },
+    {
+      "id": "ru_es_c1:paradigma",
+      "ru": "парадигма",
+      "target": "paradigma"
+    },
+    {
+      "id": "ru_es_c1:paradoja",
+      "ru": "парадокс",
+      "target": "paradoja"
+    },
+    {
+      "id": "ru_es_c1:parcialidad",
+      "ru": "пристрастность",
+      "target": "parcialidad"
+    },
+    {
+      "id": "ru_es_c1:paridad",
+      "ru": "равенство",
+      "target": "paridad"
+    },
+    {
+      "id": "ru_es_c1:patrimonio",
+      "ru": "культурное наследие",
+      "target": "patrimonio"
+    },
+    {
+      "id": "ru_es_c1:peculiaridad",
+      "ru": "особенность",
+      "target": "peculiaridad"
+    },
+    {
+      "id": "ru_es_c1:percepción",
+      "ru": "восприятие",
+      "target": "percepción"
+    },
+    {
+      "id": "ru_es_c1:pericia",
+      "ru": "мастерство",
+      "target": "pericia"
+    },
+    {
+      "id": "ru_es_c1:perjuicio",
+      "ru": "ущерб",
+      "target": "perjuicio"
+    },
+    {
+      "id": "ru_es_c1:permanencia",
+      "ru": "постоянное пребывание",
+      "target": "permanencia"
+    },
+    {
+      "id": "ru_es_c1:permeabilidad",
+      "ru": "проницаемость",
+      "target": "permeabilidad"
+    },
+    {
+      "id": "ru_es_c1:perplejidad",
+      "ru": "недоумение",
+      "target": "perplejidad"
+    },
+    {
+      "id": "ru_es_c1:perseverancia",
+      "ru": "упорство",
+      "target": "perseverancia"
+    },
+    {
+      "id": "ru_es_c1:perspectiva",
+      "ru": "перспектива",
+      "target": "perspectiva"
+    },
+    {
+      "id": "ru_es_c1:perspicacia",
+      "ru": "проницательность",
+      "target": "perspicacia"
+    },
+    {
+      "id": "ru_es_c1:persuasión",
+      "ru": "убеждение",
+      "target": "persuasión"
+    },
+    {
+      "id": "ru_es_c1:pertinencia",
+      "ru": "уместность",
+      "target": "pertinencia"
+    },
+    {
+      "id": "ru_es_c1:pesimismo",
+      "ru": "пессимизм",
+      "target": "pesimismo"
+    },
+    {
+      "id": "ru_es_c1:pluralidad",
+      "ru": "многообразие",
+      "target": "pluralidad"
+    },
+    {
+      "id": "ru_es_c1:ponderación",
+      "ru": "взвешенность",
+      "target": "ponderación"
+    },
+    {
+      "id": "ru_es_c1:potestad",
+      "ru": "полномочие",
+      "target": "potestad"
+    },
+    {
+      "id": "ru_es_c1:precariedad",
+      "ru": "ненадёжность положения",
+      "target": "precariedad"
+    },
+    {
+      "id": "ru_es_c1:precedente",
+      "ru": "прецедент",
+      "target": "precedente"
+    },
+    {
+      "id": "ru_es_c1:precepto",
+      "ru": "предписание",
+      "target": "precepto"
+    },
+    {
+      "id": "ru_es_c1:precisión",
+      "ru": "точность",
+      "target": "precisión"
+    },
+    {
+      "id": "ru_es_c1:predisposición",
+      "ru": "предрасположенность",
+      "target": "predisposición"
+    },
+    {
+      "id": "ru_es_c1:predominio",
+      "ru": "преобладание",
+      "target": "predominio"
+    },
+    {
+      "id": "ru_es_c1:prejuicio",
+      "ru": "предубеждение",
+      "target": "prejuicio"
+    },
+    {
+      "id": "ru_es_c1:premisa",
+      "ru": "предпосылка",
+      "target": "premisa"
+    },
+    {
+      "id": "ru_es_c1:prerrogativa",
+      "ru": "прерогатива",
+      "target": "prerrogativa"
+    },
+    {
+      "id": "ru_es_c1:prescripción",
+      "ru": "срок давности",
+      "target": "prescripción"
+    },
+    {
+      "id": "ru_es_c1:presunción",
+      "ru": "предположение",
+      "target": "presunción"
+    },
+    {
+      "id": "ru_es_c1:prevalencia",
+      "ru": "преобладание",
+      "target": "prevalencia"
+    },
+    {
+      "id": "ru_es_c1:previsión",
+      "ru": "предвидение",
+      "target": "previsión"
+    },
+    {
+      "id": "ru_es_c1:primacía",
+      "ru": "первенство",
+      "target": "primacía"
+    },
+    {
+      "id": "ru_es_c1:privación",
+      "ru": "лишение",
+      "target": "privación"
+    },
+    {
+      "id": "ru_es_c1:probidad",
+      "ru": "честность",
+      "target": "probidad"
+    },
+    {
+      "id": "ru_es_c1:procedencia",
+      "ru": "происхождение",
+      "target": "procedencia"
+    },
+    {
+      "id": "ru_es_c1:proclividad",
+      "ru": "склонность",
+      "target": "proclividad"
+    },
+    {
+      "id": "ru_es_c1:proeza",
+      "ru": "подвиг",
+      "target": "proeza"
+    },
+    {
+      "id": "ru_es_c1:prohibición",
+      "ru": "запрет",
+      "target": "prohibición"
+    },
+    {
+      "id": "ru_es_c1:proliferación",
+      "ru": "разрастание",
+      "target": "proliferación"
+    },
+    {
+      "id": "ru_es_c1:promulgación",
+      "ru": "обнародование закона",
+      "target": "promulgación"
+    },
+    {
+      "id": "ru_es_c1:propensión",
+      "ru": "предрасположенность",
+      "target": "propensión"
+    },
+    {
+      "id": "ru_es_c1:proporcionalidad",
+      "ru": "соразмерность",
+      "target": "proporcionalidad"
+    },
+    {
+      "id": "ru_es_c1:prosperidad",
+      "ru": "процветание",
+      "target": "prosperidad"
+    },
+    {
+      "id": "ru_es_c1:protagonismo",
+      "ru": "ведущая роль",
+      "target": "protagonismo"
+    },
+    {
+      "id": "ru_es_c1:proyección",
+      "ru": "проекция",
+      "target": "proyección"
+    },
+    {
+      "id": "ru_es_c1:prudencia",
+      "ru": "благоразумие",
+      "target": "prudencia"
+    },
+    {
+      "id": "ru_es_c1:pulcritud",
+      "ru": "опрятность",
+      "target": "pulcritud"
+    },
+    {
+      "id": "ru_es_c1:quimera",
+      "ru": "несбыточная мечта",
+      "target": "quimera"
+    },
+    {
+      "id": "ru_es_c1:raciocinio",
+      "ru": "рассудочная деятельность",
+      "target": "raciocinio"
+    },
+    {
+      "id": "ru_es_c1:racionalidad",
+      "ru": "рациональность",
+      "target": "racionalidad"
+    },
+    {
+      "id": "ru_es_c1:radicalismo",
+      "ru": "радикализм",
+      "target": "radicalismo"
+    },
+    {
+      "id": "ru_es_c1:reafirmación",
+      "ru": "повторное утверждение",
+      "target": "reafirmación"
+    },
+    {
+      "id": "ru_es_c1:recelo",
+      "ru": "недоверие",
+      "target": "recelo"
+    },
+    {
+      "id": "ru_es_c1:reciprocidad",
+      "ru": "взаимность",
+      "target": "reciprocidad"
+    },
+    {
+      "id": "ru_es_c1:rectitud",
+      "ru": "прямота",
+      "target": "rectitud"
+    },
+    {
+      "id": "ru_es_c1:recurrencia",
+      "ru": "повторяемость",
+      "target": "recurrencia"
+    },
+    {
+      "id": "ru_es_c1:redundancia",
+      "ru": "избыточность",
+      "target": "redundancia"
+    },
+    {
+      "id": "ru_es_c1:reflexión",
+      "ru": "размышление",
+      "target": "reflexión"
+    },
+    {
+      "id": "ru_es_c1:refutación",
+      "ru": "опровержение",
+      "target": "refutación"
+    },
+    {
+      "id": "ru_es_c1:regresión",
+      "ru": "возврат к прежнему состоянию",
+      "target": "regresión"
+    },
+    {
+      "id": "ru_es_c1:reivindicación",
+      "ru": "требование восстановления права",
+      "target": "reivindicación"
+    },
+    {
+      "id": "ru_es_c1:relevancia",
+      "ru": "значимость",
+      "target": "relevancia"
+    },
+    {
+      "id": "ru_es_c1:reminiscencia",
+      "ru": "смутное воспоминание",
+      "target": "reminiscencia"
+    },
+    {
+      "id": "ru_es_c1:remordimiento",
+      "ru": "угрызение совести",
+      "target": "remordimiento"
+    },
+    {
+      "id": "ru_es_c1:renuncia",
+      "ru": "отказ",
+      "target": "renuncia"
+    },
+    {
+      "id": "ru_es_c1:repercusión",
+      "ru": "последствие",
+      "target": "repercusión"
+    },
+    {
+      "id": "ru_es_c1:represalia",
+      "ru": "ответная карательная мера",
+      "target": "represalia"
+    },
+    {
+      "id": "ru_es_c1:repudio",
+      "ru": "решительное неприятие",
+      "target": "repudio"
+    },
+    {
+      "id": "ru_es_c1:resarcimiento",
+      "ru": "возмещение",
+      "target": "resarcimiento"
+    },
+    {
+      "id": "ru_es_c1:resignación",
+      "ru": "смирение",
+      "target": "resignación"
+    },
+    {
+      "id": "ru_es_c1:resiliencia",
+      "ru": "способность восстанавливаться",
+      "target": "resiliencia"
+    },
+    {
+      "id": "ru_es_c1:resolución",
+      "ru": "решение",
+      "target": "resolución"
+    },
+    {
+      "id": "ru_es_c1:resonancia",
+      "ru": "резонанс",
+      "target": "resonancia"
+    },
+    {
+      "id": "ru_es_c1:restricción",
+      "ru": "ограничение",
+      "target": "restricción"
+    },
+    {
+      "id": "ru_es_c1:reticencia",
+      "ru": "недоговорённость",
+      "target": "reticencia"
+    },
+    {
+      "id": "ru_es_c1:retórica",
+      "ru": "риторика",
+      "target": "retórica"
+    },
+    {
+      "id": "ru_es_c1:retribución",
+      "ru": "воздаяние",
+      "target": "retribución"
+    },
+    {
+      "id": "ru_es_c1:retrospectiva",
+      "ru": "взгляд в прошлое",
+      "target": "retrospectiva"
+    },
+    {
+      "id": "ru_es_c1:reverencia",
+      "ru": "почтение",
+      "target": "reverencia"
+    },
+    {
+      "id": "ru_es_c1:rigor",
+      "ru": "строгость",
+      "target": "rigor"
+    },
+    {
+      "id": "ru_es_c1:robustez",
+      "ru": "прочность",
+      "target": "robustez"
+    },
+    {
+      "id": "ru_es_c1:ruptura",
+      "ru": "разрыв",
+      "target": "ruptura"
+    },
+    {
+      "id": "ru_es_c1:salvaguardia",
+      "ru": "защита",
+      "target": "salvaguardia"
+    },
+    {
+      "id": "ru_es_c1:sanción",
+      "ru": "санкция",
+      "target": "sanción"
+    },
+    {
+      "id": "ru_es_c1:sarcasmo",
+      "ru": "сарказм",
+      "target": "sarcasmo"
+    },
+    {
+      "id": "ru_es_c1:sátira",
+      "ru": "сатира",
+      "target": "sátira"
+    },
+    {
+      "id": "ru_es_c1:secularización",
+      "ru": "секуляризация",
+      "target": "secularización"
+    },
+    {
+      "id": "ru_es_c1:segregación",
+      "ru": "сегрегация",
+      "target": "segregación"
+    },
+    {
+      "id": "ru_es_c1:semblanza",
+      "ru": "краткий биографический очерк",
+      "target": "semblanza"
+    },
+    {
+      "id": "ru_es_c1:sensatez",
+      "ru": "здравомыслие",
+      "target": "sensatez"
+    },
+    {
+      "id": "ru_es_c1:serenidad",
+      "ru": "спокойствие",
+      "target": "serenidad"
+    },
+    {
+      "id": "ru_es_c1:servidumbre",
+      "ru": "подневольное состояние",
+      "target": "servidumbre"
+    },
+    {
+      "id": "ru_es_c1:sesgo",
+      "ru": "предвзятость",
+      "target": "sesgo"
+    },
+    {
+      "id": "ru_es_c1:significación",
+      "ru": "значение",
+      "target": "significación"
+    },
+    {
+      "id": "ru_es_c1:similitud",
+      "ru": "сходство",
+      "target": "similitud"
+    },
+    {
+      "id": "ru_es_c1:simultaneidad",
+      "ru": "одновременность",
+      "target": "simultaneidad"
+    },
+    {
+      "id": "ru_es_c1:síntesis",
+      "ru": "синтез",
+      "target": "síntesis"
+    },
+    {
+      "id": "ru_es_c1:soberanía",
+      "ru": "суверенитет",
+      "target": "soberanía"
+    },
+    {
+      "id": "ru_es_c1:sobriedad",
+      "ru": "сдержанность",
+      "target": "sobriedad"
+    },
+    {
+      "id": "ru_es_c1:solidaridad",
+      "ru": "солидарность",
+      "target": "solidaridad"
+    },
+    {
+      "id": "ru_es_c1:sosiego",
+      "ru": "покой",
+      "target": "sosiego"
+    },
+    {
+      "id": "ru_es_c1:subjetividad",
+      "ru": "субъективность",
+      "target": "subjetividad"
+    },
+    {
+      "id": "ru_es_c1:subordinación",
+      "ru": "подчинение",
+      "target": "subordinación"
+    },
+    {
+      "id": "ru_es_c1:subsistencia",
+      "ru": "средства к существованию",
+      "target": "subsistencia"
+    },
+    {
+      "id": "ru_es_c1:sucesión",
+      "ru": "последовательность",
+      "target": "sucesión"
+    },
+    {
+      "id": "ru_es_c1:supremacía",
+      "ru": "верховенство",
+      "target": "supremacía"
+    },
+    {
+      "id": "ru_es_c1:susceptibilidad",
+      "ru": "восприимчивость",
+      "target": "susceptibilidad"
+    },
+    {
+      "id": "ru_es_c1:sutileza",
+      "ru": "тонкость",
+      "target": "sutileza"
+    },
+    {
+      "id": "ru_es_c1:tenacidad",
+      "ru": "упорство",
+      "target": "tenacidad"
+    },
+    {
+      "id": "ru_es_c1:tentativa",
+      "ru": "попытка",
+      "target": "tentativa"
+    },
+    {
+      "id": "ru_es_c1:tergiversación",
+      "ru": "искажение смысла",
+      "target": "tergiversación"
+    },
+    {
+      "id": "ru_es_c1:tolerancia",
+      "ru": "терпимость",
+      "target": "tolerancia"
+    },
+    {
+      "id": "ru_es_c1:trascendencia",
+      "ru": "исключительная значимость",
+      "target": "trascendencia"
+    },
+    {
+      "id": "ru_es_c1:transgresión",
+      "ru": "нарушение нормы",
+      "target": "transgresión"
+    },
+    {
+      "id": "ru_es_c1:transición",
+      "ru": "переход",
+      "target": "transición"
+    },
+    {
+      "id": "ru_es_c1:transparencia",
+      "ru": "прозрачность",
+      "target": "transparencia"
+    },
+    {
+      "id": "ru_es_c1:trivialidad",
+      "ru": "банальность",
+      "target": "trivialidad"
+    },
+    {
+      "id": "ru_es_c1:unanimidad",
+      "ru": "единодушие",
+      "target": "unanimidad"
+    },
+    {
+      "id": "ru_es_c1:universalidad",
+      "ru": "всеобщность",
+      "target": "universalidad"
+    },
+    {
+      "id": "ru_es_c1:utopía",
+      "ru": "утопия",
+      "target": "utopía"
+    },
+    {
+      "id": "ru_es_c1:vaguedad",
+      "ru": "расплывчатость",
+      "target": "vaguedad"
+    },
+    {
+      "id": "ru_es_c1:validez",
+      "ru": "действительность",
+      "target": "validez"
+    },
+    {
+      "id": "ru_es_c1:vanidad",
+      "ru": "тщеславие",
+      "target": "vanidad"
+    },
+    {
+      "id": "ru_es_c1:vehemencia",
+      "ru": "пылкость",
+      "target": "vehemencia"
+    },
+    {
+      "id": "ru_es_c1:veracidad",
+      "ru": "правдивость",
+      "target": "veracidad"
+    },
+    {
+      "id": "ru_es_c1:verosimilitud",
+      "ru": "правдоподобие",
+      "target": "verosimilitud"
+    },
+    {
+      "id": "ru_es_c1:versatilidad",
+      "ru": "разносторонность",
+      "target": "versatilidad"
+    },
+    {
+      "id": "ru_es_c1:viabilidad",
+      "ru": "осуществимость",
+      "target": "viabilidad"
+    },
+    {
+      "id": "ru_es_c1:vigencia",
+      "ru": "действие нормы",
+      "target": "vigencia"
+    },
+    {
+      "id": "ru_es_c1:virtud",
+      "ru": "добродетель",
+      "target": "virtud"
+    },
+    {
+      "id": "ru_es_c1:vulnerabilidad",
+      "ru": "уязвимость",
+      "target": "vulnerabilidad"
+    },
+    {
+      "id": "ru_es_c1:abogar",
+      "ru": "выступать в защиту",
+      "target": "abogar"
+    },
+    {
+      "id": "ru_es_c1:abolir",
+      "ru": "отменять закон",
+      "target": "abolir"
+    },
+    {
+      "id": "ru_es_c1:abordar",
+      "ru": "приступать к рассмотрению",
+      "target": "abordar"
+    },
+    {
+      "id": "ru_es_c1:abstenerse",
+      "ru": "воздерживаться",
+      "target": "abstenerse"
+    },
+    {
+      "id": "ru_es_c1:acatar",
+      "ru": "подчиняться",
+      "target": "acatar"
+    },
+    {
+      "id": "ru_es_c1:acentuar",
+      "ru": "подчёркивать",
+      "target": "acentuar"
+    },
+    {
+      "id": "ru_es_c1:acreditar",
+      "ru": "подтверждать документально",
+      "target": "acreditar"
+    },
+    {
+      "id": "ru_es_c1:adherirse",
+      "ru": "присоединяться",
+      "target": "adherirse"
+    },
+    {
+      "id": "ru_es_c1:adjudicar",
+      "ru": "присуждать",
+      "target": "adjudicar"
+    },
+    {
+      "id": "ru_es_c1:aducir",
+      "ru": "приводить довод",
+      "target": "aducir"
+    },
+    {
+      "id": "ru_es_c1:afianzar",
+      "ru": "укреплять",
+      "target": "afianzar"
+    },
+    {
+      "id": "ru_es_c1:agudizar",
+      "ru": "обострять",
+      "target": "agudizar"
+    },
+    {
+      "id": "ru_es_c1:alegar",
+      "ru": "ссылаться на довод",
+      "target": "alegar"
+    },
+    {
+      "id": "ru_es_c1:aludir",
+      "ru": "косвенно упоминать",
+      "target": "aludir"
+    },
+    {
+      "id": "ru_es_c1:amortiguar",
+      "ru": "смягчать воздействие",
+      "target": "amortiguar"
+    },
+    {
+      "id": "ru_es_c1:amparar",
+      "ru": "защищать",
+      "target": "amparar"
+    },
+    {
+      "id": "ru_es_c1:anhelar",
+      "ru": "страстно желать",
+      "target": "anhelar"
+    },
+    {
+      "id": "ru_es_c1:anteponer",
+      "ru": "ставить на первое место",
+      "target": "anteponer"
+    },
+    {
+      "id": "ru_es_c1:apelar",
+      "ru": "обжаловать",
+      "target": "apelar"
+    },
+    {
+      "id": "ru_es_c1:apreciar",
+      "ru": "высоко ценить",
+      "target": "apreciar"
+    },
+    {
+      "id": "ru_es_c1:apremiar",
+      "ru": "торопить",
+      "target": "apremiar"
+    },
+    {
+      "id": "ru_es_c1:arbitrar",
+      "ru": "разрешать спор",
+      "target": "arbitrar"
+    },
+    {
+      "id": "ru_es_c1:argüir",
+      "ru": "аргументировать",
+      "target": "argüir"
+    },
+    {
+      "id": "ru_es_c1:arraigar",
+      "ru": "укореняться",
+      "target": "arraigar"
+    },
+    {
+      "id": "ru_es_c1:articular",
+      "ru": "связно выражать",
+      "target": "articular"
+    },
+    {
+      "id": "ru_es_c1:asentir",
+      "ru": "соглашаться кивком",
+      "target": "asentir"
+    },
+    {
+      "id": "ru_es_c1:asimilar",
+      "ru": "усваивать",
+      "target": "asimilar"
+    },
+    {
+      "id": "ru_es_c1:atañer",
+      "ru": "касаться",
+      "target": "atañer"
+    },
+    {
+      "id": "ru_es_c1:atenuar",
+      "ru": "смягчать",
+      "target": "atenuar"
+    },
+    {
+      "id": "ru_es_c1:auspiciar",
+      "ru": "оказывать покровительство",
+      "target": "auspiciar"
+    },
+    {
+      "id": "ru_es_c1:avalar",
+      "ru": "подтверждать надёжность",
+      "target": "avalar"
+    },
+    {
+      "id": "ru_es_c1:barajar",
+      "ru": "рассматривать варианты",
+      "target": "barajar"
+    },
+    {
+      "id": "ru_es_c1:censurar",
+      "ru": "подвергать цензуре",
+      "target": "censurar"
+    },
+    {
+      "id": "ru_es_c1:ceñirse",
+      "ru": "строго придерживаться",
+      "target": "ceñirse"
+    },
+    {
+      "id": "ru_es_c1:cimentar",
+      "ru": "закладывать основу",
+      "target": "cimentar"
+    },
+    {
+      "id": "ru_es_c1:clarificar",
+      "ru": "прояснять",
+      "target": "clarificar"
+    },
+    {
+      "id": "ru_es_c1:coaccionar",
+      "ru": "принуждать",
+      "target": "coaccionar"
+    },
+    {
+      "id": "ru_es_c1:coadyuvar",
+      "ru": "содействовать",
+      "target": "coadyuvar"
+    },
+    {
+      "id": "ru_es_c1:coexistir",
+      "ru": "сосуществовать",
+      "target": "coexistir"
+    },
+    {
+      "id": "ru_es_c1:cotejar",
+      "ru": "сопоставлять",
+      "target": "cotejar"
+    },
+    {
+      "id": "ru_es_c1:colmar",
+      "ru": "наполнять до краёв",
+      "target": "colmar"
+    },
+    {
+      "id": "ru_es_c1:compaginar",
+      "ru": "совмещать",
+      "target": "compaginar"
+    },
+    {
+      "id": "ru_es_c1:compeler",
+      "ru": "принуждать",
+      "target": "compeler"
+    },
+    {
+      "id": "ru_es_c1:compendiar",
+      "ru": "кратко излагать",
+      "target": "compendiar"
+    },
+    {
+      "id": "ru_es_c1:concatenar",
+      "ru": "связывать последовательно",
+      "target": "concatenar"
+    },
+    {
+      "id": "ru_es_c1:concebir",
+      "ru": "мысленно представлять",
+      "target": "concebir"
+    },
+    {
+      "id": "ru_es_c1:conciliar",
+      "ru": "примирять",
+      "target": "conciliar"
+    },
+    {
+      "id": "ru_es_c1:concretar",
+      "ru": "конкретизировать",
+      "target": "concretar"
+    },
+    {
+      "id": "ru_es_c1:concurrir",
+      "ru": "сходиться",
+      "target": "concurrir"
+    },
+    {
+      "id": "ru_es_c1:condicionar",
+      "ru": "обусловливать",
+      "target": "condicionar"
+    },
+    {
+      "id": "ru_es_c1:conferir",
+      "ru": "предоставлять право",
+      "target": "conferir"
+    },
+    {
+      "id": "ru_es_c1:conjeturar",
+      "ru": "строить предположения",
+      "target": "conjeturar"
+    },
+    {
+      "id": "ru_es_c1:conllevar",
+      "ru": "влечь за собой",
+      "target": "conllevar"
+    },
+    {
+      "id": "ru_es_c1:conmover",
+      "ru": "глубоко трогать",
+      "target": "conmover"
+    },
+    {
+      "id": "ru_es_c1:connotar",
+      "ru": "иметь дополнительный смысл",
+      "target": "connotar"
+    },
+    {
+      "id": "ru_es_c1:consagrar",
+      "ru": "посвящать",
+      "target": "consagrar"
+    },
+    {
+      "id": "ru_es_c1:consensuar",
+      "ru": "достигать общего согласия",
+      "target": "consensuar"
+    },
+    {
+      "id": "ru_es_c1:consolidar",
+      "ru": "укреплять достигнутое",
+      "target": "consolidar"
+    },
+    {
+      "id": "ru_es_c1:constatar",
+      "ru": "удостоверяться",
+      "target": "constatar"
+    },
+    {
+      "id": "ru_es_c1:constituir",
+      "ru": "составлять",
+      "target": "constituir"
+    },
+    {
+      "id": "ru_es_c1:contraponer",
+      "ru": "противопоставлять",
+      "target": "contraponer"
+    },
+    {
+      "id": "ru_es_c1:contrarrestar",
+      "ru": "противодействовать",
+      "target": "contrarrestar"
+    },
+    {
+      "id": "ru_es_c1:contravenir",
+      "ru": "нарушать предписание",
+      "target": "contravenir"
+    },
+    {
+      "id": "ru_es_c1:converger",
+      "ru": "сходиться",
+      "target": "converger"
+    },
+    {
+      "id": "ru_es_c1:corroborar",
+      "ru": "подтверждать",
+      "target": "corroborar"
+    },
+    {
+      "id": "ru_es_c1:cuestionar",
+      "ru": "ставить под сомнение",
+      "target": "cuestionar"
+    },
+    {
+      "id": "ru_es_c1:deducir",
+      "ru": "делать вывод",
+      "target": "deducir"
+    },
+    {
+      "id": "ru_es_c1:deliberar",
+      "ru": "обсуждать перед решением",
+      "target": "deliberar"
+    },
+    {
+      "id": "ru_es_c1:delimitar",
+      "ru": "очерчивать границы",
+      "target": "delimitar"
+    },
+    {
+      "id": "ru_es_c1:denotar",
+      "ru": "обозначать",
+      "target": "denotar"
+    },
+    {
+      "id": "ru_es_c1:derogar",
+      "ru": "отменять нормативный акт",
+      "target": "derogar"
+    },
+    {
+      "id": "ru_es_c1:desentrañar",
+      "ru": "распутывать сложный вопрос",
+      "target": "desentrañar"
+    },
+    {
+      "id": "ru_es_c1:desestimar",
+      "ru": "отклонять требование",
+      "target": "desestimar"
+    },
+    {
+      "id": "ru_es_c1:desglosar",
+      "ru": "разбивать на части",
+      "target": "desglosar"
+    },
+    {
+      "id": "ru_es_c1:desligar",
+      "ru": "разъединять",
+      "target": "desligar"
+    },
+    {
+      "id": "ru_es_c1:desmitificar",
+      "ru": "развенчивать миф",
+      "target": "desmitificar"
+    },
+    {
+      "id": "ru_es_c1:desvirtuar",
+      "ru": "искажать сущность",
+      "target": "desvirtuar"
+    },
+    {
+      "id": "ru_es_c1:dilucidar",
+      "ru": "выяснять",
+      "target": "dilucidar"
+    },
+    {
+      "id": "ru_es_c1:dirimir",
+      "ru": "разрешать спор",
+      "target": "dirimir"
+    },
+    {
+      "id": "ru_es_c1:discernir",
+      "ru": "различать",
+      "target": "discernir"
+    },
+    {
+      "id": "ru_es_c1:discrepar",
+      "ru": "расходиться во мнении",
+      "target": "discrepar"
+    },
+    {
+      "id": "ru_es_c1:disipar",
+      "ru": "рассеивать",
+      "target": "disipar"
+    },
+    {
+      "id": "ru_es_c1:disociar",
+      "ru": "разобщать",
+      "target": "disociar"
+    },
+    {
+      "id": "ru_es_c1:disuadir",
+      "ru": "отговаривать",
+      "target": "disuadir"
+    },
+    {
+      "id": "ru_es_c1:divagar",
+      "ru": "отклоняться от темы",
+      "target": "divagar"
+    },
+    {
+      "id": "ru_es_c1:diverger",
+      "ru": "расходиться",
+      "target": "diverger"
+    },
+    {
+      "id": "ru_es_c1:eludir",
+      "ru": "уклоняться",
+      "target": "eludir"
+    },
+    {
+      "id": "ru_es_c1:emanar",
+      "ru": "исходить",
+      "target": "emanar"
+    },
+    {
+      "id": "ru_es_c1:emular",
+      "ru": "стремиться превзойти",
+      "target": "emular"
+    },
+    {
+      "id": "ru_es_c1:encauzar",
+      "ru": "направлять в нужное русло",
+      "target": "encauzar"
+    },
+    {
+      "id": "ru_es_c1:encubrir",
+      "ru": "прикрывать преступление",
+      "target": "encubrir"
+    },
+    {
+      "id": "ru_es_c1:enfatizar",
+      "ru": "особо подчёркивать",
+      "target": "enfatizar"
+    },
+    {
+      "id": "ru_es_c1:engendrar",
+      "ru": "порождать",
+      "target": "engendrar"
+    },
+    {
+      "id": "ru_es_c1:englobar",
+      "ru": "охватывать целиком",
+      "target": "englobar"
+    },
+    {
+      "id": "ru_es_c1:enmarcar",
+      "ru": "помещать в рамки",
+      "target": "enmarcar"
+    },
+    {
+      "id": "ru_es_c1:entrañar",
+      "ru": "заключать в себе",
+      "target": "entrañar"
+    },
+    {
+      "id": "ru_es_c1:entrelazar",
+      "ru": "переплетать",
+      "target": "entrelazar"
+    },
+    {
+      "id": "ru_es_c1:enumerar",
+      "ru": "перечислять",
+      "target": "enumerar"
+    },
+    {
+      "id": "ru_es_c1:equiparar",
+      "ru": "приравнивать",
+      "target": "equiparar"
+    },
+    {
+      "id": "ru_es_c1:erradicar",
+      "ru": "искоренять",
+      "target": "erradicar"
+    },
+    {
+      "id": "ru_es_c1:esbozar",
+      "ru": "намечать в общих чертах",
+      "target": "esbozar"
+    },
+    {
+      "id": "ru_es_c1:esclarecer",
+      "ru": "прояснять",
+      "target": "esclarecer"
+    },
+    {
+      "id": "ru_es_c1:esgrimir",
+      "ru": "выдвигать аргумент",
+      "target": "esgrimir"
+    },
+    {
+      "id": "ru_es_c1:estipular",
+      "ru": "оговорить условие",
+      "target": "estipular"
+    },
+    {
+      "id": "ru_es_c1:evocar",
+      "ru": "вызывать в памяти",
+      "target": "evocar"
+    },
+    {
+      "id": "ru_es_c1:exacerbar",
+      "ru": "обострять",
+      "target": "exacerbar"
+    },
+    {
+      "id": "ru_es_c1:exaltar",
+      "ru": "превозносить",
+      "target": "exaltar"
+    },
+    {
+      "id": "ru_es_c1:eximir",
+      "ru": "освобождать от обязанности",
+      "target": "eximir"
+    },
+    {
+      "id": "ru_es_c1:exhortar",
+      "ru": "настоятельно призывать",
+      "target": "exhortar"
+    },
+    {
+      "id": "ru_es_c1:explicitar",
+      "ru": "выражать явно",
+      "target": "explicitar"
+    },
+    {
+      "id": "ru_es_c1:exponer",
+      "ru": "излагать",
+      "target": "exponer"
+    },
+    {
+      "id": "ru_es_c1:extrapolar",
+      "ru": "распространять выводы",
+      "target": "extrapolar"
+    },
+    {
+      "id": "ru_es_c1:fluctuar",
+      "ru": "колебаться",
+      "target": "fluctuar"
+    },
+    {
+      "id": "ru_es_c1:fomentar",
+      "ru": "поощрять развитие",
+      "target": "fomentar"
+    },
+    {
+      "id": "ru_es_c1:formular",
+      "ru": "формулировать",
+      "target": "formular"
+    },
+    {
+      "id": "ru_es_c1:fundamentar",
+      "ru": "обосновывать",
+      "target": "fundamentar"
+    },
+    {
+      "id": "ru_es_c1:gestar",
+      "ru": "вынашивать замысел",
+      "target": "gestar"
+    },
+    {
+      "id": "ru_es_c1:homologar",
+      "ru": "официально утверждать",
+      "target": "homologar"
+    },
+    {
+      "id": "ru_es_c1:impugnar",
+      "ru": "оспаривать",
+      "target": "impugnar"
+    },
+    {
+      "id": "ru_es_c1:incidir",
+      "ru": "оказывать воздействие",
+      "target": "incidir"
+    },
+    {
+      "id": "ru_es_c1:incitar",
+      "ru": "подстрекать",
+      "target": "incitar"
+    },
+    {
+      "id": "ru_es_c1:incumbir",
+      "ru": "входить в чью-либо обязанность",
+      "target": "incumbir"
+    },
+    {
+      "id": "ru_es_c1:indagar",
+      "ru": "расследовать",
+      "target": "indagar"
+    },
+    {
+      "id": "ru_es_c1:inferir",
+      "ru": "выводить логически",
+      "target": "inferir"
+    },
+    {
+      "id": "ru_es_c1:infringir",
+      "ru": "нарушать закон",
+      "target": "infringir"
+    },
+    {
+      "id": "ru_es_c1:inhibir",
+      "ru": "подавлять",
+      "target": "inhibir"
+    },
+    {
+      "id": "ru_es_c1:instar",
+      "ru": "настоятельно просить",
+      "target": "instar"
+    },
+    {
+      "id": "ru_es_c1:interpelar",
+      "ru": "обращаться с официальным вопросом",
+      "target": "interpelar"
+    },
+    {
+      "id": "ru_es_c1:interponer",
+      "ru": "подавать жалобу",
+      "target": "interponer"
+    },
+    {
+      "id": "ru_es_c1:invalidar",
+      "ru": "признавать недействительным",
+      "target": "invalidar"
+    },
+    {
+      "id": "ru_es_c1:invocar",
+      "ru": "ссылаться на основание",
+      "target": "invocar"
+    },
+    {
+      "id": "ru_es_c1:legitimar",
+      "ru": "узаконивать",
+      "target": "legitimar"
+    },
+    {
+      "id": "ru_es_c1:matizar",
+      "ru": "уточнять оттенки",
+      "target": "matizar"
+    },
+    {
+      "id": "ru_es_c1:mediar",
+      "ru": "выступать посредником",
+      "target": "mediar"
+    },
+    {
+      "id": "ru_es_c1:mitigar",
+      "ru": "ослаблять",
+      "target": "mitigar"
+    },
+    {
+      "id": "ru_es_c1:objetar",
+      "ru": "возражать",
+      "target": "objetar"
+    },
+    {
+      "id": "ru_es_c1:obviar",
+      "ru": "обходить стороной",
+      "target": "obviar"
+    },
+    {
+      "id": "ru_es_c1:omitir",
+      "ru": "упускать",
+      "target": "omitir"
+    },
+    {
+      "id": "ru_es_c1:ostentar",
+      "ru": "демонстрировать напоказ",
+      "target": "ostentar"
+    },
+    {
+      "id": "ru_es_c1:otorgar",
+      "ru": "предоставлять",
+      "target": "otorgar"
+    },
+    {
+      "id": "ru_es_c1:patentizar",
+      "ru": "делать очевидным",
+      "target": "patentizar"
+    },
+    {
+      "id": "ru_es_c1:perdurar",
+      "ru": "долго сохраняться",
+      "target": "perdurar"
+    },
+    {
+      "id": "ru_es_c1:perpetuar",
+      "ru": "увековечивать",
+      "target": "perpetuar"
+    },
+    {
+      "id": "ru_es_c1:persistir",
+      "ru": "упорствовать",
+      "target": "persistir"
+    },
+    {
+      "id": "ru_es_c1:plasmar",
+      "ru": "воплощать",
+      "target": "plasmar"
+    },
+    {
+      "id": "ru_es_c1:ponderar",
+      "ru": "тщательно взвешивать",
+      "target": "ponderar"
+    },
+    {
+      "id": "ru_es_c1:postergar",
+      "ru": "откладывать",
+      "target": "postergar"
+    },
+    {
+      "id": "ru_es_c1:postular",
+      "ru": "выдвигать положение",
+      "target": "postular"
+    },
+    {
+      "id": "ru_es_c1:preceder",
+      "ru": "предшествовать",
+      "target": "preceder"
+    },
+    {
+      "id": "ru_es_c1:predominar",
+      "ru": "преобладать",
+      "target": "predominar"
+    },
+    {
+      "id": "ru_es_c1:prescindir",
+      "ru": "обходиться без",
+      "target": "prescindir"
+    },
+    {
+      "id": "ru_es_c1:prescribir",
+      "ru": "устанавливать предписание",
+      "target": "prescribir"
+    },
+    {
+      "id": "ru_es_c1:presuponer",
+      "ru": "предполагать заранее",
+      "target": "presuponer"
+    },
+    {
+      "id": "ru_es_c1:prevalecer",
+      "ru": "возобладать",
+      "target": "prevalecer"
+    },
+    {
+      "id": "ru_es_c1:prever",
+      "ru": "предвидеть",
+      "target": "prever"
+    },
+    {
+      "id": "ru_es_c1:primar",
+      "ru": "иметь преимущество",
+      "target": "primar"
+    },
+    {
+      "id": "ru_es_c1:proclamar",
+      "ru": "провозглашать",
+      "target": "proclamar"
+    },
+    {
+      "id": "ru_es_c1:proferir",
+      "ru": "произносить",
+      "target": "proferir"
+    },
+    {
+      "id": "ru_es_c1:promulgar",
+      "ru": "обнародовать закон",
+      "target": "promulgar"
+    },
+    {
+      "id": "ru_es_c1:propiciar",
+      "ru": "создавать благоприятные условия",
+      "target": "propiciar"
+    },
+    {
+      "id": "ru_es_c1:propugnar",
+      "ru": "отстаивать идею",
+      "target": "propugnar"
+    },
+    {
+      "id": "ru_es_c1:proscribir",
+      "ru": "запрещать",
+      "target": "proscribir"
+    },
+    {
+      "id": "ru_es_c1:proveer",
+      "ru": "снабжать",
+      "target": "proveer"
+    },
+    {
+      "id": "ru_es_c1:ratificar",
+      "ru": "утверждать окончательно",
+      "target": "ratificar"
+    },
+    {
+      "id": "ru_es_c1:recabar",
+      "ru": "добиваться получения",
+      "target": "recabar"
+    },
+    {
+      "id": "ru_es_c1:recapitular",
+      "ru": "подводить итоги",
+      "target": "recapitular"
+    },
+    {
+      "id": "ru_es_c1:reconvenir",
+      "ru": "делать выговор",
+      "target": "reconvenir"
+    },
+    {
+      "id": "ru_es_c1:recriminar",
+      "ru": "упрекать",
+      "target": "recriminar"
+    },
+    {
+      "id": "ru_es_c1:rectificar",
+      "ru": "исправлять сказанное",
+      "target": "rectificar"
+    },
+    {
+      "id": "ru_es_c1:refutar",
+      "ru": "опровергать",
+      "target": "refutar"
+    },
+    {
+      "id": "ru_es_c1:rehuir",
+      "ru": "избегать",
+      "target": "rehuir"
+    },
+    {
+      "id": "ru_es_c1:reivindicar",
+      "ru": "требовать восстановления права",
+      "target": "reivindicar"
+    },
+    {
+      "id": "ru_es_c1:relegar",
+      "ru": "оттеснять на второй план",
+      "target": "relegar"
+    },
+    {
+      "id": "ru_es_c1:remitir",
+      "ru": "направлять документ",
+      "target": "remitir"
+    },
+    {
+      "id": "ru_es_c1:repercutir",
+      "ru": "сказываться",
+      "target": "repercutir"
+    },
+    {
+      "id": "ru_es_c1:replicar",
+      "ru": "возражать в ответ",
+      "target": "replicar"
+    },
+    {
+      "id": "ru_es_c1:repudiar",
+      "ru": "решительно отвергать",
+      "target": "repudiar"
+    },
+    {
+      "id": "ru_es_c1:resarcir",
+      "ru": "возмещать ущерб",
+      "target": "resarcir"
+    },
+    {
+      "id": "ru_es_c1:restringir",
+      "ru": "ограничивать",
+      "target": "restringir"
+    },
+    {
+      "id": "ru_es_c1:revertir",
+      "ru": "обращать вспять",
+      "target": "revertir"
+    },
+    {
+      "id": "ru_es_c1:revocar",
+      "ru": "отменять решение",
+      "target": "revocar"
+    },
+    {
+      "id": "ru_es_c1:salvaguardar",
+      "ru": "оберегать",
+      "target": "salvaguardar"
+    },
+    {
+      "id": "ru_es_c1:secundar",
+      "ru": "поддерживать начинание",
+      "target": "secundar"
+    },
+    {
+      "id": "ru_es_c1:soslayar",
+      "ru": "обходить вопрос",
+      "target": "soslayar"
+    },
+    {
+      "id": "ru_es_c1:subrayar",
+      "ru": "подчёркивать",
+      "target": "subrayar"
+    },
+    {
+      "id": "ru_es_c1:subsistir",
+      "ru": "продолжать существовать",
+      "target": "subsistir"
+    },
+    {
+      "id": "ru_es_c1:subyacer",
+      "ru": "лежать в основе",
+      "target": "subyacer"
+    },
+    {
+      "id": "ru_es_c1:suplantar",
+      "ru": "подменять",
+      "target": "suplantar"
+    },
+    {
+      "id": "ru_es_c1:suscitar",
+      "ru": "вызывать интерес",
+      "target": "suscitar"
+    },
+    {
+      "id": "ru_es_c1:tergiversar",
+      "ru": "искажать смысл",
+      "target": "tergiversar"
+    },
+    {
+      "id": "ru_es_c1:trascender",
+      "ru": "выходить за пределы",
+      "target": "trascender"
+    },
+    {
+      "id": "ru_es_c1:transgredir",
+      "ru": "нарушать норму",
+      "target": "transgredir"
+    },
+    {
+      "id": "ru_es_c1:traslucir",
+      "ru": "выдавать скрытое",
+      "target": "traslucir"
+    },
+    {
+      "id": "ru_es_c1:unificar",
+      "ru": "объединять",
+      "target": "unificar"
+    },
+    {
+      "id": "ru_es_c1:usufructuar",
+      "ru": "пользоваться чужим имуществом",
+      "target": "usufructuar"
+    },
+    {
+      "id": "ru_es_c1:validar",
+      "ru": "подтверждать действительность",
+      "target": "validar"
+    },
+    {
+      "id": "ru_es_c1:vanagloriarse",
+      "ru": "тщеславно хвастаться",
+      "target": "vanagloriarse"
+    },
+    {
+      "id": "ru_es_c1:velar",
+      "ru": "бдительно охранять",
+      "target": "velar"
+    },
+    {
+      "id": "ru_es_c1:vislumbrar",
+      "ru": "смутно различать",
+      "target": "vislumbrar"
+    },
+    {
+      "id": "ru_es_c1:vulnerar",
+      "ru": "нарушать право",
+      "target": "vulnerar"
+    },
+    {
+      "id": "ru_es_c1:yuxtaponer",
+      "ru": "располагать рядом",
+      "target": "yuxtaponer"
+    },
+    {
+      "id": "ru_es_c1:abstracto",
+      "ru": "абстрактный",
+      "target": "abstracto"
+    },
+    {
+      "id": "ru_es_c1:abrumador",
+      "ru": "подавляющий",
+      "target": "abrumador"
+    },
+    {
+      "id": "ru_es_c1:acuciante",
+      "ru": "неотложный",
+      "target": "acuciante"
+    },
+    {
+      "id": "ru_es_c1:acumulativo",
+      "ru": "накопительный",
+      "target": "acumulativo"
+    },
+    {
+      "id": "ru_es_c1:adyacente",
+      "ru": "смежный",
+      "target": "adyacente"
+    },
+    {
+      "id": "ru_es_c1:afín",
+      "ru": "родственный",
+      "target": "afín"
+    },
+    {
+      "id": "ru_es_c1:ajeno",
+      "ru": "посторонний",
+      "target": "ajeno"
+    },
+    {
+      "id": "ru_es_c1:ambiguo",
+      "ru": "двусмысленный",
+      "target": "ambiguo"
+    },
+    {
+      "id": "ru_es_c1:análogo",
+      "ru": "аналогичный",
+      "target": "análogo"
+    },
+    {
+      "id": "ru_es_c1:ancestral",
+      "ru": "унаследованный от предков",
+      "target": "ancestral"
+    },
+    {
+      "id": "ru_es_c1:anecdótico",
+      "ru": "малозначительный",
+      "target": "anecdótico"
+    },
+    {
+      "id": "ru_es_c1:antagónico",
+      "ru": "противостоящий",
+      "target": "antagónico"
+    },
+    {
+      "id": "ru_es_c1:arbitrario",
+      "ru": "произвольный",
+      "target": "arbitrario"
+    },
+    {
+      "id": "ru_es_c1:arcaico",
+      "ru": "архаичный",
+      "target": "arcaico"
+    },
+    {
+      "id": "ru_es_c1:arduo",
+      "ru": "трудный",
+      "target": "arduo"
+    },
+    {
+      "id": "ru_es_c1:asertivo",
+      "ru": "уверенно отстаивающий позицию",
+      "target": "asertivo"
+    },
+    {
+      "id": "ru_es_c1:asimétrico",
+      "ru": "асимметричный",
+      "target": "asimétrico"
+    },
+    {
+      "id": "ru_es_c1:atípico",
+      "ru": "нетипичный",
+      "target": "atípico"
+    },
+    {
+      "id": "ru_es_c1:atroz",
+      "ru": "чудовищный",
+      "target": "atroz"
+    },
+    {
+      "id": "ru_es_c1:austero",
+      "ru": "строгий",
+      "target": "austero"
+    },
+    {
+      "id": "ru_es_c1:autóctono",
+      "ru": "коренной",
+      "target": "autóctono"
+    },
+    {
+      "id": "ru_es_c1:autoritario",
+      "ru": "авторитарный",
+      "target": "autoritario"
+    },
+    {
+      "id": "ru_es_c1:banal",
+      "ru": "банальный",
+      "target": "banal"
+    },
+    {
+      "id": "ru_es_c1:beligerante",
+      "ru": "воинственный",
+      "target": "beligerante"
+    },
+    {
+      "id": "ru_es_c1:benévolo",
+      "ru": "доброжелательный",
+      "target": "benévolo"
+    },
+    {
+      "id": "ru_es_c1:cabal",
+      "ru": "здравомыслящий",
+      "target": "cabal"
+    },
+    {
+      "id": "ru_es_c1:carente",
+      "ru": "лишённый чего-либо",
+      "target": "carente"
+    },
+    {
+      "id": "ru_es_c1:categórico",
+      "ru": "категоричный",
+      "target": "categórico"
+    },
+    {
+      "id": "ru_es_c1:cauteloso",
+      "ru": "осторожный",
+      "target": "cauteloso"
+    },
+    {
+      "id": "ru_es_c1:coactivo",
+      "ru": "принудительный",
+      "target": "coactivo"
+    },
+    {
+      "id": "ru_es_c1:coherente",
+      "ru": "последовательный",
+      "target": "coherente"
+    },
+    {
+      "id": "ru_es_c1:colateral",
+      "ru": "побочный",
+      "target": "colateral"
+    },
+    {
+      "id": "ru_es_c1:colectivo",
+      "ru": "коллективный",
+      "target": "colectivo"
+    },
+    {
+      "id": "ru_es_c1:complementario",
+      "ru": "дополняющий",
+      "target": "complementario"
+    },
+    {
+      "id": "ru_es_c1:complejo",
+      "ru": "сложный",
+      "target": "complejo"
+    },
+    {
+      "id": "ru_es_c1:concluyente",
+      "ru": "убедительный",
+      "target": "concluyente"
+    },
+    {
+      "id": "ru_es_c1:concomitante",
+      "ru": "сопутствующий",
+      "target": "concomitante"
+    },
+    {
+      "id": "ru_es_c1:conciso",
+      "ru": "краткий",
+      "target": "conciso"
+    },
+    {
+      "id": "ru_es_c1:congruente",
+      "ru": "согласующийся",
+      "target": "congruente"
+    },
+    {
+      "id": "ru_es_c1:consecuente",
+      "ru": "последовательный",
+      "target": "consecuente"
+    },
+    {
+      "id": "ru_es_c1:consustancial",
+      "ru": "неотъемлемый",
+      "target": "consustancial"
+    },
+    {
+      "id": "ru_es_c1:contiguo",
+      "ru": "прилегающий",
+      "target": "contiguo"
+    },
+    {
+      "id": "ru_es_c1:contingente",
+      "ru": "возможный при определённых условиях",
+      "target": "contingente"
+    },
+    {
+      "id": "ru_es_c1:controvertido",
+      "ru": "спорный",
+      "target": "controvertido"
+    },
+    {
+      "id": "ru_es_c1:convencional",
+      "ru": "общепринятый",
+      "target": "convencional"
+    },
+    {
+      "id": "ru_es_c1:convergente",
+      "ru": "сходящийся",
+      "target": "convergente"
+    },
+    {
+      "id": "ru_es_c1:coyuntural",
+      "ru": "связанный с текущей ситуацией",
+      "target": "coyuntural"
+    },
+    {
+      "id": "ru_es_c1:creíble",
+      "ru": "правдоподобный",
+      "target": "creíble"
+    },
+    {
+      "id": "ru_es_c1:cualitativo",
+      "ru": "качественный",
+      "target": "cualitativo"
+    },
+    {
+      "id": "ru_es_c1:cuantitativo",
+      "ru": "количественный",
+      "target": "cuantitativo"
+    },
+    {
+      "id": "ru_es_c1:decisivo",
+      "ru": "решающий",
+      "target": "decisivo"
+    },
+    {
+      "id": "ru_es_c1:deficitario",
+      "ru": "дефицитный",
+      "target": "deficitario"
+    },
+    {
+      "id": "ru_es_c1:deliberado",
+      "ru": "преднамеренный",
+      "target": "deliberado"
+    },
+    {
+      "id": "ru_es_c1:demagógico",
+      "ru": "демагогический",
+      "target": "demagógico"
+    },
+    {
+      "id": "ru_es_c1:denigrante",
+      "ru": "унизительный",
+      "target": "denigrante"
+    },
+    {
+      "id": "ru_es_c1:desmedido",
+      "ru": "чрезмерный",
+      "target": "desmedido"
+    },
+    {
+      "id": "ru_es_c1:despectivo",
+      "ru": "пренебрежительный",
+      "target": "despectivo"
+    },
+    {
+      "id": "ru_es_c1:determinante",
+      "ru": "определяющий",
+      "target": "determinante"
+    },
+    {
+      "id": "ru_es_c1:dicotómico",
+      "ru": "разделённый надвое",
+      "target": "dicotómico"
+    },
+    {
+      "id": "ru_es_c1:difuso",
+      "ru": "расплывчатый",
+      "target": "difuso"
+    },
+    {
+      "id": "ru_es_c1:diligente",
+      "ru": "старательный",
+      "target": "diligente"
+    },
+    {
+      "id": "ru_es_c1:discrecional",
+      "ru": "осуществляемый по усмотрению",
+      "target": "discrecional"
+    },
+    {
+      "id": "ru_es_c1:dispar",
+      "ru": "несхожий",
+      "target": "dispar"
+    },
+    {
+      "id": "ru_es_c1:disuasorio",
+      "ru": "сдерживающий",
+      "target": "disuasorio"
+    },
+    {
+      "id": "ru_es_c1:dogmático",
+      "ru": "догматичный",
+      "target": "dogmático"
+    },
+    {
+      "id": "ru_es_c1:drástico",
+      "ru": "решительный",
+      "target": "drástico"
+    },
+    {
+      "id": "ru_es_c1:dual",
+      "ru": "двойственный",
+      "target": "dual"
+    },
+    {
+      "id": "ru_es_c1:efímero",
+      "ru": "мимолётный",
+      "target": "efímero"
+    },
+    {
+      "id": "ru_es_c1:elocuente",
+      "ru": "красноречивый",
+      "target": "elocuente"
+    },
+    {
+      "id": "ru_es_c1:emblemático",
+      "ru": "символичный",
+      "target": "emblemático"
+    },
+    {
+      "id": "ru_es_c1:empírico",
+      "ru": "опытный по методу",
+      "target": "empírico"
+    },
+    {
+      "id": "ru_es_c1:endémico",
+      "ru": "характерный для данной местности",
+      "target": "endémico"
+    },
+    {
+      "id": "ru_es_c1:enigmático",
+      "ru": "загадочный",
+      "target": "enigmático"
+    },
+    {
+      "id": "ru_es_c1:equitativo",
+      "ru": "справедливый",
+      "target": "equitativo"
+    },
+    {
+      "id": "ru_es_c1:errático",
+      "ru": "непредсказуемый",
+      "target": "errático"
+    },
+    {
+      "id": "ru_es_c1:escéptico",
+      "ru": "скептический",
+      "target": "escéptico"
+    },
+    {
+      "id": "ru_es_c1:esencial",
+      "ru": "существенный",
+      "target": "esencial"
+    },
+    {
+      "id": "ru_es_c1:esporádico",
+      "ru": "эпизодический",
+      "target": "esporádico"
+    },
+    {
+      "id": "ru_es_c1:estéril",
+      "ru": "бесплодный",
+      "target": "estéril"
+    },
+    {
+      "id": "ru_es_c1:estricto",
+      "ru": "строгий",
+      "target": "estricto"
+    },
+    {
+      "id": "ru_es_c1:exhaustivo",
+      "ru": "исчерпывающий",
+      "target": "exhaustivo"
+    },
+    {
+      "id": "ru_es_c1:exiguo",
+      "ru": "скудный",
+      "target": "exiguo"
+    },
+    {
+      "id": "ru_es_c1:explícito",
+      "ru": "явно выраженный",
+      "target": "explícito"
+    },
+    {
+      "id": "ru_es_c1:factible",
+      "ru": "осуществимый",
+      "target": "factible"
+    },
+    {
+      "id": "ru_es_c1:falaz",
+      "ru": "ложный",
+      "target": "falaz"
+    },
+    {
+      "id": "ru_es_c1:fehaciente",
+      "ru": "достоверно подтверждающий",
+      "target": "fehaciente"
+    },
+    {
+      "id": "ru_es_c1:fidedigno",
+      "ru": "заслуживающий доверия",
+      "target": "fidedigno"
+    },
+    {
+      "id": "ru_es_c1:fortuito",
+      "ru": "случайный",
+      "target": "fortuito"
+    },
+    {
+      "id": "ru_es_c1:frívolo",
+      "ru": "легкомысленный",
+      "target": "frívolo"
+    },
+    {
+      "id": "ru_es_c1:fructífero",
+      "ru": "плодотворный",
+      "target": "fructífero"
+    },
+    {
+      "id": "ru_es_c1:fútil",
+      "ru": "бесполезный",
+      "target": "fútil"
+    },
+    {
+      "id": "ru_es_c1:genuino",
+      "ru": "подлинный",
+      "target": "genuino"
+    },
+    {
+      "id": "ru_es_c1:gradual",
+      "ru": "постепенный",
+      "target": "gradual"
+    },
+    {
+      "id": "ru_es_c1:hermético",
+      "ru": "непроницаемый",
+      "target": "hermético"
+    },
+    {
+      "id": "ru_es_c1:heterogéneo",
+      "ru": "разнородный",
+      "target": "heterogéneo"
+    },
+    {
+      "id": "ru_es_c1:hipotético",
+      "ru": "предположительный",
+      "target": "hipotético"
+    },
+    {
+      "id": "ru_es_c1:homogéneo",
+      "ru": "однородный",
+      "target": "homogéneo"
+    },
+    {
+      "id": "ru_es_c1:idóneo",
+      "ru": "подходящий",
+      "target": "idóneo"
+    },
+    {
+      "id": "ru_es_c1:ilícito",
+      "ru": "противозаконный",
+      "target": "ilícito"
+    },
+    {
+      "id": "ru_es_c1:imparcial",
+      "ru": "беспристрастный",
+      "target": "imparcial"
+    },
+    {
+      "id": "ru_es_c1:imperante",
+      "ru": "господствующий",
+      "target": "imperante"
+    },
+    {
+      "id": "ru_es_c1:implícito",
+      "ru": "подразумеваемый",
+      "target": "implícito"
+    },
+    {
+      "id": "ru_es_c1:improcedente",
+      "ru": "неуместный",
+      "target": "improcedente"
+    },
+    {
+      "id": "ru_es_c1:inalienable",
+      "ru": "неотчуждаемый",
+      "target": "inalienable"
+    },
+    {
+      "id": "ru_es_c1:inapelable",
+      "ru": "не подлежащий обжалованию",
+      "target": "inapelable"
+    },
+    {
+      "id": "ru_es_c1:incisivo",
+      "ru": "острый по мысли",
+      "target": "incisivo"
+    },
+    {
+      "id": "ru_es_c1:incongruente",
+      "ru": "несообразный",
+      "target": "incongruente"
+    },
+    {
+      "id": "ru_es_c1:indeleble",
+      "ru": "неизгладимый",
+      "target": "indeleble"
+    },
+    {
+      "id": "ru_es_c1:indispensable",
+      "ru": "необходимый",
+      "target": "indispensable"
+    },
+    {
+      "id": "ru_es_c1:inefable",
+      "ru": "невыразимый",
+      "target": "inefable"
+    },
+    {
+      "id": "ru_es_c1:inerte",
+      "ru": "инертный",
+      "target": "inerte"
+    },
+    {
+      "id": "ru_es_c1:inexorable",
+      "ru": "неумолимый",
+      "target": "inexorable"
+    },
+    {
+      "id": "ru_es_c1:infructuoso",
+      "ru": "безрезультатный",
+      "target": "infructuoso"
+    },
+    {
+      "id": "ru_es_c1:inherente",
+      "ru": "неотъемлемый",
+      "target": "inherente"
+    },
+    {
+      "id": "ru_es_c1:ininteligible",
+      "ru": "непонятный",
+      "target": "ininteligible"
+    },
+    {
+      "id": "ru_es_c1:inmanente",
+      "ru": "внутренне присущий",
+      "target": "inmanente"
+    },
+    {
+      "id": "ru_es_c1:inminente",
+      "ru": "неизбежно надвигающийся",
+      "target": "inminente"
+    },
+    {
+      "id": "ru_es_c1:inocuo",
+      "ru": "безвредный",
+      "target": "inocuo"
+    },
+    {
+      "id": "ru_es_c1:insólito",
+      "ru": "необычный",
+      "target": "insólito"
+    },
+    {
+      "id": "ru_es_c1:intangible",
+      "ru": "неосязаемый",
+      "target": "intangible"
+    },
+    {
+      "id": "ru_es_c1:intrínseco",
+      "ru": "внутренне присущий",
+      "target": "intrínseco"
+    },
+    {
+      "id": "ru_es_c1:inverosímil",
+      "ru": "неправдоподобный",
+      "target": "inverosímil"
+    },
+    {
+      "id": "ru_es_c1:irrefutable",
+      "ru": "неопровержимый",
+      "target": "irrefutable"
+    },
+    {
+      "id": "ru_es_c1:irreversible",
+      "ru": "необратимый",
+      "target": "irreversible"
+    },
+    {
+      "id": "ru_es_c1:irrisorio",
+      "ru": "смехотворно малый",
+      "target": "irrisorio"
+    },
+    {
+      "id": "ru_es_c1:latente",
+      "ru": "скрытый",
+      "target": "latente"
+    },
+    {
+      "id": "ru_es_c1:legítimo",
+      "ru": "правомерный",
+      "target": "legítimo"
+    },
+    {
+      "id": "ru_es_c1:loable",
+      "ru": "похвальный",
+      "target": "loable"
+    },
+    {
+      "id": "ru_es_c1:lúcido",
+      "ru": "ясно мыслящий",
+      "target": "lúcido"
+    },
+    {
+      "id": "ru_es_c1:magnánimo",
+      "ru": "великодушный",
+      "target": "magnánimo"
+    },
+    {
+      "id": "ru_es_c1:meticuloso",
+      "ru": "скрупулёзный",
+      "target": "meticuloso"
+    },
+    {
+      "id": "ru_es_c1:minucioso",
+      "ru": "тщательный",
+      "target": "minucioso"
+    },
+    {
+      "id": "ru_es_c1:multifacético",
+      "ru": "многогранный",
+      "target": "multifacético"
+    },
+    {
+      "id": "ru_es_c1:nefasto",
+      "ru": "пагубный",
+      "target": "nefasto"
+    },
+    {
+      "id": "ru_es_c1:negligente",
+      "ru": "небрежный",
+      "target": "negligente"
+    },
+    {
+      "id": "ru_es_c1:notorio",
+      "ru": "общеизвестный",
+      "target": "notorio"
+    },
+    {
+      "id": "ru_es_c1:obsoleto",
+      "ru": "устаревший",
+      "target": "obsoleto"
+    },
+    {
+      "id": "ru_es_c1:omnipresente",
+      "ru": "вездесущий",
+      "target": "omnipresente"
+    },
+    {
+      "id": "ru_es_c1:oneroso",
+      "ru": "обременительный",
+      "target": "oneroso"
+    },
+    {
+      "id": "ru_es_c1:opaco",
+      "ru": "непрозрачный",
+      "target": "opaco"
+    },
+    {
+      "id": "ru_es_c1:paulatino",
+      "ru": "постепенный",
+      "target": "paulatino"
+    },
+    {
+      "id": "ru_es_c1:perentorio",
+      "ru": "не терпящий отлагательства",
+      "target": "perentorio"
+    },
+    {
+      "id": "ru_es_c1:perpetuo",
+      "ru": "вечный",
+      "target": "perpetuo"
+    },
+    {
+      "id": "ru_es_c1:perspicaz",
+      "ru": "проницательный",
+      "target": "perspicaz"
+    },
+    {
+      "id": "ru_es_c1:pertinente",
+      "ru": "уместный",
+      "target": "pertinente"
+    },
+    {
+      "id": "ru_es_c1:plausible",
+      "ru": "заслуживающий одобрения",
+      "target": "plausible"
+    },
+    {
+      "id": "ru_es_c1:polifacético",
+      "ru": "разносторонний",
+      "target": "polifacético"
+    },
+    {
+      "id": "ru_es_c1:preceptivo",
+      "ru": "обязательный по предписанию",
+      "target": "preceptivo"
+    },
+    {
+      "id": "ru_es_c1:preeminente",
+      "ru": "выдающийся",
+      "target": "preeminente"
+    },
+    {
+      "id": "ru_es_c1:pragmático",
+      "ru": "прагматичный",
+      "target": "pragmático"
+    },
+    {
+      "id": "ru_es_c1:precario",
+      "ru": "неустойчивый",
+      "target": "precario"
+    },
+    {
+      "id": "ru_es_c1:prolífico",
+      "ru": "плодовитый",
+      "target": "prolífico"
+    },
+    {
+      "id": "ru_es_c1:propenso",
+      "ru": "склонный",
+      "target": "propenso"
+    },
+    {
+      "id": "ru_es_c1:provisional",
+      "ru": "временный",
+      "target": "provisional"
+    },
+    {
+      "id": "ru_es_c1:recíproco",
+      "ru": "взаимный",
+      "target": "recíproco"
+    },
+    {
+      "id": "ru_es_c1:redundante",
+      "ru": "избыточный",
+      "target": "redundante"
+    },
+    {
+      "id": "ru_es_c1:reiterado",
+      "ru": "неоднократный",
+      "target": "reiterado"
+    },
+    {
+      "id": "ru_es_c1:reticente",
+      "ru": "неохотно высказывающийся",
+      "target": "reticente"
+    },
+    {
+      "id": "ru_es_c1:riguroso",
+      "ru": "строгий",
+      "target": "riguroso"
+    },
+    {
+      "id": "ru_es_c1:rudimentario",
+      "ru": "примитивный",
+      "target": "rudimentario"
+    },
+    {
+      "id": "ru_es_c1:sesgado",
+      "ru": "предвзятый",
+      "target": "sesgado"
+    },
+    {
+      "id": "ru_es_c1:somero",
+      "ru": "поверхностный",
+      "target": "somero"
+    },
+    {
+      "id": "ru_es_c1:subjetivo",
+      "ru": "субъективный",
+      "target": "subjetivo"
+    },
+    {
+      "id": "ru_es_c1:subyacente",
+      "ru": "лежащий в основе",
+      "target": "subyacente"
+    },
+    {
+      "id": "ru_es_c1:sucinto",
+      "ru": "сжатый",
+      "target": "sucinto"
+    },
+    {
+      "id": "ru_es_c1:susceptible",
+      "ru": "восприимчивый",
+      "target": "susceptible"
+    },
+    {
+      "id": "ru_es_c1:tácito",
+      "ru": "молчаливый",
+      "target": "tácito"
+    },
+    {
+      "id": "ru_es_c1:taxativo",
+      "ru": "категорический",
+      "target": "taxativo"
+    },
+    {
+      "id": "ru_es_c1:tenaz",
+      "ru": "упорный",
+      "target": "tenaz"
+    },
+    {
+      "id": "ru_es_c1:transitorio",
+      "ru": "преходящий",
+      "target": "transitorio"
+    },
+    {
+      "id": "ru_es_c1:unánime",
+      "ru": "единодушный",
+      "target": "unánime"
+    },
+    {
+      "id": "ru_es_c1:unívoco",
+      "ru": "однозначный",
+      "target": "unívoco"
+    },
+    {
+      "id": "ru_es_c1:utópico",
+      "ru": "утопический",
+      "target": "utópico"
+    },
+    {
+      "id": "ru_es_c1:veraz",
+      "ru": "правдивый",
+      "target": "veraz"
+    },
+    {
+      "id": "ru_es_c1:verosímil",
+      "ru": "правдоподобный",
+      "target": "verosímil"
+    },
+    {
+      "id": "ru_es_c1:versátil",
+      "ru": "разносторонний",
+      "target": "versátil"
+    },
+    {
+      "id": "ru_es_c1:vigente",
+      "ru": "действующий",
+      "target": "vigente"
+    },
+    {
+      "id": "ru_es_c1:volátil",
+      "ru": "изменчивый",
+      "target": "volátil"
+    },
+    {
+      "id": "ru_es_c1:vulnerable",
+      "ru": "уязвимый",
+      "target": "vulnerable"
+    },
+    {
+      "id": "ru_es_c1:alegoría",
+      "ru": "аллегория",
+      "target": "alegoría"
+    },
+    {
+      "id": "ru_es_c1:aliteración",
+      "ru": "аллитерация",
+      "target": "aliteración"
+    },
+    {
+      "id": "ru_es_c1:anacronismo",
+      "ru": "анахронизм",
+      "target": "anacronismo"
+    },
+    {
+      "id": "ru_es_c1:antítesis",
+      "ru": "антитеза",
+      "target": "antítesis"
+    },
+    {
+      "id": "ru_es_c1:antología",
+      "ru": "антология",
+      "target": "antología"
+    },
+    {
+      "id": "ru_es_c1:apólogo",
+      "ru": "нравоучительный рассказ",
+      "target": "apólogo"
+    },
+    {
+      "id": "ru_es_c1:apóstrofe",
+      "ru": "риторическое обращение",
+      "target": "apóstrofe"
+    },
+    {
+      "id": "ru_es_c1:argumentación",
+      "ru": "аргументация",
+      "target": "argumentación"
+    },
+    {
+      "id": "ru_es_c1:autobiografía",
+      "ru": "автобиография",
+      "target": "autobiografía"
+    },
+    {
+      "id": "ru_es_c1:barroco",
+      "ru": "барокко",
+      "target": "barroco"
+    },
+    {
+      "id": "ru_es_c1:clasicismo",
+      "ru": "классицизм",
+      "target": "clasicismo"
+    },
+    {
+      "id": "ru_es_c1:coloquio",
+      "ru": "научная беседа",
+      "target": "coloquio"
+    },
+    {
+      "id": "ru_es_c1:comentario",
+      "ru": "комментарий",
+      "target": "comentario"
+    },
+    {
+      "id": "ru_es_c1:consonancia",
+      "ru": "созвучие",
+      "target": "consonancia"
+    },
+    {
+      "id": "ru_es_c1:crónica",
+      "ru": "хроника",
+      "target": "crónica"
+    },
+    {
+      "id": "ru_es_c1:descripción",
+      "ru": "описание",
+      "target": "descripción"
+    },
+    {
+      "id": "ru_es_c1:digresión",
+      "ru": "отступление от темы",
+      "target": "digresión"
+    },
+    {
+      "id": "ru_es_c1:dramaturgia",
+      "ru": "драматургия",
+      "target": "dramaturgia"
+    },
+    {
+      "id": "ru_es_c1:elegía",
+      "ru": "элегия",
+      "target": "elegía"
+    },
+    {
+      "id": "ru_es_c1:elipsis",
+      "ru": "эллипсис",
+      "target": "elipsis"
+    },
+    {
+      "id": "ru_es_c1:ensayista",
+      "ru": "эссеист",
+      "target": "ensayista"
+    },
+    {
+      "id": "ru_es_c1:epígrafe",
+      "ru": "эпиграф",
+      "target": "epígrafe"
+    },
+    {
+      "id": "ru_es_c1:epílogo",
+      "ru": "эпилог",
+      "target": "epílogo"
+    },
+    {
+      "id": "ru_es_c1:epíteto",
+      "ru": "эпитет",
+      "target": "epíteto"
+    },
+    {
+      "id": "ru_es_c1:epopeya",
+      "ru": "эпопея",
+      "target": "epopeya"
+    },
+    {
+      "id": "ru_es_c1:epístola",
+      "ru": "послание",
+      "target": "epístola"
+    },
+    {
+      "id": "ru_es_c1:estrofa",
+      "ru": "строфа",
+      "target": "estrofa"
+    },
+    {
+      "id": "ru_es_c1:fábula",
+      "ru": "басня",
+      "target": "fábula"
+    },
+    {
+      "id": "ru_es_c1:ficción",
+      "ru": "художественный вымысел",
+      "target": "ficción"
+    },
+    {
+      "id": "ru_es_c1:filología",
+      "ru": "филология",
+      "target": "filología"
+    },
+    {
+      "id": "ru_es_c1:folclore",
+      "ru": "фольклор",
+      "target": "folclore"
+    },
+    {
+      "id": "ru_es_c1:hipérbole",
+      "ru": "гипербола",
+      "target": "hipérbole"
+    },
+    {
+      "id": "ru_es_c1:intertextualidad",
+      "ru": "межтекстовые связи",
+      "target": "intertextualidad"
+    },
+    {
+      "id": "ru_es_c1:lírica",
+      "ru": "лирика",
+      "target": "lírica"
+    },
+    {
+      "id": "ru_es_c1:manuscrito",
+      "ru": "рукопись",
+      "target": "manuscrito"
+    },
+    {
+      "id": "ru_es_c1:metonimia",
+      "ru": "метонимия",
+      "target": "metonimia"
+    },
+    {
+      "id": "ru_es_c1:monólogo",
+      "ru": "монолог",
+      "target": "monólogo"
+    },
+    {
+      "id": "ru_es_c1:neologismo",
+      "ru": "неологизм",
+      "target": "neologismo"
+    },
+    {
+      "id": "ru_es_c1:onomatopeya",
+      "ru": "звукоподражание",
+      "target": "onomatopeya"
+    },
+    {
+      "id": "ru_es_c1:oratoria",
+      "ru": "ораторское искусство",
+      "target": "oratoria"
+    },
+    {
+      "id": "ru_es_c1:oxímoron",
+      "ru": "оксюморон",
+      "target": "oxímoron"
+    },
+    {
+      "id": "ru_es_c1:parábola",
+      "ru": "притча",
+      "target": "parábola"
+    },
+    {
+      "id": "ru_es_c1:paráfrasis",
+      "ru": "пересказ",
+      "target": "paráfrasis"
+    },
+    {
+      "id": "ru_es_c1:parodia",
+      "ru": "пародия",
+      "target": "parodia"
+    },
+    {
+      "id": "ru_es_c1:personificación",
+      "ru": "олицетворение",
+      "target": "personificación"
+    },
+    {
+      "id": "ru_es_c1:poética",
+      "ru": "поэтика",
+      "target": "poética"
+    },
+    {
+      "id": "ru_es_c1:preámbulo",
+      "ru": "преамбула",
+      "target": "preámbulo"
+    },
+    {
+      "id": "ru_es_c1:prólogo",
+      "ru": "пролог",
+      "target": "prólogo"
+    },
+    {
+      "id": "ru_es_c1:prosodia",
+      "ru": "просодия",
+      "target": "prosodia"
+    },
+    {
+      "id": "ru_es_c1:protagonista",
+      "ru": "главный герой",
+      "target": "protagonista"
+    },
+    {
+      "id": "ru_es_c1:realismo",
+      "ru": "реализм",
+      "target": "realismo"
+    },
+    {
+      "id": "ru_es_c1:reseña",
+      "ru": "краткая рецензия",
+      "target": "reseña"
+    },
+    {
+      "id": "ru_es_c1:romanticismo",
+      "ru": "романтизм",
+      "target": "romanticismo"
+    },
+    {
+      "id": "ru_es_c1:simbolismo",
+      "ru": "символизм",
+      "target": "simbolismo"
+    },
+    {
+      "id": "ru_es_c1:soliloquio",
+      "ru": "разговор с самим собой",
+      "target": "soliloquio"
+    },
+    {
+      "id": "ru_es_c1:soneto",
+      "ru": "сонет",
+      "target": "soneto"
+    },
+    {
+      "id": "ru_es_c1:subtrama",
+      "ru": "второстепенная сюжетная линия",
+      "target": "subtrama"
+    },
+    {
+      "id": "ru_es_c1:surrealismo",
+      "ru": "сюрреализм",
+      "target": "surrealismo"
+    },
+    {
+      "id": "ru_es_c1:tragedia",
+      "ru": "трагедия",
+      "target": "tragedia"
+    },
+    {
+      "id": "ru_es_c1:tratado",
+      "ru": "научный труд",
+      "target": "tratado"
+    },
+    {
+      "id": "ru_es_c1:versificación",
+      "ru": "стихосложение",
+      "target": "versificación"
+    },
+    {
+      "id": "ru_es_c1:villancico",
+      "ru": "рождественская песня",
+      "target": "villancico"
+    },
+    {
+      "id": "ru_es_c1:vocabulario",
+      "ru": "словарный состав",
+      "target": "vocabulario"
+    },
+    {
+      "id": "ru_es_c1:adjetivo",
+      "ru": "прилагательное",
+      "target": "adjetivo"
+    },
+    {
+      "id": "ru_es_c1:adverbio",
+      "ru": "наречие",
+      "target": "adverbio"
+    },
+    {
+      "id": "ru_es_c1:conjugación",
+      "ru": "спряжение",
+      "target": "conjugación"
+    },
+    {
+      "id": "ru_es_c1:conjunción",
+      "ru": "союз",
+      "target": "conjunción"
+    },
+    {
+      "id": "ru_es_c1:declinación",
+      "ru": "склонение",
+      "target": "declinación"
+    },
+    {
+      "id": "ru_es_c1:diptongo",
+      "ru": "дифтонг",
+      "target": "diptongo"
+    },
+    {
+      "id": "ru_es_c1:fonema",
+      "ru": "фонема",
+      "target": "fonema"
+    },
+    {
+      "id": "ru_es_c1:fonética",
+      "ru": "фонетика",
+      "target": "fonética"
+    },
+    {
+      "id": "ru_es_c1:fonología",
+      "ru": "фонология",
+      "target": "fonología"
+    },
+    {
+      "id": "ru_es_c1:gramática",
+      "ru": "грамматика",
+      "target": "gramática"
+    },
+    {
+      "id": "ru_es_c1:hiato",
+      "ru": "стечение гласных в разных слогах",
+      "target": "hiato"
+    },
+    {
+      "id": "ru_es_c1:infinitivo",
+      "ru": "инфинитив",
+      "target": "infinitivo"
+    },
+    {
+      "id": "ru_es_c1:lexema",
+      "ru": "лексема",
+      "target": "lexema"
+    },
+    {
+      "id": "ru_es_c1:morfema",
+      "ru": "морфема",
+      "target": "morfema"
+    },
+    {
+      "id": "ru_es_c1:morfología",
+      "ru": "морфология",
+      "target": "morfología"
+    },
+    {
+      "id": "ru_es_c1:participio",
+      "ru": "причастие",
+      "target": "participio"
+    },
+    {
+      "id": "ru_es_c1:predicado",
+      "ru": "сказуемое",
+      "target": "predicado"
+    },
+    {
+      "id": "ru_es_c1:pronombre",
+      "ru": "местоимение",
+      "target": "pronombre"
+    },
+    {
+      "id": "ru_es_c1:semántica",
+      "ru": "семантика",
+      "target": "semántica"
+    },
+    {
+      "id": "ru_es_c1:sintaxis",
+      "ru": "синтаксис",
+      "target": "sintaxis"
+    },
+    {
+      "id": "ru_es_c1:subjuntivo",
+      "ru": "сослагательное наклонение",
+      "target": "subjuntivo"
+    },
+    {
+      "id": "ru_es_c1:sufijo",
+      "ru": "суффикс",
+      "target": "sufijo"
+    },
+    {
+      "id": "ru_es_c1:acusación",
+      "ru": "обвинение",
+      "target": "acusación"
+    },
+    {
+      "id": "ru_es_c1:alevoso",
+      "ru": "вероломный",
+      "target": "alevoso"
+    },
+    {
+      "id": "ru_es_c1:amnistía",
+      "ru": "амнистия",
+      "target": "amnistía"
+    },
+    {
+      "id": "ru_es_c1:arbitraje",
+      "ru": "арбитраж",
+      "target": "arbitraje"
+    },
+    {
+      "id": "ru_es_c1:atestado",
+      "ru": "полицейский протокол",
+      "target": "atestado"
+    },
+    {
+      "id": "ru_es_c1:caución",
+      "ru": "залоговая гарантия",
+      "target": "caución"
+    },
+    {
+      "id": "ru_es_c1:cláusula",
+      "ru": "пункт договора",
+      "target": "cláusula"
+    },
+    {
+      "id": "ru_es_c1:cohecho",
+      "ru": "взяточничество",
+      "target": "cohecho"
+    },
+    {
+      "id": "ru_es_c1:comparecencia",
+      "ru": "явка в суд",
+      "target": "comparecencia"
+    },
+    {
+      "id": "ru_es_c1:condena",
+      "ru": "приговор",
+      "target": "condena"
+    },
+    {
+      "id": "ru_es_c1:convenio",
+      "ru": "соглашение",
+      "target": "convenio"
+    },
+    {
+      "id": "ru_es_c1:custodia",
+      "ru": "опека",
+      "target": "custodia"
+    },
+    {
+      "id": "ru_es_c1:decreto",
+      "ru": "декрет",
+      "target": "decreto"
+    },
+    {
+      "id": "ru_es_c1:dictamen",
+      "ru": "экспертное заключение",
+      "target": "dictamen"
+    },
+    {
+      "id": "ru_es_c1:dolo",
+      "ru": "умысел",
+      "target": "dolo"
+    },
+    {
+      "id": "ru_es_c1:escritura",
+      "ru": "нотариальный акт",
+      "target": "escritura"
+    },
+    {
+      "id": "ru_es_c1:fianza",
+      "ru": "залог",
+      "target": "fianza"
+    },
+    {
+      "id": "ru_es_c1:fiscalía",
+      "ru": "прокуратура",
+      "target": "fiscalía"
+    },
+    {
+      "id": "ru_es_c1:indulto",
+      "ru": "помилование",
+      "target": "indulto"
+    },
+    {
+      "id": "ru_es_c1:instrucción",
+      "ru": "предварительное следствие",
+      "target": "instrucción"
+    },
+    {
+      "id": "ru_es_c1:jurado",
+      "ru": "суд присяжных",
+      "target": "jurado"
+    },
+    {
+      "id": "ru_es_c1:jurisdicción",
+      "ru": "юрисдикция",
+      "target": "jurisdicción"
+    },
+    {
+      "id": "ru_es_c1:legislación",
+      "ru": "законодательство",
+      "target": "legislación"
+    },
+    {
+      "id": "ru_es_c1:litigio",
+      "ru": "судебный спор",
+      "target": "litigio"
+    },
+    {
+      "id": "ru_es_c1:mandato",
+      "ru": "поручение",
+      "target": "mandato"
+    },
+    {
+      "id": "ru_es_c1:perjurio",
+      "ru": "лжесвидетельство",
+      "target": "perjurio"
+    },
+    {
+      "id": "ru_es_c1:querella",
+      "ru": "уголовная жалоба",
+      "target": "querella"
+    },
+    {
+      "id": "ru_es_c1:sentencia",
+      "ru": "судебный приговор",
+      "target": "sentencia"
+    },
+    {
+      "id": "ru_es_c1:testimonio",
+      "ru": "свидетельское показание",
+      "target": "testimonio"
+    },
+    {
+      "id": "ru_es_c1:tutela",
+      "ru": "попечительство",
+      "target": "tutela"
+    },
+    {
+      "id": "ru_es_c1:veredicto",
+      "ru": "вердикт",
+      "target": "veredicto"
+    }
+  ]
+}

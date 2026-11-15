@@ -101,10 +101,31 @@ pub fn run_wpm_capture_adaptive(
     expectations: &[(usize, &str)],
     responses: &[(usize, fn(&str) -> Vec<u8>)],
 ) -> TestRun {
+    run_wpm_capture_geometry(
+        keys,
+        data_dir,
+        environment,
+        pauses,
+        expectations,
+        responses,
+        (80, 24),
+    )
+}
+
+/// Keep both the real PTY and reconstructed screen at the requested geometry.
+pub fn run_wpm_capture_geometry(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+    expectations: &[(usize, &str)],
+    responses: &[(usize, fn(&str) -> Vec<u8>)],
+    geometry: (usize, usize),
+) -> TestRun {
     let hold_shell = environment
         .iter()
         .any(|(name, _)| *name == "WPM_TEST_HOLD_SHELL");
-    let mut command = script_command_with_hold(hold_shell);
+    let mut command = script_command_with_hold(hold_shell, geometry);
     for (name, value) in environment {
         command.env(name, value);
     }
@@ -156,10 +177,15 @@ pub fn run_wpm_capture_adaptive(
         let response = responses
             .iter()
             .find(|(at, _)| *at == index)
-            .map(|(_, respond)| respond(&screen_from_output(&captured.lock().unwrap())));
+            .map(|(_, respond)| respond(&screen_from_output(&captured.lock().unwrap(), geometry)));
         stdin
             .write_all(response.as_deref().unwrap_or(key))
-            .expect("failed to write test input");
+            .unwrap_or_else(|e| {
+                panic!(
+                    "failed to write test input: {e}\n{}",
+                    String::from_utf8_lossy(&captured.lock().unwrap())
+                )
+            });
         stdin.flush().expect("failed to flush test input");
         thread::sleep(Duration::from_millis(75));
         for (_, duration) in pauses
@@ -174,7 +200,7 @@ pub fn run_wpm_capture_adaptive(
         {
             let started = Instant::now();
             loop {
-                let screen = screen_from_output(&captured.lock().unwrap());
+                let screen = screen_from_output(&captured.lock().unwrap(), geometry);
                 if screen.contains(expected) {
                     break;
                 }
@@ -186,7 +212,7 @@ pub fn run_wpm_capture_adaptive(
                 thread::sleep(Duration::from_millis(10));
             }
         }
-        screens.push(screen_from_output(&captured.lock().unwrap()));
+        screens.push(screen_from_output(&captured.lock().unwrap(), geometry));
     }
     drop(stdin);
 
@@ -206,9 +232,9 @@ pub fn run_wpm_capture_adaptive(
     }
 }
 
-fn screen_from_output(output: &[u8]) -> String {
+fn screen_from_output(output: &[u8], geometry: (usize, usize)) -> String {
     let mut parser = Parser::new();
-    let mut surface = Surface::new(80, 24);
+    let mut surface = Surface::new(geometry.0, geometry.1);
     for action in parser.parse_as_vec(output) {
         match action {
             Action::Print(ch) => {
@@ -229,14 +255,18 @@ fn screen_from_output(output: &[u8]) -> String {
     surface.screen_chars_to_string()
 }
 
-fn script_command_with_hold(hold: bool) -> Command {
+fn script_command_with_hold(hold: bool, geometry: (usize, usize)) -> Command {
     let mut command = Command::new("script");
 
-    let shell_command = if hold {
-        "stty rows 24 cols 80; \"$WPM_BIN\"; echo WPM_EXITED; if kill -0 \"$(cat \"$WPM_TEST_HOLD_SHELL\")\" 2>/dev/null; then echo TTS_STILL_ALIVE; fi; sleep 2; echo SHELL_FINISHED"
+    let command_body = if hold {
+        "\"$WPM_BIN\"; echo WPM_EXITED; if kill -0 \"$(cat \"$WPM_TEST_HOLD_SHELL\")\" 2>/dev/null; then echo TTS_STILL_ALIVE; fi; sleep 2; echo SHELL_FINISHED"
     } else {
-        "stty rows 24 cols 80; exec \"$WPM_BIN\""
+        "exec \"$WPM_BIN\""
     };
+    let shell_command = format!(
+        "stty rows {} cols {}; {}",
+        geometry.1, geometry.0, command_body
+    );
     if cfg!(target_os = "macos") {
         command
             .arg("-q")

@@ -1,4 +1,17 @@
-use crate::vocabulary::{VocabularyEntry, VocabularySet};
+use crate::{
+    dataset::{Dataset, Profile},
+    vocabulary::{VocabularyEntry, VocabularySet},
+};
+
+pub fn bundled_datasets() -> &'static [Dataset] {
+    static DATA: std::sync::OnceLock<Vec<Dataset>> = std::sync::OnceLock::new();
+    DATA.get_or_init(|| {
+        const RAW: &[(&str, &str)] = include!(concat!(env!("OUT_DIR"), "/datasets.rs"));
+        RAW.iter()
+            .map(|(source, raw)| Dataset::parse(source, raw).expect("validated at build time"))
+            .collect()
+    })
+}
 use rusqlite::{Connection, Result};
 use serde::{Deserialize, Serialize};
 use std::path::{Path, PathBuf};
@@ -98,7 +111,7 @@ impl Configuration {
 
         let config = Self { settings, conn };
         config.init_tables()?;
-        config.seed_data()?;
+        config.seed_datasets(bundled_datasets())?;
         Ok(config)
     }
 
@@ -164,100 +177,85 @@ impl Configuration {
         Ok(())
     }
 
-    fn seed_data(&self) -> Result<()> {
-        let wordset_count: i64 =
-            self.conn
-                .query_row("SELECT COUNT(*) FROM word_sets", [], |row| row.get(0))?;
-
-        if wordset_count == 0 {
-            let word_files = vec![
-                ("en_1000", "en", include_str!("../resources/en_1000.txt")),
-                ("en_10000", "en", include_str!("../resources/en_10000.txt")),
-                ("ru_5000", "ru", include_str!("../resources/ru_5000.txt")),
-                ("ru_10000", "ru", include_str!("../resources/ru_10000.txt")),
-                ("ru_50000", "ru", include_str!("../resources/ru_50000.txt")),
-            ];
-
-            let mut stmt = self.conn.prepare(
-                "INSERT INTO word_sets (name, language, word_count, words) VALUES (?1, ?2, ?3, ?4)",
-            )?;
-
-            for (name, lang, content) in word_files {
-                let words: Vec<&str> = content.lines().filter(|s| !s.is_empty()).collect();
-                let word_count = words.len() as i64;
-                let words_blob = words.join(" ");
-                stmt.execute((name, lang, word_count, words_blob))?;
-            }
-        }
-
-        let translation_sets: Vec<(&str, &str)> = vec![
-            ("ru_en_a1", include_str!("../resources/ru_en_a1.json")),
-            ("ru_en_a2", include_str!("../resources/ru_en_a2.json")),
-            ("ru_en_b1", include_str!("../resources/ru_en_b1.json")),
-            ("ru_en_b2", include_str!("../resources/ru_en_b2.json")),
-            ("ru_en_c1", include_str!("../resources/ru_en_c1.json")),
-            ("ru_en_c2", include_str!("../resources/ru_en_c2.json")),
-            ("ru_en_basic", include_str!("../resources/ru_en_basic.json")),
-        ];
-
-        for (set_name, pairs_raw) in translation_sets {
-            let existing: i64 = self.conn.query_row(
-                "SELECT COUNT(*) FROM translation_sets WHERE name = ?1",
-                [set_name],
-                |row| row.get(0),
-            )?;
-            if existing > 0 {
-                continue;
-            }
-            let pairs: Vec<TranslationPair> = serde_json::from_str(pairs_raw).unwrap_or_default();
-            let pair_count = pairs.len() as i64;
-            let pairs_json = serde_json::to_string(&pairs).unwrap_or_else(|_| "[]".to_string());
-            self.conn.execute(
-                "INSERT INTO translation_sets (name, source_lang, target_lang, pair_count, pairs_json) VALUES (?1, ?2, ?3, ?4, ?5)",
-                (set_name, "ru", "en", pair_count, pairs_json),
-            )?;
-        }
-        self.seed_spanish()?;
-        Ok(())
-    }
-
-    fn seed_spanish(&self) -> Result<()> {
-        let files = [
-            ("ru_es_a1", "a1", include_str!("../resources/ru_es_a1.json")),
-            ("ru_es_a2", "a2", include_str!("../resources/ru_es_a2.json")),
-            ("ru_es_b1", "b1", include_str!("../resources/ru_es_b1.json")),
-            ("ru_es_b2", "b2", include_str!("../resources/ru_es_b2.json")),
-            ("ru_es_c1", "c1", include_str!("../resources/ru_es_c1.json")),
-            ("ru_es_c2", "c2", include_str!("../resources/ru_es_c2.json")),
-            (
-                "ru_es_cafe_beginner",
-                "beginner",
-                include_str!("../resources/ru_es_cafe_beginner.json"),
-            ),
-        ];
+    fn seed_datasets(&self, datasets: &[Dataset]) -> Result<()> {
         let tx = self.conn.unchecked_transaction()?;
-        for (name, level, raw) in files {
-            let exists: bool = tx.query_row(
-                "SELECT EXISTS(SELECT 1 FROM vocabulary_sets WHERE name=?1)",
-                [name],
-                |r| r.get(0),
-            )?;
+        for d in datasets {
+            let exists:bool=tx.query_row("SELECT EXISTS(SELECT 1 FROM word_sets WHERE name=?1 UNION SELECT 1 FROM translation_sets WHERE name=?1 UNION SELECT 1 FROM vocabulary_sets WHERE name=?1)",[&d.id],|r|r.get(0))?;
             if exists {
                 continue;
             }
-            let entries: Vec<VocabularyEntry> = serde_json::from_str(raw).map_err(invalid_data)?;
-            tx.execute(
-                "INSERT INTO vocabulary_sets VALUES (?1,'ru','es',?2)",
-                (name, level),
-            )?;
-            for entry in entries {
+            let level = d.level.as_deref().unwrap_or("custom");
+            if d.profile.typing() {
                 tx.execute(
-                    "INSERT INTO vocabulary_entries VALUES (?1,?2,?3,?4)",
-                    (&entry.id, name, &entry.ru, &entry.es),
+                    "INSERT INTO word_sets(name,language,word_count,words) VALUES(?1,?2,?3,?4)",
+                    (
+                        &d.id,
+                        d.profile.language(),
+                        d.entries.len(),
+                        d.words().join(" "),
+                    ),
                 )?;
+            } else if d.profile.spanish() {
+                tx.execute(
+                    "INSERT INTO vocabulary_sets VALUES(?1,'ru','es',?2)",
+                    (&d.id, level),
+                )?;
+                for p in d.pairs() {
+                    tx.execute(
+                        "INSERT INTO vocabulary_entries VALUES(?1,?2,?3,?4)",
+                        (&p.id, &d.id, &p.ru, &p.target),
+                    )?;
+                }
+            } else {
+                let pairs: Vec<_> = d
+                    .pairs()
+                    .into_iter()
+                    .map(|p| TranslationPair {
+                        ru: p.ru,
+                        en: p.target,
+                    })
+                    .collect();
+                tx.execute("INSERT INTO translation_sets(name,source_lang,target_lang,pair_count,pairs_json) VALUES(?1,'ru','en',?2,?3)",(&d.id,pairs.len(),serde_json::to_string(&pairs).map_err(invalid_data)?))?;
             }
         }
         tx.commit()
+    }
+
+    pub fn profile(&self, name: &str) -> Result<Profile> {
+        let mut query=self.conn.prepare("SELECT 'typing',language,'' FROM word_sets WHERE name=?1 UNION ALL SELECT 'translation',source_lang,target_lang FROM translation_sets WHERE name=?1 UNION ALL SELECT 'vocabulary',source_lang,target_lang FROM vocabulary_sets WHERE name=?1")?;
+        let rows: Vec<(String, String, String)> = query
+            .query_map([name], |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?)))?
+            .collect::<Result<_>>()?;
+        if rows.len() != 1 {
+            return Err(invalid_data("Missing or conflicting dataset storage"));
+        }
+        let (kind, source, target) = &rows[0];
+        let actual = match (kind.as_str(), source.as_str(), target.as_str()) {
+            ("typing", "ru", "") => Profile::TypingRu,
+            ("typing", "en", "") => Profile::TypingEn,
+            ("translation", "ru", "en") => Profile::TranslationRuEn,
+            ("vocabulary", "ru", "es") => Profile::SpanishWords,
+            _ => return Err(invalid_data("Unsupported dataset languages/type")),
+        };
+        if let Some(d) = bundled_datasets().iter().find(|d| d.id == name) {
+            if d.profile != actual
+                && !(d.profile == Profile::SpanishPhrases && actual == Profile::SpanishWords)
+            {
+                return Err(invalid_data(
+                    "Dataset storage does not match declared profile",
+                ));
+            }
+            return Ok(d.profile);
+        }
+        Ok(actual)
+    }
+
+    pub fn get_dictation_set_names(&self) -> Result<Vec<String>> {
+        Ok(self
+            .get_translation_set_names()?
+            .into_iter()
+            .filter(|name| self.profile(name).is_ok_and(Profile::spanish))
+            .collect())
     }
 
     pub fn get_vocabulary(&self, name: &str) -> Result<VocabularySet> {
@@ -296,7 +294,11 @@ impl Configuration {
     }
 
     pub fn get_shuffled_vocabulary(&self, name: &str) -> Result<VocabularySet> {
-        let mut set = if name.starts_with("ru_es_") {
+        let profile = self.profile(name)?;
+        if profile.typing() {
+            return Err(invalid_data("Typing dataset cannot start Translation"));
+        }
+        let mut set = if profile.spanish() {
             self.get_vocabulary(name)?
         } else {
             let pairs = self.get_translation_pairs(name)?;
@@ -304,7 +306,12 @@ impl Configuration {
                 id: name.into(),
                 source_language: "ru".into(),
                 target_language: "en".into(),
-                level: name.rsplit('_').next().unwrap_or("").into(),
+                level: bundled_datasets()
+                    .iter()
+                    .find(|d| d.id == name)
+                    .map(|d| d.level.as_deref().unwrap_or("custom"))
+                    .unwrap_or_else(|| name.rsplit('_').next().unwrap_or("custom"))
+                    .into(),
                 entries: pairs
                     .into_iter()
                     .enumerate()
@@ -329,10 +336,17 @@ impl Configuration {
             .conn
             .prepare("SELECT name FROM word_sets ORDER BY language, word_count")?;
         let names = stmt.query_map([], |row| row.get(0))?;
-        names.collect()
+        let names: Vec<String> = names.collect::<Result<_>>()?;
+        Ok(names
+            .into_iter()
+            .filter(|n| self.profile(n).is_ok_and(Profile::typing))
+            .collect())
     }
 
     pub fn get_words(&self, wordset_name: &str) -> Result<Vec<String>> {
+        if !self.profile(wordset_name)?.typing() {
+            return Err(invalid_data("Expected Typing dataset"));
+        }
         let words_blob: String = self.conn.query_row(
             "SELECT words FROM word_sets WHERE name = ?1",
             [wordset_name],
@@ -365,11 +379,15 @@ impl Configuration {
             .conn
             .prepare("SELECT name FROM translation_sets UNION SELECT name FROM vocabulary_sets ORDER BY name")?;
         let names = stmt.query_map([], |row| row.get(0))?;
-        names.collect()
+        let names: Vec<String> = names.collect::<Result<_>>()?;
+        Ok(names
+            .into_iter()
+            .filter(|n| self.profile(n).is_ok_and(|p| !p.typing()))
+            .collect())
     }
 
     pub fn get_translation_pairs(&self, set_name: &str) -> Result<Vec<(String, String)>> {
-        if set_name.starts_with("ru_es_") {
+        if self.profile(set_name)?.spanish() {
             return Ok(self
                 .get_vocabulary(set_name)?
                 .entries
@@ -450,8 +468,8 @@ mod tests {
                 [old],
             )
             .unwrap();
-        config.seed_data().unwrap();
-        config.seed_data().unwrap();
+        config.seed_datasets(bundled_datasets()).unwrap();
+        config.seed_datasets(bundled_datasets()).unwrap();
         assert_eq!(
             config.get_translation_pairs("ru_en_a2").unwrap(),
             vec![("мой кот".into(), "cat".into())]
@@ -469,7 +487,13 @@ mod tests {
             .conn
             .query_row("SELECT count(*) FROM vocabulary_sets", [], |r| r.get(0))
             .unwrap();
-        assert_eq!(count, 7);
+        assert_eq!(
+            count,
+            bundled_datasets()
+                .iter()
+                .filter(|d| d.profile.spanish())
+                .count() as i64
+        );
         let canonical = config.get_vocabulary("ru_es_a1").unwrap();
         let shuffled = config.get_shuffled_vocabulary("ru_es_a1").unwrap();
         let ids = |set: VocabularySet| {
@@ -492,7 +516,7 @@ mod tests {
     fn bundled_spanish_catalog_meets_six_level_structural_contract() {
         use unicode_normalization::UnicodeNormalization;
         let config = memory();
-        config.seed_spanish().unwrap();
+        config.seed_datasets(bundled_datasets()).unwrap();
         let mut ids = std::collections::BTreeSet::new();
         let mut lemmas = std::collections::BTreeSet::new();
         for level in ["a1", "a2", "b1", "b2", "c1", "c2"] {
@@ -532,15 +556,73 @@ mod tests {
         assert!(config.get_translation_pairs("broken").is_err());
     }
     #[test]
-    fn spanish_seed_failure_rolls_back_every_new_set() {
+    fn dataset_seed_failure_rolls_back_every_new_set() {
         let config = memory();
         config.conn.execute_batch("CREATE TRIGGER reject_spanish BEFORE INSERT ON vocabulary_entries BEGIN SELECT RAISE(ABORT,'test failure'); END;").unwrap();
-        assert!(config.seed_spanish().is_err());
+        assert!(config.seed_datasets(bundled_datasets()).is_err());
         let count: i64 = config
             .conn
-            .query_row("SELECT count(*) FROM vocabulary_sets", [], |r| r.get(0))
+            .query_row("SELECT (SELECT count(*) FROM word_sets)+(SELECT count(*) FROM translation_sets)+(SELECT count(*) FROM vocabulary_sets)+(SELECT count(*) FROM vocabulary_entries)", [], |r| r.get(0))
             .unwrap();
         assert_eq!(count, 0);
+    }
+    #[test]
+    fn declarative_profiles_add_to_nonempty_storage_and_preserve_incompatible_rows() {
+        let config = memory();
+        config
+            .conn
+            .execute(
+                "INSERT INTO word_sets VALUES(1,'personal','en',1,'mine')",
+                [],
+            )
+            .unwrap();
+        let mut datasets = Vec::new();
+        for (i, p) in [
+            "typing-ru",
+            "typing-en",
+            "translation-ru-en",
+            "spanish-words",
+            "spanish-phrases",
+        ]
+        .iter()
+        .enumerate()
+        {
+            let id = format!("practice_{i}");
+            let entries = if p.starts_with("typing-") {
+                serde_json::json!(["word"])
+            } else {
+                serde_json::json!([{"id":format!("{id}:one"),"ru":"привет","target":"hola"}])
+            };
+            datasets.push(Dataset::parse(&format!("{id}.json"),&serde_json::json!({"schema_version":1,"id":id,"description":"test","profile":p,"entries":entries}).to_string()).unwrap());
+        }
+        config.seed_datasets(&datasets).unwrap();
+        config.seed_datasets(&datasets).unwrap();
+        for d in &datasets {
+            if d.profile.typing() {
+                assert_eq!(config.get_words(&d.id).unwrap(), vec!["word"]);
+            } else {
+                assert_eq!(
+                    config.get_translation_pairs(&d.id).unwrap(),
+                    vec![("привет".into(), "hola".into())]
+                );
+            }
+        }
+        assert_eq!(config.get_words("personal").unwrap(), vec!["mine"]);
+        let id = &bundled_datasets()
+            .iter()
+            .find(|d| d.profile.spanish())
+            .unwrap()
+            .id;
+        config.conn.execute("INSERT INTO word_sets(name,language,word_count,words) VALUES(?1,'en',1,'personal')",[id]).unwrap();
+        config.seed_datasets(bundled_datasets()).unwrap();
+        assert!(config.profile(id).is_err());
+        let preserved: String = config
+            .conn
+            .query_row("SELECT words FROM word_sets WHERE name=?1", [id], |r| {
+                r.get(0)
+            })
+            .unwrap();
+        assert_eq!(preserved, "personal");
     }
     #[test]
     fn old_settings_get_independent_dictation_defaults() {

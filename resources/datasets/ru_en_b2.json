@@ -1,0 +1,5009 @@
+{
+  "schema_version": 1,
+  "id": "ru_en_b2",
+  "description": "Русско-английский словарь ru_en_b2",
+  "profile": "translation-ru-en",
+  "level": "b2",
+  "entries": [
+    {
+      "id": "ru_en_b2:0",
+      "ru": "заброшенный",
+      "target": "abandoned"
+    },
+    {
+      "id": "ru_en_b2:1",
+      "ru": "ненормально",
+      "target": "abnormally"
+    },
+    {
+      "id": "ru_en_b2:2",
+      "ru": "отменить",
+      "target": "abolish"
+    },
+    {
+      "id": "ru_en_b2:3",
+      "ru": "абориген",
+      "target": "aboriginal"
+    },
+    {
+      "id": "ru_en_b2:4",
+      "ru": "резко",
+      "target": "abruptly"
+    },
+    {
+      "id": "ru_en_b2:5",
+      "ru": "заочный",
+      "target": "absentee"
+    },
+    {
+      "id": "ru_en_b2:6",
+      "ru": "абсурдный",
+      "target": "absurd"
+    },
+    {
+      "id": "ru_en_b2:7",
+      "ru": "злоупотребление",
+      "target": "abuse"
+    },
+    {
+      "id": "ru_en_b2:8",
+      "ru": "доступ",
+      "target": "access"
+    },
+    {
+      "id": "ru_en_b2:9",
+      "ru": "доступность",
+      "target": "accessibility"
+    },
+    {
+      "id": "ru_en_b2:10",
+      "ru": "размещение",
+      "target": "accommodation"
+    },
+    {
+      "id": "ru_en_b2:11",
+      "ru": "соответственно",
+      "target": "accordingly"
+    },
+    {
+      "id": "ru_en_b2:12",
+      "ru": "накапливать",
+      "target": "accumulate"
+    },
+    {
+      "id": "ru_en_b2:13",
+      "ru": "обвинение",
+      "target": "accusation"
+    },
+    {
+      "id": "ru_en_b2:14",
+      "ru": "болеть",
+      "target": "ache"
+    },
+    {
+      "id": "ru_en_b2:15",
+      "ru": "достижимый",
+      "target": "achievable"
+    },
+    {
+      "id": "ru_en_b2:16",
+      "ru": "кислота",
+      "target": "acid"
+    },
+    {
+      "id": "ru_en_b2:17",
+      "ru": "приобретение",
+      "target": "acquisition"
+    },
+    {
+      "id": "ru_en_b2:18",
+      "ru": "активно",
+      "target": "actively"
+    },
+    {
+      "id": "ru_en_b2:19",
+      "ru": "фактический",
+      "target": "actual"
+    },
+    {
+      "id": "ru_en_b2:20",
+      "ru": "острый",
+      "target": "acute"
+    },
+    {
+      "id": "ru_en_b2:21",
+      "ru": "адаптируемый",
+      "target": "adaptable"
+    },
+    {
+      "id": "ru_en_b2:22",
+      "ru": "наркоман",
+      "target": "addict"
+    },
+    {
+      "id": "ru_en_b2:23",
+      "ru": "зависимый",
+      "target": "addicted"
+    },
+    {
+      "id": "ru_en_b2:24",
+      "ru": "зависимость",
+      "target": "addiction"
+    },
+    {
+      "id": "ru_en_b2:25",
+      "ru": "дополнительно",
+      "target": "additionally"
+    },
+    {
+      "id": "ru_en_b2:26",
+      "ru": "адекватный",
+      "target": "adequate"
+    },
+    {
+      "id": "ru_en_b2:27",
+      "ru": "адекватно",
+      "target": "adequately"
+    },
+    {
+      "id": "ru_en_b2:28",
+      "ru": "корректировка",
+      "target": "adjustment"
+    },
+    {
+      "id": "ru_en_b2:29",
+      "ru": "административный",
+      "target": "administrative"
+    },
+    {
+      "id": "ru_en_b2:30",
+      "ru": "замечательный",
+      "target": "admirable"
+    },
+    {
+      "id": "ru_en_b2:31",
+      "ru": "восхищенно",
+      "target": "admiringly"
+    },
+    {
+      "id": "ru_en_b2:32",
+      "ru": "принят",
+      "target": "adopted"
+    },
+    {
+      "id": "ru_en_b2:33",
+      "ru": "усыновление",
+      "target": "adoption"
+    },
+    {
+      "id": "ru_en_b2:34",
+      "ru": "обожаю",
+      "target": "adore"
+    },
+    {
+      "id": "ru_en_b2:35",
+      "ru": "украшать",
+      "target": "adorn"
+    },
+    {
+      "id": "ru_en_b2:36",
+      "ru": "заранее",
+      "target": "advance"
+    },
+    {
+      "id": "ru_en_b2:37",
+      "ru": "продвижение",
+      "target": "advancement"
+    },
+    {
+      "id": "ru_en_b2:38",
+      "ru": "появление",
+      "target": "advent"
+    },
+    {
+      "id": "ru_en_b2:39",
+      "ru": "авантюрный",
+      "target": "adventurous"
+    },
+    {
+      "id": "ru_en_b2:40",
+      "ru": "неблагоприятный",
+      "target": "adverse"
+    },
+    {
+      "id": "ru_en_b2:41",
+      "ru": "неблагоприятно",
+      "target": "adversely"
+    },
+    {
+      "id": "ru_en_b2:42",
+      "ru": "невзгоды",
+      "target": "adversity"
+    },
+    {
+      "id": "ru_en_b2:43",
+      "ru": "ласковый",
+      "target": "affectionate"
+    },
+    {
+      "id": "ru_en_b2:44",
+      "ru": "нежно",
+      "target": "affectionately"
+    },
+    {
+      "id": "ru_en_b2:45",
+      "ru": "доступный",
+      "target": "affordable"
+    },
+    {
+      "id": "ru_en_b2:46",
+      "ru": "нестареющий",
+      "target": "ageless"
+    },
+    {
+      "id": "ru_en_b2:47",
+      "ru": "агрессивно",
+      "target": "aggressively"
+    },
+    {
+      "id": "ru_en_b2:48",
+      "ru": "агония",
+      "target": "agony"
+    },
+    {
+      "id": "ru_en_b2:49",
+      "ru": "цель",
+      "target": "aim"
+    },
+    {
+      "id": "ru_en_b2:50",
+      "ru": "самолет",
+      "target": "aircraft"
+    },
+    {
+      "id": "ru_en_b2:51",
+      "ru": "экипаж",
+      "target": "aircrew"
+    },
+    {
+      "id": "ru_en_b2:52",
+      "ru": "алкоголик",
+      "target": "alcoholic"
+    },
+    {
+      "id": "ru_en_b2:53",
+      "ru": "алкоголизм",
+      "target": "alcoholism"
+    },
+    {
+      "id": "ru_en_b2:54",
+      "ru": "оповещение",
+      "target": "alert"
+    },
+    {
+      "id": "ru_en_b2:55",
+      "ru": "альянс",
+      "target": "alliance"
+    },
+    {
+      "id": "ru_en_b2:56",
+      "ru": "союзник",
+      "target": "ally"
+    },
+    {
+      "id": "ru_en_b2:57",
+      "ru": "рядом",
+      "target": "alongside"
+    },
+    {
+      "id": "ru_en_b2:58",
+      "ru": "алтарь",
+      "target": "altar"
+    },
+    {
+      "id": "ru_en_b2:59",
+      "ru": "изменить",
+      "target": "alter"
+    },
+    {
+      "id": "ru_en_b2:60",
+      "ru": "альтернативный",
+      "target": "alternate"
+    },
+    {
+      "id": "ru_en_b2:61",
+      "ru": "альтернативно",
+      "target": "alternatively"
+    },
+    {
+      "id": "ru_en_b2:62",
+      "ru": "высота",
+      "target": "altitude"
+    },
+    {
+      "id": "ru_en_b2:63",
+      "ru": "удивлять",
+      "target": "amaze"
+    },
+    {
+      "id": "ru_en_b2:64",
+      "ru": "изумление",
+      "target": "amazement"
+    },
+    {
+      "id": "ru_en_b2:65",
+      "ru": "удивительно",
+      "target": "amazingly"
+    },
+    {
+      "id": "ru_en_b2:66",
+      "ru": "посол",
+      "target": "ambassador"
+    },
+    {
+      "id": "ru_en_b2:67",
+      "ru": "двусмысленность",
+      "target": "ambiguity"
+    },
+    {
+      "id": "ru_en_b2:68",
+      "ru": "двусмысленный",
+      "target": "ambiguous"
+    },
+    {
+      "id": "ru_en_b2:69",
+      "ru": "аммиак",
+      "target": "ammonia"
+    },
+    {
+      "id": "ru_en_b2:70",
+      "ru": "среди",
+      "target": "amongst"
+    },
+    {
+      "id": "ru_en_b2:71",
+      "ru": "обильный",
+      "target": "ample"
+    },
+    {
+      "id": "ru_en_b2:72",
+      "ru": "усилитель",
+      "target": "amplifier"
+    },
+    {
+      "id": "ru_en_b2:73",
+      "ru": "усиливать",
+      "target": "amplify"
+    },
+    {
+      "id": "ru_en_b2:74",
+      "ru": "развлекать",
+      "target": "amuse"
+    },
+    {
+      "id": "ru_en_b2:75",
+      "ru": "аналогия",
+      "target": "analogy"
+    },
+    {
+      "id": "ru_en_b2:76",
+      "ru": "аналитик",
+      "target": "analyst"
+    },
+    {
+      "id": "ru_en_b2:77",
+      "ru": "якорь",
+      "target": "anchor"
+    },
+    {
+      "id": "ru_en_b2:78",
+      "ru": "ведущий",
+      "target": "anchorman"
+    },
+    {
+      "id": "ru_en_b2:79",
+      "ru": "тоска",
+      "target": "anguish"
+    },
+    {
+      "id": "ru_en_b2:80",
+      "ru": "оживлять",
+      "target": "animate"
+    },
+    {
+      "id": "ru_en_b2:81",
+      "ru": "анонимный",
+      "target": "anonymous"
+    },
+    {
+      "id": "ru_en_b2:82",
+      "ru": "зенитный",
+      "target": "antiaircraft"
+    },
+    {
+      "id": "ru_en_b2:83",
+      "ru": "антибактериальный",
+      "target": "antibacterial"
+    },
+    {
+      "id": "ru_en_b2:84",
+      "ru": "противораковый",
+      "target": "anticancer"
+    },
+    {
+      "id": "ru_en_b2:85",
+      "ru": "предвидеть",
+      "target": "anticipate"
+    },
+    {
+      "id": "ru_en_b2:86",
+      "ru": "ожидание",
+      "target": "anticipation"
+    },
+    {
+      "id": "ru_en_b2:87",
+      "ru": "антикварный",
+      "target": "antique"
+    },
+    {
+      "id": "ru_en_b2:88",
+      "ru": "антистатический",
+      "target": "antistatic"
+    },
+    {
+      "id": "ru_en_b2:89",
+      "ru": "антивирус",
+      "target": "antivirus"
+    },
+    {
+      "id": "ru_en_b2:90",
+      "ru": "апостроф",
+      "target": "apostrophe"
+    },
+    {
+      "id": "ru_en_b2:91",
+      "ru": "апелляция",
+      "target": "appeal"
+    },
+    {
+      "id": "ru_en_b2:92",
+      "ru": "заявитель",
+      "target": "applicant"
+    },
+    {
+      "id": "ru_en_b2:93",
+      "ru": "благодарный",
+      "target": "appreciative"
+    },
+    {
+      "id": "ru_en_b2:94",
+      "ru": "подход",
+      "target": "approach"
+    },
+    {
+      "id": "ru_en_b2:95",
+      "ru": "приблизительный",
+      "target": "approximate"
+    },
+    {
+      "id": "ru_en_b2:96",
+      "ru": "арка",
+      "target": "arch"
+    },
+    {
+      "id": "ru_en_b2:97",
+      "ru": "арктический",
+      "target": "arctic"
+    },
+    {
+      "id": "ru_en_b2:98",
+      "ru": "арена",
+      "target": "arena"
+    },
+    {
+      "id": "ru_en_b2:99",
+      "ru": "аристократия",
+      "target": "aristocracy"
+    },
+    {
+      "id": "ru_en_b2:100",
+      "ru": "охапка",
+      "target": "armful"
+    },
+    {
+      "id": "ru_en_b2:101",
+      "ru": "возбуждать",
+      "target": "arouse"
+    },
+    {
+      "id": "ru_en_b2:102",
+      "ru": "высокомерный",
+      "target": "arrogant"
+    },
+    {
+      "id": "ru_en_b2:103",
+      "ru": "артерия",
+      "target": "artery"
+    },
+    {
+      "id": "ru_en_b2:104",
+      "ru": "формулировать",
+      "target": "articulate"
+    },
+    {
+      "id": "ru_en_b2:105",
+      "ru": "искусственно",
+      "target": "artificially"
+    },
+    {
+      "id": "ru_en_b2:106",
+      "ru": "артистизм",
+      "target": "artistry"
+    },
+    {
+      "id": "ru_en_b2:107",
+      "ru": "ясень",
+      "target": "ash"
+    },
+    {
+      "id": "ru_en_b2:108",
+      "ru": "стремление",
+      "target": "aspiration"
+    },
+    {
+      "id": "ru_en_b2:109",
+      "ru": "стремиться",
+      "target": "aspire"
+    },
+    {
+      "id": "ru_en_b2:110",
+      "ru": "нападение",
+      "target": "assault"
+    },
+    {
+      "id": "ru_en_b2:111",
+      "ru": "собрать",
+      "target": "assemble"
+    },
+    {
+      "id": "ru_en_b2:112",
+      "ru": "сборка",
+      "target": "assembly"
+    },
+    {
+      "id": "ru_en_b2:113",
+      "ru": "утверждать",
+      "target": "assert"
+    },
+    {
+      "id": "ru_en_b2:114",
+      "ru": "оценивать",
+      "target": "assess"
+    },
+    {
+      "id": "ru_en_b2:115",
+      "ru": "оценка",
+      "target": "assessment"
+    },
+    {
+      "id": "ru_en_b2:116",
+      "ru": "предположение",
+      "target": "assumption"
+    },
+    {
+      "id": "ru_en_b2:117",
+      "ru": "гарантия",
+      "target": "assurance"
+    },
+    {
+      "id": "ru_en_b2:118",
+      "ru": "заверить",
+      "target": "assure"
+    },
+    {
+      "id": "ru_en_b2:119",
+      "ru": "удивленный",
+      "target": "astonished"
+    },
+    {
+      "id": "ru_en_b2:120",
+      "ru": "удивительный",
+      "target": "astonishing"
+    },
+    {
+      "id": "ru_en_b2:121",
+      "ru": "астрономия",
+      "target": "astronomy"
+    },
+    {
+      "id": "ru_en_b2:122",
+      "ru": "прилагается",
+      "target": "attached"
+    },
+    {
+      "id": "ru_en_b2:123",
+      "ru": "достижение",
+      "target": "attainment"
+    },
+    {
+      "id": "ru_en_b2:124",
+      "ru": "посещаемость",
+      "target": "attendance"
+    },
+    {
+      "id": "ru_en_b2:125",
+      "ru": "внимательный",
+      "target": "attentive"
+    },
+    {
+      "id": "ru_en_b2:126",
+      "ru": "внимательно",
+      "target": "attentively"
+    },
+    {
+      "id": "ru_en_b2:127",
+      "ru": "привлекательность",
+      "target": "attractiveness"
+    },
+    {
+      "id": "ru_en_b2:128",
+      "ru": "атрибут",
+      "target": "attribute"
+    },
+    {
+      "id": "ru_en_b2:129",
+      "ru": "нетипичный",
+      "target": "atypical"
+    },
+    {
+      "id": "ru_en_b2:130",
+      "ru": "баклажаны",
+      "target": "aubergine"
+    },
+    {
+      "id": "ru_en_b2:131",
+      "ru": "аудит",
+      "target": "audit"
+    },
+    {
+      "id": "ru_en_b2:132",
+      "ru": "прослушивание",
+      "target": "audition"
+    },
+    {
+      "id": "ru_en_b2:133",
+      "ru": "авторитетный",
+      "target": "authoritative"
+    },
+    {
+      "id": "ru_en_b2:134",
+      "ru": "ждать",
+      "target": "await"
+    },
+    {
+      "id": "ru_en_b2:135",
+      "ru": "трепет",
+      "target": "awe"
+    },
+    {
+      "id": "ru_en_b2:136",
+      "ru": "ось",
+      "target": "axis"
+    },
+    {
+      "id": "ru_en_b2:137",
+      "ru": "значок",
+      "target": "badge"
+    },
+    {
+      "id": "ru_en_b2:138",
+      "ru": "вспыльчивый",
+      "target": "bad-tempered"
+    },
+    {
+      "id": "ru_en_b2:139",
+      "ru": "баланс",
+      "target": "balance"
+    },
+    {
+      "id": "ru_en_b2:140",
+      "ru": "сбалансированный",
+      "target": "balanced"
+    },
+    {
+      "id": "ru_en_b2:141",
+      "ru": "упрямый",
+      "target": "balky"
+    },
+    {
+      "id": "ru_en_b2:142",
+      "ru": "баллада",
+      "target": "ballad"
+    },
+    {
+      "id": "ru_en_b2:143",
+      "ru": "балет",
+      "target": "ballet"
+    },
+    {
+      "id": "ru_en_b2:144",
+      "ru": "запретить",
+      "target": "ban"
+    },
+    {
+      "id": "ru_en_b2:145",
+      "ru": "банкир",
+      "target": "banker"
+    },
+    {
+      "id": "ru_en_b2:146",
+      "ru": "банкрот",
+      "target": "bankrupt"
+    },
+    {
+      "id": "ru_en_b2:147",
+      "ru": "банкротство",
+      "target": "bankruptcy"
+    },
+    {
+      "id": "ru_en_b2:148",
+      "ru": "парикмахерская",
+      "target": "barbershop"
+    },
+    {
+      "id": "ru_en_b2:149",
+      "ru": "голый",
+      "target": "bare"
+    },
+    {
+      "id": "ru_en_b2:150",
+      "ru": "торговаться",
+      "target": "bargain"
+    },
+    {
+      "id": "ru_en_b2:151",
+      "ru": "лаять",
+      "target": "bark"
+    },
+    {
+      "id": "ru_en_b2:152",
+      "ru": "ячмень",
+      "target": "barley"
+    },
+    {
+      "id": "ru_en_b2:153",
+      "ru": "сарай",
+      "target": "barn"
+    },
+    {
+      "id": "ru_en_b2:154",
+      "ru": "барометр",
+      "target": "barometer"
+    },
+    {
+      "id": "ru_en_b2:155",
+      "ru": "бесплодный",
+      "target": "barren"
+    },
+    {
+      "id": "ru_en_b2:156",
+      "ru": "барьер",
+      "target": "barrier"
+    },
+    {
+      "id": "ru_en_b2:157",
+      "ru": "бармен",
+      "target": "bartender"
+    },
+    {
+      "id": "ru_en_b2:158",
+      "ru": "баня",
+      "target": "bathhouse"
+    },
+    {
+      "id": "ru_en_b2:159",
+      "ru": "бигль",
+      "target": "beagle"
+    },
+    {
+      "id": "ru_en_b2:160",
+      "ru": "клюв",
+      "target": "beak"
+    },
+    {
+      "id": "ru_en_b2:161",
+      "ru": "луч",
+      "target": "beam"
+    },
+    {
+      "id": "ru_en_b2:162",
+      "ru": "подшипник",
+      "target": "bearing"
+    },
+    {
+      "id": "ru_en_b2:163",
+      "ru": "бить",
+      "target": "beat"
+    },
+    {
+      "id": "ru_en_b2:164",
+      "ru": "рев",
+      "target": "bellow"
+    },
+    {
+      "id": "ru_en_b2:165",
+      "ru": "вещи",
+      "target": "belongings"
+    },
+    {
+      "id": "ru_en_b2:166",
+      "ru": "изгиб",
+      "target": "bend"
+    },
+    {
+      "id": "ru_en_b2:167",
+      "ru": "выгодный",
+      "target": "beneficial"
+    },
+    {
+      "id": "ru_en_b2:168",
+      "ru": "выгода",
+      "target": "benefit"
+    },
+    {
+      "id": "ru_en_b2:169",
+      "ru": "доброжелательность",
+      "target": "benevolence"
+    },
+    {
+      "id": "ru_en_b2:170",
+      "ru": "доброжелательный",
+      "target": "benevolent"
+    },
+    {
+      "id": "ru_en_b2:171",
+      "ru": "ягода",
+      "target": "berry"
+    },
+    {
+      "id": "ru_en_b2:172",
+      "ru": "дарить",
+      "target": "bestow"
+    },
+    {
+      "id": "ru_en_b2:173",
+      "ru": "бестселлер",
+      "target": "bestseller"
+    },
+    {
+      "id": "ru_en_b2:174",
+      "ru": "предать",
+      "target": "betray"
+    },
+    {
+      "id": "ru_en_b2:175",
+      "ru": "недоумение",
+      "target": "bewilderment"
+    },
+    {
+      "id": "ru_en_b2:176",
+      "ru": "ставка",
+      "target": "bid"
+    },
+    {
+      "id": "ru_en_b2:177",
+      "ru": "торги",
+      "target": "bidding"
+    },
+    {
+      "id": "ru_en_b2:178",
+      "ru": "бикини",
+      "target": "bikini"
+    },
+    {
+      "id": "ru_en_b2:179",
+      "ru": "миллиард",
+      "target": "billion"
+    },
+    {
+      "id": "ru_en_b2:180",
+      "ru": "связывать",
+      "target": "bind"
+    },
+    {
+      "id": "ru_en_b2:181",
+      "ru": "био",
+      "target": "bio"
+    },
+    {
+      "id": "ru_en_b2:182",
+      "ru": "биологический",
+      "target": "biological"
+    },
+    {
+      "id": "ru_en_b2:183",
+      "ru": "биотехнология",
+      "target": "biotechnology"
+    },
+    {
+      "id": "ru_en_b2:184",
+      "ru": "горько",
+      "target": "bitterly"
+    },
+    {
+      "id": "ru_en_b2:185",
+      "ru": "странный",
+      "target": "bizarre"
+    },
+    {
+      "id": "ru_en_b2:186",
+      "ru": "лезвие",
+      "target": "blade"
+    },
+    {
+      "id": "ru_en_b2:187",
+      "ru": "взрыв",
+      "target": "blast"
+    },
+    {
+      "id": "ru_en_b2:188",
+      "ru": "полыхать",
+      "target": "blaze"
+    },
+    {
+      "id": "ru_en_b2:189",
+      "ru": "смешивать",
+      "target": "blend"
+    },
+    {
+      "id": "ru_en_b2:190",
+      "ru": "слепо",
+      "target": "blindly"
+    },
+    {
+      "id": "ru_en_b2:191",
+      "ru": "слепота",
+      "target": "blindness"
+    },
+    {
+      "id": "ru_en_b2:192",
+      "ru": "моргать",
+      "target": "blink"
+    },
+    {
+      "id": "ru_en_b2:193",
+      "ru": "кровоток",
+      "target": "bloodstream"
+    },
+    {
+      "id": "ru_en_b2:194",
+      "ru": "кровавый",
+      "target": "bloody"
+    },
+    {
+      "id": "ru_en_b2:195",
+      "ru": "цветущий",
+      "target": "blooming"
+    },
+    {
+      "id": "ru_en_b2:196",
+      "ru": "цвести",
+      "target": "blossom"
+    },
+    {
+      "id": "ru_en_b2:197",
+      "ru": "размытие",
+      "target": "blur"
+    },
+    {
+      "id": "ru_en_b2:198",
+      "ru": "болтать",
+      "target": "blurt"
+    },
+    {
+      "id": "ru_en_b2:199",
+      "ru": "краснеть",
+      "target": "blush"
+    },
+    {
+      "id": "ru_en_b2:200",
+      "ru": "кипение",
+      "target": "boiling"
+    },
+    {
+      "id": "ru_en_b2:201",
+      "ru": "смелый",
+      "target": "bold"
+    },
+    {
+      "id": "ru_en_b2:202",
+      "ru": "болт",
+      "target": "bolt"
+    },
+    {
+      "id": "ru_en_b2:203",
+      "ru": "бомбардировать",
+      "target": "bombard"
+    },
+    {
+      "id": "ru_en_b2:204",
+      "ru": "бомбардировщик",
+      "target": "bomber"
+    },
+    {
+      "id": "ru_en_b2:205",
+      "ru": "бомбардировка",
+      "target": "bombing"
+    },
+    {
+      "id": "ru_en_b2:206",
+      "ru": "костлявый",
+      "target": "bony"
+    },
+    {
+      "id": "ru_en_b2:207",
+      "ru": "книжный",
+      "target": "bookish"
+    },
+    {
+      "id": "ru_en_b2:208",
+      "ru": "буклет",
+      "target": "booklet"
+    },
+    {
+      "id": "ru_en_b2:209",
+      "ru": "закладка",
+      "target": "bookmark"
+    },
+    {
+      "id": "ru_en_b2:210",
+      "ru": "повысить",
+      "target": "boost"
+    },
+    {
+      "id": "ru_en_b2:211",
+      "ru": "стенд",
+      "target": "booth"
+    },
+    {
+      "id": "ru_en_b2:212",
+      "ru": "властный",
+      "target": "bossy"
+    },
+    {
+      "id": "ru_en_b2:213",
+      "ru": "ботаника",
+      "target": "botany"
+    },
+    {
+      "id": "ru_en_b2:214",
+      "ru": "беспокоил",
+      "target": "bothered"
+    },
+    {
+      "id": "ru_en_b2:215",
+      "ru": "надоедливый",
+      "target": "bothersome"
+    },
+    {
+      "id": "ru_en_b2:216",
+      "ru": "бутылка",
+      "target": "bottle"
+    },
+    {
+      "id": "ru_en_b2:217",
+      "ru": "подпрыгивать",
+      "target": "bounce"
+    },
+    {
+      "id": "ru_en_b2:218",
+      "ru": "бурбон",
+      "target": "bourbon"
+    },
+    {
+      "id": "ru_en_b2:219",
+      "ru": "лук",
+      "target": "bow"
+    },
+    {
+      "id": "ru_en_b2:220",
+      "ru": "боксер",
+      "target": "boxer"
+    },
+    {
+      "id": "ru_en_b2:221",
+      "ru": "кронштейн",
+      "target": "bracket"
+    },
+    {
+      "id": "ru_en_b2:222",
+      "ru": "хвастаться",
+      "target": "brag"
+    },
+    {
+      "id": "ru_en_b2:223",
+      "ru": "тормоз",
+      "target": "brake"
+    },
+    {
+      "id": "ru_en_b2:224",
+      "ru": "храбрость",
+      "target": "bravery"
+    },
+    {
+      "id": "ru_en_b2:225",
+      "ru": "хрупкий",
+      "target": "breakable"
+    },
+    {
+      "id": "ru_en_b2:226",
+      "ru": "поломка",
+      "target": "breakdown"
+    },
+    {
+      "id": "ru_en_b2:227",
+      "ru": "распад",
+      "target": "breakup"
+    },
+    {
+      "id": "ru_en_b2:228",
+      "ru": "порода",
+      "target": "breed"
+    },
+    {
+      "id": "ru_en_b2:229",
+      "ru": "свежий",
+      "target": "breezy"
+    },
+    {
+      "id": "ru_en_b2:230",
+      "ru": "пивоварня",
+      "target": "brewery"
+    },
+    {
+      "id": "ru_en_b2:231",
+      "ru": "блестяще",
+      "target": "brilliantly"
+    },
+    {
+      "id": "ru_en_b2:232",
+      "ru": "трансляция",
+      "target": "broadcast"
+    },
+    {
+      "id": "ru_en_b2:233",
+      "ru": "телеведущий",
+      "target": "broadcaster"
+    },
+    {
+      "id": "ru_en_b2:234",
+      "ru": "расширять",
+      "target": "broaden"
+    },
+    {
+      "id": "ru_en_b2:235",
+      "ru": "широко",
+      "target": "broadly"
+    },
+    {
+      "id": "ru_en_b2:236",
+      "ru": "брошюра",
+      "target": "brochure"
+    },
+    {
+      "id": "ru_en_b2:237",
+      "ru": "зять",
+      "target": "brother-in-law"
+    },
+    {
+      "id": "ru_en_b2:238",
+      "ru": "просматривать",
+      "target": "browse"
+    },
+    {
+      "id": "ru_en_b2:239",
+      "ru": "браузер",
+      "target": "browser"
+    },
+    {
+      "id": "ru_en_b2:240",
+      "ru": "синяк",
+      "target": "bruise"
+    },
+    {
+      "id": "ru_en_b2:241",
+      "ru": "бутон",
+      "target": "bud"
+    },
+    {
+      "id": "ru_en_b2:242",
+      "ru": "бюджет",
+      "target": "budget"
+    },
+    {
+      "id": "ru_en_b2:243",
+      "ru": "булимия",
+      "target": "bulimia"
+    },
+    {
+      "id": "ru_en_b2:244",
+      "ru": "хулиган",
+      "target": "bully"
+    },
+    {
+      "id": "ru_en_b2:245",
+      "ru": "бездельник",
+      "target": "bum"
+    },
+    {
+      "id": "ru_en_b2:246",
+      "ru": "бампер",
+      "target": "bumper"
+    },
+    {
+      "id": "ru_en_b2:247",
+      "ru": "булочка",
+      "target": "bun"
+    },
+    {
+      "id": "ru_en_b2:248",
+      "ru": "бремя",
+      "target": "burden"
+    },
+    {
+      "id": "ru_en_b2:249",
+      "ru": "обременительный",
+      "target": "burdensome"
+    },
+    {
+      "id": "ru_en_b2:250",
+      "ru": "бюрократия",
+      "target": "bureaucracy"
+    },
+    {
+      "id": "ru_en_b2:251",
+      "ru": "ограбление",
+      "target": "burglary"
+    },
+    {
+      "id": "ru_en_b2:252",
+      "ru": "грабить",
+      "target": "burgle"
+    },
+    {
+      "id": "ru_en_b2:253",
+      "ru": "захоронение",
+      "target": "burial"
+    },
+    {
+      "id": "ru_en_b2:254",
+      "ru": "суета",
+      "target": "bustle"
+    },
+    {
+      "id": "ru_en_b2:255",
+      "ru": "шумный",
+      "target": "bustling"
+    },
+    {
+      "id": "ru_en_b2:256",
+      "ru": "мясник",
+      "target": "butcher"
+    },
+    {
+      "id": "ru_en_b2:257",
+      "ru": "шуметь",
+      "target": "buzz"
+    },
+    {
+      "id": "ru_en_b2:258",
+      "ru": "кабинет",
+      "target": "cabinet"
+    },
+    {
+      "id": "ru_en_b2:259",
+      "ru": "кабель",
+      "target": "cable"
+    },
+    {
+      "id": "ru_en_b2:260",
+      "ru": "спокойно",
+      "target": "calmly"
+    },
+    {
+      "id": "ru_en_b2:261",
+      "ru": "кампания",
+      "target": "campaign"
+    },
+    {
+      "id": "ru_en_b2:262",
+      "ru": "кандидат",
+      "target": "candidate"
+    },
+    {
+      "id": "ru_en_b2:263",
+      "ru": "трость",
+      "target": "cane"
+    },
+    {
+      "id": "ru_en_b2:264",
+      "ru": "канон",
+      "target": "canon"
+    },
+    {
+      "id": "ru_en_b2:265",
+      "ru": "способность",
+      "target": "capability"
+    },
+    {
+      "id": "ru_en_b2:266",
+      "ru": "подпись",
+      "target": "caption"
+    },
+    {
+      "id": "ru_en_b2:267",
+      "ru": "пленник",
+      "target": "captive"
+    },
+    {
+      "id": "ru_en_b2:268",
+      "ru": "караван",
+      "target": "caravan"
+    },
+    {
+      "id": "ru_en_b2:269",
+      "ru": "углерод",
+      "target": "carbon"
+    },
+    {
+      "id": "ru_en_b2:270",
+      "ru": "картон",
+      "target": "cardboard"
+    },
+    {
+      "id": "ru_en_b2:271",
+      "ru": "кардиган",
+      "target": "cardigan"
+    },
+    {
+      "id": "ru_en_b2:272",
+      "ru": "беззаботный",
+      "target": "carefree"
+    },
+    {
+      "id": "ru_en_b2:273",
+      "ru": "заботливый",
+      "target": "caring"
+    },
+    {
+      "id": "ru_en_b2:274",
+      "ru": "карнавал",
+      "target": "carnival"
+    },
+    {
+      "id": "ru_en_b2:275",
+      "ru": "автобаза",
+      "target": "carpool"
+    },
+    {
+      "id": "ru_en_b2:276",
+      "ru": "вырезать",
+      "target": "carve"
+    },
+    {
+      "id": "ru_en_b2:277",
+      "ru": "каскад",
+      "target": "cascade"
+    },
+    {
+      "id": "ru_en_b2:278",
+      "ru": "случайно",
+      "target": "casually"
+    },
+    {
+      "id": "ru_en_b2:279",
+      "ru": "катализатор",
+      "target": "catalyst"
+    },
+    {
+      "id": "ru_en_b2:280",
+      "ru": "катастрофа",
+      "target": "catastrophe"
+    },
+    {
+      "id": "ru_en_b2:281",
+      "ru": "катастрофический",
+      "target": "catastrophic"
+    },
+    {
+      "id": "ru_en_b2:282",
+      "ru": "запоминающийся",
+      "target": "catchy"
+    },
+    {
+      "id": "ru_en_b2:283",
+      "ru": "кейтеринг",
+      "target": "catering"
+    },
+    {
+      "id": "ru_en_b2:284",
+      "ru": "собор",
+      "target": "cathedral"
+    },
+    {
+      "id": "ru_en_b2:285",
+      "ru": "причина",
+      "target": "cause"
+    },
+    {
+      "id": "ru_en_b2:286",
+      "ru": "прекратить",
+      "target": "cease"
+    },
+    {
+      "id": "ru_en_b2:287",
+      "ru": "потолок",
+      "target": "ceiling"
+    },
+    {
+      "id": "ru_en_b2:288",
+      "ru": "подвал",
+      "target": "cellar"
+    },
+    {
+      "id": "ru_en_b2:289",
+      "ru": "виолончелист",
+      "target": "cellist"
+    },
+    {
+      "id": "ru_en_b2:290",
+      "ru": "виолончель",
+      "target": "cello"
+    },
+    {
+      "id": "ru_en_b2:291",
+      "ru": "кладбище",
+      "target": "cemetery"
+    },
+    {
+      "id": "ru_en_b2:292",
+      "ru": "стоградусный",
+      "target": "centigrade"
+    },
+    {
+      "id": "ru_en_b2:293",
+      "ru": "сертификат",
+      "target": "certificate"
+    },
+    {
+      "id": "ru_en_b2:294",
+      "ru": "сертификация",
+      "target": "certification"
+    },
+    {
+      "id": "ru_en_b2:295",
+      "ru": "сертифицировать",
+      "target": "certify"
+    },
+    {
+      "id": "ru_en_b2:296",
+      "ru": "вызов",
+      "target": "challenge"
+    },
+    {
+      "id": "ru_en_b2:297",
+      "ru": "канцлер",
+      "target": "chancellor"
+    },
+    {
+      "id": "ru_en_b2:298",
+      "ru": "хаотичный",
+      "target": "chaotic"
+    },
+    {
+      "id": "ru_en_b2:299",
+      "ru": "характеристика",
+      "target": "characteristic"
+    },
+    {
+      "id": "ru_en_b2:300",
+      "ru": "очаровательный",
+      "target": "charming"
+    },
+    {
+      "id": "ru_en_b2:301",
+      "ru": "преследовать",
+      "target": "chase"
+    },
+    {
+      "id": "ru_en_b2:302",
+      "ru": "обмануть",
+      "target": "cheat"
+    },
+    {
+      "id": "ru_en_b2:303",
+      "ru": "нахальный",
+      "target": "cheeky"
+    },
+    {
+      "id": "ru_en_b2:304",
+      "ru": "весело",
+      "target": "cheerfully"
+    },
+    {
+      "id": "ru_en_b2:305",
+      "ru": "жизнерадостность",
+      "target": "cheerfulness"
+    },
+    {
+      "id": "ru_en_b2:306",
+      "ru": "химиотерапия",
+      "target": "chemotherapy"
+    },
+    {
+      "id": "ru_en_b2:307",
+      "ru": "заветный",
+      "target": "cherished"
+    },
+    {
+      "id": "ru_en_b2:308",
+      "ru": "вишня",
+      "target": "cherry"
+    },
+    {
+      "id": "ru_en_b2:309",
+      "ru": "жевать",
+      "target": "chew"
+    },
+    {
+      "id": "ru_en_b2:310",
+      "ru": "начальник",
+      "target": "chief"
+    },
+    {
+      "id": "ru_en_b2:311",
+      "ru": "детский",
+      "target": "childish"
+    },
+    {
+      "id": "ru_en_b2:312",
+      "ru": "дымоход",
+      "target": "chimney"
+    },
+    {
+      "id": "ru_en_b2:313",
+      "ru": "чип",
+      "target": "chip"
+    },
+    {
+      "id": "ru_en_b2:314",
+      "ru": "рубить",
+      "target": "chop"
+    },
+    {
+      "id": "ru_en_b2:315",
+      "ru": "кусок",
+      "target": "chunk"
+    },
+    {
+      "id": "ru_en_b2:316",
+      "ru": "схема",
+      "target": "circuit"
+    },
+    {
+      "id": "ru_en_b2:317",
+      "ru": "обстоятельство",
+      "target": "circumstance"
+    },
+    {
+      "id": "ru_en_b2:318",
+      "ru": "общегородской",
+      "target": "citywide"
+    },
+    {
+      "id": "ru_en_b2:319",
+      "ru": "моллюск",
+      "target": "clam"
+    },
+    {
+      "id": "ru_en_b2:320",
+      "ru": "уточнить",
+      "target": "clarify"
+    },
+    {
+      "id": "ru_en_b2:321",
+      "ru": "классический",
+      "target": "classic"
+    },
+    {
+      "id": "ru_en_b2:322",
+      "ru": "классификация",
+      "target": "classification"
+    },
+    {
+      "id": "ru_en_b2:323",
+      "ru": "пункт",
+      "target": "clause"
+    },
+    {
+      "id": "ru_en_b2:324",
+      "ru": "ясность",
+      "target": "clearness"
+    },
+    {
+      "id": "ru_en_b2:325",
+      "ru": "клерикальный",
+      "target": "clerical"
+    },
+    {
+      "id": "ru_en_b2:326",
+      "ru": "клиент",
+      "target": "client"
+    },
+    {
+      "id": "ru_en_b2:327",
+      "ru": "засорять",
+      "target": "clog"
+    },
+    {
+      "id": "ru_en_b2:328",
+      "ru": "закрытие",
+      "target": "closure"
+    },
+    {
+      "id": "ru_en_b2:329",
+      "ru": "одежда",
+      "target": "clothing"
+    },
+    {
+      "id": "ru_en_b2:330",
+      "ru": "неуклюжий",
+      "target": "clumsy"
+    },
+    {
+      "id": "ru_en_b2:331",
+      "ru": "тренер",
+      "target": "coach"
+    },
+    {
+      "id": "ru_en_b2:332",
+      "ru": "коучинг",
+      "target": "coaching"
+    },
+    {
+      "id": "ru_en_b2:333",
+      "ru": "коалиция",
+      "target": "coalition"
+    },
+    {
+      "id": "ru_en_b2:334",
+      "ru": "грубый",
+      "target": "coarse"
+    },
+    {
+      "id": "ru_en_b2:335",
+      "ru": "коктейль",
+      "target": "cocktail"
+    },
+    {
+      "id": "ru_en_b2:336",
+      "ru": "какао",
+      "target": "cocoa"
+    },
+    {
+      "id": "ru_en_b2:337",
+      "ru": "кокос",
+      "target": "coconut"
+    },
+    {
+      "id": "ru_en_b2:338",
+      "ru": "согласованность",
+      "target": "coherence"
+    },
+    {
+      "id": "ru_en_b2:339",
+      "ru": "последовательный",
+      "target": "coherent"
+    },
+    {
+      "id": "ru_en_b2:340",
+      "ru": "совпадать",
+      "target": "coincide"
+    },
+    {
+      "id": "ru_en_b2:341",
+      "ru": "совпадение",
+      "target": "coincidence"
+    },
+    {
+      "id": "ru_en_b2:342",
+      "ru": "коллапс",
+      "target": "collapse"
+    },
+    {
+      "id": "ru_en_b2:343",
+      "ru": "коллега",
+      "target": "colleague"
+    },
+    {
+      "id": "ru_en_b2:344",
+      "ru": "коллекционер",
+      "target": "collector"
+    },
+    {
+      "id": "ru_en_b2:345",
+      "ru": "словосочетание",
+      "target": "collocation"
+    },
+    {
+      "id": "ru_en_b2:346",
+      "ru": "колониальный",
+      "target": "colonial"
+    },
+    {
+      "id": "ru_en_b2:347",
+      "ru": "кома",
+      "target": "coma"
+    },
+    {
+      "id": "ru_en_b2:348",
+      "ru": "расческа",
+      "target": "comb"
+    },
+    {
+      "id": "ru_en_b2:349",
+      "ru": "комфортно",
+      "target": "comfortably"
+    },
+    {
+      "id": "ru_en_b2:350",
+      "ru": "командир",
+      "target": "commander"
+    },
+    {
+      "id": "ru_en_b2:351",
+      "ru": "комментарий",
+      "target": "comment"
+    },
+    {
+      "id": "ru_en_b2:352",
+      "ru": "коммерция",
+      "target": "commerce"
+    },
+    {
+      "id": "ru_en_b2:353",
+      "ru": "коммерческий",
+      "target": "commercial"
+    },
+    {
+      "id": "ru_en_b2:354",
+      "ru": "комиссия",
+      "target": "commission"
+    },
+    {
+      "id": "ru_en_b2:355",
+      "ru": "содружество",
+      "target": "commonwealth"
+    },
+    {
+      "id": "ru_en_b2:356",
+      "ru": "коммуникативный",
+      "target": "communicative"
+    },
+    {
+      "id": "ru_en_b2:357",
+      "ru": "сообщество",
+      "target": "community"
+    },
+    {
+      "id": "ru_en_b2:358",
+      "ru": "сострадание",
+      "target": "compassion"
+    },
+    {
+      "id": "ru_en_b2:359",
+      "ru": "сострадательный",
+      "target": "compassionate"
+    },
+    {
+      "id": "ru_en_b2:360",
+      "ru": "совместимый",
+      "target": "compatible"
+    },
+    {
+      "id": "ru_en_b2:361",
+      "ru": "компенсировать",
+      "target": "compensate"
+    },
+    {
+      "id": "ru_en_b2:362",
+      "ru": "компенсация",
+      "target": "compensation"
+    },
+    {
+      "id": "ru_en_b2:363",
+      "ru": "компетентность",
+      "target": "competence"
+    },
+    {
+      "id": "ru_en_b2:364",
+      "ru": "компетентный",
+      "target": "competent"
+    },
+    {
+      "id": "ru_en_b2:365",
+      "ru": "компилировать",
+      "target": "compile"
+    },
+    {
+      "id": "ru_en_b2:366",
+      "ru": "завершение",
+      "target": "completion"
+    },
+    {
+      "id": "ru_en_b2:367",
+      "ru": "сложность",
+      "target": "complexity"
+    },
+    {
+      "id": "ru_en_b2:368",
+      "ru": "компонент",
+      "target": "component"
+    },
+    {
+      "id": "ru_en_b2:369",
+      "ru": "понимание",
+      "target": "comprehension"
+    },
+    {
+      "id": "ru_en_b2:370",
+      "ru": "всеобъемлющий",
+      "target": "comprehensive"
+    },
+    {
+      "id": "ru_en_b2:371",
+      "ru": "сжимать",
+      "target": "compress"
+    },
+    {
+      "id": "ru_en_b2:372",
+      "ru": "сжатие",
+      "target": "compression"
+    },
+    {
+      "id": "ru_en_b2:373",
+      "ru": "компромисс",
+      "target": "compromise"
+    },
+    {
+      "id": "ru_en_b2:374",
+      "ru": "обязательный",
+      "target": "compulsory"
+    },
+    {
+      "id": "ru_en_b2:375",
+      "ru": "вычислить",
+      "target": "compute"
+    },
+    {
+      "id": "ru_en_b2:376",
+      "ru": "скрывать",
+      "target": "conceal"
+    },
+    {
+      "id": "ru_en_b2:377",
+      "ru": "уступать",
+      "target": "concede"
+    },
+    {
+      "id": "ru_en_b2:378",
+      "ru": "тщеславие",
+      "target": "conceit"
+    },
+    {
+      "id": "ru_en_b2:379",
+      "ru": "мыслимый",
+      "target": "conceivable"
+    },
+    {
+      "id": "ru_en_b2:380",
+      "ru": "зачать",
+      "target": "conceive"
+    },
+    {
+      "id": "ru_en_b2:381",
+      "ru": "концепция",
+      "target": "conception"
+    },
+    {
+      "id": "ru_en_b2:382",
+      "ru": "беспокойство",
+      "target": "concern"
+    },
+    {
+      "id": "ru_en_b2:383",
+      "ru": "относительно",
+      "target": "concerning"
+    },
+    {
+      "id": "ru_en_b2:384",
+      "ru": "уступка",
+      "target": "concession"
+    },
+    {
+      "id": "ru_en_b2:385",
+      "ru": "бетон",
+      "target": "concrete"
+    },
+    {
+      "id": "ru_en_b2:386",
+      "ru": "осуждать",
+      "target": "condemn"
+    },
+    {
+      "id": "ru_en_b2:387",
+      "ru": "проводить",
+      "target": "conduct"
+    },
+    {
+      "id": "ru_en_b2:388",
+      "ru": "дирижер",
+      "target": "conductor"
+    },
+    {
+      "id": "ru_en_b2:389",
+      "ru": "конус",
+      "target": "cone"
+    },
+    {
+      "id": "ru_en_b2:390",
+      "ru": "конференция",
+      "target": "conference"
+    },
+    {
+      "id": "ru_en_b2:391",
+      "ru": "конференц-связь",
+      "target": "conferencing"
+    },
+    {
+      "id": "ru_en_b2:392",
+      "ru": "признаться",
+      "target": "confess"
+    },
+    {
+      "id": "ru_en_b2:393",
+      "ru": "признание",
+      "target": "confession"
+    },
+    {
+      "id": "ru_en_b2:394",
+      "ru": "уверенно",
+      "target": "confidently"
+    },
+    {
+      "id": "ru_en_b2:395",
+      "ru": "ограничивать",
+      "target": "confine"
+    },
+    {
+      "id": "ru_en_b2:396",
+      "ru": "противостоять",
+      "target": "confront"
+    },
+    {
+      "id": "ru_en_b2:397",
+      "ru": "соединение",
+      "target": "conjunction"
+    },
+    {
+      "id": "ru_en_b2:398",
+      "ru": "завоевание",
+      "target": "conquest"
+    },
+    {
+      "id": "ru_en_b2:399",
+      "ru": "совесть",
+      "target": "conscience"
+    },
+    {
+      "id": "ru_en_b2:400",
+      "ru": "сознание",
+      "target": "consciousness"
+    },
+    {
+      "id": "ru_en_b2:401",
+      "ru": "консенсус",
+      "target": "consensus"
+    },
+    {
+      "id": "ru_en_b2:402",
+      "ru": "согласие",
+      "target": "consent"
+    },
+    {
+      "id": "ru_en_b2:403",
+      "ru": "значительно",
+      "target": "considerably"
+    },
+    {
+      "id": "ru_en_b2:404",
+      "ru": "учитывая",
+      "target": "considering"
+    },
+    {
+      "id": "ru_en_b2:405",
+      "ru": "утешение",
+      "target": "consolation"
+    },
+    {
+      "id": "ru_en_b2:406",
+      "ru": "консоль",
+      "target": "console"
+    },
+    {
+      "id": "ru_en_b2:407",
+      "ru": "постоянный",
+      "target": "constant"
+    },
+    {
+      "id": "ru_en_b2:408",
+      "ru": "проконсультироваться",
+      "target": "consult"
+    },
+    {
+      "id": "ru_en_b2:409",
+      "ru": "консультант",
+      "target": "consultant"
+    },
+    {
+      "id": "ru_en_b2:410",
+      "ru": "загрязнять",
+      "target": "contaminate"
+    },
+    {
+      "id": "ru_en_b2:411",
+      "ru": "современный",
+      "target": "contemporary"
+    },
+    {
+      "id": "ru_en_b2:412",
+      "ru": "презрение",
+      "target": "contempt"
+    },
+    {
+      "id": "ru_en_b2:413",
+      "ru": "содержание",
+      "target": "content"
+    },
+    {
+      "id": "ru_en_b2:414",
+      "ru": "контракт",
+      "target": "contract"
+    },
+    {
+      "id": "ru_en_b2:415",
+      "ru": "противоречить",
+      "target": "contradict"
+    },
+    {
+      "id": "ru_en_b2:416",
+      "ru": "противоречие",
+      "target": "contradiction"
+    },
+    {
+      "id": "ru_en_b2:417",
+      "ru": "противоречивый",
+      "target": "contradictory"
+    },
+    {
+      "id": "ru_en_b2:418",
+      "ru": "полемика",
+      "target": "controversy"
+    },
+    {
+      "id": "ru_en_b2:419",
+      "ru": "удобно",
+      "target": "conveniently"
+    },
+    {
+      "id": "ru_en_b2:420",
+      "ru": "конвенция",
+      "target": "convention"
+    },
+    {
+      "id": "ru_en_b2:421",
+      "ru": "обычный",
+      "target": "conventional"
+    },
+    {
+      "id": "ru_en_b2:422",
+      "ru": "беседовать",
+      "target": "converse"
+    },
+    {
+      "id": "ru_en_b2:423",
+      "ru": "наоборот",
+      "target": "conversely"
+    },
+    {
+      "id": "ru_en_b2:424",
+      "ru": "преобразование",
+      "target": "conversion"
+    },
+    {
+      "id": "ru_en_b2:425",
+      "ru": "конвертировать",
+      "target": "convert"
+    },
+    {
+      "id": "ru_en_b2:426",
+      "ru": "убежденный",
+      "target": "convinced"
+    },
+    {
+      "id": "ru_en_b2:427",
+      "ru": "круто",
+      "target": "cool"
+    },
+    {
+      "id": "ru_en_b2:428",
+      "ru": "сотрудничать",
+      "target": "cooperate"
+    },
+    {
+      "id": "ru_en_b2:429",
+      "ru": "сотрудничество",
+      "target": "cooperation"
+    },
+    {
+      "id": "ru_en_b2:430",
+      "ru": "кооператив",
+      "target": "cooperative"
+    },
+    {
+      "id": "ru_en_b2:431",
+      "ru": "справиться",
+      "target": "cope"
+    },
+    {
+      "id": "ru_en_b2:432",
+      "ru": "медь",
+      "target": "copper"
+    },
+    {
+      "id": "ru_en_b2:433",
+      "ru": "коралл",
+      "target": "coral"
+    },
+    {
+      "id": "ru_en_b2:434",
+      "ru": "ядро",
+      "target": "core"
+    },
+    {
+      "id": "ru_en_b2:435",
+      "ru": "корнет",
+      "target": "cornet"
+    },
+    {
+      "id": "ru_en_b2:436",
+      "ru": "корона",
+      "target": "corona"
+    },
+    {
+      "id": "ru_en_b2:437",
+      "ru": "капрал",
+      "target": "corporal"
+    },
+    {
+      "id": "ru_en_b2:438",
+      "ru": "корпоративный",
+      "target": "corporate"
+    },
+    {
+      "id": "ru_en_b2:439",
+      "ru": "корпорация",
+      "target": "corporation"
+    },
+    {
+      "id": "ru_en_b2:440",
+      "ru": "правильный",
+      "target": "correct"
+    },
+    {
+      "id": "ru_en_b2:441",
+      "ru": "правильность",
+      "target": "correctness"
+    },
+    {
+      "id": "ru_en_b2:442",
+      "ru": "переписываться",
+      "target": "correspond"
+    },
+    {
+      "id": "ru_en_b2:443",
+      "ru": "переписка",
+      "target": "correspondence"
+    },
+    {
+      "id": "ru_en_b2:444",
+      "ru": "корреспондент",
+      "target": "correspondent"
+    },
+    {
+      "id": "ru_en_b2:445",
+      "ru": "соответствующий",
+      "target": "corresponding"
+    },
+    {
+      "id": "ru_en_b2:446",
+      "ru": "коридор",
+      "target": "corridor"
+    },
+    {
+      "id": "ru_en_b2:447",
+      "ru": "коррумпированный",
+      "target": "corrupt"
+    },
+    {
+      "id": "ru_en_b2:448",
+      "ru": "коррупция",
+      "target": "corruption"
+    },
+    {
+      "id": "ru_en_b2:449",
+      "ru": "дорогостоящий",
+      "target": "costly"
+    },
+    {
+      "id": "ru_en_b2:450",
+      "ru": "костюм",
+      "target": "costume"
+    },
+    {
+      "id": "ru_en_b2:451",
+      "ru": "коттедж",
+      "target": "cottage"
+    },
+    {
+      "id": "ru_en_b2:452",
+      "ru": "кашель",
+      "target": "cough"
+    },
+    {
+      "id": "ru_en_b2:453",
+      "ru": "счетчик",
+      "target": "counter"
+    },
+    {
+      "id": "ru_en_b2:454",
+      "ru": "земляк",
+      "target": "countryman"
+    },
+    {
+      "id": "ru_en_b2:455",
+      "ru": "вежливость",
+      "target": "courtesy"
+    },
+    {
+      "id": "ru_en_b2:456",
+      "ru": "трус",
+      "target": "coward"
+    },
+    {
+      "id": "ru_en_b2:457",
+      "ru": "трусливый",
+      "target": "cowardly"
+    },
+    {
+      "id": "ru_en_b2:458",
+      "ru": "краб",
+      "target": "crab"
+    },
+    {
+      "id": "ru_en_b2:459",
+      "ru": "трещина",
+      "target": "crack"
+    },
+    {
+      "id": "ru_en_b2:460",
+      "ru": "ремесленник",
+      "target": "craftsman"
+    },
+    {
+      "id": "ru_en_b2:461",
+      "ru": "кратер",
+      "target": "crater"
+    },
+    {
+      "id": "ru_en_b2:462",
+      "ru": "ползать",
+      "target": "crawl"
+    },
+    {
+      "id": "ru_en_b2:463",
+      "ru": "складка",
+      "target": "crease"
+    },
+    {
+      "id": "ru_en_b2:464",
+      "ru": "создание",
+      "target": "creation"
+    },
+    {
+      "id": "ru_en_b2:465",
+      "ru": "творчески",
+      "target": "creatively"
+    },
+    {
+      "id": "ru_en_b2:466",
+      "ru": "ручей",
+      "target": "creek"
+    },
+    {
+      "id": "ru_en_b2:467",
+      "ru": "жуткий",
+      "target": "creepy"
+    },
+    {
+      "id": "ru_en_b2:468",
+      "ru": "преступник",
+      "target": "criminal"
+    },
+    {
+      "id": "ru_en_b2:469",
+      "ru": "калечить",
+      "target": "cripple"
+    },
+    {
+      "id": "ru_en_b2:470",
+      "ru": "критически",
+      "target": "critically"
+    },
+    {
+      "id": "ru_en_b2:471",
+      "ru": "критика",
+      "target": "criticism"
+    },
+    {
+      "id": "ru_en_b2:472",
+      "ru": "крокодил",
+      "target": "crocodile"
+    },
+    {
+      "id": "ru_en_b2:473",
+      "ru": "сердито",
+      "target": "crossly"
+    },
+    {
+      "id": "ru_en_b2:474",
+      "ru": "решающий",
+      "target": "crucial"
+    },
+    {
+      "id": "ru_en_b2:475",
+      "ru": "жестоко",
+      "target": "cruelly"
+    },
+    {
+      "id": "ru_en_b2:476",
+      "ru": "жестокость",
+      "target": "cruelty"
+    },
+    {
+      "id": "ru_en_b2:477",
+      "ru": "круиз",
+      "target": "cruise"
+    },
+    {
+      "id": "ru_en_b2:478",
+      "ru": "куб",
+      "target": "cube"
+    },
+    {
+      "id": "ru_en_b2:479",
+      "ru": "кубизм",
+      "target": "cubism"
+    },
+    {
+      "id": "ru_en_b2:480",
+      "ru": "манжета",
+      "target": "cuff"
+    },
+    {
+      "id": "ru_en_b2:481",
+      "ru": "кульминация",
+      "target": "culmination"
+    },
+    {
+      "id": "ru_en_b2:482",
+      "ru": "культурно",
+      "target": "culturally"
+    },
+    {
+      "id": "ru_en_b2:483",
+      "ru": "вылечить",
+      "target": "cure"
+    },
+    {
+      "id": "ru_en_b2:484",
+      "ru": "завиток",
+      "target": "curl"
+    },
+    {
+      "id": "ru_en_b2:485",
+      "ru": "курсор",
+      "target": "cursor"
+    },
+    {
+      "id": "ru_en_b2:486",
+      "ru": "кибернаркоман",
+      "target": "cyberaddict"
+    },
+    {
+      "id": "ru_en_b2:487",
+      "ru": "киберпреступность",
+      "target": "cybercrime"
+    },
+    {
+      "id": "ru_en_b2:488",
+      "ru": "киберпитомец",
+      "target": "cyberpet"
+    },
+    {
+      "id": "ru_en_b2:489",
+      "ru": "кибершкола",
+      "target": "cyberschool"
+    },
+    {
+      "id": "ru_en_b2:490",
+      "ru": "киберпространство",
+      "target": "cyberspace"
+    },
+    {
+      "id": "ru_en_b2:491",
+      "ru": "велосипедист",
+      "target": "cyclist"
+    },
+    {
+      "id": "ru_en_b2:492",
+      "ru": "глупый",
+      "target": "daft"
+    },
+    {
+      "id": "ru_en_b2:493",
+      "ru": "блин",
+      "target": "damn"
+    },
+    {
+      "id": "ru_en_b2:494",
+      "ru": "одуванчик",
+      "target": "dandelion"
+    },
+    {
+      "id": "ru_en_b2:495",
+      "ru": "дорогая",
+      "target": "darling"
+    },
+    {
+      "id": "ru_en_b2:496",
+      "ru": "рывок",
+      "target": "dash"
+    },
+    {
+      "id": "ru_en_b2:497",
+      "ru": "данные",
+      "target": "data"
+    },
+    {
+      "id": "ru_en_b2:498",
+      "ru": "датированный",
+      "target": "dated"
+    },
+    {
+      "id": "ru_en_b2:499",
+      "ru": "невестка",
+      "target": "daughter-in-law"
+    },
+    {
+      "id": "ru_en_b2:500",
+      "ru": "рассвет",
+      "target": "dawn"
+    },
+    {
+      "id": "ru_en_b2:501",
+      "ru": "дорогой",
+      "target": "dear"
+    },
+    {
+      "id": "ru_en_b2:502",
+      "ru": "дорого",
+      "target": "dearly"
+    },
+    {
+      "id": "ru_en_b2:503",
+      "ru": "дебет",
+      "target": "debit"
+    },
+    {
+      "id": "ru_en_b2:504",
+      "ru": "десятилетие",
+      "target": "decade"
+    },
+    {
+      "id": "ru_en_b2:505",
+      "ru": "приличный",
+      "target": "decent"
+    },
+    {
+      "id": "ru_en_b2:506",
+      "ru": "обманчивый",
+      "target": "deceptive"
+    },
+    {
+      "id": "ru_en_b2:507",
+      "ru": "колода",
+      "target": "deck"
+    },
+    {
+      "id": "ru_en_b2:508",
+      "ru": "снижение",
+      "target": "decline"
+    },
+    {
+      "id": "ru_en_b2:509",
+      "ru": "разложение",
+      "target": "decomposition"
+    },
+    {
+      "id": "ru_en_b2:510",
+      "ru": "украшение",
+      "target": "decoration"
+    },
+    {
+      "id": "ru_en_b2:511",
+      "ru": "декоративный",
+      "target": "decorative"
+    },
+    {
+      "id": "ru_en_b2:512",
+      "ru": "вычет",
+      "target": "deduction"
+    },
+    {
+      "id": "ru_en_b2:513",
+      "ru": "считать",
+      "target": "deem"
+    },
+    {
+      "id": "ru_en_b2:514",
+      "ru": "глубокий",
+      "target": "deep"
+    },
+    {
+      "id": "ru_en_b2:515",
+      "ru": "олень",
+      "target": "deer"
+    },
+    {
+      "id": "ru_en_b2:516",
+      "ru": "поражение",
+      "target": "defeat"
+    },
+    {
+      "id": "ru_en_b2:517",
+      "ru": "дефицит",
+      "target": "deficit"
+    },
+    {
+      "id": "ru_en_b2:518",
+      "ru": "делегат",
+      "target": "delegate"
+    },
+    {
+      "id": "ru_en_b2:519",
+      "ru": "преднамеренный",
+      "target": "deliberate"
+    },
+    {
+      "id": "ru_en_b2:520",
+      "ru": "намеренно",
+      "target": "deliberately"
+    },
+    {
+      "id": "ru_en_b2:521",
+      "ru": "деликатес",
+      "target": "delicacy"
+    },
+    {
+      "id": "ru_en_b2:522",
+      "ru": "деликатно",
+      "target": "delicately"
+    },
+    {
+      "id": "ru_en_b2:523",
+      "ru": "восторг",
+      "target": "delight"
+    },
+    {
+      "id": "ru_en_b2:524",
+      "ru": "требовательный",
+      "target": "demanding"
+    },
+    {
+      "id": "ru_en_b2:525",
+      "ru": "снести",
+      "target": "demolish"
+    },
+    {
+      "id": "ru_en_b2:526",
+      "ru": "плотный",
+      "target": "dense"
+    },
+    {
+      "id": "ru_en_b2:527",
+      "ru": "плотно",
+      "target": "densely"
+    },
+    {
+      "id": "ru_en_b2:528",
+      "ru": "стоматологический",
+      "target": "dental"
+    },
+    {
+      "id": "ru_en_b2:529",
+      "ru": "надежный",
+      "target": "dependable"
+    },
+    {
+      "id": "ru_en_b2:530",
+      "ru": "депозит",
+      "target": "deposit"
+    },
+    {
+      "id": "ru_en_b2:531",
+      "ru": "депутат",
+      "target": "deputy"
+    },
+    {
+      "id": "ru_en_b2:532",
+      "ru": "спуститься",
+      "target": "descend"
+    },
+    {
+      "id": "ru_en_b2:533",
+      "ru": "описательный",
+      "target": "descriptive"
+    },
+    {
+      "id": "ru_en_b2:534",
+      "ru": "дизайнер",
+      "target": "designer"
+    },
+    {
+      "id": "ru_en_b2:535",
+      "ru": "желательно",
+      "target": "desirable"
+    },
+    {
+      "id": "ru_en_b2:536",
+      "ru": "желание",
+      "target": "desire"
+    },
+    {
+      "id": "ru_en_b2:537",
+      "ru": "запустение",
+      "target": "desolation"
+    },
+    {
+      "id": "ru_en_b2:538",
+      "ru": "отчаянно",
+      "target": "desperately"
+    },
+    {
+      "id": "ru_en_b2:539",
+      "ru": "отчаяние",
+      "target": "desperation"
+    },
+    {
+      "id": "ru_en_b2:540",
+      "ru": "презирать",
+      "target": "despise"
+    },
+    {
+      "id": "ru_en_b2:541",
+      "ru": "судьба",
+      "target": "destiny"
+    },
+    {
+      "id": "ru_en_b2:542",
+      "ru": "отделять",
+      "target": "detach"
+    },
+    {
+      "id": "ru_en_b2:543",
+      "ru": "отряд",
+      "target": "detachment"
+    },
+    {
+      "id": "ru_en_b2:544",
+      "ru": "подробный",
+      "target": "detailed"
+    },
+    {
+      "id": "ru_en_b2:545",
+      "ru": "обнаружить",
+      "target": "detect"
+    },
+    {
+      "id": "ru_en_b2:546",
+      "ru": "решительный",
+      "target": "determined"
+    },
+    {
+      "id": "ru_en_b2:547",
+      "ru": "определитель",
+      "target": "determiner"
+    },
+    {
+      "id": "ru_en_b2:548",
+      "ru": "развивающийся",
+      "target": "developing"
+    },
+    {
+      "id": "ru_en_b2:549",
+      "ru": "дьявол",
+      "target": "devil"
+    },
+    {
+      "id": "ru_en_b2:550",
+      "ru": "посвящать",
+      "target": "devote"
+    },
+    {
+      "id": "ru_en_b2:551",
+      "ru": "преданный",
+      "target": "devoted"
+    },
+    {
+      "id": "ru_en_b2:552",
+      "ru": "диктатор",
+      "target": "dictator"
+    },
+    {
+      "id": "ru_en_b2:553",
+      "ru": "переваривать",
+      "target": "digest"
+    },
+    {
+      "id": "ru_en_b2:554",
+      "ru": "удостоить",
+      "target": "dignify"
+    },
+    {
+      "id": "ru_en_b2:555",
+      "ru": "достоинство",
+      "target": "dignity"
+    },
+    {
+      "id": "ru_en_b2:556",
+      "ru": "дилемма",
+      "target": "dilemma"
+    },
+    {
+      "id": "ru_en_b2:557",
+      "ru": "тусклый",
+      "target": "dim"
+    },
+    {
+      "id": "ru_en_b2:558",
+      "ru": "измерение",
+      "target": "dimension"
+    },
+    {
+      "id": "ru_en_b2:559",
+      "ru": "окунуться",
+      "target": "dip"
+    },
+    {
+      "id": "ru_en_b2:560",
+      "ru": "дифтерия",
+      "target": "diphtheria"
+    },
+    {
+      "id": "ru_en_b2:561",
+      "ru": "диплом",
+      "target": "diploma"
+    },
+    {
+      "id": "ru_en_b2:562",
+      "ru": "дипломат",
+      "target": "diplomat"
+    },
+    {
+      "id": "ru_en_b2:563",
+      "ru": "исчезновение",
+      "target": "disappearance"
+    },
+    {
+      "id": "ru_en_b2:564",
+      "ru": "неодобрение",
+      "target": "disapproval"
+    },
+    {
+      "id": "ru_en_b2:565",
+      "ru": "разрядка",
+      "target": "discharge"
+    },
+    {
+      "id": "ru_en_b2:566",
+      "ru": "ученик",
+      "target": "disciple"
+    },
+    {
+      "id": "ru_en_b2:567",
+      "ru": "дисциплина",
+      "target": "discipline"
+    },
+    {
+      "id": "ru_en_b2:568",
+      "ru": "отключиться",
+      "target": "disconnect"
+    },
+    {
+      "id": "ru_en_b2:569",
+      "ru": "дискредитировать",
+      "target": "discredit"
+    },
+    {
+      "id": "ru_en_b2:570",
+      "ru": "различать",
+      "target": "discriminate"
+    },
+    {
+      "id": "ru_en_b2:571",
+      "ru": "позор",
+      "target": "disgrace"
+    },
+    {
+      "id": "ru_en_b2:572",
+      "ru": "маскировка",
+      "target": "disguise"
+    },
+    {
+      "id": "ru_en_b2:573",
+      "ru": "нечестность",
+      "target": "dishonesty"
+    },
+    {
+      "id": "ru_en_b2:574",
+      "ru": "разочарование",
+      "target": "disillusion"
+    },
+    {
+      "id": "ru_en_b2:575",
+      "ru": "уволить",
+      "target": "dismiss"
+    },
+    {
+      "id": "ru_en_b2:576",
+      "ru": "беспорядок",
+      "target": "disorder"
+    },
+    {
+      "id": "ru_en_b2:577",
+      "ru": "беспорядочный",
+      "target": "disorderly"
+    },
+    {
+      "id": "ru_en_b2:578",
+      "ru": "необязательный",
+      "target": "dispensable"
+    },
+    {
+      "id": "ru_en_b2:579",
+      "ru": "вытеснять",
+      "target": "displace"
+    },
+    {
+      "id": "ru_en_b2:580",
+      "ru": "недовольство",
+      "target": "displeasure"
+    },
+    {
+      "id": "ru_en_b2:581",
+      "ru": "избавление",
+      "target": "disposal"
+    },
+    {
+      "id": "ru_en_b2:582",
+      "ru": "расположение",
+      "target": "disposition"
+    },
+    {
+      "id": "ru_en_b2:583",
+      "ru": "спор",
+      "target": "dispute"
+    },
+    {
+      "id": "ru_en_b2:584",
+      "ru": "дисквалифицировать",
+      "target": "disqualify"
+    },
+    {
+      "id": "ru_en_b2:585",
+      "ru": "игнорировать",
+      "target": "disregard"
+    },
+    {
+      "id": "ru_en_b2:586",
+      "ru": "нарушать",
+      "target": "disrupt"
+    },
+    {
+      "id": "ru_en_b2:587",
+      "ru": "неудовлетворенность",
+      "target": "dissatisfaction"
+    },
+    {
+      "id": "ru_en_b2:588",
+      "ru": "неудовлетворенный",
+      "target": "dissatisfied"
+    },
+    {
+      "id": "ru_en_b2:589",
+      "ru": "диссидент",
+      "target": "dissident"
+    },
+    {
+      "id": "ru_en_b2:590",
+      "ru": "выдающийся",
+      "target": "distinguished"
+    },
+    {
+      "id": "ru_en_b2:591",
+      "ru": "искажение",
+      "target": "distortion"
+    },
+    {
+      "id": "ru_en_b2:592",
+      "ru": "отвлекать",
+      "target": "distract"
+    },
+    {
+      "id": "ru_en_b2:593",
+      "ru": "отвлечение",
+      "target": "distraction"
+    },
+    {
+      "id": "ru_en_b2:594",
+      "ru": "тревожный",
+      "target": "distressing"
+    },
+    {
+      "id": "ru_en_b2:595",
+      "ru": "дистрибьютор",
+      "target": "distributor"
+    },
+    {
+      "id": "ru_en_b2:596",
+      "ru": "разделенный",
+      "target": "divided"
+    },
+    {
+      "id": "ru_en_b2:597",
+      "ru": "дивизия",
+      "target": "division"
+    },
+    {
+      "id": "ru_en_b2:598",
+      "ru": "развод",
+      "target": "divorce"
+    },
+    {
+      "id": "ru_en_b2:599",
+      "ru": "днк",
+      "target": "dna"
+    },
+    {
+      "id": "ru_en_b2:600",
+      "ru": "причал",
+      "target": "dock"
+    },
+    {
+      "id": "ru_en_b2:601",
+      "ru": "внутренний",
+      "target": "domestic"
+    },
+    {
+      "id": "ru_en_b2:602",
+      "ru": "доминировать",
+      "target": "dominate"
+    },
+    {
+      "id": "ru_en_b2:603",
+      "ru": "пожертвовать",
+      "target": "donate"
+    },
+    {
+      "id": "ru_en_b2:604",
+      "ru": "пожертвование",
+      "target": "donation"
+    },
+    {
+      "id": "ru_en_b2:605",
+      "ru": "осел",
+      "target": "donkey"
+    },
+    {
+      "id": "ru_en_b2:606",
+      "ru": "гибель",
+      "target": "doom"
+    },
+    {
+      "id": "ru_en_b2:607",
+      "ru": "привратник",
+      "target": "doorkeeper"
+    },
+    {
+      "id": "ru_en_b2:608",
+      "ru": "общежитие",
+      "target": "dorm"
+    },
+    {
+      "id": "ru_en_b2:609",
+      "ru": "доза",
+      "target": "dose"
+    },
+    {
+      "id": "ru_en_b2:610",
+      "ru": "двойной",
+      "target": "double"
+    },
+    {
+      "id": "ru_en_b2:611",
+      "ru": "вдвойне",
+      "target": "doubly"
+    },
+    {
+      "id": "ru_en_b2:612",
+      "ru": "сомнение",
+      "target": "doubt"
+    },
+    {
+      "id": "ru_en_b2:613",
+      "ru": "сомнительный",
+      "target": "doubtful"
+    },
+    {
+      "id": "ru_en_b2:614",
+      "ru": "голубь",
+      "target": "dove"
+    },
+    {
+      "id": "ru_en_b2:615",
+      "ru": "вниз",
+      "target": "down"
+    },
+    {
+      "id": "ru_en_b2:616",
+      "ru": "падение",
+      "target": "downfall"
+    },
+    {
+      "id": "ru_en_b2:617",
+      "ru": "скачать",
+      "target": "download"
+    },
+    {
+      "id": "ru_en_b2:618",
+      "ru": "приданое",
+      "target": "dowry"
+    },
+    {
+      "id": "ru_en_b2:619",
+      "ru": "дренаж",
+      "target": "drain"
+    },
+    {
+      "id": "ru_en_b2:620",
+      "ru": "драпировка",
+      "target": "drapery"
+    },
+    {
+      "id": "ru_en_b2:621",
+      "ru": "бояться",
+      "target": "dread"
+    },
+    {
+      "id": "ru_en_b2:622",
+      "ru": "ужасный",
+      "target": "dreadful"
+    },
+    {
+      "id": "ru_en_b2:623",
+      "ru": "мечтательный",
+      "target": "dreamy"
+    },
+    {
+      "id": "ru_en_b2:624",
+      "ru": "свисать",
+      "target": "droop"
+    },
+    {
+      "id": "ru_en_b2:625",
+      "ru": "отсев",
+      "target": "dropout"
+    },
+    {
+      "id": "ru_en_b2:626",
+      "ru": "засуха",
+      "target": "drought"
+    },
+    {
+      "id": "ru_en_b2:627",
+      "ru": "дуэль",
+      "target": "duel"
+    },
+    {
+      "id": "ru_en_b2:628",
+      "ru": "тупой",
+      "target": "dumb"
+    },
+    {
+      "id": "ru_en_b2:629",
+      "ru": "дубликат",
+      "target": "duplicate"
+    },
+    {
+      "id": "ru_en_b2:630",
+      "ru": "дублирование",
+      "target": "duplication"
+    },
+    {
+      "id": "ru_en_b2:631",
+      "ru": "карлик",
+      "target": "dwarf"
+    },
+    {
+      "id": "ru_en_b2:632",
+      "ru": "краситель",
+      "target": "dye"
+    },
+    {
+      "id": "ru_en_b2:633",
+      "ru": "динамичный",
+      "target": "dynamic"
+    },
+    {
+      "id": "ru_en_b2:634",
+      "ru": "нетерпеливо",
+      "target": "eagerly"
+    },
+    {
+      "id": "ru_en_b2:635",
+      "ru": "орел",
+      "target": "eagle"
+    },
+    {
+      "id": "ru_en_b2:636",
+      "ru": "заработок",
+      "target": "earnings"
+    },
+    {
+      "id": "ru_en_b2:637",
+      "ru": "легкость",
+      "target": "ease"
+    },
+    {
+      "id": "ru_en_b2:638",
+      "ru": "экологически",
+      "target": "ecologically"
+    },
+    {
+      "id": "ru_en_b2:639",
+      "ru": "эколог",
+      "target": "ecologist"
+    },
+    {
+      "id": "ru_en_b2:640",
+      "ru": "экономичный",
+      "target": "economical"
+    },
+    {
+      "id": "ru_en_b2:641",
+      "ru": "экономист",
+      "target": "economist"
+    },
+    {
+      "id": "ru_en_b2:642",
+      "ru": "восторженный",
+      "target": "ecstatic"
+    },
+    {
+      "id": "ru_en_b2:643",
+      "ru": "редактировать",
+      "target": "edit"
+    },
+    {
+      "id": "ru_en_b2:644",
+      "ru": "образованный",
+      "target": "educated"
+    },
+    {
+      "id": "ru_en_b2:645",
+      "ru": "педагог",
+      "target": "educator"
+    },
+    {
+      "id": "ru_en_b2:646",
+      "ru": "эффективно",
+      "target": "effectively"
+    },
+    {
+      "id": "ru_en_b2:647",
+      "ru": "эффективность",
+      "target": "effectiveness"
+    },
+    {
+      "id": "ru_en_b2:648",
+      "ru": "выбирать",
+      "target": "elect"
+    },
+    {
+      "id": "ru_en_b2:649",
+      "ru": "факультативный",
+      "target": "elective"
+    },
+    {
+      "id": "ru_en_b2:650",
+      "ru": "электрик",
+      "target": "electrician"
+    },
+    {
+      "id": "ru_en_b2:651",
+      "ru": "электроника",
+      "target": "electronics"
+    },
+    {
+      "id": "ru_en_b2:652",
+      "ru": "элегантность",
+      "target": "elegance"
+    },
+    {
+      "id": "ru_en_b2:653",
+      "ru": "элегантный",
+      "target": "elegant"
+    },
+    {
+      "id": "ru_en_b2:654",
+      "ru": "элегантно",
+      "target": "elegantly"
+    },
+    {
+      "id": "ru_en_b2:655",
+      "ru": "элементарный",
+      "target": "elemental"
+    },
+    {
+      "id": "ru_en_b2:656",
+      "ru": "подходящий",
+      "target": "eligible"
+    },
+    {
+      "id": "ru_en_b2:657",
+      "ru": "элита",
+      "target": "elite"
+    },
+    {
+      "id": "ru_en_b2:658",
+      "ru": "красноречие",
+      "target": "eloquence"
+    },
+    {
+      "id": "ru_en_b2:659",
+      "ru": "красноречивый",
+      "target": "eloquent"
+    },
+    {
+      "id": "ru_en_b2:660",
+      "ru": "посольство",
+      "target": "embassy"
+    },
+    {
+      "id": "ru_en_b2:661",
+      "ru": "обнимать",
+      "target": "embrace"
+    },
+    {
+      "id": "ru_en_b2:662",
+      "ru": "решительно",
+      "target": "emphatically"
+    },
+    {
+      "id": "ru_en_b2:663",
+      "ru": "нанимать",
+      "target": "employ"
+    },
+    {
+      "id": "ru_en_b2:664",
+      "ru": "сотрудник",
+      "target": "employee"
+    },
+    {
+      "id": "ru_en_b2:665",
+      "ru": "работодатель",
+      "target": "employer"
+    },
+    {
+      "id": "ru_en_b2:666",
+      "ru": "встреча",
+      "target": "encounter"
+    },
+    {
+      "id": "ru_en_b2:667",
+      "ru": "бесконечно",
+      "target": "endlessly"
+    },
+    {
+      "id": "ru_en_b2:668",
+      "ru": "одобрять",
+      "target": "endorse"
+    },
+    {
+      "id": "ru_en_b2:669",
+      "ru": "выносливость",
+      "target": "endurance"
+    },
+    {
+      "id": "ru_en_b2:670",
+      "ru": "прочный",
+      "target": "enduring"
+    },
+    {
+      "id": "ru_en_b2:671",
+      "ru": "энергия",
+      "target": "energy"
+    },
+    {
+      "id": "ru_en_b2:672",
+      "ru": "помолвка",
+      "target": "engagement"
+    },
+    {
+      "id": "ru_en_b2:673",
+      "ru": "поглощать",
+      "target": "engulf"
+    },
+    {
+      "id": "ru_en_b2:674",
+      "ru": "улучшить",
+      "target": "enhance"
+    },
+    {
+      "id": "ru_en_b2:675",
+      "ru": "предприятие",
+      "target": "enterprise"
+    },
+    {
+      "id": "ru_en_b2:676",
+      "ru": "развлекательный",
+      "target": "entertaining"
+    },
+    {
+      "id": "ru_en_b2:677",
+      "ru": "предприниматель",
+      "target": "entrepreneur"
+    },
+    {
+      "id": "ru_en_b2:678",
+      "ru": "зависть",
+      "target": "envy"
+    },
+    {
+      "id": "ru_en_b2:679",
+      "ru": "равный",
+      "target": "equal"
+    },
+    {
+      "id": "ru_en_b2:680",
+      "ru": "уравнение",
+      "target": "equation"
+    },
+    {
+      "id": "ru_en_b2:681",
+      "ru": "оборудовать",
+      "target": "equip"
+    },
+    {
+      "id": "ru_en_b2:682",
+      "ru": "капитал",
+      "target": "equity"
+    },
+    {
+      "id": "ru_en_b2:683",
+      "ru": "возводить",
+      "target": "erect"
+    },
+    {
+      "id": "ru_en_b2:684",
+      "ru": "извергаться",
+      "target": "erupt"
+    },
+    {
+      "id": "ru_en_b2:685",
+      "ru": "извержение",
+      "target": "eruption"
+    },
+    {
+      "id": "ru_en_b2:686",
+      "ru": "эссеист",
+      "target": "essayist"
+    },
+    {
+      "id": "ru_en_b2:687",
+      "ru": "поместье",
+      "target": "estate"
+    },
+    {
+      "id": "ru_en_b2:688",
+      "ru": "оцененный",
+      "target": "estimated"
+    },
+    {
+      "id": "ru_en_b2:689",
+      "ru": "вечно",
+      "target": "eternally"
+    },
+    {
+      "id": "ru_en_b2:690",
+      "ru": "этика",
+      "target": "ethic"
+    },
+    {
+      "id": "ru_en_b2:691",
+      "ru": "этнический",
+      "target": "ethnic"
+    },
+    {
+      "id": "ru_en_b2:692",
+      "ru": "эвакуировать",
+      "target": "evacuate"
+    },
+    {
+      "id": "ru_en_b2:693",
+      "ru": "эвакуация",
+      "target": "evacuation"
+    },
+    {
+      "id": "ru_en_b2:694",
+      "ru": "вечный",
+      "target": "everlasting"
+    },
+    {
+      "id": "ru_en_b2:695",
+      "ru": "очевидно",
+      "target": "evidently"
+    },
+    {
+      "id": "ru_en_b2:696",
+      "ru": "зло",
+      "target": "evil"
+    },
+    {
+      "id": "ru_en_b2:697",
+      "ru": "эволюция",
+      "target": "evolution"
+    },
+    {
+      "id": "ru_en_b2:698",
+      "ru": "развиваться",
+      "target": "evolve"
+    },
+    {
+      "id": "ru_en_b2:699",
+      "ru": "точность",
+      "target": "exactness"
+    },
+    {
+      "id": "ru_en_b2:700",
+      "ru": "преувеличивать",
+      "target": "exaggerate"
+    },
+    {
+      "id": "ru_en_b2:701",
+      "ru": "преувеличение",
+      "target": "exaggeration"
+    },
+    {
+      "id": "ru_en_b2:702",
+      "ru": "превозносить",
+      "target": "exalt"
+    },
+    {
+      "id": "ru_en_b2:703",
+      "ru": "испытуемый",
+      "target": "examinee"
+    },
+    {
+      "id": "ru_en_b2:704",
+      "ru": "превышать",
+      "target": "exceed"
+    },
+    {
+      "id": "ru_en_b2:705",
+      "ru": "превосходить",
+      "target": "excel"
+    },
+    {
+      "id": "ru_en_b2:706",
+      "ru": "исключение",
+      "target": "exception"
+    },
+    {
+      "id": "ru_en_b2:707",
+      "ru": "исключительный",
+      "target": "exceptional"
+    },
+    {
+      "id": "ru_en_b2:708",
+      "ru": "исключительно",
+      "target": "exceptionally"
+    },
+    {
+      "id": "ru_en_b2:709",
+      "ru": "чрезмерный",
+      "target": "excessive"
+    },
+    {
+      "id": "ru_en_b2:710",
+      "ru": "восклицать",
+      "target": "exclaim"
+    },
+    {
+      "id": "ru_en_b2:711",
+      "ru": "исключить",
+      "target": "exclude"
+    },
+    {
+      "id": "ru_en_b2:712",
+      "ru": "экскурсия",
+      "target": "excursion"
+    },
+    {
+      "id": "ru_en_b2:713",
+      "ru": "выполнять",
+      "target": "execute"
+    },
+    {
+      "id": "ru_en_b2:714",
+      "ru": "исполнение",
+      "target": "execution"
+    },
+    {
+      "id": "ru_en_b2:715",
+      "ru": "исполнительный",
+      "target": "executive"
+    },
+    {
+      "id": "ru_en_b2:716",
+      "ru": "выхлоп",
+      "target": "exhaust"
+    },
+    {
+      "id": "ru_en_b2:717",
+      "ru": "утомительный",
+      "target": "exhausting"
+    },
+    {
+      "id": "ru_en_b2:718",
+      "ru": "истощение",
+      "target": "exhaustion"
+    },
+    {
+      "id": "ru_en_b2:719",
+      "ru": "выставка",
+      "target": "exhibit"
+    },
+    {
+      "id": "ru_en_b2:720",
+      "ru": "изгнание",
+      "target": "exile"
+    },
+    {
+      "id": "ru_en_b2:721",
+      "ru": "существующий",
+      "target": "existing"
+    },
+    {
+      "id": "ru_en_b2:722",
+      "ru": "экзотика",
+      "target": "exotic"
+    },
+    {
+      "id": "ru_en_b2:723",
+      "ru": "расширение",
+      "target": "expansion"
+    },
+    {
+      "id": "ru_en_b2:724",
+      "ru": "ожидается",
+      "target": "expected"
+    },
+    {
+      "id": "ru_en_b2:725",
+      "ru": "экспедиция",
+      "target": "expedition"
+    },
+    {
+      "id": "ru_en_b2:726",
+      "ru": "эксперимент",
+      "target": "experiment"
+    },
+    {
+      "id": "ru_en_b2:727",
+      "ru": "эксперт",
+      "target": "expert"
+    },
+    {
+      "id": "ru_en_b2:728",
+      "ru": "взорваться",
+      "target": "explode"
+    },
+    {
+      "id": "ru_en_b2:729",
+      "ru": "эксплуатировать",
+      "target": "exploit"
+    },
+    {
+      "id": "ru_en_b2:730",
+      "ru": "исследователь",
+      "target": "explorer"
+    },
+    {
+      "id": "ru_en_b2:731",
+      "ru": "взрывчатый",
+      "target": "explosive"
+    },
+    {
+      "id": "ru_en_b2:732",
+      "ru": "экспорт",
+      "target": "export"
+    },
+    {
+      "id": "ru_en_b2:733",
+      "ru": "выразительный",
+      "target": "expressive"
+    },
+    {
+      "id": "ru_en_b2:734",
+      "ru": "изысканный",
+      "target": "exquisite"
+    },
+    {
+      "id": "ru_en_b2:735",
+      "ru": "обширный",
+      "target": "extensive"
+    },
+    {
+      "id": "ru_en_b2:736",
+      "ru": "внешний",
+      "target": "external"
+    },
+    {
+      "id": "ru_en_b2:737",
+      "ru": "извлекать",
+      "target": "extract"
+    },
+    {
+      "id": "ru_en_b2:738",
+      "ru": "необычайно",
+      "target": "extraordinarily"
+    },
+    {
+      "id": "ru_en_b2:739",
+      "ru": "ликующий",
+      "target": "exultant"
+    },
+    {
+      "id": "ru_en_b2:740",
+      "ru": "бровь",
+      "target": "eyebrow"
+    },
+    {
+      "id": "ru_en_b2:741",
+      "ru": "ресница",
+      "target": "eyelash"
+    },
+    {
+      "id": "ru_en_b2:742",
+      "ru": "веко",
+      "target": "eyelid"
+    },
+    {
+      "id": "ru_en_b2:743",
+      "ru": "ткань",
+      "target": "fabric"
+    },
+    {
+      "id": "ru_en_b2:744",
+      "ru": "сказочный",
+      "target": "fabulous"
+    },
+    {
+      "id": "ru_en_b2:745",
+      "ru": "облегчить",
+      "target": "facilitate"
+    },
+    {
+      "id": "ru_en_b2:746",
+      "ru": "удобства",
+      "target": "facilities"
+    },
+    {
+      "id": "ru_en_b2:747",
+      "ru": "фактор",
+      "target": "factor"
+    },
+    {
+      "id": "ru_en_b2:748",
+      "ru": "факультет",
+      "target": "faculty"
+    },
+    {
+      "id": "ru_en_b2:749",
+      "ru": "вера",
+      "target": "faith"
+    },
+    {
+      "id": "ru_en_b2:750",
+      "ru": "колебаться",
+      "target": "falter"
+    },
+    {
+      "id": "ru_en_b2:751",
+      "ru": "слава",
+      "target": "fame"
+    },
+    {
+      "id": "ru_en_b2:752",
+      "ru": "фантастически",
+      "target": "fantastically"
+    },
+    {
+      "id": "ru_en_b2:753",
+      "ru": "далеко",
+      "target": "far"
+    },
+    {
+      "id": "ru_en_b2:754",
+      "ru": "очарованный",
+      "target": "fascinated"
+    },
+    {
+      "id": "ru_en_b2:755",
+      "ru": "обаяние",
+      "target": "fascination"
+    },
+    {
+      "id": "ru_en_b2:756",
+      "ru": "толстый",
+      "target": "fat"
+    },
+    {
+      "id": "ru_en_b2:757",
+      "ru": "смертельный",
+      "target": "fatal"
+    },
+    {
+      "id": "ru_en_b2:758",
+      "ru": "тесть",
+      "target": "father-in-law"
+    },
+    {
+      "id": "ru_en_b2:759",
+      "ru": "неисправный",
+      "target": "faulty"
+    },
+    {
+      "id": "ru_en_b2:760",
+      "ru": "страх",
+      "target": "fear"
+    },
+    {
+      "id": "ru_en_b2:761",
+      "ru": "устрашающий",
+      "target": "fearsome"
+    },
+    {
+      "id": "ru_en_b2:762",
+      "ru": "подвиг",
+      "target": "feat"
+    },
+    {
+      "id": "ru_en_b2:763",
+      "ru": "особенность",
+      "target": "feature"
+    },
+    {
+      "id": "ru_en_b2:764",
+      "ru": "федеральный",
+      "target": "federal"
+    },
+    {
+      "id": "ru_en_b2:765",
+      "ru": "парень",
+      "target": "fellow"
+    },
+    {
+      "id": "ru_en_b2:766",
+      "ru": "женщина",
+      "target": "female"
+    },
+    {
+      "id": "ru_en_b2:767",
+      "ru": "паром",
+      "target": "ferryboat"
+    },
+    {
+      "id": "ru_en_b2:768",
+      "ru": "вымышленный",
+      "target": "fictional"
+    },
+    {
+      "id": "ru_en_b2:769",
+      "ru": "жестокий",
+      "target": "fierce"
+    },
+    {
+      "id": "ru_en_b2:770",
+      "ru": "борьба",
+      "target": "fighting"
+    },
+    {
+      "id": "ru_en_b2:771",
+      "ru": "образный",
+      "target": "figurative"
+    },
+    {
+      "id": "ru_en_b2:772",
+      "ru": "файл",
+      "target": "file"
+    },
+    {
+      "id": "ru_en_b2:773",
+      "ru": "сыновний",
+      "target": "filial"
+    },
+    {
+      "id": "ru_en_b2:774",
+      "ru": "финансы",
+      "target": "finance"
+    },
+    {
+      "id": "ru_en_b2:775",
+      "ru": "финансово",
+      "target": "financially"
+    },
+    {
+      "id": "ru_en_b2:776",
+      "ru": "хорошо",
+      "target": "fine"
+    },
+    {
+      "id": "ru_en_b2:777",
+      "ru": "мелко",
+      "target": "finely"
+    },
+    {
+      "id": "ru_en_b2:778",
+      "ru": "ноготь",
+      "target": "fingernail"
+    },
+    {
+      "id": "ru_en_b2:779",
+      "ru": "огонь",
+      "target": "fire"
+    },
+    {
+      "id": "ru_en_b2:780",
+      "ru": "камин",
+      "target": "fireplace"
+    },
+    {
+      "id": "ru_en_b2:781",
+      "ru": "твердость",
+      "target": "firmness"
+    },
+    {
+      "id": "ru_en_b2:782",
+      "ru": "во-первых",
+      "target": "firstly"
+    },
+    {
+      "id": "ru_en_b2:783",
+      "ru": "фискальный",
+      "target": "fiscal"
+    },
+    {
+      "id": "ru_en_b2:784",
+      "ru": "подходит",
+      "target": "fit"
+    },
+    {
+      "id": "ru_en_b2:785",
+      "ru": "фиксированный",
+      "target": "fixed"
+    },
+    {
+      "id": "ru_en_b2:786",
+      "ru": "пламя",
+      "target": "flame"
+    },
+    {
+      "id": "ru_en_b2:787",
+      "ru": "лоскут",
+      "target": "flap"
+    },
+    {
+      "id": "ru_en_b2:788",
+      "ru": "вспышка",
+      "target": "flash"
+    },
+    {
+      "id": "ru_en_b2:789",
+      "ru": "квартира",
+      "target": "flat"
+    },
+    {
+      "id": "ru_en_b2:790",
+      "ru": "недостаток",
+      "target": "flaw"
+    },
+    {
+      "id": "ru_en_b2:791",
+      "ru": "безупречный",
+      "target": "flawless"
+    },
+    {
+      "id": "ru_en_b2:792",
+      "ru": "лен",
+      "target": "flax"
+    },
+    {
+      "id": "ru_en_b2:793",
+      "ru": "бежать",
+      "target": "flee"
+    },
+    {
+      "id": "ru_en_b2:794",
+      "ru": "флот",
+      "target": "fleet"
+    },
+    {
+      "id": "ru_en_b2:795",
+      "ru": "плоть",
+      "target": "flesh"
+    },
+    {
+      "id": "ru_en_b2:796",
+      "ru": "гибкость",
+      "target": "flexibility"
+    },
+    {
+      "id": "ru_en_b2:797",
+      "ru": "гибкий",
+      "target": "flexible"
+    },
+    {
+      "id": "ru_en_b2:798",
+      "ru": "гибко",
+      "target": "flexibly"
+    },
+    {
+      "id": "ru_en_b2:799",
+      "ru": "перевернуть",
+      "target": "flip"
+    },
+    {
+      "id": "ru_en_b2:800",
+      "ru": "беглость",
+      "target": "fluency"
+    },
+    {
+      "id": "ru_en_b2:801",
+      "ru": "жидкость",
+      "target": "fluid"
+    },
+    {
+      "id": "ru_en_b2:802",
+      "ru": "порхать",
+      "target": "flutter"
+    },
+    {
+      "id": "ru_en_b2:803",
+      "ru": "фокус",
+      "target": "focus"
+    },
+    {
+      "id": "ru_en_b2:804",
+      "ru": "последователь",
+      "target": "follower"
+    },
+    {
+      "id": "ru_en_b2:805",
+      "ru": "следующий",
+      "target": "following"
+    },
+    {
+      "id": "ru_en_b2:806",
+      "ru": "глупость",
+      "target": "folly"
+    },
+    {
+      "id": "ru_en_b2:807",
+      "ru": "глупо",
+      "target": "foolishly"
+    },
+    {
+      "id": "ru_en_b2:808",
+      "ru": "сноска",
+      "target": "footnote"
+    },
+    {
+      "id": "ru_en_b2:809",
+      "ru": "сила",
+      "target": "force"
+    },
+    {
+      "id": "ru_en_b2:810",
+      "ru": "настойчиво",
+      "target": "forcefully"
+    },
+    {
+      "id": "ru_en_b2:811",
+      "ru": "бригадир",
+      "target": "foreman"
+    },
+    {
+      "id": "ru_en_b2:812",
+      "ru": "формирование",
+      "target": "formation"
+    },
+    {
+      "id": "ru_en_b2:813",
+      "ru": "раньше",
+      "target": "formerly"
+    },
+    {
+      "id": "ru_en_b2:814",
+      "ru": "грозный",
+      "target": "formidable"
+    },
+    {
+      "id": "ru_en_b2:815",
+      "ru": "предстоящий",
+      "target": "forthcoming"
+    },
+    {
+      "id": "ru_en_b2:816",
+      "ru": "фол",
+      "target": "foul"
+    },
+    {
+      "id": "ru_en_b2:817",
+      "ru": "нашел",
+      "target": "found"
+    },
+    {
+      "id": "ru_en_b2:818",
+      "ru": "лиса",
+      "target": "fox"
+    },
+    {
+      "id": "ru_en_b2:819",
+      "ru": "аромат",
+      "target": "fragrance"
+    },
+    {
+      "id": "ru_en_b2:820",
+      "ru": "рамка",
+      "target": "frame"
+    },
+    {
+      "id": "ru_en_b2:821",
+      "ru": "мошенничество",
+      "target": "fraud"
+    },
+    {
+      "id": "ru_en_b2:822",
+      "ru": "урод",
+      "target": "freak"
+    },
+    {
+      "id": "ru_en_b2:823",
+      "ru": "бесплатно",
+      "target": "free"
+    },
+    {
+      "id": "ru_en_b2:824",
+      "ru": "дружелюбный",
+      "target": "friendly"
+    },
+    {
+      "id": "ru_en_b2:825",
+      "ru": "фрегат",
+      "target": "frigate"
+    },
+    {
+      "id": "ru_en_b2:826",
+      "ru": "граница",
+      "target": "frontier"
+    },
+    {
+      "id": "ru_en_b2:827",
+      "ru": "бережливый",
+      "target": "frugal"
+    },
+    {
+      "id": "ru_en_b2:828",
+      "ru": "дым",
+      "target": "fume"
+    },
+    {
+      "id": "ru_en_b2:829",
+      "ru": "функциональный",
+      "target": "functional"
+    },
+    {
+      "id": "ru_en_b2:830",
+      "ru": "функциональность",
+      "target": "functionality"
+    },
+    {
+      "id": "ru_en_b2:831",
+      "ru": "фундаментальный",
+      "target": "fundamental"
+    },
+    {
+      "id": "ru_en_b2:832",
+      "ru": "фанк",
+      "target": "funk"
+    },
+    {
+      "id": "ru_en_b2:833",
+      "ru": "яростно",
+      "target": "furiously"
+    },
+    {
+      "id": "ru_en_b2:834",
+      "ru": "веселье",
+      "target": "gaiety"
+    },
+    {
+      "id": "ru_en_b2:835",
+      "ru": "банда",
+      "target": "gang"
+    },
+    {
+      "id": "ru_en_b2:836",
+      "ru": "гангстер",
+      "target": "gangster"
+    },
+    {
+      "id": "ru_en_b2:837",
+      "ru": "садовник",
+      "target": "gardener"
+    },
+    {
+      "id": "ru_en_b2:838",
+      "ru": "задыхаться",
+      "target": "gasp"
+    },
+    {
+      "id": "ru_en_b2:839",
+      "ru": "шлюз",
+      "target": "gateway"
+    },
+    {
+      "id": "ru_en_b2:840",
+      "ru": "яркий",
+      "target": "gaudy"
+    },
+    {
+      "id": "ru_en_b2:841",
+      "ru": "взгляд",
+      "target": "gaze"
+    },
+    {
+      "id": "ru_en_b2:842",
+      "ru": "шестерня",
+      "target": "gear"
+    },
+    {
+      "id": "ru_en_b2:843",
+      "ru": "щедрость",
+      "target": "generosity"
+    },
+    {
+      "id": "ru_en_b2:844",
+      "ru": "щедро",
+      "target": "generously"
+    },
+    {
+      "id": "ru_en_b2:845",
+      "ru": "гений",
+      "target": "genius"
+    },
+    {
+      "id": "ru_en_b2:846",
+      "ru": "жанр",
+      "target": "genre"
+    },
+    {
+      "id": "ru_en_b2:847",
+      "ru": "настоящий",
+      "target": "genuine"
+    },
+    {
+      "id": "ru_en_b2:848",
+      "ru": "искренне",
+      "target": "genuinely"
+    },
+    {
+      "id": "ru_en_b2:849",
+      "ru": "географический",
+      "target": "geographic"
+    },
+    {
+      "id": "ru_en_b2:850",
+      "ru": "зародыш",
+      "target": "germ"
+    },
+    {
+      "id": "ru_en_b2:851",
+      "ru": "бегство",
+      "target": "getaway"
+    },
+    {
+      "id": "ru_en_b2:852",
+      "ru": "гетто",
+      "target": "ghetto"
+    },
+    {
+      "id": "ru_en_b2:853",
+      "ru": "раздача",
+      "target": "giveaway"
+    },
+    {
+      "id": "ru_en_b2:854",
+      "ru": "гласис",
+      "target": "glacis"
+    },
+    {
+      "id": "ru_en_b2:855",
+      "ru": "блики",
+      "target": "glare"
+    },
+    {
+      "id": "ru_en_b2:856",
+      "ru": "светиться",
+      "target": "gleam"
+    },
+    {
+      "id": "ru_en_b2:857",
+      "ru": "ликование",
+      "target": "glee"
+    },
+    {
+      "id": "ru_en_b2:858",
+      "ru": "глобально",
+      "target": "globally"
+    },
+    {
+      "id": "ru_en_b2:859",
+      "ru": "глокальный",
+      "target": "glocal"
+    },
+    {
+      "id": "ru_en_b2:860",
+      "ru": "мрачный",
+      "target": "gloomy"
+    },
+    {
+      "id": "ru_en_b2:861",
+      "ru": "прославлять",
+      "target": "glorify"
+    },
+    {
+      "id": "ru_en_b2:862",
+      "ru": "свечение",
+      "target": "glow"
+    },
+    {
+      "id": "ru_en_b2:863",
+      "ru": "козел",
+      "target": "goat"
+    },
+    {
+      "id": "ru_en_b2:864",
+      "ru": "бог",
+      "target": "god"
+    },
+    {
+      "id": "ru_en_b2:865",
+      "ru": "благочестивый",
+      "target": "godly"
+    },
+    {
+      "id": "ru_en_b2:866",
+      "ru": "дурак",
+      "target": "gook"
+    },
+    {
+      "id": "ru_en_b2:867",
+      "ru": "ущелье",
+      "target": "gorge"
+    },
+    {
+      "id": "ru_en_b2:868",
+      "ru": "сплетни",
+      "target": "gossip"
+    },
+    {
+      "id": "ru_en_b2:869",
+      "ru": "правительственный",
+      "target": "governmental"
+    },
+    {
+      "id": "ru_en_b2:870",
+      "ru": "грациозность",
+      "target": "gracefulness"
+    },
+    {
+      "id": "ru_en_b2:871",
+      "ru": "класс",
+      "target": "grade"
+    },
+    {
+      "id": "ru_en_b2:872",
+      "ru": "постепенный",
+      "target": "gradual"
+    },
+    {
+      "id": "ru_en_b2:873",
+      "ru": "зерно",
+      "target": "grain"
+    },
+    {
+      "id": "ru_en_b2:874",
+      "ru": "грандиозный",
+      "target": "grand"
+    },
+    {
+      "id": "ru_en_b2:875",
+      "ru": "графически",
+      "target": "graphically"
+    },
+    {
+      "id": "ru_en_b2:876",
+      "ru": "схватить",
+      "target": "grasp"
+    },
+    {
+      "id": "ru_en_b2:877",
+      "ru": "надгробие",
+      "target": "gravestone"
+    },
+    {
+      "id": "ru_en_b2:878",
+      "ru": "гравитация",
+      "target": "gravitation"
+    },
+    {
+      "id": "ru_en_b2:879",
+      "ru": "величие",
+      "target": "greatness"
+    },
+    {
+      "id": "ru_en_b2:880",
+      "ru": "горе",
+      "target": "grief"
+    },
+    {
+      "id": "ru_en_b2:881",
+      "ru": "скорбеть",
+      "target": "grieve"
+    },
+    {
+      "id": "ru_en_b2:882",
+      "ru": "ухмыляться",
+      "target": "grin"
+    },
+    {
+      "id": "ru_en_b2:883",
+      "ru": "хватка",
+      "target": "grip"
+    },
+    {
+      "id": "ru_en_b2:884",
+      "ru": "брутто",
+      "target": "gross"
+    },
+    {
+      "id": "ru_en_b2:885",
+      "ru": "растет",
+      "target": "growing"
+    },
+    {
+      "id": "ru_en_b2:886",
+      "ru": "взрослый",
+      "target": "grown-up"
+    },
+    {
+      "id": "ru_en_b2:887",
+      "ru": "охранник",
+      "target": "guard"
+    },
+    {
+      "id": "ru_en_b2:888",
+      "ru": "партизан",
+      "target": "guerrilla"
+    },
+    {
+      "id": "ru_en_b2:889",
+      "ru": "ориентир",
+      "target": "guideline"
+    },
+    {
+      "id": "ru_en_b2:890",
+      "ru": "глотать",
+      "target": "gulp"
+    },
+    {
+      "id": "ru_en_b2:891",
+      "ru": "жвачка",
+      "target": "gum"
+    },
+    {
+      "id": "ru_en_b2:892",
+      "ru": "выстрел",
+      "target": "gunshot"
+    },
+    {
+      "id": "ru_en_b2:893",
+      "ru": "кишки",
+      "target": "guts"
+    },
+    {
+      "id": "ru_en_b2:894",
+      "ru": "гимнастический",
+      "target": "gymnastic"
+    },
+    {
+      "id": "ru_en_b2:895",
+      "ru": "житель",
+      "target": "habitant"
+    },
+    {
+      "id": "ru_en_b2:896",
+      "ru": "приветствую",
+      "target": "hail"
+    },
+    {
+      "id": "ru_en_b2:897",
+      "ru": "волосатый",
+      "target": "hairy"
+    },
+    {
+      "id": "ru_en_b2:898",
+      "ru": "молоток",
+      "target": "hammer"
+    },
+    {
+      "id": "ru_en_b2:899",
+      "ru": "инвалидность",
+      "target": "handicap"
+    },
+    {
+      "id": "ru_en_b2:900",
+      "ru": "ремесло",
+      "target": "handicraft"
+    },
+    {
+      "id": "ru_en_b2:901",
+      "ru": "поручень",
+      "target": "handrail"
+    },
+    {
+      "id": "ru_en_b2:902",
+      "ru": "повесить",
+      "target": "hang"
+    },
+    {
+      "id": "ru_en_b2:903",
+      "ru": "вред",
+      "target": "harm"
+    },
+    {
+      "id": "ru_en_b2:904",
+      "ru": "безвредный",
+      "target": "harmless"
+    },
+    {
+      "id": "ru_en_b2:905",
+      "ru": "борона",
+      "target": "harrow"
+    },
+    {
+      "id": "ru_en_b2:906",
+      "ru": "спешка",
+      "target": "haste"
+    },
+    {
+      "id": "ru_en_b2:907",
+      "ru": "поспешно",
+      "target": "hastily"
+    },
+    {
+      "id": "ru_en_b2:908",
+      "ru": "штриховка",
+      "target": "hatching"
+    },
+    {
+      "id": "ru_en_b2:909",
+      "ru": "преследующий",
+      "target": "haunting"
+    },
+    {
+      "id": "ru_en_b2:910",
+      "ru": "сено",
+      "target": "hay"
+    },
+    {
+      "id": "ru_en_b2:911",
+      "ru": "опасный",
+      "target": "hazardous"
+    },
+    {
+      "id": "ru_en_b2:912",
+      "ru": "штаб-квартира",
+      "target": "headquarters"
+    },
+    {
+      "id": "ru_en_b2:913",
+      "ru": "куча",
+      "target": "heap"
+    },
+    {
+      "id": "ru_en_b2:914",
+      "ru": "душераздирающий",
+      "target": "heartbreaking"
+    },
+    {
+      "id": "ru_en_b2:915",
+      "ru": "изгородь",
+      "target": "hedge"
+    },
+    {
+      "id": "ru_en_b2:916",
+      "ru": "вертолет",
+      "target": "helicopter"
+    },
+    {
+      "id": "ru_en_b2:917",
+      "ru": "ад",
+      "target": "hell"
+    },
+    {
+      "id": "ru_en_b2:918",
+      "ru": "помощник",
+      "target": "helper"
+    },
+    {
+      "id": "ru_en_b2:919",
+      "ru": "конопля",
+      "target": "hemp"
+    },
+    {
+      "id": "ru_en_b2:920",
+      "ru": "трава",
+      "target": "herb"
+    },
+    {
+      "id": "ru_en_b2:921",
+      "ru": "наследие",
+      "target": "heritage"
+    },
+    {
+      "id": "ru_en_b2:922",
+      "ru": "колебание",
+      "target": "hesitation"
+    },
+    {
+      "id": "ru_en_b2:923",
+      "ru": "выделить",
+      "target": "highlight"
+    },
+    {
+      "id": "ru_en_b2:924",
+      "ru": "угнать",
+      "target": "hijack"
+    },
+    {
+      "id": "ru_en_b2:925",
+      "ru": "веселый",
+      "target": "hilarious"
+    },
+    {
+      "id": "ru_en_b2:926",
+      "ru": "намек",
+      "target": "hint"
+    },
+    {
+      "id": "ru_en_b2:927",
+      "ru": "держатель",
+      "target": "holder"
+    },
+    {
+      "id": "ru_en_b2:928",
+      "ru": "полый",
+      "target": "hollow"
+    },
+    {
+      "id": "ru_en_b2:929",
+      "ru": "холокост",
+      "target": "holocaust"
+    },
+    {
+      "id": "ru_en_b2:930",
+      "ru": "домой",
+      "target": "homeward"
+    },
+    {
+      "id": "ru_en_b2:931",
+      "ru": "оттачивать",
+      "target": "hone"
+    },
+    {
+      "id": "ru_en_b2:932",
+      "ru": "капюшон",
+      "target": "hood"
+    },
+    {
+      "id": "ru_en_b2:933",
+      "ru": "крючок",
+      "target": "hook"
+    },
+    {
+      "id": "ru_en_b2:934",
+      "ru": "хоспис",
+      "target": "hospice"
+    },
+    {
+      "id": "ru_en_b2:935",
+      "ru": "гостеприимный",
+      "target": "hospitable"
+    },
+    {
+      "id": "ru_en_b2:936",
+      "ru": "гостеприимство",
+      "target": "hospitality"
+    },
+    {
+      "id": "ru_en_b2:937",
+      "ru": "ежечасно",
+      "target": "hourly"
+    },
+    {
+      "id": "ru_en_b2:938",
+      "ru": "экономка",
+      "target": "housekeeper"
+    },
+    {
+      "id": "ru_en_b2:939",
+      "ru": "воспитатель",
+      "target": "housemaster"
+    },
+    {
+      "id": "ru_en_b2:940",
+      "ru": "домохозяйка",
+      "target": "housewife"
+    },
+    {
+      "id": "ru_en_b2:941",
+      "ru": "зависать",
+      "target": "hover"
+    },
+    {
+      "id": "ru_en_b2:942",
+      "ru": "чрезвычайно",
+      "target": "hugely"
+    },
+    {
+      "id": "ru_en_b2:943",
+      "ru": "гуманный",
+      "target": "humane"
+    },
+    {
+      "id": "ru_en_b2:944",
+      "ru": "гуманист",
+      "target": "humanist"
+    },
+    {
+      "id": "ru_en_b2:945",
+      "ru": "скромный",
+      "target": "humble"
+    },
+    {
+      "id": "ru_en_b2:946",
+      "ru": "обман",
+      "target": "humbug"
+    },
+    {
+      "id": "ru_en_b2:947",
+      "ru": "унижать",
+      "target": "humiliate"
+    },
+    {
+      "id": "ru_en_b2:948",
+      "ru": "унизительный",
+      "target": "humiliating"
+    },
+    {
+      "id": "ru_en_b2:949",
+      "ru": "унижение",
+      "target": "humiliation"
+    },
+    {
+      "id": "ru_en_b2:950",
+      "ru": "охота",
+      "target": "hunting"
+    },
+    {
+      "id": "ru_en_b2:951",
+      "ru": "тише",
+      "target": "hush"
+    },
+    {
+      "id": "ru_en_b2:952",
+      "ru": "гибрид",
+      "target": "hybrid"
+    },
+    {
+      "id": "ru_en_b2:953",
+      "ru": "гигиена",
+      "target": "hygiene"
+    },
+    {
+      "id": "ru_en_b2:954",
+      "ru": "гипербола",
+      "target": "hyperbole"
+    },
+    {
+      "id": "ru_en_b2:955",
+      "ru": "дефис",
+      "target": "hyphen"
+    },
+    {
+      "id": "ru_en_b2:956",
+      "ru": "ледяной",
+      "target": "icy"
+    },
+    {
+      "id": "ru_en_b2:957",
+      "ru": "идентичный",
+      "target": "identical"
+    },
+    {
+      "id": "ru_en_b2:958",
+      "ru": "идентификация",
+      "target": "identification"
+    },
+    {
+      "id": "ru_en_b2:959",
+      "ru": "идентифицировать",
+      "target": "identify"
+    },
+    {
+      "id": "ru_en_b2:960",
+      "ru": "идеология",
+      "target": "ideology"
+    },
+    {
+      "id": "ru_en_b2:961",
+      "ru": "идиот",
+      "target": "idiot"
+    },
+    {
+      "id": "ru_en_b2:962",
+      "ru": "праздный",
+      "target": "idle"
+    },
+    {
+      "id": "ru_en_b2:963",
+      "ru": "невежество",
+      "target": "ignorance"
+    },
+    {
+      "id": "ru_en_b2:964",
+      "ru": "невежественный",
+      "target": "ignorant"
+    },
+    {
+      "id": "ru_en_b2:965",
+      "ru": "иллюстрировать",
+      "target": "illustrate"
+    },
+    {
+      "id": "ru_en_b2:966",
+      "ru": "иллюстрация",
+      "target": "illustration"
+    },
+    {
+      "id": "ru_en_b2:967",
+      "ru": "образы",
+      "target": "imagery"
+    },
+    {
+      "id": "ru_en_b2:968",
+      "ru": "имитация",
+      "target": "imitation"
+    },
+    {
+      "id": "ru_en_b2:969",
+      "ru": "погружаться",
+      "target": "immerse"
+    },
+    {
+      "id": "ru_en_b2:970",
+      "ru": "иммигрант",
+      "target": "immigrant"
+    },
+    {
+      "id": "ru_en_b2:971",
+      "ru": "аморальный",
+      "target": "immoral"
+    },
+    {
+      "id": "ru_en_b2:972",
+      "ru": "бессмертный",
+      "target": "immortal"
+    },
+    {
+      "id": "ru_en_b2:973",
+      "ru": "бессмертие",
+      "target": "immortality"
+    },
+    {
+      "id": "ru_en_b2:974",
+      "ru": "беспристрастный",
+      "target": "impartial"
+    },
+    {
+      "id": "ru_en_b2:975",
+      "ru": "императив",
+      "target": "imperative"
+    },
+    {
+      "id": "ru_en_b2:976",
+      "ru": "непостоянный",
+      "target": "impermanent"
+    },
+    {
+      "id": "ru_en_b2:977",
+      "ru": "реализовать",
+      "target": "implement"
+    },
+    {
+      "id": "ru_en_b2:978",
+      "ru": "значение",
+      "target": "implication"
+    },
+    {
+      "id": "ru_en_b2:979",
+      "ru": "подразумевать",
+      "target": "imply"
+    },
+    {
+      "id": "ru_en_b2:980",
+      "ru": "невежливый",
+      "target": "impolite"
+    },
+    {
+      "id": "ru_en_b2:981",
+      "ru": "невежливо",
+      "target": "impolitely"
+    },
+    {
+      "id": "ru_en_b2:982",
+      "ru": "импортировать",
+      "target": "import"
+    },
+    {
+      "id": "ru_en_b2:983",
+      "ru": "навязывать",
+      "target": "impose"
+    },
+    {
+      "id": "ru_en_b2:984",
+      "ru": "невозможность",
+      "target": "impossibility"
+    },
+    {
+      "id": "ru_en_b2:985",
+      "ru": "непрактичный",
+      "target": "impractical"
+    },
+    {
+      "id": "ru_en_b2:986",
+      "ru": "впечатлен",
+      "target": "impressed"
+    },
+    {
+      "id": "ru_en_b2:987",
+      "ru": "импрессионизм",
+      "target": "impressionism"
+    },
+    {
+      "id": "ru_en_b2:988",
+      "ru": "импрессионист",
+      "target": "impressionist"
+    },
+    {
+      "id": "ru_en_b2:989",
+      "ru": "маловероятный",
+      "target": "improbable"
+    },
+    {
+      "id": "ru_en_b2:990",
+      "ru": "неправильно",
+      "target": "improperly"
+    },
+    {
+      "id": "ru_en_b2:991",
+      "ru": "улучшенный",
+      "target": "improved"
+    },
+    {
+      "id": "ru_en_b2:992",
+      "ru": "импульс",
+      "target": "impulse"
+    },
+    {
+      "id": "ru_en_b2:993",
+      "ru": "импульсивный",
+      "target": "impulsive"
+    },
+    {
+      "id": "ru_en_b2:994",
+      "ru": "неточный",
+      "target": "inaccurate"
+    },
+    {
+      "id": "ru_en_b2:995",
+      "ru": "неадекватный",
+      "target": "inadequate"
+    },
+    {
+      "id": "ru_en_b2:996",
+      "ru": "неодушевленный",
+      "target": "inanimate"
+    },
+    {
+      "id": "ru_en_b2:997",
+      "ru": "врожденный",
+      "target": "inborn"
+    },
+    {
+      "id": "ru_en_b2:998",
+      "ru": "благовония",
+      "target": "incense"
+    },
+    {
+      "id": "ru_en_b2:999",
+      "ru": "стимул",
+      "target": "incentive"
+    }
+  ]
+}

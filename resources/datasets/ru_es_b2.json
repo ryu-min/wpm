@@ -1,0 +1,4734 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_b2",
+  "description": "Испанские слова ru_es_b2",
+  "profile": "spanish-words",
+  "level": "b2",
+  "entries": [
+    {
+      "id": "ru_es_b2:abdomen",
+      "ru": "брюшная полость",
+      "target": "abdomen"
+    },
+    {
+      "id": "ru_es_b2:amígdala",
+      "ru": "миндалина",
+      "target": "amígdala"
+    },
+    {
+      "id": "ru_es_b2:antebrazo",
+      "ru": "предплечье",
+      "target": "antebrazo"
+    },
+    {
+      "id": "ru_es_b2:aorta",
+      "ru": "аорта",
+      "target": "aorta"
+    },
+    {
+      "id": "ru_es_b2:arteria",
+      "ru": "артерия",
+      "target": "arteria"
+    },
+    {
+      "id": "ru_es_b2:axila",
+      "ru": "подмышка",
+      "target": "axila"
+    },
+    {
+      "id": "ru_es_b2:bazo",
+      "ru": "селезёнка",
+      "target": "bazo"
+    },
+    {
+      "id": "ru_es_b2:bronquio",
+      "ru": "бронх",
+      "target": "bronquio"
+    },
+    {
+      "id": "ru_es_b2:cadera",
+      "ru": "бедро",
+      "target": "cadera"
+    },
+    {
+      "id": "ru_es_b2:cartílago",
+      "ru": "хрящ",
+      "target": "cartílago"
+    },
+    {
+      "id": "ru_es_b2:cerebelo",
+      "ru": "мозжечок",
+      "target": "cerebelo"
+    },
+    {
+      "id": "ru_es_b2:clavícula",
+      "ru": "ключица",
+      "target": "clavícula"
+    },
+    {
+      "id": "ru_es_b2:córnea",
+      "ru": "роговица",
+      "target": "córnea"
+    },
+    {
+      "id": "ru_es_b2:cráneo",
+      "ru": "череп",
+      "target": "cráneo"
+    },
+    {
+      "id": "ru_es_b2:diafragma",
+      "ru": "диафрагма",
+      "target": "diafragma"
+    },
+    {
+      "id": "ru_es_b2:encía",
+      "ru": "десна",
+      "target": "encía"
+    },
+    {
+      "id": "ru_es_b2:esófago",
+      "ru": "пищевод",
+      "target": "esófago"
+    },
+    {
+      "id": "ru_es_b2:fémur",
+      "ru": "бедренная кость",
+      "target": "fémur"
+    },
+    {
+      "id": "ru_es_b2:faringe",
+      "ru": "глотка",
+      "target": "faringe"
+    },
+    {
+      "id": "ru_es_b2:glándula",
+      "ru": "железа",
+      "target": "glándula"
+    },
+    {
+      "id": "ru_es_b2:húmero",
+      "ru": "плечевая кость",
+      "target": "húmero"
+    },
+    {
+      "id": "ru_es_b2:ingle",
+      "ru": "пах",
+      "target": "ingle"
+    },
+    {
+      "id": "ru_es_b2:intestino",
+      "ru": "кишечник",
+      "target": "intestino"
+    },
+    {
+      "id": "ru_es_b2:iris",
+      "ru": "радужная оболочка",
+      "target": "iris"
+    },
+    {
+      "id": "ru_es_b2:laringe",
+      "ru": "гортань",
+      "target": "laringe"
+    },
+    {
+      "id": "ru_es_b2:ligamento",
+      "ru": "связка",
+      "target": "ligamento"
+    },
+    {
+      "id": "ru_es_b2:mandíbula",
+      "ru": "нижняя челюсть",
+      "target": "mandíbula"
+    },
+    {
+      "id": "ru_es_b2:médula",
+      "ru": "костный или спинной мозг",
+      "target": "médula"
+    },
+    {
+      "id": "ru_es_b2:menisco",
+      "ru": "мениск",
+      "target": "menisco"
+    },
+    {
+      "id": "ru_es_b2:mentón",
+      "ru": "подбородок",
+      "target": "mentón"
+    },
+    {
+      "id": "ru_es_b2:nuca",
+      "ru": "затылок",
+      "target": "nuca"
+    },
+    {
+      "id": "ru_es_b2:órgano",
+      "ru": "орган",
+      "target": "órgano"
+    },
+    {
+      "id": "ru_es_b2:ovario",
+      "ru": "яичник",
+      "target": "ovario"
+    },
+    {
+      "id": "ru_es_b2:páncreas",
+      "ru": "поджелудочная железа",
+      "target": "páncreas"
+    },
+    {
+      "id": "ru_es_b2:párpado",
+      "ru": "веко",
+      "target": "párpado"
+    },
+    {
+      "id": "ru_es_b2:pelvis",
+      "ru": "таз",
+      "target": "pelvis"
+    },
+    {
+      "id": "ru_es_b2:peroné",
+      "ru": "малоберцовая кость",
+      "target": "peroné"
+    },
+    {
+      "id": "ru_es_b2:pestaña",
+      "ru": "ресница",
+      "target": "pestaña"
+    },
+    {
+      "id": "ru_es_b2:próstata",
+      "ru": "простата",
+      "target": "próstata"
+    },
+    {
+      "id": "ru_es_b2:pupila",
+      "ru": "зрачок",
+      "target": "pupila"
+    },
+    {
+      "id": "ru_es_b2:retina",
+      "ru": "сетчатка",
+      "target": "retina"
+    },
+    {
+      "id": "ru_es_b2:rótula",
+      "ru": "коленная чашечка",
+      "target": "rótula"
+    },
+    {
+      "id": "ru_es_b2:sien",
+      "ru": "висок",
+      "target": "sien"
+    },
+    {
+      "id": "ru_es_b2:tendón",
+      "ru": "сухожилие",
+      "target": "tendón"
+    },
+    {
+      "id": "ru_es_b2:testículo",
+      "ru": "яичко",
+      "target": "testículo"
+    },
+    {
+      "id": "ru_es_b2:tibia",
+      "ru": "большеберцовая кость",
+      "target": "tibia"
+    },
+    {
+      "id": "ru_es_b2:tiroides",
+      "ru": "щитовидная железа",
+      "target": "tiroides"
+    },
+    {
+      "id": "ru_es_b2:tórax",
+      "ru": "грудная клетка",
+      "target": "tórax"
+    },
+    {
+      "id": "ru_es_b2:tráquea",
+      "ru": "трахея",
+      "target": "tráquea"
+    },
+    {
+      "id": "ru_es_b2:útero",
+      "ru": "матка",
+      "target": "útero"
+    },
+    {
+      "id": "ru_es_b2:vejiga",
+      "ru": "мочевой пузырь",
+      "target": "vejiga"
+    },
+    {
+      "id": "ru_es_b2:vena",
+      "ru": "вена",
+      "target": "vena"
+    },
+    {
+      "id": "ru_es_b2:vértebra",
+      "ru": "позвонок",
+      "target": "vértebra"
+    },
+    {
+      "id": "ru_es_b2:vulva",
+      "ru": "вульва",
+      "target": "vulva"
+    },
+    {
+      "id": "ru_es_b2:ano",
+      "ru": "анус",
+      "target": "ano"
+    },
+    {
+      "id": "ru_es_b2:apéndice",
+      "ru": "аппендикс",
+      "target": "apéndice"
+    },
+    {
+      "id": "ru_es_b2:axón",
+      "ru": "аксон",
+      "target": "axón"
+    },
+    {
+      "id": "ru_es_b2:neurona",
+      "ru": "нейрон",
+      "target": "neurona"
+    },
+    {
+      "id": "ru_es_b2:célula",
+      "ru": "клетка",
+      "target": "célula"
+    },
+    {
+      "id": "ru_es_b2:membrana",
+      "ru": "мембрана",
+      "target": "membrana"
+    },
+    {
+      "id": "ru_es_b2:epidermis",
+      "ru": "эпидермис",
+      "target": "epidermis"
+    },
+    {
+      "id": "ru_es_b2:dermis",
+      "ru": "дерма",
+      "target": "dermis"
+    },
+    {
+      "id": "ru_es_b2:hemoglobina",
+      "ru": "гемоглобин",
+      "target": "hemoglobina"
+    },
+    {
+      "id": "ru_es_b2:plaqueta",
+      "ru": "тромбоцит",
+      "target": "plaqueta"
+    },
+    {
+      "id": "ru_es_b2:leucocito",
+      "ru": "лейкоцит",
+      "target": "leucocito"
+    },
+    {
+      "id": "ru_es_b2:eritrocito",
+      "ru": "эритроцит",
+      "target": "eritrocito"
+    },
+    {
+      "id": "ru_es_b2:capilar",
+      "ru": "капилляр",
+      "target": "capilar"
+    },
+    {
+      "id": "ru_es_b2:linfa",
+      "ru": "лимфа",
+      "target": "linfa"
+    },
+    {
+      "id": "ru_es_b2:hormona",
+      "ru": "гормон",
+      "target": "hormona"
+    },
+    {
+      "id": "ru_es_b2:enzima",
+      "ru": "фермент",
+      "target": "enzima"
+    },
+    {
+      "id": "ru_es_b2:proteína",
+      "ru": "белок",
+      "target": "proteína"
+    },
+    {
+      "id": "ru_es_b2:vitamina",
+      "ru": "витамин",
+      "target": "vitamina"
+    },
+    {
+      "id": "ru_es_b2:mineral",
+      "ru": "минерал",
+      "target": "mineral"
+    },
+    {
+      "id": "ru_es_b2:carbohidrato",
+      "ru": "углевод",
+      "target": "carbohidrato"
+    },
+    {
+      "id": "ru_es_b2:grasa",
+      "ru": "жир",
+      "target": "grasa"
+    },
+    {
+      "id": "ru_es_b2:colesterol",
+      "ru": "холестерин",
+      "target": "colesterol"
+    },
+    {
+      "id": "ru_es_b2:glucosa",
+      "ru": "глюкоза",
+      "target": "glucosa"
+    },
+    {
+      "id": "ru_es_b2:insulina",
+      "ru": "инсулин",
+      "target": "insulina"
+    },
+    {
+      "id": "ru_es_b2:caloría",
+      "ru": "калория",
+      "target": "caloría"
+    },
+    {
+      "id": "ru_es_b2:metabolismo",
+      "ru": "обмен веществ",
+      "target": "metabolismo"
+    },
+    {
+      "id": "ru_es_b2:digestión",
+      "ru": "пищеварение",
+      "target": "digestión"
+    },
+    {
+      "id": "ru_es_b2:circulación",
+      "ru": "кровообращение",
+      "target": "circulación"
+    },
+    {
+      "id": "ru_es_b2:respiración",
+      "ru": "дыхание",
+      "target": "respiración"
+    },
+    {
+      "id": "ru_es_b2:infección",
+      "ru": "инфекция",
+      "target": "infección"
+    },
+    {
+      "id": "ru_es_b2:inflamación",
+      "ru": "воспаление",
+      "target": "inflamación"
+    },
+    {
+      "id": "ru_es_b2:hinchazón",
+      "ru": "отёк",
+      "target": "hinchazón"
+    },
+    {
+      "id": "ru_es_b2:hematoma",
+      "ru": "гематома",
+      "target": "hematoma"
+    },
+    {
+      "id": "ru_es_b2:hemorragia",
+      "ru": "кровотечение",
+      "target": "hemorragia"
+    },
+    {
+      "id": "ru_es_b2:coágulo",
+      "ru": "сгусток",
+      "target": "coágulo"
+    },
+    {
+      "id": "ru_es_b2:embolia",
+      "ru": "эмболия",
+      "target": "embolia"
+    },
+    {
+      "id": "ru_es_b2:trombosis",
+      "ru": "тромбоз",
+      "target": "trombosis"
+    },
+    {
+      "id": "ru_es_b2:infarto",
+      "ru": "инфаркт",
+      "target": "infarto"
+    },
+    {
+      "id": "ru_es_b2:ictus",
+      "ru": "инсульт",
+      "target": "ictus"
+    },
+    {
+      "id": "ru_es_b2:hipertensión",
+      "ru": "повышенное давление",
+      "target": "hipertensión"
+    },
+    {
+      "id": "ru_es_b2:hipotensión",
+      "ru": "пониженное давление",
+      "target": "hipotensión"
+    },
+    {
+      "id": "ru_es_b2:arritmia",
+      "ru": "аритмия",
+      "target": "arritmia"
+    },
+    {
+      "id": "ru_es_b2:anemia",
+      "ru": "анемия",
+      "target": "anemia"
+    },
+    {
+      "id": "ru_es_b2:asma",
+      "ru": "астма",
+      "target": "asma"
+    },
+    {
+      "id": "ru_es_b2:bronquitis",
+      "ru": "бронхит",
+      "target": "bronquitis"
+    },
+    {
+      "id": "ru_es_b2:neumonía",
+      "ru": "пневмония",
+      "target": "neumonía"
+    },
+    {
+      "id": "ru_es_b2:diabetes",
+      "ru": "диабет",
+      "target": "diabetes"
+    },
+    {
+      "id": "ru_es_b2:cáncer",
+      "ru": "рак",
+      "target": "cáncer"
+    },
+    {
+      "id": "ru_es_b2:tumor",
+      "ru": "опухоль",
+      "target": "tumor"
+    },
+    {
+      "id": "ru_es_b2:quiste",
+      "ru": "киста",
+      "target": "quiste"
+    },
+    {
+      "id": "ru_es_b2:pólipo",
+      "ru": "полип",
+      "target": "pólipo"
+    },
+    {
+      "id": "ru_es_b2:úlcera",
+      "ru": "язва",
+      "target": "úlcera"
+    },
+    {
+      "id": "ru_es_b2:gastritis",
+      "ru": "гастрит",
+      "target": "gastritis"
+    },
+    {
+      "id": "ru_es_b2:hepatitis",
+      "ru": "гепатит",
+      "target": "hepatitis"
+    },
+    {
+      "id": "ru_es_b2:cirrosis",
+      "ru": "цирроз",
+      "target": "cirrosis"
+    },
+    {
+      "id": "ru_es_b2:apendicitis",
+      "ru": "аппендицит",
+      "target": "apendicitis"
+    },
+    {
+      "id": "ru_es_b2:pancreatitis",
+      "ru": "панкреатит",
+      "target": "pancreatitis"
+    },
+    {
+      "id": "ru_es_b2:artritis",
+      "ru": "артрит",
+      "target": "artritis"
+    },
+    {
+      "id": "ru_es_b2:artrosis",
+      "ru": "артроз",
+      "target": "artrosis"
+    },
+    {
+      "id": "ru_es_b2:osteoporosis",
+      "ru": "остеопороз",
+      "target": "osteoporosis"
+    },
+    {
+      "id": "ru_es_b2:escoliosis",
+      "ru": "сколиоз",
+      "target": "escoliosis"
+    },
+    {
+      "id": "ru_es_b2:hernia",
+      "ru": "грыжа",
+      "target": "hernia"
+    },
+    {
+      "id": "ru_es_b2:migraña",
+      "ru": "мигрень",
+      "target": "migraña"
+    },
+    {
+      "id": "ru_es_b2:epilepsia",
+      "ru": "эпилепсия",
+      "target": "epilepsia"
+    },
+    {
+      "id": "ru_es_b2:demencia",
+      "ru": "деменция",
+      "target": "demencia"
+    },
+    {
+      "id": "ru_es_b2:depresión",
+      "ru": "депрессия",
+      "target": "depresión"
+    },
+    {
+      "id": "ru_es_b2:ansiedad",
+      "ru": "тревога",
+      "target": "ansiedad"
+    },
+    {
+      "id": "ru_es_b2:fobia",
+      "ru": "фобия",
+      "target": "fobia"
+    },
+    {
+      "id": "ru_es_b2:psicosis",
+      "ru": "психоз",
+      "target": "psicosis"
+    },
+    {
+      "id": "ru_es_b2:insomnio",
+      "ru": "бессонница",
+      "target": "insomnio"
+    },
+    {
+      "id": "ru_es_b2:amnesia",
+      "ru": "амнезия",
+      "target": "amnesia"
+    },
+    {
+      "id": "ru_es_b2:parálisis",
+      "ru": "паралич",
+      "target": "parálisis"
+    },
+    {
+      "id": "ru_es_b2:ceguera",
+      "ru": "слепота",
+      "target": "ceguera"
+    },
+    {
+      "id": "ru_es_b2:sordera",
+      "ru": "глухота",
+      "target": "sordera"
+    },
+    {
+      "id": "ru_es_b2:miopía",
+      "ru": "близорукость",
+      "target": "miopía"
+    },
+    {
+      "id": "ru_es_b2:hipermetropía",
+      "ru": "дальнозоркость",
+      "target": "hipermetropía"
+    },
+    {
+      "id": "ru_es_b2:astigmatismo",
+      "ru": "астигматизм",
+      "target": "astigmatismo"
+    },
+    {
+      "id": "ru_es_b2:catarata",
+      "ru": "катаракта",
+      "target": "catarata"
+    },
+    {
+      "id": "ru_es_b2:glaucoma",
+      "ru": "глаукома",
+      "target": "glaucoma"
+    },
+    {
+      "id": "ru_es_b2:conjuntivitis",
+      "ru": "конъюнктивит",
+      "target": "conjuntivitis"
+    },
+    {
+      "id": "ru_es_b2:otitis",
+      "ru": "отит",
+      "target": "otitis"
+    },
+    {
+      "id": "ru_es_b2:sinusitis",
+      "ru": "синусит",
+      "target": "sinusitis"
+    },
+    {
+      "id": "ru_es_b2:rinitis",
+      "ru": "ринит",
+      "target": "rinitis"
+    },
+    {
+      "id": "ru_es_b2:amigdalitis",
+      "ru": "тонзиллит",
+      "target": "amigdalitis"
+    },
+    {
+      "id": "ru_es_b2:faringitis",
+      "ru": "фарингит",
+      "target": "faringitis"
+    },
+    {
+      "id": "ru_es_b2:laringitis",
+      "ru": "ларингит",
+      "target": "laringitis"
+    },
+    {
+      "id": "ru_es_b2:dermatitis",
+      "ru": "дерматит",
+      "target": "dermatitis"
+    },
+    {
+      "id": "ru_es_b2:eczema",
+      "ru": "экзема",
+      "target": "eczema"
+    },
+    {
+      "id": "ru_es_b2:psoriasis",
+      "ru": "псориаз",
+      "target": "psoriasis"
+    },
+    {
+      "id": "ru_es_b2:acné",
+      "ru": "угревая сыпь",
+      "target": "acné"
+    },
+    {
+      "id": "ru_es_b2:urticaria",
+      "ru": "крапивница",
+      "target": "urticaria"
+    },
+    {
+      "id": "ru_es_b2:sarna",
+      "ru": "чесотка",
+      "target": "sarna"
+    },
+    {
+      "id": "ru_es_b2:varicela",
+      "ru": "ветряная оспа",
+      "target": "varicela"
+    },
+    {
+      "id": "ru_es_b2:sarampión",
+      "ru": "корь",
+      "target": "sarampión"
+    },
+    {
+      "id": "ru_es_b2:rubéola",
+      "ru": "краснуха",
+      "target": "rubéola"
+    },
+    {
+      "id": "ru_es_b2:paperas",
+      "ru": "свинка",
+      "target": "paperas"
+    },
+    {
+      "id": "ru_es_b2:tosferina",
+      "ru": "коклюш",
+      "target": "tosferina"
+    },
+    {
+      "id": "ru_es_b2:difteria",
+      "ru": "дифтерия",
+      "target": "difteria"
+    },
+    {
+      "id": "ru_es_b2:tétanos",
+      "ru": "столбняк",
+      "target": "tétanos"
+    },
+    {
+      "id": "ru_es_b2:rabia",
+      "ru": "бешенство",
+      "target": "rabia"
+    },
+    {
+      "id": "ru_es_b2:malaria",
+      "ru": "малярия",
+      "target": "malaria"
+    },
+    {
+      "id": "ru_es_b2:dengue",
+      "ru": "денге",
+      "target": "dengue"
+    },
+    {
+      "id": "ru_es_b2:tuberculosis",
+      "ru": "туберкулёз",
+      "target": "tuberculosis"
+    },
+    {
+      "id": "ru_es_b2:cólera",
+      "ru": "холера",
+      "target": "cólera"
+    },
+    {
+      "id": "ru_es_b2:tifus",
+      "ru": "тиф",
+      "target": "tifus"
+    },
+    {
+      "id": "ru_es_b2:lepra",
+      "ru": "проказа",
+      "target": "lepra"
+    },
+    {
+      "id": "ru_es_b2:sífilis",
+      "ru": "сифилис",
+      "target": "sífilis"
+    },
+    {
+      "id": "ru_es_b2:gonorrea",
+      "ru": "гонорея",
+      "target": "gonorrea"
+    },
+    {
+      "id": "ru_es_b2:herpes",
+      "ru": "герпес",
+      "target": "herpes"
+    },
+    {
+      "id": "ru_es_b2:candidiasis",
+      "ru": "кандидоз",
+      "target": "candidiasis"
+    },
+    {
+      "id": "ru_es_b2:virus",
+      "ru": "вирус",
+      "target": "virus"
+    },
+    {
+      "id": "ru_es_b2:bacteria",
+      "ru": "бактерия",
+      "target": "bacteria"
+    },
+    {
+      "id": "ru_es_b2:hongo",
+      "ru": "грибок",
+      "target": "hongo"
+    },
+    {
+      "id": "ru_es_b2:parásito",
+      "ru": "паразит",
+      "target": "parásito"
+    },
+    {
+      "id": "ru_es_b2:patógeno",
+      "ru": "возбудитель болезни",
+      "target": "patógeno"
+    },
+    {
+      "id": "ru_es_b2:antígeno",
+      "ru": "антиген",
+      "target": "antígeno"
+    },
+    {
+      "id": "ru_es_b2:anticuerpo",
+      "ru": "антитело",
+      "target": "anticuerpo"
+    },
+    {
+      "id": "ru_es_b2:contagio",
+      "ru": "заражение",
+      "target": "contagio"
+    },
+    {
+      "id": "ru_es_b2:epidemia",
+      "ru": "эпидемия",
+      "target": "epidemia"
+    },
+    {
+      "id": "ru_es_b2:pandemia",
+      "ru": "пандемия",
+      "target": "pandemia"
+    },
+    {
+      "id": "ru_es_b2:cuarentena",
+      "ru": "карантин",
+      "target": "cuarentena"
+    },
+    {
+      "id": "ru_es_b2:aislamiento",
+      "ru": "изоляция",
+      "target": "aislamiento"
+    },
+    {
+      "id": "ru_es_b2:prevención",
+      "ru": "профилактика",
+      "target": "prevención"
+    },
+    {
+      "id": "ru_es_b2:síntoma",
+      "ru": "симптом",
+      "target": "síntoma"
+    },
+    {
+      "id": "ru_es_b2:diagnóstico",
+      "ru": "диагноз",
+      "target": "diagnóstico"
+    },
+    {
+      "id": "ru_es_b2:pronóstico",
+      "ru": "прогноз",
+      "target": "pronóstico"
+    },
+    {
+      "id": "ru_es_b2:terapia",
+      "ru": "терапия",
+      "target": "terapia"
+    },
+    {
+      "id": "ru_es_b2:rehabilitación",
+      "ru": "реабилитация",
+      "target": "rehabilitación"
+    },
+    {
+      "id": "ru_es_b2:fisioterapia",
+      "ru": "физиотерапия",
+      "target": "fisioterapia"
+    },
+    {
+      "id": "ru_es_b2:psicoterapia",
+      "ru": "психотерапия",
+      "target": "psicoterapia"
+    },
+    {
+      "id": "ru_es_b2:cirugía",
+      "ru": "хирургия",
+      "target": "cirugía"
+    },
+    {
+      "id": "ru_es_b2:anestesia",
+      "ru": "анестезия",
+      "target": "anestesia"
+    },
+    {
+      "id": "ru_es_b2:biopsia",
+      "ru": "биопсия",
+      "target": "biopsia"
+    },
+    {
+      "id": "ru_es_b2:autopsia",
+      "ru": "вскрытие",
+      "target": "autopsia"
+    },
+    {
+      "id": "ru_es_b2:trasplante",
+      "ru": "пересадка органа",
+      "target": "trasplante"
+    },
+    {
+      "id": "ru_es_b2:transfusión",
+      "ru": "переливание",
+      "target": "transfusión"
+    },
+    {
+      "id": "ru_es_b2:diálisis",
+      "ru": "диализ",
+      "target": "diálisis"
+    },
+    {
+      "id": "ru_es_b2:quimioterapia",
+      "ru": "химиотерапия",
+      "target": "quimioterapia"
+    },
+    {
+      "id": "ru_es_b2:radioterapia",
+      "ru": "лучевая терапия",
+      "target": "radioterapia"
+    },
+    {
+      "id": "ru_es_b2:ecografía",
+      "ru": "УЗИ",
+      "target": "ecografía"
+    },
+    {
+      "id": "ru_es_b2:tomografía",
+      "ru": "томография",
+      "target": "tomografía"
+    },
+    {
+      "id": "ru_es_b2:electrocardiograma",
+      "ru": "электрокардиограмма",
+      "target": "electrocardiograma"
+    },
+    {
+      "id": "ru_es_b2:endoscopia",
+      "ru": "эндоскопия",
+      "target": "endoscopia"
+    },
+    {
+      "id": "ru_es_b2:estetoscopio",
+      "ru": "стетоскоп",
+      "target": "estetoscopio"
+    },
+    {
+      "id": "ru_es_b2:otoscopio",
+      "ru": "отоскоп",
+      "target": "otoscopio"
+    },
+    {
+      "id": "ru_es_b2:bisturí",
+      "ru": "скальпель",
+      "target": "bisturí"
+    },
+    {
+      "id": "ru_es_b2:jeringa",
+      "ru": "шприц",
+      "target": "jeringa"
+    },
+    {
+      "id": "ru_es_b2:catéter",
+      "ru": "катетер",
+      "target": "catéter"
+    },
+    {
+      "id": "ru_es_b2:sonda",
+      "ru": "зонд",
+      "target": "sonda"
+    },
+    {
+      "id": "ru_es_b2:prótesis",
+      "ru": "протез",
+      "target": "prótesis"
+    },
+    {
+      "id": "ru_es_b2:implante",
+      "ru": "имплантат",
+      "target": "implante"
+    },
+    {
+      "id": "ru_es_b2:muleta",
+      "ru": "костыль",
+      "target": "muleta"
+    },
+    {
+      "id": "ru_es_b2:camilla",
+      "ru": "носилки",
+      "target": "camilla"
+    },
+    {
+      "id": "ru_es_b2:quirófano",
+      "ru": "операционная",
+      "target": "quirófano"
+    },
+    {
+      "id": "ru_es_b2:dispensario",
+      "ru": "диспансер",
+      "target": "dispensario"
+    },
+    {
+      "id": "ru_es_b2:sanatorio",
+      "ru": "санаторий",
+      "target": "sanatorio"
+    },
+    {
+      "id": "ru_es_b2:maternidad",
+      "ru": "родильное отделение",
+      "target": "maternidad"
+    },
+    {
+      "id": "ru_es_b2:pediatría",
+      "ru": "педиатрия",
+      "target": "pediatría"
+    },
+    {
+      "id": "ru_es_b2:geriatría",
+      "ru": "гериатрия",
+      "target": "geriatría"
+    },
+    {
+      "id": "ru_es_b2:psiquiatría",
+      "ru": "психиатрия",
+      "target": "psiquiatría"
+    },
+    {
+      "id": "ru_es_b2:cardiología",
+      "ru": "кардиология",
+      "target": "cardiología"
+    },
+    {
+      "id": "ru_es_b2:neurología",
+      "ru": "неврология",
+      "target": "neurología"
+    },
+    {
+      "id": "ru_es_b2:dermatología",
+      "ru": "дерматология",
+      "target": "dermatología"
+    },
+    {
+      "id": "ru_es_b2:oftalmología",
+      "ru": "офтальмология",
+      "target": "oftalmología"
+    },
+    {
+      "id": "ru_es_b2:otorrinolaringología",
+      "ru": "оториноларингология",
+      "target": "otorrinolaringología"
+    },
+    {
+      "id": "ru_es_b2:traumatología",
+      "ru": "травматология",
+      "target": "traumatología"
+    },
+    {
+      "id": "ru_es_b2:oncología",
+      "ru": "онкология",
+      "target": "oncología"
+    },
+    {
+      "id": "ru_es_b2:ginecología",
+      "ru": "гинекология",
+      "target": "ginecología"
+    },
+    {
+      "id": "ru_es_b2:urología",
+      "ru": "урология",
+      "target": "urología"
+    },
+    {
+      "id": "ru_es_b2:endocrinología",
+      "ru": "эндокринология",
+      "target": "endocrinología"
+    },
+    {
+      "id": "ru_es_b2:odontología",
+      "ru": "стоматология",
+      "target": "odontología"
+    },
+    {
+      "id": "ru_es_b2:farmacología",
+      "ru": "фармакология",
+      "target": "farmacología"
+    },
+    {
+      "id": "ru_es_b2:toxicología",
+      "ru": "токсикология",
+      "target": "toxicología"
+    },
+    {
+      "id": "ru_es_b2:patología",
+      "ru": "патология",
+      "target": "patología"
+    },
+    {
+      "id": "ru_es_b2:fisiología",
+      "ru": "физиология",
+      "target": "fisiología"
+    },
+    {
+      "id": "ru_es_b2:anatomía",
+      "ru": "анатомия",
+      "target": "anatomía"
+    },
+    {
+      "id": "ru_es_b2:genética",
+      "ru": "генетика",
+      "target": "genética"
+    },
+    {
+      "id": "ru_es_b2:bioquímica",
+      "ru": "биохимия",
+      "target": "bioquímica"
+    },
+    {
+      "id": "ru_es_b2:microbiología",
+      "ru": "микробиология",
+      "target": "microbiología"
+    },
+    {
+      "id": "ru_es_b2:epidemiología",
+      "ru": "эпидемиология",
+      "target": "epidemiología"
+    },
+    {
+      "id": "ru_es_b2:embriología",
+      "ru": "эмбриология",
+      "target": "embriología"
+    },
+    {
+      "id": "ru_es_b2:histología",
+      "ru": "гистология",
+      "target": "histología"
+    },
+    {
+      "id": "ru_es_b2:nutrición",
+      "ru": "питание",
+      "target": "nutrición"
+    },
+    {
+      "id": "ru_es_b2:obesidad",
+      "ru": "ожирение",
+      "target": "obesidad"
+    },
+    {
+      "id": "ru_es_b2:desnutrición",
+      "ru": "истощение",
+      "target": "desnutrición"
+    },
+    {
+      "id": "ru_es_b2:deshidratación",
+      "ru": "обезвоживание",
+      "target": "deshidratación"
+    },
+    {
+      "id": "ru_es_b2:intoxicación",
+      "ru": "отравление",
+      "target": "intoxicación"
+    },
+    {
+      "id": "ru_es_b2:sobredosis",
+      "ru": "передозировка",
+      "target": "sobredosis"
+    },
+    {
+      "id": "ru_es_b2:adicción",
+      "ru": "зависимость",
+      "target": "adicción"
+    },
+    {
+      "id": "ru_es_b2:tabaquismo",
+      "ru": "табачная зависимость",
+      "target": "tabaquismo"
+    },
+    {
+      "id": "ru_es_b2:alcoholismo",
+      "ru": "алкоголизм",
+      "target": "alcoholismo"
+    },
+    {
+      "id": "ru_es_b2:sedante",
+      "ru": "успокоительное",
+      "target": "sedante"
+    },
+    {
+      "id": "ru_es_b2:analgésico",
+      "ru": "обезболивающее",
+      "target": "analgésico"
+    },
+    {
+      "id": "ru_es_b2:antiséptico",
+      "ru": "антисептик",
+      "target": "antiséptico"
+    },
+    {
+      "id": "ru_es_b2:antihistamínico",
+      "ru": "антигистаминное",
+      "target": "antihistamínico"
+    },
+    {
+      "id": "ru_es_b2:antidepresivo",
+      "ru": "антидепрессант",
+      "target": "antidepresivo"
+    },
+    {
+      "id": "ru_es_b2:anticoagulante",
+      "ru": "антикоагулянт",
+      "target": "anticoagulante"
+    },
+    {
+      "id": "ru_es_b2:antiinflamatorio",
+      "ru": "противовоспалительный",
+      "target": "antiinflamatorio"
+    },
+    {
+      "id": "ru_es_b2:antipirético",
+      "ru": "жаропонижающий",
+      "target": "antipirético"
+    },
+    {
+      "id": "ru_es_b2:antiviral",
+      "ru": "противовирусный",
+      "target": "antiviral"
+    },
+    {
+      "id": "ru_es_b2:antifúngico",
+      "ru": "противогрибковый",
+      "target": "antifúngico"
+    },
+    {
+      "id": "ru_es_b2:vacunación",
+      "ru": "вакцинация",
+      "target": "vacunación"
+    },
+    {
+      "id": "ru_es_b2:inoculación",
+      "ru": "инокуляция",
+      "target": "inoculación"
+    },
+    {
+      "id": "ru_es_b2:dosis",
+      "ru": "доза",
+      "target": "dosis"
+    },
+    {
+      "id": "ru_es_b2:posología",
+      "ru": "режим дозирования",
+      "target": "posología"
+    },
+    {
+      "id": "ru_es_b2:comprimido",
+      "ru": "таблетка",
+      "target": "comprimido"
+    },
+    {
+      "id": "ru_es_b2:jarabe",
+      "ru": "сироп",
+      "target": "jarabe"
+    },
+    {
+      "id": "ru_es_b2:pomada",
+      "ru": "мазь",
+      "target": "pomada"
+    },
+    {
+      "id": "ru_es_b2:supositorio",
+      "ru": "свеча лекарственная",
+      "target": "supositorio"
+    },
+    {
+      "id": "ru_es_b2:colirio",
+      "ru": "глазные капли",
+      "target": "colirio"
+    },
+    {
+      "id": "ru_es_b2:inhalador",
+      "ru": "ингалятор",
+      "target": "inhalador"
+    },
+    {
+      "id": "ru_es_b2:nebulizador",
+      "ru": "небулайзер",
+      "target": "nebulizador"
+    },
+    {
+      "id": "ru_es_b2:suero",
+      "ru": "сыворотка или физраствор",
+      "target": "suero"
+    },
+    {
+      "id": "ru_es_b2:antídoto",
+      "ru": "противоядие",
+      "target": "antídoto"
+    },
+    {
+      "id": "ru_es_b2:placebo",
+      "ru": "плацебо",
+      "target": "placebo"
+    },
+    {
+      "id": "ru_es_b2:prospecto",
+      "ru": "вкладыш к лекарству",
+      "target": "prospecto"
+    },
+    {
+      "id": "ru_es_b2:contraindicación",
+      "ru": "противопоказание",
+      "target": "contraindicación"
+    },
+    {
+      "id": "ru_es_b2:dispensación",
+      "ru": "выдача лекарств",
+      "target": "dispensación"
+    },
+    {
+      "id": "ru_es_b2:consentimiento",
+      "ru": "согласие",
+      "target": "consentimiento"
+    },
+    {
+      "id": "ru_es_b2:paciente",
+      "ru": "пациент",
+      "target": "paciente"
+    },
+    {
+      "id": "ru_es_b2:donante",
+      "ru": "донор",
+      "target": "donante"
+    },
+    {
+      "id": "ru_es_b2:receptor",
+      "ru": "получатель",
+      "target": "receptor"
+    },
+    {
+      "id": "ru_es_b2:convaleciente",
+      "ru": "выздоравливающий",
+      "target": "convaleciente"
+    },
+    {
+      "id": "ru_es_b2:cuidador",
+      "ru": "ухаживающий",
+      "target": "cuidador"
+    },
+    {
+      "id": "ru_es_b2:comadrona",
+      "ru": "акушерка",
+      "target": "comadrona"
+    },
+    {
+      "id": "ru_es_b2:matrona",
+      "ru": "акушерка",
+      "target": "matrona"
+    },
+    {
+      "id": "ru_es_b2:camillero",
+      "ru": "санитар",
+      "target": "camillero"
+    },
+    {
+      "id": "ru_es_b2:fisioterapeuta",
+      "ru": "физиотерапевт",
+      "target": "fisioterapeuta"
+    },
+    {
+      "id": "ru_es_b2:psicólogo",
+      "ru": "психолог",
+      "target": "psicólogo"
+    },
+    {
+      "id": "ru_es_b2:psiquiatra",
+      "ru": "психиатр",
+      "target": "psiquiatra"
+    },
+    {
+      "id": "ru_es_b2:anestesista",
+      "ru": "анестезиолог",
+      "target": "anestesista"
+    },
+    {
+      "id": "ru_es_b2:cardiólogo",
+      "ru": "кардиолог",
+      "target": "cardiólogo"
+    },
+    {
+      "id": "ru_es_b2:pediatra",
+      "ru": "педиатр",
+      "target": "pediatra"
+    },
+    {
+      "id": "ru_es_b2:ginecólogo",
+      "ru": "гинеколог",
+      "target": "ginecólogo"
+    },
+    {
+      "id": "ru_es_b2:urólogo",
+      "ru": "уролог",
+      "target": "urólogo"
+    },
+    {
+      "id": "ru_es_b2:neurólogo",
+      "ru": "невролог",
+      "target": "neurólogo"
+    },
+    {
+      "id": "ru_es_b2:dermatólogo",
+      "ru": "дерматолог",
+      "target": "dermatólogo"
+    },
+    {
+      "id": "ru_es_b2:radiólogo",
+      "ru": "рентгенолог",
+      "target": "radiólogo"
+    },
+    {
+      "id": "ru_es_b2:farmacéutico",
+      "ru": "фармацевт",
+      "target": "farmacéutico"
+    },
+    {
+      "id": "ru_es_b2:nutricionista",
+      "ru": "диетолог",
+      "target": "nutricionista"
+    },
+    {
+      "id": "ru_es_b2:optometrista",
+      "ru": "оптометрист",
+      "target": "optometrista"
+    },
+    {
+      "id": "ru_es_b2:podólogo",
+      "ru": "специалист по стопам",
+      "target": "podólogo"
+    },
+    {
+      "id": "ru_es_b2:logopeda",
+      "ru": "логопед",
+      "target": "logopeda"
+    },
+    {
+      "id": "ru_es_b2:acueducto",
+      "ru": "акведук",
+      "target": "acueducto"
+    },
+    {
+      "id": "ru_es_b2:alcantarilla",
+      "ru": "канализационный сток",
+      "target": "alcantarilla"
+    },
+    {
+      "id": "ru_es_b2:alcantarillado",
+      "ru": "канализация",
+      "target": "alcantarillado"
+    },
+    {
+      "id": "ru_es_b2:antena",
+      "ru": "антенна",
+      "target": "antena"
+    },
+    {
+      "id": "ru_es_b2:arquitectura",
+      "ru": "архитектура",
+      "target": "arquitectura"
+    },
+    {
+      "id": "ru_es_b2:arquitecto",
+      "ru": "архитектор",
+      "target": "arquitecto"
+    },
+    {
+      "id": "ru_es_b2:armadura",
+      "ru": "каркас",
+      "target": "armadura"
+    },
+    {
+      "id": "ru_es_b2:barraca",
+      "ru": "барак",
+      "target": "barraca"
+    },
+    {
+      "id": "ru_es_b2:barandilla",
+      "ru": "перила",
+      "target": "barandilla"
+    },
+    {
+      "id": "ru_es_b2:barro",
+      "ru": "глина",
+      "target": "barro"
+    },
+    {
+      "id": "ru_es_b2:canalón",
+      "ru": "водосточный жёлоб",
+      "target": "canalón"
+    },
+    {
+      "id": "ru_es_b2:cantera",
+      "ru": "каменоломня",
+      "target": "cantera"
+    },
+    {
+      "id": "ru_es_b2:caserío",
+      "ru": "хутор",
+      "target": "caserío"
+    },
+    {
+      "id": "ru_es_b2:chimenea",
+      "ru": "дымоход",
+      "target": "chimenea"
+    },
+    {
+      "id": "ru_es_b2:cimentación",
+      "ru": "фундамент",
+      "target": "cimentación"
+    },
+    {
+      "id": "ru_es_b2:cimiento",
+      "ru": "основание",
+      "target": "cimiento"
+    },
+    {
+      "id": "ru_es_b2:contrachapado",
+      "ru": "фанера",
+      "target": "contrachapado"
+    },
+    {
+      "id": "ru_es_b2:cornisa",
+      "ru": "карниз",
+      "target": "cornisa"
+    },
+    {
+      "id": "ru_es_b2:cúpula",
+      "ru": "купол",
+      "target": "cúpula"
+    },
+    {
+      "id": "ru_es_b2:desagüe",
+      "ru": "сток",
+      "target": "desagüe"
+    },
+    {
+      "id": "ru_es_b2:dintel",
+      "ru": "перемычка двери",
+      "target": "dintel"
+    },
+    {
+      "id": "ru_es_b2:fachada",
+      "ru": "фасад",
+      "target": "fachada"
+    },
+    {
+      "id": "ru_es_b2:friso",
+      "ru": "фриз",
+      "target": "friso"
+    },
+    {
+      "id": "ru_es_b2:frontón",
+      "ru": "фронтон",
+      "target": "frontón"
+    },
+    {
+      "id": "ru_es_b2:hormigón",
+      "ru": "бетон",
+      "target": "hormigón"
+    },
+    {
+      "id": "ru_es_b2:inmueble",
+      "ru": "недвижимость",
+      "target": "inmueble"
+    },
+    {
+      "id": "ru_es_b2:jamba",
+      "ru": "дверной косяк",
+      "target": "jamba"
+    },
+    {
+      "id": "ru_es_b2:lucernario",
+      "ru": "световой фонарь",
+      "target": "lucernario"
+    },
+    {
+      "id": "ru_es_b2:mampostería",
+      "ru": "каменная кладка",
+      "target": "mampostería"
+    },
+    {
+      "id": "ru_es_b2:mármol",
+      "ru": "мрамор",
+      "target": "mármol"
+    },
+    {
+      "id": "ru_es_b2:masilla",
+      "ru": "шпаклёвка",
+      "target": "masilla"
+    },
+    {
+      "id": "ru_es_b2:moqueta",
+      "ru": "ковровое покрытие",
+      "target": "moqueta"
+    },
+    {
+      "id": "ru_es_b2:mortero",
+      "ru": "строительный раствор",
+      "target": "mortero"
+    },
+    {
+      "id": "ru_es_b2:muelle",
+      "ru": "пружина",
+      "target": "muelle"
+    },
+    {
+      "id": "ru_es_b2:muralla",
+      "ru": "крепостная стена",
+      "target": "muralla"
+    },
+    {
+      "id": "ru_es_b2:parqué",
+      "ru": "паркет",
+      "target": "parqué"
+    },
+    {
+      "id": "ru_es_b2:pavimento",
+      "ru": "покрытие дороги",
+      "target": "pavimento"
+    },
+    {
+      "id": "ru_es_b2:pérgola",
+      "ru": "пергола",
+      "target": "pérgola"
+    },
+    {
+      "id": "ru_es_b2:pilar",
+      "ru": "опора",
+      "target": "pilar"
+    },
+    {
+      "id": "ru_es_b2:pizarra",
+      "ru": "сланец",
+      "target": "pizarra"
+    },
+    {
+      "id": "ru_es_b2:porche",
+      "ru": "крыльцо",
+      "target": "porche"
+    },
+    {
+      "id": "ru_es_b2:poste",
+      "ru": "столб",
+      "target": "poste"
+    },
+    {
+      "id": "ru_es_b2:pozo",
+      "ru": "колодец",
+      "target": "pozo"
+    },
+    {
+      "id": "ru_es_b2:reja",
+      "ru": "решётка",
+      "target": "reja"
+    },
+    {
+      "id": "ru_es_b2:revestimiento",
+      "ru": "облицовка",
+      "target": "revestimiento"
+    },
+    {
+      "id": "ru_es_b2:tabique",
+      "ru": "перегородка",
+      "target": "tabique"
+    },
+    {
+      "id": "ru_es_b2:tapia",
+      "ru": "глинобитная стена",
+      "target": "tapia"
+    },
+    {
+      "id": "ru_es_b2:tragaluz",
+      "ru": "окно в крыше",
+      "target": "tragaluz"
+    },
+    {
+      "id": "ru_es_b2:tubería",
+      "ru": "трубопровод",
+      "target": "tubería"
+    },
+    {
+      "id": "ru_es_b2:umbral",
+      "ru": "порог",
+      "target": "umbral"
+    },
+    {
+      "id": "ru_es_b2:urbanismo",
+      "ru": "градостроительство",
+      "target": "urbanismo"
+    },
+    {
+      "id": "ru_es_b2:viga",
+      "ru": "балка",
+      "target": "viga"
+    },
+    {
+      "id": "ru_es_b2:vigueta",
+      "ru": "небольшая балка",
+      "target": "vigueta"
+    },
+    {
+      "id": "ru_es_b2:voladizo",
+      "ru": "выступ",
+      "target": "voladizo"
+    },
+    {
+      "id": "ru_es_b2:zócalo",
+      "ru": "цоколь",
+      "target": "zócalo"
+    },
+    {
+      "id": "ru_es_b2:aislante",
+      "ru": "изоляционный материал",
+      "target": "aislante"
+    },
+    {
+      "id": "ru_es_b2:andamiaje",
+      "ru": "строительные леса",
+      "target": "andamiaje"
+    },
+    {
+      "id": "ru_es_b2:árido",
+      "ru": "сухой",
+      "target": "árido"
+    },
+    {
+      "id": "ru_es_b2:asfalto",
+      "ru": "асфальт",
+      "target": "asfalto"
+    },
+    {
+      "id": "ru_es_b2:grava",
+      "ru": "гравий",
+      "target": "grava"
+    },
+    {
+      "id": "ru_es_b2:gravilla",
+      "ru": "мелкий щебень",
+      "target": "gravilla"
+    },
+    {
+      "id": "ru_es_b2:cal",
+      "ru": "известь",
+      "target": "cal"
+    },
+    {
+      "id": "ru_es_b2:escayola",
+      "ru": "алебастр",
+      "target": "escayola"
+    },
+    {
+      "id": "ru_es_b2:enlucido",
+      "ru": "штукатурка",
+      "target": "enlucido"
+    },
+    {
+      "id": "ru_es_b2:escombro",
+      "ru": "строительный мусор",
+      "target": "escombro"
+    },
+    {
+      "id": "ru_es_b2:excavadora",
+      "ru": "экскаватор",
+      "target": "excavadora"
+    },
+    {
+      "id": "ru_es_b2:grúa",
+      "ru": "подъёмный кран",
+      "target": "grúa"
+    },
+    {
+      "id": "ru_es_b2:hormigonera",
+      "ru": "бетономешалка",
+      "target": "hormigonera"
+    },
+    {
+      "id": "ru_es_b2:apisonadora",
+      "ru": "каток",
+      "target": "apisonadora"
+    },
+    {
+      "id": "ru_es_b2:carretilla",
+      "ru": "тачка",
+      "target": "carretilla"
+    },
+    {
+      "id": "ru_es_b2:paleta",
+      "ru": "мастерок",
+      "target": "paleta"
+    },
+    {
+      "id": "ru_es_b2:pala",
+      "ru": "лопата",
+      "target": "pala"
+    },
+    {
+      "id": "ru_es_b2:rastrillo",
+      "ru": "грабли",
+      "target": "rastrillo"
+    },
+    {
+      "id": "ru_es_b2:azada",
+      "ru": "мотыга",
+      "target": "azada"
+    },
+    {
+      "id": "ru_es_b2:hacha",
+      "ru": "топор",
+      "target": "hacha"
+    },
+    {
+      "id": "ru_es_b2:machete",
+      "ru": "мачете",
+      "target": "machete"
+    },
+    {
+      "id": "ru_es_b2:tenaza",
+      "ru": "клещи",
+      "target": "tenaza"
+    },
+    {
+      "id": "ru_es_b2:cincel",
+      "ru": "зубило",
+      "target": "cincel"
+    },
+    {
+      "id": "ru_es_b2:formón",
+      "ru": "стамеска",
+      "target": "formón"
+    },
+    {
+      "id": "ru_es_b2:lima",
+      "ru": "напильник",
+      "target": "lima"
+    },
+    {
+      "id": "ru_es_b2:esmeril",
+      "ru": "наждак",
+      "target": "esmeril"
+    },
+    {
+      "id": "ru_es_b2:amoladora",
+      "ru": "шлифмашина",
+      "target": "amoladora"
+    },
+    {
+      "id": "ru_es_b2:cepilladora",
+      "ru": "строгальный станок",
+      "target": "cepilladora"
+    },
+    {
+      "id": "ru_es_b2:torno",
+      "ru": "токарный станок",
+      "target": "torno"
+    },
+    {
+      "id": "ru_es_b2:fresadora",
+      "ru": "фрезерный станок",
+      "target": "fresadora"
+    },
+    {
+      "id": "ru_es_b2:soldador",
+      "ru": "сварщик",
+      "target": "soldador"
+    },
+    {
+      "id": "ru_es_b2:fundidor",
+      "ru": "литейщик",
+      "target": "fundidor"
+    },
+    {
+      "id": "ru_es_b2:herrero",
+      "ru": "кузнец",
+      "target": "herrero"
+    },
+    {
+      "id": "ru_es_b2:cerrajero",
+      "ru": "слесарь",
+      "target": "cerrajero"
+    },
+    {
+      "id": "ru_es_b2:tornero",
+      "ru": "токарь",
+      "target": "tornero"
+    },
+    {
+      "id": "ru_es_b2:fresador",
+      "ru": "фрезеровщик",
+      "target": "fresador"
+    },
+    {
+      "id": "ru_es_b2:fogonero",
+      "ru": "кочегар",
+      "target": "fogonero"
+    },
+    {
+      "id": "ru_es_b2:maquinista",
+      "ru": "машинист",
+      "target": "maquinista"
+    },
+    {
+      "id": "ru_es_b2:operario",
+      "ru": "рабочий",
+      "target": "operario"
+    },
+    {
+      "id": "ru_es_b2:capataz",
+      "ru": "прораб",
+      "target": "capataz"
+    },
+    {
+      "id": "ru_es_b2:aparejador",
+      "ru": "техник-строитель",
+      "target": "aparejador"
+    },
+    {
+      "id": "ru_es_b2:delineante",
+      "ru": "чертёжник",
+      "target": "delineante"
+    },
+    {
+      "id": "ru_es_b2:topógrafo",
+      "ru": "топограф",
+      "target": "topógrafo"
+    },
+    {
+      "id": "ru_es_b2:agrimensor",
+      "ru": "землемер",
+      "target": "agrimensor"
+    },
+    {
+      "id": "ru_es_b2:ingeniería",
+      "ru": "инженерное дело",
+      "target": "ingeniería"
+    },
+    {
+      "id": "ru_es_b2:construcción",
+      "ru": "строительство",
+      "target": "construcción"
+    },
+    {
+      "id": "ru_es_b2:demolición",
+      "ru": "снос",
+      "target": "demolición"
+    },
+    {
+      "id": "ru_es_b2:excavación",
+      "ru": "раскопки",
+      "target": "excavación"
+    },
+    {
+      "id": "ru_es_b2:nivelación",
+      "ru": "выравнивание",
+      "target": "nivelación"
+    },
+    {
+      "id": "ru_es_b2:soldadura",
+      "ru": "сварка",
+      "target": "soldadura"
+    },
+    {
+      "id": "ru_es_b2:fundición",
+      "ru": "литьё",
+      "target": "fundición"
+    },
+    {
+      "id": "ru_es_b2:forja",
+      "ru": "ковка",
+      "target": "forja"
+    },
+    {
+      "id": "ru_es_b2:laminación",
+      "ru": "прокатка",
+      "target": "laminación"
+    },
+    {
+      "id": "ru_es_b2:pulido",
+      "ru": "полировка",
+      "target": "pulido"
+    },
+    {
+      "id": "ru_es_b2:lijado",
+      "ru": "шлифование",
+      "target": "lijado"
+    },
+    {
+      "id": "ru_es_b2:galvanizado",
+      "ru": "оцинковка",
+      "target": "galvanizado"
+    },
+    {
+      "id": "ru_es_b2:aleación",
+      "ru": "сплав",
+      "target": "aleación"
+    },
+    {
+      "id": "ru_es_b2:oxidación",
+      "ru": "окисление",
+      "target": "oxidación"
+    },
+    {
+      "id": "ru_es_b2:corrosión",
+      "ru": "коррозия",
+      "target": "corrosión"
+    },
+    {
+      "id": "ru_es_b2:fricción",
+      "ru": "трение",
+      "target": "fricción"
+    },
+    {
+      "id": "ru_es_b2:desgaste",
+      "ru": "износ",
+      "target": "desgaste"
+    },
+    {
+      "id": "ru_es_b2:fatiga",
+      "ru": "усталость материала",
+      "target": "fatiga"
+    },
+    {
+      "id": "ru_es_b2:rotura",
+      "ru": "поломка",
+      "target": "rotura"
+    },
+    {
+      "id": "ru_es_b2:avería",
+      "ru": "неисправность",
+      "target": "avería"
+    },
+    {
+      "id": "ru_es_b2:rendimiento",
+      "ru": "производительность",
+      "target": "rendimiento"
+    },
+    {
+      "id": "ru_es_b2:potencia",
+      "ru": "мощность",
+      "target": "potencia"
+    },
+    {
+      "id": "ru_es_b2:voltaje",
+      "ru": "напряжение",
+      "target": "voltaje"
+    },
+    {
+      "id": "ru_es_b2:tensión",
+      "ru": "напряжение",
+      "target": "tensión"
+    },
+    {
+      "id": "ru_es_b2:corriente",
+      "ru": "электрический ток",
+      "target": "corriente"
+    },
+    {
+      "id": "ru_es_b2:circuito",
+      "ru": "электрическая цепь",
+      "target": "circuito"
+    },
+    {
+      "id": "ru_es_b2:fusible",
+      "ru": "предохранитель",
+      "target": "fusible"
+    },
+    {
+      "id": "ru_es_b2:resistor",
+      "ru": "резистор",
+      "target": "resistor"
+    },
+    {
+      "id": "ru_es_b2:bobina",
+      "ru": "катушка",
+      "target": "bobina"
+    },
+    {
+      "id": "ru_es_b2:transformador",
+      "ru": "трансформатор",
+      "target": "transformador"
+    },
+    {
+      "id": "ru_es_b2:rectificador",
+      "ru": "выпрямитель",
+      "target": "rectificador"
+    },
+    {
+      "id": "ru_es_b2:inversor",
+      "ru": "инвертор",
+      "target": "inversor"
+    },
+    {
+      "id": "ru_es_b2:transistor",
+      "ru": "транзистор",
+      "target": "transistor"
+    },
+    {
+      "id": "ru_es_b2:diodo",
+      "ru": "диод",
+      "target": "diodo"
+    },
+    {
+      "id": "ru_es_b2:semiconductor",
+      "ru": "полупроводник",
+      "target": "semiconductor"
+    },
+    {
+      "id": "ru_es_b2:electrodo",
+      "ru": "электрод",
+      "target": "electrodo"
+    },
+    {
+      "id": "ru_es_b2:electrolito",
+      "ru": "электролит",
+      "target": "electrolito"
+    },
+    {
+      "id": "ru_es_b2:ánodo",
+      "ru": "анод",
+      "target": "ánodo"
+    },
+    {
+      "id": "ru_es_b2:cátodo",
+      "ru": "катод",
+      "target": "cátodo"
+    },
+    {
+      "id": "ru_es_b2:generador",
+      "ru": "генератор",
+      "target": "generador"
+    },
+    {
+      "id": "ru_es_b2:alternador",
+      "ru": "генератор переменного тока",
+      "target": "alternador"
+    },
+    {
+      "id": "ru_es_b2:dinamo",
+      "ru": "динамо-машина",
+      "target": "dinamo"
+    },
+    {
+      "id": "ru_es_b2:turbina",
+      "ru": "турбина",
+      "target": "turbina"
+    },
+    {
+      "id": "ru_es_b2:hélice",
+      "ru": "пропеллер",
+      "target": "hélice"
+    },
+    {
+      "id": "ru_es_b2:engranaje",
+      "ru": "зубчатая передача",
+      "target": "engranaje"
+    },
+    {
+      "id": "ru_es_b2:piñón",
+      "ru": "шестерня",
+      "target": "piñón"
+    },
+    {
+      "id": "ru_es_b2:polea",
+      "ru": "шкив",
+      "target": "polea"
+    },
+    {
+      "id": "ru_es_b2:correa",
+      "ru": "ременная передача",
+      "target": "correa"
+    },
+    {
+      "id": "ru_es_b2:cojinete",
+      "ru": "подшипник",
+      "target": "cojinete"
+    },
+    {
+      "id": "ru_es_b2:rodamiento",
+      "ru": "подшипник качения",
+      "target": "rodamiento"
+    },
+    {
+      "id": "ru_es_b2:eje",
+      "ru": "ось",
+      "target": "eje"
+    },
+    {
+      "id": "ru_es_b2:émbolo",
+      "ru": "поршень",
+      "target": "émbolo"
+    },
+    {
+      "id": "ru_es_b2:pistón",
+      "ru": "поршень",
+      "target": "pistón"
+    },
+    {
+      "id": "ru_es_b2:cilindro",
+      "ru": "цилиндр",
+      "target": "cilindro"
+    },
+    {
+      "id": "ru_es_b2:válvula",
+      "ru": "клапан",
+      "target": "válvula"
+    },
+    {
+      "id": "ru_es_b2:inyector",
+      "ru": "инжектор",
+      "target": "inyector"
+    },
+    {
+      "id": "ru_es_b2:carburador",
+      "ru": "карбюратор",
+      "target": "carburador"
+    },
+    {
+      "id": "ru_es_b2:bujía",
+      "ru": "свеча зажигания",
+      "target": "bujía"
+    },
+    {
+      "id": "ru_es_b2:embrague",
+      "ru": "сцепление",
+      "target": "embrague"
+    },
+    {
+      "id": "ru_es_b2:cigüeñal",
+      "ru": "коленчатый вал",
+      "target": "cigüeñal"
+    },
+    {
+      "id": "ru_es_b2:biela",
+      "ru": "шатун",
+      "target": "biela"
+    },
+    {
+      "id": "ru_es_b2:chasis",
+      "ru": "шасси",
+      "target": "chasis"
+    },
+    {
+      "id": "ru_es_b2:amortiguador",
+      "ru": "амортизатор",
+      "target": "amortiguador"
+    },
+    {
+      "id": "ru_es_b2:suspensión",
+      "ru": "подвеска",
+      "target": "suspensión"
+    },
+    {
+      "id": "ru_es_b2:transmisión",
+      "ru": "трансмиссия",
+      "target": "transmisión"
+    },
+    {
+      "id": "ru_es_b2:diferencial",
+      "ru": "дифференциал",
+      "target": "diferencial"
+    },
+    {
+      "id": "ru_es_b2:radiador",
+      "ru": "радиатор",
+      "target": "radiador"
+    },
+    {
+      "id": "ru_es_b2:ventilación",
+      "ru": "вентиляция",
+      "target": "ventilación"
+    },
+    {
+      "id": "ru_es_b2:termostato",
+      "ru": "термостат",
+      "target": "termostato"
+    },
+    {
+      "id": "ru_es_b2:compresor",
+      "ru": "компрессор",
+      "target": "compresor"
+    },
+    {
+      "id": "ru_es_b2:refrigerante",
+      "ru": "хладагент",
+      "target": "refrigerante"
+    },
+    {
+      "id": "ru_es_b2:lubricante",
+      "ru": "смазочный материал",
+      "target": "lubricante"
+    },
+    {
+      "id": "ru_es_b2:filtro",
+      "ru": "фильтр",
+      "target": "filtro"
+    },
+    {
+      "id": "ru_es_b2:depósito",
+      "ru": "резервуар",
+      "target": "depósito"
+    },
+    {
+      "id": "ru_es_b2:bomba",
+      "ru": "насос",
+      "target": "bomba"
+    },
+    {
+      "id": "ru_es_b2:compuerta",
+      "ru": "затвор",
+      "target": "compuerta"
+    },
+    {
+      "id": "ru_es_b2:higrómetro",
+      "ru": "гигрометр",
+      "target": "higrómetro"
+    },
+    {
+      "id": "ru_es_b2:pluviómetro",
+      "ru": "осадкомер",
+      "target": "pluviómetro"
+    },
+    {
+      "id": "ru_es_b2:brújula",
+      "ru": "компас",
+      "target": "brújula"
+    },
+    {
+      "id": "ru_es_b2:periscopio",
+      "ru": "перископ",
+      "target": "periscopio"
+    },
+    {
+      "id": "ru_es_b2:telescopio",
+      "ru": "телескоп",
+      "target": "telescopio"
+    },
+    {
+      "id": "ru_es_b2:microscopio",
+      "ru": "микроскоп",
+      "target": "microscopio"
+    },
+    {
+      "id": "ru_es_b2:espectroscopio",
+      "ru": "спектроскоп",
+      "target": "espectroscopio"
+    },
+    {
+      "id": "ru_es_b2:calibre",
+      "ru": "штангенциркуль",
+      "target": "calibre"
+    },
+    {
+      "id": "ru_es_b2:micrómetro",
+      "ru": "микрометр",
+      "target": "micrómetro"
+    },
+    {
+      "id": "ru_es_b2:balanza",
+      "ru": "весы",
+      "target": "balanza"
+    },
+    {
+      "id": "ru_es_b2:probeta",
+      "ru": "мерный цилиндр",
+      "target": "probeta"
+    },
+    {
+      "id": "ru_es_b2:pipeta",
+      "ru": "пипетка",
+      "target": "pipeta"
+    },
+    {
+      "id": "ru_es_b2:bureta",
+      "ru": "бюретка",
+      "target": "bureta"
+    },
+    {
+      "id": "ru_es_b2:matraz",
+      "ru": "лабораторная колба",
+      "target": "matraz"
+    },
+    {
+      "id": "ru_es_b2:alambique",
+      "ru": "перегонный куб",
+      "target": "alambique"
+    },
+    {
+      "id": "ru_es_b2:incubadora",
+      "ru": "инкубатор",
+      "target": "incubadora"
+    },
+    {
+      "id": "ru_es_b2:centrífuga",
+      "ru": "центрифуга",
+      "target": "centrífuga"
+    },
+    {
+      "id": "ru_es_b2:autoclave",
+      "ru": "автоклав",
+      "target": "autoclave"
+    },
+    {
+      "id": "ru_es_b2:electroimán",
+      "ru": "электромагнит",
+      "target": "electroimán"
+    },
+    {
+      "id": "ru_es_b2:imán",
+      "ru": "магнит",
+      "target": "imán"
+    },
+    {
+      "id": "ru_es_b2:inductor",
+      "ru": "индуктор",
+      "target": "inductor"
+    },
+    {
+      "id": "ru_es_b2:acumulador",
+      "ru": "аккумулятор",
+      "target": "acumulador"
+    },
+    {
+      "id": "ru_es_b2:panel",
+      "ru": "панель",
+      "target": "panel"
+    },
+    {
+      "id": "ru_es_b2:placa",
+      "ru": "плата",
+      "target": "placa"
+    },
+    {
+      "id": "ru_es_b2:chip",
+      "ru": "микросхема",
+      "target": "chip"
+    },
+    {
+      "id": "ru_es_b2:microchip",
+      "ru": "микрочип",
+      "target": "microchip"
+    },
+    {
+      "id": "ru_es_b2:procesador",
+      "ru": "процессор",
+      "target": "procesador"
+    },
+    {
+      "id": "ru_es_b2:microprocesador",
+      "ru": "микропроцессор",
+      "target": "microprocesador"
+    },
+    {
+      "id": "ru_es_b2:microcontrolador",
+      "ru": "микроконтроллер",
+      "target": "microcontrolador"
+    },
+    {
+      "id": "ru_es_b2:servidor",
+      "ru": "сервер",
+      "target": "servidor"
+    },
+    {
+      "id": "ru_es_b2:terminal",
+      "ru": "терминал",
+      "target": "terminal"
+    },
+    {
+      "id": "ru_es_b2:consola",
+      "ru": "консоль",
+      "target": "consola"
+    },
+    {
+      "id": "ru_es_b2:escáner",
+      "ru": "сканер",
+      "target": "escáner"
+    },
+    {
+      "id": "ru_es_b2:módem",
+      "ru": "модем",
+      "target": "módem"
+    },
+    {
+      "id": "ru_es_b2:enrutador",
+      "ru": "маршрутизатор",
+      "target": "enrutador"
+    },
+    {
+      "id": "ru_es_b2:periférico",
+      "ru": "периферийное устройство",
+      "target": "periférico"
+    },
+    {
+      "id": "ru_es_b2:almacenamiento",
+      "ru": "хранение данных",
+      "target": "almacenamiento"
+    },
+    {
+      "id": "ru_es_b2:bit",
+      "ru": "бит",
+      "target": "bit"
+    },
+    {
+      "id": "ru_es_b2:byte",
+      "ru": "байт",
+      "target": "byte"
+    },
+    {
+      "id": "ru_es_b2:kilobyte",
+      "ru": "килобайт",
+      "target": "kilobyte"
+    },
+    {
+      "id": "ru_es_b2:megabyte",
+      "ru": "мегабайт",
+      "target": "megabyte"
+    },
+    {
+      "id": "ru_es_b2:gigabyte",
+      "ru": "гигабайт",
+      "target": "gigabyte"
+    },
+    {
+      "id": "ru_es_b2:terabyte",
+      "ru": "терабайт",
+      "target": "terabyte"
+    },
+    {
+      "id": "ru_es_b2:variable",
+      "ru": "переменная",
+      "target": "variable"
+    },
+    {
+      "id": "ru_es_b2:operador",
+      "ru": "оператор",
+      "target": "operador"
+    },
+    {
+      "id": "ru_es_b2:bucle",
+      "ru": "цикл",
+      "target": "bucle"
+    },
+    {
+      "id": "ru_es_b2:recursión",
+      "ru": "рекурсия",
+      "target": "recursión"
+    },
+    {
+      "id": "ru_es_b2:compilador",
+      "ru": "компилятор",
+      "target": "compilador"
+    },
+    {
+      "id": "ru_es_b2:depurador",
+      "ru": "отладчик",
+      "target": "depurador"
+    },
+    {
+      "id": "ru_es_b2:ensamblador",
+      "ru": "ассемблер",
+      "target": "ensamblador"
+    },
+    {
+      "id": "ru_es_b2:código",
+      "ru": "код",
+      "target": "código"
+    },
+    {
+      "id": "ru_es_b2:programación",
+      "ru": "программирование",
+      "target": "programación"
+    },
+    {
+      "id": "ru_es_b2:codificación",
+      "ru": "кодирование",
+      "target": "codificación"
+    },
+    {
+      "id": "ru_es_b2:cifrado",
+      "ru": "шифрование",
+      "target": "cifrado"
+    },
+    {
+      "id": "ru_es_b2:descifrado",
+      "ru": "расшифровка",
+      "target": "descifrado"
+    },
+    {
+      "id": "ru_es_b2:compresión",
+      "ru": "сжатие",
+      "target": "compresión"
+    },
+    {
+      "id": "ru_es_b2:descompresión",
+      "ru": "распаковка",
+      "target": "descompresión"
+    },
+    {
+      "id": "ru_es_b2:autenticación",
+      "ru": "аутентификация",
+      "target": "autenticación"
+    },
+    {
+      "id": "ru_es_b2:autorización",
+      "ru": "авторизация",
+      "target": "autorización"
+    },
+    {
+      "id": "ru_es_b2:certificación",
+      "ru": "сертификация",
+      "target": "certificación"
+    },
+    {
+      "id": "ru_es_b2:protocolo",
+      "ru": "протокол",
+      "target": "protocolo"
+    },
+    {
+      "id": "ru_es_b2:dominio",
+      "ru": "домен",
+      "target": "dominio"
+    },
+    {
+      "id": "ru_es_b2:subdominio",
+      "ru": "поддомен",
+      "target": "subdominio"
+    },
+    {
+      "id": "ru_es_b2:datagrama",
+      "ru": "дейтаграмма",
+      "target": "datagrama"
+    },
+    {
+      "id": "ru_es_b2:trama",
+      "ru": "кадр данных",
+      "target": "trama"
+    },
+    {
+      "id": "ru_es_b2:cabecera",
+      "ru": "заголовок",
+      "target": "cabecera"
+    },
+    {
+      "id": "ru_es_b2:latencia",
+      "ru": "задержка",
+      "target": "latencia"
+    },
+    {
+      "id": "ru_es_b2:conectividad",
+      "ru": "связность",
+      "target": "conectividad"
+    },
+    {
+      "id": "ru_es_b2:interfaz",
+      "ru": "интерфейс",
+      "target": "interfaz"
+    },
+    {
+      "id": "ru_es_b2:navegador",
+      "ru": "браузер",
+      "target": "navegador"
+    },
+    {
+      "id": "ru_es_b2:buscador",
+      "ru": "поисковик",
+      "target": "buscador"
+    },
+    {
+      "id": "ru_es_b2:repositorio",
+      "ru": "репозиторий",
+      "target": "repositorio"
+    },
+    {
+      "id": "ru_es_b2:directorio",
+      "ru": "каталог",
+      "target": "directorio"
+    },
+    {
+      "id": "ru_es_b2:extensión",
+      "ru": "расширение",
+      "target": "extensión"
+    },
+    {
+      "id": "ru_es_b2:plantilla",
+      "ru": "шаблон",
+      "target": "plantilla"
+    },
+    {
+      "id": "ru_es_b2:formato",
+      "ru": "формат",
+      "target": "formato"
+    },
+    {
+      "id": "ru_es_b2:tipografía",
+      "ru": "типографика",
+      "target": "tipografía"
+    },
+    {
+      "id": "ru_es_b2:fuente",
+      "ru": "шрифт",
+      "target": "fuente"
+    },
+    {
+      "id": "ru_es_b2:píxel",
+      "ru": "пиксель",
+      "target": "píxel"
+    },
+    {
+      "id": "ru_es_b2:cuadrícula",
+      "ru": "сетка",
+      "target": "cuadrícula"
+    },
+    {
+      "id": "ru_es_b2:capa",
+      "ru": "слой",
+      "target": "capa"
+    },
+    {
+      "id": "ru_es_b2:máscara",
+      "ru": "маска",
+      "target": "máscara"
+    },
+    {
+      "id": "ru_es_b2:textura",
+      "ru": "текстура",
+      "target": "textura"
+    },
+    {
+      "id": "ru_es_b2:animación",
+      "ru": "анимация",
+      "target": "animación"
+    },
+    {
+      "id": "ru_es_b2:renderizado",
+      "ru": "рендеринг",
+      "target": "renderizado"
+    },
+    {
+      "id": "ru_es_b2:digitalización",
+      "ru": "оцифровка",
+      "target": "digitalización"
+    },
+    {
+      "id": "ru_es_b2:virtualización",
+      "ru": "виртуализация",
+      "target": "virtualización"
+    },
+    {
+      "id": "ru_es_b2:simulación",
+      "ru": "моделирование",
+      "target": "simulación"
+    },
+    {
+      "id": "ru_es_b2:accionista",
+      "ru": "акционер",
+      "target": "accionista"
+    },
+    {
+      "id": "ru_es_b2:aduanero",
+      "ru": "таможенный",
+      "target": "aduanero"
+    },
+    {
+      "id": "ru_es_b2:afiliación",
+      "ru": "членство",
+      "target": "afiliación"
+    },
+    {
+      "id": "ru_es_b2:agente",
+      "ru": "агент",
+      "target": "agente"
+    },
+    {
+      "id": "ru_es_b2:arrendador",
+      "ru": "арендодатель",
+      "target": "arrendador"
+    },
+    {
+      "id": "ru_es_b2:asegurado",
+      "ru": "застрахованный",
+      "target": "asegurado"
+    },
+    {
+      "id": "ru_es_b2:aseguradora",
+      "ru": "страховая компания",
+      "target": "aseguradora"
+    },
+    {
+      "id": "ru_es_b2:aval",
+      "ru": "поручительство",
+      "target": "aval"
+    },
+    {
+      "id": "ru_es_b2:avalista",
+      "ru": "поручитель",
+      "target": "avalista"
+    },
+    {
+      "id": "ru_es_b2:banca",
+      "ru": "банковское дело",
+      "target": "banca"
+    },
+    {
+      "id": "ru_es_b2:banquero",
+      "ru": "банкир",
+      "target": "banquero"
+    },
+    {
+      "id": "ru_es_b2:bancarrota",
+      "ru": "банкротство",
+      "target": "bancarrota"
+    },
+    {
+      "id": "ru_es_b2:bonificación",
+      "ru": "премия",
+      "target": "bonificación"
+    },
+    {
+      "id": "ru_es_b2:bonista",
+      "ru": "держатель облигаций",
+      "target": "bonista"
+    },
+    {
+      "id": "ru_es_b2:cotización",
+      "ru": "котировка",
+      "target": "cotización"
+    },
+    {
+      "id": "ru_es_b2:corredor",
+      "ru": "брокер",
+      "target": "corredor"
+    },
+    {
+      "id": "ru_es_b2:crédito",
+      "ru": "кредит",
+      "target": "crédito"
+    },
+    {
+      "id": "ru_es_b2:débito",
+      "ru": "дебет",
+      "target": "débito"
+    },
+    {
+      "id": "ru_es_b2:deudor",
+      "ru": "должник",
+      "target": "deudor"
+    },
+    {
+      "id": "ru_es_b2:divisa",
+      "ru": "валюта",
+      "target": "divisa"
+    },
+    {
+      "id": "ru_es_b2:emprendedor",
+      "ru": "предприниматель",
+      "target": "emprendedor"
+    },
+    {
+      "id": "ru_es_b2:emprendimiento",
+      "ru": "предпринимательство",
+      "target": "emprendimiento"
+    },
+    {
+      "id": "ru_es_b2:endeudamiento",
+      "ru": "задолженность",
+      "target": "endeudamiento"
+    },
+    {
+      "id": "ru_es_b2:financiación",
+      "ru": "финансирование",
+      "target": "financiación"
+    },
+    {
+      "id": "ru_es_b2:financiero",
+      "ru": "финансовый",
+      "target": "financiero"
+    },
+    {
+      "id": "ru_es_b2:fiscal",
+      "ru": "налоговый",
+      "target": "fiscal"
+    },
+    {
+      "id": "ru_es_b2:fisco",
+      "ru": "казна",
+      "target": "fisco"
+    },
+    {
+      "id": "ru_es_b2:flujo",
+      "ru": "поток",
+      "target": "flujo"
+    },
+    {
+      "id": "ru_es_b2:fondo",
+      "ru": "фонд",
+      "target": "fondo"
+    },
+    {
+      "id": "ru_es_b2:franquicia",
+      "ru": "франшиза",
+      "target": "franquicia"
+    },
+    {
+      "id": "ru_es_b2:ganancia",
+      "ru": "прибыль",
+      "target": "ganancia"
+    },
+    {
+      "id": "ru_es_b2:indemnización",
+      "ru": "компенсация",
+      "target": "indemnización"
+    },
+    {
+      "id": "ru_es_b2:inflación",
+      "ru": "инфляция",
+      "target": "inflación"
+    },
+    {
+      "id": "ru_es_b2:liquidez",
+      "ru": "ликвидность",
+      "target": "liquidez"
+    },
+    {
+      "id": "ru_es_b2:morosidad",
+      "ru": "просрочка платежей",
+      "target": "morosidad"
+    },
+    {
+      "id": "ru_es_b2:moroso",
+      "ru": "неплательщик",
+      "target": "moroso"
+    },
+    {
+      "id": "ru_es_b2:negociación",
+      "ru": "переговоры",
+      "target": "negociación"
+    },
+    {
+      "id": "ru_es_b2:nómina",
+      "ru": "расчётная ведомость",
+      "target": "nómina"
+    },
+    {
+      "id": "ru_es_b2:pasivo",
+      "ru": "пассив",
+      "target": "pasivo"
+    },
+    {
+      "id": "ru_es_b2:pérdida",
+      "ru": "убыток",
+      "target": "pérdida"
+    },
+    {
+      "id": "ru_es_b2:plusvalía",
+      "ru": "прирост стоимости",
+      "target": "plusvalía"
+    },
+    {
+      "id": "ru_es_b2:quiebra",
+      "ru": "банкротство",
+      "target": "quiebra"
+    },
+    {
+      "id": "ru_es_b2:rentabilidad",
+      "ru": "рентабельность",
+      "target": "rentabilidad"
+    },
+    {
+      "id": "ru_es_b2:recesión",
+      "ru": "рецессия",
+      "target": "recesión"
+    },
+    {
+      "id": "ru_es_b2:recaudación",
+      "ru": "сбор налогов",
+      "target": "recaudación"
+    },
+    {
+      "id": "ru_es_b2:remesa",
+      "ru": "денежный перевод",
+      "target": "remesa"
+    },
+    {
+      "id": "ru_es_b2:renta",
+      "ru": "доход",
+      "target": "renta"
+    },
+    {
+      "id": "ru_es_b2:rentista",
+      "ru": "рантье",
+      "target": "rentista"
+    },
+    {
+      "id": "ru_es_b2:salvaguarda",
+      "ru": "защитная мера",
+      "target": "salvaguarda"
+    },
+    {
+      "id": "ru_es_b2:saneamiento",
+      "ru": "оздоровление",
+      "target": "saneamiento"
+    },
+    {
+      "id": "ru_es_b2:subasta",
+      "ru": "аукцион",
+      "target": "subasta"
+    },
+    {
+      "id": "ru_es_b2:subsidio",
+      "ru": "пособие",
+      "target": "subsidio"
+    },
+    {
+      "id": "ru_es_b2:subvención",
+      "ru": "субсидия",
+      "target": "subvención"
+    },
+    {
+      "id": "ru_es_b2:tasación",
+      "ru": "оценка стоимости",
+      "target": "tasación"
+    },
+    {
+      "id": "ru_es_b2:tasa",
+      "ru": "ставка",
+      "target": "tasa"
+    },
+    {
+      "id": "ru_es_b2:tesorería",
+      "ru": "казначейство",
+      "target": "tesorería"
+    },
+    {
+      "id": "ru_es_b2:transacción",
+      "ru": "сделка",
+      "target": "transacción"
+    },
+    {
+      "id": "ru_es_b2:tributo",
+      "ru": "налог",
+      "target": "tributo"
+    },
+    {
+      "id": "ru_es_b2:usura",
+      "ru": "ростовщичество",
+      "target": "usura"
+    },
+    {
+      "id": "ru_es_b2:volatilidad",
+      "ru": "волатильность",
+      "target": "volatilidad"
+    },
+    {
+      "id": "ru_es_b2:ahorrador",
+      "ru": "вкладчик",
+      "target": "ahorrador"
+    },
+    {
+      "id": "ru_es_b2:amortización",
+      "ru": "амортизация",
+      "target": "amortización"
+    },
+    {
+      "id": "ru_es_b2:apalancamiento",
+      "ru": "кредитное плечо",
+      "target": "apalancamiento"
+    },
+    {
+      "id": "ru_es_b2:balance",
+      "ru": "баланс",
+      "target": "balance"
+    },
+    {
+      "id": "ru_es_b2:contabilidad",
+      "ru": "бухгалтерский учёт",
+      "target": "contabilidad"
+    },
+    {
+      "id": "ru_es_b2:capitalización",
+      "ru": "капитализация",
+      "target": "capitalización"
+    },
+    {
+      "id": "ru_es_b2:comisión",
+      "ru": "комиссионный сбор",
+      "target": "comisión"
+    },
+    {
+      "id": "ru_es_b2:consorcio",
+      "ru": "консорциум",
+      "target": "consorcio"
+    },
+    {
+      "id": "ru_es_b2:cooperativa",
+      "ru": "кооператив",
+      "target": "cooperativa"
+    },
+    {
+      "id": "ru_es_b2:corporación",
+      "ru": "корпорация",
+      "target": "corporación"
+    },
+    {
+      "id": "ru_es_b2:cuota",
+      "ru": "взнос",
+      "target": "cuota"
+    },
+    {
+      "id": "ru_es_b2:déficit",
+      "ru": "дефицит",
+      "target": "déficit"
+    },
+    {
+      "id": "ru_es_b2:depreciación",
+      "ru": "обесценение",
+      "target": "depreciación"
+    },
+    {
+      "id": "ru_es_b2:desembolso",
+      "ru": "выплата",
+      "target": "desembolso"
+    },
+    {
+      "id": "ru_es_b2:despido",
+      "ru": "увольнение",
+      "target": "despido"
+    },
+    {
+      "id": "ru_es_b2:devaluación",
+      "ru": "девальвация",
+      "target": "devaluación"
+    },
+    {
+      "id": "ru_es_b2:economía",
+      "ru": "экономика",
+      "target": "economía"
+    },
+    {
+      "id": "ru_es_b2:economista",
+      "ru": "экономист",
+      "target": "economista"
+    },
+    {
+      "id": "ru_es_b2:embargo",
+      "ru": "арест имущества",
+      "target": "embargo"
+    },
+    {
+      "id": "ru_es_b2:encarecimiento",
+      "ru": "подорожание",
+      "target": "encarecimiento"
+    },
+    {
+      "id": "ru_es_b2:excedente",
+      "ru": "излишек",
+      "target": "excedente"
+    },
+    {
+      "id": "ru_es_b2:facturación",
+      "ru": "оборот по счетам",
+      "target": "facturación"
+    },
+    {
+      "id": "ru_es_b2:finanzas",
+      "ru": "финансы",
+      "target": "finanzas"
+    },
+    {
+      "id": "ru_es_b2:gestor",
+      "ru": "управляющий",
+      "target": "gestor"
+    },
+    {
+      "id": "ru_es_b2:honorario",
+      "ru": "гонорар",
+      "target": "honorario"
+    },
+    {
+      "id": "ru_es_b2:incentivo",
+      "ru": "стимул",
+      "target": "incentivo"
+    },
+    {
+      "id": "ru_es_b2:intermediario",
+      "ru": "посредник",
+      "target": "intermediario"
+    },
+    {
+      "id": "ru_es_b2:licitación",
+      "ru": "тендер",
+      "target": "licitación"
+    },
+    {
+      "id": "ru_es_b2:margen",
+      "ru": "маржа",
+      "target": "margen"
+    },
+    {
+      "id": "ru_es_b2:monopolio",
+      "ru": "монополия",
+      "target": "monopolio"
+    },
+    {
+      "id": "ru_es_b2:oligopolio",
+      "ru": "олигополия",
+      "target": "oligopolio"
+    },
+    {
+      "id": "ru_es_b2:pagaré",
+      "ru": "вексель",
+      "target": "pagaré"
+    },
+    {
+      "id": "ru_es_b2:plazo",
+      "ru": "срок",
+      "target": "plazo"
+    },
+    {
+      "id": "ru_es_b2:productividad",
+      "ru": "производительность",
+      "target": "productividad"
+    },
+    {
+      "id": "ru_es_b2:provecho",
+      "ru": "выгода",
+      "target": "provecho"
+    },
+    {
+      "id": "ru_es_b2:recaudador",
+      "ru": "сборщик налогов",
+      "target": "recaudador"
+    },
+    {
+      "id": "ru_es_b2:revalorización",
+      "ru": "повышение стоимости",
+      "target": "revalorización"
+    },
+    {
+      "id": "ru_es_b2:superávit",
+      "ru": "профицит",
+      "target": "superávit"
+    },
+    {
+      "id": "ru_es_b2:tarifa",
+      "ru": "тариф",
+      "target": "tarifa"
+    },
+    {
+      "id": "ru_es_b2:tributación",
+      "ru": "налогообложение",
+      "target": "tributación"
+    },
+    {
+      "id": "ru_es_b2:valoración",
+      "ru": "оценка",
+      "target": "valoración"
+    },
+    {
+      "id": "ru_es_b2:ventanilla",
+      "ru": "окошко обслуживания",
+      "target": "ventanilla"
+    },
+    {
+      "id": "ru_es_b2:aerodinámica",
+      "ru": "аэродинамика",
+      "target": "aerodinámica"
+    },
+    {
+      "id": "ru_es_b2:aeródromo",
+      "ru": "аэродром",
+      "target": "aeródromo"
+    },
+    {
+      "id": "ru_es_b2:aeronave",
+      "ru": "воздушное судно",
+      "target": "aeronave"
+    },
+    {
+      "id": "ru_es_b2:aerolínea",
+      "ru": "авиакомпания",
+      "target": "aerolínea"
+    },
+    {
+      "id": "ru_es_b2:autocar",
+      "ru": "междугородний автобус",
+      "target": "autocar"
+    },
+    {
+      "id": "ru_es_b2:avioneta",
+      "ru": "небольшой самолёт",
+      "target": "avioneta"
+    },
+    {
+      "id": "ru_es_b2:babor",
+      "ru": "левый борт",
+      "target": "babor"
+    },
+    {
+      "id": "ru_es_b2:barcaza",
+      "ru": "баржа",
+      "target": "barcaza"
+    },
+    {
+      "id": "ru_es_b2:bodega",
+      "ru": "трюм",
+      "target": "bodega"
+    },
+    {
+      "id": "ru_es_b2:botavara",
+      "ru": "гик",
+      "target": "botavara"
+    },
+    {
+      "id": "ru_es_b2:buque",
+      "ru": "судно",
+      "target": "buque"
+    },
+    {
+      "id": "ru_es_b2:carabela",
+      "ru": "каравелла",
+      "target": "carabela"
+    },
+    {
+      "id": "ru_es_b2:catamarán",
+      "ru": "катамаран",
+      "target": "catamarán"
+    },
+    {
+      "id": "ru_es_b2:chalupa",
+      "ru": "шлюпка",
+      "target": "chalupa"
+    },
+    {
+      "id": "ru_es_b2:chárter",
+      "ru": "чартер",
+      "target": "chárter"
+    },
+    {
+      "id": "ru_es_b2:embarcación",
+      "ru": "плавсредство",
+      "target": "embarcación"
+    },
+    {
+      "id": "ru_es_b2:embarcadero",
+      "ru": "пристань",
+      "target": "embarcadero"
+    },
+    {
+      "id": "ru_es_b2:estribor",
+      "ru": "правый борт",
+      "target": "estribor"
+    },
+    {
+      "id": "ru_es_b2:estribo",
+      "ru": "стремя",
+      "target": "estribo"
+    },
+    {
+      "id": "ru_es_b2:ferry",
+      "ru": "паром",
+      "target": "ferry"
+    },
+    {
+      "id": "ru_es_b2:fragata",
+      "ru": "фрегат",
+      "target": "fragata"
+    },
+    {
+      "id": "ru_es_b2:fuselaje",
+      "ru": "фюзеляж",
+      "target": "fuselaje"
+    },
+    {
+      "id": "ru_es_b2:galeón",
+      "ru": "галеон",
+      "target": "galeón"
+    },
+    {
+      "id": "ru_es_b2:góndola",
+      "ru": "гондола",
+      "target": "góndola"
+    },
+    {
+      "id": "ru_es_b2:hidroavión",
+      "ru": "гидросамолёт",
+      "target": "hidroavión"
+    },
+    {
+      "id": "ru_es_b2:lancha",
+      "ru": "катер",
+      "target": "lancha"
+    },
+    {
+      "id": "ru_es_b2:locomotora",
+      "ru": "локомотив",
+      "target": "locomotora"
+    },
+    {
+      "id": "ru_es_b2:mástil",
+      "ru": "мачта",
+      "target": "mástil"
+    },
+    {
+      "id": "ru_es_b2:monorraíl",
+      "ru": "монорельс",
+      "target": "monorraíl"
+    },
+    {
+      "id": "ru_es_b2:navío",
+      "ru": "корабль",
+      "target": "navío"
+    },
+    {
+      "id": "ru_es_b2:popa",
+      "ru": "корма",
+      "target": "popa"
+    },
+    {
+      "id": "ru_es_b2:proa",
+      "ru": "нос судна",
+      "target": "proa"
+    },
+    {
+      "id": "ru_es_b2:quilla",
+      "ru": "киль",
+      "target": "quilla"
+    },
+    {
+      "id": "ru_es_b2:remolcador",
+      "ru": "буксир",
+      "target": "remolcador"
+    },
+    {
+      "id": "ru_es_b2:remolque",
+      "ru": "прицеп",
+      "target": "remolque"
+    },
+    {
+      "id": "ru_es_b2:submarino",
+      "ru": "подводная лодка",
+      "target": "submarino"
+    },
+    {
+      "id": "ru_es_b2:transatlántico",
+      "ru": "трансатлантический лайнер",
+      "target": "transatlántico"
+    },
+    {
+      "id": "ru_es_b2:transbordador",
+      "ru": "паром или шаттл",
+      "target": "transbordador"
+    },
+    {
+      "id": "ru_es_b2:travesía",
+      "ru": "морской переход",
+      "target": "travesía"
+    },
+    {
+      "id": "ru_es_b2:tripulación",
+      "ru": "экипаж",
+      "target": "tripulación"
+    },
+    {
+      "id": "ru_es_b2:turborreactor",
+      "ru": "турбореактивный двигатель",
+      "target": "turborreactor"
+    },
+    {
+      "id": "ru_es_b2:yate",
+      "ru": "яхта",
+      "target": "yate"
+    },
+    {
+      "id": "ru_es_b2:zarpar",
+      "ru": "отчаливать",
+      "target": "zarpar"
+    },
+    {
+      "id": "ru_es_b2:atracar",
+      "ru": "причаливать",
+      "target": "atracar"
+    },
+    {
+      "id": "ru_es_b2:desembarcar",
+      "ru": "высаживаться",
+      "target": "desembarcar"
+    },
+    {
+      "id": "ru_es_b2:embarcar",
+      "ru": "садиться на судно",
+      "target": "embarcar"
+    },
+    {
+      "id": "ru_es_b2:navegar",
+      "ru": "плавать на судне",
+      "target": "navegar"
+    },
+    {
+      "id": "ru_es_b2:naufragar",
+      "ru": "терпеть кораблекрушение",
+      "target": "naufragar"
+    },
+    {
+      "id": "ru_es_b2:pilotear",
+      "ru": "пилотировать",
+      "target": "pilotear"
+    },
+    {
+      "id": "ru_es_b2:remolcar",
+      "ru": "буксировать",
+      "target": "remolcar"
+    },
+    {
+      "id": "ru_es_b2:surcar",
+      "ru": "бороздить",
+      "target": "surcar"
+    },
+    {
+      "id": "ru_es_b2:anclar",
+      "ru": "ставить на якорь",
+      "target": "anclar"
+    },
+    {
+      "id": "ru_es_b2:amerizar",
+      "ru": "садиться на воду",
+      "target": "amerizar"
+    },
+    {
+      "id": "ru_es_b2:enfilar",
+      "ru": "направляться",
+      "target": "enfilar"
+    },
+    {
+      "id": "ru_es_b2:virar",
+      "ru": "поворачивать",
+      "target": "virar"
+    },
+    {
+      "id": "ru_es_b2:viraje",
+      "ru": "поворот",
+      "target": "viraje"
+    },
+    {
+      "id": "ru_es_b2:aterrizaje",
+      "ru": "приземление",
+      "target": "aterrizaje"
+    },
+    {
+      "id": "ru_es_b2:despegue",
+      "ru": "взлёт",
+      "target": "despegue"
+    },
+    {
+      "id": "ru_es_b2:abordaje",
+      "ru": "абордаж",
+      "target": "abordaje"
+    },
+    {
+      "id": "ru_es_b2:embarque",
+      "ru": "посадка",
+      "target": "embarque"
+    },
+    {
+      "id": "ru_es_b2:desembarque",
+      "ru": "высадка",
+      "target": "desembarque"
+    },
+    {
+      "id": "ru_es_b2:escala",
+      "ru": "промежуточная остановка",
+      "target": "escala"
+    },
+    {
+      "id": "ru_es_b2:licencia",
+      "ru": "лицензия",
+      "target": "licencia"
+    },
+    {
+      "id": "ru_es_b2:maniobra",
+      "ru": "манёвр",
+      "target": "maniobra"
+    },
+    {
+      "id": "ru_es_b2:arcén",
+      "ru": "обочина",
+      "target": "arcén"
+    },
+    {
+      "id": "ru_es_b2:calzada",
+      "ru": "проезжая часть",
+      "target": "calzada"
+    },
+    {
+      "id": "ru_es_b2:carril",
+      "ru": "полоса движения",
+      "target": "carril"
+    },
+    {
+      "id": "ru_es_b2:rasante",
+      "ru": "продольный профиль",
+      "target": "rasante"
+    },
+    {
+      "id": "ru_es_b2:badén",
+      "ru": "дорожное углубление",
+      "target": "badén"
+    },
+    {
+      "id": "ru_es_b2:bache",
+      "ru": "выбоина",
+      "target": "bache"
+    },
+    {
+      "id": "ru_es_b2:bordillo",
+      "ru": "бордюр",
+      "target": "bordillo"
+    },
+    {
+      "id": "ru_es_b2:asfaltado",
+      "ru": "асфальтовое покрытие",
+      "target": "asfaltado"
+    },
+    {
+      "id": "ru_es_b2:señalización",
+      "ru": "система дорожных знаков",
+      "target": "señalización"
+    },
+    {
+      "id": "ru_es_b2:baliza",
+      "ru": "сигнальный огонь",
+      "target": "baliza"
+    },
+    {
+      "id": "ru_es_b2:guardarraíl",
+      "ru": "дорожное ограждение",
+      "target": "guardarraíl"
+    },
+    {
+      "id": "ru_es_b2:quitamiedos",
+      "ru": "дорожное ограждение",
+      "target": "quitamiedos"
+    },
+    {
+      "id": "ru_es_b2:intersección",
+      "ru": "перекрёсток",
+      "target": "intersección"
+    },
+    {
+      "id": "ru_es_b2:desvío",
+      "ru": "объезд",
+      "target": "desvío"
+    },
+    {
+      "id": "ru_es_b2:circunvalación",
+      "ru": "объездная дорога",
+      "target": "circunvalación"
+    },
+    {
+      "id": "ru_es_b2:embotellamiento",
+      "ru": "дорожная пробка",
+      "target": "embotellamiento"
+    },
+    {
+      "id": "ru_es_b2:adelantamiento",
+      "ru": "обгон",
+      "target": "adelantamiento"
+    },
+    {
+      "id": "ru_es_b2:estacionamiento",
+      "ru": "парковка",
+      "target": "estacionamiento"
+    },
+    {
+      "id": "ru_es_b2:atropello",
+      "ru": "наезд",
+      "target": "atropello"
+    },
+    {
+      "id": "ru_es_b2:siniestro",
+      "ru": "страховой случай",
+      "target": "siniestro"
+    },
+    {
+      "id": "ru_es_b2:derrape",
+      "ru": "занос",
+      "target": "derrape"
+    },
+    {
+      "id": "ru_es_b2:vuelco",
+      "ru": "опрокидывание",
+      "target": "vuelco"
+    },
+    {
+      "id": "ru_es_b2:frenazo",
+      "ru": "резкое торможение",
+      "target": "frenazo"
+    },
+    {
+      "id": "ru_es_b2:acelerón",
+      "ru": "резкое ускорение",
+      "target": "acelerón"
+    },
+    {
+      "id": "ru_es_b2:kilometraje",
+      "ru": "пробег",
+      "target": "kilometraje"
+    },
+    {
+      "id": "ru_es_b2:odómetro",
+      "ru": "одометр",
+      "target": "odómetro"
+    },
+    {
+      "id": "ru_es_b2:velocímetro",
+      "ru": "спидометр",
+      "target": "velocímetro"
+    },
+    {
+      "id": "ru_es_b2:tacómetro",
+      "ru": "тахометр",
+      "target": "tacómetro"
+    },
+    {
+      "id": "ru_es_b2:cuentakilómetros",
+      "ru": "счётчик пробега",
+      "target": "cuentakilómetros"
+    },
+    {
+      "id": "ru_es_b2:salpicadero",
+      "ru": "приборная панель",
+      "target": "salpicadero"
+    },
+    {
+      "id": "ru_es_b2:parabrisas",
+      "ru": "лобовое стекло",
+      "target": "parabrisas"
+    },
+    {
+      "id": "ru_es_b2:limpiaparabrisas",
+      "ru": "дворники",
+      "target": "limpiaparabrisas"
+    },
+    {
+      "id": "ru_es_b2:retrovisor",
+      "ru": "зеркало заднего вида",
+      "target": "retrovisor"
+    },
+    {
+      "id": "ru_es_b2:intermitente",
+      "ru": "указатель поворота",
+      "target": "intermitente"
+    },
+    {
+      "id": "ru_es_b2:claxon",
+      "ru": "клаксон",
+      "target": "claxon"
+    },
+    {
+      "id": "ru_es_b2:farola",
+      "ru": "уличный фонарь",
+      "target": "farola"
+    },
+    {
+      "id": "ru_es_b2:parachoques",
+      "ru": "бампер",
+      "target": "parachoques"
+    },
+    {
+      "id": "ru_es_b2:guardabarros",
+      "ru": "крыло автомобиля",
+      "target": "guardabarros"
+    },
+    {
+      "id": "ru_es_b2:capó",
+      "ru": "капот",
+      "target": "capó"
+    },
+    {
+      "id": "ru_es_b2:portaequipajes",
+      "ru": "багажная полка",
+      "target": "portaequipajes"
+    },
+    {
+      "id": "ru_es_b2:portón",
+      "ru": "большие ворота",
+      "target": "portón"
+    },
+    {
+      "id": "ru_es_b2:descapotable",
+      "ru": "кабриолет",
+      "target": "descapotable"
+    },
+    {
+      "id": "ru_es_b2:monovolumen",
+      "ru": "минивэн",
+      "target": "monovolumen"
+    },
+    {
+      "id": "ru_es_b2:todoterreno",
+      "ru": "внедорожник",
+      "target": "todoterreno"
+    },
+    {
+      "id": "ru_es_b2:furgoneta",
+      "ru": "фургон",
+      "target": "furgoneta"
+    },
+    {
+      "id": "ru_es_b2:motocicleta",
+      "ru": "мотоцикл",
+      "target": "motocicleta"
+    },
+    {
+      "id": "ru_es_b2:ciclomotor",
+      "ru": "мопед",
+      "target": "ciclomotor"
+    },
+    {
+      "id": "ru_es_b2:motociclista",
+      "ru": "мотоциклист",
+      "target": "motociclista"
+    },
+    {
+      "id": "ru_es_b2:automovilista",
+      "ru": "автомобилист",
+      "target": "automovilista"
+    },
+    {
+      "id": "ru_es_b2:peatonal",
+      "ru": "пешеходный",
+      "target": "peatonal"
+    },
+    {
+      "id": "ru_es_b2:ferroviario",
+      "ru": "железнодорожный",
+      "target": "ferroviario"
+    },
+    {
+      "id": "ru_es_b2:marítimo",
+      "ru": "морской",
+      "target": "marítimo"
+    },
+    {
+      "id": "ru_es_b2:fluvial",
+      "ru": "речной",
+      "target": "fluvial"
+    },
+    {
+      "id": "ru_es_b2:aéreo",
+      "ru": "воздушный",
+      "target": "aéreo"
+    },
+    {
+      "id": "ru_es_b2:terrestre",
+      "ru": "наземный",
+      "target": "terrestre"
+    },
+    {
+      "id": "ru_es_b2:subterráneo",
+      "ru": "подземный",
+      "target": "subterráneo"
+    },
+    {
+      "id": "ru_es_b2:interurbano",
+      "ru": "междугородний",
+      "target": "interurbano"
+    },
+    {
+      "id": "ru_es_b2:internacional",
+      "ru": "международный",
+      "target": "internacional"
+    },
+    {
+      "id": "ru_es_b2:transcontinental",
+      "ru": "трансконтинентальный",
+      "target": "transcontinental"
+    },
+    {
+      "id": "ru_es_b2:intercontinental",
+      "ru": "межконтинентальный",
+      "target": "intercontinental"
+    },
+    {
+      "id": "ru_es_b2:transoceánico",
+      "ru": "трансокеанский",
+      "target": "transoceánico"
+    },
+    {
+      "id": "ru_es_b2:transfronterizo",
+      "ru": "трансграничный",
+      "target": "transfronterizo"
+    },
+    {
+      "id": "ru_es_b2:intermodal",
+      "ru": "интермодальный",
+      "target": "intermodal"
+    },
+    {
+      "id": "ru_es_b2:abatir",
+      "ru": "сбивать",
+      "target": "abatir"
+    },
+    {
+      "id": "ru_es_b2:abrillantar",
+      "ru": "придавать блеск",
+      "target": "abrillantar"
+    },
+    {
+      "id": "ru_es_b2:acondicionar",
+      "ru": "оборудовать",
+      "target": "acondicionar"
+    },
+    {
+      "id": "ru_es_b2:acoplar",
+      "ru": "стыковать",
+      "target": "acoplar"
+    },
+    {
+      "id": "ru_es_b2:acuchillar",
+      "ru": "резать ножом",
+      "target": "acuchillar"
+    },
+    {
+      "id": "ru_es_b2:aderezar",
+      "ru": "приправлять",
+      "target": "aderezar"
+    },
+    {
+      "id": "ru_es_b2:adobar",
+      "ru": "мариновать",
+      "target": "adobar"
+    },
+    {
+      "id": "ru_es_b2:afilar",
+      "ru": "точить",
+      "target": "afilar"
+    },
+    {
+      "id": "ru_es_b2:agrietar",
+      "ru": "растрескивать",
+      "target": "agrietar"
+    },
+    {
+      "id": "ru_es_b2:ahumar",
+      "ru": "коптить",
+      "target": "ahumar"
+    },
+    {
+      "id": "ru_es_b2:airear",
+      "ru": "проветривать",
+      "target": "airear"
+    },
+    {
+      "id": "ru_es_b2:alisar",
+      "ru": "разглаживать",
+      "target": "alisar"
+    },
+    {
+      "id": "ru_es_b2:amasar",
+      "ru": "месить",
+      "target": "amasar"
+    },
+    {
+      "id": "ru_es_b2:amoldar",
+      "ru": "подгонять",
+      "target": "amoldar"
+    },
+    {
+      "id": "ru_es_b2:anudar",
+      "ru": "завязывать узлом",
+      "target": "anudar"
+    },
+    {
+      "id": "ru_es_b2:apuntalar",
+      "ru": "подпирать",
+      "target": "apuntalar"
+    },
+    {
+      "id": "ru_es_b2:aromatizar",
+      "ru": "ароматизировать",
+      "target": "aromatizar"
+    },
+    {
+      "id": "ru_es_b2:aserrar",
+      "ru": "распиливать",
+      "target": "aserrar"
+    },
+    {
+      "id": "ru_es_b2:astillar",
+      "ru": "расщеплять",
+      "target": "astillar"
+    },
+    {
+      "id": "ru_es_b2:atornillar",
+      "ru": "завинчивать",
+      "target": "atornillar"
+    },
+    {
+      "id": "ru_es_b2:barnizar",
+      "ru": "лакировать",
+      "target": "barnizar"
+    },
+    {
+      "id": "ru_es_b2:batir",
+      "ru": "взбивать",
+      "target": "batir"
+    },
+    {
+      "id": "ru_es_b2:blanquear",
+      "ru": "отбеливать",
+      "target": "blanquear"
+    },
+    {
+      "id": "ru_es_b2:bordar",
+      "ru": "вышивать",
+      "target": "bordar"
+    },
+    {
+      "id": "ru_es_b2:brasear",
+      "ru": "тушить после обжарки",
+      "target": "brasear"
+    },
+    {
+      "id": "ru_es_b2:bruñir",
+      "ru": "полировать",
+      "target": "bruñir"
+    },
+    {
+      "id": "ru_es_b2:calcinar",
+      "ru": "прокаливать",
+      "target": "calcinar"
+    },
+    {
+      "id": "ru_es_b2:caramelizar",
+      "ru": "карамелизовать",
+      "target": "caramelizar"
+    },
+    {
+      "id": "ru_es_b2:cernir",
+      "ru": "просеивать",
+      "target": "cernir"
+    },
+    {
+      "id": "ru_es_b2:colar",
+      "ru": "процеживать",
+      "target": "colar"
+    },
+    {
+      "id": "ru_es_b2:congelar",
+      "ru": "замораживать",
+      "target": "congelar"
+    },
+    {
+      "id": "ru_es_b2:cristalizar",
+      "ru": "кристаллизовать",
+      "target": "cristalizar"
+    },
+    {
+      "id": "ru_es_b2:cuajar",
+      "ru": "свёртывать",
+      "target": "cuajar"
+    },
+    {
+      "id": "ru_es_b2:curtir",
+      "ru": "дубить кожу",
+      "target": "curtir"
+    },
+    {
+      "id": "ru_es_b2:decapar",
+      "ru": "снимать покрытие",
+      "target": "decapar"
+    },
+    {
+      "id": "ru_es_b2:descortezar",
+      "ru": "снимать кору",
+      "target": "descortezar"
+    },
+    {
+      "id": "ru_es_b2:desalar",
+      "ru": "обессоливать",
+      "target": "desalar"
+    },
+    {
+      "id": "ru_es_b2:desangrar",
+      "ru": "обескровливать",
+      "target": "desangrar"
+    },
+    {
+      "id": "ru_es_b2:descalcificar",
+      "ru": "удалять известь",
+      "target": "descalcificar"
+    },
+    {
+      "id": "ru_es_b2:descamar",
+      "ru": "очищать чешую",
+      "target": "descamar"
+    },
+    {
+      "id": "ru_es_b2:descongelar",
+      "ru": "размораживать",
+      "target": "descongelar"
+    },
+    {
+      "id": "ru_es_b2:descorchar",
+      "ru": "откупоривать",
+      "target": "descorchar"
+    },
+    {
+      "id": "ru_es_b2:desengrasar",
+      "ru": "обезжиривать",
+      "target": "desengrasar"
+    },
+    {
+      "id": "ru_es_b2:desgasificar",
+      "ru": "удалять газ",
+      "target": "desgasificar"
+    },
+    {
+      "id": "ru_es_b2:deshuesar",
+      "ru": "удалять кости",
+      "target": "deshuesar"
+    },
+    {
+      "id": "ru_es_b2:desmoldar",
+      "ru": "вынимать из формы",
+      "target": "desmoldar"
+    },
+    {
+      "id": "ru_es_b2:desollar",
+      "ru": "снимать шкуру",
+      "target": "desollar"
+    },
+    {
+      "id": "ru_es_b2:despepitar",
+      "ru": "удалять семена",
+      "target": "despepitar"
+    },
+    {
+      "id": "ru_es_b2:destilar",
+      "ru": "перегонять",
+      "target": "destilar"
+    },
+    {
+      "id": "ru_es_b2:diluir",
+      "ru": "разбавлять",
+      "target": "diluir"
+    },
+    {
+      "id": "ru_es_b2:disolver",
+      "ru": "растворять",
+      "target": "disolver"
+    },
+    {
+      "id": "ru_es_b2:dorar",
+      "ru": "подрумянивать",
+      "target": "dorar"
+    },
+    {
+      "id": "ru_es_b2:embalar",
+      "ru": "упаковывать для перевозки",
+      "target": "embalar"
+    },
+    {
+      "id": "ru_es_b2:embutir",
+      "ru": "набивать",
+      "target": "embutir"
+    },
+    {
+      "id": "ru_es_b2:emplatar",
+      "ru": "выкладывать блюдо",
+      "target": "emplatar"
+    },
+    {
+      "id": "ru_es_b2:emulsionar",
+      "ru": "эмульгировать",
+      "target": "emulsionar"
+    },
+    {
+      "id": "ru_es_b2:encalar",
+      "ru": "белить известью",
+      "target": "encalar"
+    },
+    {
+      "id": "ru_es_b2:encolar",
+      "ru": "проклеивать",
+      "target": "encolar"
+    },
+    {
+      "id": "ru_es_b2:encurtir",
+      "ru": "мариновать овощи",
+      "target": "encurtir"
+    },
+    {
+      "id": "ru_es_b2:endurecer",
+      "ru": "отверждать",
+      "target": "endurecer"
+    },
+    {
+      "id": "ru_es_b2:engrasar",
+      "ru": "смазывать",
+      "target": "engrasar"
+    },
+    {
+      "id": "ru_es_b2:enharinar",
+      "ru": "обваливать в муке",
+      "target": "enharinar"
+    },
+    {
+      "id": "ru_es_b2:enlatar",
+      "ru": "консервировать в банках",
+      "target": "enlatar"
+    },
+    {
+      "id": "ru_es_b2:enmasillar",
+      "ru": "шпаклевать",
+      "target": "enmasillar"
+    },
+    {
+      "id": "ru_es_b2:enrasar",
+      "ru": "выравнивать заподлицо",
+      "target": "enrasar"
+    },
+    {
+      "id": "ru_es_b2:ensamblar",
+      "ru": "собирать детали",
+      "target": "ensamblar"
+    },
+    {
+      "id": "ru_es_b2:entonar",
+      "ru": "напевать",
+      "target": "entonar"
+    },
+    {
+      "id": "ru_es_b2:escabechar",
+      "ru": "мариновать рыбу",
+      "target": "escabechar"
+    },
+    {
+      "id": "ru_es_b2:escaldar",
+      "ru": "обдавать кипятком",
+      "target": "escaldar"
+    },
+    {
+      "id": "ru_es_b2:escamar",
+      "ru": "очищать от чешуи",
+      "target": "escamar"
+    },
+    {
+      "id": "ru_es_b2:escarchar",
+      "ru": "покрывать инеем",
+      "target": "escarchar"
+    },
+    {
+      "id": "ru_es_b2:escayolar",
+      "ru": "накладывать гипс",
+      "target": "escayolar"
+    },
+    {
+      "id": "ru_es_b2:esculpir",
+      "ru": "ваять",
+      "target": "esculpir"
+    },
+    {
+      "id": "ru_es_b2:esmaltar",
+      "ru": "покрывать эмалью",
+      "target": "esmaltar"
+    },
+    {
+      "id": "ru_es_b2:espesar",
+      "ru": "загущать",
+      "target": "espesar"
+    },
+    {
+      "id": "ru_es_b2:espumar",
+      "ru": "снимать пену",
+      "target": "espumar"
+    },
+    {
+      "id": "ru_es_b2:estampar",
+      "ru": "печатать рисунок",
+      "target": "estampar"
+    },
+    {
+      "id": "ru_es_b2:esterilizar",
+      "ru": "стерилизовать",
+      "target": "esterilizar"
+    },
+    {
+      "id": "ru_es_b2:estofar",
+      "ru": "тушить",
+      "target": "estofar"
+    },
+    {
+      "id": "ru_es_b2:estucar",
+      "ru": "покрывать штукатуркой",
+      "target": "estucar"
+    },
+    {
+      "id": "ru_es_b2:evaporar",
+      "ru": "испарять",
+      "target": "evaporar"
+    },
+    {
+      "id": "ru_es_b2:fermentar",
+      "ru": "подвергать брожению",
+      "target": "fermentar"
+    },
+    {
+      "id": "ru_es_b2:filetear",
+      "ru": "нарезать филе",
+      "target": "filetear"
+    },
+    {
+      "id": "ru_es_b2:filtrar",
+      "ru": "фильтровать",
+      "target": "filtrar"
+    },
+    {
+      "id": "ru_es_b2:flambear",
+      "ru": "фламбировать",
+      "target": "flambear"
+    },
+    {
+      "id": "ru_es_b2:forjar",
+      "ru": "ковать",
+      "target": "forjar"
+    },
+    {
+      "id": "ru_es_b2:fresar",
+      "ru": "фрезеровать",
+      "target": "fresar"
+    },
+    {
+      "id": "ru_es_b2:fundir",
+      "ru": "плавить",
+      "target": "fundir"
+    },
+    {
+      "id": "ru_es_b2:glasear",
+      "ru": "покрывать глазурью",
+      "target": "glasear"
+    },
+    {
+      "id": "ru_es_b2:gratinar",
+      "ru": "запекать до корочки",
+      "target": "gratinar"
+    },
+    {
+      "id": "ru_es_b2:guisar",
+      "ru": "тушить",
+      "target": "guisar"
+    },
+    {
+      "id": "ru_es_b2:hidratar",
+      "ru": "увлажнять",
+      "target": "hidratar"
+    },
+    {
+      "id": "ru_es_b2:hilar",
+      "ru": "прясть",
+      "target": "hilar"
+    },
+    {
+      "id": "ru_es_b2:hojear",
+      "ru": "перелистывать",
+      "target": "hojear"
+    },
+    {
+      "id": "ru_es_b2:hornear",
+      "ru": "выпекать",
+      "target": "hornear"
+    },
+    {
+      "id": "ru_es_b2:impregnar",
+      "ru": "пропитывать",
+      "target": "impregnar"
+    },
+    {
+      "id": "ru_es_b2:lacrar",
+      "ru": "запечатывать сургучом",
+      "target": "lacrar"
+    },
+    {
+      "id": "ru_es_b2:laminar",
+      "ru": "прокатывать",
+      "target": "laminar"
+    },
+    {
+      "id": "ru_es_b2:laquear",
+      "ru": "лакировать",
+      "target": "laquear"
+    },
+    {
+      "id": "ru_es_b2:leudar",
+      "ru": "поднимать тесто",
+      "target": "leudar"
+    },
+    {
+      "id": "ru_es_b2:lijar",
+      "ru": "шлифовать",
+      "target": "lijar"
+    },
+    {
+      "id": "ru_es_b2:licuar",
+      "ru": "сжижать",
+      "target": "licuar"
+    },
+    {
+      "id": "ru_es_b2:limar",
+      "ru": "опиливать",
+      "target": "limar"
+    },
+    {
+      "id": "ru_es_b2:lubricar",
+      "ru": "смазывать",
+      "target": "lubricar"
+    },
+    {
+      "id": "ru_es_b2:machacar",
+      "ru": "толочь",
+      "target": "machacar"
+    },
+    {
+      "id": "ru_es_b2:macerar",
+      "ru": "вымачивать",
+      "target": "macerar"
+    },
+    {
+      "id": "ru_es_b2:marinar",
+      "ru": "мариновать",
+      "target": "marinar"
+    },
+    {
+      "id": "ru_es_b2:moler",
+      "ru": "молоть",
+      "target": "moler"
+    },
+    {
+      "id": "ru_es_b2:montar",
+      "ru": "собирать",
+      "target": "montar"
+    },
+    {
+      "id": "ru_es_b2:moldear",
+      "ru": "придавать форму",
+      "target": "moldear"
+    },
+    {
+      "id": "ru_es_b2:orear",
+      "ru": "обветривать",
+      "target": "orear"
+    },
+    {
+      "id": "ru_es_b2:oxidar",
+      "ru": "окислять",
+      "target": "oxidar"
+    },
+    {
+      "id": "ru_es_b2:pasteurizar",
+      "ru": "пастеризовать",
+      "target": "pasteurizar"
+    },
+    {
+      "id": "ru_es_b2:perforar",
+      "ru": "сверлить",
+      "target": "perforar"
+    },
+    {
+      "id": "ru_es_b2:perfumar",
+      "ru": "придавать аромат",
+      "target": "perfumar"
+    },
+    {
+      "id": "ru_es_b2:pulverizar",
+      "ru": "распылять",
+      "target": "pulverizar"
+    },
+    {
+      "id": "ru_es_b2:pulir",
+      "ru": "полировать",
+      "target": "pulir"
+    },
+    {
+      "id": "ru_es_b2:purificar",
+      "ru": "очищать",
+      "target": "purificar"
+    },
+    {
+      "id": "ru_es_b2:rebozar",
+      "ru": "панировать",
+      "target": "rebozar"
+    },
+    {
+      "id": "ru_es_b2:recocer",
+      "ru": "отжигать",
+      "target": "recocer"
+    },
+    {
+      "id": "ru_es_b2:refinar",
+      "ru": "рафинировать",
+      "target": "refinar"
+    },
+    {
+      "id": "ru_es_b2:rehogar",
+      "ru": "пассеровать",
+      "target": "rehogar"
+    },
+    {
+      "id": "ru_es_b2:rellenar",
+      "ru": "наполнять",
+      "target": "rellenar"
+    },
+    {
+      "id": "ru_es_b2:remachar",
+      "ru": "заклёпывать",
+      "target": "remachar"
+    },
+    {
+      "id": "ru_es_b2:remojar",
+      "ru": "замачивать",
+      "target": "remojar"
+    },
+    {
+      "id": "ru_es_b2:repujar",
+      "ru": "чеканить",
+      "target": "repujar"
+    },
+    {
+      "id": "ru_es_b2:restaurar",
+      "ru": "реставрировать",
+      "target": "restaurar"
+    },
+    {
+      "id": "ru_es_b2:revestir",
+      "ru": "облицовывать",
+      "target": "revestir"
+    },
+    {
+      "id": "ru_es_b2:revolver",
+      "ru": "перемешивать",
+      "target": "revolver"
+    },
+    {
+      "id": "ru_es_b2:rizar",
+      "ru": "завивать",
+      "target": "rizar"
+    },
+    {
+      "id": "ru_es_b2:salar",
+      "ru": "солить",
+      "target": "salar"
+    },
+    {
+      "id": "ru_es_b2:salpimentar",
+      "ru": "солить и перчить",
+      "target": "salpimentar"
+    },
+    {
+      "id": "ru_es_b2:saltear",
+      "ru": "быстро обжаривать",
+      "target": "saltear"
+    },
+    {
+      "id": "ru_es_b2:sazonar",
+      "ru": "приправлять",
+      "target": "sazonar"
+    },
+    {
+      "id": "ru_es_b2:serigrafiar",
+      "ru": "печатать шелкографией",
+      "target": "serigrafiar"
+    },
+    {
+      "id": "ru_es_b2:serrar",
+      "ru": "пилить",
+      "target": "serrar"
+    },
+    {
+      "id": "ru_es_b2:sobar",
+      "ru": "разминать тесто",
+      "target": "sobar"
+    },
+    {
+      "id": "ru_es_b2:sofreír",
+      "ru": "пассеровать",
+      "target": "sofreír"
+    },
+    {
+      "id": "ru_es_b2:soldar",
+      "ru": "паять",
+      "target": "soldar"
+    },
+    {
+      "id": "ru_es_b2:tamizar",
+      "ru": "просеивать",
+      "target": "tamizar"
+    },
+    {
+      "id": "ru_es_b2:tallar",
+      "ru": "вырезать",
+      "target": "tallar"
+    },
+    {
+      "id": "ru_es_b2:tapizar",
+      "ru": "обивать мебель",
+      "target": "tapizar"
+    },
+    {
+      "id": "ru_es_b2:templar",
+      "ru": "закаливать",
+      "target": "templar"
+    },
+    {
+      "id": "ru_es_b2:teñir",
+      "ru": "красить ткань",
+      "target": "teñir"
+    },
+    {
+      "id": "ru_es_b2:tornear",
+      "ru": "обтачивать",
+      "target": "tornear"
+    },
+    {
+      "id": "ru_es_b2:tostar",
+      "ru": "поджаривать",
+      "target": "tostar"
+    },
+    {
+      "id": "ru_es_b2:trenzar",
+      "ru": "плести",
+      "target": "trenzar"
+    },
+    {
+      "id": "ru_es_b2:trinchar",
+      "ru": "разделывать",
+      "target": "trinchar"
+    },
+    {
+      "id": "ru_es_b2:triturar",
+      "ru": "измельчать",
+      "target": "triturar"
+    },
+    {
+      "id": "ru_es_b2:tunelar",
+      "ru": "прокладывать тоннель",
+      "target": "tunelar"
+    },
+    {
+      "id": "ru_es_b2:untar",
+      "ru": "намазывать",
+      "target": "untar"
+    },
+    {
+      "id": "ru_es_b2:vaporizar",
+      "ru": "превращать в пар",
+      "target": "vaporizar"
+    },
+    {
+      "id": "ru_es_b2:verter",
+      "ru": "наливать",
+      "target": "verter"
+    },
+    {
+      "id": "ru_es_b2:vitrificar",
+      "ru": "стекловать",
+      "target": "vitrificar"
+    },
+    {
+      "id": "ru_es_b2:vulcanizar",
+      "ru": "вулканизировать",
+      "target": "vulcanizar"
+    },
+    {
+      "id": "ru_es_b2:galvanizar",
+      "ru": "оцинковывать",
+      "target": "galvanizar"
+    }
+  ]
+}

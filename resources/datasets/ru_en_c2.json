@@ -1,0 +1,4489 @@
+{
+  "schema_version": 1,
+  "id": "ru_en_c2",
+  "description": "Русско-английский словарь ru_en_c2",
+  "profile": "translation-ru-en",
+  "level": "c2",
+  "entries": [
+    {
+      "id": "ru_en_c2:0",
+      "ru": "источать",
+      "target": "exude"
+    },
+    {
+      "id": "ru_en_c2:1",
+      "ru": "предвидеть",
+      "target": "envisage"
+    },
+    {
+      "id": "ru_en_c2:2",
+      "ru": "директриса",
+      "target": "headmistress"
+    },
+    {
+      "id": "ru_en_c2:3",
+      "ru": "робость",
+      "target": "timidity"
+    },
+    {
+      "id": "ru_en_c2:4",
+      "ru": "разгадать",
+      "target": "unravel"
+    },
+    {
+      "id": "ru_en_c2:5",
+      "ru": "согласие",
+      "target": "concurrence"
+    },
+    {
+      "id": "ru_en_c2:6",
+      "ru": "бесперспективный",
+      "target": "unpromising"
+    },
+    {
+      "id": "ru_en_c2:7",
+      "ru": "изобиловать",
+      "target": "teem"
+    },
+    {
+      "id": "ru_en_c2:8",
+      "ru": "удивляться",
+      "target": "marvel"
+    },
+    {
+      "id": "ru_en_c2:9",
+      "ru": "амбулаторный",
+      "target": "outpatient"
+    },
+    {
+      "id": "ru_en_c2:10",
+      "ru": "труп",
+      "target": "corpse"
+    },
+    {
+      "id": "ru_en_c2:11",
+      "ru": "ученик",
+      "target": "apprentice"
+    },
+    {
+      "id": "ru_en_c2:12",
+      "ru": "сдержанный",
+      "target": "constrained"
+    },
+    {
+      "id": "ru_en_c2:13",
+      "ru": "причуда",
+      "target": "quirk"
+    },
+    {
+      "id": "ru_en_c2:14",
+      "ru": "возмущенный",
+      "target": "indignant"
+    },
+    {
+      "id": "ru_en_c2:15",
+      "ru": "возмущенно",
+      "target": "indignantly"
+    },
+    {
+      "id": "ru_en_c2:16",
+      "ru": "эксцентричность",
+      "target": "eccentricity"
+    },
+    {
+      "id": "ru_en_c2:17",
+      "ru": "локомотив",
+      "target": "locomotive"
+    },
+    {
+      "id": "ru_en_c2:18",
+      "ru": "передвижение",
+      "target": "locomotion"
+    },
+    {
+      "id": "ru_en_c2:19",
+      "ru": "индивидуализм",
+      "target": "individualism"
+    },
+    {
+      "id": "ru_en_c2:20",
+      "ru": "воинственный",
+      "target": "belligerent"
+    },
+    {
+      "id": "ru_en_c2:21",
+      "ru": "воинственность",
+      "target": "belligerence"
+    },
+    {
+      "id": "ru_en_c2:22",
+      "ru": "стоицизм",
+      "target": "stoicism"
+    },
+    {
+      "id": "ru_en_c2:23",
+      "ru": "преднамеренный",
+      "target": "deliberate"
+    },
+    {
+      "id": "ru_en_c2:24",
+      "ru": "отшельник",
+      "target": "recluse"
+    },
+    {
+      "id": "ru_en_c2:25",
+      "ru": "затворник",
+      "target": "reclusive"
+    },
+    {
+      "id": "ru_en_c2:26",
+      "ru": "металлизированный",
+      "target": "metalled"
+    },
+    {
+      "id": "ru_en_c2:27",
+      "ru": "краткий",
+      "target": "brief"
+    },
+    {
+      "id": "ru_en_c2:28",
+      "ru": "косой",
+      "target": "oblique"
+    },
+    {
+      "id": "ru_en_c2:29",
+      "ru": "факсимиле",
+      "target": "facsimile"
+    },
+    {
+      "id": "ru_en_c2:30",
+      "ru": "путаться",
+      "target": "shamble"
+    },
+    {
+      "id": "ru_en_c2:31",
+      "ru": "жужжание",
+      "target": "whir"
+    },
+    {
+      "id": "ru_en_c2:32",
+      "ru": "портить",
+      "target": "blight"
+    },
+    {
+      "id": "ru_en_c2:33",
+      "ru": "пуританский",
+      "target": "puritanical"
+    },
+    {
+      "id": "ru_en_c2:34",
+      "ru": "выводок",
+      "target": "brood"
+    },
+    {
+      "id": "ru_en_c2:35",
+      "ru": "презрительный",
+      "target": "disdainful"
+    },
+    {
+      "id": "ru_en_c2:36",
+      "ru": "зоолог",
+      "target": "zoologist"
+    },
+    {
+      "id": "ru_en_c2:37",
+      "ru": "зоология",
+      "target": "zoology"
+    },
+    {
+      "id": "ru_en_c2:38",
+      "ru": "обременение",
+      "target": "encumbrance"
+    },
+    {
+      "id": "ru_en_c2:39",
+      "ru": "обременять",
+      "target": "encumber"
+    },
+    {
+      "id": "ru_en_c2:40",
+      "ru": "гипотеза",
+      "target": "hypothesis"
+    },
+    {
+      "id": "ru_en_c2:41",
+      "ru": "гипотетический",
+      "target": "hypothetical"
+    },
+    {
+      "id": "ru_en_c2:42",
+      "ru": "паразитический",
+      "target": "parasitic"
+    },
+    {
+      "id": "ru_en_c2:43",
+      "ru": "оперение",
+      "target": "plumage"
+    },
+    {
+      "id": "ru_en_c2:44",
+      "ru": "утилитарный",
+      "target": "utilitarian"
+    },
+    {
+      "id": "ru_en_c2:45",
+      "ru": "использовать",
+      "target": "utilize"
+    },
+    {
+      "id": "ru_en_c2:46",
+      "ru": "полезность",
+      "target": "utility"
+    },
+    {
+      "id": "ru_en_c2:47",
+      "ru": "пристрастие",
+      "target": "predilection"
+    },
+    {
+      "id": "ru_en_c2:48",
+      "ru": "соразмерный",
+      "target": "commensurate"
+    },
+    {
+      "id": "ru_en_c2:49",
+      "ru": "соразмерно",
+      "target": "commensurately"
+    },
+    {
+      "id": "ru_en_c2:50",
+      "ru": "оправдать",
+      "target": "vindicate"
+    },
+    {
+      "id": "ru_en_c2:51",
+      "ru": "оправдание",
+      "target": "vindication"
+    },
+    {
+      "id": "ru_en_c2:52",
+      "ru": "притча",
+      "target": "parable"
+    },
+    {
+      "id": "ru_en_c2:53",
+      "ru": "уравновешенность",
+      "target": "poise"
+    },
+    {
+      "id": "ru_en_c2:54",
+      "ru": "министр",
+      "target": "minster"
+    },
+    {
+      "id": "ru_en_c2:55",
+      "ru": "крушение",
+      "target": "wrack"
+    },
+    {
+      "id": "ru_en_c2:56",
+      "ru": "ироничный",
+      "target": "ironic"
+    },
+    {
+      "id": "ru_en_c2:57",
+      "ru": "предшественник",
+      "target": "predecessor"
+    },
+    {
+      "id": "ru_en_c2:58",
+      "ru": "союзник",
+      "target": "ally"
+    },
+    {
+      "id": "ru_en_c2:59",
+      "ru": "бессердечный",
+      "target": "callous"
+    },
+    {
+      "id": "ru_en_c2:60",
+      "ru": "бессердечно",
+      "target": "callously"
+    },
+    {
+      "id": "ru_en_c2:61",
+      "ru": "заброшенный",
+      "target": "derelict"
+    },
+    {
+      "id": "ru_en_c2:62",
+      "ru": "материализм",
+      "target": "materialism"
+    },
+    {
+      "id": "ru_en_c2:63",
+      "ru": "материалистический",
+      "target": "materialistic"
+    },
+    {
+      "id": "ru_en_c2:64",
+      "ru": "свирепость",
+      "target": "ferocity"
+    },
+    {
+      "id": "ru_en_c2:65",
+      "ru": "произнести",
+      "target": "utter"
+    },
+    {
+      "id": "ru_en_c2:66",
+      "ru": "вызывающе",
+      "target": "evokingly"
+    },
+    {
+      "id": "ru_en_c2:67",
+      "ru": "декламация",
+      "target": "recitation"
+    },
+    {
+      "id": "ru_en_c2:68",
+      "ru": "уравновешенный",
+      "target": "equable"
+    },
+    {
+      "id": "ru_en_c2:69",
+      "ru": "сохранившийся",
+      "target": "extant"
+    },
+    {
+      "id": "ru_en_c2:70",
+      "ru": "осуждать",
+      "target": "denounce"
+    },
+    {
+      "id": "ru_en_c2:71",
+      "ru": "донос",
+      "target": "denunciation"
+    },
+    {
+      "id": "ru_en_c2:72",
+      "ru": "эхо",
+      "target": "echo"
+    },
+    {
+      "id": "ru_en_c2:73",
+      "ru": "реквизиция",
+      "target": "requisition"
+    },
+    {
+      "id": "ru_en_c2:74",
+      "ru": "обосновать",
+      "target": "substantiate"
+    },
+    {
+      "id": "ru_en_c2:75",
+      "ru": "непостижимый",
+      "target": "inscrutable"
+    },
+    {
+      "id": "ru_en_c2:76",
+      "ru": "стратосфера",
+      "target": "stratosphere"
+    },
+    {
+      "id": "ru_en_c2:77",
+      "ru": "баловаться",
+      "target": "indulge"
+    },
+    {
+      "id": "ru_en_c2:78",
+      "ru": "снисходительность",
+      "target": "indulgence"
+    },
+    {
+      "id": "ru_en_c2:79",
+      "ru": "снисходительно",
+      "target": "indulgently"
+    },
+    {
+      "id": "ru_en_c2:80",
+      "ru": "хвалебный",
+      "target": "laudatory"
+    },
+    {
+      "id": "ru_en_c2:81",
+      "ru": "хвалить",
+      "target": "laud"
+    },
+    {
+      "id": "ru_en_c2:82",
+      "ru": "блеск",
+      "target": "glitz"
+    },
+    {
+      "id": "ru_en_c2:83",
+      "ru": "блестящий",
+      "target": "glitzy"
+    },
+    {
+      "id": "ru_en_c2:84",
+      "ru": "автоматизировать",
+      "target": "automate"
+    },
+    {
+      "id": "ru_en_c2:85",
+      "ru": "задержать",
+      "target": "apprehend"
+    },
+    {
+      "id": "ru_en_c2:86",
+      "ru": "атлетизм",
+      "target": "athleticism"
+    },
+    {
+      "id": "ru_en_c2:87",
+      "ru": "устрашать",
+      "target": "daunt"
+    },
+    {
+      "id": "ru_en_c2:88",
+      "ru": "устрашающий",
+      "target": "daunting"
+    },
+    {
+      "id": "ru_en_c2:89",
+      "ru": "площадь",
+      "target": "acreage"
+    },
+    {
+      "id": "ru_en_c2:90",
+      "ru": "аффектация",
+      "target": "affectation"
+    },
+    {
+      "id": "ru_en_c2:91",
+      "ru": "навязывание",
+      "target": "imposition"
+    },
+    {
+      "id": "ru_en_c2:92",
+      "ru": "схема",
+      "target": "circuit"
+    },
+    {
+      "id": "ru_en_c2:93",
+      "ru": "оговаривать",
+      "target": "stipulate"
+    },
+    {
+      "id": "ru_en_c2:94",
+      "ru": "оговорка",
+      "target": "stipulation"
+    },
+    {
+      "id": "ru_en_c2:95",
+      "ru": "выделять",
+      "target": "allot"
+    },
+    {
+      "id": "ru_en_c2:96",
+      "ru": "выделение",
+      "target": "allotment"
+    },
+    {
+      "id": "ru_en_c2:97",
+      "ru": "разочаровывающий",
+      "target": "anticlimactically"
+    },
+    {
+      "id": "ru_en_c2:98",
+      "ru": "конфискация",
+      "target": "forfeiture"
+    },
+    {
+      "id": "ru_en_c2:99",
+      "ru": "блиц",
+      "target": "blitz"
+    },
+    {
+      "id": "ru_en_c2:100",
+      "ru": "первобытный",
+      "target": "primeval"
+    },
+    {
+      "id": "ru_en_c2:101",
+      "ru": "упорство",
+      "target": "tenacity"
+    },
+    {
+      "id": "ru_en_c2:102",
+      "ru": "цепкий",
+      "target": "tenacious"
+    },
+    {
+      "id": "ru_en_c2:103",
+      "ru": "упорно",
+      "target": "tenaciously"
+    },
+    {
+      "id": "ru_en_c2:104",
+      "ru": "точный",
+      "target": "exact"
+    },
+    {
+      "id": "ru_en_c2:105",
+      "ru": "геномный",
+      "target": "genomic"
+    },
+    {
+      "id": "ru_en_c2:106",
+      "ru": "геномно",
+      "target": "genomically"
+    },
+    {
+      "id": "ru_en_c2:107",
+      "ru": "вместительный",
+      "target": "capacious"
+    },
+    {
+      "id": "ru_en_c2:108",
+      "ru": "однозначный",
+      "target": "unequivocal"
+    },
+    {
+      "id": "ru_en_c2:109",
+      "ru": "однозначно",
+      "target": "unequivocally"
+    },
+    {
+      "id": "ru_en_c2:110",
+      "ru": "спонтанность",
+      "target": "spontaneity"
+    },
+    {
+      "id": "ru_en_c2:111",
+      "ru": "провокация",
+      "target": "provocation"
+    },
+    {
+      "id": "ru_en_c2:112",
+      "ru": "скука",
+      "target": "tedium"
+    },
+    {
+      "id": "ru_en_c2:113",
+      "ru": "договорной",
+      "target": "contractual"
+    },
+    {
+      "id": "ru_en_c2:114",
+      "ru": "репутация",
+      "target": "repute"
+    },
+    {
+      "id": "ru_en_c2:115",
+      "ru": "отвратительный",
+      "target": "abject"
+    },
+    {
+      "id": "ru_en_c2:116",
+      "ru": "сноп",
+      "target": "sheaf"
+    },
+    {
+      "id": "ru_en_c2:117",
+      "ru": "артикуляция",
+      "target": "articulation"
+    },
+    {
+      "id": "ru_en_c2:118",
+      "ru": "формулировать",
+      "target": "articulate"
+    },
+    {
+      "id": "ru_en_c2:119",
+      "ru": "ложный",
+      "target": "spurious"
+    },
+    {
+      "id": "ru_en_c2:120",
+      "ru": "ложно",
+      "target": "spuriously"
+    },
+    {
+      "id": "ru_en_c2:121",
+      "ru": "поза",
+      "target": "posture"
+    },
+    {
+      "id": "ru_en_c2:122",
+      "ru": "теплотворный",
+      "target": "calorific"
+    },
+    {
+      "id": "ru_en_c2:123",
+      "ru": "выдумывать",
+      "target": "fabulate"
+    },
+    {
+      "id": "ru_en_c2:124",
+      "ru": "выдумка",
+      "target": "fabulation"
+    },
+    {
+      "id": "ru_en_c2:125",
+      "ru": "восьмидесятилетний",
+      "target": "octogenarian"
+    },
+    {
+      "id": "ru_en_c2:126",
+      "ru": "прожорливость",
+      "target": "voracity"
+    },
+    {
+      "id": "ru_en_c2:127",
+      "ru": "размахивать",
+      "target": "brandish"
+    },
+    {
+      "id": "ru_en_c2:128",
+      "ru": "отдых",
+      "target": "repose"
+    },
+    {
+      "id": "ru_en_c2:129",
+      "ru": "необремененный",
+      "target": "unencumbered"
+    },
+    {
+      "id": "ru_en_c2:130",
+      "ru": "шутовство",
+      "target": "buffoonery"
+    },
+    {
+      "id": "ru_en_c2:131",
+      "ru": "неловкий",
+      "target": "gauche"
+    },
+    {
+      "id": "ru_en_c2:132",
+      "ru": "накапливаться",
+      "target": "accrue"
+    },
+    {
+      "id": "ru_en_c2:133",
+      "ru": "распространение",
+      "target": "proliferation"
+    },
+    {
+      "id": "ru_en_c2:134",
+      "ru": "уговоры",
+      "target": "blandishment"
+    },
+    {
+      "id": "ru_en_c2:135",
+      "ru": "срывать",
+      "target": "pluck"
+    },
+    {
+      "id": "ru_en_c2:136",
+      "ru": "антропологический",
+      "target": "anthropological"
+    },
+    {
+      "id": "ru_en_c2:137",
+      "ru": "антропологически",
+      "target": "anthropologically"
+    },
+    {
+      "id": "ru_en_c2:138",
+      "ru": "монашеский",
+      "target": "monastic"
+    },
+    {
+      "id": "ru_en_c2:139",
+      "ru": "взяточничество",
+      "target": "graft"
+    },
+    {
+      "id": "ru_en_c2:140",
+      "ru": "акушерство",
+      "target": "midwifery"
+    },
+    {
+      "id": "ru_en_c2:141",
+      "ru": "украшение",
+      "target": "adornment"
+    },
+    {
+      "id": "ru_en_c2:142",
+      "ru": "украшать",
+      "target": "adorn"
+    },
+    {
+      "id": "ru_en_c2:143",
+      "ru": "праздный",
+      "target": "idle"
+    },
+    {
+      "id": "ru_en_c2:144",
+      "ru": "догадка",
+      "target": "conjecture"
+    },
+    {
+      "id": "ru_en_c2:145",
+      "ru": "податливый",
+      "target": "malleable"
+    },
+    {
+      "id": "ru_en_c2:146",
+      "ru": "податливость",
+      "target": "malleability"
+    },
+    {
+      "id": "ru_en_c2:147",
+      "ru": "руда",
+      "target": "ore"
+    },
+    {
+      "id": "ru_en_c2:148",
+      "ru": "шторм",
+      "target": "gale"
+    },
+    {
+      "id": "ru_en_c2:149",
+      "ru": "набережная",
+      "target": "promenade"
+    },
+    {
+      "id": "ru_en_c2:150",
+      "ru": "свидетельство",
+      "target": "testimonial"
+    },
+    {
+      "id": "ru_en_c2:151",
+      "ru": "перегонять",
+      "target": "distill"
+    },
+    {
+      "id": "ru_en_c2:152",
+      "ru": "дистилляция",
+      "target": "distillation"
+    },
+    {
+      "id": "ru_en_c2:153",
+      "ru": "информатор",
+      "target": "informant"
+    },
+    {
+      "id": "ru_en_c2:154",
+      "ru": "визави",
+      "target": "vis-a-vis"
+    },
+    {
+      "id": "ru_en_c2:155",
+      "ru": "наложение",
+      "target": "overlay"
+    },
+    {
+      "id": "ru_en_c2:156",
+      "ru": "ностальгия",
+      "target": "nostalgia"
+    },
+    {
+      "id": "ru_en_c2:157",
+      "ru": "ностальгический",
+      "target": "nostalgic"
+    },
+    {
+      "id": "ru_en_c2:158",
+      "ru": "ностальгически",
+      "target": "nostalgically"
+    },
+    {
+      "id": "ru_en_c2:159",
+      "ru": "обида",
+      "target": "grievance"
+    },
+    {
+      "id": "ru_en_c2:160",
+      "ru": "лишение",
+      "target": "deprivation"
+    },
+    {
+      "id": "ru_en_c2:161",
+      "ru": "остаток",
+      "target": "residue"
+    },
+    {
+      "id": "ru_en_c2:162",
+      "ru": "остаток",
+      "target": "residual"
+    },
+    {
+      "id": "ru_en_c2:163",
+      "ru": "физиологический",
+      "target": "physiological"
+    },
+    {
+      "id": "ru_en_c2:164",
+      "ru": "физиологически",
+      "target": "physiologically"
+    },
+    {
+      "id": "ru_en_c2:165",
+      "ru": "методология",
+      "target": "methodology"
+    },
+    {
+      "id": "ru_en_c2:166",
+      "ru": "методический",
+      "target": "methodological"
+    },
+    {
+      "id": "ru_en_c2:167",
+      "ru": "методологически",
+      "target": "methodologically"
+    },
+    {
+      "id": "ru_en_c2:168",
+      "ru": "пропорциональный",
+      "target": "proportional"
+    },
+    {
+      "id": "ru_en_c2:169",
+      "ru": "пропорционально",
+      "target": "proportionally"
+    },
+    {
+      "id": "ru_en_c2:170",
+      "ru": "жилье",
+      "target": "habitation"
+    },
+    {
+      "id": "ru_en_c2:171",
+      "ru": "нехудожественный",
+      "target": "inartistic"
+    },
+    {
+      "id": "ru_en_c2:172",
+      "ru": "модернизм",
+      "target": "modernism"
+    },
+    {
+      "id": "ru_en_c2:173",
+      "ru": "предполагать",
+      "target": "presuppose"
+    },
+    {
+      "id": "ru_en_c2:174",
+      "ru": "предпосылка",
+      "target": "presupposition"
+    },
+    {
+      "id": "ru_en_c2:175",
+      "ru": "контекстуальный",
+      "target": "contextual"
+    },
+    {
+      "id": "ru_en_c2:176",
+      "ru": "контекстуально",
+      "target": "contextually"
+    },
+    {
+      "id": "ru_en_c2:177",
+      "ru": "передатчик",
+      "target": "transmitter"
+    },
+    {
+      "id": "ru_en_c2:178",
+      "ru": "нормативный",
+      "target": "regulatory"
+    },
+    {
+      "id": "ru_en_c2:179",
+      "ru": "архивный",
+      "target": "archival"
+    },
+    {
+      "id": "ru_en_c2:180",
+      "ru": "диффузный",
+      "target": "diffuse"
+    },
+    {
+      "id": "ru_en_c2:181",
+      "ru": "эгалитарный",
+      "target": "egalitarian"
+    },
+    {
+      "id": "ru_en_c2:182",
+      "ru": "разойтись",
+      "target": "disperse"
+    },
+    {
+      "id": "ru_en_c2:183",
+      "ru": "рассеяние",
+      "target": "dispersal"
+    },
+    {
+      "id": "ru_en_c2:184",
+      "ru": "неблагоприятный",
+      "target": "adverse"
+    },
+    {
+      "id": "ru_en_c2:185",
+      "ru": "неблагоприятно",
+      "target": "adversely"
+    },
+    {
+      "id": "ru_en_c2:186",
+      "ru": "всепроникающий",
+      "target": "pervasive"
+    },
+    {
+      "id": "ru_en_c2:187",
+      "ru": "повсеместность",
+      "target": "pervasiveness"
+    },
+    {
+      "id": "ru_en_c2:188",
+      "ru": "безопасный",
+      "target": "secure"
+    },
+    {
+      "id": "ru_en_c2:189",
+      "ru": "автономный",
+      "target": "autonomous"
+    },
+    {
+      "id": "ru_en_c2:190",
+      "ru": "автономно",
+      "target": "autonomously"
+    },
+    {
+      "id": "ru_en_c2:191",
+      "ru": "устаревший",
+      "target": "outmoded"
+    },
+    {
+      "id": "ru_en_c2:192",
+      "ru": "фаза",
+      "target": "phase"
+    },
+    {
+      "id": "ru_en_c2:193",
+      "ru": "слива",
+      "target": "plum"
+    },
+    {
+      "id": "ru_en_c2:194",
+      "ru": "общеизвестно",
+      "target": "notoriously"
+    },
+    {
+      "id": "ru_en_c2:195",
+      "ru": "известность",
+      "target": "notoriety"
+    },
+    {
+      "id": "ru_en_c2:196",
+      "ru": "чернорабочий",
+      "target": "menial"
+    },
+    {
+      "id": "ru_en_c2:197",
+      "ru": "островной",
+      "target": "insular"
+    },
+    {
+      "id": "ru_en_c2:198",
+      "ru": "противоядие",
+      "target": "antidote"
+    },
+    {
+      "id": "ru_en_c2:199",
+      "ru": "постуральный",
+      "target": "postural"
+    },
+    {
+      "id": "ru_en_c2:200",
+      "ru": "позерство",
+      "target": "posturing"
+    },
+    {
+      "id": "ru_en_c2:201",
+      "ru": "разоблачительный",
+      "target": "revelatory"
+    },
+    {
+      "id": "ru_en_c2:202",
+      "ru": "случайный",
+      "target": "haphazard"
+    },
+    {
+      "id": "ru_en_c2:203",
+      "ru": "случайно",
+      "target": "haphazardly"
+    },
+    {
+      "id": "ru_en_c2:204",
+      "ru": "несовершенный",
+      "target": "deficient"
+    },
+    {
+      "id": "ru_en_c2:205",
+      "ru": "недостаточно",
+      "target": "deficiently"
+    },
+    {
+      "id": "ru_en_c2:206",
+      "ru": "дефицит",
+      "target": "deficit"
+    },
+    {
+      "id": "ru_en_c2:207",
+      "ru": "деликатесы",
+      "target": "delicatessen"
+    },
+    {
+      "id": "ru_en_c2:208",
+      "ru": "мускулистый",
+      "target": "muscle-bound"
+    },
+    {
+      "id": "ru_en_c2:209",
+      "ru": "нырять",
+      "target": "dive"
+    },
+    {
+      "id": "ru_en_c2:210",
+      "ru": "постулировать",
+      "target": "posit"
+    },
+    {
+      "id": "ru_en_c2:211",
+      "ru": "кокон",
+      "target": "cocoon"
+    },
+    {
+      "id": "ru_en_c2:212",
+      "ru": "куколка",
+      "target": "chrysalis"
+    },
+    {
+      "id": "ru_en_c2:213",
+      "ru": "позорный",
+      "target": "ignominious"
+    },
+    {
+      "id": "ru_en_c2:214",
+      "ru": "позорно",
+      "target": "ignominiously"
+    },
+    {
+      "id": "ru_en_c2:215",
+      "ru": "эйфория",
+      "target": "euphoria"
+    },
+    {
+      "id": "ru_en_c2:216",
+      "ru": "эйфорический",
+      "target": "euphoric"
+    },
+    {
+      "id": "ru_en_c2:217",
+      "ru": "эйфорически",
+      "target": "euphorically"
+    },
+    {
+      "id": "ru_en_c2:218",
+      "ru": "понижать",
+      "target": "relegate"
+    },
+    {
+      "id": "ru_en_c2:219",
+      "ru": "поддаться",
+      "target": "succumb"
+    },
+    {
+      "id": "ru_en_c2:220",
+      "ru": "коварный",
+      "target": "treacherous"
+    },
+    {
+      "id": "ru_en_c2:221",
+      "ru": "предательски",
+      "target": "treacherously"
+    },
+    {
+      "id": "ru_en_c2:222",
+      "ru": "предательство",
+      "target": "treachery"
+    },
+    {
+      "id": "ru_en_c2:223",
+      "ru": "личинка",
+      "target": "maggot"
+    },
+    {
+      "id": "ru_en_c2:224",
+      "ru": "небо",
+      "target": "palate"
+    },
+    {
+      "id": "ru_en_c2:225",
+      "ru": "приятный",
+      "target": "palatable"
+    },
+    {
+      "id": "ru_en_c2:226",
+      "ru": "отшельник",
+      "target": "hermit"
+    },
+    {
+      "id": "ru_en_c2:227",
+      "ru": "герметичный",
+      "target": "hermetic"
+    },
+    {
+      "id": "ru_en_c2:228",
+      "ru": "неуместность",
+      "target": "irrelevancy"
+    },
+    {
+      "id": "ru_en_c2:229",
+      "ru": "моряк",
+      "target": "mariner"
+    },
+    {
+      "id": "ru_en_c2:230",
+      "ru": "раскол",
+      "target": "rift"
+    },
+    {
+      "id": "ru_en_c2:231",
+      "ru": "просто",
+      "target": "mere"
+    },
+    {
+      "id": "ru_en_c2:232",
+      "ru": "шлем",
+      "target": "helm"
+    },
+    {
+      "id": "ru_en_c2:233",
+      "ru": "автопилот",
+      "target": "autopilot"
+    },
+    {
+      "id": "ru_en_c2:234",
+      "ru": "возвышение",
+      "target": "eminence"
+    },
+    {
+      "id": "ru_en_c2:235",
+      "ru": "выдающийся",
+      "target": "eminent"
+    },
+    {
+      "id": "ru_en_c2:236",
+      "ru": "выдающийся",
+      "target": "preeminent"
+    },
+    {
+      "id": "ru_en_c2:237",
+      "ru": "неожиданный",
+      "target": "unsuspected"
+    },
+    {
+      "id": "ru_en_c2:238",
+      "ru": "отменить",
+      "target": "abolish"
+    },
+    {
+      "id": "ru_en_c2:239",
+      "ru": "паралич",
+      "target": "paralysis"
+    },
+    {
+      "id": "ru_en_c2:240",
+      "ru": "озабоченность",
+      "target": "preoccupation"
+    },
+    {
+      "id": "ru_en_c2:241",
+      "ru": "озабоченный",
+      "target": "preoccupy"
+    },
+    {
+      "id": "ru_en_c2:242",
+      "ru": "продлевать",
+      "target": "prolong"
+    },
+    {
+      "id": "ru_en_c2:243",
+      "ru": "аудит",
+      "target": "audit"
+    },
+    {
+      "id": "ru_en_c2:244",
+      "ru": "наддув",
+      "target": "pressurization"
+    },
+    {
+      "id": "ru_en_c2:245",
+      "ru": "посредник",
+      "target": "intermediary"
+    },
+    {
+      "id": "ru_en_c2:246",
+      "ru": "отельер",
+      "target": "hotelier"
+    },
+    {
+      "id": "ru_en_c2:247",
+      "ru": "обозначать",
+      "target": "denote"
+    },
+    {
+      "id": "ru_en_c2:248",
+      "ru": "обозначение",
+      "target": "denotation"
+    },
+    {
+      "id": "ru_en_c2:249",
+      "ru": "рентабельность",
+      "target": "profitability"
+    },
+    {
+      "id": "ru_en_c2:250",
+      "ru": "жаргонизм",
+      "target": "jargon"
+    },
+    {
+      "id": "ru_en_c2:251",
+      "ru": "склонение",
+      "target": "declination"
+    },
+    {
+      "id": "ru_en_c2:252",
+      "ru": "профессиональный",
+      "target": "vocational"
+    },
+    {
+      "id": "ru_en_c2:253",
+      "ru": "пространственный",
+      "target": "spatial"
+    },
+    {
+      "id": "ru_en_c2:254",
+      "ru": "пространственно",
+      "target": "spatially"
+    },
+    {
+      "id": "ru_en_c2:255",
+      "ru": "пунктуальный",
+      "target": "punctual"
+    },
+    {
+      "id": "ru_en_c2:256",
+      "ru": "пунктуальность",
+      "target": "punctuality"
+    },
+    {
+      "id": "ru_en_c2:257",
+      "ru": "интеграция",
+      "target": "integration"
+    },
+    {
+      "id": "ru_en_c2:258",
+      "ru": "внеклассный",
+      "target": "extracurricular"
+    },
+    {
+      "id": "ru_en_c2:259",
+      "ru": "охватывать",
+      "target": "encompass"
+    },
+    {
+      "id": "ru_en_c2:260",
+      "ru": "всеобъемлющий",
+      "target": "all-encompassing"
+    },
+    {
+      "id": "ru_en_c2:261",
+      "ru": "подотчетность",
+      "target": "accountability"
+    },
+    {
+      "id": "ru_en_c2:262",
+      "ru": "резвиться",
+      "target": "frolic"
+    },
+    {
+      "id": "ru_en_c2:263",
+      "ru": "обильный",
+      "target": "abundant"
+    },
+    {
+      "id": "ru_en_c2:264",
+      "ru": "обильно",
+      "target": "abundantly"
+    },
+    {
+      "id": "ru_en_c2:265",
+      "ru": "изобилие",
+      "target": "abundance"
+    },
+    {
+      "id": "ru_en_c2:266",
+      "ru": "анархический",
+      "target": "anarchic"
+    },
+    {
+      "id": "ru_en_c2:267",
+      "ru": "предписывающий",
+      "target": "prescriptive"
+    },
+    {
+      "id": "ru_en_c2:268",
+      "ru": "плита",
+      "target": "slab"
+    },
+    {
+      "id": "ru_en_c2:269",
+      "ru": "ретроспектива",
+      "target": "retrospect"
+    },
+    {
+      "id": "ru_en_c2:270",
+      "ru": "ретроспектива",
+      "target": "retrospective"
+    },
+    {
+      "id": "ru_en_c2:271",
+      "ru": "ретроспекция",
+      "target": "retrospection"
+    },
+    {
+      "id": "ru_en_c2:272",
+      "ru": "словесность",
+      "target": "wordage"
+    },
+    {
+      "id": "ru_en_c2:273",
+      "ru": "краткость",
+      "target": "brevity"
+    },
+    {
+      "id": "ru_en_c2:274",
+      "ru": "сверхъестественный",
+      "target": "uncanny"
+    },
+    {
+      "id": "ru_en_c2:275",
+      "ru": "тактика",
+      "target": "tactic"
+    },
+    {
+      "id": "ru_en_c2:276",
+      "ru": "тактический",
+      "target": "tactical"
+    },
+    {
+      "id": "ru_en_c2:277",
+      "ru": "тактически",
+      "target": "tactically"
+    },
+    {
+      "id": "ru_en_c2:278",
+      "ru": "тактильный",
+      "target": "tactile"
+    },
+    {
+      "id": "ru_en_c2:279",
+      "ru": "гамбит",
+      "target": "gambit"
+    },
+    {
+      "id": "ru_en_c2:280",
+      "ru": "болтовня",
+      "target": "babble"
+    },
+    {
+      "id": "ru_en_c2:281",
+      "ru": "безделушка",
+      "target": "bauble"
+    },
+    {
+      "id": "ru_en_c2:282",
+      "ru": "коррелировать",
+      "target": "correlate"
+    },
+    {
+      "id": "ru_en_c2:283",
+      "ru": "корреляция",
+      "target": "correlation"
+    },
+    {
+      "id": "ru_en_c2:284",
+      "ru": "горение",
+      "target": "combustion"
+    },
+    {
+      "id": "ru_en_c2:285",
+      "ru": "кропотливый",
+      "target": "painstaking"
+    },
+    {
+      "id": "ru_en_c2:286",
+      "ru": "кропотливо",
+      "target": "painstakingly"
+    },
+    {
+      "id": "ru_en_c2:287",
+      "ru": "изобретение",
+      "target": "contraption"
+    },
+    {
+      "id": "ru_en_c2:288",
+      "ru": "сетка",
+      "target": "mesh"
+    },
+    {
+      "id": "ru_en_c2:289",
+      "ru": "колебаться",
+      "target": "fluctuate"
+    },
+    {
+      "id": "ru_en_c2:290",
+      "ru": "колебание",
+      "target": "fluctuation"
+    },
+    {
+      "id": "ru_en_c2:291",
+      "ru": "лирический",
+      "target": "lyrical"
+    },
+    {
+      "id": "ru_en_c2:292",
+      "ru": "лирически",
+      "target": "lyrically"
+    },
+    {
+      "id": "ru_en_c2:293",
+      "ru": "умирающий",
+      "target": "moribund"
+    },
+    {
+      "id": "ru_en_c2:294",
+      "ru": "окунь",
+      "target": "perch"
+    },
+    {
+      "id": "ru_en_c2:295",
+      "ru": "требовать",
+      "target": "solicit"
+    },
+    {
+      "id": "ru_en_c2:296",
+      "ru": "вокалист",
+      "target": "vocalist"
+    },
+    {
+      "id": "ru_en_c2:297",
+      "ru": "благотворительность",
+      "target": "philanthropy"
+    },
+    {
+      "id": "ru_en_c2:298",
+      "ru": "филантроп",
+      "target": "philanthropist"
+    },
+    {
+      "id": "ru_en_c2:299",
+      "ru": "филантропический",
+      "target": "philanthropic"
+    },
+    {
+      "id": "ru_en_c2:300",
+      "ru": "филантропически",
+      "target": "philanthropically"
+    },
+    {
+      "id": "ru_en_c2:301",
+      "ru": "преждевременно",
+      "target": "precociously"
+    },
+    {
+      "id": "ru_en_c2:302",
+      "ru": "означать",
+      "target": "connote"
+    },
+    {
+      "id": "ru_en_c2:303",
+      "ru": "коннотация",
+      "target": "connotation"
+    },
+    {
+      "id": "ru_en_c2:304",
+      "ru": "вестник",
+      "target": "herald"
+    },
+    {
+      "id": "ru_en_c2:305",
+      "ru": "обыватель",
+      "target": "philistine"
+    },
+    {
+      "id": "ru_en_c2:306",
+      "ru": "намек",
+      "target": "innuendo"
+    },
+    {
+      "id": "ru_en_c2:307",
+      "ru": "вызывать",
+      "target": "induce"
+    },
+    {
+      "id": "ru_en_c2:308",
+      "ru": "побуждение",
+      "target": "inducement"
+    },
+    {
+      "id": "ru_en_c2:309",
+      "ru": "антология",
+      "target": "anthology"
+    },
+    {
+      "id": "ru_en_c2:310",
+      "ru": "оплакивать",
+      "target": "lament"
+    },
+    {
+      "id": "ru_en_c2:311",
+      "ru": "плач",
+      "target": "lamentation"
+    },
+    {
+      "id": "ru_en_c2:312",
+      "ru": "трубопровод",
+      "target": "conduit"
+    },
+    {
+      "id": "ru_en_c2:313",
+      "ru": "хронология",
+      "target": "chronology"
+    },
+    {
+      "id": "ru_en_c2:314",
+      "ru": "хронологический",
+      "target": "chronological"
+    },
+    {
+      "id": "ru_en_c2:315",
+      "ru": "хронологически",
+      "target": "chronologically"
+    },
+    {
+      "id": "ru_en_c2:316",
+      "ru": "равновесие",
+      "target": "equilibrium"
+    },
+    {
+      "id": "ru_en_c2:317",
+      "ru": "отскок",
+      "target": "rebound"
+    },
+    {
+      "id": "ru_en_c2:318",
+      "ru": "предложение",
+      "target": "proposition"
+    },
+    {
+      "id": "ru_en_c2:319",
+      "ru": "пометка",
+      "target": "flagging"
+    },
+    {
+      "id": "ru_en_c2:320",
+      "ru": "электрод",
+      "target": "electrode"
+    },
+    {
+      "id": "ru_en_c2:321",
+      "ru": "кофеинат",
+      "target": "caffeinate"
+    },
+    {
+      "id": "ru_en_c2:322",
+      "ru": "космический",
+      "target": "cosmic"
+    },
+    {
+      "id": "ru_en_c2:323",
+      "ru": "интермедия",
+      "target": "interlude"
+    },
+    {
+      "id": "ru_en_c2:324",
+      "ru": "убежище",
+      "target": "haven"
+    },
+    {
+      "id": "ru_en_c2:325",
+      "ru": "бенефициар",
+      "target": "beneficiary"
+    },
+    {
+      "id": "ru_en_c2:326",
+      "ru": "выздоравливать",
+      "target": "recuperate"
+    },
+    {
+      "id": "ru_en_c2:327",
+      "ru": "восстановительный",
+      "target": "recuperative"
+    },
+    {
+      "id": "ru_en_c2:328",
+      "ru": "культовый",
+      "target": "cultish"
+    },
+    {
+      "id": "ru_en_c2:329",
+      "ru": "сейсмический",
+      "target": "seismic"
+    },
+    {
+      "id": "ru_en_c2:330",
+      "ru": "безвозвратно",
+      "target": "irrevocably"
+    },
+    {
+      "id": "ru_en_c2:331",
+      "ru": "безвозвратный",
+      "target": "irrevocable"
+    },
+    {
+      "id": "ru_en_c2:332",
+      "ru": "скользить",
+      "target": "slither"
+    },
+    {
+      "id": "ru_en_c2:333",
+      "ru": "нервировать",
+      "target": "unnerve"
+    },
+    {
+      "id": "ru_en_c2:334",
+      "ru": "нервирующий",
+      "target": "unnerving"
+    },
+    {
+      "id": "ru_en_c2:335",
+      "ru": "пугающе",
+      "target": "unnervingly"
+    },
+    {
+      "id": "ru_en_c2:336",
+      "ru": "высовываться",
+      "target": "protrude"
+    },
+    {
+      "id": "ru_en_c2:337",
+      "ru": "выступ",
+      "target": "protrusion"
+    },
+    {
+      "id": "ru_en_c2:338",
+      "ru": "качественный",
+      "target": "qualitative"
+    },
+    {
+      "id": "ru_en_c2:339",
+      "ru": "процедурный",
+      "target": "procedural"
+    },
+    {
+      "id": "ru_en_c2:340",
+      "ru": "демистифицировать",
+      "target": "demystify"
+    },
+    {
+      "id": "ru_en_c2:341",
+      "ru": "демистификация",
+      "target": "demystification"
+    },
+    {
+      "id": "ru_en_c2:342",
+      "ru": "собственный",
+      "target": "proprietary"
+    },
+    {
+      "id": "ru_en_c2:343",
+      "ru": "имущественный",
+      "target": "proprietorial"
+    },
+    {
+      "id": "ru_en_c2:344",
+      "ru": "равнозначный",
+      "target": "tantamount"
+    },
+    {
+      "id": "ru_en_c2:345",
+      "ru": "шлюзы",
+      "target": "floodgates"
+    },
+    {
+      "id": "ru_en_c2:346",
+      "ru": "незаметный",
+      "target": "imperceptible"
+    },
+    {
+      "id": "ru_en_c2:347",
+      "ru": "незаметно",
+      "target": "imperceptibly"
+    },
+    {
+      "id": "ru_en_c2:348",
+      "ru": "несчастный",
+      "target": "hapless"
+    },
+    {
+      "id": "ru_en_c2:349",
+      "ru": "катастрофический",
+      "target": "catastrophic"
+    },
+    {
+      "id": "ru_en_c2:350",
+      "ru": "катастрофически",
+      "target": "catastrophically"
+    },
+    {
+      "id": "ru_en_c2:351",
+      "ru": "комиссия",
+      "target": "commission"
+    },
+    {
+      "id": "ru_en_c2:352",
+      "ru": "своенравный",
+      "target": "wayward"
+    },
+    {
+      "id": "ru_en_c2:353",
+      "ru": "аннотация",
+      "target": "blurb"
+    },
+    {
+      "id": "ru_en_c2:354",
+      "ru": "провинциальный",
+      "target": "provincial"
+    },
+    {
+      "id": "ru_en_c2:355",
+      "ru": "ленивый",
+      "target": "indolent"
+    },
+    {
+      "id": "ru_en_c2:356",
+      "ru": "лениво",
+      "target": "indolently"
+    },
+    {
+      "id": "ru_en_c2:357",
+      "ru": "праздность",
+      "target": "indolence"
+    },
+    {
+      "id": "ru_en_c2:358",
+      "ru": "вкусовик",
+      "target": "taste-maker"
+    },
+    {
+      "id": "ru_en_c2:359",
+      "ru": "девиантный",
+      "target": "deviant"
+    },
+    {
+      "id": "ru_en_c2:360",
+      "ru": "девиантно",
+      "target": "deviantly"
+    },
+    {
+      "id": "ru_en_c2:361",
+      "ru": "порождать",
+      "target": "engender"
+    },
+    {
+      "id": "ru_en_c2:362",
+      "ru": "вознаграждение",
+      "target": "emolument"
+    },
+    {
+      "id": "ru_en_c2:363",
+      "ru": "щедрость",
+      "target": "munificence"
+    },
+    {
+      "id": "ru_en_c2:364",
+      "ru": "потомство",
+      "target": "posterity"
+    },
+    {
+      "id": "ru_en_c2:365",
+      "ru": "ядовитый",
+      "target": "venomous"
+    },
+    {
+      "id": "ru_en_c2:366",
+      "ru": "ядовито",
+      "target": "venomously"
+    },
+    {
+      "id": "ru_en_c2:367",
+      "ru": "хореография",
+      "target": "choreography"
+    },
+    {
+      "id": "ru_en_c2:368",
+      "ru": "хореографический",
+      "target": "choreographical"
+    },
+    {
+      "id": "ru_en_c2:369",
+      "ru": "архетип",
+      "target": "archetype"
+    },
+    {
+      "id": "ru_en_c2:370",
+      "ru": "архетипический",
+      "target": "archetypal"
+    },
+    {
+      "id": "ru_en_c2:371",
+      "ru": "разногласия",
+      "target": "dissension"
+    },
+    {
+      "id": "ru_en_c2:372",
+      "ru": "возвышенный",
+      "target": "exalted"
+    },
+    {
+      "id": "ru_en_c2:373",
+      "ru": "возвышенно",
+      "target": "exaltedly"
+    },
+    {
+      "id": "ru_en_c2:374",
+      "ru": "адепт",
+      "target": "adept"
+    },
+    {
+      "id": "ru_en_c2:375",
+      "ru": "инертный",
+      "target": "inert"
+    },
+    {
+      "id": "ru_en_c2:376",
+      "ru": "тоска",
+      "target": "angst"
+    },
+    {
+      "id": "ru_en_c2:377",
+      "ru": "тревожный",
+      "target": "angsty"
+    },
+    {
+      "id": "ru_en_c2:378",
+      "ru": "серость",
+      "target": "drabness"
+    },
+    {
+      "id": "ru_en_c2:379",
+      "ru": "мелодичный",
+      "target": "melodious"
+    },
+    {
+      "id": "ru_en_c2:380",
+      "ru": "мелодично",
+      "target": "melodiously"
+    },
+    {
+      "id": "ru_en_c2:381",
+      "ru": "сорока",
+      "target": "magpie"
+    },
+    {
+      "id": "ru_en_c2:382",
+      "ru": "жаворонок",
+      "target": "lark"
+    },
+    {
+      "id": "ru_en_c2:383",
+      "ru": "меланхолия",
+      "target": "melancholy"
+    },
+    {
+      "id": "ru_en_c2:384",
+      "ru": "метеорология",
+      "target": "meteorology"
+    },
+    {
+      "id": "ru_en_c2:385",
+      "ru": "метеорологический",
+      "target": "meteorological"
+    },
+    {
+      "id": "ru_en_c2:386",
+      "ru": "грань",
+      "target": "brink"
+    },
+    {
+      "id": "ru_en_c2:387",
+      "ru": "непревзойденный",
+      "target": "unsurpassed"
+    },
+    {
+      "id": "ru_en_c2:388",
+      "ru": "опрокидывать",
+      "target": "topple"
+    },
+    {
+      "id": "ru_en_c2:389",
+      "ru": "внутренний",
+      "target": "intrinsic"
+    },
+    {
+      "id": "ru_en_c2:390",
+      "ru": "заслуга",
+      "target": "merit"
+    },
+    {
+      "id": "ru_en_c2:391",
+      "ru": "рекламируемый",
+      "target": "promotable"
+    },
+    {
+      "id": "ru_en_c2:392",
+      "ru": "клинч",
+      "target": "clinch"
+    },
+    {
+      "id": "ru_en_c2:393",
+      "ru": "анонимность",
+      "target": "anonymity"
+    },
+    {
+      "id": "ru_en_c2:394",
+      "ru": "осколок",
+      "target": "splinter"
+    },
+    {
+      "id": "ru_en_c2:395",
+      "ru": "упрек",
+      "target": "reproach"
+    },
+    {
+      "id": "ru_en_c2:396",
+      "ru": "распространять",
+      "target": "disseminate"
+    },
+    {
+      "id": "ru_en_c2:397",
+      "ru": "распространение",
+      "target": "dissemination"
+    },
+    {
+      "id": "ru_en_c2:398",
+      "ru": "лукавить",
+      "target": "dissemble"
+    },
+    {
+      "id": "ru_en_c2:399",
+      "ru": "калечить",
+      "target": "mangle"
+    },
+    {
+      "id": "ru_en_c2:400",
+      "ru": "лишенный",
+      "target": "bereft"
+    },
+    {
+      "id": "ru_en_c2:401",
+      "ru": "безнадежно",
+      "target": "bereftly"
+    },
+    {
+      "id": "ru_en_c2:402",
+      "ru": "монолог",
+      "target": "soliloquy"
+    },
+    {
+      "id": "ru_en_c2:403",
+      "ru": "солипсизм",
+      "target": "solipsism"
+    },
+    {
+      "id": "ru_en_c2:404",
+      "ru": "монолог",
+      "target": "soliloquize"
+    },
+    {
+      "id": "ru_en_c2:405",
+      "ru": "мятежный",
+      "target": "mutinous"
+    },
+    {
+      "id": "ru_en_c2:406",
+      "ru": "мятежно",
+      "target": "mutinously"
+    },
+    {
+      "id": "ru_en_c2:407",
+      "ru": "чопорный",
+      "target": "prissy"
+    },
+    {
+      "id": "ru_en_c2:408",
+      "ru": "рептилия",
+      "target": "reptilian"
+    },
+    {
+      "id": "ru_en_c2:409",
+      "ru": "уменьшать",
+      "target": "diminish"
+    },
+    {
+      "id": "ru_en_c2:410",
+      "ru": "неубывающий",
+      "target": "undiminishing"
+    },
+    {
+      "id": "ru_en_c2:411",
+      "ru": "заражение",
+      "target": "contagion"
+    },
+    {
+      "id": "ru_en_c2:412",
+      "ru": "усадьба",
+      "target": "homestead"
+    },
+    {
+      "id": "ru_en_c2:413",
+      "ru": "лежачий",
+      "target": "recumbent"
+    },
+    {
+      "id": "ru_en_c2:414",
+      "ru": "беспечный",
+      "target": "nonchalant"
+    },
+    {
+      "id": "ru_en_c2:415",
+      "ru": "беспечно",
+      "target": "nonchalantly"
+    },
+    {
+      "id": "ru_en_c2:416",
+      "ru": "гипнотизирующий",
+      "target": "mesmeric"
+    },
+    {
+      "id": "ru_en_c2:417",
+      "ru": "отуплять",
+      "target": "stultify"
+    },
+    {
+      "id": "ru_en_c2:418",
+      "ru": "отупляюще",
+      "target": "stultifyingly"
+    },
+    {
+      "id": "ru_en_c2:419",
+      "ru": "валяться",
+      "target": "wallow"
+    },
+    {
+      "id": "ru_en_c2:420",
+      "ru": "тяжеловесный",
+      "target": "ponderous"
+    },
+    {
+      "id": "ru_en_c2:421",
+      "ru": "тяжеловесно",
+      "target": "ponderously"
+    },
+    {
+      "id": "ru_en_c2:422",
+      "ru": "усталость",
+      "target": "lassitude"
+    },
+    {
+      "id": "ru_en_c2:423",
+      "ru": "окрестности",
+      "target": "vicinity"
+    },
+    {
+      "id": "ru_en_c2:424",
+      "ru": "отлив",
+      "target": "ebb"
+    },
+    {
+      "id": "ru_en_c2:425",
+      "ru": "воск",
+      "target": "wax"
+    },
+    {
+      "id": "ru_en_c2:426",
+      "ru": "ослабевать",
+      "target": "wane"
+    },
+    {
+      "id": "ru_en_c2:427",
+      "ru": "допотопный",
+      "target": "antediluvian"
+    },
+    {
+      "id": "ru_en_c2:428",
+      "ru": "мнимый",
+      "target": "ostensible"
+    },
+    {
+      "id": "ru_en_c2:429",
+      "ru": "якобы",
+      "target": "ostensibly"
+    },
+    {
+      "id": "ru_en_c2:430",
+      "ru": "переплетение",
+      "target": "interlocking"
+    },
+    {
+      "id": "ru_en_c2:431",
+      "ru": "самолет",
+      "target": "plane"
+    },
+    {
+      "id": "ru_en_c2:432",
+      "ru": "недемонстративный",
+      "target": "undemonstrative"
+    },
+    {
+      "id": "ru_en_c2:433",
+      "ru": "недемонстративно",
+      "target": "undemonstratively"
+    },
+    {
+      "id": "ru_en_c2:434",
+      "ru": "угроза",
+      "target": "menace"
+    },
+    {
+      "id": "ru_en_c2:435",
+      "ru": "угрожающий",
+      "target": "menacing"
+    },
+    {
+      "id": "ru_en_c2:436",
+      "ru": "угрожающе",
+      "target": "menacingly"
+    },
+    {
+      "id": "ru_en_c2:437",
+      "ru": "бедствие",
+      "target": "calamity"
+    },
+    {
+      "id": "ru_en_c2:438",
+      "ru": "катастрофический",
+      "target": "calamitous"
+    },
+    {
+      "id": "ru_en_c2:439",
+      "ru": "катастрофически",
+      "target": "calamitously"
+    },
+    {
+      "id": "ru_en_c2:440",
+      "ru": "близко",
+      "target": "nigh"
+    },
+    {
+      "id": "ru_en_c2:441",
+      "ru": "строгий",
+      "target": "austere"
+    },
+    {
+      "id": "ru_en_c2:442",
+      "ru": "строго",
+      "target": "austerely"
+    },
+    {
+      "id": "ru_en_c2:443",
+      "ru": "идиосинкразия",
+      "target": "idiosyncrasy"
+    },
+    {
+      "id": "ru_en_c2:444",
+      "ru": "своеобразный",
+      "target": "idiosyncratic"
+    },
+    {
+      "id": "ru_en_c2:445",
+      "ru": "идиоматический",
+      "target": "idiomatic"
+    },
+    {
+      "id": "ru_en_c2:446",
+      "ru": "идиоматически",
+      "target": "idiomatically"
+    },
+    {
+      "id": "ru_en_c2:447",
+      "ru": "кинетический",
+      "target": "kinetic"
+    },
+    {
+      "id": "ru_en_c2:448",
+      "ru": "кинетически",
+      "target": "kinetically"
+    },
+    {
+      "id": "ru_en_c2:449",
+      "ru": "непосредственный",
+      "target": "unmediated"
+    },
+    {
+      "id": "ru_en_c2:450",
+      "ru": "посредничать",
+      "target": "mediate"
+    },
+    {
+      "id": "ru_en_c2:451",
+      "ru": "посредничество",
+      "target": "mediation"
+    },
+    {
+      "id": "ru_en_c2:452",
+      "ru": "неторопливый",
+      "target": "unharried"
+    },
+    {
+      "id": "ru_en_c2:453",
+      "ru": "образный",
+      "target": "figurative"
+    },
+    {
+      "id": "ru_en_c2:454",
+      "ru": "экзорцизм",
+      "target": "exorcism"
+    },
+    {
+      "id": "ru_en_c2:455",
+      "ru": "экзорцист",
+      "target": "exorcist"
+    },
+    {
+      "id": "ru_en_c2:456",
+      "ru": "обыденность",
+      "target": "mundanity"
+    },
+    {
+      "id": "ru_en_c2:457",
+      "ru": "посредственность",
+      "target": "mediocrity"
+    },
+    {
+      "id": "ru_en_c2:458",
+      "ru": "сомнительно",
+      "target": "dubiously"
+    },
+    {
+      "id": "ru_en_c2:459",
+      "ru": "курировать",
+      "target": "curate"
+    },
+    {
+      "id": "ru_en_c2:460",
+      "ru": "куратор",
+      "target": "curator"
+    },
+    {
+      "id": "ru_en_c2:461",
+      "ru": "антитеза",
+      "target": "antithesis"
+    },
+    {
+      "id": "ru_en_c2:462",
+      "ru": "противоположный",
+      "target": "antithetical"
+    },
+    {
+      "id": "ru_en_c2:463",
+      "ru": "параметр",
+      "target": "parameter"
+    },
+    {
+      "id": "ru_en_c2:464",
+      "ru": "умалять",
+      "target": "detract"
+    },
+    {
+      "id": "ru_en_c2:465",
+      "ru": "допрашивать",
+      "target": "interrogate"
+    },
+    {
+      "id": "ru_en_c2:466",
+      "ru": "допрос",
+      "target": "interrogation"
+    },
+    {
+      "id": "ru_en_c2:467",
+      "ru": "вопросительный",
+      "target": "interrogative"
+    },
+    {
+      "id": "ru_en_c2:468",
+      "ru": "вопросительно",
+      "target": "interrogatively"
+    },
+    {
+      "id": "ru_en_c2:469",
+      "ru": "извращенный",
+      "target": "perverse"
+    },
+    {
+      "id": "ru_en_c2:470",
+      "ru": "извращенность",
+      "target": "perversity"
+    },
+    {
+      "id": "ru_en_c2:471",
+      "ru": "достижение",
+      "target": "attainment"
+    },
+    {
+      "id": "ru_en_c2:472",
+      "ru": "непрозрачный",
+      "target": "opaque"
+    },
+    {
+      "id": "ru_en_c2:473",
+      "ru": "непрозрачность",
+      "target": "opacity"
+    },
+    {
+      "id": "ru_en_c2:474",
+      "ru": "переводить",
+      "target": "remit"
+    },
+    {
+      "id": "ru_en_c2:475",
+      "ru": "пьедестал",
+      "target": "pedestal"
+    },
+    {
+      "id": "ru_en_c2:476",
+      "ru": "пешеход",
+      "target": "pedestrian"
+    },
+    {
+      "id": "ru_en_c2:477",
+      "ru": "мрачный",
+      "target": "lurid"
+    },
+    {
+      "id": "ru_en_c2:478",
+      "ru": "мрачно",
+      "target": "luridly"
+    },
+    {
+      "id": "ru_en_c2:479",
+      "ru": "заблуждение",
+      "target": "fallacy"
+    },
+    {
+      "id": "ru_en_c2:480",
+      "ru": "изобилие",
+      "target": "rife"
+    },
+    {
+      "id": "ru_en_c2:481",
+      "ru": "ворчать",
+      "target": "grumble"
+    },
+    {
+      "id": "ru_en_c2:482",
+      "ru": "наемник",
+      "target": "mercenary"
+    },
+    {
+      "id": "ru_en_c2:483",
+      "ru": "многосложный",
+      "target": "polysyllabic"
+    },
+    {
+      "id": "ru_en_c2:484",
+      "ru": "слоговый",
+      "target": "syllabic"
+    },
+    {
+      "id": "ru_en_c2:485",
+      "ru": "излишний",
+      "target": "superfluous"
+    },
+    {
+      "id": "ru_en_c2:486",
+      "ru": "излишне",
+      "target": "superfluously"
+    },
+    {
+      "id": "ru_en_c2:487",
+      "ru": "фрагмент",
+      "target": "snippet"
+    },
+    {
+      "id": "ru_en_c2:488",
+      "ru": "практик",
+      "target": "practitioner"
+    },
+    {
+      "id": "ru_en_c2:489",
+      "ru": "эфемерный",
+      "target": "ephemeral"
+    },
+    {
+      "id": "ru_en_c2:490",
+      "ru": "эфемерность",
+      "target": "ephemerality"
+    },
+    {
+      "id": "ru_en_c2:491",
+      "ru": "вкратце",
+      "target": "summarily"
+    },
+    {
+      "id": "ru_en_c2:492",
+      "ru": "просматривать",
+      "target": "skim"
+    },
+    {
+      "id": "ru_en_c2:493",
+      "ru": "безошибочно",
+      "target": "infallibly"
+    },
+    {
+      "id": "ru_en_c2:494",
+      "ru": "непогрешимый",
+      "target": "infallible"
+    },
+    {
+      "id": "ru_en_c2:495",
+      "ru": "непогрешимость",
+      "target": "infallibility"
+    },
+    {
+      "id": "ru_en_c2:496",
+      "ru": "разврат",
+      "target": "depravity"
+    },
+    {
+      "id": "ru_en_c2:497",
+      "ru": "развратный",
+      "target": "depraved"
+    },
+    {
+      "id": "ru_en_c2:498",
+      "ru": "осуждать",
+      "target": "deprecate"
+    },
+    {
+      "id": "ru_en_c2:499",
+      "ru": "уничижительно",
+      "target": "deprecatingly"
+    },
+    {
+      "id": "ru_en_c2:500",
+      "ru": "ругать",
+      "target": "revile"
+    },
+    {
+      "id": "ru_en_c2:501",
+      "ru": "отвращение",
+      "target": "revulsion"
+    },
+    {
+      "id": "ru_en_c2:502",
+      "ru": "тайный",
+      "target": "arcane"
+    },
+    {
+      "id": "ru_en_c2:503",
+      "ru": "тайно",
+      "target": "arcanely"
+    },
+    {
+      "id": "ru_en_c2:504",
+      "ru": "портен",
+      "target": "porten"
+    },
+    {
+      "id": "ru_en_c2:505",
+      "ru": "гадание",
+      "target": "divination"
+    },
+    {
+      "id": "ru_en_c2:506",
+      "ru": "порхать",
+      "target": "flit"
+    },
+    {
+      "id": "ru_en_c2:507",
+      "ru": "заминка",
+      "target": "hitch"
+    },
+    {
+      "id": "ru_en_c2:508",
+      "ru": "склонный",
+      "target": "prone"
+    },
+    {
+      "id": "ru_en_c2:509",
+      "ru": "мусорщик",
+      "target": "scavenger"
+    },
+    {
+      "id": "ru_en_c2:510",
+      "ru": "паразит",
+      "target": "vermin"
+    },
+    {
+      "id": "ru_en_c2:511",
+      "ru": "тотемический",
+      "target": "totemic"
+    },
+    {
+      "id": "ru_en_c2:512",
+      "ru": "подражать",
+      "target": "emulate"
+    },
+    {
+      "id": "ru_en_c2:513",
+      "ru": "эмуляция",
+      "target": "emulation"
+    },
+    {
+      "id": "ru_en_c2:514",
+      "ru": "птичий",
+      "target": "avian"
+    },
+    {
+      "id": "ru_en_c2:515",
+      "ru": "рудиментарный",
+      "target": "vestigial"
+    },
+    {
+      "id": "ru_en_c2:516",
+      "ru": "рудиментарно",
+      "target": "vestigially"
+    },
+    {
+      "id": "ru_en_c2:517",
+      "ru": "барометр",
+      "target": "barometer"
+    },
+    {
+      "id": "ru_en_c2:518",
+      "ru": "шумиха",
+      "target": "brouhaha"
+    },
+    {
+      "id": "ru_en_c2:519",
+      "ru": "магнат",
+      "target": "magnate"
+    },
+    {
+      "id": "ru_en_c2:520",
+      "ru": "великодушный",
+      "target": "magnanimous"
+    },
+    {
+      "id": "ru_en_c2:521",
+      "ru": "великодушно",
+      "target": "magnanimously"
+    },
+    {
+      "id": "ru_en_c2:522",
+      "ru": "великодушие",
+      "target": "magnanimity"
+    },
+    {
+      "id": "ru_en_c2:523",
+      "ru": "вихрь",
+      "target": "whirlwind"
+    },
+    {
+      "id": "ru_en_c2:524",
+      "ru": "пролив",
+      "target": "strait"
+    },
+    {
+      "id": "ru_en_c2:525",
+      "ru": "светский",
+      "target": "secular"
+    },
+    {
+      "id": "ru_en_c2:526",
+      "ru": "светский",
+      "target": "secularly"
+    },
+    {
+      "id": "ru_en_c2:527",
+      "ru": "эвфемизм",
+      "target": "euphemism"
+    },
+    {
+      "id": "ru_en_c2:528",
+      "ru": "эвфемистический",
+      "target": "euphemistic"
+    },
+    {
+      "id": "ru_en_c2:529",
+      "ru": "эвфемистически",
+      "target": "euphemistically"
+    },
+    {
+      "id": "ru_en_c2:530",
+      "ru": "конденсация",
+      "target": "condensation"
+    },
+    {
+      "id": "ru_en_c2:531",
+      "ru": "излишний",
+      "target": "redundant"
+    },
+    {
+      "id": "ru_en_c2:532",
+      "ru": "избыточность",
+      "target": "redundancy"
+    },
+    {
+      "id": "ru_en_c2:533",
+      "ru": "излишне",
+      "target": "redundantly"
+    },
+    {
+      "id": "ru_en_c2:534",
+      "ru": "разговорный",
+      "target": "colloquial"
+    },
+    {
+      "id": "ru_en_c2:535",
+      "ru": "коллоквиум",
+      "target": "colloquium"
+    },
+    {
+      "id": "ru_en_c2:536",
+      "ru": "намек",
+      "target": "allusion"
+    },
+    {
+      "id": "ru_en_c2:537",
+      "ru": "намекать",
+      "target": "allude"
+    },
+    {
+      "id": "ru_en_c2:538",
+      "ru": "принижать",
+      "target": "disparage"
+    },
+    {
+      "id": "ru_en_c2:539",
+      "ru": "пренебрежительный",
+      "target": "disparaging"
+    },
+    {
+      "id": "ru_en_c2:540",
+      "ru": "пренебрежительно",
+      "target": "disparagingly"
+    },
+    {
+      "id": "ru_en_c2:541",
+      "ru": "унижение",
+      "target": "disparagement"
+    },
+    {
+      "id": "ru_en_c2:542",
+      "ru": "ютиться",
+      "target": "huddle"
+    },
+    {
+      "id": "ru_en_c2:543",
+      "ru": "топография",
+      "target": "topography"
+    },
+    {
+      "id": "ru_en_c2:544",
+      "ru": "топографический",
+      "target": "topographical"
+    },
+    {
+      "id": "ru_en_c2:545",
+      "ru": "топографически",
+      "target": "topographically"
+    },
+    {
+      "id": "ru_en_c2:546",
+      "ru": "болтать",
+      "target": "confabulate"
+    },
+    {
+      "id": "ru_en_c2:547",
+      "ru": "болтовня",
+      "target": "confabulation"
+    },
+    {
+      "id": "ru_en_c2:548",
+      "ru": "сюрреалист",
+      "target": "surrealist"
+    },
+    {
+      "id": "ru_en_c2:549",
+      "ru": "сюрреализм",
+      "target": "surrealism"
+    },
+    {
+      "id": "ru_en_c2:550",
+      "ru": "изобретать",
+      "target": "contrive"
+    },
+    {
+      "id": "ru_en_c2:551",
+      "ru": "злоба",
+      "target": "malice"
+    },
+    {
+      "id": "ru_en_c2:552",
+      "ru": "злонамеренный",
+      "target": "malicious"
+    },
+    {
+      "id": "ru_en_c2:553",
+      "ru": "злонамеренно",
+      "target": "maliciously"
+    },
+    {
+      "id": "ru_en_c2:554",
+      "ru": "кинематография",
+      "target": "cinematography"
+    },
+    {
+      "id": "ru_en_c2:555",
+      "ru": "оператор",
+      "target": "cinematographer"
+    },
+    {
+      "id": "ru_en_c2:556",
+      "ru": "индивидуалист",
+      "target": "maverick"
+    },
+    {
+      "id": "ru_en_c2:557",
+      "ru": "прилежный",
+      "target": "diligent"
+    },
+    {
+      "id": "ru_en_c2:558",
+      "ru": "усердие",
+      "target": "diligence"
+    },
+    {
+      "id": "ru_en_c2:559",
+      "ru": "старательно",
+      "target": "diligently"
+    },
+    {
+      "id": "ru_en_c2:560",
+      "ru": "турель",
+      "target": "turret"
+    },
+    {
+      "id": "ru_en_c2:561",
+      "ru": "импрессионистический",
+      "target": "impressionistic"
+    },
+    {
+      "id": "ru_en_c2:562",
+      "ru": "импрессионистически",
+      "target": "impressionistically"
+    },
+    {
+      "id": "ru_en_c2:563",
+      "ru": "снобизм",
+      "target": "snobbery"
+    },
+    {
+      "id": "ru_en_c2:564",
+      "ru": "приходской",
+      "target": "parochial"
+    },
+    {
+      "id": "ru_en_c2:565",
+      "ru": "тяготеть",
+      "target": "gravitate"
+    },
+    {
+      "id": "ru_en_c2:566",
+      "ru": "гравитационный",
+      "target": "gravitational"
+    },
+    {
+      "id": "ru_en_c2:567",
+      "ru": "гравитационно",
+      "target": "gravitationally"
+    },
+    {
+      "id": "ru_en_c2:568",
+      "ru": "испуг",
+      "target": "consternation"
+    },
+    {
+      "id": "ru_en_c2:569",
+      "ru": "надменный",
+      "target": "haughty"
+    },
+    {
+      "id": "ru_en_c2:570",
+      "ru": "высокомерно",
+      "target": "haughtily"
+    },
+    {
+      "id": "ru_en_c2:571",
+      "ru": "аксиома",
+      "target": "axiom"
+    },
+    {
+      "id": "ru_en_c2:572",
+      "ru": "аксиоматический",
+      "target": "axiomatic"
+    },
+    {
+      "id": "ru_en_c2:573",
+      "ru": "истощение",
+      "target": "attrition"
+    },
+    {
+      "id": "ru_en_c2:574",
+      "ru": "надолго",
+      "target": "enduringly"
+    },
+    {
+      "id": "ru_en_c2:575",
+      "ru": "переиздание",
+      "target": "reissue"
+    },
+    {
+      "id": "ru_en_c2:576",
+      "ru": "сера",
+      "target": "sulphur"
+    },
+    {
+      "id": "ru_en_c2:577",
+      "ru": "серный",
+      "target": "sulphuric"
+    },
+    {
+      "id": "ru_en_c2:578",
+      "ru": "призрак",
+      "target": "phantom"
+    },
+    {
+      "id": "ru_en_c2:579",
+      "ru": "пришвартоваться",
+      "target": "moor"
+    },
+    {
+      "id": "ru_en_c2:580",
+      "ru": "одинокий",
+      "target": "solitary"
+    },
+    {
+      "id": "ru_en_c2:581",
+      "ru": "одиночество",
+      "target": "solitariness"
+    },
+    {
+      "id": "ru_en_c2:582",
+      "ru": "одиночество",
+      "target": "solitude"
+    },
+    {
+      "id": "ru_en_c2:583",
+      "ru": "придерживаться",
+      "target": "adhere"
+    },
+    {
+      "id": "ru_en_c2:584",
+      "ru": "адгезия",
+      "target": "adhesion"
+    },
+    {
+      "id": "ru_en_c2:585",
+      "ru": "запрещать",
+      "target": "proscribe"
+    },
+    {
+      "id": "ru_en_c2:586",
+      "ru": "запрет",
+      "target": "proscription"
+    },
+    {
+      "id": "ru_en_c2:587",
+      "ru": "приятель",
+      "target": "crony"
+    },
+    {
+      "id": "ru_en_c2:588",
+      "ru": "капать",
+      "target": "dribble"
+    },
+    {
+      "id": "ru_en_c2:589",
+      "ru": "неблагодарный",
+      "target": "ingrate"
+    },
+    {
+      "id": "ru_en_c2:590",
+      "ru": "приз",
+      "target": "prise"
+    },
+    {
+      "id": "ru_en_c2:591",
+      "ru": "шаткий",
+      "target": "rickety"
+    },
+    {
+      "id": "ru_en_c2:592",
+      "ru": "отправлять",
+      "target": "consign"
+    },
+    {
+      "id": "ru_en_c2:593",
+      "ru": "партия",
+      "target": "consignment"
+    },
+    {
+      "id": "ru_en_c2:594",
+      "ru": "праздник",
+      "target": "fete"
+    },
+    {
+      "id": "ru_en_c2:595",
+      "ru": "богатый",
+      "target": "opulent"
+    },
+    {
+      "id": "ru_en_c2:596",
+      "ru": "богатство",
+      "target": "opulence"
+    },
+    {
+      "id": "ru_en_c2:597",
+      "ru": "богато",
+      "target": "opulently"
+    },
+    {
+      "id": "ru_en_c2:598",
+      "ru": "плутократ",
+      "target": "plutocrat"
+    },
+    {
+      "id": "ru_en_c2:599",
+      "ru": "отвращение",
+      "target": "averse"
+    },
+    {
+      "id": "ru_en_c2:600",
+      "ru": "назидать",
+      "target": "edify"
+    },
+    {
+      "id": "ru_en_c2:601",
+      "ru": "назидание",
+      "target": "edification"
+    },
+    {
+      "id": "ru_en_c2:602",
+      "ru": "беседовать",
+      "target": "converse"
+    },
+    {
+      "id": "ru_en_c2:603",
+      "ru": "бесплодие",
+      "target": "sterility"
+    },
+    {
+      "id": "ru_en_c2:604",
+      "ru": "риторика",
+      "target": "rhetoric"
+    },
+    {
+      "id": "ru_en_c2:605",
+      "ru": "риторический",
+      "target": "rhetorical"
+    },
+    {
+      "id": "ru_en_c2:606",
+      "ru": "риторически",
+      "target": "rhetorically"
+    },
+    {
+      "id": "ru_en_c2:607",
+      "ru": "непостоянный",
+      "target": "flighty"
+    },
+    {
+      "id": "ru_en_c2:608",
+      "ru": "непостоянство",
+      "target": "flightiness"
+    },
+    {
+      "id": "ru_en_c2:609",
+      "ru": "сера",
+      "target": "brimstone"
+    },
+    {
+      "id": "ru_en_c2:610",
+      "ru": "безупречный",
+      "target": "impeccable"
+    },
+    {
+      "id": "ru_en_c2:611",
+      "ru": "безупречно",
+      "target": "impeccably"
+    },
+    {
+      "id": "ru_en_c2:612",
+      "ru": "возня",
+      "target": "romp"
+    },
+    {
+      "id": "ru_en_c2:613",
+      "ru": "комбинезон",
+      "target": "romper"
+    },
+    {
+      "id": "ru_en_c2:614",
+      "ru": "дотошный",
+      "target": "meticulous"
+    },
+    {
+      "id": "ru_en_c2:615",
+      "ru": "тщательно",
+      "target": "meticulously"
+    },
+    {
+      "id": "ru_en_c2:616",
+      "ru": "заискивать",
+      "target": "ingratiate"
+    },
+    {
+      "id": "ru_en_c2:617",
+      "ru": "заискивающий",
+      "target": "ingratiating"
+    },
+    {
+      "id": "ru_en_c2:618",
+      "ru": "заискивающе",
+      "target": "ingratiatingly"
+    },
+    {
+      "id": "ru_en_c2:619",
+      "ru": "мерцать",
+      "target": "shimmer"
+    },
+    {
+      "id": "ru_en_c2:620",
+      "ru": "корпус",
+      "target": "hull"
+    },
+    {
+      "id": "ru_en_c2:621",
+      "ru": "отбраковывать",
+      "target": "cull"
+    },
+    {
+      "id": "ru_en_c2:622",
+      "ru": "поворотный",
+      "target": "swivel"
+    },
+    {
+      "id": "ru_en_c2:623",
+      "ru": "отказаться",
+      "target": "relinquish"
+    },
+    {
+      "id": "ru_en_c2:624",
+      "ru": "колчан",
+      "target": "quiver"
+    },
+    {
+      "id": "ru_en_c2:625",
+      "ru": "зажатый",
+      "target": "sandwiched"
+    },
+    {
+      "id": "ru_en_c2:626",
+      "ru": "пестрый",
+      "target": "mottled"
+    },
+    {
+      "id": "ru_en_c2:627",
+      "ru": "смола",
+      "target": "resin"
+    },
+    {
+      "id": "ru_en_c2:628",
+      "ru": "степенно",
+      "target": "sedately"
+    },
+    {
+      "id": "ru_en_c2:629",
+      "ru": "угловой",
+      "target": "angular"
+    },
+    {
+      "id": "ru_en_c2:630",
+      "ru": "угловатость",
+      "target": "angularity"
+    },
+    {
+      "id": "ru_en_c2:631",
+      "ru": "увлажнять",
+      "target": "dampen"
+    },
+    {
+      "id": "ru_en_c2:632",
+      "ru": "пират",
+      "target": "buccaneer"
+    },
+    {
+      "id": "ru_en_c2:633",
+      "ru": "конгломерат",
+      "target": "conglomerate"
+    },
+    {
+      "id": "ru_en_c2:634",
+      "ru": "кей",
+      "target": "cay"
+    },
+    {
+      "id": "ru_en_c2:635",
+      "ru": "опалить",
+      "target": "singe"
+    },
+    {
+      "id": "ru_en_c2:636",
+      "ru": "кордон",
+      "target": "cordon"
+    },
+    {
+      "id": "ru_en_c2:637",
+      "ru": "легендарный",
+      "target": "fabled"
+    },
+    {
+      "id": "ru_en_c2:638",
+      "ru": "блеск",
+      "target": "glint"
+    },
+    {
+      "id": "ru_en_c2:639",
+      "ru": "адский",
+      "target": "infernal"
+    },
+    {
+      "id": "ru_en_c2:640",
+      "ru": "адски",
+      "target": "infernally"
+    },
+    {
+      "id": "ru_en_c2:641",
+      "ru": "презентационный",
+      "target": "presentational"
+    },
+    {
+      "id": "ru_en_c2:642",
+      "ru": "вставлять",
+      "target": "embed"
+    },
+    {
+      "id": "ru_en_c2:643",
+      "ru": "шлейф",
+      "target": "plume"
+    },
+    {
+      "id": "ru_en_c2:644",
+      "ru": "случайность",
+      "target": "happenstance"
+    },
+    {
+      "id": "ru_en_c2:645",
+      "ru": "предприятие",
+      "target": "venture"
+    },
+    {
+      "id": "ru_en_c2:646",
+      "ru": "примирить",
+      "target": "reconcile"
+    },
+    {
+      "id": "ru_en_c2:647",
+      "ru": "примирение",
+      "target": "reconciliation"
+    },
+    {
+      "id": "ru_en_c2:648",
+      "ru": "примирительный",
+      "target": "conciliatory"
+    },
+    {
+      "id": "ru_en_c2:649",
+      "ru": "примирение",
+      "target": "conciliation"
+    },
+    {
+      "id": "ru_en_c2:650",
+      "ru": "предубеждение",
+      "target": "preconception"
+    },
+    {
+      "id": "ru_en_c2:651",
+      "ru": "барокко",
+      "target": "baroque"
+    },
+    {
+      "id": "ru_en_c2:652",
+      "ru": "девственный",
+      "target": "virginal"
+    },
+    {
+      "id": "ru_en_c2:653",
+      "ru": "шпиль",
+      "target": "spire"
+    },
+    {
+      "id": "ru_en_c2:654",
+      "ru": "слоновий",
+      "target": "elephantine"
+    },
+    {
+      "id": "ru_en_c2:655",
+      "ru": "агентство",
+      "target": "agency"
+    },
+    {
+      "id": "ru_en_c2:656",
+      "ru": "потворствовать",
+      "target": "condone"
+    },
+    {
+      "id": "ru_en_c2:657",
+      "ru": "товар",
+      "target": "commodity"
+    },
+    {
+      "id": "ru_en_c2:658",
+      "ru": "комод",
+      "target": "commode"
+    },
+    {
+      "id": "ru_en_c2:659",
+      "ru": "ненавязчивый",
+      "target": "unobtrusive"
+    },
+    {
+      "id": "ru_en_c2:660",
+      "ru": "ненавязчиво",
+      "target": "unobtrusively"
+    },
+    {
+      "id": "ru_en_c2:661",
+      "ru": "ненавязчивость",
+      "target": "unobtrusiveness"
+    },
+    {
+      "id": "ru_en_c2:662",
+      "ru": "убедительно",
+      "target": "compellingly"
+    },
+    {
+      "id": "ru_en_c2:663",
+      "ru": "навязчиво",
+      "target": "hauntingly"
+    },
+    {
+      "id": "ru_en_c2:664",
+      "ru": "опасность",
+      "target": "hazard"
+    },
+    {
+      "id": "ru_en_c2:665",
+      "ru": "подлинность",
+      "target": "authenticity"
+    },
+    {
+      "id": "ru_en_c2:666",
+      "ru": "ученый",
+      "target": "scholarly"
+    },
+    {
+      "id": "ru_en_c2:667",
+      "ru": "доступность",
+      "target": "accessibility"
+    },
+    {
+      "id": "ru_en_c2:668",
+      "ru": "познавательный",
+      "target": "cognitive"
+    },
+    {
+      "id": "ru_en_c2:669",
+      "ru": "артефакт",
+      "target": "artifact"
+    },
+    {
+      "id": "ru_en_c2:670",
+      "ru": "беспокойство",
+      "target": "qualm"
+    },
+    {
+      "id": "ru_en_c2:671",
+      "ru": "осаждать",
+      "target": "besiege"
+    },
+    {
+      "id": "ru_en_c2:672",
+      "ru": "монастырь",
+      "target": "cloister"
+    },
+    {
+      "id": "ru_en_c2:673",
+      "ru": "закрытый",
+      "target": "cloistered"
+    },
+    {
+      "id": "ru_en_c2:674",
+      "ru": "приложение",
+      "target": "annex"
+    },
+    {
+      "id": "ru_en_c2:675",
+      "ru": "реанимировать",
+      "target": "resuscitate"
+    },
+    {
+      "id": "ru_en_c2:676",
+      "ru": "реанимация",
+      "target": "resuscitation"
+    },
+    {
+      "id": "ru_en_c2:677",
+      "ru": "восхищать",
+      "target": "ravish"
+    },
+    {
+      "id": "ru_en_c2:678",
+      "ru": "выдумывать",
+      "target": "fabricate"
+    },
+    {
+      "id": "ru_en_c2:679",
+      "ru": "изготовление",
+      "target": "fabrication"
+    },
+    {
+      "id": "ru_en_c2:680",
+      "ru": "неоднородный",
+      "target": "patchy"
+    },
+    {
+      "id": "ru_en_c2:681",
+      "ru": "неоднородно",
+      "target": "patchily"
+    },
+    {
+      "id": "ru_en_c2:682",
+      "ru": "звучный",
+      "target": "resounding"
+    },
+    {
+      "id": "ru_en_c2:683",
+      "ru": "громко",
+      "target": "resoundingly"
+    },
+    {
+      "id": "ru_en_c2:684",
+      "ru": "звучать",
+      "target": "resound"
+    },
+    {
+      "id": "ru_en_c2:685",
+      "ru": "рукоположить",
+      "target": "ordain"
+    },
+    {
+      "id": "ru_en_c2:686",
+      "ru": "зачаточный",
+      "target": "inchoate"
+    },
+    {
+      "id": "ru_en_c2:687",
+      "ru": "восторг",
+      "target": "elation"
+    },
+    {
+      "id": "ru_en_c2:688",
+      "ru": "истерия",
+      "target": "hysteria"
+    },
+    {
+      "id": "ru_en_c2:689",
+      "ru": "истеричный",
+      "target": "hysterical"
+    },
+    {
+      "id": "ru_en_c2:690",
+      "ru": "истерически",
+      "target": "hysterically"
+    },
+    {
+      "id": "ru_en_c2:691",
+      "ru": "резкий",
+      "target": "jarring"
+    },
+    {
+      "id": "ru_en_c2:692",
+      "ru": "наполнять",
+      "target": "suffuse"
+    },
+    {
+      "id": "ru_en_c2:693",
+      "ru": "шататься",
+      "target": "totter"
+    },
+    {
+      "id": "ru_en_c2:694",
+      "ru": "костер",
+      "target": "pyre"
+    },
+    {
+      "id": "ru_en_c2:695",
+      "ru": "презрительный",
+      "target": "contemptuous"
+    },
+    {
+      "id": "ru_en_c2:696",
+      "ru": "презрительно",
+      "target": "contemptuously"
+    },
+    {
+      "id": "ru_en_c2:697",
+      "ru": "несчастный",
+      "target": "forlorn"
+    },
+    {
+      "id": "ru_en_c2:698",
+      "ru": "несчастный",
+      "target": "forlornly"
+    },
+    {
+      "id": "ru_en_c2:699",
+      "ru": "упрекать",
+      "target": "rebuke"
+    },
+    {
+      "id": "ru_en_c2:700",
+      "ru": "отвратительный",
+      "target": "abhorrent"
+    },
+    {
+      "id": "ru_en_c2:701",
+      "ru": "ненавидеть",
+      "target": "abhor"
+    },
+    {
+      "id": "ru_en_c2:702",
+      "ru": "отвратительно",
+      "target": "abhorrently"
+    },
+    {
+      "id": "ru_en_c2:703",
+      "ru": "аберрация",
+      "target": "aberration"
+    },
+    {
+      "id": "ru_en_c2:704",
+      "ru": "эмульгировать",
+      "target": "emulsify"
+    },
+    {
+      "id": "ru_en_c2:705",
+      "ru": "эмульгирование",
+      "target": "emulsification"
+    },
+    {
+      "id": "ru_en_c2:706",
+      "ru": "эмульгатор",
+      "target": "emulsifier"
+    },
+    {
+      "id": "ru_en_c2:707",
+      "ru": "добавка",
+      "target": "additive"
+    },
+    {
+      "id": "ru_en_c2:708",
+      "ru": "проксимальный",
+      "target": "proximal"
+    },
+    {
+      "id": "ru_en_c2:709",
+      "ru": "вандализировать",
+      "target": "vandalize"
+    },
+    {
+      "id": "ru_en_c2:710",
+      "ru": "вандал",
+      "target": "vandal"
+    },
+    {
+      "id": "ru_en_c2:711",
+      "ru": "притворяться",
+      "target": "feign"
+    },
+    {
+      "id": "ru_en_c2:712",
+      "ru": "парадоксальный",
+      "target": "paradoxical"
+    },
+    {
+      "id": "ru_en_c2:713",
+      "ru": "парадоксально",
+      "target": "paradoxically"
+    },
+    {
+      "id": "ru_en_c2:714",
+      "ru": "ларингит",
+      "target": "laryngitis"
+    },
+    {
+      "id": "ru_en_c2:715",
+      "ru": "строгий",
+      "target": "stringent"
+    },
+    {
+      "id": "ru_en_c2:716",
+      "ru": "вяжущий",
+      "target": "astringent"
+    },
+    {
+      "id": "ru_en_c2:717",
+      "ru": "строго",
+      "target": "stringently"
+    },
+    {
+      "id": "ru_en_c2:718",
+      "ru": "стоя",
+      "target": "standing"
+    },
+    {
+      "id": "ru_en_c2:719",
+      "ru": "кормилец",
+      "target": "breadwinner"
+    },
+    {
+      "id": "ru_en_c2:720",
+      "ru": "малышка",
+      "target": "cosset"
+    },
+    {
+      "id": "ru_en_c2:721",
+      "ru": "адвокат",
+      "target": "counsel"
+    },
+    {
+      "id": "ru_en_c2:722",
+      "ru": "способности",
+      "target": "aptitude"
+    },
+    {
+      "id": "ru_en_c2:723",
+      "ru": "проливной",
+      "target": "torrential"
+    },
+    {
+      "id": "ru_en_c2:724",
+      "ru": "изгонять",
+      "target": "banish"
+    },
+    {
+      "id": "ru_en_c2:725",
+      "ru": "изгнание",
+      "target": "banishment"
+    },
+    {
+      "id": "ru_en_c2:726",
+      "ru": "ловкость",
+      "target": "knack"
+    },
+    {
+      "id": "ru_en_c2:727",
+      "ru": "осуществление",
+      "target": "fruition"
+    },
+    {
+      "id": "ru_en_c2:728",
+      "ru": "водоворот",
+      "target": "maelstrom"
+    },
+    {
+      "id": "ru_en_c2:729",
+      "ru": "вихрь",
+      "target": "vortex"
+    },
+    {
+      "id": "ru_en_c2:730",
+      "ru": "депрессивный",
+      "target": "depressive"
+    },
+    {
+      "id": "ru_en_c2:731",
+      "ru": "мелководье",
+      "target": "shoal"
+    },
+    {
+      "id": "ru_en_c2:732",
+      "ru": "прокрутка",
+      "target": "scroll"
+    },
+    {
+      "id": "ru_en_c2:733",
+      "ru": "сталкиваться",
+      "target": "collide"
+    },
+    {
+      "id": "ru_en_c2:734",
+      "ru": "коллайдер",
+      "target": "collider"
+    },
+    {
+      "id": "ru_en_c2:735",
+      "ru": "здание",
+      "target": "edifice"
+    },
+    {
+      "id": "ru_en_c2:736",
+      "ru": "чаща",
+      "target": "thicket"
+    },
+    {
+      "id": "ru_en_c2:737",
+      "ru": "закваска",
+      "target": "leaven"
+    },
+    {
+      "id": "ru_en_c2:738",
+      "ru": "закваска",
+      "target": "leavening"
+    },
+    {
+      "id": "ru_en_c2:739",
+      "ru": "этос",
+      "target": "ethos"
+    },
+    {
+      "id": "ru_en_c2:740",
+      "ru": "эксгибиционист",
+      "target": "exhibitionist"
+    },
+    {
+      "id": "ru_en_c2:741",
+      "ru": "переплетать",
+      "target": "interweave"
+    },
+    {
+      "id": "ru_en_c2:742",
+      "ru": "растущий",
+      "target": "burgeoning"
+    },
+    {
+      "id": "ru_en_c2:743",
+      "ru": "нескромный",
+      "target": "indiscrete"
+    },
+    {
+      "id": "ru_en_c2:744",
+      "ru": "неосмотрительность",
+      "target": "indiscretion"
+    },
+    {
+      "id": "ru_en_c2:745",
+      "ru": "телескопический",
+      "target": "telescopic"
+    },
+    {
+      "id": "ru_en_c2:746",
+      "ru": "телескопически",
+      "target": "telescopically"
+    },
+    {
+      "id": "ru_en_c2:747",
+      "ru": "аморфный",
+      "target": "amorphous"
+    },
+    {
+      "id": "ru_en_c2:748",
+      "ru": "аморфно",
+      "target": "amorphously"
+    },
+    {
+      "id": "ru_en_c2:749",
+      "ru": "мешать",
+      "target": "hamper"
+    },
+    {
+      "id": "ru_en_c2:750",
+      "ru": "размножаться",
+      "target": "proliferate"
+    },
+    {
+      "id": "ru_en_c2:751",
+      "ru": "избирательность",
+      "target": "selectivity"
+    },
+    {
+      "id": "ru_en_c2:752",
+      "ru": "капризный",
+      "target": "fractious"
+    },
+    {
+      "id": "ru_en_c2:753",
+      "ru": "мистика",
+      "target": "mystique"
+    },
+    {
+      "id": "ru_en_c2:754",
+      "ru": "ассимилировать",
+      "target": "assimilate"
+    },
+    {
+      "id": "ru_en_c2:755",
+      "ru": "ассимиляция",
+      "target": "assimilation"
+    },
+    {
+      "id": "ru_en_c2:756",
+      "ru": "перемежать",
+      "target": "intersperse"
+    },
+    {
+      "id": "ru_en_c2:757",
+      "ru": "дословно",
+      "target": "verbatim"
+    },
+    {
+      "id": "ru_en_c2:758",
+      "ru": "воистину",
+      "target": "verily"
+    },
+    {
+      "id": "ru_en_c2:759",
+      "ru": "настоящий",
+      "target": "veritable"
+    },
+    {
+      "id": "ru_en_c2:760",
+      "ru": "правдоподобие",
+      "target": "verisimilitude"
+    },
+    {
+      "id": "ru_en_c2:761",
+      "ru": "выдумка",
+      "target": "artifice"
+    },
+    {
+      "id": "ru_en_c2:762",
+      "ru": "выгодный",
+      "target": "advantageous"
+    },
+    {
+      "id": "ru_en_c2:763",
+      "ru": "неосуществимый",
+      "target": "unfeasible"
+    },
+    {
+      "id": "ru_en_c2:764",
+      "ru": "неосуществимо",
+      "target": "unfeasibly"
+    },
+    {
+      "id": "ru_en_c2:765",
+      "ru": "веление",
+      "target": "behest"
+    },
+    {
+      "id": "ru_en_c2:766",
+      "ru": "виртуоз",
+      "target": "virtuoso"
+    },
+    {
+      "id": "ru_en_c2:767",
+      "ru": "виртуозность",
+      "target": "virtuosity"
+    },
+    {
+      "id": "ru_en_c2:768",
+      "ru": "каскад",
+      "target": "cascade"
+    },
+    {
+      "id": "ru_en_c2:769",
+      "ru": "калечащий",
+      "target": "crippling"
+    },
+    {
+      "id": "ru_en_c2:770",
+      "ru": "зарождающийся",
+      "target": "nascent"
+    },
+    {
+      "id": "ru_en_c2:771",
+      "ru": "поверхностный",
+      "target": "smattering"
+    },
+    {
+      "id": "ru_en_c2:772",
+      "ru": "корпус",
+      "target": "corpus"
+    },
+    {
+      "id": "ru_en_c2:773",
+      "ru": "хрипеть",
+      "target": "wheeze"
+    },
+    {
+      "id": "ru_en_c2:774",
+      "ru": "неофит",
+      "target": "neophyte"
+    },
+    {
+      "id": "ru_en_c2:775",
+      "ru": "коаксиальный",
+      "target": "coax"
+    },
+    {
+      "id": "ru_en_c2:776",
+      "ru": "грозно",
+      "target": "formidably"
+    },
+    {
+      "id": "ru_en_c2:777",
+      "ru": "грозный",
+      "target": "formidable"
+    },
+    {
+      "id": "ru_en_c2:778",
+      "ru": "щуриться",
+      "target": "squint"
+    },
+    {
+      "id": "ru_en_c2:779",
+      "ru": "подъемник",
+      "target": "hoist"
+    },
+    {
+      "id": "ru_en_c2:780",
+      "ru": "упрямство",
+      "target": "flatout"
+    },
+    {
+      "id": "ru_en_c2:781",
+      "ru": "канюк",
+      "target": "buzzard"
+    },
+    {
+      "id": "ru_en_c2:782",
+      "ru": "фальшивый",
+      "target": "bogus"
+    },
+    {
+      "id": "ru_en_c2:783",
+      "ru": "насмешка",
+      "target": "derision"
+    },
+    {
+      "id": "ru_en_c2:784",
+      "ru": "насмешливый",
+      "target": "derisive"
+    },
+    {
+      "id": "ru_en_c2:785",
+      "ru": "насмешливо",
+      "target": "derisively"
+    },
+    {
+      "id": "ru_en_c2:786",
+      "ru": "трюизм",
+      "target": "truism"
+    },
+    {
+      "id": "ru_en_c2:787",
+      "ru": "похотливый",
+      "target": "prurient"
+    },
+    {
+      "id": "ru_en_c2:788",
+      "ru": "увядать",
+      "target": "wither"
+    },
+    {
+      "id": "ru_en_c2:789",
+      "ru": "похотливость",
+      "target": "prurience"
+    },
+    {
+      "id": "ru_en_c2:790",
+      "ru": "раздражительный",
+      "target": "tetchy"
+    },
+    {
+      "id": "ru_en_c2:791",
+      "ru": "маневренный",
+      "target": "agile"
+    },
+    {
+      "id": "ru_en_c2:792",
+      "ru": "ловкость",
+      "target": "agility"
+    },
+    {
+      "id": "ru_en_c2:793",
+      "ru": "ошеломленный",
+      "target": "aghast"
+    },
+    {
+      "id": "ru_en_c2:794",
+      "ru": "карлик",
+      "target": "dwarf"
+    },
+    {
+      "id": "ru_en_c2:795",
+      "ru": "карликовость",
+      "target": "dwarfism"
+    },
+    {
+      "id": "ru_en_c2:796",
+      "ru": "травить",
+      "target": "etch"
+    },
+    {
+      "id": "ru_en_c2:797",
+      "ru": "травление",
+      "target": "etching"
+    },
+    {
+      "id": "ru_en_c2:798",
+      "ru": "восторг",
+      "target": "rapture"
+    },
+    {
+      "id": "ru_en_c2:799",
+      "ru": "восторженный",
+      "target": "rapturous"
+    },
+    {
+      "id": "ru_en_c2:800",
+      "ru": "восторженно",
+      "target": "rapturously"
+    },
+    {
+      "id": "ru_en_c2:801",
+      "ru": "импровизированный",
+      "target": "ad-lib"
+    },
+    {
+      "id": "ru_en_c2:802",
+      "ru": "импровизационный",
+      "target": "improvisational"
+    },
+    {
+      "id": "ru_en_c2:803",
+      "ru": "акробатика",
+      "target": "acrobatics"
+    },
+    {
+      "id": "ru_en_c2:804",
+      "ru": "акробатически",
+      "target": "acrobatically"
+    },
+    {
+      "id": "ru_en_c2:805",
+      "ru": "акробатический",
+      "target": "acrobatic"
+    },
+    {
+      "id": "ru_en_c2:806",
+      "ru": "трудный",
+      "target": "arduous"
+    },
+    {
+      "id": "ru_en_c2:807",
+      "ru": "контрпродуктивный",
+      "target": "counterproductive"
+    },
+    {
+      "id": "ru_en_c2:808",
+      "ru": "контрпродуктивно",
+      "target": "counterproductively"
+    },
+    {
+      "id": "ru_en_c2:809",
+      "ru": "пресловутый",
+      "target": "proverbial"
+    },
+    {
+      "id": "ru_en_c2:810",
+      "ru": "мгновенный",
+      "target": "instantaneous"
+    },
+    {
+      "id": "ru_en_c2:811",
+      "ru": "мгновенно",
+      "target": "instantaneously"
+    },
+    {
+      "id": "ru_en_c2:812",
+      "ru": "размышлять",
+      "target": "ruminate"
+    },
+    {
+      "id": "ru_en_c2:813",
+      "ru": "размышления",
+      "target": "rumination"
+    },
+    {
+      "id": "ru_en_c2:814",
+      "ru": "задумчивый",
+      "target": "ruminative"
+    },
+    {
+      "id": "ru_en_c2:815",
+      "ru": "зависать",
+      "target": "hover"
+    },
+    {
+      "id": "ru_en_c2:816",
+      "ru": "апостол",
+      "target": "apostle"
+    },
+    {
+      "id": "ru_en_c2:817",
+      "ru": "ворвань",
+      "target": "blubber"
+    },
+    {
+      "id": "ru_en_c2:818",
+      "ru": "вспыльчивость",
+      "target": "blubbery"
+    },
+    {
+      "id": "ru_en_c2:819",
+      "ru": "слияние",
+      "target": "merger"
+    },
+    {
+      "id": "ru_en_c2:820",
+      "ru": "мелочь",
+      "target": "trifle"
+    },
+    {
+      "id": "ru_en_c2:821",
+      "ru": "первостепенный",
+      "target": "paramount"
+    },
+    {
+      "id": "ru_en_c2:822",
+      "ru": "извиваться",
+      "target": "squirm"
+    },
+    {
+      "id": "ru_en_c2:823",
+      "ru": "извивающийся",
+      "target": "squirmy"
+    },
+    {
+      "id": "ru_en_c2:824",
+      "ru": "льдина",
+      "target": "floe"
+    },
+    {
+      "id": "ru_en_c2:825",
+      "ru": "воплощать",
+      "target": "embody"
+    },
+    {
+      "id": "ru_en_c2:826",
+      "ru": "воплощение",
+      "target": "embodiment"
+    },
+    {
+      "id": "ru_en_c2:827",
+      "ru": "задумчивый",
+      "target": "wistful"
+    },
+    {
+      "id": "ru_en_c2:828",
+      "ru": "тоскливо",
+      "target": "wistfully"
+    },
+    {
+      "id": "ru_en_c2:829",
+      "ru": "торговый",
+      "target": "mercantile"
+    },
+    {
+      "id": "ru_en_c2:830",
+      "ru": "перекос",
+      "target": "skew"
+    },
+    {
+      "id": "ru_en_c2:831",
+      "ru": "существовать",
+      "target": "subsist"
+    },
+    {
+      "id": "ru_en_c2:832",
+      "ru": "существование",
+      "target": "subsistence"
+    },
+    {
+      "id": "ru_en_c2:833",
+      "ru": "субсидия",
+      "target": "subsidy"
+    },
+    {
+      "id": "ru_en_c2:834",
+      "ru": "субсидировать",
+      "target": "subsidize"
+    },
+    {
+      "id": "ru_en_c2:835",
+      "ru": "легион",
+      "target": "legion"
+    },
+    {
+      "id": "ru_en_c2:836",
+      "ru": "конфронтационный",
+      "target": "confrontational"
+    },
+    {
+      "id": "ru_en_c2:837",
+      "ru": "конфронтационно",
+      "target": "confrontationally"
+    },
+    {
+      "id": "ru_en_c2:838",
+      "ru": "бой",
+      "target": "bout"
+    },
+    {
+      "id": "ru_en_c2:839",
+      "ru": "подагра",
+      "target": "gout"
+    },
+    {
+      "id": "ru_en_c2:840",
+      "ru": "мешать",
+      "target": "hinder"
+    },
+    {
+      "id": "ru_en_c2:841",
+      "ru": "помеха",
+      "target": "hindrance"
+    },
+    {
+      "id": "ru_en_c2:842",
+      "ru": "мириады",
+      "target": "myriad"
+    },
+    {
+      "id": "ru_en_c2:843",
+      "ru": "театральный",
+      "target": "histrionic"
+    },
+    {
+      "id": "ru_en_c2:844",
+      "ru": "театрально",
+      "target": "histrionically"
+    },
+    {
+      "id": "ru_en_c2:845",
+      "ru": "ликвидность",
+      "target": "marketability"
+    },
+    {
+      "id": "ru_en_c2:846",
+      "ru": "молчаливый",
+      "target": "tacit"
+    },
+    {
+      "id": "ru_en_c2:847",
+      "ru": "молчаливо",
+      "target": "tacitly"
+    },
+    {
+      "id": "ru_en_c2:848",
+      "ru": "молчаливый",
+      "target": "taciturn"
+    },
+    {
+      "id": "ru_en_c2:849",
+      "ru": "молчаливость",
+      "target": "taciturnity"
+    },
+    {
+      "id": "ru_en_c2:850",
+      "ru": "тайный",
+      "target": "surreptitious"
+    },
+    {
+      "id": "ru_en_c2:851",
+      "ru": "тайно",
+      "target": "surreptitiously"
+    },
+    {
+      "id": "ru_en_c2:852",
+      "ru": "аллегория",
+      "target": "allegory"
+    },
+    {
+      "id": "ru_en_c2:853",
+      "ru": "аллегорический",
+      "target": "allegorical"
+    },
+    {
+      "id": "ru_en_c2:854",
+      "ru": "захудалый",
+      "target": "seedy"
+    },
+    {
+      "id": "ru_en_c2:855",
+      "ru": "карательный",
+      "target": "punitive"
+    },
+    {
+      "id": "ru_en_c2:856",
+      "ru": "карательно",
+      "target": "punitively"
+    },
+    {
+      "id": "ru_en_c2:857",
+      "ru": "характер",
+      "target": "temper"
+    },
+    {
+      "id": "ru_en_c2:858",
+      "ru": "среда",
+      "target": "milieu"
+    },
+    {
+      "id": "ru_en_c2:859",
+      "ru": "чистый",
+      "target": "unadulterated"
+    },
+    {
+      "id": "ru_en_c2:860",
+      "ru": "фальсифицировать",
+      "target": "adulterate"
+    },
+    {
+      "id": "ru_en_c2:861",
+      "ru": "убедительный",
+      "target": "cogent"
+    },
+    {
+      "id": "ru_en_c2:862",
+      "ru": "убедительно",
+      "target": "cogently"
+    },
+    {
+      "id": "ru_en_c2:863",
+      "ru": "нелепый",
+      "target": "incongruous"
+    },
+    {
+      "id": "ru_en_c2:864",
+      "ru": "нелепо",
+      "target": "incongruously"
+    },
+    {
+      "id": "ru_en_c2:865",
+      "ru": "несоответствие",
+      "target": "incongruity"
+    },
+    {
+      "id": "ru_en_c2:866",
+      "ru": "умертвить",
+      "target": "deaden"
+    },
+    {
+      "id": "ru_en_c2:867",
+      "ru": "настроенный",
+      "target": "attuned"
+    },
+    {
+      "id": "ru_en_c2:868",
+      "ru": "атрибутивный",
+      "target": "attributive"
+    },
+    {
+      "id": "ru_en_c2:869",
+      "ru": "экотуризм",
+      "target": "ecotourism"
+    },
+    {
+      "id": "ru_en_c2:870",
+      "ru": "всплеск",
+      "target": "surge"
+    },
+    {
+      "id": "ru_en_c2:871",
+      "ru": "фарсовый",
+      "target": "farcical"
+    },
+    {
+      "id": "ru_en_c2:872",
+      "ru": "надрезать",
+      "target": "incise"
+    },
+    {
+      "id": "ru_en_c2:873",
+      "ru": "зарождающийся",
+      "target": "incipient"
+    },
+    {
+      "id": "ru_en_c2:874",
+      "ru": "эхолокация",
+      "target": "echolocation"
+    },
+    {
+      "id": "ru_en_c2:875",
+      "ru": "эхолокация",
+      "target": "echolocate"
+    },
+    {
+      "id": "ru_en_c2:876",
+      "ru": "реверберация",
+      "target": "reverb"
+    },
+    {
+      "id": "ru_en_c2:877",
+      "ru": "реверберация",
+      "target": "reverberation"
+    },
+    {
+      "id": "ru_en_c2:878",
+      "ru": "отражаться",
+      "target": "reverberate"
+    },
+    {
+      "id": "ru_en_c2:879",
+      "ru": "простодушный",
+      "target": "ingenuous"
+    },
+    {
+      "id": "ru_en_c2:880",
+      "ru": "простодушно",
+      "target": "ingenuously"
+    },
+    {
+      "id": "ru_en_c2:881",
+      "ru": "импресарио",
+      "target": "impresario"
+    },
+    {
+      "id": "ru_en_c2:882",
+      "ru": "эластичность",
+      "target": "elasticity"
+    },
+    {
+      "id": "ru_en_c2:883",
+      "ru": "синтез",
+      "target": "synthesis"
+    },
+    {
+      "id": "ru_en_c2:884",
+      "ru": "слюна",
+      "target": "salivary"
+    },
+    {
+      "id": "ru_en_c2:885",
+      "ru": "гипнотерапия",
+      "target": "hypnotherapy"
+    },
+    {
+      "id": "ru_en_c2:886",
+      "ru": "полностью",
+      "target": "wholly"
+    },
+    {
+      "id": "ru_en_c2:887",
+      "ru": "раскаявшийся",
+      "target": "remorseful"
+    },
+    {
+      "id": "ru_en_c2:888",
+      "ru": "возражать",
+      "target": "remonstrate"
+    },
+    {
+      "id": "ru_en_c2:889",
+      "ru": "протест",
+      "target": "remonstrance"
+    },
+    {
+      "id": "ru_en_c2:890",
+      "ru": "необоснованный",
+      "target": "unexcused"
+    },
+    {
+      "id": "ru_en_c2:891",
+      "ru": "обычно",
+      "target": "unexceptionally"
+    },
+    {
+      "id": "ru_en_c2:892",
+      "ru": "заурядный",
+      "target": "unexceptional"
+    },
+    {
+      "id": "ru_en_c2:893",
+      "ru": "неумолимый",
+      "target": "inexorable"
+    },
+    {
+      "id": "ru_en_c2:894",
+      "ru": "неумолимо",
+      "target": "inexorably"
+    },
+    {
+      "id": "ru_en_c2:895",
+      "ru": "неумолимость",
+      "target": "inexorability"
+    }
+  ]
+}

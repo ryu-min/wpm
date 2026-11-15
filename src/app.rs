@@ -45,13 +45,21 @@ impl App {
         let translations = config
             .get_translation_set_names()
             .expect("Failed to get translation sets");
-        let settings_widget =
-            SettingsWidget::from_settings(wordsets.clone(), translations.clone(), &config.settings);
+        let settings_widget = SettingsWidget::from_settings(
+            wordsets.clone(),
+            translations.clone(),
+            config.get_dictation_set_names().expect("Dictation sets"),
+            &config.settings,
+        );
         Self {
             running: true,
             screen: Screen::Menu,
             menu_widget: MenuWidget::new(),
-            mode_select_widget: ModeSelectWidget::new(wordsets, translations),
+            mode_select_widget: ModeSelectWidget::new(
+                wordsets,
+                translations,
+                config.get_dictation_set_names().expect("Dictation sets"),
+            ),
             settings_widget,
             typing_widget: TypingWidget::new(String::new()),
             result_widget: ResultWidget::new(),
@@ -148,7 +156,11 @@ impl App {
             TestMode::Dictation => match self.config.get_shuffled_vocabulary(&set) {
                 Ok(set) if set.target_language == "es" => {
                     match Dictation::new(set.entries, amount as usize).map(|session| {
-                        session.with_case_insensitive(set.id == "ru_es_cafe_beginner")
+                        session.with_case_insensitive(
+                            self.config
+                                .profile(&set.id)
+                                .is_ok_and(|p| p == crate::dataset::Profile::SpanishPhrases),
+                        )
                     }) {
                         Ok(mut session) => {
                             session.operation = self.audio.check();
@@ -246,6 +258,7 @@ impl App {
                             self.settings_widget = SettingsWidget::from_settings(
                                 self.config.get_wordset_names().unwrap_or_default(),
                                 self.config.get_translation_set_names().unwrap_or_default(),
+                                self.config.get_dictation_set_names().unwrap_or_default(),
                                 &self.config.settings,
                             );
                             self.screen = Screen::Settings;

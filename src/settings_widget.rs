@@ -24,13 +24,9 @@ impl SettingsWidget {
     pub fn from_settings(
         wordsets: Vec<String>,
         translations: Vec<String>,
+        spanish: Vec<String>,
         settings: &Settings,
     ) -> Self {
-        let spanish = translations
-            .iter()
-            .filter(|n| n.starts_with("ru_es_"))
-            .cloned()
-            .collect();
         Self {
             active_row: 0,
             section: 0,

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_cafe_beginner",
+  "description": "Кафе и знакомство",
+  "profile": "spanish-phrases",
+  "level": "beginner",
+  "entries": [
+    {
+      "id": "ru_es_cafe_beginner:café",
+      "ru": "кофе",
+      "target": "café"
+    },
+    {
+      "id": "ru_es_cafe_beginner:té",
+      "ru": "чай",
+      "target": "té"
+    },
+    {
+      "id": "ru_es_cafe_beginner:agua",
+      "ru": "вода",
+      "target": "agua"
+    },
+    {
+      "id": "ru_es_cafe_beginner:leche",
+      "ru": "молоко",
+      "target": "leche"
+    },
+    {
+      "id": "ru_es_cafe_beginner:azúcar",
+      "ru": "сахар",
+      "target": "azúcar"
+    },
+    {
+      "id": "ru_es_cafe_beginner:pan",
+      "ru": "хлеб",
+      "target": "pan"
+    },
+    {
+      "id": "ru_es_cafe_beginner:un café",
+      "ru": "один кофе",
+      "target": "un café"
+    },
+    {
+      "id": "ru_es_cafe_beginner:un té",
+      "ru": "один чай",
+      "target": "un té"
+    },
+    {
+      "id": "ru_es_cafe_beginner:café con leche",
+      "ru": "кофе с молоком",
+      "target": "café con leche"
+    },
+    {
+      "id": "ru_es_cafe_beginner:sin azúcar",
+      "ru": "без сахара",
+      "target": "sin azúcar"
+    },
+    {
+      "id": "ru_es_cafe_beginner:por favor",
+      "ru": "пожалуйста",
+      "target": "por favor"
+    },
+    {
+      "id": "ru_es_cafe_beginner:gracias",
+      "ru": "спасибо",
+      "target": "gracias"
+    },
+    {
+      "id": "ru_es_cafe_beginner:una mesa",
+      "ru": "один столик",
+      "target": "una mesa"
+    },
+    {
+      "id": "ru_es_cafe_beginner:la cuenta",
+      "ru": "счёт",
+      "target": "la cuenta"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Quiero un café",
+      "ru": "Я хочу кофе",
+      "target": "Quiero un café"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Hola",
+      "ru": "привет; здравствуйте",
+      "target": "Hola"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Me llamo Sergio",
+      "ru": "Меня зовут Серхио",
+      "target": "Me llamo Sergio"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Soy Sergio",
+      "ru": "Я Серхио",
+      "target": "Soy Sergio"
+    },
+    {
+      "id": "ru_es_cafe_beginner:yo",
+      "ru": "я",
+      "target": "yo"
+    },
+    {
+      "id": "ru_es_cafe_beginner:trabajar",
+      "ru": "работать",
+      "target": "trabajar"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Yo trabajo",
+      "ru": "Я работаю",
+      "target": "Yo trabajo"
+    },
+    {
+      "id": "ru_es_cafe_beginner:estudiar",
+      "ru": "учиться",
+      "target": "estudiar"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Yo estudio",
+      "ru": "Я учусь",
+      "target": "Yo estudio"
+    },
+    {
+      "id": "ru_es_cafe_beginner:ver",
+      "ru": "видеть",
+      "target": "ver"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Yo veo",
+      "ru": "Я вижу",
+      "target": "Yo veo"
+    },
+    {
+      "id": "ru_es_cafe_beginner:viajar",
+      "ru": "путешествовать",
+      "target": "viajar"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Yo viajo",
+      "ru": "Я путешествую",
+      "target": "Yo viajo"
+    },
+    {
+      "id": "ru_es_cafe_beginner:vivir",
+      "ru": "жить",
+      "target": "vivir"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Yo vivo",
+      "ru": "Я живу",
+      "target": "Yo vivo"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Vivo en Rusia",
+      "ru": "Я живу в России",
+      "target": "Vivo en Rusia"
+    },
+    {
+      "id": "ru_es_cafe_beginner:Vivo en España",
+      "ru": "Я живу в Испании",
+      "target": "Vivo en España"
+    }
+  ]
+}

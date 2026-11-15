@@ -21,10 +21,23 @@ def validate(resources):
         set_id = 'ru_es_' + level
         path = resources / (set_id + '.json')
         try:
-            rows = json.loads(path.read_text(encoding='utf-8'))
+            descriptor = json.loads(path.read_text(encoding='utf-8'))
         except (OSError, UnicodeError, json.JSONDecodeError) as exc:
             errors.append(f'{path.name}: {exc}')
             continue
+        if not isinstance(descriptor, dict):
+            errors.append(f'{path.name}: ожидается descriptor')
+            continue
+        required = {'schema_version', 'id', 'description', 'profile', 'entries'}
+        if not required <= set(descriptor) or set(descriptor) - required - {'level'}:
+            errors.append(f'{path.name}: неверные поля descriptor')
+        if descriptor.get('schema_version') != 1 or descriptor.get('id') != set_id:
+            errors.append(f'{path.name}: неверная версия или id descriptor')
+        if descriptor.get('profile') != 'spanish-words' or descriptor.get('level') != level:
+            errors.append(f'{path.name}: ожидаются spanish-words и level {level}')
+        if not isinstance(descriptor.get('description'), str) or not descriptor['description'].strip():
+            errors.append(f'{path.name}: требуется непустое описание')
+        rows = descriptor.get('entries')
         if not isinstance(rows, list):
             errors.append(f'{path.name}: ожидается массив записей')
             continue
@@ -33,13 +46,13 @@ def validate(resources):
             errors.append(f'{set_id}: {len(rows)} записей вместо 900–1100')
         for index, row in enumerate(rows, 1):
             location = f'{set_id}[{index}]'
-            if not isinstance(row, dict) or set(row) != {'id', 'es', 'ru'}:
-                errors.append(f'{location}: обязательны ровно поля id/es/ru')
+            if not isinstance(row, dict) or set(row) != {'id', 'target', 'ru'}:
+                errors.append(f'{location}: обязательны ровно поля id/target/ru')
                 continue
-            if any(not isinstance(row[key], str) for key in ('id', 'es', 'ru')):
-                errors.append(f'{location}: значения id/es/ru должны быть строками')
+            if any(not isinstance(row[key], str) for key in ('id', 'target', 'ru')):
+                errors.append(f'{location}: значения id/target/ru должны быть строками')
                 continue
-            lemma, translation, entry_id = row['es'], row['ru'], row['id']
+            lemma, translation, entry_id = row['target'], row['ru'], row['id']
             canonical = unicodedata.normalize('NFC', lemma)
             if canonical != lemma:
                 errors.append(f'{location}: лемма не в NFC: {lemma!r}')
@@ -74,7 +87,7 @@ def validate(resources):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--resources-dir', type=Path,
-                        default=Path(__file__).resolve().parent.parent / 'resources')
+                        default=Path(__file__).resolve().parent.parent / 'resources' / 'datasets')
     parser.add_argument('--json', action='store_true', help='Машиночитаемый отчёт')
     args = parser.parse_args()
     report = validate(args.resources_dir)

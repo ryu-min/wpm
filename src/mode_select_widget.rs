@@ -52,14 +52,14 @@ impl std::fmt::Debug for ModeSelectWidget {
 }
 
 impl ModeSelectWidget {
-    pub fn new(wordset_names: Vec<String>, translation_set_names: Vec<String>) -> Self {
+    pub fn new(
+        wordset_names: Vec<String>,
+        translation_set_names: Vec<String>,
+        dictation_sets: Vec<String>,
+    ) -> Self {
         let times: Vec<u32> = (15..=300).step_by(15).collect();
         Self {
-            dictation_sets: translation_set_names
-                .iter()
-                .filter(|n| n.starts_with("ru_es_"))
-                .cloned()
-                .collect(),
+            dictation_sets,
             dictation_set_index: 0,
             length_index: 1,
             active_row: ActiveRow::Mode,
