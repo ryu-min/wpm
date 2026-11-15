@@ -4,7 +4,7 @@
 
 - Track every repository change through an OpenSpec change before editing project files, including documentation, tests, and CI.
 - Use exploration to clarify an idea and a proposal to record the intended change. These are planning steps. Start implementation only after the user explicitly asks to apply or implement the change.
-- Keep user-visible behavior requirements in `openspec/specs/`. For changes with no behavior requirements, such as documentation or tooling, set `skip_specs: true` in the change's `.openspec.yaml` instead of adding an artificial spec.
+- Keep user-visible behavior and durable architectural requirements in `openspec/specs/`.
 - Record implementation and acceptance checks in the change's `tasks.md`. Validate the change and complete its tasks before treating the work as finished.
 
 ## E2E acceptance tests
