@@ -1,13 +1,26 @@
-use crate::configuration::Configuration;
-use crate::menu_widget::MenuWidget;
-use crate::mode_select_widget::{ModeSelectWidget, TestMode};
-use crate::result_widget::ResultWidget;
-use crate::settings_widget::SettingsWidget;
-use crate::typing_widget::TypingWidget;
-use crossterm::event::{self, Event, KeyCode, KeyEvent, KeyEventKind};
-use ratatui::{DefaultTerminal, Frame};
+use crate::{
+    audio::Audio,
+    configuration::Configuration,
+    dictation::{Dictation, Phase},
+    menu_widget::{MenuAction, MenuWidget},
+    mode_select_widget::{ModeSelectAction, ModeSelectWidget, TestMode},
+    result_widget::{ResultAction, ResultWidget},
+    settings_widget::{SettingsAction, SettingsWidget},
+    typing_widget::TypingWidget,
+};
+use crossterm::event::{self, Event, KeyCode, KeyEvent, KeyEventKind, KeyModifiers};
+use ratatui::{DefaultTerminal, Frame, widgets::Paragraph};
 use std::time::Duration;
-
+#[derive(Debug, PartialEq)]
+enum Screen {
+    Menu,
+    ModeSelect,
+    Settings,
+    Typing,
+    Result,
+    Dictation,
+    Error,
+}
 #[derive(Debug)]
 pub struct App {
     running: bool,
@@ -18,64 +31,46 @@ pub struct App {
     typing_widget: TypingWidget,
     result_widget: ResultWidget,
     config: Configuration,
-    current_wordset: Option<String>,
-    current_translation_set: Option<String>,
-    current_time: Option<u32>,
+    current_set: String,
+    current_time: u32,
     current_mode: TestMode,
+    dictation: Option<Dictation>,
+    audio: Audio,
+    error: String,
 }
-
-#[derive(Debug, PartialEq)]
-enum Screen {
-    Menu,
-    ModeSelect,
-    Settings,
-    Typing,
-    Result,
-}
-
 impl App {
     pub fn new() -> Self {
         let config = Configuration::new().expect("Failed to initialize configuration");
-        let wordset_names = config.get_wordset_names().expect("Failed to get wordsets");
-        let translation_set_names = config
+        let wordsets = config.get_wordset_names().expect("Failed to get wordsets");
+        let translations = config
             .get_translation_set_names()
-            .unwrap_or_else(|_| vec!["ru_en_basic".to_string()]);
-        let settings = &config.settings;
-
-        let settings_widget = SettingsWidget::new(
-            wordset_names.clone(),
-            translation_set_names.clone(),
-            &settings.quick_start_mode,
-            &settings.quick_start_wordset,
-            &settings.quick_start_translation_set,
-            settings.quick_start_time,
-            &settings.translation_set,
-            settings.translation_time,
-            settings.typing_layout_conversion,
-        );
-
+            .expect("Failed to get translation sets");
+        let settings_widget =
+            SettingsWidget::from_settings(wordsets.clone(), translations.clone(), &config.settings);
         Self {
             running: true,
             screen: Screen::Menu,
             menu_widget: MenuWidget::new(),
-            mode_select_widget: ModeSelectWidget::new(wordset_names, translation_set_names),
+            mode_select_widget: ModeSelectWidget::new(wordsets, translations),
             settings_widget,
             typing_widget: TypingWidget::new(String::new()),
             result_widget: ResultWidget::new(),
             config,
-            current_wordset: None,
-            current_translation_set: None,
-            current_time: None,
+            current_set: String::new(),
+            current_time: 15,
             current_mode: TestMode::Typing,
+            dictation: None,
+            audio: Audio::default(),
+            error: String::new(),
         }
     }
-
     pub fn run(mut self, mut terminal: DefaultTerminal) -> color_eyre::Result<()> {
-        self.running = true;
         while self.running {
+            self.poll_audio();
             if self.screen == Screen::Typing {
                 self.typing_widget.update_stats();
                 if self.typing_widget.is_complete() {
+                    self.typing_widget.finalize();
                     self.result_widget.update(
                         self.typing_widget.get_wpm(),
                         self.typing_widget.get_accuracy(),
@@ -85,171 +80,199 @@ impl App {
                 }
             }
             terminal.draw(|frame| self.render(frame))?;
-
             if event::poll(Duration::from_millis(50))?
                 && let Event::Key(key) = event::read()?
                 && key.kind == KeyEventKind::Press
             {
                 self.on_key_event(key);
+                while self.running && event::poll(Duration::ZERO)? {
+                    if let Event::Key(key) = event::read()?
+                        && key.kind == KeyEventKind::Press
+                    {
+                        self.on_key_event(key);
+                    }
+                }
             }
         }
+        self.audio.shutdown();
         Ok(())
     }
-
     fn render(&mut self, frame: &mut Frame) {
+        let area = frame.area();
         match self.screen {
-            Screen::Menu => frame.render_widget(&self.menu_widget, frame.area()),
-            Screen::ModeSelect => frame.render_widget(&self.mode_select_widget, frame.area()),
-            Screen::Settings => frame.render_widget(&self.settings_widget, frame.area()),
-            Screen::Typing => frame.render_widget(&self.typing_widget, frame.area()),
-            Screen::Result => frame.render_widget(&self.result_widget, frame.area()),
+            Screen::Menu => frame.render_widget(&self.menu_widget, area),
+            Screen::ModeSelect => frame.render_widget(&self.mode_select_widget, area),
+            Screen::Settings => frame.render_widget(&self.settings_widget, area),
+            Screen::Typing => frame.render_widget(&self.typing_widget, area),
+            Screen::Result => frame.render_widget(&self.result_widget, area),
+            Screen::Dictation => {
+                if let Some(session) = &self.dictation {
+                    frame.render_widget(session, area);
+                }
+            }
+            Screen::Error => frame.render_widget(
+                Paragraph::new(format!(
+                    "Vocabulary set unavailable or damaged. {}\nEsc: menu",
+                    self.error
+                )),
+                area,
+            ),
         }
     }
-
+    fn start(&mut self, mode: TestMode, set: String, amount: u32) {
+        self.audio.cancel();
+        self.current_mode = mode;
+        self.current_set = set.clone();
+        self.current_time = amount;
+        match mode {
+            TestMode::Typing => match self.config.get_shuffled_words(&set) {
+                Ok(words) if !words.is_empty() => {
+                    self.typing_widget = TypingWidget::new(words.join(" "))
+                        .with_time_limit(amount as u64)
+                        .with_layout_conversion(self.config.settings.typing_layout_conversion);
+                    self.screen = Screen::Typing;
+                }
+                _ => self.set_error(),
+            },
+            TestMode::Translation => match self.config.get_shuffled_vocabulary(&set) {
+                Ok(set) => {
+                    let (text, policies) = set.translation();
+                    self.typing_widget = TypingWidget::new(text)
+                        .with_time_limit(amount as u64)
+                        .with_layout_conversion(true)
+                        .with_languages(policies);
+                    self.screen = Screen::Typing;
+                }
+                Err(_) => self.set_error(),
+            },
+            TestMode::Dictation => match self.config.get_shuffled_vocabulary(&set) {
+                Ok(set) if set.target_language == "es" => {
+                    match Dictation::new(set.entries, amount as usize) {
+                        Ok(mut session) => {
+                            session.operation = self.audio.check();
+                            self.dictation = Some(session);
+                            self.screen = Screen::Dictation;
+                        }
+                        Err(_) => self.set_error(),
+                    }
+                }
+                _ => self.set_error(),
+            },
+        }
+    }
+    fn set_error(&mut self) {
+        self.error = "Select another dataset in Settings or Select Mode.".into();
+        self.screen = Screen::Error;
+    }
+    fn repeat_audio(&mut self) {
+        if let Some(session) = &mut self.dictation {
+            session.operation = self.audio.speak(session.current().es.clone());
+            session.status = "Playing…".into();
+        }
+    }
+    fn poll_audio(&mut self) {
+        while let Some(event) = self.audio.poll() {
+            if self.screen != Screen::Dictation {
+                continue;
+            }
+            let Some(session) = &mut self.dictation else {
+                continue;
+            };
+            if event.operation != session.operation {
+                continue;
+            }
+            if session.audio_event(
+                event.operation,
+                event.result.map_err(|error| error.message().into()),
+            ) {
+                self.repeat_audio();
+            }
+        }
+    }
+    fn menu(&mut self) {
+        self.audio.cancel();
+        self.dictation = None;
+        self.screen = Screen::Menu;
+    }
     fn on_key_event(&mut self, key: KeyEvent) {
-        if key.code == KeyCode::Char('c')
-            && key
-                .modifiers
-                .contains(crossterm::event::KeyModifiers::CONTROL)
-        {
-            self.quit();
+        if key.code == KeyCode::Char('c') && key.modifiers.contains(KeyModifiers::CONTROL) {
+            self.audio.cancel();
+            self.running = false;
             return;
         }
-
         match self.screen {
             Screen::Menu => {
                 if let Some(action) = self.menu_widget.handle_input(key) {
                     match action {
-                        crate::menu_widget::MenuAction::QuickStart => {
-                            let time = self.config.settings.quick_start_time;
-                            if self.config.settings.quick_start_mode == "translation" {
-                                let set_name =
-                                    self.config.settings.quick_start_translation_set.clone();
-                                if let Ok(pairs) =
-                                    self.config.get_shuffled_translation_pairs(&set_name)
-                                {
-                                    let text = build_translation_target(&pairs);
-                                    self.typing_widget = TypingWidget::new(text)
-                                        .with_time_limit(time as u64)
-                                        .with_layout_conversion(true);
-                                    self.current_mode = TestMode::Translation;
-                                    self.current_wordset = None;
-                                    self.current_translation_set = Some(set_name);
-                                    self.current_time = Some(time);
-                                    self.screen = Screen::Typing;
-                                }
-                            } else if let Ok(words) = self.config.quick_start_words() {
-                                let text = words.join(" ");
-                                self.typing_widget = TypingWidget::new(text)
-                                    .with_time_limit(time as u64)
-                                    .with_layout_conversion(
-                                        self.config.settings.typing_layout_conversion,
-                                    );
-                                self.current_mode = TestMode::Typing;
-                                self.current_wordset =
-                                    Some(self.config.settings.quick_start_wordset.clone());
-                                self.current_translation_set = None;
-                                self.current_time = Some(time);
-                                self.screen = Screen::Typing;
-                            }
+                        MenuAction::QuickStart => {
+                            let s = &self.config.settings;
+                            let (mode, set, amount) = match s.quick_start_mode.as_str() {
+                                "translation" => (
+                                    TestMode::Translation,
+                                    s.quick_start_translation_set.clone(),
+                                    s.quick_start_time,
+                                ),
+                                "dictation" => (
+                                    TestMode::Dictation,
+                                    s.quick_start_dictation_set.clone(),
+                                    s.quick_start_dictation_length,
+                                ),
+                                _ => (
+                                    TestMode::Typing,
+                                    s.quick_start_wordset.clone(),
+                                    s.quick_start_time,
+                                ),
+                            };
+                            self.start(mode, set, amount);
                         }
-                        crate::menu_widget::MenuAction::Translation => {
-                            let time = self.config.settings.translation_time;
-                            let preferred_set = self.config.settings.translation_set.clone();
-                            let set_name =
-                                if self.config.get_translation_pairs(&preferred_set).is_ok() {
-                                    preferred_set
-                                } else {
-                                    self.config
-                                        .get_translation_set_names()
-                                        .ok()
-                                        .and_then(|v| v.into_iter().next())
-                                        .unwrap_or_else(|| "ru_en_a1".to_string())
-                                };
-                            if let Ok(pairs) = self.config.get_shuffled_translation_pairs(&set_name)
-                            {
-                                let text = build_translation_target(&pairs);
-                                self.typing_widget = TypingWidget::new(text)
-                                    .with_time_limit(time as u64)
-                                    .with_layout_conversion(true);
-                                self.current_mode = TestMode::Translation;
-                                self.current_wordset = None;
-                                self.current_translation_set = Some(set_name);
-                                self.current_time = Some(time);
-                                self.screen = Screen::Typing;
-                            }
-                        }
-                        crate::menu_widget::MenuAction::SelectMode => {
+                        MenuAction::Translation => self.start(
+                            TestMode::Translation,
+                            self.config.settings.translation_set.clone(),
+                            self.config.settings.translation_time,
+                        ),
+                        MenuAction::Dictation => self.start(
+                            TestMode::Dictation,
+                            self.config.settings.dictation_set.clone(),
+                            self.config.settings.dictation_length,
+                        ),
+                        MenuAction::SelectMode => {
                             self.mode_select_widget.reset();
+                            self.mode_select_widget.set_defaults(&self.config.settings);
                             self.screen = Screen::ModeSelect;
                         }
-                        crate::menu_widget::MenuAction::Settings => {
-                            let settings = &self.config.settings;
-                            self.settings_widget = SettingsWidget::new(
+                        MenuAction::Settings => {
+                            self.settings_widget = SettingsWidget::from_settings(
                                 self.config.get_wordset_names().unwrap_or_default(),
                                 self.config.get_translation_set_names().unwrap_or_default(),
-                                &settings.quick_start_mode,
-                                &settings.quick_start_wordset,
-                                &settings.quick_start_translation_set,
-                                settings.quick_start_time,
-                                &settings.translation_set,
-                                settings.translation_time,
-                                settings.typing_layout_conversion,
+                                &self.config.settings,
                             );
                             self.screen = Screen::Settings;
                         }
-                        crate::menu_widget::MenuAction::Exit => {
-                            self.quit();
-                        }
+                        MenuAction::Exit => self.running = false,
                     }
                 }
             }
             Screen::ModeSelect => {
                 if let Some(action) = self.mode_select_widget.handle_input(key) {
                     match action {
-                        crate::mode_select_widget::ModeSelectAction::Start => {
-                            let time = self.mode_select_widget.selected_time();
+                        ModeSelectAction::Exit => self.menu(),
+                        ModeSelectAction::Start => {
                             let mode = self.mode_select_widget.selected_mode();
-                            self.current_mode = mode;
-                            match mode {
-                                TestMode::Typing => {
-                                    let wordset =
-                                        self.mode_select_widget.selected_wordset().to_string();
-                                    if let Ok(words) = self.config.get_shuffled_words(&wordset) {
-                                        let text = words.join(" ");
-                                        self.typing_widget = TypingWidget::new(text)
-                                            .with_time_limit(time as u64)
-                                            .with_layout_conversion(
-                                                self.config.settings.typing_layout_conversion,
-                                            );
-                                        self.current_wordset = Some(wordset);
-                                        self.current_translation_set = None;
-                                        self.current_time = Some(time);
-                                        self.screen = Screen::Typing;
-                                    }
-                                }
-                                TestMode::Translation => {
-                                    let set_name = self
-                                        .mode_select_widget
-                                        .selected_translation_set()
-                                        .to_string();
-                                    if let Ok(pairs) =
-                                        self.config.get_shuffled_translation_pairs(&set_name)
-                                    {
-                                        let text = build_translation_target(&pairs);
-                                        self.typing_widget = TypingWidget::new(text)
-                                            .with_time_limit(time as u64)
-                                            .with_layout_conversion(true);
-                                        self.current_wordset = None;
-                                        self.current_translation_set = Some(set_name);
-                                        self.current_time = Some(time);
-                                        self.screen = Screen::Typing;
-                                    }
-                                }
-                            }
-                        }
-                        crate::mode_select_widget::ModeSelectAction::Exit => {
-                            self.screen = Screen::Menu;
+                            let (set, amount) = match mode {
+                                TestMode::Typing => (
+                                    self.mode_select_widget.selected_wordset().into(),
+                                    self.mode_select_widget.selected_time(),
+                                ),
+                                TestMode::Translation => (
+                                    self.mode_select_widget.selected_translation_set().into(),
+                                    self.mode_select_widget.selected_time(),
+                                ),
+                                TestMode::Dictation => (
+                                    self.mode_select_widget.selected_dictation_set().into(),
+                                    self.mode_select_widget.selected_length(),
+                                ),
+                            };
+                            self.start(mode, set, amount);
                         }
                     }
                 }
@@ -257,96 +280,79 @@ impl App {
             Screen::Settings => {
                 if let Some(action) = self.settings_widget.handle_input(key) {
                     match action {
-                        crate::settings_widget::SettingsAction::Save => {
-                            self.config.settings.quick_start_mode =
-                                self.settings_widget.quick_start_mode().to_string();
-                            self.config.settings.quick_start_wordset =
-                                self.settings_widget.quick_start_wordset().to_string();
-                            self.config.settings.quick_start_translation_set = self
-                                .settings_widget
-                                .quick_start_translation_set()
-                                .to_string();
-                            self.config.settings.quick_start_time =
-                                self.settings_widget.quick_start_time();
-                            self.config.settings.translation_set =
-                                self.settings_widget.translation_set().to_string();
-                            self.config.settings.translation_time =
-                                self.settings_widget.translation_time();
-                            self.config.settings.typing_layout_conversion =
-                                self.settings_widget.typing_layout_conversion();
-                            self.config.save_settings().ok();
-                            self.screen = Screen::Menu;
+                        SettingsAction::Save => {
+                            self.config.settings = self.settings_widget.draft.clone();
+                            if self.config.save_settings().is_err() {
+                                self.error = "Unable to save settings. Esc: menu".into();
+                                self.screen = Screen::Error;
+                            } else {
+                                self.menu();
+                            }
                         }
-                        crate::settings_widget::SettingsAction::Exit => {
-                            self.screen = Screen::Menu;
-                        }
-                        _ => {}
+                        SettingsAction::Exit => self.menu(),
                     }
                 }
             }
             Screen::Typing => {
-                if let Some(action) = self.typing_widget.handle_input(key) {
-                    match action {
-                        crate::typing_widget::TypingAction::Exit => {
-                            self.screen = Screen::Menu;
-                            self.typing_widget.reset();
-                        }
-                    }
+                if self.typing_widget.handle_input(key).is_some() {
+                    self.typing_widget.reset();
+                    self.menu();
                 }
             }
             Screen::Result => {
+                if self.typing_widget.extend_result(key) {
+                    self.result_widget.update(
+                        self.typing_widget.get_wpm(),
+                        self.typing_widget.get_accuracy(),
+                        self.typing_widget.get_elapsed_time(),
+                    );
+                    return;
+                }
                 if let Some(action) = self.result_widget.handle_input(key) {
                     match action {
-                        crate::result_widget::ResultAction::Restart => {
-                            if let Some(time) = self.current_time {
-                                match self.current_mode {
-                                    TestMode::Typing => {
-                                        if let Some(wordset) = &self.current_wordset
-                                            && let Ok(words) =
-                                                self.config.get_shuffled_words(wordset)
-                                        {
-                                            let text = words.join(" ");
-                                            self.typing_widget = TypingWidget::new(text)
-                                                .with_time_limit(time as u64)
-                                                .with_layout_conversion(
-                                                    self.config.settings.typing_layout_conversion,
-                                                );
-                                        }
-                                    }
-                                    TestMode::Translation => {
-                                        if let Some(set_name) = &self.current_translation_set
-                                            && let Ok(pairs) =
-                                                self.config.get_shuffled_translation_pairs(set_name)
-                                        {
-                                            let text = build_translation_target(&pairs);
-                                            self.typing_widget = TypingWidget::new(text)
-                                                .with_time_limit(time as u64)
-                                                .with_layout_conversion(true);
-                                        }
-                                    }
-                                }
-                            }
-                            self.screen = Screen::Typing;
-                        }
-                        crate::result_widget::ResultAction::Menu => {
-                            self.screen = Screen::Menu;
-                            self.typing_widget.reset();
+                        ResultAction::Restart => self.start(
+                            self.current_mode,
+                            self.current_set.clone(),
+                            self.current_time,
+                        ),
+                        ResultAction::Menu => self.menu(),
+                    }
+                }
+            }
+            Screen::Error => {
+                if key.code == KeyCode::Esc {
+                    self.menu();
+                }
+            }
+            Screen::Dictation => {
+                if key.code == KeyCode::Esc {
+                    self.menu();
+                    return;
+                }
+                let phase = self.dictation.as_ref().unwrap().phase;
+                match (phase, key.code) {
+                    (Phase::Finished, KeyCode::Enter) => self.start(
+                        TestMode::Dictation,
+                        self.current_set.clone(),
+                        self.current_time,
+                    ),
+                    (Phase::Input | Phase::Checked, KeyCode::F(2)) => self.repeat_audio(),
+                    (Phase::Input, KeyCode::Char(ch)) => self.dictation.as_mut().unwrap().push(ch),
+                    (Phase::Input, KeyCode::Backspace) => {
+                        self.dictation.as_mut().unwrap().backspace()
+                    }
+                    (Phase::Input, KeyCode::Enter) if self.dictation.as_mut().unwrap().submit() => {
+                        self.audio.cancel();
+                    }
+                    (Phase::Checked, KeyCode::Enter) => {
+                        self.audio.cancel();
+                        if self.dictation.as_mut().unwrap().advance() {
+                            self.repeat_audio();
                         }
                     }
+                    _ => {}
                 }
             }
         }
     }
-
-    fn quit(&mut self) {
-        self.running = false;
-    }
-}
-
-fn build_translation_target(pairs: &[(String, String)]) -> String {
-    pairs
-        .iter()
-        .map(|(ru, en)| format!("{ru} {en}"))
-        .collect::<Vec<String>>()
-        .join("\n")
 }

@@ -3,8 +3,8 @@
 mod common;
 
 use common::{
-    CTRL_C, DOWN, ENTER, ESC, EXIT, MENU_LABELS, QUICK_START, SELECT_MODE, SETTINGS, TRANSLATION,
-    TestDataDir, UP, run_wpm_capture, run_wpm_with_keys,
+    CTRL_C, DICTATION, DOWN, ENTER, ESC, EXIT, MENU_LABELS, QUICK_START, SELECT_MODE, SETTINGS,
+    TRANSLATION, TestDataDir, UP, run_wpm_capture, run_wpm_with_keys,
 };
 
 #[test]
@@ -30,7 +30,7 @@ fn menu_selection_moves_in_both_directions_and_wraps() {
 
     let stdout = run_wpm_with_keys(
         &[
-            UP, DOWN, DOWN, DOWN, DOWN, DOWN, DOWN, UP, UP, UP, UP, UP, ESC,
+            UP, DOWN, DOWN, DOWN, DOWN, DOWN, DOWN, DOWN, UP, UP, UP, UP, UP, UP, ESC,
         ],
         data_dir.as_ref(),
     );
@@ -41,9 +41,11 @@ fn menu_selection_moves_in_both_directions_and_wraps() {
         TRANSLATION,
         SELECT_MODE,
         SETTINGS,
+        DICTATION,
         EXIT,
         QUICK_START,
         EXIT,
+        DICTATION,
         SETTINGS,
         SELECT_MODE,
         TRANSLATION,

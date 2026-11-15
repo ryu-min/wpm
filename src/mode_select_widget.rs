@@ -16,6 +16,7 @@ pub enum ModeSelectAction {
 pub enum TestMode {
     Typing,
     Translation,
+    Dictation,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -31,6 +32,9 @@ pub struct ModeSelectWidget {
     wordset_index: usize,
     translation_set_index: usize,
     time_index: usize,
+    dictation_set_index: usize,
+    length_index: usize,
+    dictation_sets: Vec<String>,
     wordset_options: Vec<String>,
     translation_set_options: Vec<String>,
     time_options: Vec<u32>,
@@ -51,6 +55,13 @@ impl ModeSelectWidget {
     pub fn new(wordset_names: Vec<String>, translation_set_names: Vec<String>) -> Self {
         let times: Vec<u32> = (15..=300).step_by(15).collect();
         Self {
+            dictation_sets: translation_set_names
+                .iter()
+                .filter(|n| n.starts_with("ru_es_"))
+                .cloned()
+                .collect(),
+            dictation_set_index: 0,
+            length_index: 1,
             active_row: ActiveRow::Mode,
             mode_index: 0,
             wordset_index: 0,
@@ -79,11 +90,21 @@ impl ModeSelectWidget {
     }
 
     pub fn selected_mode(&self) -> TestMode {
-        if self.mode_index == 0 {
-            TestMode::Typing
-        } else {
-            TestMode::Translation
+        match self.mode_index {
+            0 => TestMode::Typing,
+            1 => TestMode::Translation,
+            _ => TestMode::Dictation,
         }
+    }
+
+    pub fn selected_dictation_set(&self) -> &str {
+        self.dictation_sets
+            .get(self.dictation_set_index)
+            .map(String::as_str)
+            .unwrap_or("ru_es_a1")
+    }
+    pub fn selected_length(&self) -> u32 {
+        [10, 20, 50][self.length_index]
     }
 
     pub fn selected_translation_set(&self) -> &str {
@@ -152,6 +173,12 @@ impl ModeSelectWidget {
                     self.translation_set_index -= 1;
                 }
             }
+            (TestMode::Dictation, ActiveRow::Primary) => {
+                self.dictation_set_index = self.dictation_set_index.saturating_sub(1);
+            }
+            (TestMode::Dictation, ActiveRow::Time) => {
+                self.length_index = self.length_index.saturating_sub(1);
+            }
             (_, ActiveRow::Time) => {
                 if self.time_index > 0 {
                     self.time_index -= 1;
@@ -163,7 +190,7 @@ impl ModeSelectWidget {
     fn increment_value(&mut self) {
         match (self.selected_mode(), self.active_row) {
             (_, ActiveRow::Mode) => {
-                if self.mode_index < 1 {
+                if self.mode_index < 2 {
                     self.mode_index += 1;
                 }
             }
@@ -177,12 +204,39 @@ impl ModeSelectWidget {
                     self.translation_set_index += 1;
                 }
             }
+            (TestMode::Dictation, ActiveRow::Primary) => {
+                if self.dictation_set_index + 1 < self.dictation_sets.len() {
+                    self.dictation_set_index += 1;
+                }
+            }
+            (TestMode::Dictation, ActiveRow::Time) => {
+                if self.length_index < 2 {
+                    self.length_index += 1;
+                }
+            }
             (_, ActiveRow::Time) => {
                 if self.time_index + 1 < self.time_options.len() {
                     self.time_index += 1;
                 }
             }
         }
+    }
+
+    pub fn set_defaults(&mut self, settings: &crate::configuration::Settings) {
+        self.translation_set_index = self
+            .translation_set_options
+            .iter()
+            .position(|s| s == &settings.translation_set)
+            .unwrap_or(0);
+        self.dictation_set_index = self
+            .dictation_sets
+            .iter()
+            .position(|s| s == &settings.dictation_set)
+            .unwrap_or(0);
+        self.length_index = [10, 20, 50]
+            .iter()
+            .position(|n| *n == settings.dictation_length)
+            .unwrap_or(1);
     }
 
     pub fn reset(&mut self) {
@@ -228,6 +282,7 @@ impl Widget for &ModeSelectWidget {
         let mode_name = match self.selected_mode() {
             TestMode::Typing => "Typing",
             TestMode::Translation => "Translation",
+            TestMode::Dictation => "Dictation",
         };
         let mode_style = if self.active_row == ActiveRow::Mode {
             Style::default().fg(Color::Yellow)
@@ -249,8 +304,10 @@ impl Widget for &ModeSelectWidget {
         let primary_label_text = match self.selected_mode() {
             TestMode::Typing => "Wordset:",
             TestMode::Translation => "Translation set:",
+            TestMode::Dictation => "Spanish set:",
         };
         let primary_value_text = match self.selected_mode() {
+            TestMode::Dictation => format!("< {} >", self.selected_dictation_set()),
             TestMode::Typing => format!("< {} >", self.wordset_options[self.wordset_index]),
             TestMode::Translation => {
                 if self.translation_set_options.is_empty() {
@@ -291,9 +348,15 @@ impl Widget for &ModeSelectWidget {
                 buf,
             );
 
-        let time_label =
-            Paragraph::new(Line::from("Time:").style(Style::default().fg(Color::White)))
-                .alignment(Alignment::Center);
+        let time_label = Paragraph::new(
+            Line::from(if self.selected_mode() == TestMode::Dictation {
+                "Words:"
+            } else {
+                "Time:"
+            })
+            .style(Style::default().fg(Color::White)),
+        )
+        .alignment(Alignment::Center);
         time_label.render(
             Rect {
                 x: area.x,
@@ -305,7 +368,9 @@ impl Widget for &ModeSelectWidget {
         );
 
         let seconds = self.time_options[self.time_index];
-        let time_str = if seconds >= 60 {
+        let time_str = if self.selected_mode() == TestMode::Dictation {
+            self.selected_length().to_string()
+        } else if seconds >= 60 {
             let min = seconds / 60;
             let sec = seconds % 60;
             if sec == 0 {

@@ -12,6 +12,7 @@ pub enum MenuAction {
     Translation,
     SelectMode,
     Settings,
+    Dictation,
     Exit,
 }
 
@@ -47,6 +48,10 @@ impl MenuWidget {
                 MenuItem {
                     text: "Settings".to_string(),
                     action: MenuAction::Settings,
+                },
+                MenuItem {
+                    text: "Dictation".into(),
+                    action: MenuAction::Dictation,
                 },
                 MenuItem {
                     text: "Exit".to_string(),

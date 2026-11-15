@@ -1,0 +1,4677 @@
+[
+  {
+    "id": "ru_es_b1:abandonar",
+    "ru": "покидать",
+    "es": "abandonar"
+  },
+  {
+    "id": "ru_es_b1:abastecer",
+    "ru": "снабжать",
+    "es": "abastecer"
+  },
+  {
+    "id": "ru_es_b1:absorber",
+    "ru": "впитывать",
+    "es": "absorber"
+  },
+  {
+    "id": "ru_es_b1:abundar",
+    "ru": "изобиловать",
+    "es": "abundar"
+  },
+  {
+    "id": "ru_es_b1:acabar",
+    "ru": "заканчивать",
+    "es": "acabar"
+  },
+  {
+    "id": "ru_es_b1:acceder",
+    "ru": "получать доступ",
+    "es": "acceder"
+  },
+  {
+    "id": "ru_es_b1:acelerar",
+    "ru": "ускорять",
+    "es": "acelerar"
+  },
+  {
+    "id": "ru_es_b1:aclarar",
+    "ru": "прояснять",
+    "es": "aclarar"
+  },
+  {
+    "id": "ru_es_b1:acomodar",
+    "ru": "устраивать",
+    "es": "acomodar"
+  },
+  {
+    "id": "ru_es_b1:acumular",
+    "ru": "накапливать",
+    "es": "acumular"
+  },
+  {
+    "id": "ru_es_b1:adaptar",
+    "ru": "приспосабливать",
+    "es": "adaptar"
+  },
+  {
+    "id": "ru_es_b1:adelantar",
+    "ru": "обгонять",
+    "es": "adelantar"
+  },
+  {
+    "id": "ru_es_b1:admitir",
+    "ru": "допускать",
+    "es": "admitir"
+  },
+  {
+    "id": "ru_es_b1:adoptar",
+    "ru": "усыновлять",
+    "es": "adoptar"
+  },
+  {
+    "id": "ru_es_b1:advertir",
+    "ru": "предупреждать",
+    "es": "advertir"
+  },
+  {
+    "id": "ru_es_b1:afectar",
+    "ru": "затрагивать",
+    "es": "afectar"
+  },
+  {
+    "id": "ru_es_b1:afirmar",
+    "ru": "утверждать",
+    "es": "afirmar"
+  },
+  {
+    "id": "ru_es_b1:agarrar",
+    "ru": "хватать",
+    "es": "agarrar"
+  },
+  {
+    "id": "ru_es_b1:agitar",
+    "ru": "встряхивать",
+    "es": "agitar"
+  },
+  {
+    "id": "ru_es_b1:aguantar",
+    "ru": "терпеть",
+    "es": "aguantar"
+  },
+  {
+    "id": "ru_es_b1:aislar",
+    "ru": "изолировать",
+    "es": "aislar"
+  },
+  {
+    "id": "ru_es_b1:alcanzar",
+    "ru": "достигать",
+    "es": "alcanzar"
+  },
+  {
+    "id": "ru_es_b1:alimentar",
+    "ru": "кормить",
+    "es": "alimentar"
+  },
+  {
+    "id": "ru_es_b1:almacenar",
+    "ru": "хранить на складе",
+    "es": "almacenar"
+  },
+  {
+    "id": "ru_es_b1:alternar",
+    "ru": "чередовать",
+    "es": "alternar"
+  },
+  {
+    "id": "ru_es_b1:analizar",
+    "ru": "анализировать",
+    "es": "analizar"
+  },
+  {
+    "id": "ru_es_b1:añadir",
+    "ru": "добавлять",
+    "es": "añadir"
+  },
+  {
+    "id": "ru_es_b1:anular",
+    "ru": "аннулировать",
+    "es": "anular"
+  },
+  {
+    "id": "ru_es_b1:aplicar",
+    "ru": "применять",
+    "es": "aplicar"
+  },
+  {
+    "id": "ru_es_b1:apostar",
+    "ru": "делать ставку",
+    "es": "apostar"
+  },
+  {
+    "id": "ru_es_b1:aprobar",
+    "ru": "одобрять",
+    "es": "aprobar"
+  },
+  {
+    "id": "ru_es_b1:argumentar",
+    "ru": "приводить доводы",
+    "es": "argumentar"
+  },
+  {
+    "id": "ru_es_b1:arriesgar",
+    "ru": "рисковать",
+    "es": "arriesgar"
+  },
+  {
+    "id": "ru_es_b1:asegurar",
+    "ru": "заверять",
+    "es": "asegurar"
+  },
+  {
+    "id": "ru_es_b1:asociar",
+    "ru": "связывать",
+    "es": "asociar"
+  },
+  {
+    "id": "ru_es_b1:asumir",
+    "ru": "брать на себя",
+    "es": "asumir"
+  },
+  {
+    "id": "ru_es_b1:atacar",
+    "ru": "атаковать",
+    "es": "atacar"
+  },
+  {
+    "id": "ru_es_b1:aterrizar",
+    "ru": "приземляться",
+    "es": "aterrizar"
+  },
+  {
+    "id": "ru_es_b1:atravesar",
+    "ru": "пересекать",
+    "es": "atravesar"
+  },
+  {
+    "id": "ru_es_b1:atribuir",
+    "ru": "приписывать",
+    "es": "atribuir"
+  },
+  {
+    "id": "ru_es_b1:autorizar",
+    "ru": "разрешать",
+    "es": "autorizar"
+  },
+  {
+    "id": "ru_es_b1:averiguar",
+    "ru": "выяснять",
+    "es": "averiguar"
+  },
+  {
+    "id": "ru_es_b1:beneficiar",
+    "ru": "приносить пользу",
+    "es": "beneficiar"
+  },
+  {
+    "id": "ru_es_b1:bloquear",
+    "ru": "блокировать",
+    "es": "bloquear"
+  },
+  {
+    "id": "ru_es_b1:brillar",
+    "ru": "сиять",
+    "es": "brillar"
+  },
+  {
+    "id": "ru_es_b1:brindar",
+    "ru": "произносить тост",
+    "es": "brindar"
+  },
+  {
+    "id": "ru_es_b1:calificar",
+    "ru": "оценивать",
+    "es": "calificar"
+  },
+  {
+    "id": "ru_es_b1:cancelar",
+    "ru": "отменять",
+    "es": "cancelar"
+  },
+  {
+    "id": "ru_es_b1:captar",
+    "ru": "улавливать",
+    "es": "captar"
+  },
+  {
+    "id": "ru_es_b1:carecer",
+    "ru": "не иметь",
+    "es": "carecer"
+  },
+  {
+    "id": "ru_es_b1:cazar",
+    "ru": "охотиться",
+    "es": "cazar"
+  },
+  {
+    "id": "ru_es_b1:ceder",
+    "ru": "уступать",
+    "es": "ceder"
+  },
+  {
+    "id": "ru_es_b1:citar",
+    "ru": "цитировать",
+    "es": "citar"
+  },
+  {
+    "id": "ru_es_b1:clasificar",
+    "ru": "классифицировать",
+    "es": "clasificar"
+  },
+  {
+    "id": "ru_es_b1:coincidir",
+    "ru": "совпадать",
+    "es": "coincidir"
+  },
+  {
+    "id": "ru_es_b1:colaborar",
+    "ru": "сотрудничать",
+    "es": "colaborar"
+  },
+  {
+    "id": "ru_es_b1:combatir",
+    "ru": "сражаться",
+    "es": "combatir"
+  },
+  {
+    "id": "ru_es_b1:comentar",
+    "ru": "комментировать",
+    "es": "comentar"
+  },
+  {
+    "id": "ru_es_b1:cometer",
+    "ru": "совершать",
+    "es": "cometer"
+  },
+  {
+    "id": "ru_es_b1:comportarse",
+    "ru": "вести себя",
+    "es": "comportarse"
+  },
+  {
+    "id": "ru_es_b1:comunicar",
+    "ru": "сообщать",
+    "es": "comunicar"
+  },
+  {
+    "id": "ru_es_b1:concentrar",
+    "ru": "сосредоточивать",
+    "es": "concentrar"
+  },
+  {
+    "id": "ru_es_b1:concluir",
+    "ru": "заключать",
+    "es": "concluir"
+  },
+  {
+    "id": "ru_es_b1:condenar",
+    "ru": "осуждать",
+    "es": "condenar"
+  },
+  {
+    "id": "ru_es_b1:confesar",
+    "ru": "признаваться",
+    "es": "confesar"
+  },
+  {
+    "id": "ru_es_b1:confiar",
+    "ru": "доверять",
+    "es": "confiar"
+  },
+  {
+    "id": "ru_es_b1:confirmar",
+    "ru": "подтверждать",
+    "es": "confirmar"
+  },
+  {
+    "id": "ru_es_b1:confundir",
+    "ru": "путать",
+    "es": "confundir"
+  },
+  {
+    "id": "ru_es_b1:conservar",
+    "ru": "сохранять",
+    "es": "conservar"
+  },
+  {
+    "id": "ru_es_b1:considerar",
+    "ru": "считать",
+    "es": "considerar"
+  },
+  {
+    "id": "ru_es_b1:consistir",
+    "ru": "состоять",
+    "es": "consistir"
+  },
+  {
+    "id": "ru_es_b1:consultar",
+    "ru": "консультироваться",
+    "es": "consultar"
+  },
+  {
+    "id": "ru_es_b1:consumir",
+    "ru": "потреблять",
+    "es": "consumir"
+  },
+  {
+    "id": "ru_es_b1:contaminar",
+    "ru": "загрязнять",
+    "es": "contaminar"
+  },
+  {
+    "id": "ru_es_b1:contemplar",
+    "ru": "созерцать",
+    "es": "contemplar"
+  },
+  {
+    "id": "ru_es_b1:contener",
+    "ru": "содержать",
+    "es": "contener"
+  },
+  {
+    "id": "ru_es_b1:contratar",
+    "ru": "нанимать",
+    "es": "contratar"
+  },
+  {
+    "id": "ru_es_b1:contribuir",
+    "ru": "вносить вклад",
+    "es": "contribuir"
+  },
+  {
+    "id": "ru_es_b1:controlar",
+    "ru": "контролировать",
+    "es": "controlar"
+  },
+  {
+    "id": "ru_es_b1:convencer",
+    "ru": "убеждать",
+    "es": "convencer"
+  },
+  {
+    "id": "ru_es_b1:convertir",
+    "ru": "превращать",
+    "es": "convertir"
+  },
+  {
+    "id": "ru_es_b1:convivir",
+    "ru": "жить вместе",
+    "es": "convivir"
+  },
+  {
+    "id": "ru_es_b1:coordinar",
+    "ru": "координировать",
+    "es": "coordinar"
+  },
+  {
+    "id": "ru_es_b1:crear",
+    "ru": "создавать",
+    "es": "crear"
+  },
+  {
+    "id": "ru_es_b1:criticar",
+    "ru": "критиковать",
+    "es": "criticar"
+  },
+  {
+    "id": "ru_es_b1:cultivar",
+    "ru": "выращивать",
+    "es": "cultivar"
+  },
+  {
+    "id": "ru_es_b1:curar",
+    "ru": "лечить",
+    "es": "curar"
+  },
+  {
+    "id": "ru_es_b1:dañar",
+    "ru": "повреждать",
+    "es": "dañar"
+  },
+  {
+    "id": "ru_es_b1:debatir",
+    "ru": "обсуждать",
+    "es": "debatir"
+  },
+  {
+    "id": "ru_es_b1:declarar",
+    "ru": "заявлять",
+    "es": "declarar"
+  },
+  {
+    "id": "ru_es_b1:decorar",
+    "ru": "украшать",
+    "es": "decorar"
+  },
+  {
+    "id": "ru_es_b1:definir",
+    "ru": "определять",
+    "es": "definir"
+  },
+  {
+    "id": "ru_es_b1:demostrar",
+    "ru": "доказывать",
+    "es": "demostrar"
+  },
+  {
+    "id": "ru_es_b1:denunciar",
+    "ru": "подавать жалобу",
+    "es": "denunciar"
+  },
+  {
+    "id": "ru_es_b1:depender",
+    "ru": "зависеть",
+    "es": "depender"
+  },
+  {
+    "id": "ru_es_b1:depositar",
+    "ru": "вносить на хранение",
+    "es": "depositar"
+  },
+  {
+    "id": "ru_es_b1:derrotar",
+    "ru": "побеждать",
+    "es": "derrotar"
+  },
+  {
+    "id": "ru_es_b1:desaparecer",
+    "ru": "исчезать",
+    "es": "desaparecer"
+  },
+  {
+    "id": "ru_es_b1:desarrollar",
+    "ru": "развивать",
+    "es": "desarrollar"
+  },
+  {
+    "id": "ru_es_b1:descartar",
+    "ru": "отбрасывать",
+    "es": "descartar"
+  },
+  {
+    "id": "ru_es_b1:descubrir",
+    "ru": "открывать",
+    "es": "descubrir"
+  },
+  {
+    "id": "ru_es_b1:desempeñar",
+    "ru": "исполнять обязанности",
+    "es": "desempeñar"
+  },
+  {
+    "id": "ru_es_b1:desplazar",
+    "ru": "перемещать",
+    "es": "desplazar"
+  },
+  {
+    "id": "ru_es_b1:destacar",
+    "ru": "выделять",
+    "es": "destacar"
+  },
+  {
+    "id": "ru_es_b1:destruir",
+    "ru": "разрушать",
+    "es": "destruir"
+  },
+  {
+    "id": "ru_es_b1:detectar",
+    "ru": "обнаруживать",
+    "es": "detectar"
+  },
+  {
+    "id": "ru_es_b1:detener",
+    "ru": "останавливать",
+    "es": "detener"
+  },
+  {
+    "id": "ru_es_b1:determinar",
+    "ru": "устанавливать",
+    "es": "determinar"
+  },
+  {
+    "id": "ru_es_b1:difundir",
+    "ru": "распространять",
+    "es": "difundir"
+  },
+  {
+    "id": "ru_es_b1:disminuir",
+    "ru": "уменьшать",
+    "es": "disminuir"
+  },
+  {
+    "id": "ru_es_b1:distinguir",
+    "ru": "различать",
+    "es": "distinguir"
+  },
+  {
+    "id": "ru_es_b1:distribuir",
+    "ru": "распределять",
+    "es": "distribuir"
+  },
+  {
+    "id": "ru_es_b1:dividir",
+    "ru": "делить",
+    "es": "dividir"
+  },
+  {
+    "id": "ru_es_b1:donar",
+    "ru": "жертвовать",
+    "es": "donar"
+  },
+  {
+    "id": "ru_es_b1:duplicar",
+    "ru": "удваивать",
+    "es": "duplicar"
+  },
+  {
+    "id": "ru_es_b1:elaborar",
+    "ru": "разрабатывать",
+    "es": "elaborar"
+  },
+  {
+    "id": "ru_es_b1:eliminar",
+    "ru": "устранять",
+    "es": "eliminar"
+  },
+  {
+    "id": "ru_es_b1:emitir",
+    "ru": "испускать",
+    "es": "emitir"
+  },
+  {
+    "id": "ru_es_b1:emplear",
+    "ru": "применять",
+    "es": "emplear"
+  },
+  {
+    "id": "ru_es_b1:enfrentar",
+    "ru": "противопоставлять",
+    "es": "enfrentar"
+  },
+  {
+    "id": "ru_es_b1:enterrar",
+    "ru": "хоронить",
+    "es": "enterrar"
+  },
+  {
+    "id": "ru_es_b1:entrevistar",
+    "ru": "брать интервью",
+    "es": "entrevistar"
+  },
+  {
+    "id": "ru_es_b1:equivocarse",
+    "ru": "ошибаться",
+    "es": "equivocarse"
+  },
+  {
+    "id": "ru_es_b1:escapar",
+    "ru": "убегать",
+    "es": "escapar"
+  },
+  {
+    "id": "ru_es_b1:establecer",
+    "ru": "устанавливать",
+    "es": "establecer"
+  },
+  {
+    "id": "ru_es_b1:estimar",
+    "ru": "оценивать",
+    "es": "estimar"
+  },
+  {
+    "id": "ru_es_b1:exigir",
+    "ru": "требовать",
+    "es": "exigir"
+  },
+  {
+    "id": "ru_es_b1:expandir",
+    "ru": "расширять",
+    "es": "expandir"
+  },
+  {
+    "id": "ru_es_b1:experimentar",
+    "ru": "испытывать",
+    "es": "experimentar"
+  },
+  {
+    "id": "ru_es_b1:expresar",
+    "ru": "выражать",
+    "es": "expresar"
+  },
+  {
+    "id": "ru_es_b1:extender",
+    "ru": "распростирать",
+    "es": "extender"
+  },
+  {
+    "id": "ru_es_b1:fabricar",
+    "ru": "изготавливать",
+    "es": "fabricar"
+  },
+  {
+    "id": "ru_es_b1:facilitar",
+    "ru": "облегчать",
+    "es": "facilitar"
+  },
+  {
+    "id": "ru_es_b1:fallar",
+    "ru": "давать сбой",
+    "es": "fallar"
+  },
+  {
+    "id": "ru_es_b1:favorecer",
+    "ru": "благоприятствовать",
+    "es": "favorecer"
+  },
+  {
+    "id": "ru_es_b1:fijar",
+    "ru": "закреплять",
+    "es": "fijar"
+  },
+  {
+    "id": "ru_es_b1:financiar",
+    "ru": "финансировать",
+    "es": "financiar"
+  },
+  {
+    "id": "ru_es_b1:formar",
+    "ru": "формировать",
+    "es": "formar"
+  },
+  {
+    "id": "ru_es_b1:fundar",
+    "ru": "основывать",
+    "es": "fundar"
+  },
+  {
+    "id": "ru_es_b1:generar",
+    "ru": "порождать",
+    "es": "generar"
+  },
+  {
+    "id": "ru_es_b1:gestionar",
+    "ru": "управлять",
+    "es": "gestionar"
+  },
+  {
+    "id": "ru_es_b1:gobernar",
+    "ru": "править",
+    "es": "gobernar"
+  },
+  {
+    "id": "ru_es_b1:gozar",
+    "ru": "наслаждаться",
+    "es": "gozar"
+  },
+  {
+    "id": "ru_es_b1:graduarse",
+    "ru": "оканчивать учебное заведение",
+    "es": "graduarse"
+  },
+  {
+    "id": "ru_es_b1:habitar",
+    "ru": "обитать",
+    "es": "habitar"
+  },
+  {
+    "id": "ru_es_b1:hallar",
+    "ru": "находить",
+    "es": "hallar"
+  },
+  {
+    "id": "ru_es_b1:identificar",
+    "ru": "опознавать",
+    "es": "identificar"
+  },
+  {
+    "id": "ru_es_b1:ignorar",
+    "ru": "не знать",
+    "es": "ignorar"
+  },
+  {
+    "id": "ru_es_b1:iluminar",
+    "ru": "освещать",
+    "es": "iluminar"
+  },
+  {
+    "id": "ru_es_b1:imitar",
+    "ru": "подражать",
+    "es": "imitar"
+  },
+  {
+    "id": "ru_es_b1:impedir",
+    "ru": "препятствовать",
+    "es": "impedir"
+  },
+  {
+    "id": "ru_es_b1:imponer",
+    "ru": "навязывать",
+    "es": "imponer"
+  },
+  {
+    "id": "ru_es_b1:incluir",
+    "ru": "включать",
+    "es": "incluir"
+  },
+  {
+    "id": "ru_es_b1:indicar",
+    "ru": "указывать",
+    "es": "indicar"
+  },
+  {
+    "id": "ru_es_b1:influir",
+    "ru": "влиять",
+    "es": "influir"
+  },
+  {
+    "id": "ru_es_b1:informar",
+    "ru": "информировать",
+    "es": "informar"
+  },
+  {
+    "id": "ru_es_b1:ingresar",
+    "ru": "поступать",
+    "es": "ingresar"
+  },
+  {
+    "id": "ru_es_b1:iniciar",
+    "ru": "начинать",
+    "es": "iniciar"
+  },
+  {
+    "id": "ru_es_b1:instalar",
+    "ru": "устанавливать оборудование",
+    "es": "instalar"
+  },
+  {
+    "id": "ru_es_b1:integrar",
+    "ru": "объединять",
+    "es": "integrar"
+  },
+  {
+    "id": "ru_es_b1:interpretar",
+    "ru": "толковать",
+    "es": "interpretar"
+  },
+  {
+    "id": "ru_es_b1:interrumpir",
+    "ru": "прерывать",
+    "es": "interrumpir"
+  },
+  {
+    "id": "ru_es_b1:introducir",
+    "ru": "вводить",
+    "es": "introducir"
+  },
+  {
+    "id": "ru_es_b1:inventar",
+    "ru": "изобретать",
+    "es": "inventar"
+  },
+  {
+    "id": "ru_es_b1:invertir",
+    "ru": "вкладывать деньги",
+    "es": "invertir"
+  },
+  {
+    "id": "ru_es_b1:investigar",
+    "ru": "исследовать",
+    "es": "investigar"
+  },
+  {
+    "id": "ru_es_b1:juzgar",
+    "ru": "судить",
+    "es": "juzgar"
+  },
+  {
+    "id": "ru_es_b1:lanzar",
+    "ru": "запускать",
+    "es": "lanzar"
+  },
+  {
+    "id": "ru_es_b1:liberar",
+    "ru": "освобождать",
+    "es": "liberar"
+  },
+  {
+    "id": "ru_es_b1:localizar",
+    "ru": "определять местонахождение",
+    "es": "localizar"
+  },
+  {
+    "id": "ru_es_b1:lograr",
+    "ru": "добиваться",
+    "es": "lograr"
+  },
+  {
+    "id": "ru_es_b1:manifestar",
+    "ru": "выражать",
+    "es": "manifestar"
+  },
+  {
+    "id": "ru_es_b1:medir",
+    "ru": "измерять",
+    "es": "medir"
+  },
+  {
+    "id": "ru_es_b1:mencionar",
+    "ru": "упоминать",
+    "es": "mencionar"
+  },
+  {
+    "id": "ru_es_b1:modificar",
+    "ru": "изменять",
+    "es": "modificar"
+  },
+  {
+    "id": "ru_es_b1:motivar",
+    "ru": "побуждать",
+    "es": "motivar"
+  },
+  {
+    "id": "ru_es_b1:negociar",
+    "ru": "вести переговоры",
+    "es": "negociar"
+  },
+  {
+    "id": "ru_es_b1:observar",
+    "ru": "наблюдать",
+    "es": "observar"
+  },
+  {
+    "id": "ru_es_b1:obtener",
+    "ru": "получать",
+    "es": "obtener"
+  },
+  {
+    "id": "ru_es_b1:ocupar",
+    "ru": "занимать",
+    "es": "ocupar"
+  },
+  {
+    "id": "ru_es_b1:opinar",
+    "ru": "высказывать мнение",
+    "es": "opinar"
+  },
+  {
+    "id": "ru_es_b1:orientar",
+    "ru": "направлять",
+    "es": "orientar"
+  },
+  {
+    "id": "ru_es_b1:originar",
+    "ru": "порождать",
+    "es": "originar"
+  },
+  {
+    "id": "ru_es_b1:pelear",
+    "ru": "драться",
+    "es": "pelear"
+  },
+  {
+    "id": "ru_es_b1:percibir",
+    "ru": "воспринимать",
+    "es": "percibir"
+  },
+  {
+    "id": "ru_es_b1:perjudicar",
+    "ru": "вредить",
+    "es": "perjudicar"
+  },
+  {
+    "id": "ru_es_b1:permanecer",
+    "ru": "оставаться",
+    "es": "permanecer"
+  },
+  {
+    "id": "ru_es_b1:plantear",
+    "ru": "ставить вопрос",
+    "es": "plantear"
+  },
+  {
+    "id": "ru_es_b1:poseer",
+    "ru": "владеть",
+    "es": "poseer"
+  },
+  {
+    "id": "ru_es_b1:precisar",
+    "ru": "уточнять",
+    "es": "precisar"
+  },
+  {
+    "id": "ru_es_b1:predecir",
+    "ru": "предсказывать",
+    "es": "predecir"
+  },
+  {
+    "id": "ru_es_b1:pretender",
+    "ru": "намереваться",
+    "es": "pretender"
+  },
+  {
+    "id": "ru_es_b1:prevenir",
+    "ru": "предотвращать",
+    "es": "prevenir"
+  },
+  {
+    "id": "ru_es_b1:proceder",
+    "ru": "происходить из",
+    "es": "proceder"
+  },
+  {
+    "id": "ru_es_b1:procesar",
+    "ru": "обрабатывать",
+    "es": "procesar"
+  },
+  {
+    "id": "ru_es_b1:proponer",
+    "ru": "предлагать",
+    "es": "proponer"
+  },
+  {
+    "id": "ru_es_b1:publicar",
+    "ru": "публиковать",
+    "es": "publicar"
+  },
+  {
+    "id": "ru_es_b1:rechazar",
+    "ru": "отвергать",
+    "es": "rechazar"
+  },
+  {
+    "id": "ru_es_b1:reclamar",
+    "ru": "требовать",
+    "es": "reclamar"
+  },
+  {
+    "id": "ru_es_b1:recuperar",
+    "ru": "восстанавливать",
+    "es": "recuperar"
+  },
+  {
+    "id": "ru_es_b1:reflejar",
+    "ru": "отражать",
+    "es": "reflejar"
+  },
+  {
+    "id": "ru_es_b1:reformar",
+    "ru": "реформировать",
+    "es": "reformar"
+  },
+  {
+    "id": "ru_es_b1:registrar",
+    "ru": "регистрировать",
+    "es": "registrar"
+  },
+  {
+    "id": "ru_es_b1:regular",
+    "ru": "регулировать",
+    "es": "regular"
+  },
+  {
+    "id": "ru_es_b1:relacionar",
+    "ru": "связывать",
+    "es": "relacionar"
+  },
+  {
+    "id": "ru_es_b1:renovar",
+    "ru": "обновлять",
+    "es": "renovar"
+  },
+  {
+    "id": "ru_es_b1:renunciar",
+    "ru": "отказываться",
+    "es": "renunciar"
+  },
+  {
+    "id": "ru_es_b1:representar",
+    "ru": "представлять",
+    "es": "representar"
+  },
+  {
+    "id": "ru_es_b1:requerir",
+    "ru": "требовать",
+    "es": "requerir"
+  },
+  {
+    "id": "ru_es_b1:resistir",
+    "ru": "сопротивляться",
+    "es": "resistir"
+  },
+  {
+    "id": "ru_es_b1:retirar",
+    "ru": "убирать",
+    "es": "retirar"
+  },
+  {
+    "id": "ru_es_b1:revelar",
+    "ru": "раскрывать",
+    "es": "revelar"
+  },
+  {
+    "id": "ru_es_b1:revisar",
+    "ru": "проверять",
+    "es": "revisar"
+  },
+  {
+    "id": "ru_es_b1:revolcar",
+    "ru": "опрокидывать",
+    "es": "revolcar"
+  },
+  {
+    "id": "ru_es_b1:reemplazar",
+    "ru": "заменять",
+    "es": "reemplazar"
+  },
+  {
+    "id": "ru_es_b1:repartir",
+    "ru": "раздавать",
+    "es": "repartir"
+  },
+  {
+    "id": "ru_es_b1:reproducir",
+    "ru": "воспроизводить",
+    "es": "reproducir"
+  },
+  {
+    "id": "ru_es_b1:resumir",
+    "ru": "подводить итог",
+    "es": "resumir"
+  },
+  {
+    "id": "ru_es_b1:retener",
+    "ru": "удерживать",
+    "es": "retener"
+  },
+  {
+    "id": "ru_es_b1:satisfacer",
+    "ru": "удовлетворять",
+    "es": "satisfacer"
+  },
+  {
+    "id": "ru_es_b1:seleccionar",
+    "ru": "отбирать",
+    "es": "seleccionar"
+  },
+  {
+    "id": "ru_es_b1:situar",
+    "ru": "располагать",
+    "es": "situar"
+  },
+  {
+    "id": "ru_es_b1:soltar",
+    "ru": "отпускать",
+    "es": "soltar"
+  },
+  {
+    "id": "ru_es_b1:solucionar",
+    "ru": "решать проблему",
+    "es": "solucionar"
+  },
+  {
+    "id": "ru_es_b1:someter",
+    "ru": "подчинять",
+    "es": "someter"
+  },
+  {
+    "id": "ru_es_b1:sospechar",
+    "ru": "подозревать",
+    "es": "sospechar"
+  },
+  {
+    "id": "ru_es_b1:sostener",
+    "ru": "поддерживать",
+    "es": "sostener"
+  },
+  {
+    "id": "ru_es_b1:sustituir",
+    "ru": "замещать",
+    "es": "sustituir"
+  },
+  {
+    "id": "ru_es_b1:tapar",
+    "ru": "накрывать",
+    "es": "tapar"
+  },
+  {
+    "id": "ru_es_b1:tejer",
+    "ru": "ткать",
+    "es": "tejer"
+  },
+  {
+    "id": "ru_es_b1:transmitir",
+    "ru": "передавать",
+    "es": "transmitir"
+  },
+  {
+    "id": "ru_es_b1:transportar",
+    "ru": "перевозить",
+    "es": "transportar"
+  },
+  {
+    "id": "ru_es_b1:unir",
+    "ru": "соединять",
+    "es": "unir"
+  },
+  {
+    "id": "ru_es_b1:valorar",
+    "ru": "оценивать",
+    "es": "valorar"
+  },
+  {
+    "id": "ru_es_b1:variar",
+    "ru": "изменяться",
+    "es": "variar"
+  },
+  {
+    "id": "ru_es_b1:verificar",
+    "ru": "проверять",
+    "es": "verificar"
+  },
+  {
+    "id": "ru_es_b1:vincular",
+    "ru": "связывать",
+    "es": "vincular"
+  },
+  {
+    "id": "ru_es_b1:acostarse",
+    "ru": "ложиться спать",
+    "es": "acostarse"
+  },
+  {
+    "id": "ru_es_b1:despertarse",
+    "ru": "просыпаться",
+    "es": "despertarse"
+  },
+  {
+    "id": "ru_es_b1:enterarse",
+    "ru": "узнавать",
+    "es": "enterarse"
+  },
+  {
+    "id": "ru_es_b1:desenvolver",
+    "ru": "разворачивать",
+    "es": "desenvolver"
+  },
+  {
+    "id": "ru_es_b1:emborracharse",
+    "ru": "напиваться",
+    "es": "emborracharse"
+  },
+  {
+    "id": "ru_es_b1:enamorarse",
+    "ru": "влюбляться",
+    "es": "enamorarse"
+  },
+  {
+    "id": "ru_es_b1:fallecer",
+    "ru": "умирать",
+    "es": "fallecer"
+  },
+  {
+    "id": "ru_es_b1:inscribirse",
+    "ru": "записываться",
+    "es": "inscribirse"
+  },
+  {
+    "id": "ru_es_b1:reírse",
+    "ru": "смеяться",
+    "es": "reírse"
+  },
+  {
+    "id": "ru_es_b1:sentarse",
+    "ru": "садиться",
+    "es": "sentarse"
+  },
+  {
+    "id": "ru_es_b1:sentirse",
+    "ru": "чувствовать себя",
+    "es": "sentirse"
+  },
+  {
+    "id": "ru_es_b1:acertar",
+    "ru": "попадать в цель",
+    "es": "acertar"
+  },
+  {
+    "id": "ru_es_b1:equilibrar",
+    "ru": "уравновешивать",
+    "es": "equilibrar"
+  },
+  {
+    "id": "ru_es_b1:encajar",
+    "ru": "вставлять по размеру",
+    "es": "encajar"
+  },
+  {
+    "id": "ru_es_b1:empeorar",
+    "ru": "ухудшать",
+    "es": "empeorar"
+  },
+  {
+    "id": "ru_es_b1:abrigar",
+    "ru": "укрывать",
+    "es": "abrigar"
+  },
+  {
+    "id": "ru_es_b1:desabrochar",
+    "ru": "расстёгивать",
+    "es": "desabrochar"
+  },
+  {
+    "id": "ru_es_b1:abrochar",
+    "ru": "застёгивать",
+    "es": "abrochar"
+  },
+  {
+    "id": "ru_es_b1:amarrar",
+    "ru": "привязывать",
+    "es": "amarrar"
+  },
+  {
+    "id": "ru_es_b1:arañar",
+    "ru": "царапать",
+    "es": "arañar"
+  },
+  {
+    "id": "ru_es_b1:arrancar",
+    "ru": "вырывать",
+    "es": "arrancar"
+  },
+  {
+    "id": "ru_es_b1:arruinar",
+    "ru": "разорять",
+    "es": "arruinar"
+  },
+  {
+    "id": "ru_es_b1:atar",
+    "ru": "связывать",
+    "es": "atar"
+  },
+  {
+    "id": "ru_es_b1:atropellar",
+    "ru": "сбивать транспортом",
+    "es": "atropellar"
+  },
+  {
+    "id": "ru_es_b1:colarse",
+    "ru": "пробираться без разрешения",
+    "es": "colarse"
+  },
+  {
+    "id": "ru_es_b1:deslizar",
+    "ru": "скользить",
+    "es": "deslizar"
+  },
+  {
+    "id": "ru_es_b1:estirar",
+    "ru": "растягивать",
+    "es": "estirar"
+  },
+  {
+    "id": "ru_es_b1:frotar",
+    "ru": "тереть",
+    "es": "frotar"
+  },
+  {
+    "id": "ru_es_b1:gotear",
+    "ru": "капать",
+    "es": "gotear"
+  },
+  {
+    "id": "ru_es_b1:hundir",
+    "ru": "топить",
+    "es": "hundir"
+  },
+  {
+    "id": "ru_es_b1:inflar",
+    "ru": "надувать",
+    "es": "inflar"
+  },
+  {
+    "id": "ru_es_b1:lamer",
+    "ru": "лизать",
+    "es": "lamer"
+  },
+  {
+    "id": "ru_es_b1:masticar",
+    "ru": "жевать",
+    "es": "masticar"
+  },
+  {
+    "id": "ru_es_b1:parpadear",
+    "ru": "моргать",
+    "es": "parpadear"
+  },
+  {
+    "id": "ru_es_b1:rascar",
+    "ru": "чесать",
+    "es": "rascar"
+  },
+  {
+    "id": "ru_es_b1:rozar",
+    "ru": "касаться",
+    "es": "rozar"
+  },
+  {
+    "id": "ru_es_b1:salpicar",
+    "ru": "брызгать",
+    "es": "salpicar"
+  },
+  {
+    "id": "ru_es_b1:tragar",
+    "ru": "глотать",
+    "es": "tragar"
+  },
+  {
+    "id": "ru_es_b1:trepar",
+    "ru": "карабкаться",
+    "es": "trepar"
+  },
+  {
+    "id": "ru_es_b1:tumbar",
+    "ru": "валить",
+    "es": "tumbar"
+  },
+  {
+    "id": "ru_es_b1:vacunar",
+    "ru": "делать прививку",
+    "es": "vacunar"
+  },
+  {
+    "id": "ru_es_b1:vomitar",
+    "ru": "рвать",
+    "es": "vomitar"
+  },
+  {
+    "id": "ru_es_b1:acción",
+    "ru": "действие",
+    "es": "acción"
+  },
+  {
+    "id": "ru_es_b1:actitud",
+    "ru": "отношение",
+    "es": "actitud"
+  },
+  {
+    "id": "ru_es_b1:acuerdo",
+    "ru": "соглашение",
+    "es": "acuerdo"
+  },
+  {
+    "id": "ru_es_b1:adaptación",
+    "ru": "адаптация",
+    "es": "adaptación"
+  },
+  {
+    "id": "ru_es_b1:administración",
+    "ru": "управление",
+    "es": "administración"
+  },
+  {
+    "id": "ru_es_b1:adolescencia",
+    "ru": "подростковый возраст",
+    "es": "adolescencia"
+  },
+  {
+    "id": "ru_es_b1:ahijado",
+    "ru": "крестник",
+    "es": "ahijado"
+  },
+  {
+    "id": "ru_es_b1:alcalde",
+    "ru": "мэр",
+    "es": "alcalde"
+  },
+  {
+    "id": "ru_es_b1:aldea",
+    "ru": "деревня",
+    "es": "aldea"
+  },
+  {
+    "id": "ru_es_b1:alrededor",
+    "ru": "вокруг",
+    "es": "alrededor"
+  },
+  {
+    "id": "ru_es_b1:ambiente",
+    "ru": "среда",
+    "es": "ambiente"
+  },
+  {
+    "id": "ru_es_b1:amistoso",
+    "ru": "дружеский",
+    "es": "amistoso"
+  },
+  {
+    "id": "ru_es_b1:anciano",
+    "ru": "пожилой",
+    "es": "anciano"
+  },
+  {
+    "id": "ru_es_b1:anécdota",
+    "ru": "короткий рассказ",
+    "es": "anécdota"
+  },
+  {
+    "id": "ru_es_b1:aprendizaje",
+    "ru": "обучение",
+    "es": "aprendizaje"
+  },
+  {
+    "id": "ru_es_b1:aprobación",
+    "ru": "одобрение",
+    "es": "aprobación"
+  },
+  {
+    "id": "ru_es_b1:atención",
+    "ru": "внимание",
+    "es": "atención"
+  },
+  {
+    "id": "ru_es_b1:audiencia",
+    "ru": "аудитория",
+    "es": "audiencia"
+  },
+  {
+    "id": "ru_es_b1:autor",
+    "ru": "автор",
+    "es": "autor"
+  },
+  {
+    "id": "ru_es_b1:autoridad",
+    "ru": "власть",
+    "es": "autoridad"
+  },
+  {
+    "id": "ru_es_b1:avance",
+    "ru": "продвижение",
+    "es": "avance"
+  },
+  {
+    "id": "ru_es_b1:ayudante",
+    "ru": "помощник",
+    "es": "ayudante"
+  },
+  {
+    "id": "ru_es_b1:beneficio",
+    "ru": "польза",
+    "es": "beneficio"
+  },
+  {
+    "id": "ru_es_b1:capacidad",
+    "ru": "способность",
+    "es": "capacidad"
+  },
+  {
+    "id": "ru_es_b1:ciudadano",
+    "ru": "гражданин",
+    "es": "ciudadano"
+  },
+  {
+    "id": "ru_es_b1:comunidad",
+    "ru": "сообщество",
+    "es": "comunidad"
+  },
+  {
+    "id": "ru_es_b1:conducta",
+    "ru": "поведение",
+    "es": "conducta"
+  },
+  {
+    "id": "ru_es_b1:conflicto",
+    "ru": "конфликт",
+    "es": "conflicto"
+  },
+  {
+    "id": "ru_es_b1:conocimiento",
+    "ru": "знание",
+    "es": "conocimiento"
+  },
+  {
+    "id": "ru_es_b1:consecuencia",
+    "ru": "последствие",
+    "es": "consecuencia"
+  },
+  {
+    "id": "ru_es_b1:consumo",
+    "ru": "потребление",
+    "es": "consumo"
+  },
+  {
+    "id": "ru_es_b1:contenido",
+    "ru": "содержание",
+    "es": "contenido"
+  },
+  {
+    "id": "ru_es_b1:control",
+    "ru": "контроль",
+    "es": "control"
+  },
+  {
+    "id": "ru_es_b1:crecimiento",
+    "ru": "рост",
+    "es": "crecimiento"
+  },
+  {
+    "id": "ru_es_b1:crisis",
+    "ru": "кризис",
+    "es": "crisis"
+  },
+  {
+    "id": "ru_es_b1:debate",
+    "ru": "дискуссия",
+    "es": "debate"
+  },
+  {
+    "id": "ru_es_b1:derecho",
+    "ru": "право",
+    "es": "derecho"
+  },
+  {
+    "id": "ru_es_b1:desarrollo",
+    "ru": "развитие",
+    "es": "desarrollo"
+  },
+  {
+    "id": "ru_es_b1:desigualdad",
+    "ru": "неравенство",
+    "es": "desigualdad"
+  },
+  {
+    "id": "ru_es_b1:desventaja",
+    "ru": "недостаток",
+    "es": "desventaja"
+  },
+  {
+    "id": "ru_es_b1:diálogo",
+    "ru": "диалог",
+    "es": "diálogo"
+  },
+  {
+    "id": "ru_es_b1:discusión",
+    "ru": "спор",
+    "es": "discusión"
+  },
+  {
+    "id": "ru_es_b1:discurso",
+    "ru": "речь",
+    "es": "discurso"
+  },
+  {
+    "id": "ru_es_b1:dispositivo",
+    "ru": "устройство",
+    "es": "dispositivo"
+  },
+  {
+    "id": "ru_es_b1:diversidad",
+    "ru": "разнообразие",
+    "es": "diversidad"
+  },
+  {
+    "id": "ru_es_b1:educación",
+    "ru": "образование",
+    "es": "educación"
+  },
+  {
+    "id": "ru_es_b1:efecto",
+    "ru": "эффект",
+    "es": "efecto"
+  },
+  {
+    "id": "ru_es_b1:elección",
+    "ru": "выбор",
+    "es": "elección"
+  },
+  {
+    "id": "ru_es_b1:energía",
+    "ru": "энергия",
+    "es": "energía"
+  },
+  {
+    "id": "ru_es_b1:entorno",
+    "ru": "окружение",
+    "es": "entorno"
+  },
+  {
+    "id": "ru_es_b1:esfuerzo",
+    "ru": "усилие",
+    "es": "esfuerzo"
+  },
+  {
+    "id": "ru_es_b1:estado",
+    "ru": "состояние",
+    "es": "estado"
+  },
+  {
+    "id": "ru_es_b1:estrategia",
+    "ru": "стратегия",
+    "es": "estrategia"
+  },
+  {
+    "id": "ru_es_b1:expresión",
+    "ru": "выражение",
+    "es": "expresión"
+  },
+  {
+    "id": "ru_es_b1:factor",
+    "ru": "фактор",
+    "es": "factor"
+  },
+  {
+    "id": "ru_es_b1:fenómeno",
+    "ru": "явление",
+    "es": "fenómeno"
+  },
+  {
+    "id": "ru_es_b1:formación",
+    "ru": "образование",
+    "es": "formación"
+  },
+  {
+    "id": "ru_es_b1:función",
+    "ru": "функция",
+    "es": "función"
+  },
+  {
+    "id": "ru_es_b1:futuro",
+    "ru": "будущее",
+    "es": "futuro"
+  },
+  {
+    "id": "ru_es_b1:género",
+    "ru": "род",
+    "es": "género"
+  },
+  {
+    "id": "ru_es_b1:generación",
+    "ru": "поколение",
+    "es": "generación"
+  },
+  {
+    "id": "ru_es_b1:gobierno",
+    "ru": "правительство",
+    "es": "gobierno"
+  },
+  {
+    "id": "ru_es_b1:grupo",
+    "ru": "группа",
+    "es": "grupo"
+  },
+  {
+    "id": "ru_es_b1:hábito",
+    "ru": "привычка",
+    "es": "hábito"
+  },
+  {
+    "id": "ru_es_b1:habilidad",
+    "ru": "умение",
+    "es": "habilidad"
+  },
+  {
+    "id": "ru_es_b1:identidad",
+    "ru": "идентичность",
+    "es": "identidad"
+  },
+  {
+    "id": "ru_es_b1:impacto",
+    "ru": "воздействие",
+    "es": "impacto"
+  },
+  {
+    "id": "ru_es_b1:individuo",
+    "ru": "индивид",
+    "es": "individuo"
+  },
+  {
+    "id": "ru_es_b1:información",
+    "ru": "информация",
+    "es": "información"
+  },
+  {
+    "id": "ru_es_b1:iniciativa",
+    "ru": "инициатива",
+    "es": "iniciativa"
+  },
+  {
+    "id": "ru_es_b1:injusticia",
+    "ru": "несправедливость",
+    "es": "injusticia"
+  },
+  {
+    "id": "ru_es_b1:institución",
+    "ru": "учреждение",
+    "es": "institución"
+  },
+  {
+    "id": "ru_es_b1:integración",
+    "ru": "интеграция",
+    "es": "integración"
+  },
+  {
+    "id": "ru_es_b1:investigación",
+    "ru": "исследование",
+    "es": "investigación"
+  },
+  {
+    "id": "ru_es_b1:juicio",
+    "ru": "суждение",
+    "es": "juicio"
+  },
+  {
+    "id": "ru_es_b1:justicia",
+    "ru": "справедливость",
+    "es": "justicia"
+  },
+  {
+    "id": "ru_es_b1:ley",
+    "ru": "закон",
+    "es": "ley"
+  },
+  {
+    "id": "ru_es_b1:límite",
+    "ru": "предел",
+    "es": "límite"
+  },
+  {
+    "id": "ru_es_b1:líder",
+    "ru": "лидер",
+    "es": "líder"
+  },
+  {
+    "id": "ru_es_b1:mayoría",
+    "ru": "большинство",
+    "es": "mayoría"
+  },
+  {
+    "id": "ru_es_b1:medida",
+    "ru": "мера",
+    "es": "medida"
+  },
+  {
+    "id": "ru_es_b1:medio",
+    "ru": "средство",
+    "es": "medio"
+  },
+  {
+    "id": "ru_es_b1:mejora",
+    "ru": "улучшение",
+    "es": "mejora"
+  },
+  {
+    "id": "ru_es_b1:meta",
+    "ru": "цель",
+    "es": "meta"
+  },
+  {
+    "id": "ru_es_b1:método",
+    "ru": "метод",
+    "es": "método"
+  },
+  {
+    "id": "ru_es_b1:minoría",
+    "ru": "меньшинство",
+    "es": "minoría"
+  },
+  {
+    "id": "ru_es_b1:modelo",
+    "ru": "модель",
+    "es": "modelo"
+  },
+  {
+    "id": "ru_es_b1:movimiento",
+    "ru": "движение",
+    "es": "movimiento"
+  },
+  {
+    "id": "ru_es_b1:necesidad",
+    "ru": "потребность",
+    "es": "necesidad"
+  },
+  {
+    "id": "ru_es_b1:nivel",
+    "ru": "уровень",
+    "es": "nivel"
+  },
+  {
+    "id": "ru_es_b1:objetivo",
+    "ru": "цель",
+    "es": "objetivo"
+  },
+  {
+    "id": "ru_es_b1:obligación",
+    "ru": "обязанность",
+    "es": "obligación"
+  },
+  {
+    "id": "ru_es_b1:opinión",
+    "ru": "мнение",
+    "es": "opinión"
+  },
+  {
+    "id": "ru_es_b1:oportunidad",
+    "ru": "возможность",
+    "es": "oportunidad"
+  },
+  {
+    "id": "ru_es_b1:origen",
+    "ru": "происхождение",
+    "es": "origen"
+  },
+  {
+    "id": "ru_es_b1:organización",
+    "ru": "организация",
+    "es": "organización"
+  },
+  {
+    "id": "ru_es_b1:participación",
+    "ru": "участие",
+    "es": "participación"
+  },
+  {
+    "id": "ru_es_b1:pasado",
+    "ru": "прошлое",
+    "es": "pasado"
+  },
+  {
+    "id": "ru_es_b1:población",
+    "ru": "население",
+    "es": "población"
+  },
+  {
+    "id": "ru_es_b1:política",
+    "ru": "политика",
+    "es": "política"
+  },
+  {
+    "id": "ru_es_b1:porcentaje",
+    "ru": "процент",
+    "es": "porcentaje"
+  },
+  {
+    "id": "ru_es_b1:postura",
+    "ru": "позиция",
+    "es": "postura"
+  },
+  {
+    "id": "ru_es_b1:presente",
+    "ru": "настоящее",
+    "es": "presente"
+  },
+  {
+    "id": "ru_es_b1:presión",
+    "ru": "давление",
+    "es": "presión"
+  },
+  {
+    "id": "ru_es_b1:proceso",
+    "ru": "процесс",
+    "es": "proceso"
+  },
+  {
+    "id": "ru_es_b1:producto",
+    "ru": "продукт",
+    "es": "producto"
+  },
+  {
+    "id": "ru_es_b1:progreso",
+    "ru": "прогресс",
+    "es": "progreso"
+  },
+  {
+    "id": "ru_es_b1:propuesta",
+    "ru": "предложение",
+    "es": "propuesta"
+  },
+  {
+    "id": "ru_es_b1:proyecto",
+    "ru": "проект",
+    "es": "proyecto"
+  },
+  {
+    "id": "ru_es_b1:prueba",
+    "ru": "испытание",
+    "es": "prueba"
+  },
+  {
+    "id": "ru_es_b1:público",
+    "ru": "публика",
+    "es": "público"
+  },
+  {
+    "id": "ru_es_b1:reacción",
+    "ru": "реакция",
+    "es": "reacción"
+  },
+  {
+    "id": "ru_es_b1:realidad",
+    "ru": "реальность",
+    "es": "realidad"
+  },
+  {
+    "id": "ru_es_b1:recurso",
+    "ru": "ресурс",
+    "es": "recurso"
+  },
+  {
+    "id": "ru_es_b1:relación",
+    "ru": "отношение",
+    "es": "relación"
+  },
+  {
+    "id": "ru_es_b1:resultado",
+    "ru": "результат",
+    "es": "resultado"
+  },
+  {
+    "id": "ru_es_b1:reto",
+    "ru": "вызов",
+    "es": "reto"
+  },
+  {
+    "id": "ru_es_b1:sector",
+    "ru": "сектор",
+    "es": "sector"
+  },
+  {
+    "id": "ru_es_b1:seguridad",
+    "ru": "безопасность",
+    "es": "seguridad"
+  },
+  {
+    "id": "ru_es_b1:sentido",
+    "ru": "смысл",
+    "es": "sentido"
+  },
+  {
+    "id": "ru_es_b1:servicio",
+    "ru": "услуга",
+    "es": "servicio"
+  },
+  {
+    "id": "ru_es_b1:sistema",
+    "ru": "система",
+    "es": "sistema"
+  },
+  {
+    "id": "ru_es_b1:sociedad",
+    "ru": "общество",
+    "es": "sociedad"
+  },
+  {
+    "id": "ru_es_b1:tema",
+    "ru": "тема",
+    "es": "tema"
+  },
+  {
+    "id": "ru_es_b1:tendencia",
+    "ru": "тенденция",
+    "es": "tendencia"
+  },
+  {
+    "id": "ru_es_b1:teoría",
+    "ru": "теория",
+    "es": "teoría"
+  },
+  {
+    "id": "ru_es_b1:tradición",
+    "ru": "традиция",
+    "es": "tradición"
+  },
+  {
+    "id": "ru_es_b1:valor",
+    "ru": "ценность",
+    "es": "valor"
+  },
+  {
+    "id": "ru_es_b1:violencia",
+    "ru": "насилие",
+    "es": "violencia"
+  },
+  {
+    "id": "ru_es_b1:visión",
+    "ru": "видение",
+    "es": "visión"
+  },
+  {
+    "id": "ru_es_b1:voto",
+    "ru": "голос на выборах",
+    "es": "voto"
+  },
+  {
+    "id": "ru_es_b1:voluntario",
+    "ru": "доброволец",
+    "es": "voluntario"
+  },
+  {
+    "id": "ru_es_b1:norma",
+    "ru": "норма",
+    "es": "norma"
+  },
+  {
+    "id": "ru_es_b1:democracia",
+    "ru": "демократия",
+    "es": "democracia"
+  },
+  {
+    "id": "ru_es_b1:dictadura",
+    "ru": "диктатура",
+    "es": "dictadura"
+  },
+  {
+    "id": "ru_es_b1:campaña",
+    "ru": "кампания",
+    "es": "campaña"
+  },
+  {
+    "id": "ru_es_b1:presidente",
+    "ru": "президент",
+    "es": "presidente"
+  },
+  {
+    "id": "ru_es_b1:ministro",
+    "ru": "министр",
+    "es": "ministro"
+  },
+  {
+    "id": "ru_es_b1:parlamento",
+    "ru": "парламент",
+    "es": "parlamento"
+  },
+  {
+    "id": "ru_es_b1:diputado",
+    "ru": "депутат",
+    "es": "diputado"
+  },
+  {
+    "id": "ru_es_b1:senador",
+    "ru": "сенатор",
+    "es": "senador"
+  },
+  {
+    "id": "ru_es_b1:sindicato",
+    "ru": "профсоюз",
+    "es": "sindicato"
+  },
+  {
+    "id": "ru_es_b1:huelga",
+    "ru": "забастовка",
+    "es": "huelga"
+  },
+  {
+    "id": "ru_es_b1:manifestación",
+    "ru": "демонстрация",
+    "es": "manifestación"
+  },
+  {
+    "id": "ru_es_b1:protesta",
+    "ru": "протест",
+    "es": "protesta"
+  },
+  {
+    "id": "ru_es_b1:reforma",
+    "ru": "реформа",
+    "es": "reforma"
+  },
+  {
+    "id": "ru_es_b1:inmigrante",
+    "ru": "иммигрант",
+    "es": "inmigrante"
+  },
+  {
+    "id": "ru_es_b1:refugiado",
+    "ru": "беженец",
+    "es": "refugiado"
+  },
+  {
+    "id": "ru_es_b1:ciudadanía",
+    "ru": "гражданство",
+    "es": "ciudadanía"
+  },
+  {
+    "id": "ru_es_b1:discriminación",
+    "ru": "дискриминация",
+    "es": "discriminación"
+  },
+  {
+    "id": "ru_es_b1:pobreza",
+    "ru": "бедность",
+    "es": "pobreza"
+  },
+  {
+    "id": "ru_es_b1:riqueza",
+    "ru": "богатство",
+    "es": "riqueza"
+  },
+  {
+    "id": "ru_es_b1:delito",
+    "ru": "преступление",
+    "es": "delito"
+  },
+  {
+    "id": "ru_es_b1:robo",
+    "ru": "кража",
+    "es": "robo"
+  },
+  {
+    "id": "ru_es_b1:asesinato",
+    "ru": "убийство",
+    "es": "asesinato"
+  },
+  {
+    "id": "ru_es_b1:víctima",
+    "ru": "жертва",
+    "es": "víctima"
+  },
+  {
+    "id": "ru_es_b1:testigo",
+    "ru": "свидетель",
+    "es": "testigo"
+  },
+  {
+    "id": "ru_es_b1:juez",
+    "ru": "судья",
+    "es": "juez"
+  },
+  {
+    "id": "ru_es_b1:tribunal",
+    "ru": "суд",
+    "es": "tribunal"
+  },
+  {
+    "id": "ru_es_b1:castigo",
+    "ru": "наказание",
+    "es": "castigo"
+  },
+  {
+    "id": "ru_es_b1:prisión",
+    "ru": "тюрьма",
+    "es": "prisión"
+  },
+  {
+    "id": "ru_es_b1:cárcel",
+    "ru": "тюрьма",
+    "es": "cárcel"
+  },
+  {
+    "id": "ru_es_b1:multa",
+    "ru": "штраф",
+    "es": "multa"
+  },
+  {
+    "id": "ru_es_b1:denuncia",
+    "ru": "жалоба",
+    "es": "denuncia"
+  },
+  {
+    "id": "ru_es_b1:arresto",
+    "ru": "арест",
+    "es": "arresto"
+  },
+  {
+    "id": "ru_es_b1:culpa",
+    "ru": "вина",
+    "es": "culpa"
+  },
+  {
+    "id": "ru_es_b1:inocente",
+    "ru": "невиновный",
+    "es": "inocente"
+  },
+  {
+    "id": "ru_es_b1:culpable",
+    "ru": "виновный",
+    "es": "culpable"
+  },
+  {
+    "id": "ru_es_b1:ilegal",
+    "ru": "незаконный",
+    "es": "ilegal"
+  },
+  {
+    "id": "ru_es_b1:legal",
+    "ru": "законный",
+    "es": "legal"
+  },
+  {
+    "id": "ru_es_b1:criminal",
+    "ru": "преступник",
+    "es": "criminal"
+  },
+  {
+    "id": "ru_es_b1:estafa",
+    "ru": "мошенничество",
+    "es": "estafa"
+  },
+  {
+    "id": "ru_es_b1:soborno",
+    "ru": "взятка",
+    "es": "soborno"
+  },
+  {
+    "id": "ru_es_b1:investigador",
+    "ru": "исследователь",
+    "es": "investigador"
+  },
+  {
+    "id": "ru_es_b1:científico",
+    "ru": "научный",
+    "es": "científico"
+  },
+  {
+    "id": "ru_es_b1:experimento",
+    "ru": "эксперимент",
+    "es": "experimento"
+  },
+  {
+    "id": "ru_es_b1:descubrimiento",
+    "ru": "открытие",
+    "es": "descubrimiento"
+  },
+  {
+    "id": "ru_es_b1:invento",
+    "ru": "изобретение",
+    "es": "invento"
+  },
+  {
+    "id": "ru_es_b1:electricidad",
+    "ru": "электричество",
+    "es": "electricidad"
+  },
+  {
+    "id": "ru_es_b1:gas",
+    "ru": "газ",
+    "es": "gas"
+  },
+  {
+    "id": "ru_es_b1:calefactor",
+    "ru": "обогреватель",
+    "es": "calefactor"
+  },
+  {
+    "id": "ru_es_b1:refrigeración",
+    "ru": "охлаждение",
+    "es": "refrigeración"
+  },
+  {
+    "id": "ru_es_b1:combustible",
+    "ru": "топливо",
+    "es": "combustible"
+  },
+  {
+    "id": "ru_es_b1:consumidor",
+    "ru": "потребитель",
+    "es": "consumidor"
+  },
+  {
+    "id": "ru_es_b1:presupuesto",
+    "ru": "бюджет",
+    "es": "presupuesto"
+  },
+  {
+    "id": "ru_es_b1:inversión",
+    "ru": "инвестиция",
+    "es": "inversión"
+  },
+  {
+    "id": "ru_es_b1:exportación",
+    "ru": "экспорт",
+    "es": "exportación"
+  },
+  {
+    "id": "ru_es_b1:importación",
+    "ru": "импорт",
+    "es": "importación"
+  },
+  {
+    "id": "ru_es_b1:comercio",
+    "ru": "торговля",
+    "es": "comercio"
+  },
+  {
+    "id": "ru_es_b1:industria",
+    "ru": "промышленность",
+    "es": "industria"
+  },
+  {
+    "id": "ru_es_b1:producción",
+    "ru": "производство",
+    "es": "producción"
+  },
+  {
+    "id": "ru_es_b1:venta",
+    "ru": "продажа",
+    "es": "venta"
+  },
+  {
+    "id": "ru_es_b1:compra",
+    "ru": "покупка",
+    "es": "compra"
+  },
+  {
+    "id": "ru_es_b1:demanda",
+    "ru": "спрос",
+    "es": "demanda"
+  },
+  {
+    "id": "ru_es_b1:competencia",
+    "ru": "конкуренция",
+    "es": "competencia"
+  },
+  {
+    "id": "ru_es_b1:publicidad",
+    "ru": "реклама",
+    "es": "publicidad"
+  },
+  {
+    "id": "ru_es_b1:marca",
+    "ru": "торговая марка",
+    "es": "marca"
+  },
+  {
+    "id": "ru_es_b1:proveedor",
+    "ru": "поставщик",
+    "es": "proveedor"
+  },
+  {
+    "id": "ru_es_b1:transporte",
+    "ru": "транспорт",
+    "es": "transporte"
+  },
+  {
+    "id": "ru_es_b1:distribución",
+    "ru": "распределение",
+    "es": "distribución"
+  },
+  {
+    "id": "ru_es_b1:mercancía",
+    "ru": "товар",
+    "es": "mercancía"
+  },
+  {
+    "id": "ru_es_b1:envase",
+    "ru": "упаковка",
+    "es": "envase"
+  },
+  {
+    "id": "ru_es_b1:envoltorio",
+    "ru": "обёртка",
+    "es": "envoltorio"
+  },
+  {
+    "id": "ru_es_b1:etiqueta",
+    "ru": "этикетка",
+    "es": "etiqueta"
+  },
+  {
+    "id": "ru_es_b1:devolución",
+    "ru": "возврат",
+    "es": "devolución"
+  },
+  {
+    "id": "ru_es_b1:reclamación",
+    "ru": "претензия",
+    "es": "reclamación"
+  },
+  {
+    "id": "ru_es_b1:reembolso",
+    "ru": "возмещение",
+    "es": "reembolso"
+  },
+  {
+    "id": "ru_es_b1:propiedad",
+    "ru": "собственность",
+    "es": "propiedad"
+  },
+  {
+    "id": "ru_es_b1:dueño",
+    "ru": "владелец",
+    "es": "dueño"
+  },
+  {
+    "id": "ru_es_b1:inquilino",
+    "ru": "съёмщик",
+    "es": "inquilino"
+  },
+  {
+    "id": "ru_es_b1:hipoteca",
+    "ru": "ипотека",
+    "es": "hipoteca"
+  },
+  {
+    "id": "ru_es_b1:mudanza",
+    "ru": "переезд",
+    "es": "mudanza"
+  },
+  {
+    "id": "ru_es_b1:obra",
+    "ru": "произведение или стройка",
+    "es": "obra"
+  },
+  {
+    "id": "ru_es_b1:reparación",
+    "ru": "ремонт",
+    "es": "reparación"
+  },
+  {
+    "id": "ru_es_b1:decoración",
+    "ru": "украшение",
+    "es": "decoración"
+  },
+  {
+    "id": "ru_es_b1:albañilería",
+    "ru": "каменные работы",
+    "es": "albañilería"
+  },
+  {
+    "id": "ru_es_b1:carpintería",
+    "ru": "столярное дело",
+    "es": "carpintería"
+  },
+  {
+    "id": "ru_es_b1:herramienta",
+    "ru": "инструмент",
+    "es": "herramienta"
+  },
+  {
+    "id": "ru_es_b1:martillo",
+    "ru": "молоток",
+    "es": "martillo"
+  },
+  {
+    "id": "ru_es_b1:destornillador",
+    "ru": "отвёртка",
+    "es": "destornillador"
+  },
+  {
+    "id": "ru_es_b1:tornillo",
+    "ru": "винт",
+    "es": "tornillo"
+  },
+  {
+    "id": "ru_es_b1:clavo",
+    "ru": "гвоздь",
+    "es": "clavo"
+  },
+  {
+    "id": "ru_es_b1:tuerca",
+    "ru": "гайка",
+    "es": "tuerca"
+  },
+  {
+    "id": "ru_es_b1:alicate",
+    "ru": "плоскогубцы",
+    "es": "alicate"
+  },
+  {
+    "id": "ru_es_b1:serrucho",
+    "ru": "ручная пила",
+    "es": "serrucho"
+  },
+  {
+    "id": "ru_es_b1:sierra",
+    "ru": "пила",
+    "es": "sierra"
+  },
+  {
+    "id": "ru_es_b1:taladro",
+    "ru": "дрель",
+    "es": "taladro"
+  },
+  {
+    "id": "ru_es_b1:escalón",
+    "ru": "ступенька",
+    "es": "escalón"
+  },
+  {
+    "id": "ru_es_b1:andamio",
+    "ru": "строительные леса",
+    "es": "andamio"
+  },
+  {
+    "id": "ru_es_b1:cemento",
+    "ru": "цемент",
+    "es": "cemento"
+  },
+  {
+    "id": "ru_es_b1:ladrillo",
+    "ru": "кирпич",
+    "es": "ladrillo"
+  },
+  {
+    "id": "ru_es_b1:teja",
+    "ru": "черепица",
+    "es": "teja"
+  },
+  {
+    "id": "ru_es_b1:baldosa",
+    "ru": "напольная плитка",
+    "es": "baldosa"
+  },
+  {
+    "id": "ru_es_b1:azulejo",
+    "ru": "изразец",
+    "es": "azulejo"
+  },
+  {
+    "id": "ru_es_b1:vidrio",
+    "ru": "стекло",
+    "es": "vidrio"
+  },
+  {
+    "id": "ru_es_b1:cristal",
+    "ru": "хрусталь",
+    "es": "cristal"
+  },
+  {
+    "id": "ru_es_b1:plástico",
+    "ru": "пластик",
+    "es": "plástico"
+  },
+  {
+    "id": "ru_es_b1:madera",
+    "ru": "древесина",
+    "es": "madera"
+  },
+  {
+    "id": "ru_es_b1:metal",
+    "ru": "металл",
+    "es": "metal"
+  },
+  {
+    "id": "ru_es_b1:hierro",
+    "ru": "железо",
+    "es": "hierro"
+  },
+  {
+    "id": "ru_es_b1:acero",
+    "ru": "сталь",
+    "es": "acero"
+  },
+  {
+    "id": "ru_es_b1:cobre",
+    "ru": "медь",
+    "es": "cobre"
+  },
+  {
+    "id": "ru_es_b1:plomo",
+    "ru": "свинец",
+    "es": "plomo"
+  },
+  {
+    "id": "ru_es_b1:oro",
+    "ru": "золото",
+    "es": "oro"
+  },
+  {
+    "id": "ru_es_b1:plata",
+    "ru": "серебро",
+    "es": "plata"
+  },
+  {
+    "id": "ru_es_b1:bronce",
+    "ru": "бронза",
+    "es": "bronce"
+  },
+  {
+    "id": "ru_es_b1:latón",
+    "ru": "латунь",
+    "es": "latón"
+  },
+  {
+    "id": "ru_es_b1:cerámica",
+    "ru": "керамика",
+    "es": "cerámica"
+  },
+  {
+    "id": "ru_es_b1:porcelana",
+    "ru": "фарфор",
+    "es": "porcelana"
+  },
+  {
+    "id": "ru_es_b1:cuero",
+    "ru": "кожа выделанная",
+    "es": "cuero"
+  },
+  {
+    "id": "ru_es_b1:caucho",
+    "ru": "каучук",
+    "es": "caucho"
+  },
+  {
+    "id": "ru_es_b1:gomaespuma",
+    "ru": "поролон",
+    "es": "gomaespuma"
+  },
+  {
+    "id": "ru_es_b1:espuma",
+    "ru": "пена",
+    "es": "espuma"
+  },
+  {
+    "id": "ru_es_b1:pegatina",
+    "ru": "наклейка",
+    "es": "pegatina"
+  },
+  {
+    "id": "ru_es_b1:adhesivo",
+    "ru": "клеящий состав",
+    "es": "adhesivo"
+  },
+  {
+    "id": "ru_es_b1:barniz",
+    "ru": "лак",
+    "es": "barniz"
+  },
+  {
+    "id": "ru_es_b1:disolvente",
+    "ru": "растворитель",
+    "es": "disolvente"
+  },
+  {
+    "id": "ru_es_b1:pincel",
+    "ru": "кисточка",
+    "es": "pincel"
+  },
+  {
+    "id": "ru_es_b1:rodillo",
+    "ru": "валик",
+    "es": "rodillo"
+  },
+  {
+    "id": "ru_es_b1:bisagra",
+    "ru": "дверная петля",
+    "es": "bisagra"
+  },
+  {
+    "id": "ru_es_b1:pestillo",
+    "ru": "засов",
+    "es": "pestillo"
+  },
+  {
+    "id": "ru_es_b1:cerrojo",
+    "ru": "задвижка",
+    "es": "cerrojo"
+  },
+  {
+    "id": "ru_es_b1:bisutería",
+    "ru": "бижутерия",
+    "es": "bisutería"
+  },
+  {
+    "id": "ru_es_b1:joyería",
+    "ru": "ювелирный магазин",
+    "es": "joyería"
+  },
+  {
+    "id": "ru_es_b1:diamante",
+    "ru": "алмаз",
+    "es": "diamante"
+  },
+  {
+    "id": "ru_es_b1:perla",
+    "ru": "жемчужина",
+    "es": "perla"
+  },
+  {
+    "id": "ru_es_b1:pulsera",
+    "ru": "браслет",
+    "es": "pulsera"
+  },
+  {
+    "id": "ru_es_b1:broche",
+    "ru": "брошь",
+    "es": "broche"
+  },
+  {
+    "id": "ru_es_b1:hebilla",
+    "ru": "пряжка",
+    "es": "hebilla"
+  },
+  {
+    "id": "ru_es_b1:cordón",
+    "ru": "шнурок",
+    "es": "cordón"
+  },
+  {
+    "id": "ru_es_b1:suela",
+    "ru": "подошва",
+    "es": "suela"
+  },
+  {
+    "id": "ru_es_b1:tacón",
+    "ru": "каблук",
+    "es": "tacón"
+  },
+  {
+    "id": "ru_es_b1:forro",
+    "ru": "подкладка",
+    "es": "forro"
+  },
+  {
+    "id": "ru_es_b1:costura",
+    "ru": "шов",
+    "es": "costura"
+  },
+  {
+    "id": "ru_es_b1:tejido",
+    "ru": "ткань",
+    "es": "tejido"
+  },
+  {
+    "id": "ru_es_b1:terciopelo",
+    "ru": "бархат",
+    "es": "terciopelo"
+  },
+  {
+    "id": "ru_es_b1:vaquero",
+    "ru": "джинсовый",
+    "es": "vaquero"
+  },
+  {
+    "id": "ru_es_b1:chándal",
+    "ru": "спортивный костюм",
+    "es": "chándal"
+  },
+  {
+    "id": "ru_es_b1:chaleco",
+    "ru": "жилет",
+    "es": "chaleco"
+  },
+  {
+    "id": "ru_es_b1:corbata",
+    "ru": "галстук",
+    "es": "corbata"
+  },
+  {
+    "id": "ru_es_b1:tirante",
+    "ru": "подтяжка",
+    "es": "tirante"
+  },
+  {
+    "id": "ru_es_b1:boina",
+    "ru": "берет",
+    "es": "boina"
+  },
+  {
+    "id": "ru_es_b1:capucha",
+    "ru": "капюшон",
+    "es": "capucha"
+  },
+  {
+    "id": "ru_es_b1:braga",
+    "ru": "женские трусы",
+    "es": "braga"
+  },
+  {
+    "id": "ru_es_b1:calzoncillo",
+    "ru": "мужские трусы",
+    "es": "calzoncillo"
+  },
+  {
+    "id": "ru_es_b1:bañador",
+    "ru": "купальник",
+    "es": "bañador"
+  },
+  {
+    "id": "ru_es_b1:biquini",
+    "ru": "бикини",
+    "es": "biquini"
+  },
+  {
+    "id": "ru_es_b1:alpargata",
+    "ru": "эспадрилья",
+    "es": "alpargata"
+  },
+  {
+    "id": "ru_es_b1:pañuelo",
+    "ru": "платок",
+    "es": "pañuelo"
+  },
+  {
+    "id": "ru_es_b1:pañal",
+    "ru": "подгузник",
+    "es": "pañal"
+  },
+  {
+    "id": "ru_es_b1:babero",
+    "ru": "слюнявчик",
+    "es": "babero"
+  },
+  {
+    "id": "ru_es_b1:sonajero",
+    "ru": "погремушка",
+    "es": "sonajero"
+  },
+  {
+    "id": "ru_es_b1:chupete",
+    "ru": "соска",
+    "es": "chupete"
+  },
+  {
+    "id": "ru_es_b1:biberón",
+    "ru": "детская бутылочка",
+    "es": "biberón"
+  },
+  {
+    "id": "ru_es_b1:carrito",
+    "ru": "коляска",
+    "es": "carrito"
+  },
+  {
+    "id": "ru_es_b1:cuna",
+    "ru": "колыбель",
+    "es": "cuna"
+  },
+  {
+    "id": "ru_es_b1:acantilado",
+    "ru": "скалистый обрыв",
+    "es": "acantilado"
+  },
+  {
+    "id": "ru_es_b1:afluente",
+    "ru": "приток",
+    "es": "afluente"
+  },
+  {
+    "id": "ru_es_b1:arroyo",
+    "ru": "ручей",
+    "es": "arroyo"
+  },
+  {
+    "id": "ru_es_b1:bahía",
+    "ru": "бухта",
+    "es": "bahía"
+  },
+  {
+    "id": "ru_es_b1:cabo",
+    "ru": "мыс",
+    "es": "cabo"
+  },
+  {
+    "id": "ru_es_b1:cascada",
+    "ru": "водопад",
+    "es": "cascada"
+  },
+  {
+    "id": "ru_es_b1:cordillera",
+    "ru": "горная цепь",
+    "es": "cordillera"
+  },
+  {
+    "id": "ru_es_b1:cumbre",
+    "ru": "вершина",
+    "es": "cumbre"
+  },
+  {
+    "id": "ru_es_b1:delta",
+    "ru": "дельта",
+    "es": "delta"
+  },
+  {
+    "id": "ru_es_b1:duna",
+    "ru": "дюна",
+    "es": "duna"
+  },
+  {
+    "id": "ru_es_b1:glaciar",
+    "ru": "ледник",
+    "es": "glaciar"
+  },
+  {
+    "id": "ru_es_b1:golfo",
+    "ru": "залив",
+    "es": "golfo"
+  },
+  {
+    "id": "ru_es_b1:horizonte",
+    "ru": "горизонт",
+    "es": "horizonte"
+  },
+  {
+    "id": "ru_es_b1:islote",
+    "ru": "островок",
+    "es": "islote"
+  },
+  {
+    "id": "ru_es_b1:laguna",
+    "ru": "лагуна",
+    "es": "laguna"
+  },
+  {
+    "id": "ru_es_b1:llanura",
+    "ru": "равнина",
+    "es": "llanura"
+  },
+  {
+    "id": "ru_es_b1:meseta",
+    "ru": "плоскогорье",
+    "es": "meseta"
+  },
+  {
+    "id": "ru_es_b1:océano",
+    "ru": "океан",
+    "es": "océano"
+  },
+  {
+    "id": "ru_es_b1:península",
+    "ru": "полуостров",
+    "es": "península"
+  },
+  {
+    "id": "ru_es_b1:precipicio",
+    "ru": "пропасть",
+    "es": "precipicio"
+  },
+  {
+    "id": "ru_es_b1:ribera",
+    "ru": "речной берег",
+    "es": "ribera"
+  },
+  {
+    "id": "ru_es_b1:volcán",
+    "ru": "вулкан",
+    "es": "volcán"
+  },
+  {
+    "id": "ru_es_b1:cráter",
+    "ru": "кратер",
+    "es": "cráter"
+  },
+  {
+    "id": "ru_es_b1:lava",
+    "ru": "лава",
+    "es": "lava"
+  },
+  {
+    "id": "ru_es_b1:terremoto",
+    "ru": "землетрясение",
+    "es": "terremoto"
+  },
+  {
+    "id": "ru_es_b1:inundación",
+    "ru": "наводнение",
+    "es": "inundación"
+  },
+  {
+    "id": "ru_es_b1:sequía",
+    "ru": "засуха",
+    "es": "sequía"
+  },
+  {
+    "id": "ru_es_b1:huracán",
+    "ru": "ураган",
+    "es": "huracán"
+  },
+  {
+    "id": "ru_es_b1:tornado",
+    "ru": "торнадо",
+    "es": "tornado"
+  },
+  {
+    "id": "ru_es_b1:granizo",
+    "ru": "град",
+    "es": "granizo"
+  },
+  {
+    "id": "ru_es_b1:helada",
+    "ru": "заморозок",
+    "es": "helada"
+  },
+  {
+    "id": "ru_es_b1:relámpago",
+    "ru": "молния",
+    "es": "relámpago"
+  },
+  {
+    "id": "ru_es_b1:rayo",
+    "ru": "молния как разряд",
+    "es": "rayo"
+  },
+  {
+    "id": "ru_es_b1:trueno",
+    "ru": "гром",
+    "es": "trueno"
+  },
+  {
+    "id": "ru_es_b1:llovizna",
+    "ru": "морось",
+    "es": "llovizna"
+  },
+  {
+    "id": "ru_es_b1:rocío",
+    "ru": "роса",
+    "es": "rocío"
+  },
+  {
+    "id": "ru_es_b1:brisa",
+    "ru": "бриз",
+    "es": "brisa"
+  },
+  {
+    "id": "ru_es_b1:vendaval",
+    "ru": "буря",
+    "es": "vendaval"
+  },
+  {
+    "id": "ru_es_b1:temporal",
+    "ru": "шторм",
+    "es": "temporal"
+  },
+  {
+    "id": "ru_es_b1:despejado",
+    "ru": "безоблачный",
+    "es": "despejado"
+  },
+  {
+    "id": "ru_es_b1:nublado",
+    "ru": "облачный",
+    "es": "nublado"
+  },
+  {
+    "id": "ru_es_b1:soleado",
+    "ru": "солнечный",
+    "es": "soleado"
+  },
+  {
+    "id": "ru_es_b1:lluvioso",
+    "ru": "дождливый",
+    "es": "lluvioso"
+  },
+  {
+    "id": "ru_es_b1:nevado",
+    "ru": "заснеженный",
+    "es": "nevado"
+  },
+  {
+    "id": "ru_es_b1:ventoso",
+    "ru": "ветреный",
+    "es": "ventoso"
+  },
+  {
+    "id": "ru_es_b1:templado",
+    "ru": "умеренно тёплый",
+    "es": "templado"
+  },
+  {
+    "id": "ru_es_b1:tropical",
+    "ru": "тропический",
+    "es": "tropical"
+  },
+  {
+    "id": "ru_es_b1:polar",
+    "ru": "полярный",
+    "es": "polar"
+  },
+  {
+    "id": "ru_es_b1:seísmo",
+    "ru": "землетрясение",
+    "es": "seísmo"
+  },
+  {
+    "id": "ru_es_b1:erosión",
+    "ru": "эрозия",
+    "es": "erosión"
+  },
+  {
+    "id": "ru_es_b1:contaminación",
+    "ru": "загрязнение",
+    "es": "contaminación"
+  },
+  {
+    "id": "ru_es_b1:reciclaje",
+    "ru": "переработка отходов",
+    "es": "reciclaje"
+  },
+  {
+    "id": "ru_es_b1:residuo",
+    "ru": "отход",
+    "es": "residuo"
+  },
+  {
+    "id": "ru_es_b1:vertedero",
+    "ru": "свалка",
+    "es": "vertedero"
+  },
+  {
+    "id": "ru_es_b1:incendio",
+    "ru": "пожар",
+    "es": "incendio"
+  },
+  {
+    "id": "ru_es_b1:deforestación",
+    "ru": "вырубка лесов",
+    "es": "deforestación"
+  },
+  {
+    "id": "ru_es_b1:ecología",
+    "ru": "экология",
+    "es": "ecología"
+  },
+  {
+    "id": "ru_es_b1:ecosistema",
+    "ru": "экосистема",
+    "es": "ecosistema"
+  },
+  {
+    "id": "ru_es_b1:hábitat",
+    "ru": "среда обитания",
+    "es": "hábitat"
+  },
+  {
+    "id": "ru_es_b1:especie",
+    "ru": "вид организмов",
+    "es": "especie"
+  },
+  {
+    "id": "ru_es_b1:fauna",
+    "ru": "фауна",
+    "es": "fauna"
+  },
+  {
+    "id": "ru_es_b1:flora",
+    "ru": "флора",
+    "es": "flora"
+  },
+  {
+    "id": "ru_es_b1:vegetación",
+    "ru": "растительность",
+    "es": "vegetación"
+  },
+  {
+    "id": "ru_es_b1:agricultura",
+    "ru": "сельское хозяйство",
+    "es": "agricultura"
+  },
+  {
+    "id": "ru_es_b1:cosecha",
+    "ru": "урожай",
+    "es": "cosecha"
+  },
+  {
+    "id": "ru_es_b1:riego",
+    "ru": "полив",
+    "es": "riego"
+  },
+  {
+    "id": "ru_es_b1:abono",
+    "ru": "удобрение",
+    "es": "abono"
+  },
+  {
+    "id": "ru_es_b1:fertilizante",
+    "ru": "удобрение",
+    "es": "fertilizante"
+  },
+  {
+    "id": "ru_es_b1:invernadero",
+    "ru": "теплица",
+    "es": "invernadero"
+  },
+  {
+    "id": "ru_es_b1:huerto",
+    "ru": "огород",
+    "es": "huerto"
+  },
+  {
+    "id": "ru_es_b1:huerta",
+    "ru": "садово-огородное хозяйство",
+    "es": "huerta"
+  },
+  {
+    "id": "ru_es_b1:granja",
+    "ru": "ферма",
+    "es": "granja"
+  },
+  {
+    "id": "ru_es_b1:ganadería",
+    "ru": "животноводство",
+    "es": "ganadería"
+  },
+  {
+    "id": "ru_es_b1:rebaño",
+    "ru": "стадо",
+    "es": "rebaño"
+  },
+  {
+    "id": "ru_es_b1:manada",
+    "ru": "стая",
+    "es": "manada"
+  },
+  {
+    "id": "ru_es_b1:piara",
+    "ru": "стадо свиней",
+    "es": "piara"
+  },
+  {
+    "id": "ru_es_b1:colmena",
+    "ru": "улей",
+    "es": "colmena"
+  },
+  {
+    "id": "ru_es_b1:nido",
+    "ru": "гнездо",
+    "es": "nido"
+  },
+  {
+    "id": "ru_es_b1:pluma",
+    "ru": "перо",
+    "es": "pluma"
+  },
+  {
+    "id": "ru_es_b1:ala",
+    "ru": "крыло",
+    "es": "ala"
+  },
+  {
+    "id": "ru_es_b1:pico",
+    "ru": "клюв",
+    "es": "pico"
+  },
+  {
+    "id": "ru_es_b1:garra",
+    "ru": "коготь",
+    "es": "garra"
+  },
+  {
+    "id": "ru_es_b1:cola",
+    "ru": "хвост",
+    "es": "cola"
+  },
+  {
+    "id": "ru_es_b1:pezuña",
+    "ru": "копыто",
+    "es": "pezuña"
+  },
+  {
+    "id": "ru_es_b1:cuerno",
+    "ru": "рог",
+    "es": "cuerno"
+  },
+  {
+    "id": "ru_es_b1:hocico",
+    "ru": "морда",
+    "es": "hocico"
+  },
+  {
+    "id": "ru_es_b1:bigote",
+    "ru": "усы",
+    "es": "bigote"
+  },
+  {
+    "id": "ru_es_b1:melena",
+    "ru": "грива",
+    "es": "melena"
+  },
+  {
+    "id": "ru_es_b1:pelaje",
+    "ru": "шерсть животного",
+    "es": "pelaje"
+  },
+  {
+    "id": "ru_es_b1:escama",
+    "ru": "чешуя",
+    "es": "escama"
+  },
+  {
+    "id": "ru_es_b1:aleta",
+    "ru": "плавник",
+    "es": "aleta"
+  },
+  {
+    "id": "ru_es_b1:branquia",
+    "ru": "жабра",
+    "es": "branquia"
+  },
+  {
+    "id": "ru_es_b1:caparazón",
+    "ru": "панцирь",
+    "es": "caparazón"
+  },
+  {
+    "id": "ru_es_b1:concha",
+    "ru": "раковина",
+    "es": "concha"
+  },
+  {
+    "id": "ru_es_b1:colmillo",
+    "ru": "клык",
+    "es": "colmillo"
+  },
+  {
+    "id": "ru_es_b1:veneno",
+    "ru": "яд",
+    "es": "veneno"
+  },
+  {
+    "id": "ru_es_b1:telaraña",
+    "ru": "паутина",
+    "es": "telaraña"
+  },
+  {
+    "id": "ru_es_b1:hormiguero",
+    "ru": "муравейник",
+    "es": "hormiguero"
+  },
+  {
+    "id": "ru_es_b1:madriguera",
+    "ru": "нора",
+    "es": "madriguera"
+  },
+  {
+    "id": "ru_es_b1:cachorro",
+    "ru": "детёныш",
+    "es": "cachorro"
+  },
+  {
+    "id": "ru_es_b1:cría",
+    "ru": "приплод",
+    "es": "cría"
+  },
+  {
+    "id": "ru_es_b1:doméstico",
+    "ru": "домашний",
+    "es": "doméstico"
+  },
+  {
+    "id": "ru_es_b1:herbívoro",
+    "ru": "травоядный",
+    "es": "herbívoro"
+  },
+  {
+    "id": "ru_es_b1:carnívoro",
+    "ru": "плотоядный",
+    "es": "carnívoro"
+  },
+  {
+    "id": "ru_es_b1:omnívoro",
+    "ru": "всеядный",
+    "es": "omnívoro"
+  },
+  {
+    "id": "ru_es_b1:mamífero",
+    "ru": "млекопитающее",
+    "es": "mamífero"
+  },
+  {
+    "id": "ru_es_b1:reptil",
+    "ru": "пресмыкающееся",
+    "es": "reptil"
+  },
+  {
+    "id": "ru_es_b1:anfibio",
+    "ru": "земноводное",
+    "es": "anfibio"
+  },
+  {
+    "id": "ru_es_b1:insecto",
+    "ru": "насекомое",
+    "es": "insecto"
+  },
+  {
+    "id": "ru_es_b1:ave",
+    "ru": "птица",
+    "es": "ave"
+  },
+  {
+    "id": "ru_es_b1:roedor",
+    "ru": "грызун",
+    "es": "roedor"
+  },
+  {
+    "id": "ru_es_b1:depredador",
+    "ru": "хищник",
+    "es": "depredador"
+  },
+  {
+    "id": "ru_es_b1:presa",
+    "ru": "добыча",
+    "es": "presa"
+  },
+  {
+    "id": "ru_es_b1:antílope",
+    "ru": "антилопа",
+    "es": "antílope"
+  },
+  {
+    "id": "ru_es_b1:búfalo",
+    "ru": "буйвол",
+    "es": "búfalo"
+  },
+  {
+    "id": "ru_es_b1:camello",
+    "ru": "верблюд",
+    "es": "camello"
+  },
+  {
+    "id": "ru_es_b1:cebra",
+    "ru": "зебра",
+    "es": "cebra"
+  },
+  {
+    "id": "ru_es_b1:chimpancé",
+    "ru": "шимпанзе",
+    "es": "chimpancé"
+  },
+  {
+    "id": "ru_es_b1:gorila",
+    "ru": "горилла",
+    "es": "gorila"
+  },
+  {
+    "id": "ru_es_b1:hipopótamo",
+    "ru": "бегемот",
+    "es": "hipopótamo"
+  },
+  {
+    "id": "ru_es_b1:rinoceronte",
+    "ru": "носорог",
+    "es": "rinoceronte"
+  },
+  {
+    "id": "ru_es_b1:leopardo",
+    "ru": "леопард",
+    "es": "leopardo"
+  },
+  {
+    "id": "ru_es_b1:guepardo",
+    "ru": "гепард",
+    "es": "guepardo"
+  },
+  {
+    "id": "ru_es_b1:pantera",
+    "ru": "пантера",
+    "es": "pantera"
+  },
+  {
+    "id": "ru_es_b1:jaguar",
+    "ru": "ягуар",
+    "es": "jaguar"
+  },
+  {
+    "id": "ru_es_b1:puma",
+    "ru": "пума",
+    "es": "puma"
+  },
+  {
+    "id": "ru_es_b1:lince",
+    "ru": "рысь",
+    "es": "lince"
+  },
+  {
+    "id": "ru_es_b1:nutria",
+    "ru": "выдра",
+    "es": "nutria"
+  },
+  {
+    "id": "ru_es_b1:tejón",
+    "ru": "барсук",
+    "es": "tejón"
+  },
+  {
+    "id": "ru_es_b1:hurón",
+    "ru": "хорёк",
+    "es": "hurón"
+  },
+  {
+    "id": "ru_es_b1:comadreja",
+    "ru": "ласка",
+    "es": "comadreja"
+  },
+  {
+    "id": "ru_es_b1:mapache",
+    "ru": "енот",
+    "es": "mapache"
+  },
+  {
+    "id": "ru_es_b1:castor",
+    "ru": "бобр",
+    "es": "castor"
+  },
+  {
+    "id": "ru_es_b1:topo",
+    "ru": "крот",
+    "es": "topo"
+  },
+  {
+    "id": "ru_es_b1:liebre",
+    "ru": "заяц",
+    "es": "liebre"
+  },
+  {
+    "id": "ru_es_b1:alce",
+    "ru": "лось",
+    "es": "alce"
+  },
+  {
+    "id": "ru_es_b1:reno",
+    "ru": "северный олень",
+    "es": "reno"
+  },
+  {
+    "id": "ru_es_b1:bisonte",
+    "ru": "бизон",
+    "es": "bisonte"
+  },
+  {
+    "id": "ru_es_b1:dromedario",
+    "ru": "дромадер",
+    "es": "dromedario"
+  },
+  {
+    "id": "ru_es_b1:llama",
+    "ru": "лама",
+    "es": "llama"
+  },
+  {
+    "id": "ru_es_b1:alpaca",
+    "ru": "альпака",
+    "es": "alpaca"
+  },
+  {
+    "id": "ru_es_b1:canguro",
+    "ru": "кенгуру",
+    "es": "canguro"
+  },
+  {
+    "id": "ru_es_b1:koala",
+    "ru": "коала",
+    "es": "koala"
+  },
+  {
+    "id": "ru_es_b1:panda",
+    "ru": "панда",
+    "es": "panda"
+  },
+  {
+    "id": "ru_es_b1:ornitorrinco",
+    "ru": "утконос",
+    "es": "ornitorrinco"
+  },
+  {
+    "id": "ru_es_b1:avestruz",
+    "ru": "страус",
+    "es": "avestruz"
+  },
+  {
+    "id": "ru_es_b1:faisán",
+    "ru": "фазан",
+    "es": "faisán"
+  },
+  {
+    "id": "ru_es_b1:perdiz",
+    "ru": "куропатка",
+    "es": "perdiz"
+  },
+  {
+    "id": "ru_es_b1:codorniz",
+    "ru": "перепел",
+    "es": "codorniz"
+  },
+  {
+    "id": "ru_es_b1:flamenco",
+    "ru": "фламинго",
+    "es": "flamenco"
+  },
+  {
+    "id": "ru_es_b1:pelícano",
+    "ru": "пеликан",
+    "es": "pelícano"
+  },
+  {
+    "id": "ru_es_b1:garza",
+    "ru": "цапля",
+    "es": "garza"
+  },
+  {
+    "id": "ru_es_b1:halcón",
+    "ru": "сокол",
+    "es": "halcón"
+  },
+  {
+    "id": "ru_es_b1:buitre",
+    "ru": "гриф",
+    "es": "buitre"
+  },
+  {
+    "id": "ru_es_b1:cóndor",
+    "ru": "кондор",
+    "es": "cóndor"
+  },
+  {
+    "id": "ru_es_b1:lechuza",
+    "ru": "сипуха",
+    "es": "lechuza"
+  },
+  {
+    "id": "ru_es_b1:urraca",
+    "ru": "сорока",
+    "es": "urraca"
+  },
+  {
+    "id": "ru_es_b1:mirlo",
+    "ru": "чёрный дрозд",
+    "es": "mirlo"
+  },
+  {
+    "id": "ru_es_b1:ruiseñor",
+    "ru": "соловей",
+    "es": "ruiseñor"
+  },
+  {
+    "id": "ru_es_b1:canario",
+    "ru": "канарейка",
+    "es": "canario"
+  },
+  {
+    "id": "ru_es_b1:petirrojo",
+    "ru": "зарянка",
+    "es": "petirrojo"
+  },
+  {
+    "id": "ru_es_b1:colibrí",
+    "ru": "колибри",
+    "es": "colibrí"
+  },
+  {
+    "id": "ru_es_b1:tucán",
+    "ru": "тукан",
+    "es": "tucán"
+  },
+  {
+    "id": "ru_es_b1:guacamayo",
+    "ru": "ара",
+    "es": "guacamayo"
+  },
+  {
+    "id": "ru_es_b1:alondra",
+    "ru": "жаворонок",
+    "es": "alondra"
+  },
+  {
+    "id": "ru_es_b1:estornino",
+    "ru": "скворец",
+    "es": "estornino"
+  },
+  {
+    "id": "ru_es_b1:salamandra",
+    "ru": "саламандра",
+    "es": "salamandra"
+  },
+  {
+    "id": "ru_es_b1:tritón",
+    "ru": "тритон",
+    "es": "tritón"
+  },
+  {
+    "id": "ru_es_b1:iguana",
+    "ru": "игуана",
+    "es": "iguana"
+  },
+  {
+    "id": "ru_es_b1:víbora",
+    "ru": "гадюка",
+    "es": "víbora"
+  },
+  {
+    "id": "ru_es_b1:cobra",
+    "ru": "кобра",
+    "es": "cobra"
+  },
+  {
+    "id": "ru_es_b1:boa",
+    "ru": "удав",
+    "es": "boa"
+  },
+  {
+    "id": "ru_es_b1:pitón",
+    "ru": "питон",
+    "es": "pitón"
+  },
+  {
+    "id": "ru_es_b1:caimán",
+    "ru": "кайман",
+    "es": "caimán"
+  },
+  {
+    "id": "ru_es_b1:lagartija",
+    "ru": "ящерица",
+    "es": "lagartija"
+  },
+  {
+    "id": "ru_es_b1:oruga",
+    "ru": "гусеница",
+    "es": "oruga"
+  },
+  {
+    "id": "ru_es_b1:polilla",
+    "ru": "моль",
+    "es": "polilla"
+  },
+  {
+    "id": "ru_es_b1:cucaracha",
+    "ru": "таракан",
+    "es": "cucaracha"
+  },
+  {
+    "id": "ru_es_b1:chinche",
+    "ru": "клоп",
+    "es": "chinche"
+  },
+  {
+    "id": "ru_es_b1:tábano",
+    "ru": "слепень",
+    "es": "tábano"
+  },
+  {
+    "id": "ru_es_b1:termita",
+    "ru": "термит",
+    "es": "termita"
+  },
+  {
+    "id": "ru_es_b1:cigarra",
+    "ru": "цикада",
+    "es": "cigarra"
+  },
+  {
+    "id": "ru_es_b1:mantis",
+    "ru": "богомол",
+    "es": "mantis"
+  },
+  {
+    "id": "ru_es_b1:escorpión",
+    "ru": "скорпион",
+    "es": "escorpión"
+  },
+  {
+    "id": "ru_es_b1:garrapata",
+    "ru": "клещ",
+    "es": "garrapata"
+  },
+  {
+    "id": "ru_es_b1:ciempiés",
+    "ru": "сороконожка",
+    "es": "ciempiés"
+  },
+  {
+    "id": "ru_es_b1:milpiés",
+    "ru": "многоножка",
+    "es": "milpiés"
+  },
+  {
+    "id": "ru_es_b1:lombriz",
+    "ru": "дождевой червь",
+    "es": "lombriz"
+  },
+  {
+    "id": "ru_es_b1:babosa",
+    "ru": "слизень",
+    "es": "babosa"
+  },
+  {
+    "id": "ru_es_b1:ostra",
+    "ru": "устрица",
+    "es": "ostra"
+  },
+  {
+    "id": "ru_es_b1:almeja",
+    "ru": "моллюск двустворчатый",
+    "es": "almeja"
+  },
+  {
+    "id": "ru_es_b1:berberecho",
+    "ru": "сердцевидка",
+    "es": "berberecho"
+  },
+  {
+    "id": "ru_es_b1:vieira",
+    "ru": "морской гребешок",
+    "es": "vieira"
+  },
+  {
+    "id": "ru_es_b1:sepia",
+    "ru": "каракатица",
+    "es": "sepia"
+  },
+  {
+    "id": "ru_es_b1:anémona",
+    "ru": "актиния",
+    "es": "anémona"
+  },
+  {
+    "id": "ru_es_b1:coral",
+    "ru": "коралл",
+    "es": "coral"
+  },
+  {
+    "id": "ru_es_b1:orca",
+    "ru": "косатка",
+    "es": "orca"
+  },
+  {
+    "id": "ru_es_b1:morsa",
+    "ru": "морж",
+    "es": "morsa"
+  },
+  {
+    "id": "ru_es_b1:manatí",
+    "ru": "ламантин",
+    "es": "manatí"
+  },
+  {
+    "id": "ru_es_b1:anguila",
+    "ru": "угорь",
+    "es": "anguila"
+  },
+  {
+    "id": "ru_es_b1:carpa",
+    "ru": "карп",
+    "es": "carpa"
+  },
+  {
+    "id": "ru_es_b1:lucio",
+    "ru": "щука",
+    "es": "lucio"
+  },
+  {
+    "id": "ru_es_b1:perca",
+    "ru": "окунь",
+    "es": "perca"
+  },
+  {
+    "id": "ru_es_b1:besugo",
+    "ru": "морской лещ",
+    "es": "besugo"
+  },
+  {
+    "id": "ru_es_b1:lubina",
+    "ru": "сибас",
+    "es": "lubina"
+  },
+  {
+    "id": "ru_es_b1:dorada",
+    "ru": "дорада",
+    "es": "dorada"
+  },
+  {
+    "id": "ru_es_b1:lenguado",
+    "ru": "морской язык",
+    "es": "lenguado"
+  },
+  {
+    "id": "ru_es_b1:rodaballo",
+    "ru": "тюрбо",
+    "es": "rodaballo"
+  },
+  {
+    "id": "ru_es_b1:arenque",
+    "ru": "сельдь",
+    "es": "arenque"
+  },
+  {
+    "id": "ru_es_b1:boquerón",
+    "ru": "анчоус",
+    "es": "boquerón"
+  },
+  {
+    "id": "ru_es_b1:caballa",
+    "ru": "скумбрия",
+    "es": "caballa"
+  },
+  {
+    "id": "ru_es_b1:atletismo",
+    "ru": "лёгкая атлетика",
+    "es": "atletismo"
+  },
+  {
+    "id": "ru_es_b1:balonmano",
+    "ru": "гандбол",
+    "es": "balonmano"
+  },
+  {
+    "id": "ru_es_b1:voleibol",
+    "ru": "волейбол",
+    "es": "voleibol"
+  },
+  {
+    "id": "ru_es_b1:béisbol",
+    "ru": "бейсбол",
+    "es": "béisbol"
+  },
+  {
+    "id": "ru_es_b1:boxeo",
+    "ru": "бокс",
+    "es": "boxeo"
+  },
+  {
+    "id": "ru_es_b1:esgrima",
+    "ru": "фехтование",
+    "es": "esgrima"
+  },
+  {
+    "id": "ru_es_b1:gimnasia",
+    "ru": "гимнастика",
+    "es": "gimnasia"
+  },
+  {
+    "id": "ru_es_b1:halterofilia",
+    "ru": "тяжёлая атлетика",
+    "es": "halterofilia"
+  },
+  {
+    "id": "ru_es_b1:hípica",
+    "ru": "конный спорт",
+    "es": "hípica"
+  },
+  {
+    "id": "ru_es_b1:hockey",
+    "ru": "хоккей",
+    "es": "hockey"
+  },
+  {
+    "id": "ru_es_b1:judo",
+    "ru": "дзюдо",
+    "es": "judo"
+  },
+  {
+    "id": "ru_es_b1:karate",
+    "ru": "карате",
+    "es": "karate"
+  },
+  {
+    "id": "ru_es_b1:lucha",
+    "ru": "борьба",
+    "es": "lucha"
+  },
+  {
+    "id": "ru_es_b1:remo",
+    "ru": "гребля",
+    "es": "remo"
+  },
+  {
+    "id": "ru_es_b1:rugby",
+    "ru": "регби",
+    "es": "rugby"
+  },
+  {
+    "id": "ru_es_b1:salto",
+    "ru": "прыжок",
+    "es": "salto"
+  },
+  {
+    "id": "ru_es_b1:surf",
+    "ru": "сёрфинг",
+    "es": "surf"
+  },
+  {
+    "id": "ru_es_b1:ciclismo",
+    "ru": "велоспорт",
+    "es": "ciclismo"
+  },
+  {
+    "id": "ru_es_b1:esquí",
+    "ru": "лыжный спорт",
+    "es": "esquí"
+  },
+  {
+    "id": "ru_es_b1:escalada",
+    "ru": "скалолазание",
+    "es": "escalada"
+  },
+  {
+    "id": "ru_es_b1:senderismo",
+    "ru": "пеший туризм",
+    "es": "senderismo"
+  },
+  {
+    "id": "ru_es_b1:maratón",
+    "ru": "марафон",
+    "es": "maratón"
+  },
+  {
+    "id": "ru_es_b1:triatlón",
+    "ru": "триатлон",
+    "es": "triatlón"
+  },
+  {
+    "id": "ru_es_b1:competición",
+    "ru": "соревнование",
+    "es": "competición"
+  },
+  {
+    "id": "ru_es_b1:torneo",
+    "ru": "турнир",
+    "es": "torneo"
+  },
+  {
+    "id": "ru_es_b1:campeonato",
+    "ru": "чемпионат",
+    "es": "campeonato"
+  },
+  {
+    "id": "ru_es_b1:campeón",
+    "ru": "чемпион",
+    "es": "campeón"
+  },
+  {
+    "id": "ru_es_b1:subcampeón",
+    "ru": "серебряный призёр",
+    "es": "subcampeón"
+  },
+  {
+    "id": "ru_es_b1:medalla",
+    "ru": "медаль",
+    "es": "medalla"
+  },
+  {
+    "id": "ru_es_b1:trofeo",
+    "ru": "трофей",
+    "es": "trofeo"
+  },
+  {
+    "id": "ru_es_b1:récord",
+    "ru": "рекорд",
+    "es": "récord"
+  },
+  {
+    "id": "ru_es_b1:empate",
+    "ru": "ничья",
+    "es": "empate"
+  },
+  {
+    "id": "ru_es_b1:derrota",
+    "ru": "поражение",
+    "es": "derrota"
+  },
+  {
+    "id": "ru_es_b1:victoria",
+    "ru": "победа",
+    "es": "victoria"
+  },
+  {
+    "id": "ru_es_b1:entrenador",
+    "ru": "тренер",
+    "es": "entrenador"
+  },
+  {
+    "id": "ru_es_b1:árbitro",
+    "ru": "судья спортивный",
+    "es": "árbitro"
+  },
+  {
+    "id": "ru_es_b1:jugador",
+    "ru": "игрок",
+    "es": "jugador"
+  },
+  {
+    "id": "ru_es_b1:delantero",
+    "ru": "нападающий",
+    "es": "delantero"
+  },
+  {
+    "id": "ru_es_b1:defensa",
+    "ru": "защитник",
+    "es": "defensa"
+  },
+  {
+    "id": "ru_es_b1:portero",
+    "ru": "вратарь",
+    "es": "portero"
+  },
+  {
+    "id": "ru_es_b1:capitán",
+    "ru": "капитан",
+    "es": "capitán"
+  },
+  {
+    "id": "ru_es_b1:suplente",
+    "ru": "запасной",
+    "es": "suplente"
+  },
+  {
+    "id": "ru_es_b1:aficionado",
+    "ru": "болельщик",
+    "es": "aficionado"
+  },
+  {
+    "id": "ru_es_b1:hincha",
+    "ru": "болельщик",
+    "es": "hincha"
+  },
+  {
+    "id": "ru_es_b1:grada",
+    "ru": "трибуна",
+    "es": "grada"
+  },
+  {
+    "id": "ru_es_b1:vestuario",
+    "ru": "раздевалка",
+    "es": "vestuario"
+  },
+  {
+    "id": "ru_es_b1:cancha",
+    "ru": "площадка",
+    "es": "cancha"
+  },
+  {
+    "id": "ru_es_b1:portería",
+    "ru": "ворота",
+    "es": "portería"
+  },
+  {
+    "id": "ru_es_b1:canasta",
+    "ru": "баскетбольная корзина",
+    "es": "canasta"
+  },
+  {
+    "id": "ru_es_b1:raqueta",
+    "ru": "ракетка",
+    "es": "raqueta"
+  },
+  {
+    "id": "ru_es_b1:balón",
+    "ru": "мяч",
+    "es": "balón"
+  },
+  {
+    "id": "ru_es_b1:bate",
+    "ru": "бита",
+    "es": "bate"
+  },
+  {
+    "id": "ru_es_b1:casco",
+    "ru": "шлем",
+    "es": "casco"
+  },
+  {
+    "id": "ru_es_b1:rodillera",
+    "ru": "наколенник",
+    "es": "rodillera"
+  },
+  {
+    "id": "ru_es_b1:espinillera",
+    "ru": "щиток",
+    "es": "espinillera"
+  },
+  {
+    "id": "ru_es_b1:silbato",
+    "ru": "свисток",
+    "es": "silbato"
+  },
+  {
+    "id": "ru_es_b1:cronómetro",
+    "ru": "секундомер",
+    "es": "cronómetro"
+  },
+  {
+    "id": "ru_es_b1:marcador",
+    "ru": "табло",
+    "es": "marcador"
+  },
+  {
+    "id": "ru_es_b1:penalti",
+    "ru": "пенальти",
+    "es": "penalti"
+  },
+  {
+    "id": "ru_es_b1:gol",
+    "ru": "гол",
+    "es": "gol"
+  },
+  {
+    "id": "ru_es_b1:saque",
+    "ru": "подача",
+    "es": "saque"
+  },
+  {
+    "id": "ru_es_b1:remate",
+    "ru": "завершающий удар",
+    "es": "remate"
+  },
+  {
+    "id": "ru_es_b1:pase",
+    "ru": "пас",
+    "es": "pase"
+  },
+  {
+    "id": "ru_es_b1:regate",
+    "ru": "обводка",
+    "es": "regate"
+  },
+  {
+    "id": "ru_es_b1:zancada",
+    "ru": "широкий шаг",
+    "es": "zancada"
+  },
+  {
+    "id": "ru_es_b1:carrera",
+    "ru": "бег или карьера",
+    "es": "carrera"
+  },
+  {
+    "id": "ru_es_b1:resistencia",
+    "ru": "выносливость",
+    "es": "resistencia"
+  },
+  {
+    "id": "ru_es_b1:fuerza",
+    "ru": "сила",
+    "es": "fuerza"
+  },
+  {
+    "id": "ru_es_b1:coordinación",
+    "ru": "координация",
+    "es": "coordinación"
+  },
+  {
+    "id": "ru_es_b1:lesión",
+    "ru": "травма",
+    "es": "lesión"
+  },
+  {
+    "id": "ru_es_b1:esguince",
+    "ru": "растяжение связок",
+    "es": "esguince"
+  },
+  {
+    "id": "ru_es_b1:contractura",
+    "ru": "мышечный спазм",
+    "es": "contractura"
+  },
+  {
+    "id": "ru_es_b1:calambre",
+    "ru": "судорога",
+    "es": "calambre"
+  },
+  {
+    "id": "ru_es_b1:calentamiento",
+    "ru": "разминка",
+    "es": "calentamiento"
+  },
+  {
+    "id": "ru_es_b1:estiramiento",
+    "ru": "растяжка",
+    "es": "estiramiento"
+  },
+  {
+    "id": "ru_es_b1:recuperación",
+    "ru": "восстановление",
+    "es": "recuperación"
+  },
+  {
+    "id": "ru_es_b1:relevo",
+    "ru": "эстафета",
+    "es": "relevo"
+  },
+  {
+    "id": "ru_es_b1:obstáculo",
+    "ru": "препятствие",
+    "es": "obstáculo"
+  },
+  {
+    "id": "ru_es_b1:valla",
+    "ru": "барьер",
+    "es": "valla"
+  },
+  {
+    "id": "ru_es_b1:disparo",
+    "ru": "выстрел",
+    "es": "disparo"
+  },
+  {
+    "id": "ru_es_b1:tiro",
+    "ru": "бросок",
+    "es": "tiro"
+  },
+  {
+    "id": "ru_es_b1:puñetazo",
+    "ru": "удар кулаком",
+    "es": "puñetazo"
+  },
+  {
+    "id": "ru_es_b1:patada",
+    "ru": "удар ногой",
+    "es": "patada"
+  },
+  {
+    "id": "ru_es_b1:colchoneta",
+    "ru": "спортивный мат",
+    "es": "colchoneta"
+  },
+  {
+    "id": "ru_es_b1:trampolín",
+    "ru": "трамплин",
+    "es": "trampolín"
+  },
+  {
+    "id": "ru_es_b1:pértiga",
+    "ru": "шест",
+    "es": "pértiga"
+  },
+  {
+    "id": "ru_es_b1:jabalina",
+    "ru": "копьё для метания",
+    "es": "jabalina"
+  },
+  {
+    "id": "ru_es_b1:mancuerna",
+    "ru": "гантель",
+    "es": "mancuerna"
+  },
+  {
+    "id": "ru_es_b1:pedal",
+    "ru": "педаль",
+    "es": "pedal"
+  },
+  {
+    "id": "ru_es_b1:sillín",
+    "ru": "велосипедное седло",
+    "es": "sillín"
+  },
+  {
+    "id": "ru_es_b1:manillar",
+    "ru": "велосипедный руль",
+    "es": "manillar"
+  },
+  {
+    "id": "ru_es_b1:cadena",
+    "ru": "цепь",
+    "es": "cadena"
+  },
+  {
+    "id": "ru_es_b1:neumático",
+    "ru": "шина",
+    "es": "neumático"
+  },
+  {
+    "id": "ru_es_b1:llanta",
+    "ru": "обод",
+    "es": "llanta"
+  },
+  {
+    "id": "ru_es_b1:patín",
+    "ru": "конёк",
+    "es": "patín"
+  },
+  {
+    "id": "ru_es_b1:monopatín",
+    "ru": "скейтборд",
+    "es": "monopatín"
+  },
+  {
+    "id": "ru_es_b1:tabla",
+    "ru": "доска",
+    "es": "tabla"
+  },
+  {
+    "id": "ru_es_b1:timón",
+    "ru": "руль судна",
+    "es": "timón"
+  },
+  {
+    "id": "ru_es_b1:ancla",
+    "ru": "якорь",
+    "es": "ancla"
+  },
+  {
+    "id": "ru_es_b1:boya",
+    "ru": "буй",
+    "es": "boya"
+  },
+  {
+    "id": "ru_es_b1:braza",
+    "ru": "брасс",
+    "es": "braza"
+  },
+  {
+    "id": "ru_es_b1:crol",
+    "ru": "кроль",
+    "es": "crol"
+  },
+  {
+    "id": "ru_es_b1:absoluto",
+    "ru": "абсолютный",
+    "es": "absoluto"
+  },
+  {
+    "id": "ru_es_b1:actual",
+    "ru": "нынешний",
+    "es": "actual"
+  },
+  {
+    "id": "ru_es_b1:anónimo",
+    "ru": "анонимный",
+    "es": "anónimo"
+  },
+  {
+    "id": "ru_es_b1:anterior",
+    "ru": "предыдущий",
+    "es": "anterior"
+  },
+  {
+    "id": "ru_es_b1:artificial",
+    "ru": "искусственный",
+    "es": "artificial"
+  },
+  {
+    "id": "ru_es_b1:ausente",
+    "ru": "отсутствующий",
+    "es": "ausente"
+  },
+  {
+    "id": "ru_es_b1:automático",
+    "ru": "автоматический",
+    "es": "automático"
+  },
+  {
+    "id": "ru_es_b1:breve",
+    "ru": "краткий",
+    "es": "breve"
+  },
+  {
+    "id": "ru_es_b1:capaz",
+    "ru": "способный",
+    "es": "capaz"
+  },
+  {
+    "id": "ru_es_b1:cierto",
+    "ru": "достоверный",
+    "es": "cierto"
+  },
+  {
+    "id": "ru_es_b1:común",
+    "ru": "общий",
+    "es": "común"
+  },
+  {
+    "id": "ru_es_b1:concreto",
+    "ru": "конкретный",
+    "es": "concreto"
+  },
+  {
+    "id": "ru_es_b1:consciente",
+    "ru": "осознающий",
+    "es": "consciente"
+  },
+  {
+    "id": "ru_es_b1:constante",
+    "ru": "постоянный",
+    "es": "constante"
+  },
+  {
+    "id": "ru_es_b1:continuo",
+    "ru": "непрерывный",
+    "es": "continuo"
+  },
+  {
+    "id": "ru_es_b1:contrario",
+    "ru": "противоположный",
+    "es": "contrario"
+  },
+  {
+    "id": "ru_es_b1:crítico",
+    "ru": "критический",
+    "es": "crítico"
+  },
+  {
+    "id": "ru_es_b1:directo",
+    "ru": "прямой",
+    "es": "directo"
+  },
+  {
+    "id": "ru_es_b1:disponible",
+    "ru": "доступный",
+    "es": "disponible"
+  },
+  {
+    "id": "ru_es_b1:distinto",
+    "ru": "отличающийся",
+    "es": "distinto"
+  },
+  {
+    "id": "ru_es_b1:diverso",
+    "ru": "разнообразный",
+    "es": "diverso"
+  },
+  {
+    "id": "ru_es_b1:eficaz",
+    "ru": "эффективный",
+    "es": "eficaz"
+  },
+  {
+    "id": "ru_es_b1:escaso",
+    "ru": "скудный",
+    "es": "escaso"
+  },
+  {
+    "id": "ru_es_b1:estable",
+    "ru": "устойчивый",
+    "es": "estable"
+  },
+  {
+    "id": "ru_es_b1:exacto",
+    "ru": "точный",
+    "es": "exacto"
+  },
+  {
+    "id": "ru_es_b1:externo",
+    "ru": "внешний",
+    "es": "externo"
+  },
+  {
+    "id": "ru_es_b1:frecuente",
+    "ru": "частый",
+    "es": "frecuente"
+  },
+  {
+    "id": "ru_es_b1:general",
+    "ru": "общий",
+    "es": "general"
+  },
+  {
+    "id": "ru_es_b1:habitual",
+    "ru": "привычный",
+    "es": "habitual"
+  },
+  {
+    "id": "ru_es_b1:humano",
+    "ru": "человеческий",
+    "es": "humano"
+  },
+  {
+    "id": "ru_es_b1:interno",
+    "ru": "внутренний",
+    "es": "interno"
+  },
+  {
+    "id": "ru_es_b1:laboral",
+    "ru": "трудовой",
+    "es": "laboral"
+  },
+  {
+    "id": "ru_es_b1:mundial",
+    "ru": "мировой",
+    "es": "mundial"
+  },
+  {
+    "id": "ru_es_b1:nacional",
+    "ru": "национальный",
+    "es": "nacional"
+  },
+  {
+    "id": "ru_es_b1:oficial",
+    "ru": "официальный",
+    "es": "oficial"
+  },
+  {
+    "id": "ru_es_b1:particular",
+    "ru": "частный",
+    "es": "particular"
+  },
+  {
+    "id": "ru_es_b1:previo",
+    "ru": "предварительный",
+    "es": "previo"
+  },
+  {
+    "id": "ru_es_b1:privado",
+    "ru": "частный",
+    "es": "privado"
+  },
+  {
+    "id": "ru_es_b1:profundo",
+    "ru": "глубокий",
+    "es": "profundo"
+  },
+  {
+    "id": "ru_es_b1:propio",
+    "ru": "собственный",
+    "es": "propio"
+  },
+  {
+    "id": "ru_es_b1:reciente",
+    "ru": "недавний",
+    "es": "reciente"
+  },
+  {
+    "id": "ru_es_b1:relativo",
+    "ru": "относительный",
+    "es": "relativo"
+  },
+  {
+    "id": "ru_es_b1:similar",
+    "ru": "похожий",
+    "es": "similar"
+  },
+  {
+    "id": "ru_es_b1:social",
+    "ru": "общественный",
+    "es": "social"
+  },
+  {
+    "id": "ru_es_b1:total",
+    "ru": "полный",
+    "es": "total"
+  },
+  {
+    "id": "ru_es_b1:universal",
+    "ru": "всеобщий",
+    "es": "universal"
+  },
+  {
+    "id": "ru_es_b1:urgente",
+    "ru": "срочный",
+    "es": "urgente"
+  }
+]

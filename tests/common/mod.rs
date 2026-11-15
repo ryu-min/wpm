@@ -22,8 +22,16 @@ pub const TRANSLATION: &str = "Translation";
 pub const SELECT_MODE: &str = "Select Mode";
 pub const SETTINGS: &str = "Settings";
 pub const EXIT: &str = "Exit";
+pub const DICTATION: &str = "Dictation";
 
-pub const MENU_LABELS: [&str; 5] = [QUICK_START, TRANSLATION, SELECT_MODE, SETTINGS, EXIT];
+pub const MENU_LABELS: [&str; 6] = [
+    QUICK_START,
+    TRANSLATION,
+    SELECT_MODE,
+    SETTINGS,
+    DICTATION,
+    EXIT,
+];
 pub const TEST_WORD: &str = "abc";
 pub const TEST_SOURCE: &str = "кот";
 pub const TEST_TRANSLATION: &str = "cat";
@@ -56,7 +64,37 @@ pub fn run_wpm_capture_with_pause(
     data_dir: &Path,
     pause_after: Option<(usize, Duration)>,
 ) -> TestRun {
-    let mut command = script_command();
+    run_wpm_capture_with_options(
+        keys,
+        data_dir,
+        &[],
+        &pause_after.into_iter().collect::<Vec<_>>(),
+    )
+}
+
+pub fn run_wpm_capture_with_options(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+) -> TestRun {
+    run_wpm_capture_waiting(keys, data_dir, environment, pauses, &[])
+}
+
+pub fn run_wpm_capture_waiting(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+    expectations: &[(usize, &str)],
+) -> TestRun {
+    let hold_shell = environment
+        .iter()
+        .any(|(name, _)| *name == "WPM_TEST_HOLD_SHELL");
+    let mut command = script_command_with_hold(hold_shell);
+    for (name, value) in environment {
+        command.env(name, value);
+    }
     command
         .env("TERM", "xterm-256color")
         .env("WPM_BIN", env!("CARGO_BIN_EXE_wpm"))
@@ -105,10 +143,29 @@ pub fn run_wpm_capture_with_pause(
         stdin.write_all(key).expect("failed to write test input");
         stdin.flush().expect("failed to flush test input");
         thread::sleep(Duration::from_millis(75));
-        if let Some((pause_index, duration)) = pause_after
-            && index == pause_index
+        for (_, duration) in pauses
+            .iter()
+            .filter(|(pause_index, _)| index == *pause_index)
         {
-            thread::sleep(duration);
+            thread::sleep(*duration);
+        }
+        for (_, expected) in expectations
+            .iter()
+            .filter(|(wait_index, _)| index == *wait_index)
+        {
+            let started = Instant::now();
+            loop {
+                let screen = screen_from_output(&captured.lock().unwrap());
+                if screen.contains(expected) {
+                    break;
+                }
+                if started.elapsed() >= Duration::from_secs(5) {
+                    let _ = child.kill();
+                    let _ = child.wait();
+                    panic!("expected {expected:?} after key {index}\nscreen:\n{screen}");
+                }
+                thread::sleep(Duration::from_millis(10));
+            }
         }
         screens.push(screen_from_output(&captured.lock().unwrap()));
     }
@@ -153,22 +210,27 @@ fn screen_from_output(output: &[u8]) -> String {
     surface.screen_chars_to_string()
 }
 
-fn script_command() -> Command {
+fn script_command_with_hold(hold: bool) -> Command {
     let mut command = Command::new("script");
 
+    let shell_command = if hold {
+        "stty rows 24 cols 80; \"$WPM_BIN\"; echo WPM_EXITED; if kill -0 \"$(cat \"$WPM_TEST_HOLD_SHELL\")\" 2>/dev/null; then echo TTS_STILL_ALIVE; fi; sleep 2; echo SHELL_FINISHED"
+    } else {
+        "stty rows 24 cols 80; exec \"$WPM_BIN\""
+    };
     if cfg!(target_os = "macos") {
         command
             .arg("-q")
             .arg("/dev/null")
             .arg("sh")
             .arg("-c")
-            .arg("stty rows 24 cols 80; exec \"$WPM_BIN\"");
+            .arg(shell_command);
     } else {
         command
             .arg("-q")
             .arg("-e")
             .arg("-c")
-            .arg("stty rows 24 cols 80; exec \"$WPM_BIN\"")
+            .arg(shell_command)
             .arg("/dev/null");
     }
 
@@ -245,6 +307,50 @@ impl TestDataDir {
         .expect("failed to seed wordset");
     }
 
+    /// Small shared catalog; repeated spellings with separate ids make shuffled UI
+    /// exercises deterministic without changing production sampling.
+    pub fn seed_spanish(&self, set_name: &str, pairs: &[(&str, &str)]) {
+        let conn = rusqlite::Connection::open(self.path.join("wordset.db")).unwrap();
+        conn.execute_batch(
+            "CREATE TABLE IF NOT EXISTS vocabulary_sets (
+                name TEXT PRIMARY KEY, source_lang TEXT NOT NULL,
+                target_lang TEXT NOT NULL, level TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS vocabulary_entries (
+                id TEXT PRIMARY KEY, set_name TEXT NOT NULL REFERENCES vocabulary_sets(name),
+                ru TEXT NOT NULL, es TEXT NOT NULL
+            );",
+        )
+        .unwrap();
+        conn.execute(
+            "INSERT INTO vocabulary_sets VALUES (?1, 'ru', 'es', ?2)",
+            (set_name, set_name.rsplit('_').next().unwrap()),
+        )
+        .unwrap();
+        for (index, (ru, es)) in pairs.iter().enumerate() {
+            conn.execute(
+                "INSERT INTO vocabulary_entries VALUES (?1, ?2, ?3, ?4)",
+                (format!("{set_name}:{index}"), set_name, ru, es),
+            )
+            .unwrap();
+        }
+    }
+
+    pub fn write_settings(&self, overrides: serde_json::Value) {
+        let mut settings = serde_json::json!({
+            "quick_start_mode": "typing", "quick_start_time": 15,
+            "quick_start_wordset": "en_1000", "quick_start_translation_set": "ru_en_a1",
+            "translation_time": 60, "translation_set": "ru_en_a1",
+            "dictation_set": "ru_es_a1", "dictation_length": 20,
+            "quick_start_dictation_set": "ru_es_a1", "quick_start_dictation_length": 20
+        });
+        settings
+            .as_object_mut()
+            .unwrap()
+            .extend(overrides.as_object().unwrap().clone());
+        fs::write(self.path.join("settings.json"), settings.to_string()).unwrap();
+    }
+
     pub fn seed_translation(&self, source: &str, target: &str) {
         let conn = rusqlite::Connection::open(self.path.join("wordset.db"))
             .expect("failed to open test database");
@@ -278,5 +384,75 @@ impl AsRef<Path> for TestDataDir {
 impl Drop for TestDataDir {
     fn drop(&mut self) {
         let _ = fs::remove_dir_all(&self.path);
+    }
+}
+
+/// External-process audio double, exercised through the real WPM_TTS_BIN boundary.
+/// The path deliberately contains spaces. Changing mode affects the next invocation.
+pub struct FakeAudio {
+    pub binary: PathBuf,
+    pub log: PathBuf,
+    pub control: PathBuf,
+}
+
+#[cfg(unix)]
+impl FakeAudio {
+    pub fn new(data: &TestDataDir, mode: &str) -> Self {
+        use std::os::unix::fs::PermissionsExt;
+        let audio = Self {
+            binary: data.as_ref().join("fake audio program"),
+            log: data.as_ref().join("audio.jsonl"),
+            control: data.as_ref().join("audio-mode"),
+        };
+        fs::write(&audio.control, mode).unwrap();
+        fs::write(
+            &audio.binary,
+            r#"#!/usr/bin/env python3
+import json, os, pathlib, sys, time
+root = pathlib.Path(__file__).parent
+mode = (root / 'audio-mode').read_text().strip()
+args = sys.argv[1:]
+(root / 'audio.pid').write_text(str(os.getpid()))
+def log(event, **fields):
+    with (root / 'audio.jsonl').open('a') as out:
+        out.write(json.dumps(dict(event=event, args=args, **fields), ensure_ascii=False) + '\n')
+if args == ['--version']:
+    log('version')
+    if mode == 'delay-readiness':
+        time.sleep(1)
+        log('readiness-done')
+    print('eSpeak NG test double')
+elif args == ['--voices=es']:
+    log('voices')
+    if mode != 'missing-voice':
+        print(' 5 es --/M Spanish es 0')
+else:
+    word = sys.stdin.read()
+    log('start', word=word)
+    marker = root / 'audio-failed-once'
+    starts = sum(json.loads(line)['event'] == 'start' for line in (root / 'audio.jsonl').read_text().splitlines())
+    if mode == 'fail' or (mode == 'fail-first' and not marker.exists()) or (mode == 'fail-second' and starts == 2):
+        marker.write_text('failed')
+        print('secret diagnostic: ' + word, file=sys.stderr)
+        log('failed', word=word)
+        sys.exit(1)
+    if mode == 'delay':
+        time.sleep(3)
+    if mode == 'delay-one':
+        time.sleep(1)
+    log('done', word=word)
+"#,
+        )
+        .unwrap();
+        fs::set_permissions(&audio.binary, fs::Permissions::from_mode(0o755)).unwrap();
+        audio
+    }
+
+    pub fn events(&self) -> Vec<serde_json::Value> {
+        fs::read_to_string(&self.log)
+            .unwrap_or_default()
+            .lines()
+            .map(|line| serde_json::from_str(line).unwrap())
+            .collect()
     }
 }

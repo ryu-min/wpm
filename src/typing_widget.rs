@@ -1,3 +1,4 @@
+use crate::language_input::{self, Language};
 use crossterm::event::KeyEvent;
 use ratatui::{
     layout::{Alignment, Rect},
@@ -21,6 +22,9 @@ pub struct TypingWidget {
     time_limit: Option<u64>,
     last_stats_update: Option<std::time::Instant>,
     layout_conversion: bool,
+    languages: Vec<Language>,
+    finished_elapsed: Option<f64>,
+    extend_final_grapheme: bool,
 }
 
 const STATS_UPDATE_INTERVAL_MS: u64 = 100;
@@ -36,6 +40,9 @@ impl TypingWidget {
             time_limit: None,
             last_stats_update: None,
             layout_conversion: false,
+            languages: Vec::new(),
+            finished_elapsed: None,
+            extend_final_grapheme: false,
         }
     }
 
@@ -47,6 +54,31 @@ impl TypingWidget {
     pub fn with_layout_conversion(mut self, enabled: bool) -> Self {
         self.layout_conversion = enabled;
         self
+    }
+
+    pub fn with_languages(mut self, languages: Vec<Language>) -> Self {
+        self.languages = languages;
+        self
+    }
+
+    fn policy(&self, index: usize) -> Language {
+        self.languages
+            .get(index)
+            .copied()
+            .unwrap_or(if self.layout_conversion {
+                Language::Layout
+            } else {
+                Language::Exact
+            })
+    }
+
+    fn correct_count(&self) -> usize {
+        language_input::units(&self.input_text)
+            .iter()
+            .zip(language_input::units(&self.target_text))
+            .enumerate()
+            .filter(|(index, (a, b))| language_input::equivalent(a, b, self.policy(*index)))
+            .count()
     }
 
     pub fn with_target_text(mut self, target_text: String) -> Self {
@@ -71,27 +103,28 @@ impl TypingWidget {
                 self.remove_char();
                 None
             }
+            KeyCode::Enter => {
+                if language_input::units(&self.target_text)
+                    .get(language_input::units(&self.input_text).len())
+                    .map(String::as_str)
+                    == Some("\n")
+                {
+                    self.add_char('\n');
+                }
+                None
+            }
             KeyCode::Esc => Some(TypingAction::Exit),
             _ => None,
         }
     }
 
     pub fn add_char(&mut self, ch: char) {
-        let expected = self
-            .target_text
-            .chars()
-            .nth(self.input_text.chars().count());
-        let interpreted = match expected {
-            Some(target) if self.layout_conversion => interpret_char_for_target_layout(ch, target),
-            None => ch,
-            Some(_) => ch,
-        };
-        self.input_text.push(interpreted);
+        self.input_text.push(ch);
         self.start_timer_if_needed();
     }
 
     pub fn remove_char(&mut self) {
-        self.input_text.pop();
+        language_input::pop_grapheme(&mut self.input_text);
     }
 
     pub fn reset(&mut self) {
@@ -100,6 +133,8 @@ impl TypingWidget {
         self.wpm = 0.0;
         self.elapsed = 0.0;
         self.last_stats_update = None;
+        self.finished_elapsed = None;
+        self.extend_final_grapheme = false;
     }
 
     pub fn update_stats(&mut self) {
@@ -115,19 +150,11 @@ impl TypingWidget {
     }
 
     pub fn get_wpm(&self) -> f64 {
-        let elapsed = match self.start_time {
-            Some(time) => time.elapsed().as_secs_f64(),
-            None => return 0.0,
-        };
+        let elapsed = self.get_elapsed_time();
         if elapsed == 0.0 {
             return 0.0;
         }
-        let correct = self
-            .input_text
-            .chars()
-            .zip(self.target_text.chars())
-            .filter(|(a, b)| a == b)
-            .count() as f64;
+        let correct = self.correct_count() as f64;
         if correct == 0.0 {
             return 0.0;
         }
@@ -136,6 +163,9 @@ impl TypingWidget {
     }
 
     pub fn get_elapsed_time(&self) -> f64 {
+        if let Some(elapsed) = self.finished_elapsed {
+            return elapsed;
+        }
         match self.start_time {
             Some(time) => time.elapsed().as_secs_f64(),
             None => 0.0,
@@ -152,111 +182,65 @@ impl TypingWidget {
         &self.input_text
     }
 
+    fn timed_out(&self) -> bool {
+        self.time_limit
+            .zip(self.start_time)
+            .is_some_and(|(limit, start)| start.elapsed().as_secs() >= limit)
+    }
+
     pub fn is_complete(&self) -> bool {
-        if let Some(limit) = self.time_limit
-            && let Some(start) = self.start_time
-            && start.elapsed().as_secs() >= limit
-        {
-            return true;
+        self.timed_out()
+            || language_input::units(&self.input_text).len()
+                >= language_input::units(&self.target_text).len()
+    }
+
+    pub fn finalize(&mut self) {
+        if self.finished_elapsed.is_none() {
+            self.extend_final_grapheme = !self.timed_out() && !self.input_text.is_empty();
+            self.finished_elapsed = Some(self.get_elapsed_time());
         }
-        self.input_text.chars().count() >= self.target_text.chars().count()
+    }
+
+    /// A combining mark can arrive in another terminal event after auto-completion.
+    /// Any other key seals the result and retains the normal Result behavior.
+    pub fn extend_result(&mut self, key: KeyEvent) -> bool {
+        if self.extend_final_grapheme
+            && let crossterm::event::KeyCode::Char(ch) = key.code
+            && unicode_normalization::char::is_combining_mark(ch)
+        {
+            let before = language_input::units(&self.input_text).len();
+            let mut candidate = self.input_text.clone();
+            candidate.push(ch);
+            if language_input::units(&candidate).len() == before {
+                self.input_text = candidate;
+                return true;
+            }
+        }
+        self.extend_final_grapheme = false;
+        false
     }
 
     pub fn get_accuracy(&self) -> f64 {
         if self.input_text.is_empty() {
             return 0.0;
         }
-        let total = self.input_text.chars().count();
+        let total = language_input::units(&self.input_text).len();
         if total == 0 {
             return 0.0;
         }
-        let correct = self
-            .input_text
-            .chars()
-            .zip(self.target_text.chars())
-            .filter(|(a, b)| a == b)
-            .count();
+        let correct = self.correct_count();
         correct as f64 / total as f64
-    }
-}
-
-fn interpret_char_for_target_layout(input: char, target: char) -> char {
-    if input == target {
-        return input;
-    }
-
-    for &(russian, english) in LAYOUT_PAIRS {
-        let russian_upper = russian.to_uppercase().next().unwrap();
-        let english_upper = shifted_english_key(english);
-        if (input == english && target == russian)
-            || (input == russian && target == english)
-            || (input == english_upper && target == russian_upper)
-            || (input == russian_upper && target == english_upper)
-        {
-            return target;
-        }
-    }
-
-    input
-}
-
-const LAYOUT_PAIRS: &[(char, char)] = &[
-    ('й', 'q'),
-    ('ц', 'w'),
-    ('у', 'e'),
-    ('к', 'r'),
-    ('е', 't'),
-    ('н', 'y'),
-    ('г', 'u'),
-    ('ш', 'i'),
-    ('щ', 'o'),
-    ('з', 'p'),
-    ('х', '['),
-    ('ъ', ']'),
-    ('ф', 'a'),
-    ('ы', 's'),
-    ('в', 'd'),
-    ('а', 'f'),
-    ('п', 'g'),
-    ('р', 'h'),
-    ('о', 'j'),
-    ('л', 'k'),
-    ('д', 'l'),
-    ('ж', ';'),
-    ('э', '\''),
-    ('я', 'z'),
-    ('ч', 'x'),
-    ('с', 'c'),
-    ('м', 'v'),
-    ('и', 'b'),
-    ('т', 'n'),
-    ('ь', 'm'),
-    ('б', ','),
-    ('ю', '.'),
-    ('ё', '`'),
-];
-
-fn shifted_english_key(key: char) -> char {
-    match key {
-        '[' => '{',
-        ']' => '}',
-        ';' => ':',
-        '\'' => '"',
-        ',' => '<',
-        '.' => '>',
-        '`' => '~',
-        _ => key.to_ascii_uppercase(),
     }
 }
 
 impl TypingWidget {
     fn split_text_into_lines(&self, text: &str, max_width: usize) -> Vec<(usize, usize)> {
         let mut lines = Vec::new();
-        let chars: Vec<char> = text.chars().collect();
+        let chars = language_input::units(text);
         let mut start = 0;
 
         while start < chars.len() {
-            if chars[start] == '\n' {
+            if chars[start] == "\n" {
                 lines.push((start, start + 1));
                 start += 1;
                 continue;
@@ -266,7 +250,7 @@ impl TypingWidget {
             let mut newline_pos = None;
 
             for (i, ch) in chars.iter().enumerate().take(end).skip(start) {
-                if *ch == '\n' {
+                if ch == "\n" {
                     newline_pos = Some(i + 1);
                     break;
                 }
@@ -277,7 +261,7 @@ impl TypingWidget {
             } else if end < chars.len()
                 && let Some(last_space) = chars[start..end]
                     .iter()
-                    .rposition(|ch| ch.is_whitespace())
+                    .rposition(|ch| ch.chars().all(char::is_whitespace))
                     .map(|idx| start + idx + 1)
             {
                 end = last_space;
@@ -318,11 +302,11 @@ impl Widget for &TypingWidget {
             return;
         }
 
-        let input_len = self.input_text.chars().count();
+        let input_len = language_input::units(&self.input_text).len();
         let current_line_idx = self.get_current_line_index(&line_ranges, input_len);
 
-        let target_chars: Vec<char> = self.target_text.chars().collect();
-        let input_chars: Vec<char> = self.input_text.chars().collect();
+        let target_chars = language_input::units(&self.target_text);
+        let input_chars = language_input::units(&self.input_text);
 
         let wpm_str = format!("{} wpm", self.wpm as u32);
         let time_str = format!("{:.1}s", self.elapsed);
@@ -377,10 +361,14 @@ impl Widget for &TypingWidget {
                 .map(|i| {
                     let global_idx = start + i;
                     if global_idx < target_chars.len() {
-                        let target_char = target_chars[global_idx];
+                        let target_char = &target_chars[global_idx];
                         if global_idx < input_chars.len() {
-                            let input_char = input_chars[global_idx];
-                            if input_char == target_char {
+                            let input_char = &input_chars[global_idx];
+                            if language_input::equivalent(
+                                input_char,
+                                target_char,
+                                self.policy(global_idx),
+                            ) {
                                 Span::styled(
                                     target_char.to_string(),
                                     Style::default().fg(Color::Green),
@@ -422,6 +410,98 @@ impl Widget for &TypingWidget {
             Paragraph::new(line)
                 .alignment(Alignment::Left)
                 .render(line_area, buf);
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn unicode_positions_backspace_and_stats_share_graphemes() {
+        let mut composed = TypingWidget::new("caféx".into())
+            .with_layout_conversion(true)
+            .with_languages(vec![Language::Spanish; 5]);
+        let mut decomposed = TypingWidget::new("caféx".into())
+            .with_layout_conversion(true)
+            .with_languages(vec![Language::Spanish; 5]);
+        for ch in "café".chars() {
+            composed.add_char(ch);
+        }
+        for ch in "cafe\u{301}".chars() {
+            decomposed.add_char(ch);
+        }
+        assert_eq!(composed.correct_count(), decomposed.correct_count());
+        assert_eq!(decomposed.correct_count(), 4);
+        decomposed.remove_char();
+        assert_eq!(decomposed.get_input(), "caf");
+        decomposed.add_char('e');
+        decomposed.add_char('\u{301}');
+        decomposed.add_char('x');
+        assert!(decomposed.is_complete());
+        assert_eq!(decomposed.get_accuracy(), 1.0);
+    }
+}
+
+#[cfg(test)]
+mod final_grapheme_tests {
+    use super::*;
+    use crossterm::event::{KeyCode, KeyModifiers};
+    fn key(code: KeyCode) -> KeyEvent {
+        KeyEvent::new(code, KeyModifiers::NONE)
+    }
+    #[test]
+    fn late_marks_recompute_numerator_with_frozen_time_and_other_keys_seal() {
+        let mut typing = TypingWidget::new("café".into());
+        for ch in "cafe".chars() {
+            typing.add_char(ch);
+        }
+        typing.start_time = Some(std::time::Instant::now() - std::time::Duration::from_secs(1));
+        typing.finalize();
+        let elapsed = typing.get_elapsed_time();
+        let wpm = typing.get_wpm();
+        assert!(typing.extend_result(key(KeyCode::Char('\u{301}'))));
+        assert_eq!(typing.get_accuracy(), 1.0);
+        assert_eq!(typing.get_elapsed_time(), elapsed);
+        assert!(typing.get_wpm() > wpm);
+        assert!(!typing.extend_result(key(KeyCode::Backspace)));
+        let input = typing.get_input().to_string();
+        assert!(!typing.extend_result(key(KeyCode::Char('\u{308}'))));
+        assert_eq!(typing.get_input(), input);
+        typing.reset();
+        assert_eq!(typing.finished_elapsed, None);
+    }
+    #[test]
+    fn timed_result_and_arrow_prevent_late_marks() {
+        for timed in [false, true] {
+            let mut typing = TypingWidget::new("café".into()).with_time_limit(1);
+            for ch in "cafe".chars() {
+                typing.add_char(ch);
+            }
+            if timed {
+                typing.start_time =
+                    Some(std::time::Instant::now() - std::time::Duration::from_secs(2));
+            }
+            typing.finalize();
+            let before = (
+                typing.get_input().to_string(),
+                typing.get_accuracy(),
+                typing.get_wpm(),
+                typing.get_elapsed_time(),
+            );
+            if !timed {
+                assert!(!typing.extend_result(key(KeyCode::Right)));
+            }
+            assert!(!typing.extend_result(key(KeyCode::Char('\u{301}'))));
+            assert_eq!(
+                (
+                    typing.get_input().to_string(),
+                    typing.get_accuracy(),
+                    typing.get_wpm(),
+                    typing.get_elapsed_time()
+                ),
+                before
+            );
         }
     }
 }

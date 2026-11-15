@@ -109,11 +109,11 @@ fn saved_quick_start_translation_is_used() {
     data_dir.seed_wordset(TEST_WORD);
     data_dir.seed_translation(TEST_SOURCE, TEST_TRANSLATION);
     let keys = [
-        DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, ENTER, ESC, ESC,
+        DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, DOWN, ENTER, ESC, ESC,
     ];
 
     let run = run_wpm_capture(&keys, data_dir.as_ref());
-    let screen = &run.screens[9];
+    let screen = &run.screens[10];
     assert!(
         screen.contains(TEST_TRANSLATION_TEXT),
         "expected saved Quick Start mode to use translations\nscreen:\n{screen}"

@@ -1,8 +1,9 @@
+use crate::vocabulary::{VocabularyEntry, VocabularySet};
 use rusqlite::{Connection, Result};
 use serde::{Deserialize, Serialize};
 use std::path::{Path, PathBuf};
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Settings {
     #[serde(default = "default_quick_start_mode")]
     pub quick_start_mode: String,
@@ -16,6 +17,14 @@ pub struct Settings {
     pub translation_set: String,
     #[serde(default)]
     pub typing_layout_conversion: bool,
+    #[serde(default = "default_dictation_set")]
+    pub dictation_set: String,
+    #[serde(default = "default_dictation_length")]
+    pub dictation_length: u32,
+    #[serde(default = "default_dictation_set")]
+    pub quick_start_dictation_set: String,
+    #[serde(default = "default_dictation_length")]
+    pub quick_start_dictation_length: u32,
 }
 
 impl Default for Settings {
@@ -28,8 +37,19 @@ impl Default for Settings {
             translation_time: default_translation_time(),
             translation_set: default_translation_set(),
             typing_layout_conversion: false,
+            dictation_set: default_dictation_set(),
+            dictation_length: default_dictation_length(),
+            quick_start_dictation_set: default_dictation_set(),
+            quick_start_dictation_length: default_dictation_length(),
         }
     }
+}
+
+fn default_dictation_set() -> String {
+    "ru_es_a1".into()
+}
+fn default_dictation_length() -> u32 {
+    20
 }
 
 fn default_quick_start_mode() -> String {
@@ -132,6 +152,13 @@ impl Configuration {
                 target_lang TEXT NOT NULL,
                 pair_count INTEGER NOT NULL,
                 pairs_json TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS vocabulary_sets (
+                name TEXT PRIMARY KEY, source_lang TEXT NOT NULL, target_lang TEXT NOT NULL, level TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS vocabulary_entries (
+                id TEXT PRIMARY KEY, set_name TEXT NOT NULL REFERENCES vocabulary_sets(name),
+                ru TEXT NOT NULL, es TEXT NOT NULL
             );",
         )?;
         Ok(())
@@ -190,7 +217,106 @@ impl Configuration {
                 (set_name, "ru", "en", pair_count, pairs_json),
             )?;
         }
+        self.seed_spanish()?;
         Ok(())
+    }
+
+    fn seed_spanish(&self) -> Result<()> {
+        let files = [
+            ("ru_es_a1", include_str!("../resources/ru_es_a1.json")),
+            ("ru_es_a2", include_str!("../resources/ru_es_a2.json")),
+            ("ru_es_b1", include_str!("../resources/ru_es_b1.json")),
+            ("ru_es_b2", include_str!("../resources/ru_es_b2.json")),
+            ("ru_es_c1", include_str!("../resources/ru_es_c1.json")),
+            ("ru_es_c2", include_str!("../resources/ru_es_c2.json")),
+        ];
+        let tx = self.conn.unchecked_transaction()?;
+        for (name, raw) in files {
+            let exists: bool = tx.query_row(
+                "SELECT EXISTS(SELECT 1 FROM vocabulary_sets WHERE name=?1)",
+                [name],
+                |r| r.get(0),
+            )?;
+            if exists {
+                continue;
+            }
+            let entries: Vec<VocabularyEntry> = serde_json::from_str(raw).map_err(invalid_data)?;
+            tx.execute(
+                "INSERT INTO vocabulary_sets VALUES (?1,'ru','es',?2)",
+                (name, &name[6..]),
+            )?;
+            for entry in entries {
+                tx.execute(
+                    "INSERT INTO vocabulary_entries VALUES (?1,?2,?3,?4)",
+                    (&entry.id, name, &entry.ru, &entry.es),
+                )?;
+            }
+        }
+        tx.commit()
+    }
+
+    pub fn get_vocabulary(&self, name: &str) -> Result<VocabularySet> {
+        let (source_language, target_language, level): (String, String, String) =
+            self.conn.query_row(
+                "SELECT source_lang,target_lang,level FROM vocabulary_sets WHERE name=?1",
+                [name],
+                |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?)),
+            )?;
+        let mut stmt = self
+            .conn
+            .prepare("SELECT id,ru,es FROM vocabulary_entries WHERE set_name=?1 ORDER BY id")?;
+        let entries: Vec<VocabularyEntry> = stmt
+            .query_map([name], |r| {
+                Ok(VocabularyEntry {
+                    id: r.get(0)?,
+                    ru: r.get(1)?,
+                    es: r.get(2)?,
+                })
+            })?
+            .collect::<Result<_>>()?;
+        if entries.is_empty()
+            || entries
+                .iter()
+                .any(|e| e.id.is_empty() || e.ru.trim().is_empty() || e.es.trim().is_empty())
+        {
+            return Err(invalid_data("Empty or damaged vocabulary set"));
+        }
+        Ok(VocabularySet {
+            id: name.into(),
+            source_language,
+            target_language,
+            level,
+            entries,
+        })
+    }
+
+    pub fn get_shuffled_vocabulary(&self, name: &str) -> Result<VocabularySet> {
+        let mut set = if name.starts_with("ru_es_") {
+            self.get_vocabulary(name)?
+        } else {
+            let pairs = self.get_translation_pairs(name)?;
+            VocabularySet {
+                id: name.into(),
+                source_language: "ru".into(),
+                target_language: "en".into(),
+                level: name.rsplit('_').next().unwrap_or("").into(),
+                entries: pairs
+                    .into_iter()
+                    .enumerate()
+                    .map(|(i, (ru, en))| VocabularyEntry {
+                        id: format!("{name}:{i}"),
+                        ru,
+                        es: en,
+                    })
+                    .collect(),
+            }
+        };
+        let seed = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap_or_default()
+            .as_nanos() as usize;
+        shuffle(&mut set.entries, &mut seed_rng(seed));
+        Ok(set)
     }
 
     pub fn get_wordset_names(&self) -> Result<Vec<String>> {
@@ -229,43 +355,38 @@ impl Configuration {
         Ok(words)
     }
 
-    pub fn quick_start_words(&self) -> Result<Vec<String>> {
-        let wordset = &self.settings.quick_start_wordset;
-        self.get_shuffled_words(wordset)
-    }
-
     pub fn get_translation_set_names(&self) -> Result<Vec<String>> {
         let mut stmt = self
             .conn
-            .prepare("SELECT name FROM translation_sets ORDER BY name")?;
+            .prepare("SELECT name FROM translation_sets UNION SELECT name FROM vocabulary_sets ORDER BY name")?;
         let names = stmt.query_map([], |row| row.get(0))?;
         names.collect()
     }
 
     pub fn get_translation_pairs(&self, set_name: &str) -> Result<Vec<(String, String)>> {
+        if set_name.starts_with("ru_es_") {
+            return Ok(self
+                .get_vocabulary(set_name)?
+                .entries
+                .into_iter()
+                .map(|e| (e.ru, e.es))
+                .collect());
+        }
         let pairs_json: String = self.conn.query_row(
             "SELECT pairs_json FROM translation_sets WHERE name = ?1",
             [set_name],
             |row| row.get(0),
         )?;
-        let pairs: Vec<TranslationPair> = serde_json::from_str(&pairs_json).unwrap_or_default();
+        let pairs: Vec<TranslationPair> =
+            serde_json::from_str(&pairs_json).map_err(invalid_data)?;
+        if pairs.is_empty()
+            || pairs
+                .iter()
+                .any(|p| p.ru.trim().is_empty() || p.en.trim().is_empty())
+        {
+            return Err(invalid_data("Empty or damaged translation set"));
+        }
         Ok(pairs.into_iter().map(|p| (p.ru, p.en)).collect())
-    }
-
-    pub fn get_shuffled_translation_pairs(&self, set_name: &str) -> Result<Vec<(String, String)>> {
-        let mut pairs = self.get_translation_pairs(set_name)?;
-        use std::collections::hash_map::DefaultHasher;
-        use std::hash::{Hash, Hasher};
-        let mut hasher = DefaultHasher::new();
-        std::time::SystemTime::now()
-            .duration_since(std::time::UNIX_EPOCH)
-            .unwrap()
-            .as_nanos()
-            .hash(&mut hasher);
-        let seed = hasher.finish() as usize;
-        let mut rng = seed_rng(seed);
-        shuffle(&mut pairs, &mut rng);
-        Ok(pairs)
     }
 }
 
@@ -288,5 +409,141 @@ fn shuffle<T>(v: &mut [T], rng: &mut Rand) {
     for i in (1..v.len()).rev() {
         let j = rng.next() % (i + 1);
         v.swap(i, j);
+    }
+}
+
+fn invalid_data(error: impl std::fmt::Display) -> rusqlite::Error {
+    rusqlite::Error::FromSqlConversionFailure(
+        0,
+        rusqlite::types::Type::Text,
+        Box::new(std::io::Error::new(
+            std::io::ErrorKind::InvalidData,
+            error.to_string(),
+        )),
+    )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    fn memory() -> Configuration {
+        let config = Configuration {
+            settings: Settings::default(),
+            conn: Connection::open_in_memory().unwrap(),
+        };
+        config.init_tables().unwrap();
+        config
+    }
+    #[test]
+    fn additive_migration_preserves_old_json_and_seed_is_idempotent() {
+        let config = memory();
+        let old = "[{\"ru\":\"мой кот\",\"en\":\"cat\"}]";
+        config
+            .conn
+            .execute(
+                "INSERT INTO translation_sets VALUES (41,'ru_en_a2','ru','en',1,?1)",
+                [old],
+            )
+            .unwrap();
+        config.seed_data().unwrap();
+        config.seed_data().unwrap();
+        assert_eq!(
+            config.get_translation_pairs("ru_en_a2").unwrap(),
+            vec![("мой кот".into(), "cat".into())]
+        );
+        let stored: String = config
+            .conn
+            .query_row(
+                "SELECT pairs_json FROM translation_sets WHERE id=41",
+                [],
+                |r| r.get(0),
+            )
+            .unwrap();
+        assert_eq!(stored, old);
+        let count: i64 = config
+            .conn
+            .query_row("SELECT count(*) FROM vocabulary_sets", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(count, 6);
+        let canonical = config.get_vocabulary("ru_es_a1").unwrap();
+        let shuffled = config.get_shuffled_vocabulary("ru_es_a1").unwrap();
+        let ids = |set: VocabularySet| {
+            set.entries
+                .into_iter()
+                .map(|e| (e.id, e.es))
+                .collect::<std::collections::BTreeMap<_, _>>()
+        };
+        assert_eq!(ids(canonical.clone()), ids(shuffled));
+        assert_eq!(
+            (
+                canonical.id.as_str(),
+                canonical.source_language.as_str(),
+                canonical.level.as_str()
+            ),
+            ("ru_es_a1", "ru", "a1")
+        );
+    }
+    #[test]
+    fn bundled_spanish_catalog_meets_six_level_structural_contract() {
+        use unicode_normalization::UnicodeNormalization;
+        let config = memory();
+        config.seed_spanish().unwrap();
+        let mut ids = std::collections::BTreeSet::new();
+        let mut lemmas = std::collections::BTreeSet::new();
+        for level in ["a1", "a2", "b1", "b2", "c1", "c2"] {
+            let set = config.get_vocabulary(&format!("ru_es_{level}")).unwrap();
+            assert!((900..=1100).contains(&set.entries.len()));
+            assert_eq!(set.level, level);
+            for entry in set.entries {
+                assert!(ids.insert(entry.id.clone()));
+                assert!(lemmas.insert(entry.es.clone()));
+                assert_eq!(entry.id, format!("ru_es_{level}:{}", entry.es));
+                assert_eq!(entry.es, entry.es.nfc().collect::<String>());
+                assert_eq!(entry.es, entry.es.to_lowercase());
+                assert!(entry.es.chars().all(char::is_alphabetic));
+                assert!(!entry.ru.trim().is_empty());
+            }
+        }
+        assert!((5400..=6600).contains(&lemmas.len()));
+    }
+    #[test]
+    fn invalid_selected_sets_report_errors_without_repairing_user_data() {
+        let config = memory();
+        config
+            .conn
+            .execute(
+                "INSERT INTO vocabulary_sets VALUES ('ru_es_a1','ru','es','a1')",
+                [],
+            )
+            .unwrap();
+        assert!(config.get_vocabulary("ru_es_a1").is_err());
+        config
+            .conn
+            .execute(
+                "INSERT INTO translation_sets VALUES (1,'broken','ru','en',1,'not json')",
+                [],
+            )
+            .unwrap();
+        assert!(config.get_translation_pairs("broken").is_err());
+    }
+    #[test]
+    fn spanish_seed_failure_rolls_back_every_new_set() {
+        let config = memory();
+        config.conn.execute_batch("CREATE TRIGGER reject_spanish BEFORE INSERT ON vocabulary_entries BEGIN SELECT RAISE(ABORT,'test failure'); END;").unwrap();
+        assert!(config.seed_spanish().is_err());
+        let count: i64 = config
+            .conn
+            .query_row("SELECT count(*) FROM vocabulary_sets", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(count, 0);
+    }
+    #[test]
+    fn old_settings_get_independent_dictation_defaults() {
+        let old = r#"{"quick_start_time":30,"quick_start_wordset":"ru_5000","translation_set":"ru_en_a2"}"#;
+        let settings: Settings = serde_json::from_str(old).unwrap();
+        assert_eq!(settings.translation_set, "ru_en_a2");
+        assert_eq!(settings.dictation_set, "ru_es_a1");
+        assert_eq!(settings.dictation_length, 20);
+        assert_eq!(settings.quick_start_dictation_length, 20);
     }
 }

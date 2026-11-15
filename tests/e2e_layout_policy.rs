@@ -21,14 +21,14 @@ fn translation_converts_from_every_start_path_with_typing_option_off() {
 
     let quick_start = run_wpm_capture(
         &[
-            DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, ENTER, b"; x", ESC, ESC,
+            DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, DOWN, ENTER, b"; x", ESC, ESC,
         ],
         data_dir.as_ref(),
     );
     assert!(
-        quick_start.screens[10].contains(PERFECT_ACCURACY),
+        quick_start.screens[11].contains(PERFECT_ACCURACY),
         "Quick Start Translation must convert\nscreen:\n{}",
-        quick_start.screens[10]
+        quick_start.screens[11]
     );
 
     let select_mode = run_wpm_capture(
@@ -90,6 +90,7 @@ fn typing_conversion_setting_is_visible_saved_and_used_by_both_start_paths() {
             ENTER,
             DOWN,
             DOWN,
+            DOWN,
             ENTER,
             "фис".as_bytes(),
             ESC,
@@ -99,7 +100,7 @@ fn typing_conversion_setting_is_visible_saved_and_used_by_both_start_paths() {
     );
     assert!(enabled.screens[5].contains("< Typing >"));
     assert!(enabled.screens[7].contains("< On >"));
-    assert!(enabled.screens[12].contains(PERFECT_ACCURACY));
+    assert!(enabled.screens[13].contains(PERFECT_ACCURACY));
 
     let reopened = run_wpm_capture(
         &[
