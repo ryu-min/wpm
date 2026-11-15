@@ -223,15 +223,20 @@ impl Configuration {
 
     fn seed_spanish(&self) -> Result<()> {
         let files = [
-            ("ru_es_a1", include_str!("../resources/ru_es_a1.json")),
-            ("ru_es_a2", include_str!("../resources/ru_es_a2.json")),
-            ("ru_es_b1", include_str!("../resources/ru_es_b1.json")),
-            ("ru_es_b2", include_str!("../resources/ru_es_b2.json")),
-            ("ru_es_c1", include_str!("../resources/ru_es_c1.json")),
-            ("ru_es_c2", include_str!("../resources/ru_es_c2.json")),
+            ("ru_es_a1", "a1", include_str!("../resources/ru_es_a1.json")),
+            ("ru_es_a2", "a2", include_str!("../resources/ru_es_a2.json")),
+            ("ru_es_b1", "b1", include_str!("../resources/ru_es_b1.json")),
+            ("ru_es_b2", "b2", include_str!("../resources/ru_es_b2.json")),
+            ("ru_es_c1", "c1", include_str!("../resources/ru_es_c1.json")),
+            ("ru_es_c2", "c2", include_str!("../resources/ru_es_c2.json")),
+            (
+                "ru_es_cafe_beginner",
+                "beginner",
+                include_str!("../resources/ru_es_cafe_beginner.json"),
+            ),
         ];
         let tx = self.conn.unchecked_transaction()?;
-        for (name, raw) in files {
+        for (name, level, raw) in files {
             let exists: bool = tx.query_row(
                 "SELECT EXISTS(SELECT 1 FROM vocabulary_sets WHERE name=?1)",
                 [name],
@@ -243,7 +248,7 @@ impl Configuration {
             let entries: Vec<VocabularyEntry> = serde_json::from_str(raw).map_err(invalid_data)?;
             tx.execute(
                 "INSERT INTO vocabulary_sets VALUES (?1,'ru','es',?2)",
-                (name, &name[6..]),
+                (name, level),
             )?;
             for entry in entries {
                 tx.execute(
@@ -464,7 +469,7 @@ mod tests {
             .conn
             .query_row("SELECT count(*) FROM vocabulary_sets", [], |r| r.get(0))
             .unwrap();
-        assert_eq!(count, 6);
+        assert_eq!(count, 7);
         let canonical = config.get_vocabulary("ru_es_a1").unwrap();
         let shuffled = config.get_shuffled_vocabulary("ru_es_a1").unwrap();
         let ids = |set: VocabularySet| {

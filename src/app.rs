@@ -147,7 +147,9 @@ impl App {
             },
             TestMode::Dictation => match self.config.get_shuffled_vocabulary(&set) {
                 Ok(set) if set.target_language == "es" => {
-                    match Dictation::new(set.entries, amount as usize) {
+                    match Dictation::new(set.entries, amount as usize).map(|session| {
+                        session.with_case_insensitive(set.id == "ru_es_cafe_beginner")
+                    }) {
                         Ok(mut session) => {
                             session.operation = self.audio.check();
                             self.dictation = Some(session);

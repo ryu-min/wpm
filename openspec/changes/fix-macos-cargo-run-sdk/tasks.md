@@ -21,3 +21,38 @@
 - Для свежей сборки и PTY окружение дочернего Cargo формировалось копированием окружения с явным удалением SDKROOT. Это существенно, потому что системный `/usr/bin/python3` на этом Mac сам добавляет SDKROOT при запуске; это значение не передавалось проверяемому Cargo. Команда полного прогона запускается напрямую как `env -u SDKROOT cargo test --locked --all-features --all-targets`.
 - Изменения реализации этого change ограничены `.gitignore`, новым разделом README и локальным ignored-конфигом. Все прежние правки испанских режимов, корпуса и других файлов сохранены; новые тесты для простой локальной настройки не добавлялись.
 - `env -u SDKROOT cargo test --locked --all-features --all-targets`: PASS, 17 модульных/архитектурных и 55 терминальных E2E, всего 72. `openspec validate fix-macos-cargo-run-sdk --strict`: PASS; отсутствие delta specs принято по `skip_specs: true`.
+
+## Повторное восстановление (15 ноября 2026)
+
+При повторном обращении пользователя каталог `.cargo` в checkout отсутствовал.
+Причина его отсутствия не установлена. Системный выбор SDK по-прежнему указывал
+на несовместимый MacOSX27.0.sdk; совместимый MacOSX15.4.sdk существует.
+
+По прежнему дизайну восстановлен только локальный ignored `.cargo/config.toml`
+с SDKROOT `/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk` и
+`force = false`. Системные настройки, исходники приложения, README и изменения
+`add-spanish-cafe-beginner-set` при восстановлении не менялись. Никаких
+предположений о том, почему локальный конфиг исчез, не делалось.
+
+Повторные проверки:
+
+- `env -u SDKROOT cargo metadata --locked --no-deps --format-version 1`: PASS,
+  конфигурация TOML читается Cargo.
+- `git check-ignore -v .cargo/config.toml`: `.gitignore:3:/.cargo/config.toml`;
+  `git ls-files -- .cargo/config.toml` пуст, локальный путь не отслеживается.
+- Свежий `cargo build --locked` с пустым временным
+  `CARGO_TARGET_DIR=/var/folders/r4/020lyrb12_g29s296t0jwqv40000gp/T/wpm-sdk-restored-fresh-hig93gd5`:
+  PASS, полная сборка и линковка за 12.30s. SDKROOT явно удалён из окружения
+  дочернего Cargo после запуска Python; существующий target не очищался.
+  Лог: `/tmp/wpm-sdk-restored-fresh-build.log`.
+- Обычный `cargo run` из корня checkout через PTY `script`, без SDKROOT в
+  окружении дочернего Cargo: меню `> Quick Start` появилось; Escape завершил
+  процесс с кодом 0. Данные изолированы в
+  `/var/folders/r4/020lyrb12_g29s296t0jwqv40000gp/T/wpm-sdk-restored-data-628hbfkh`.
+  Терминальное свидетельство: `/tmp/wpm-sdk-restored-cargo-run-evidence.txt`.
+- `env -u SDKROOT cargo test --locked --all-features --all-targets`: PASS,
+  79 тестов в 12 бинарниках на macOS / Darwin arm64; лог
+  `/tmp/wpm-sdk-restored-tests.log`.
+- `openspec validate fix-macos-cargo-run-sdk --strict`: PASS; `skip_specs: true`
+  сохранён. `git diff --check`: PASS. Отслеживаемый diff повторного восстановления
+  ограничен этим разделом результатов; игнорирование и инструкция уже существовали.

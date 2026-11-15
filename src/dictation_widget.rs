@@ -9,7 +9,7 @@ pub fn input_lines(view: InputView) -> Vec<String> {
     vec![
         "Dictation".into(),
         format!("Word {} / {}", view.index, view.total),
-        "Type lowercase; accents are optional".into(),
+        view.hint.into(),
         view.status,
         format!("Input: {}", view.input),
         format!(

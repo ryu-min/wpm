@@ -1,0 +1,157 @@
+[
+  {
+    "id": "ru_es_cafe_beginner:café",
+    "ru": "кофе",
+    "es": "café"
+  },
+  {
+    "id": "ru_es_cafe_beginner:té",
+    "ru": "чай",
+    "es": "té"
+  },
+  {
+    "id": "ru_es_cafe_beginner:agua",
+    "ru": "вода",
+    "es": "agua"
+  },
+  {
+    "id": "ru_es_cafe_beginner:leche",
+    "ru": "молоко",
+    "es": "leche"
+  },
+  {
+    "id": "ru_es_cafe_beginner:azúcar",
+    "ru": "сахар",
+    "es": "azúcar"
+  },
+  {
+    "id": "ru_es_cafe_beginner:pan",
+    "ru": "хлеб",
+    "es": "pan"
+  },
+  {
+    "id": "ru_es_cafe_beginner:un café",
+    "ru": "один кофе",
+    "es": "un café"
+  },
+  {
+    "id": "ru_es_cafe_beginner:un té",
+    "ru": "один чай",
+    "es": "un té"
+  },
+  {
+    "id": "ru_es_cafe_beginner:café con leche",
+    "ru": "кофе с молоком",
+    "es": "café con leche"
+  },
+  {
+    "id": "ru_es_cafe_beginner:sin azúcar",
+    "ru": "без сахара",
+    "es": "sin azúcar"
+  },
+  {
+    "id": "ru_es_cafe_beginner:por favor",
+    "ru": "пожалуйста",
+    "es": "por favor"
+  },
+  {
+    "id": "ru_es_cafe_beginner:gracias",
+    "ru": "спасибо",
+    "es": "gracias"
+  },
+  {
+    "id": "ru_es_cafe_beginner:una mesa",
+    "ru": "один столик",
+    "es": "una mesa"
+  },
+  {
+    "id": "ru_es_cafe_beginner:la cuenta",
+    "ru": "счёт",
+    "es": "la cuenta"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Quiero un café",
+    "ru": "Я хочу кофе",
+    "es": "Quiero un café"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Hola",
+    "ru": "привет; здравствуйте",
+    "es": "Hola"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Me llamo Sergio",
+    "ru": "Меня зовут Серхио",
+    "es": "Me llamo Sergio"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Soy Sergio",
+    "ru": "Я Серхио",
+    "es": "Soy Sergio"
+  },
+  {
+    "id": "ru_es_cafe_beginner:yo",
+    "ru": "я",
+    "es": "yo"
+  },
+  {
+    "id": "ru_es_cafe_beginner:trabajar",
+    "ru": "работать",
+    "es": "trabajar"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Yo trabajo",
+    "ru": "Я работаю",
+    "es": "Yo trabajo"
+  },
+  {
+    "id": "ru_es_cafe_beginner:estudiar",
+    "ru": "учиться",
+    "es": "estudiar"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Yo estudio",
+    "ru": "Я учусь",
+    "es": "Yo estudio"
+  },
+  {
+    "id": "ru_es_cafe_beginner:ver",
+    "ru": "видеть",
+    "es": "ver"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Yo veo",
+    "ru": "Я вижу",
+    "es": "Yo veo"
+  },
+  {
+    "id": "ru_es_cafe_beginner:viajar",
+    "ru": "путешествовать",
+    "es": "viajar"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Yo viajo",
+    "ru": "Я путешествую",
+    "es": "Yo viajo"
+  },
+  {
+    "id": "ru_es_cafe_beginner:vivir",
+    "ru": "жить",
+    "es": "vivir"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Yo vivo",
+    "ru": "Я живу",
+    "es": "Yo vivo"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Vivo en Rusia",
+    "ru": "Я живу в России",
+    "es": "Vivo en Rusia"
+  },
+  {
+    "id": "ru_es_cafe_beginner:Vivo en España",
+    "ru": "Я живу в Испании",
+    "es": "Vivo en España"
+  }
+]

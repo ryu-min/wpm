@@ -14,6 +14,7 @@ pub enum Phase {
 #[derive(Debug)]
 pub struct Dictation {
     entries: Vec<VocabularyEntry>,
+    case_insensitive: bool,
     index: usize,
     pub phase: Phase,
     pub input: String,
@@ -32,6 +33,7 @@ pub struct InputView {
     pub checked: usize,
     pub correct: usize,
     pub status: String,
+    pub hint: &'static str,
 }
 impl Dictation {
     pub fn new(mut entries: Vec<VocabularyEntry>, length: usize) -> Result<Self, &'static str> {
@@ -41,6 +43,7 @@ impl Dictation {
         entries.truncate(length);
         Ok(Self {
             entries,
+            case_insensitive: false,
             index: 0,
             phase: Phase::Preparing,
             input: String::new(),
@@ -51,6 +54,10 @@ impl Dictation {
             status: "Checking Spanish audio…".into(),
             accepted: false,
         })
+    }
+    pub fn with_case_insensitive(mut self, enabled: bool) -> Self {
+        self.case_insensitive = enabled;
+        self
     }
     pub fn current(&self) -> &VocabularyEntry {
         &self.entries[self.index]
@@ -63,6 +70,11 @@ impl Dictation {
             checked: self.checked,
             correct: self.correct,
             status: self.status.clone(),
+            hint: if self.case_insensitive {
+                "Type a word or phrase; case and accents are optional"
+            } else {
+                "Type lowercase; accents are optional"
+            },
         }
     }
     pub fn audio_event(&mut self, operation: u64, result: Result<(), String>) -> bool {
@@ -109,8 +121,15 @@ impl Dictation {
             self.status = "Wait for successful audio; F2: repeat".into();
             return false;
         }
-        self.accepted =
-            language_input::matches(self.input.trim(), &self.current().es, Language::Spanish);
+        self.accepted = if self.case_insensitive {
+            language_input::matches(
+                &self.input.trim().to_lowercase(),
+                &self.current().es.to_lowercase(),
+                Language::Spanish,
+            )
+        } else {
+            language_input::matches(self.input.trim(), &self.current().es, Language::Spanish)
+        };
         self.checked += 1;
         self.correct += usize::from(self.accepted);
         self.phase = Phase::Checked;

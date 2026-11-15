@@ -88,6 +88,19 @@ pub fn run_wpm_capture_waiting(
     pauses: &[(usize, Duration)],
     expectations: &[(usize, &str)],
 ) -> TestRun {
+    run_wpm_capture_adaptive(keys, data_dir, environment, pauses, expectations, &[])
+}
+
+/// Replace selected key chunks using the currently visible terminal screen.
+/// Useful when the exercise deliberately shuffles full phrase pairs.
+pub fn run_wpm_capture_adaptive(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+    expectations: &[(usize, &str)],
+    responses: &[(usize, fn(&str) -> Vec<u8>)],
+) -> TestRun {
     let hold_shell = environment
         .iter()
         .any(|(name, _)| *name == "WPM_TEST_HOLD_SHELL");
@@ -140,7 +153,13 @@ pub fn run_wpm_capture_waiting(
     let mut stdin = child.stdin.take().expect("failed to open script stdin");
     let mut screens = Vec::with_capacity(keys.len());
     for (index, key) in keys.iter().enumerate() {
-        stdin.write_all(key).expect("failed to write test input");
+        let response = responses
+            .iter()
+            .find(|(at, _)| *at == index)
+            .map(|(_, respond)| respond(&screen_from_output(&captured.lock().unwrap())));
+        stdin
+            .write_all(response.as_deref().unwrap_or(key))
+            .expect("failed to write test input");
         stdin.flush().expect("failed to flush test input");
         thread::sleep(Duration::from_millis(75));
         for (_, duration) in pauses
