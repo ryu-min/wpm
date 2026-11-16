@@ -65,19 +65,6 @@ fn storage_uses_only_its_external_dependencies() {
 }
 
 #[test]
-fn audio_uses_only_its_external_dependencies() {
-    assert_passes!(
-        project_files_in(env!("CARGO_MANIFEST_DIR"))
-            .in_path("src/audio/**")
-            .should()
-            .depend_on_external_modules()
-            .matching("std")
-            .matching("core")
-            .matching("alloc")
-    );
-}
-
-#[test]
 fn dataset_uses_only_its_external_dependencies() {
     assert_passes!(
         project_files_in(env!("CARGO_MANIFEST_DIR"))

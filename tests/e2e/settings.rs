@@ -1,6 +1,6 @@
 use crate::common::{
     DOWN, ENTER, ESC, RIGHT, SETTINGS, TEST_SOURCE, TEST_TRANSLATION, TEST_TRANSLATION_TEXT,
-    TEST_WORD, TestDataDir, run_wpm_capture, run_wpm_with_keys,
+    TEST_WORD, TestDataDir, UP, run_wpm_capture, run_wpm_with_keys,
 };
 
 #[test]
@@ -105,7 +105,7 @@ fn saved_quick_start_translation_is_used() {
     data_dir.seed_wordset(TEST_WORD);
     data_dir.seed_translation(TEST_SOURCE, TEST_TRANSLATION);
     let keys = [
-        DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, DOWN, ENTER, ESC, ESC,
+        DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, UP, UP, UP, ENTER, ESC, ESC,
     ];
 
     let run = run_wpm_capture(&keys, data_dir.as_ref());

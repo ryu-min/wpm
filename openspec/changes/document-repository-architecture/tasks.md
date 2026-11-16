@@ -1,5 +1,11 @@
 # Tasks
 
+## Согласование с remove-dictation — 16 ноября 2026
+
+Активные proposal/design/specs согласованы с [remove-dictation](../remove-dictation/proposal.md). Ниже сохранены исторические задачи, их фактические отметки и результаты прежних раундов; они не являются поручением повторно вводить отменённое поведение. Текущая реализация и регрессионная приёмка выполняются по [задачам remove-dictation](../remove-dictation/tasks.md). Упоминания прежних записей об удалённых аудиоспецификациях и старых путях кода относятся к тому историческому состоянию; актуальные требования доступны в оставшихся specs этого change и remove-dictation.
+
+Capability repository-architecture уже опубликована: будущая delta использует MODIFIED. Прежнее удаление Detect map drift and incomplete analysis уже отражено в основной спецификации; повторная REMOVED-операция к отсутствующему требованию исключена.
+
 The user requested tests as the primary source of exact rules, then requested upstream integration and a dedicated test directory. Groups 1–5 describe superseded machinery; group 6 records the completed direct-rule rewrite. Group 7 is the active merge/relocation/adaptation scope. Preserve the earlier evidence as history, not as acceptance for the newly merged code.
 
 ## 1. Validate and select the dependency analyzer

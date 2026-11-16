@@ -1,4 +1,4 @@
-//! Shared language rules, independent of screens, persistence and sound.
+//! Shared language rules, independent of screens, persistence.
 use unicode_normalization::UnicodeNormalization;
 use unicode_segmentation::UnicodeSegmentation;
 
@@ -65,7 +65,8 @@ pub(crate) fn equivalent(input: &str, target: &str, language: Language) -> bool 
     }
 }
 
-pub(crate) fn matches(input: &str, target: &str, language: Language) -> bool {
+#[cfg(test)]
+fn matches(input: &str, target: &str, language: Language) -> bool {
     let i = units(input);
     let t = units(target);
     i.len() == t.len() && i.iter().zip(t).all(|(a, b)| equivalent(a, &b, language))

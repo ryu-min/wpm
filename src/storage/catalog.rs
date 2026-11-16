@@ -1,7 +1,7 @@
 use super::Configuration;
 use crate::{
     dataset::{Dataset, Profile},
-    domain::{DictationMaterial, VocabularyEntry, VocabularySet},
+    domain::{VocabularyEntry, VocabularySet},
 };
 use rusqlite::Result;
 use serde::{Deserialize, Serialize};
@@ -22,17 +22,6 @@ struct TranslationPair {
 }
 
 impl Configuration {
-    pub(crate) fn get_dictation_material(&self, name: &str) -> Result<DictationMaterial> {
-        let set = self.get_shuffled_vocabulary(name)?;
-        if set.target_language != "es" {
-            return Err(invalid_data("Expected Spanish dataset"));
-        }
-        Ok(DictationMaterial {
-            entries: set.entries,
-            case_insensitive: self.profile(name)? == Profile::SpanishPhrases,
-        })
-    }
-
     pub(super) fn init_tables(&self) -> Result<()> {
         self.conn.execute_batch(
             "CREATE TABLE IF NOT EXISTS word_sets (
@@ -132,14 +121,6 @@ impl Configuration {
             return Ok(d.profile);
         }
         Ok(actual)
-    }
-
-    pub(crate) fn get_dictation_set_names(&self) -> Result<Vec<String>> {
-        Ok(self
-            .get_translation_set_names()?
-            .into_iter()
-            .filter(|name| self.profile(name).is_ok_and(Profile::spanish))
-            .collect())
     }
 
     pub(crate) fn get_vocabulary(&self, name: &str) -> Result<VocabularySet> {
@@ -488,12 +469,12 @@ mod tests {
         assert_eq!(preserved, "personal");
     }
     #[test]
-    fn old_settings_get_independent_dictation_defaults() {
+    fn old_settings_preserve_translation_and_typing_defaults() {
         let old = r#"{"quick_start_time":30,"quick_start_wordset":"ru_5000","translation_set":"ru_en_a2"}"#;
         let settings: Settings = serde_json::from_str(old).unwrap();
         assert_eq!(settings.translation_set, "ru_en_a2");
-        assert_eq!(settings.dictation_set, "ru_es_a1");
-        assert_eq!(settings.dictation_length, 20);
-        assert_eq!(settings.quick_start_dictation_length, 20);
+        assert_eq!(settings.quick_start_time, 30);
+        assert_eq!(settings.quick_start_wordset, "ru_5000");
+        assert_eq!(settings.quick_start_mode, "typing");
     }
 }

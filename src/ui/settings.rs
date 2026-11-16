@@ -18,13 +18,11 @@ pub(crate) struct SettingsWidget {
     pub(crate) draft: Settings,
     wordsets: Vec<String>,
     translations: Vec<String>,
-    spanish: Vec<String>,
 }
 impl SettingsWidget {
     pub(crate) fn from_settings(
         wordsets: Vec<String>,
         translations: Vec<String>,
-        spanish: Vec<String>,
         settings: &Settings,
     ) -> Self {
         Self {
@@ -33,7 +31,6 @@ impl SettingsWidget {
             draft: settings.clone(),
             wordsets,
             translations,
-            spanish,
         }
     }
     pub(crate) fn handle_input(&mut self, key: KeyEvent) -> Option<SettingsAction> {
@@ -57,46 +54,29 @@ impl SettingsWidget {
     }
     fn adjust(&mut self, delta: isize) {
         if self.active_row == 0 {
-            self.section = (self.section as isize + delta).clamp(0, 3) as usize;
+            self.section = (self.section as isize + delta).clamp(0, 2) as usize;
             return;
         }
         match (self.section, self.active_row) {
             (0, 1) => cycle_string(
                 &mut self.draft.quick_start_mode,
-                &["typing".into(), "translation".into(), "dictation".into()],
+                &["typing".into(), "translation".into()],
                 delta,
             ),
             (0, 2) => match self.draft.quick_start_mode.as_str() {
                 "typing" => {
                     cycle_string(&mut self.draft.quick_start_wordset, &self.wordsets, delta)
                 }
-                "dictation" => cycle_string(
-                    &mut self.draft.quick_start_dictation_set,
-                    &self.spanish,
-                    delta,
-                ),
                 _ => cycle_string(
                     &mut self.draft.quick_start_translation_set,
                     &self.translations,
                     delta,
                 ),
             },
-            (0, 3) => {
-                if self.draft.quick_start_mode == "dictation" {
-                    cycle_number(
-                        &mut self.draft.quick_start_dictation_length,
-                        &[10, 20, 50],
-                        delta,
-                    )
-                } else {
-                    cycle_number(&mut self.draft.quick_start_time, TIMES, delta)
-                }
-            }
+            (0, 3) => cycle_number(&mut self.draft.quick_start_time, TIMES, delta),
             (1, 1) => cycle_string(&mut self.draft.translation_set, &self.translations, delta),
             (1, 2) => cycle_number(&mut self.draft.translation_time, TIMES, delta),
             (2, 1) => self.draft.typing_layout_conversion = delta > 0,
-            (3, 1) => cycle_string(&mut self.draft.dictation_set, &self.spanish, delta),
-            (3, 2) => cycle_number(&mut self.draft.dictation_length, &[10, 20, 50], delta),
             _ => {}
         }
     }
@@ -127,7 +107,7 @@ fn format_time(seconds: u32) -> String {
 impl Widget for &SettingsWidget {
     fn render(self, area: Rect, buf: &mut ratatui::buffer::Buffer) {
         let y = area.y + area.height.saturating_sub(14) / 2;
-        let section = ["Quick Start", "Translation", "Typing", "Dictation"][self.section];
+        let section = ["Quick Start", "Translation", "Typing"][self.section];
         let mut lines = vec![
             (0, "Settings".into(), None),
             (2, "Configure:".into(), None),
@@ -137,56 +117,28 @@ impl Widget for &SettingsWidget {
             0 => {
                 let (label, target) = match self.draft.quick_start_mode.as_str() {
                     "typing" => ("Wordset:", &self.draft.quick_start_wordset),
-                    "dictation" => ("Spanish set:", &self.draft.quick_start_dictation_set),
                     _ => ("Translation set:", &self.draft.quick_start_translation_set),
                 };
-                let dictation = self.draft.quick_start_mode == "dictation";
                 lines.extend([
                     (5, "Mode:".into(), None),
                     (6, format!("< {} >", self.draft.quick_start_mode), Some(1)),
                     (7, label.into(), None),
                     (8, format!("< {target} >"), Some(2)),
-                    (
-                        9,
-                        if dictation {
-                            "Words:".into()
-                        } else {
-                            "Time:".into()
-                        },
-                        None,
-                    ),
+                    (9, "Time:".into(), None),
                     (
                         10,
-                        format!(
-                            "< {} >",
-                            if dictation {
-                                self.draft.quick_start_dictation_length.to_string()
-                            } else {
-                                format_time(self.draft.quick_start_time)
-                            }
-                        ),
+                        format!("< {} >", format_time(self.draft.quick_start_time)),
                         Some(3),
                     ),
                 ]);
             }
-            1 | 3 => {
-                let (set, value, label) = if self.section == 1 {
-                    (
-                        &self.draft.translation_set,
-                        format_time(self.draft.translation_time),
-                        "Time:",
-                    )
-                } else {
-                    (
-                        &self.draft.dictation_set,
-                        self.draft.dictation_length.to_string(),
-                        "Words:",
-                    )
-                };
+            1 => {
+                let set = &self.draft.translation_set;
+                let value = format_time(self.draft.translation_time);
                 lines.extend([
                     (5, "Dataset:".into(), None),
                     (6, format!("< {set} >"), Some(1)),
-                    (8, label.into(), None),
+                    (8, "Time:".into(), None),
                     (9, format!("< {value} >"), Some(2)),
                 ]);
             }

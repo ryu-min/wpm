@@ -17,7 +17,7 @@ fn translation_converts_from_every_start_path_with_typing_option_off() {
 
     let quick_start = run_wpm_capture(
         &[
-            DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, DOWN, DOWN, DOWN, ENTER, b"; x", ESC, ESC,
+            DOWN, DOWN, DOWN, ENTER, DOWN, RIGHT, ENTER, UP, UP, UP, ENTER, b"; x", ESC, ESC,
         ],
         data_dir.as_ref(),
     );
@@ -84,9 +84,9 @@ fn typing_conversion_setting_is_visible_saved_and_used_by_both_start_paths() {
             DOWN,
             RIGHT,
             ENTER,
-            DOWN,
-            DOWN,
-            DOWN,
+            UP,
+            UP,
+            UP,
             ENTER,
             "фис".as_bytes(),
             ESC,

@@ -2,5 +2,4 @@
 pub(crate) enum TestMode {
     Typing,
     Translation,
-    Dictation,
 }

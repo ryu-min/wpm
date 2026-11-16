@@ -69,17 +69,6 @@ impl TypingSession {
             .count()
     }
 
-    pub(crate) fn with_target_text(mut self, target_text: String) -> Self {
-        self.target_text = target_text;
-        self.input_text.clear();
-        self
-    }
-
-    pub(crate) fn set_target_text(&mut self, target_text: String) {
-        self.target_text = target_text;
-        self.input_text.clear();
-    }
-
     pub(crate) fn insert_newline_if_expected(&mut self) {
         if language_input::units(&self.target_text)
             .get(language_input::units(&self.input_text).len())

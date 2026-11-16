@@ -1,78 +1,107 @@
-# Repository Architecture Specification
+# Spec Delta
 
-## Purpose
-
-Give contributors a concise overview of the current repository and point them to readable executable tests that define its architectural dependency rules.
-
-## ADDED Requirements
+## MODIFIED Requirements
 
 ### Requirement: Maintain an authoritative repository map
-The repository SHALL keep a concise current-architecture overview in `openspec/specs/repository-architecture/spec.md`. Exact executable dependency rules SHALL live in `tests/architecture/main.rs` as their primary source of truth, without an embedded specification policy or duplicate selector/allowlist tables.
+Репозиторий SHALL содержать краткое описание текущей архитектуры в `openspec/specs/repository-architecture/spec.md`: обязанности модулей, владение состоянием упражнений и допустимые направления зависимостей. Точные исполняемые селекторы и разрешения SHALL находиться в модулях каталога `tests/architecture/` как основном источнике этих правил, а `main.rs` SHALL служить точкой входа набора; спецификация не должна содержать встроенную машинную политику или дублирующие таблицы селекторов и разрешений.
 
-| Area | Current responsibility |
+Приложение SHALL оставаться одним бинарным crate со следующими модулями:
+
+| Область | Ответственность |
 | --- | --- |
-| `src/main.rs`, `src/app.rs` | Terminal lifecycle, application state, events and coordination of screens, configuration and audio. |
-| `src/*_widget.rs` | Menu, mode selection, settings, typing, dictation and result rendering/input; widgets use appropriate shared settings or exercise models. |
-| `src/configuration.rs` | Settings, SQLite persistence and adapters from bundled datasets to exercise/vocabulary data. |
-| `src/dictation.rs`, `src/vocabulary.rs`, `src/language_input.rs` | Dictation session state, vocabulary/translation models and shared language/grapheme rules. |
-| `src/audio.rs` | Cancellable audio-process operations and results consumed by application coordination. |
-| `src/dataset.rs`, `build.rs`, `resources/datasets/` | Shared dataset validation and build-time discovery/embedding of declarative JSON datasets. |
-| `tests/architecture/`, other `tests/` files | Direct architecture rules, dataset checks and terminal acceptance suites. |
-| `openspec/`, `.github/`, Cargo files | Specifications/plans, CI and build/dependency configuration. |
+| `src/main.rs` | Начальная настройка, жизненный цикл терминала и объявления модулей. |
+| `src/app/` | Создание конкретных компонентов и координация навигации, сессий, UI и хранилища. |
+| `src/ui/` | Преобразование терминального ввода, отрисовка и локальное состояние экранов, включая черновики настроек и текущий выбор. |
+| `src/domain/` | Настройки и значения по умолчанию, режимы упражнений, сессии печати и перевода, статистика, словари и языковые правила, независимые от реализации терминала, хранилища и процессов. |
+| `src/storage/` | Настройки в JSON, пути к данным, SQLite, загрузка и начальное заполнение встроенных данных, преобразование данных в модели упражнений. |
+| `src/dataset/`, `build.rs`, `resources/datasets/` | Общая валидация наборов данных, их обнаружение и встраивание из декларативных JSON-файлов во время сборки. |
+| `src/tests/` | Отдельные межмодульные тесты приложения. |
+| `tests/architecture/` | Прямые архитектурные правила с точкой входа `main.rs`. |
+| `tests/e2e/` | Терминальные приёмочные сценарии с точкой входа `main.rs` и общей инфраструктурой в `common/`. |
+| `tests/dataset_format.rs` | Самостоятельные межплатформенные проверки формата наборов данных. |
+| `openspec/`, `.github/`, файлы Cargo | Спецификации и планы, CI, конфигурация сборки и зависимостей. |
 
 ```text
-main --> app --> widgets / dictation / audio
-           |
-           +--> configuration --> datasets / vocabulary
-shared language rules support typing, vocabulary and dictation
-build.rs --> dataset validation --> embedded dataset data
+main --> app
+app --> ui, domain, storage
+ui --> domain
+storage --> domain, dataset
+build.rs --> dataset
 ```
 
-Main declares the modules; widgets have selected shared-model dependencies. This describes responsibilities, not an exact dependency graph.
+У `domain` и `dataset` нет зависимостей на другие модули приложения. Диаграмма описывает разрешённые направления межмодульных зависимостей исполняемого приложения, а не обязательный точный снимок существующих связей. Зависимости внутри одного модуля и объявления модулей в main являются структурными разрешениями. Подключение корневого тестового модуля SHALL выполняться только для тестов. App SHALL владеть активными сессиями упражнений; UI SHALL использовать их состояние без второй копии логики подсчёта результатов или завершения. Storage SHALL преобразовывать профили формата наборов данных во входные модели упражнений, чтобы app и UI не зависели от этого формата.
 
 #### Scenario: Contributor finds a responsibility and its rules
-- **WHEN** a contributor reads the overview after upstream integration
-- **THEN** they can locate the current exercise/audio/dataset responsibilities and the primary rules in `tests/architecture/main.rs`
+- **WHEN** участник проекта читает описание архитектуры
+- **THEN** он может найти области ответственности сессий, экранов, хранилища и наборов данных, увидеть разрешённые направления зависимостей и перейти к точным исполняемым правилам
+
+#### Scenario: Повторное использование общих настроек и моделей упражнений
+- **WHEN** экраны настроек, выбора режима или упражнений используют общие модели
+- **THEN** эти модели принадлежат domain и доступны без открытия хранилища и без импорта терминальных типов в domain
+
+#### Scenario: Передача политики набора данных в упражнение
+- **WHEN** для упражнения выбран встроенный набор или существующий набор из хранилища
+- **THEN** storage предоставляет проверенные модели и политику, а app координирует упражнение, не обращаясь к типам профиля формата набора и не определяя политику по его идентификатору
 
 ### Requirement: Provide one stable architecture entry point
-Root `ARCHITECTURE.md` SHALL concisely link to the durable overview and `tests/architecture/main.rs`, identifying tests as the source of exact executable rules. It SHALL NOT duplicate the map. `AGENTS.md` SHALL permit durable architectural requirements and SHALL no longer instruct contributors to set `skip_specs: true` for documentation or tooling changes.
+Корневой `ARCHITECTURE.md` SHALL кратко ссылаться на основное описание и каталог `tests/architecture/`, указывая его модули как источник точных исполняемых правил и `main.rs` как точку входа. Он SHALL NOT дублировать карту модулей. `AGENTS.md` SHALL разрешать долговременные архитектурные требования и SHALL больше не предписывать `skip_specs: true` для изменений документации или инструментов. Проектные инструкции по приёмке SHALL указывать актуальные пути `tests/e2e/` и `tests/e2e/common/mod.rs` и команды выбора наборов и сценариев.
 
 #### Scenario: Contributor opens the root architecture document
-- **WHEN** a contributor follows its overview and rules links
-- **THEN** both resolve to existing files and the executable link targets the dedicated architecture-test directory
+- **WHEN** участник проекта переходит по ссылкам на описание и правила
+- **THEN** ссылки ведут на существующее описание и отдельный каталог архитектурных правил, а роль `main.rs` как точки входа явно указана
 
 ### Requirement: Preserve the current dependency boundaries
-Architecture tests SHALL use direct named library rules that reflect the merged architecture: screen-specific shared models, persistence/dataset adaptation, session/language/audio responsibilities and entry-point separation. Exact selectors and allowances SHALL live in the tests. The merged production source SHALL pass without refactoring it to satisfy obsolete pre-merge boundaries.
+Архитектурные тесты SHALL проверять документированные направления зависимостей с помощью прямых именованных правил библиотеки. Правила SHALL рекурсивно выбирать распознанные исходные файлы каждого модуля, разрешать зависимости на собственную реализацию модуля, запрещать необъявленные межмодульные направления и тем самым исключать циклы между модулями приложения. Они SHALL проверять границы внешних зависимостей в соответствии с ответственностью терминального UI, предметных моделей, хранилища и валидации наборов данных. Исходный код сборки SHALL иметь внутренние зависимости только на общий парсер наборов данных; исходный код модулей приложения SHALL NOT зависеть от точки входа, кода сборки или межмодульных тестов.
 
-The syntax analyzer includes inline test code. File-level allowances needed for existing inline tests SHALL be explained in the rule source rather than represented as runtime architectural layers. Tests SHALL reject the analyzer suppression marker in selected application and build-script source using a small source-text rule.
+Синтаксический анализатор учитывает тестовый код, встроенный в исходные файлы. Тесты с межмодульными или дополнительными внешними зависимостями SHALL находиться в отдельной тестовой области, а не расширять разрешения для кода приложения. Локальные встроенные тесты, соблюдающие границы своего модуля, SHALL оставаться допустимыми. Отдельный корневой тестовый модуль SHALL компилироваться только для тестов. Небольшое правило размещения исходников SHALL отклонять обнаруженный код вне точки входа, документированных корней модулей и отдельного тестового корня, не заявляя полного обнаружения всех файлов. Тесты SHALL запрещать маркер подавления анализа в выбранных исходниках приложения и сборки с помощью небольшого текстового правила.
 
 #### Scenario: Existing upstream shared dependencies are accepted
-- **WHEN** rules analyze settings-consuming widgets, language-aware typing, dictation rendering and configuration's dataset/vocabulary adapters
-- **THEN** those legitimate dependencies pass while the tests retain explicit source-specific boundaries
+- **WHEN** UI обращается к настройкам и представлениям сессий из domain, app координирует объявленные компоненты, storage преобразует наборы данных в предметные модели, а сборка и приложение используют общий парсер
+- **THEN** архитектурные тесты проходят с документированными разрешениями
 
 #### Scenario: A supported direct dependency violates a boundary
-- **WHEN** an ordinary source reference introduces a prohibited dependency covered by a rule
-- **THEN** the named architecture test fails with dependency evidence
+- **WHEN** обычная поддерживаемая ссылка в исходном коде создаёт зависимость UI от storage, domain от UI или storage, storage от app или UI, app от dataset либо парсера от domain
+- **THEN** именованное архитектурное правило завершается ошибкой с указанием источника и цели зависимости
+
+#### Scenario: Новый вложенный исходник наследует политику своего модуля
+- **WHEN** новый объявленный исходный файл добавлен внутри каталога модуля без изменения тестовых селекторов
+- **THEN** существующие правила модуля принимают его разрешённые зависимости и отклоняют запрещённые
+
+#### Scenario: Обнаружена новая область исходников без назначенного модуля
+- **WHEN** обнаруженный исходный файл приложения расположен вне документированных корней
+- **THEN** правило размещения исходников завершается ошибкой и указывает файл, для которого необходимо явно определить принадлежность к модулю
+
+#### Scenario: Межмодульный тест не расширяет доступ кода приложения
+- **WHEN** тест сравнивает поведение словарей, печати и перевода
+- **THEN** он выполняется из отдельной тестовой области и не требует зависимости словарей или сессий приложения от UI либо другого запрещённого модуля
 
 #### Scenario: A suppression marker is introduced
-- **WHEN** selected production or build-script source contains the reserved suppression marker
-- **THEN** the source-text rule fails even when the marker is in a comment or string
+- **WHEN** выбранный исходник приложения или сборки содержит зарезервированный маркер подавления анализа
+- **THEN** текстовое правило завершается ошибкой, даже если маркер находится в комментарии или строке
 
 ### Requirement: Run useful architecture checks with ordinary Cargo tests
-The suite SHALL occupy `tests/architecture/` with `main.rs` as the Cargo integration-test entry point. Cargo SHALL discover exactly one integration target named `architecture`; the obsolete `tests/architecture.rs` entry SHALL be absent. Both `cargo test --locked --test architecture` and `cargo test --locked --all-features --all-targets` SHALL execute the rules.
+Набор тестов SHALL находиться в `tests/architecture/`, а `main.rs` SHALL служить точкой входа интеграционного теста Cargo, подключающей отдельные модули правил внутренних зависимостей, внешних зависимостей и размещения исходников. Cargo SHALL автоматически обнаруживать ровно одну интеграционную цель с именем `architecture`; устаревший файл `tests/architecture.rs` SHALL отсутствовать. Обе команды, `cargo test --locked --test architecture` и `cargo test --locked --all-features --all-targets`, SHALL выполнять все архитектурные правила. Разделение файлов SHALL сохранять каждое существующее именованное правило, его селекторы, разрешения и проверяемые утверждения без отключения или дублирования тестов оставшегося поведения. Последующее удаление Dictation SHALL удалять правила несуществующего audio-модуля, сохраняя проверки всех остальных границ.
 
-Rules SHALL remain readable without a specification parser or custom inventory/diagnostic/metadata framework. They analyze recognized source dependencies syntactically, including a conservative union of cfg branches. They do not prove full compiler resolution, generated-code dependencies, exhaustive inventory, canonical identity behind Cargo aliases or semantic responsibility correctness. The overview is maintained manually and is not parsed at test runtime.
+Правила SHALL оставаться читаемыми без парсера спецификации или собственного фреймворка инвентаризации, диагностики и метаданных. Они синтаксически анализируют распознанные зависимости исходников, консервативно объединяя ветви cfg. Они не доказывают полное разрешение имён компилятором, зависимости сгенерированного кода, полноту списка файлов, каноническую идентичность пакетов за псевдонимами Cargo или смысловую корректность распределения ответственности. Описание архитектуры SHALL поддерживаться вручную и SHALL NOT разбираться во время выполнения тестов.
+
+Приёмка изменения границ модулей SHALL проверять характерные запрещённые ссылки через реальные именованные правила, включая ссылку из нового вложенного исходного файла. Негативные проверки SHALL завершаться ошибкой по ожидаемой архитектурной причине, а не только из-за ошибки компиляции Rust. Приёмка границ исходного кода SHALL сопровождаться существующими регрессионными проверками терминального поведения и данных; эта реорганизация SHALL сохранять совместимость и значения по умолчанию поддерживаемых настроек, данные SQLite, содержимое встроенных наборов, политики оставшихся упражнений и профилей и терминальные взаимодействия. Удаление Dictation SHALL исключать аудиомодуль из разрешений, карты исходников и правил; SHALL NOT ослаблять ограничения остальных модулей. Успешные терминальные тесты SHALL NOT представляться доказательством границ исходного кода.
 
 #### Scenario: The relocated target remains discoverable
-- **WHEN** Cargo lists test targets and the developer runs the focused architecture command
-- **THEN** one `architecture` target points to `tests/architecture/main.rs` and executes a nonempty suite independently of OpenSpec documents
+- **WHEN** Cargo перечисляет тестовые цели и разработчик запускает отдельную команду архитектурных проверок
+- **THEN** одна цель `architecture` указывает на `tests/architecture/main.rs` и выполняет непустой набор тестов независимо от документов OpenSpec
 
 #### Scenario: Contributor changes structure or dependencies
-- **WHEN** a change adds modules, alters shared source/build logic or renames a dependency
-- **THEN** acceptance reviews the direct rules and overview and verifies representative forbidden dependencies alongside the existing full regression suite
+- **WHEN** изменение добавляет модули, меняет общий исходный код или логику сборки либо переименовывает зависимость
+- **THEN** приёмка проверяет прямые правила и описание архитектуры, а также характерные разрешённые и запрещённые зависимости вместе с существующим полным регрессионным набором
 
-## REMOVED Requirements
+#### Scenario: Выделение сессии печати сохраняет ввод и завершение
+- **WHEN** после выделения сессии существующие терминальные сценарии проверяют преобразование раскладки, графемы Unicode, ограничение времени, раздельное поступление последнего комбинируемого знака, результаты и перезапуск
+- **THEN** наблюдаемое принятие ввода, статистика и навигация остаются прежними
 
-### Requirement: Detect map drift and incomplete analysis
-**Reason**: Readable tests are the primary rule source; the earlier exhaustive inventory/diagnostic contract required an unwanted custom framework.
-**Migration**: Keep direct architecture tests and their stated syntax limits. The obsolete durable requirement was removed in the earlier simplification and SHALL NOT be restored during merge or synchronization.
+#### Scenario: Хранилище и диктант сохраняют совместимость
+- **WHEN** существующие терминальные сценарии и проверки данных загружают старые настройки, сохраняют или отменяют черновики, повторно используют базу, выбирают разные профили наборов и проверяют совместимость настроек удалённого диктанта и работу оставшихся режимов
+- **THEN** значения по умолчанию оставшихся полей, поддерживаемые настройки, канонические тексты, политики Translation, сохранность данных и поведение при выходе остаются прежними; прежний Quick Start Dictation нормализуется в Typing
+
+#### Scenario: Правила выбираются по назначению
+- **WHEN** участник проекта перечисляет архитектурные тесты или запускает фильтр модуля внутренних зависимостей, внешних зависимостей либо размещения исходников
+- **THEN** полные имена отражают соответствующую группу, каждый тест оставшихся архитектурных правил присутствует ровно один раз, а полный запуск выполняет все группы

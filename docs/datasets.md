@@ -29,8 +29,8 @@ the build. Errors name the source file and offending entry where applicable.
 | `typing-ru` | Typing | `["кот", "дом"]` | Existing Typing RU/ENG layout setting |
 | `typing-en` | Typing | `["cat", "house"]` | Existing Typing RU/ENG layout setting |
 | `translation-ru-en` | Translation | `[{"id":"example:cat","ru":"кот","target":"cat"}]` | Existing case and physical keyboard rules |
-| `spanish-words` | Translation, Dictation | `[{"id":"example:coffee","ru":"кофе","target":"café"}]` | Lowercase single-word Spanish; strict case |
-| `spanish-phrases` | Translation, Dictation | `[{"id":"example:name","ru":"Меня зовут Серхио","target":"Me llamo Sergio"}]` | Dictation ignores case; Translation checks case |
+| `spanish-words` | Translation | `[{"id":"example:coffee","ru":"кофе","target":"café"}]` | Lowercase single-word Spanish; strict case |
+| `spanish-phrases` | Translation | `[{"id":"example:name","ru":"Меня зовут Серхио","target":"Me llamo Sergio"}]` | Strict case in Translation |
 
 Replace the example entry id prefix with your dataset id. Typing entries are
 nonempty strings without whitespace or controls. Translation entries have
@@ -44,8 +44,8 @@ single internal spaces. Punctuation and arbitrary sentence formats are outside
 v1. Profiles are closed: new languages, modes, or semantics require a code change.
 
 Both Spanish profiles retain optional accents and RU physical keys, canonical
-TTS/revealed answers, hidden Dictation targets before submission, and one task
-per entry, including a complete phrase. They do not accept omitted words.
+visible spelling, and complete source/target pairs, including phrases. Translation
+checks case and does not accept omitted words.
 The structural validator cannot verify a translation's meaning: edit and review
 the material before shipping it.
 

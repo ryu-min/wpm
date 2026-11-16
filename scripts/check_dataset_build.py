@@ -47,20 +47,14 @@ def screen(output, columns=80):
     return '\n'.join(''.join(line) for line in grid)
 
 
-def exercise(binary, empty_cwd, descriptor, mode):
+def exercise(binary, empty_cwd, descriptor):
     with tempfile.TemporaryDirectory(prefix='wpm-dataset-data-') as directory:
         data = Path(directory)
         settings = dict(quick_start_time=15, quick_start_wordset='en_1000',
-                        translation_set=descriptor['id'], translation_time=60,
-                        dictation_set=descriptor['id'], dictation_length=20)
+                        translation_set=descriptor['id'], translation_time=60)
         (data / 'settings.json').write_text(json.dumps(settings))
-        fake = data / 'speech'
-        fake.write_text('#!/usr/bin/env python3\nimport sys\n'
-                        'if "--voices=es" in sys.argv: print("5 es Spanish")\n'
-                        'elif "--stdin" in sys.argv: sys.stdin.read()\n')
-        fake.chmod(0o755)
         env = os.environ.copy()
-        env.update(TERM='xterm-256color', WPM_BIN=str(binary), WPM_DATA_DIR=str(data), WPM_TTS_BIN=str(fake))
+        env.update(TERM='xterm-256color', WPM_BIN=str(binary), WPM_DATA_DIR=str(data))
         columns = max(80, 2 * (len(descriptor['id']) + len(descriptor['entries'][0]['ru']) + len(descriptor['entries'][0]['target']) + 20))
         command = ['script', '-q']
         shell = f'stty rows 24 cols {columns}; exec "$WPM_BIN"'
@@ -89,19 +83,12 @@ def exercise(binary, empty_cwd, descriptor, mode):
             wait('> Quick Start')
             # Select Mode starts with descriptor defaults; its mode/list is metadata driven.
             key(b'\x1b[B'); key(b'\x1b[B'); key(b'\r'); key(b'\x1b[C')
-            if mode == 'dictation': key(b'\x1b[C')
             wait(descriptor['id'])
             key(b'\r')
             pair = descriptor['entries'][0]
-            if mode == 'dictation':
-                wait('Audio ready')
-                key(pair['target'].lower().encode()); key(b'\r')
-                wait('Answer: ' + pair['target']); wait('Checked: 1  Correct: 1  Errors: 0')
-                key(b'\r'); wait('Dictation result')
-            else:
-                wait(pair['target'])
-                key((pair['ru'] + ' ' + pair['target']).encode())
-                wait('Accuracy: 100%')
+            wait(pair['target'])
+            key((pair['ru'] + ' ' + pair['target']).encode())
+            wait('Accuracy: 100%')
             key(b'\x1b'); key(b'\x1b')
             process.communicate(timeout=5)
             assert process.returncode == 0
@@ -161,7 +148,7 @@ def main():
         assert all(after[k] == v for k,v in before.items()), 'Adding data modified existing files'
         build()
         binary = temp / 'target/debug/wpm'
-        for mode in ['translation', 'dictation']: exercise(binary, empty, descriptor, mode)
+        exercise(binary, empty, descriptor)
         assert seed_and_read(name) == [(original,)]
         descriptor['entries'][0]['target'] = 'Buenos dias'
         path.write_text(json.dumps(descriptor,ensure_ascii=False)); build()
@@ -178,7 +165,7 @@ def main():
         build(False,['other.json',path.name,'duplicate dataset id']); other.unlink(); path.unlink()
         build()
         assert snapshot(project)==before, 'Acceptance left modified project files'
-        print('PASS: JSON-only incremental add/change/delete; standalone PTY both modes; metadata/entry/collision diagnostics')
+        print('PASS: JSON-only incremental add/change/delete; standalone Translation PTY; metadata/entry/collision diagnostics')
 
 
 if __name__ == '__main__':

@@ -12,7 +12,6 @@ pub(crate) enum MenuAction {
     Translation,
     SelectMode,
     Settings,
-    Dictation,
     Exit,
 }
 
@@ -50,19 +49,11 @@ impl MenuWidget {
                     action: MenuAction::Settings,
                 },
                 MenuItem {
-                    text: "Dictation".into(),
-                    action: MenuAction::Dictation,
-                },
-                MenuItem {
                     text: "Exit".to_string(),
                     action: MenuAction::Exit,
                 },
             ],
         }
-    }
-
-    pub(crate) fn selected_index(&self) -> usize {
-        self.selected_index
     }
 
     pub(crate) fn handle_input(&mut self, key: KeyEvent) -> Option<MenuAction> {
@@ -84,10 +75,6 @@ impl MenuWidget {
             KeyCode::Esc => Some(MenuAction::Exit),
             _ => None,
         }
-    }
-
-    pub(crate) fn reset(&mut self) {
-        self.selected_index = 0;
     }
 }
 

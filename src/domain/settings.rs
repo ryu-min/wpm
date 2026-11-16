@@ -14,14 +14,6 @@ pub(crate) struct Settings {
     pub(crate) translation_set: String,
     #[serde(default)]
     pub(crate) typing_layout_conversion: bool,
-    #[serde(default = "default_dictation_set")]
-    pub(crate) dictation_set: String,
-    #[serde(default = "default_dictation_length")]
-    pub(crate) dictation_length: u32,
-    #[serde(default = "default_dictation_set")]
-    pub(crate) quick_start_dictation_set: String,
-    #[serde(default = "default_dictation_length")]
-    pub(crate) quick_start_dictation_length: u32,
 }
 
 impl Default for Settings {
@@ -34,19 +26,8 @@ impl Default for Settings {
             translation_time: default_translation_time(),
             translation_set: default_translation_set(),
             typing_layout_conversion: false,
-            dictation_set: default_dictation_set(),
-            dictation_length: default_dictation_length(),
-            quick_start_dictation_set: default_dictation_set(),
-            quick_start_dictation_length: default_dictation_length(),
         }
     }
-}
-
-fn default_dictation_set() -> String {
-    "ru_es_a1".into()
-}
-fn default_dictation_length() -> u32 {
-    20
 }
 
 fn default_quick_start_mode() -> String {

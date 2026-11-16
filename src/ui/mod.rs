@@ -1,10 +1,8 @@
-mod dictation;
 mod menu;
 mod mode_select;
 mod result;
 mod settings;
 mod typing;
-pub(crate) use dictation::DictationWidget;
 pub(crate) use menu::{MenuAction, MenuWidget};
 pub(crate) use mode_select::{ModeSelectAction, ModeSelectWidget};
 pub(crate) use result::{ResultAction, ResultWidget};

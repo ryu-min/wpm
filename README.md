@@ -30,61 +30,28 @@ MIT. See [LICENSE](LICENSE).
 ## Spanish practice
 
 `Translation` includes Russian–English and Russian–Spanish sets. Spanish sets
-`ru_es_a1` through `ru_es_c2` are shared with `Dictation`. These are application
+`ru_es_a1` through `ru_es_c2` and the 31-entry `ru_es_cafe_beginner` set are available. These are application
 vocabulary levels, not a certified CEFR course. Translation types both sides of
 each pair; Enter types the line break between pairs. Backspace can cross it.
-Translation needs no audio software.
+
 
 Spanish works with ENG and RU keyboard layouts. The same physical RU keys are
 accepted for ENG letters (`рщдф` → `hola`; this is not transliteration). Spanish
 comparison accepts `n/ñ`, `a/á`, `e/é`, `i/í`, `o/ó`, and `u/ú/ü`, preserving
 case. For example, `ano` is accepted for `año` and `si` for `sí`; this convenience
 does not test knowledge of accents. Canonical spelling is always shown in the
-exercise or revealed answer. Exact Unicode input and composed accents work too.
+exercise. Exact Unicode input and composed accents work too.
 The ordinary Typing layout-conversion setting remains independent.
 
-In `Dictation`, listen and type a lowercase word. Enter checks the complete
-answer after successful playback; another Enter continues. F2 repeats the audio,
-Backspace edits the answer, Escape cancels to the menu, and Ctrl+C quits. The
-answer and translation stay hidden until submission. One wrong submitted word
-counts as one error; editing before submission and audio failures do not add
-errors. Leading/trailing spaces are ignored, internal spaces are not. Choose
-10, 20, or 50 distinct words (20 by default); smaller sets use all their words.
-Results show correct words and errors rather than WPM. Enter restarts with a
-fresh sample and zero counters. Direct and Quick Start settings are separate;
-Enter saves Settings, Escape discards edits.
+The two exercise modes are Typing and Translation. Quick Start uses your saved
+mode, dataset, and duration; Select Mode lets you choose them for one session.
+Settings has Quick Start, Translation, and Typing sections. Enter saves settings,
+Escape discards edits. Escape returns from an exercise to the menu; Ctrl+C quits.
 
-## Dictation audio setup
-
-Install [eSpeak NG](https://github.com/espeak-ng/espeak-ng) separately. `wpm`
-does not download a synthesizer or voices. Audio works offline with the Spanish
-Spain voice `es` at 150 words/minute. Speech is synthetic; check that you can
-hear and understand it on your output device before using dictation.
-
-- macOS: `brew install espeak-ng` ([Homebrew formula](https://formulae.brew.sh/formula/espeak-ng)).
-- Linux: install your distribution's `espeak-ng` package, for example
-  `sudo apt install espeak-ng` on Debian/Ubuntu.
-- Windows: install the official MSI from the [eSpeak NG releases](https://github.com/espeak-ng/espeak-ng/releases)
-  and add its installation directory to `PATH` (see the [official guide](https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md)).
-
-Check the dependency and voice, then actually listen:
-
-```sh
-espeak-ng --version
-espeak-ng --voices=es
-espeak-ng -v es "año"
-```
-
-If the executable is outside `PATH`, set `WPM_TTS_BIN` to its full filename:
-`export WPM_TTS_BIN="/path with spaces/espeak-ng"` on macOS/Linux, or
-`$env:WPM_TTS_BIN = 'C:\Program Files\eSpeak NG\espeak-ng.exe'` in PowerShell.
-This is a path to one executable, not a shell command or argument list.
-
-Dictation checks the executable and the exact `es` voice before starting.
-If playback fails, your input is retained; retry F2 or return with Escape.
-A successful process cannot prove that speakers are connected or unmuted.
-For output-device troubleshooting follow the official guide. Other modes
-remain usable without the dependency.
+When upgrading from a version with Dictation selected for Quick Start, it becomes
+Typing with your previously saved Typing dataset and duration. Other supported
+preferences and local vocabulary edits are preserved. Saving Settings removes
+the obsolete fields from the settings file.
 
 When Typing or Translation reaches the text length, results appear immediately.
 A combining accent delivered afterward can still complete the last letter and

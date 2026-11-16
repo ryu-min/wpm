@@ -7,8 +7,11 @@ impl Configuration {
         let settings_path = data_dir.join("settings.json");
         if settings_path.exists()
             && let Ok(content) = std::fs::read_to_string(&settings_path)
-            && let Ok(settings) = serde_json::from_str(&content)
+            && let Ok(mut settings) = serde_json::from_str::<Settings>(&content)
         {
+            if settings.quick_start_mode == "dictation" {
+                settings.quick_start_mode = "typing".into();
+            }
             return settings;
         }
         Settings::default()

@@ -13,7 +13,6 @@ fn main_respects_module_boundaries() {
                 "src/ui/**",
                 "src/domain/**",
                 "src/storage/**",
-                "src/audio/**",
                 "src/dataset/**",
                 "src/tests/**"
             ]))
@@ -31,8 +30,7 @@ fn app_respects_module_boundaries() {
                 "src/app/**",
                 "src/ui/**",
                 "src/domain/**",
-                "src/storage/**",
-                "src/audio/**"
+                "src/storage/**"
             ]))
     );
 }
@@ -71,17 +69,6 @@ fn storage_respects_module_boundaries() {
                 "src/domain/**",
                 "src/dataset/**"
             ]))
-    );
-}
-
-#[test]
-fn audio_respects_module_boundaries() {
-    assert_passes!(
-        project_files_in(env!("CARGO_MANIFEST_DIR"))
-            .in_path("src/audio/**")
-            .should_not()
-            .depend_on_files()
-            .in_path(pattern("**/*.rs").except_all(["src/audio/**"]))
     );
 }
 

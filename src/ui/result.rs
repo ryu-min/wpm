@@ -69,10 +69,6 @@ impl ResultWidget {
             _ => None,
         }
     }
-
-    pub(crate) fn reset(&mut self) {
-        self.selected_index = 0;
-    }
 }
 
 pub(crate) struct ResultView<'a> {

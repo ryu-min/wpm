@@ -1,10 +1,9 @@
 use crate::{
-    audio::Audio,
-    domain::{Dictation, Phase, TestMode, TypingSession},
+    domain::{TestMode, TypingSession},
     storage::Configuration,
     ui::{
-        DictationWidget, MenuAction, MenuWidget, ModeSelectAction, ModeSelectWidget, ResultAction,
-        ResultWidget, SettingsAction, SettingsWidget, TypingWidget,
+        MenuAction, MenuWidget, ModeSelectAction, ModeSelectWidget, ResultAction, ResultWidget,
+        SettingsAction, SettingsWidget, TypingWidget,
     },
 };
 use crossterm::event::{self, Event, KeyCode, KeyEvent, KeyEventKind, KeyModifiers};
@@ -17,7 +16,6 @@ enum Screen {
     Settings,
     Typing,
     Result,
-    Dictation,
     Error,
 }
 #[derive(Debug)]
@@ -33,8 +31,6 @@ pub(crate) struct App {
     current_set: String,
     current_time: u32,
     current_mode: TestMode,
-    dictation: Option<Dictation>,
-    audio: Audio,
     error: String,
 }
 impl App {
@@ -44,21 +40,13 @@ impl App {
         let translations = config
             .get_translation_set_names()
             .expect("Failed to get translation sets");
-        let settings_widget = SettingsWidget::from_settings(
-            wordsets.clone(),
-            translations.clone(),
-            config.get_dictation_set_names().expect("Dictation sets"),
-            &config.settings,
-        );
+        let settings_widget =
+            SettingsWidget::from_settings(wordsets.clone(), translations.clone(), &config.settings);
         Self {
             running: true,
             screen: Screen::Menu,
             menu_widget: MenuWidget::new(),
-            mode_select_widget: ModeSelectWidget::new(
-                wordsets,
-                translations,
-                config.get_dictation_set_names().expect("Dictation sets"),
-            ),
+            mode_select_widget: ModeSelectWidget::new(wordsets, translations),
             settings_widget,
             typing_session: TypingSession::new(String::new()),
             result_widget: ResultWidget::new(),
@@ -66,14 +54,11 @@ impl App {
             current_set: String::new(),
             current_time: 15,
             current_mode: TestMode::Typing,
-            dictation: None,
-            audio: Audio::default(),
             error: String::new(),
         }
     }
     pub(crate) fn run(mut self, mut terminal: DefaultTerminal) -> color_eyre::Result<()> {
         while self.running {
-            self.poll_audio();
             if self.screen == Screen::Typing {
                 self.typing_session.update_stats();
                 if self.typing_session.is_complete() {
@@ -96,7 +81,6 @@ impl App {
                 }
             }
         }
-        self.audio.shutdown();
         Ok(())
     }
     fn render(&mut self, frame: &mut Frame) {
@@ -109,11 +93,6 @@ impl App {
             Screen::Result => {
                 frame.render_widget(self.result_widget.view(&self.typing_session), area)
             }
-            Screen::Dictation => {
-                if let Some(session) = &self.dictation {
-                    frame.render_widget(DictationWidget(session), area);
-                }
-            }
             Screen::Error => frame.render_widget(
                 Paragraph::new(format!(
                     "Vocabulary set unavailable or damaged. {}\nEsc: menu",
@@ -124,7 +103,6 @@ impl App {
         }
     }
     fn start(&mut self, mode: TestMode, set: String, amount: u32) {
-        self.audio.cancel();
         self.current_mode = mode;
         self.current_set = set.clone();
         self.current_time = amount;
@@ -149,57 +127,17 @@ impl App {
                 }
                 Err(_) => self.set_error(),
             },
-            TestMode::Dictation => match self.config.get_dictation_material(&set) {
-                Ok(material) => match Dictation::new(material.entries, amount as usize)
-                    .map(|session| session.with_case_insensitive(material.case_insensitive))
-                {
-                    Ok(mut session) => {
-                        session.checking_audio(self.audio.check());
-                        self.dictation = Some(session);
-                        self.screen = Screen::Dictation;
-                    }
-                    Err(_) => self.set_error(),
-                },
-                Err(_) => self.set_error(),
-            },
         }
     }
     fn set_error(&mut self) {
         self.error = "Select another dataset in Settings or Select Mode.".into();
         self.screen = Screen::Error;
     }
-    fn repeat_audio(&mut self) {
-        if let Some(session) = &mut self.dictation {
-            session.playing_audio(self.audio.speak(session.current().es.clone()));
-        }
-    }
-    fn poll_audio(&mut self) {
-        while let Some(event) = self.audio.poll() {
-            if self.screen != Screen::Dictation {
-                continue;
-            }
-            let Some(session) = &mut self.dictation else {
-                continue;
-            };
-            if event.operation != session.operation() {
-                continue;
-            }
-            if session.audio_event(
-                event.operation,
-                event.result.map_err(|error| error.message().into()),
-            ) {
-                self.repeat_audio();
-            }
-        }
-    }
     fn menu(&mut self) {
-        self.audio.cancel();
-        self.dictation = None;
         self.screen = Screen::Menu;
     }
     fn on_key_event(&mut self, key: KeyEvent) {
         if key.code == KeyCode::Char('c') && key.modifiers.contains(KeyModifiers::CONTROL) {
-            self.audio.cancel();
             self.running = false;
             return;
         }
@@ -215,11 +153,6 @@ impl App {
                                     s.quick_start_translation_set.clone(),
                                     s.quick_start_time,
                                 ),
-                                "dictation" => (
-                                    TestMode::Dictation,
-                                    s.quick_start_dictation_set.clone(),
-                                    s.quick_start_dictation_length,
-                                ),
                                 _ => (
                                     TestMode::Typing,
                                     s.quick_start_wordset.clone(),
@@ -233,11 +166,6 @@ impl App {
                             self.config.settings.translation_set.clone(),
                             self.config.settings.translation_time,
                         ),
-                        MenuAction::Dictation => self.start(
-                            TestMode::Dictation,
-                            self.config.settings.dictation_set.clone(),
-                            self.config.settings.dictation_length,
-                        ),
                         MenuAction::SelectMode => {
                             self.mode_select_widget.reset();
                             self.mode_select_widget.set_defaults(&self.config.settings);
@@ -247,7 +175,6 @@ impl App {
                             self.settings_widget = SettingsWidget::from_settings(
                                 self.config.get_wordset_names().unwrap_or_default(),
                                 self.config.get_translation_set_names().unwrap_or_default(),
-                                self.config.get_dictation_set_names().unwrap_or_default(),
                                 &self.config.settings,
                             );
                             self.screen = Screen::Settings;
@@ -270,10 +197,6 @@ impl App {
                                 TestMode::Translation => (
                                     self.mode_select_widget.selected_translation_set().into(),
                                     self.mode_select_widget.selected_time(),
-                                ),
-                                TestMode::Dictation => (
-                                    self.mode_select_widget.selected_dictation_set().into(),
-                                    self.mode_select_widget.selected_length(),
                                 ),
                             };
                             self.start(mode, set, amount);
@@ -321,35 +244,6 @@ impl App {
             Screen::Error => {
                 if key.code == KeyCode::Esc {
                     self.menu();
-                }
-            }
-            Screen::Dictation => {
-                if key.code == KeyCode::Esc {
-                    self.menu();
-                    return;
-                }
-                let phase = self.dictation.as_ref().unwrap().phase();
-                match (phase, key.code) {
-                    (Phase::Finished, KeyCode::Enter) => self.start(
-                        TestMode::Dictation,
-                        self.current_set.clone(),
-                        self.current_time,
-                    ),
-                    (Phase::Input | Phase::Checked, KeyCode::F(2)) => self.repeat_audio(),
-                    (Phase::Input, KeyCode::Char(ch)) => self.dictation.as_mut().unwrap().push(ch),
-                    (Phase::Input, KeyCode::Backspace) => {
-                        self.dictation.as_mut().unwrap().backspace()
-                    }
-                    (Phase::Input, KeyCode::Enter) if self.dictation.as_mut().unwrap().submit() => {
-                        self.audio.cancel();
-                    }
-                    (Phase::Checked, KeyCode::Enter) => {
-                        self.audio.cancel();
-                        if self.dictation.as_mut().unwrap().advance() {
-                            self.repeat_audio();
-                        }
-                    }
-                    _ => {}
                 }
             }
         }

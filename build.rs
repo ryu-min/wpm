@@ -23,12 +23,11 @@ fn main() {
     // Diagnose both sources before filename validation, regardless of sorting:
     // one conflicting file necessarily has a filename different from its id.
     for (source, raw) in &files {
-        if let Ok(value) = serde_json::from_str::<serde_json::Value>(raw) {
-            if let Some(id) = value["id"].as_str() {
-                if let Some(previous) = ids.insert(id.into(), source.clone()) {
-                    panic!("{source}: duplicate dataset id {id} conflicts with {previous}");
-                }
-            }
+        if let Ok(value) = serde_json::from_str::<serde_json::Value>(raw)
+            && let Some(id) = value["id"].as_str()
+            && let Some(previous) = ids.insert(id.into(), source.clone())
+        {
+            panic!("{source}: duplicate dataset id {id} conflicts with {previous}");
         }
     }
     let mut output = String::from("&[\n");
@@ -36,7 +35,7 @@ fn main() {
         dataset::Dataset::parse(&source, &raw).unwrap_or_else(|e| panic!("{e}"));
         output.push_str(&format!("({source:?}, {raw:?}),\n"));
     }
-    output.push_str("]");
+    output.push(']');
     std::fs::write(
         std::path::PathBuf::from(std::env::var_os("OUT_DIR").unwrap()).join("datasets.rs"),
         output,
