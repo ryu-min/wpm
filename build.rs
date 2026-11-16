@@ -1,9 +1,9 @@
 #[allow(dead_code)]
-#[path = "src/dataset.rs"]
+#[path = "src/dataset/mod.rs"]
 mod dataset;
 fn main() {
     println!("cargo:rerun-if-changed=resources/datasets");
-    println!("cargo:rerun-if-changed=src/dataset.rs");
+    println!("cargo:rerun-if-changed=src/dataset/mod.rs");
     let mut ids = std::collections::BTreeMap::<String, String>::new();
     let mut paths: Vec<_> = std::fs::read_dir("resources/datasets")
         .unwrap()

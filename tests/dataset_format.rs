@@ -1,5 +1,5 @@
 #[allow(dead_code)]
-#[path = "../src/dataset.rs"]
+#[path = "../src/dataset/mod.rs"]
 mod dataset;
 use dataset::Dataset;
 fn valid(profile: &str) -> serde_json::Value {

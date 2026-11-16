@@ -56,3 +56,26 @@
 - `openspec validate fix-macos-cargo-run-sdk --strict`: PASS; `skip_specs: true`
   сохранён. `git diff --check`: PASS. Отслеживаемый diff повторного восстановления
   ограничен этим разделом результатов; игнорирование и инструкция уже существовали.
+
+
+## Восстановление по повторному обращению (16 ноября 2026)
+
+Пользователь сообщил о невозможности выполнить `cargo run`. Перед восстановлением в этом checkout отсутствовал каталог `.cargo`, в том числе оба возможных имени конфигурации `.cargo/config` и `.cargo/config.toml`. Причина отсутствия не установлена. SDK MacOSX15.4.sdk существует; системный SDK27 по-прежнему несовместим с установленным линковщиком (`unknown architecture arm64e.x1-macos`, воспроизведено основным агентом до восстановления). Предыдущие результаты сохранены как история отдельных проверок.
+
+По существующему дизайну восстановлен только локальный ignored `.cargo/config.toml`:
+
+```toml
+[env]
+SDKROOT = { value = "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk", force = false }
+```
+
+Конфигурация ограничена этим checkout и сохраняет приоритет явно заданного SDKROOT. Настройки системного toolchain, developer directory, shell profile и глобальная конфигурация Cargo не менялись. Прежние незакоммиченные изменения модулей приложения и организации тестов сохранены; изменения отслеживаемых файлов при этом восстановлении ограничены данным разделом результатов.
+
+Проверки без внешнего SDKROOT:
+
+- `env -u SDKROOT cargo metadata --locked --no-deps --format-version 1`: PASS; Cargo читает локальный TOML. В metadata сохранены бинарник wpm и три текущие интеграционные цели architecture, dataset_format, e2e.
+- `git check-ignore -v .cargo/config.toml`: `.gitignore:3:/.cargo/config.toml`; `git ls-files -- .cargo/config.toml` пуст. Ignore и README уже содержали необходимую настройку/инструкцию и не редактировались.
+- Свежий `cargo build --locked` с новым пустым `CARGO_TARGET_DIR=/var/folders/r4/020lyrb12_g29s296t0jwqv40000gp/T/wpm-sdk-20261116-fresh-bi2c21jp`: PASS, код 0, 12.64 с. SDKROOT удалён из окружения непосредственно перед дочерним Cargo после запуска Python, не задан префиксом команды; существующий target не очищался. Ошибка arm64e.x1-macos отсутствует. Лог `/tmp/wpm-sdk-20261116-fresh.log`, параметры проверки `/tmp/wpm-sdk-20261116-fresh.json`.
+- Обычный `cargo run` из корня checkout через PTY `script`: PASS, наблюдалось меню `> Quick Start`, после Escape процесс завершился с кодом 0 за 2.97 с. SDKROOT отсутствовал в окружении дочернего Cargo. Данные изолированы в `/var/folders/r4/020lyrb12_g29s296t0jwqv40000gp/T/wpm-sdk-20261116-data-4o1iczah`. Терминальное свидетельство `/tmp/wpm-sdk-20261116-cargo-run.txt`, результат `/tmp/wpm-sdk-20261116-cargo-run.json`.
+- `env -u SDKROOT cargo test --locked --all-features --all-targets`: PASS, все 100 тестов: 18 модульных, 18 архитектурных, 2 dataset_format и 62 E2E. Без ignored/пропусков, с обычной параллельностью на macOS arm64, 101.16 с real (99.75 с E2E). Лог `/tmp/wpm-sdk-20261116-tests.log`. Прежние предупреждения о неиспользуемых методах не затрагивались; ошибок сборки, линковки или тестов нет.
+- `openspec validate fix-macos-cargo-run-sdk --strict`: PASS; пропуск спецификаций через skip_specs сохранён. `git diff --check`: PASS. Сравнение SHA-256 со снимком перед восстановлением подтвердило, что все прежние файлы, кроме добавленного раздела этого tasks.md, неизменны; единственный новый локальный файл — игнорируемый конфиг. Коммит и архивирование не выполнялись.

@@ -1,11 +1,23 @@
 schema: spec-driven
 
 context: |
-  wpm is a Rust 2024 terminal application built with Ratatui and Crossterm.
-  It offers timed typing and Russian-to-English translation exercises, a mode
-  selector, settings, and a result screen with speed and accuracy statistics.
-  Application state and screen transitions live in src/app.rs; screen widgets
-  live in src/*_widget.rs. src/configuration.rs stores settings as JSON and
-  word and translation sets in SQLite. Bundled exercise data lives in resources/.
-  Integration tests in tests/ drive the terminal through a pseudo-terminal.
-  Run cargo test to verify behavior after implementation changes.
+  Все артефакты OpenSpec пиши на русском языке: proposal, design, specs, tasks
+  и любые другие артефакты используемой схемы. Это относится к объяснениям,
+  обычным заголовкам, таблицам, задачам и результатам проверок. Сохраняй только
+  необходимый служебный синтаксис и обязательные заголовки схемы, а также
+  идентификаторы, пути и команды.
+
+  wpm — терминальное приложение на Rust 2024 с Ratatui и Crossterm.
+  В нём есть упражнения печати на время и перевода с русского на английский,
+  выбор режима, настройки и экран результатов со скоростью и точностью.
+  Состояние приложения и переходы между экранами находятся в src/app/;
+  виджеты экранов — в src/ui/, настройки и модели упражнений — в src/domain/.
+  src/storage/ хранит настройки в JSON, а наборы слов и переводов — в SQLite.
+  Встроенные данные упражнений
+  находятся в resources/. Интеграционные тесты в tests/ управляют терминалом
+  через псевдотерминал. После изменений реализации проверяй поведение командой
+  cargo test.
+
+rules:
+  specs:
+    - "Сохраняй служебные маркеры OpenSpec (включая MODIFIED Requirements, Requirement, Scenario, WHEN, THEN) и нормативные ключевые слова SHALL/MUST. В MODIFIED Requirements сохраняй имена существующих требований и сценариев для сопоставления с основной спецификацией; не переводи идентификаторы, пути и команды."

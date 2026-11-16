@@ -1,16 +1,11 @@
 mod app;
 mod audio;
-mod configuration;
 mod dataset;
-mod dictation;
-mod dictation_widget;
-mod language_input;
-mod menu_widget;
-mod mode_select_widget;
-mod result_widget;
-mod settings_widget;
-mod typing_widget;
-mod vocabulary;
+mod domain;
+mod storage;
+#[cfg(test)]
+mod tests;
+mod ui;
 
 fn main() -> color_eyre::Result<()> {
     color_eyre::install()?;
