@@ -179,11 +179,7 @@ impl Widget for TypingWidget<'_> {
                         let target_char = &target_chars[global_idx];
                         if global_idx < input_chars.len() {
                             let input_char = &input_chars[global_idx];
-                            if language_input::equivalent(
-                                input_char,
-                                target_char,
-                                self.session.policy(global_idx),
-                            ) {
+                            if self.session.accepts(global_idx, input_char, target_char) {
                                 Span::styled(
                                     target_char.to_string(),
                                     Style::default().fg(Color::Green),

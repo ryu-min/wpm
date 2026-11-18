@@ -41,6 +41,7 @@ pub const CTRL_C: &[u8] = b"\x03";
 pub struct TestRun {
     pub transcript: String,
     pub screens: Vec<String>,
+    pub cells: Vec<Vec<(String, termwiz::cell::CellAttributes)>>,
 }
 
 pub fn run_wpm_with_keys(keys: &[&[u8]], data_dir: &Path) -> String {
@@ -121,6 +122,7 @@ pub fn run_wpm_capture_geometry(
         command.env(name, value);
     }
     command
+        .env_remove("NO_COLOR")
         .env("TERM", "xterm-256color")
         .env("WPM_BIN", env!("CARGO_BIN_EXE_wpm"))
         .env("WPM_DATA_DIR", data_dir)
@@ -164,6 +166,7 @@ pub fn run_wpm_capture_geometry(
 
     let mut stdin = child.stdin.take().expect("failed to open script stdin");
     let mut screens = Vec::with_capacity(keys.len());
+    let mut cells = Vec::with_capacity(keys.len());
     for (index, key) in keys.iter().enumerate() {
         let response = responses
             .iter()
@@ -203,7 +206,20 @@ pub fn run_wpm_capture_geometry(
                 thread::sleep(Duration::from_millis(10));
             }
         }
-        screens.push(screen_from_output(&captured.lock().unwrap(), geometry));
+        let output = captured.lock().unwrap();
+        screens.push(screen_from_output(&output, geometry));
+        let mut surface = surface_from_output(&output, geometry);
+        cells.push(
+            surface
+                .screen_cells()
+                .into_iter()
+                .flat_map(|line| {
+                    line.iter()
+                        .map(|cell| (cell.str().to_owned(), cell.attrs().clone()))
+                        .collect::<Vec<_>>()
+                })
+                .collect(),
+        );
     }
     drop(stdin);
 
@@ -220,10 +236,15 @@ pub fn run_wpm_capture_geometry(
     TestRun {
         transcript: stdout,
         screens,
+        cells,
     }
 }
 
 fn screen_from_output(output: &[u8], geometry: (usize, usize)) -> String {
+    surface_from_output(output, geometry).screen_chars_to_string()
+}
+
+fn surface_from_output(output: &[u8], geometry: (usize, usize)) -> Surface {
     let mut parser = Parser::new();
     let mut surface = Surface::new(geometry.0, geometry.1);
     for action in parser.parse_as_vec(output) {
@@ -240,10 +261,28 @@ fn screen_from_output(output: &[u8], geometry: (usize, usize)) -> String {
                     y: Position::Absolute(line.as_zero_based() as usize),
                 });
             }
+            Action::CSI(CSI::Sgr(sgr)) => {
+                use termwiz::{cell::AttributeChange, escape::csi::Sgr};
+                match sgr {
+                    Sgr::Reset => {
+                        surface.add_change(Change::AllAttributes(Default::default()));
+                    }
+                    Sgr::Foreground(color) => {
+                        surface.add_change(Change::Attribute(AttributeChange::Foreground(
+                            color.into(),
+                        )));
+                    }
+                    Sgr::StrikeThrough(value) => {
+                        surface
+                            .add_change(Change::Attribute(AttributeChange::StrikeThrough(value)));
+                    }
+                    _ => {}
+                }
+            }
             _ => {}
         }
     }
-    surface.screen_chars_to_string()
+    surface
 }
 
 fn script_command(geometry: (usize, usize)) -> Command {

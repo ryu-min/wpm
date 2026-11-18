@@ -34,10 +34,8 @@ impl SettingsWidget {
         }
     }
     pub(crate) fn handle_input(&mut self, key: KeyEvent) -> Option<SettingsAction> {
-        let rows = if self.section == 0 {
+        let rows = if self.section == 0 || self.section == 1 {
             4
-        } else if self.section == 2 {
-            2
         } else {
             3
         };
@@ -76,6 +74,8 @@ impl SettingsWidget {
             (0, 3) => cycle_number(&mut self.draft.quick_start_time, TIMES, delta),
             (1, 1) => cycle_string(&mut self.draft.translation_set, &self.translations, delta),
             (1, 2) => cycle_number(&mut self.draft.translation_time, TIMES, delta),
+            (1, 3) => self.draft.translation_ignore_case = delta > 0,
+            (2, 2) => self.draft.typing_ignore_case = delta > 0,
             (2, 1) => self.draft.typing_layout_conversion = delta > 0,
             _ => {}
         }
@@ -157,6 +157,22 @@ impl Widget for &SettingsWidget {
                     Some(1),
                 ),
             ]),
+        }
+        if self.section == 1 || self.section == 2 {
+            let enabled = if self.section == 1 {
+                self.draft.translation_ignore_case
+            } else {
+                self.draft.typing_ignore_case
+            };
+            let (offset, row) = if self.section == 1 { (10, 3) } else { (8, 2) };
+            lines.extend([
+                (offset, "Ignore case:".into(), None),
+                (
+                    offset + 1,
+                    format!("< {} >", if enabled { "On" } else { "Off" }),
+                    Some(row),
+                ),
+            ]);
         }
         lines.push((
             13,

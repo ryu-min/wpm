@@ -111,7 +111,8 @@ impl App {
                 Ok(words) if !words.is_empty() => {
                     self.typing_session = TypingSession::new(words.join(" "))
                         .with_time_limit(amount as u64)
-                        .with_layout_conversion(self.config.settings.typing_layout_conversion);
+                        .with_layout_conversion(self.config.settings.typing_layout_conversion)
+                        .with_ignore_case(self.config.settings.typing_ignore_case);
                     self.screen = Screen::Typing;
                 }
                 _ => self.set_error(),
@@ -122,7 +123,8 @@ impl App {
                     self.typing_session = TypingSession::new(text)
                         .with_time_limit(amount as u64)
                         .with_layout_conversion(true)
-                        .with_languages(policies);
+                        .with_languages(policies)
+                        .with_ignore_case(self.config.settings.translation_ignore_case);
                     self.screen = Screen::Typing;
                 }
                 Err(_) => self.set_error(),

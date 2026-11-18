@@ -10,6 +10,7 @@ pub(crate) struct TypingSession {
     time_limit: Option<u64>,
     last_stats_update: Option<std::time::Instant>,
     layout_conversion: bool,
+    ignore_case: bool,
     languages: Vec<Language>,
     finished_elapsed: Option<f64>,
     extend_final_grapheme: bool,
@@ -28,6 +29,7 @@ impl TypingSession {
             time_limit: None,
             last_stats_update: None,
             layout_conversion: false,
+            ignore_case: false,
             languages: Vec::new(),
             finished_elapsed: None,
             extend_final_grapheme: false,
@@ -42,6 +44,22 @@ impl TypingSession {
     pub(crate) fn with_layout_conversion(mut self, enabled: bool) -> Self {
         self.layout_conversion = enabled;
         self
+    }
+
+    pub(crate) fn with_ignore_case(mut self, enabled: bool) -> Self {
+        self.ignore_case = enabled;
+        self
+    }
+
+    pub(crate) fn accepts(&self, index: usize, input: &str, target: &str) -> bool {
+        let policy = self.policy(index);
+        language_input::equivalent(input, target, policy)
+            || (self.ignore_case
+                && language_input::case_variants(input).iter().any(|input| {
+                    language_input::case_variants(target)
+                        .iter()
+                        .any(|target| language_input::equivalent(input, target, policy))
+                }))
     }
 
     pub(crate) fn with_languages(mut self, languages: Vec<Language>) -> Self {
@@ -65,7 +83,7 @@ impl TypingSession {
             .iter()
             .zip(language_input::units(&self.target_text))
             .enumerate()
-            .filter(|(index, (a, b))| language_input::equivalent(a, b, self.policy(*index)))
+            .filter(|(index, (a, b))| self.accepts(*index, a, b))
             .count()
     }
 
@@ -288,5 +306,77 @@ mod final_grapheme_tests {
                 before
             );
         }
+    }
+}
+
+#[cfg(test)]
+mod case_tests {
+    use super::*;
+
+    #[test]
+    fn case_policy_preserves_language_boundaries_and_unicode() {
+        for (policy, input, target, accepted) in [
+            (Language::Exact, "a", "A", true),
+            (Language::Exact, "б", "Б", true),
+            (Language::Exact, "a\u{301}", "Á", true),
+            (Language::Exact, "ф", "A", false),
+            (Language::Layout, "ф", "A", true),
+            (Language::Layout, ";", "Ж", true),
+            (Language::Layout, ":", "ж", true),
+            (Language::Layout, "Ж", ";", true),
+            (Language::Layout, ":", "Ж", true),
+            (Language::Layout, ":", ";", false),
+            (Language::Layout, "ñ", "N", false),
+            (Language::Spanish, "a", "Á", true),
+            (Language::Spanish, "т", "Ñ", true),
+            (Language::Spanish, "ü", "Ü", true),
+            (Language::Spanish, "e", "Á", false),
+            (Language::Spanish, " ", "Á", false),
+        ] {
+            let session = TypingSession::new(target.into())
+                .with_languages(vec![policy])
+                .with_ignore_case(true);
+            assert_eq!(
+                session.accepts(0, input, target),
+                accepted,
+                "{input} -> {target}"
+            );
+            let strict = TypingSession::new(target.into()).with_languages(vec![policy]);
+            assert_eq!(
+                strict.accepts(0, input, target),
+                language_input::equivalent(input, target, policy)
+            );
+        }
+        assert!(!language_input::equivalent("a", "A", Language::Spanish));
+        assert!(!language_input::matches("ANO", "año", Language::Spanish));
+    }
+
+    #[test]
+    fn accepted_case_and_exact_input_have_equal_stats_at_fixed_time() {
+        for input in ["CAFÉ", "cafe\u{301}"] {
+            let mut session = TypingSession::new("CAFÉ".into()).with_ignore_case(true);
+            for ch in input.chars() {
+                session.add_char(ch);
+            }
+            session.finished_elapsed = Some(2.0);
+            assert_eq!(session.correct_count(), 4);
+            assert_eq!(session.get_accuracy(), 1.0);
+            assert_eq!(session.get_wpm(), 24.0);
+        }
+        let mut session = TypingSession::new("CAFÉ".into()).with_ignore_case(true);
+        for ch in "cafe".chars() {
+            session.add_char(ch);
+        }
+        session.finalize();
+        let elapsed = session.get_elapsed_time();
+        assert!(session.extend_result(Some('\u{301}')));
+        assert_eq!(session.get_accuracy(), 1.0);
+        assert_eq!(session.get_elapsed_time(), elapsed);
+        session.reset();
+        for ch in "cafe\u{301}".chars() {
+            session.add_char(ch);
+        }
+        session.remove_char();
+        assert_eq!(session.get_input(), "caf");
     }
 }

@@ -153,7 +153,8 @@ fn new_settings_save_only_supported_defaults() {
         saved,
         json!({"quick_start_mode":"typing","quick_start_time":15,
         "quick_start_wordset":"en_1000","quick_start_translation_set":"ru_en_a1",
-        "translation_time":60,"translation_set":"ru_en_a1","typing_layout_conversion":false})
+        "translation_time":60,"translation_set":"ru_en_a1","typing_layout_conversion":false,
+        "typing_ignore_case":false,"translation_ignore_case":false})
     );
 }
 

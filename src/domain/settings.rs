@@ -14,6 +14,10 @@ pub(crate) struct Settings {
     pub(crate) translation_set: String,
     #[serde(default)]
     pub(crate) typing_layout_conversion: bool,
+    #[serde(default)]
+    pub(crate) typing_ignore_case: bool,
+    #[serde(default)]
+    pub(crate) translation_ignore_case: bool,
 }
 
 impl Default for Settings {
@@ -26,6 +30,8 @@ impl Default for Settings {
             translation_time: default_translation_time(),
             translation_set: default_translation_set(),
             typing_layout_conversion: false,
+            typing_ignore_case: false,
+            translation_ignore_case: false,
         }
     }
 }

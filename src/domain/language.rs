@@ -65,8 +65,23 @@ pub(crate) fn equivalent(input: &str, target: &str, language: Language) -> bool 
     }
 }
 
+/// Letter case variants retain a single grapheme and never shift punctuation keys.
+pub(crate) fn case_variants(text: &str) -> Vec<String> {
+    let original: String = text.nfc().collect();
+    let mut variants = vec![original.clone()];
+    if original.chars().any(char::is_alphabetic) {
+        for variant in [original.to_lowercase(), original.to_uppercase()] {
+            let variant: String = variant.nfc().collect();
+            if variant.graphemes(true).count() == 1 && !variants.contains(&variant) {
+                variants.push(variant);
+            }
+        }
+    }
+    variants
+}
+
 #[cfg(test)]
-fn matches(input: &str, target: &str, language: Language) -> bool {
+pub(crate) fn matches(input: &str, target: &str, language: Language) -> bool {
     let i = units(input);
     let t = units(target);
     i.len() == t.len() && i.iter().zip(t).all(|(a, b)| equivalent(a, &b, language))
@@ -165,6 +180,23 @@ mod tests {
         }
         assert!(matches("рщдф", "hola", Language::Spanish));
         assert!(!matches("хола", "hola", Language::Spanish));
+    }
+    #[test]
+    fn case_variants_cover_every_layout_key_in_both_directions() {
+        use crate::domain::TypingSession;
+        let session = TypingSession::new(String::new())
+            .with_layout_conversion(true)
+            .with_ignore_case(true);
+        for &(ru, en) in LAYOUT_PAIRS {
+            for (input, target) in [
+                (ru.to_uppercase().to_string(), en.to_string()),
+                (en.to_string(), ru.to_uppercase().to_string()),
+                (shifted_english_key(en).to_string(), ru.to_string()),
+                (ru.to_string(), shifted_english_key(en).to_string()),
+            ] {
+                assert!(session.accepts(0, &input, &target), "{input} -> {target}");
+            }
+        }
     }
     #[test]
     fn spanish_contract() {

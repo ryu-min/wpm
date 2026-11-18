@@ -1,5 +1,6 @@
 #![cfg(unix)]
 
+mod case_policy;
 mod common;
 mod dataset_profiles;
 mod exercise_modes;

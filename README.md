@@ -38,7 +38,7 @@ each pair; Enter types the line break between pairs. Backspace can cross it.
 Spanish works with ENG and RU keyboard layouts. The same physical RU keys are
 accepted for ENG letters (`рщдф` → `hola`; this is not transliteration). Spanish
 comparison accepts `n/ñ`, `a/á`, `e/é`, `i/í`, `o/ó`, and `u/ú/ü`, preserving
-case. For example, `ano` is accepted for `año` and `si` for `sí`; this convenience
+case by default. For example, `ano` is accepted for `año` and `si` for `sí`; this convenience
 does not test knowledge of accents. Canonical spelling is always shown in the
 exercise. Exact Unicode input and composed accents work too.
 The ordinary Typing layout-conversion setting remains independent.
@@ -47,6 +47,15 @@ The two exercise modes are Typing and Translation. Quick Start uses your saved
 mode, dataset, and duration; Select Mode lets you choose them for one session.
 Settings has Quick Start, Translation, and Typing sections. Enter saves settings,
 Escape discards edits. Escape returns from an exercise to the menu; Ctrl+C quits.
+
+Settings has separate `Ignore case: On/Off` switches for `Typing` and
+`Translation`, both Off by default. Left/Right changes the selected switch;
+Enter saves it and Escape discards edits. Each mode uses its saved switch in
+Quick Start, Select Mode, and Restart; direct Translation uses it too.
+With On, letter case is optional throughout the full translation pair, on both
+sides, while canonical spelling stays visible. This supplements the existing
+layout and Spanish accent rules; Typing layout conversion remains independent.
+With Off, the usual strict case rules apply.
 
 When upgrading from a version with Dictation selected for Quick Start, it becomes
 Typing with your previously saved Typing dataset and duration. Other supported

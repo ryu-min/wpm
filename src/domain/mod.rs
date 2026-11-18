@@ -3,7 +3,7 @@ mod mode;
 mod settings;
 mod typing;
 mod vocabulary;
-pub(crate) use language::{Language, equivalent, units};
+pub(crate) use language::{Language, units};
 pub(crate) use mode::TestMode;
 pub(crate) use settings::Settings;
 pub(crate) use typing::TypingSession;
