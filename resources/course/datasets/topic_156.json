@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "topic_156",
+  "description": "Обсуждать планы и задачи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_156:ayudándolas",
+      "ru": "помогает",
+      "target": "ayudándolas"
+    },
+    {
+      "id": "topic_156:continuar",
+      "ru": "продолжать",
+      "target": "continuar"
+    },
+    {
+      "id": "topic_156:montón",
+      "ru": "куча; множество",
+      "target": "montón"
+    },
+    {
+      "id": "topic_156:máximo",
+      "ru": "максимальный",
+      "target": "máximo"
+    },
+    {
+      "id": "topic_156:promoción",
+      "ru": "повышение",
+      "target": "promoción"
+    },
+    {
+      "id": "topic_156:rato",
+      "ru": "некоторое время",
+      "target": "rato"
+    },
+    {
+      "id": "topic_156:traductor",
+      "ru": "переводчик",
+      "target": "traductor"
+    }
+  ]
+}

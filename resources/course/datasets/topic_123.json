@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_123",
+  "description": "Поступайте в университет",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_123:albañil",
+      "ru": "каменщик",
+      "target": "albañil"
+    },
+    {
+      "id": "topic_123:arquitectura",
+      "ru": "архитектура",
+      "target": "arquitectura"
+    },
+    {
+      "id": "topic_123:beca",
+      "ru": "Стипендия",
+      "target": "beca"
+    },
+    {
+      "id": "topic_123:construir",
+      "ru": "строить",
+      "target": "construir"
+    },
+    {
+      "id": "topic_123:costo",
+      "ru": "стоимость",
+      "target": "costo"
+    },
+    {
+      "id": "topic_123:duda",
+      "ru": "сомнение",
+      "target": "duda"
+    },
+    {
+      "id": "topic_123:importar",
+      "ru": "иметь значение",
+      "target": "importar"
+    },
+    {
+      "id": "topic_123:incluir",
+      "ru": "включать",
+      "target": "incluir"
+    },
+    {
+      "id": "topic_123:ingeniería",
+      "ru": "инженерное дело",
+      "target": "ingeniería"
+    },
+    {
+      "id": "topic_123:logro",
+      "ru": "достижение",
+      "target": "logro"
+    },
+    {
+      "id": "topic_123:matricularse",
+      "ru": "Записаться",
+      "target": "matricularse"
+    },
+    {
+      "id": "topic_123:pensar",
+      "ru": "думать",
+      "target": "pensar"
+    },
+    {
+      "id": "topic_123:probable",
+      "ru": "вероятный",
+      "target": "probable"
+    },
+    {
+      "id": "topic_123:página",
+      "ru": "страница",
+      "target": "página"
+    },
+    {
+      "id": "topic_123:requisito",
+      "ru": "требование",
+      "target": "requisito"
+    },
+    {
+      "id": "topic_123:solicitud",
+      "ru": "заявка",
+      "target": "solicitud"
+    },
+    {
+      "id": "topic_123:sueño",
+      "ru": "сон",
+      "target": "sueño"
+    },
+    {
+      "id": "topic_123:viaje",
+      "ru": "поездка",
+      "target": "viaje"
+    }
+  ]
+}

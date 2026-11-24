@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "topic_140",
+  "description": "Опиши качество одежды",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_140:algodón",
+      "ru": "хлопок",
+      "target": "algodón"
+    },
+    {
+      "id": "topic_140:apretado",
+      "ru": "тесный",
+      "target": "apretado"
+    },
+    {
+      "id": "topic_140:caja registradora",
+      "ru": "кассовый аппарат",
+      "target": "caja registradora"
+    },
+    {
+      "id": "topic_140:de talla única",
+      "ru": "универсального размера",
+      "target": "de talla única"
+    },
+    {
+      "id": "topic_140:tela",
+      "ru": "ткань",
+      "target": "tela"
+    }
+  ]
+}

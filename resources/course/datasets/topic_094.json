@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_094",
+  "description": "Обсудите опыт покупок",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_094:aburrirse",
+      "ru": "скучать",
+      "target": "aburrirse"
+    },
+    {
+      "id": "topic_094:calculadora",
+      "ru": "калькулятор",
+      "target": "calculadora"
+    },
+    {
+      "id": "topic_094:cereal",
+      "ru": "хлопья",
+      "target": "cereal"
+    },
+    {
+      "id": "topic_094:chicle",
+      "ru": "жвачка",
+      "target": "chicle"
+    },
+    {
+      "id": "topic_094:cincuenta",
+      "ru": "пятьдесят",
+      "target": "cincuenta"
+    },
+    {
+      "id": "topic_094:de plástico",
+      "ru": "из пластика",
+      "target": "de plástico"
+    },
+    {
+      "id": "topic_094:disfraz",
+      "ru": "костюм",
+      "target": "disfraz"
+    },
+    {
+      "id": "topic_094:escoger",
+      "ru": "выбирать",
+      "target": "escoger"
+    },
+    {
+      "id": "topic_094:fácilmente",
+      "ru": "легко",
+      "target": "fácilmente"
+    },
+    {
+      "id": "topic_094:gigante",
+      "ru": "гигант; гигантский",
+      "target": "gigante"
+    },
+    {
+      "id": "topic_094:goma",
+      "ru": "ластик",
+      "target": "goma"
+    },
+    {
+      "id": "topic_094:imaginario",
+      "ru": "воображаемый",
+      "target": "imaginario"
+    },
+    {
+      "id": "topic_094:marcador",
+      "ru": "табло",
+      "target": "marcador"
+    },
+    {
+      "id": "topic_094:miedo",
+      "ru": "страх",
+      "target": "miedo"
+    },
+    {
+      "id": "topic_094:monstruo",
+      "ru": "монстр",
+      "target": "monstruo"
+    },
+    {
+      "id": "topic_094:muñeca",
+      "ru": "запястье",
+      "target": "muñeca"
+    },
+    {
+      "id": "topic_094:pulsera",
+      "ru": "браслет",
+      "target": "pulsera"
+    },
+    {
+      "id": "topic_094:rana",
+      "ru": "лягушка",
+      "target": "rana"
+    },
+    {
+      "id": "topic_094:romper",
+      "ru": "ломать",
+      "target": "romper"
+    },
+    {
+      "id": "topic_094:según",
+      "ru": "согласно",
+      "target": "según"
+    },
+    {
+      "id": "topic_094:usado",
+      "ru": "использованный",
+      "target": "usado"
+    }
+  ]
+}

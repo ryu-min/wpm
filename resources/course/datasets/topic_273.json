@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_273",
+  "description": "Говори об искусстве",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_273:barroco",
+      "ru": "барокко",
+      "target": "barroco"
+    },
+    {
+      "id": "topic_273:colonial",
+      "ru": "колониальный",
+      "target": "colonial"
+    },
+    {
+      "id": "topic_273:comunicar",
+      "ru": "сообщать",
+      "target": "comunicar"
+    },
+    {
+      "id": "topic_273:decorativo",
+      "ru": "декоративный",
+      "target": "decorativo"
+    },
+    {
+      "id": "topic_273:electrónico",
+      "ru": "электронный",
+      "target": "electrónico"
+    },
+    {
+      "id": "topic_273:expresar",
+      "ru": "выражать",
+      "target": "expresar"
+    },
+    {
+      "id": "topic_273:fachada",
+      "ru": "фасад",
+      "target": "fachada"
+    },
+    {
+      "id": "topic_273:identidad",
+      "ru": "идентичность",
+      "target": "identidad"
+    },
+    {
+      "id": "topic_273:latinoamericano",
+      "ru": "латиноамериканский",
+      "target": "latinoamericano"
+    },
+    {
+      "id": "topic_273:latinoamérica",
+      "ru": "Латинская Америка",
+      "target": "latinoamérica"
+    },
+    {
+      "id": "topic_273:movimiento",
+      "ru": "движение",
+      "target": "movimiento"
+    },
+    {
+      "id": "topic_273:mural",
+      "ru": "фреска",
+      "target": "mural"
+    },
+    {
+      "id": "topic_273:por medio de",
+      "ru": "посредством, Посредством",
+      "target": "por medio de"
+    },
+    {
+      "id": "topic_273:representar",
+      "ru": "представлять",
+      "target": "representar"
+    },
+    {
+      "id": "topic_273:siglo",
+      "ru": "век",
+      "target": "siglo"
+    },
+    {
+      "id": "topic_273:surgir",
+      "ru": "возникнуть",
+      "target": "surgir"
+    },
+    {
+      "id": "topic_273:surrealismo",
+      "ru": "сюрреализм",
+      "target": "surrealismo"
+    },
+    {
+      "id": "topic_273:sustentable",
+      "ru": "устойчивый",
+      "target": "sustentable"
+    },
+    {
+      "id": "topic_273:urbano",
+      "ru": "городской",
+      "target": "urbano"
+    }
+  ]
+}

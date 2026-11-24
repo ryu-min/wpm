@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_254",
+  "description": "Обсуди сюжеты теленовелл",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_254:a escondidas",
+      "ru": "тайком",
+      "target": "a escondidas"
+    },
+    {
+      "id": "topic_254:cachetada",
+      "ru": "пощёчина",
+      "target": "cachetada"
+    },
+    {
+      "id": "topic_254:cojear",
+      "ru": "хромать",
+      "target": "cojear"
+    },
+    {
+      "id": "topic_254:cuanto más",
+      "ru": "Чем больше",
+      "target": "cuanto más"
+    },
+    {
+      "id": "topic_254:desmayarse",
+      "ru": "упасть в обморок",
+      "target": "desmayarse"
+    },
+    {
+      "id": "topic_254:envenenar",
+      "ru": "отравить",
+      "target": "envenenar"
+    },
+    {
+      "id": "topic_254:fingir",
+      "ru": "притворяться",
+      "target": "fingir"
+    },
+    {
+      "id": "topic_254:huérfano",
+      "ru": "сирота",
+      "target": "huérfano"
+    },
+    {
+      "id": "topic_254:ingenuo",
+      "ru": "наивный",
+      "target": "ingenuo"
+    },
+    {
+      "id": "topic_254:mansión",
+      "ru": "особняк",
+      "target": "mansión"
+    },
+    {
+      "id": "topic_254:pedir perdón",
+      "ru": "извиняться",
+      "target": "pedir perdón"
+    },
+    {
+      "id": "topic_254:proponer matrimonio",
+      "ru": "сделать предложение",
+      "target": "proponer matrimonio"
+    },
+    {
+      "id": "topic_254:rogar",
+      "ru": "Умолять",
+      "target": "rogar"
+    },
+    {
+      "id": "topic_254:salir corriendo",
+      "ru": "выбежать",
+      "target": "salir corriendo"
+    },
+    {
+      "id": "topic_254:salvar",
+      "ru": "спасать",
+      "target": "salvar"
+    },
+    {
+      "id": "topic_254:testamento",
+      "ru": "завещание",
+      "target": "testamento"
+    },
+    {
+      "id": "topic_254:trama",
+      "ru": "сюжет",
+      "target": "trama"
+    },
+    {
+      "id": "topic_254:vengarse",
+      "ru": "отомстить",
+      "target": "vengarse"
+    },
+    {
+      "id": "topic_254:villano",
+      "ru": "злодей",
+      "target": "villano"
+    }
+  ]
+}

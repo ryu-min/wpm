@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_228",
+  "description": "Говорить о детском саде",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_228:bandera",
+      "ru": "флаг",
+      "target": "bandera"
+    },
+    {
+      "id": "topic_228:batalla",
+      "ru": "битва",
+      "target": "batalla"
+    },
+    {
+      "id": "topic_228:callarse",
+      "ru": "замолчать",
+      "target": "callarse"
+    },
+    {
+      "id": "topic_228:cartón",
+      "ru": "картон",
+      "target": "cartón"
+    },
+    {
+      "id": "topic_228:continente",
+      "ru": "континент",
+      "target": "continente"
+    },
+    {
+      "id": "topic_228:es estresante que",
+      "ru": "вызывает стресс то, что",
+      "target": "es estresante que"
+    },
+    {
+      "id": "topic_228:es fantástico que",
+      "ru": "это фантастично, что, Это фантастично, что",
+      "target": "es fantástico que"
+    },
+    {
+      "id": "topic_228:grado",
+      "ru": "градус",
+      "target": "grado"
+    },
+    {
+      "id": "topic_228:guardería",
+      "ru": "ясли; детский сад для маленьких детей",
+      "target": "guardería"
+    },
+    {
+      "id": "topic_228:hemisferio",
+      "ru": "полушарие",
+      "target": "hemisferio"
+    },
+    {
+      "id": "topic_228:jardín de infantes",
+      "ru": "детский сад (дошкольное учреждение)",
+      "target": "jardín de infantes"
+    },
+    {
+      "id": "topic_228:lector",
+      "ru": "читатель",
+      "target": "lector"
+    },
+    {
+      "id": "topic_228:mamífero",
+      "ru": "млекопитающее",
+      "target": "mamífero"
+    },
+    {
+      "id": "topic_228:me gusta que",
+      "ru": "Мне нравится, что",
+      "target": "me gusta que"
+    },
+    {
+      "id": "topic_228:noveno",
+      "ru": "девятый",
+      "target": "noveno"
+    },
+    {
+      "id": "topic_228:obedecer",
+      "ru": "слушаться",
+      "target": "obedecer"
+    },
+    {
+      "id": "topic_228:pronunciar",
+      "ru": "произносить",
+      "target": "pronunciar"
+    },
+    {
+      "id": "topic_228:qué interesante que",
+      "ru": "Как интересно, что",
+      "target": "qué interesante que"
+    },
+    {
+      "id": "topic_228:qué raro que",
+      "ru": "Как странно, что",
+      "target": "qué raro que"
+    },
+    {
+      "id": "topic_228:rectángulo",
+      "ru": "прямоугольник",
+      "target": "rectángulo"
+    },
+    {
+      "id": "topic_228:tierra",
+      "ru": "земля",
+      "target": "tierra"
+    },
+    {
+      "id": "topic_228:triángulo",
+      "ru": "треугольник",
+      "target": "triángulo"
+    }
+  ]
+}

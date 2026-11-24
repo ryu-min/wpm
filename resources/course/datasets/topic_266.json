@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_266",
+  "description": "Обвинять и не верить",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_266:acusar",
+      "ru": "обвинять",
+      "target": "acusar"
+    },
+    {
+      "id": "topic_266:castigado",
+      "ru": "наказанный",
+      "target": "castigado"
+    },
+    {
+      "id": "topic_266:columpio",
+      "ru": "качели",
+      "target": "columpio"
+    },
+    {
+      "id": "topic_266:constantemente",
+      "ru": "постоянно",
+      "target": "constantemente"
+    },
+    {
+      "id": "topic_266:dar el ejemplo",
+      "ru": "подать пример, подавать пример",
+      "target": "dar el ejemplo"
+    },
+    {
+      "id": "topic_266:destrozar",
+      "ru": "разрушать",
+      "target": "destrozar"
+    },
+    {
+      "id": "topic_266:es poco probable que",
+      "ru": "маловероятно, что",
+      "target": "es poco probable que"
+    },
+    {
+      "id": "topic_266:estirar",
+      "ru": "растягивать",
+      "target": "estirar"
+    },
+    {
+      "id": "topic_266:fastidio",
+      "ru": "неприятность",
+      "target": "fastidio"
+    },
+    {
+      "id": "topic_266:hacer las paces",
+      "ru": "помириться",
+      "target": "hacer las paces"
+    },
+    {
+      "id": "topic_266:ignorar",
+      "ru": "не знать",
+      "target": "ignorar"
+    },
+    {
+      "id": "topic_266:malo con",
+      "ru": "плохо обращающийся с (кем-либо)",
+      "target": "malo con"
+    },
+    {
+      "id": "topic_266:privacidad",
+      "ru": "приватность",
+      "target": "privacidad"
+    },
+    {
+      "id": "topic_266:que sea la última vez",
+      "ru": "пусть это будет в последний раз, чтобы это было в последний раз, это будет в последний раз",
+      "target": "que sea la última vez"
+    },
+    {
+      "id": "topic_266:te lo suplico",
+      "ru": "я тебя умоляю",
+      "target": "te lo suplico"
+    },
+    {
+      "id": "topic_266:trofeo",
+      "ru": "трофей",
+      "target": "trofeo"
+    }
+  ]
+}

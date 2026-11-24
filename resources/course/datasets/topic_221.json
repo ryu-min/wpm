@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_221",
+  "description": "Расскажи о походе в горы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_221:aun así",
+      "ru": "тем не менее",
+      "target": "aun así"
+    },
+    {
+      "id": "topic_221:calmo",
+      "ru": "спокойное",
+      "target": "calmo"
+    },
+    {
+      "id": "topic_221:canal",
+      "ru": "канал",
+      "target": "canal"
+    },
+    {
+      "id": "topic_221:cima",
+      "ru": "вершина",
+      "target": "cima"
+    },
+    {
+      "id": "topic_221:murciélago",
+      "ru": "летучая мышь",
+      "target": "murciélago"
+    },
+    {
+      "id": "topic_221:nadie más",
+      "ru": "никто больше",
+      "target": "nadie más"
+    },
+    {
+      "id": "topic_221:punto de encuentro",
+      "ru": "место встречи",
+      "target": "punto de encuentro"
+    },
+    {
+      "id": "topic_221:saco de dormir",
+      "ru": "спальный мешок",
+      "target": "saco de dormir"
+    },
+    {
+      "id": "topic_221:snowboard",
+      "ru": "сноуборд",
+      "target": "snowboard"
+    },
+    {
+      "id": "topic_221:soplar",
+      "ru": "дуть",
+      "target": "soplar"
+    },
+    {
+      "id": "topic_221:y después",
+      "ru": "а потом",
+      "target": "y después"
+    },
+    {
+      "id": "topic_221:ya que",
+      "ru": "так как",
+      "target": "ya que"
+    },
+    {
+      "id": "topic_221:yo no",
+      "ru": "я — нет; я не (перед сказуемым)",
+      "target": "yo no"
+    },
+    {
+      "id": "topic_221:yo sí",
+      "ru": "я — да; я действительно (перед сказуемым)",
+      "target": "yo sí"
+    }
+  ]
+}

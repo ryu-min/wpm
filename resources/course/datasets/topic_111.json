@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_111",
+  "description": "Определите принадлежности",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_111:adentro de",
+      "ru": "внутри",
+      "target": "adentro de"
+    },
+    {
+      "id": "topic_111:cajón",
+      "ru": "ящик",
+      "target": "cajón"
+    },
+    {
+      "id": "topic_111:carpeta",
+      "ru": "папка",
+      "target": "carpeta"
+    },
+    {
+      "id": "topic_111:de quién",
+      "ru": "чей; чья; чьё; чьи",
+      "target": "de quién"
+    },
+    {
+      "id": "topic_111:estuche",
+      "ru": "пенал",
+      "target": "estuche"
+    },
+    {
+      "id": "topic_111:física",
+      "ru": "физика",
+      "target": "física"
+    },
+    {
+      "id": "topic_111:informática",
+      "ru": "информатика",
+      "target": "informática"
+    },
+    {
+      "id": "topic_111:lonchera",
+      "ru": "контейнер для обеда",
+      "target": "lonchera"
+    },
+    {
+      "id": "topic_111:muchísimas gracias",
+      "ru": "огромное спасибо",
+      "target": "muchísimas gracias"
+    },
+    {
+      "id": "topic_111:mío",
+      "ru": "мой",
+      "target": "mío"
+    },
+    {
+      "id": "topic_111:pincel",
+      "ru": "кисточка",
+      "target": "pincel"
+    },
+    {
+      "id": "topic_111:pulóver",
+      "ru": "пуловер",
+      "target": "pulóver"
+    },
+    {
+      "id": "topic_111:si no",
+      "ru": "если нет",
+      "target": "si no"
+    },
+    {
+      "id": "topic_111:suyo",
+      "ru": "его или её; их (притяжательное местоимение)",
+      "target": "suyo"
+    },
+    {
+      "id": "topic_111:tuyo",
+      "ru": "твой",
+      "target": "tuyo"
+    }
+  ]
+}

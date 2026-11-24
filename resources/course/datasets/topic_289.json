@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_289",
+  "description": "Опиши поломку устройства",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_289:ajustes",
+      "ru": "настройки",
+      "target": "ajustes"
+    },
+    {
+      "id": "topic_289:audífonos",
+      "ru": "наушники",
+      "target": "audífonos"
+    },
+    {
+      "id": "topic_289:cinta adhesiva",
+      "ru": "клейкую ленту, клейкой ленты, клейкая лента, клейкой лентой",
+      "target": "cinta adhesiva"
+    },
+    {
+      "id": "topic_289:copia de seguridad",
+      "ru": "резервной копией, резервная копия, резервной копии, резервную копию",
+      "target": "copia de seguridad"
+    },
+    {
+      "id": "topic_289:dineral",
+      "ru": "состояние",
+      "target": "dineral"
+    },
+    {
+      "id": "topic_289:dispositivo",
+      "ru": "устройство",
+      "target": "dispositivo"
+    },
+    {
+      "id": "topic_289:extraviar",
+      "ru": "потерять",
+      "target": "extraviar"
+    },
+    {
+      "id": "topic_289:funda",
+      "ru": "чехол",
+      "target": "funda"
+    },
+    {
+      "id": "topic_289:hacer todo lo posible",
+      "ru": "сделать всё возможное",
+      "target": "hacer todo lo posible"
+    },
+    {
+      "id": "topic_289:instalado",
+      "ru": "установлена",
+      "target": "instalado"
+    },
+    {
+      "id": "topic_289:monitor",
+      "ru": "монитор",
+      "target": "monitor"
+    },
+    {
+      "id": "topic_289:más de lo habitual",
+      "ru": "чаще, чем обычно, больше, чем обычно, дольше, чем обычно",
+      "target": "más de lo habitual"
+    },
+    {
+      "id": "topic_289:pantalla táctil",
+      "ru": "сенсорный экран",
+      "target": "pantalla táctil"
+    },
+    {
+      "id": "topic_289:pieza",
+      "ru": "кусок",
+      "target": "pieza"
+    },
+    {
+      "id": "topic_289:protector de pantalla",
+      "ru": "защитное стекло или плёнка для экрана; экранная заставка",
+      "target": "protector de pantalla"
+    },
+    {
+      "id": "topic_289:reiniciar",
+      "ru": "перезагружать",
+      "target": "reiniciar"
+    },
+    {
+      "id": "topic_289:resistente al agua",
+      "ru": "водонепроницаемый, водонепроницаемая",
+      "target": "resistente al agua"
+    },
+    {
+      "id": "topic_289:tornillo",
+      "ru": "винт",
+      "target": "tornillo"
+    },
+    {
+      "id": "topic_289:tutorial",
+      "ru": "руководство",
+      "target": "tutorial"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_292",
+  "description": "Планируй свой выходной",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_292:a domicilio",
+      "ru": "с доставкой на дом",
+      "target": "a domicilio"
+    },
+    {
+      "id": "topic_292:apático",
+      "ru": "апатичный",
+      "target": "apático"
+    },
+    {
+      "id": "topic_292:complicar",
+      "ru": "усложнить",
+      "target": "complicar"
+    },
+    {
+      "id": "topic_292:danza",
+      "ru": "танец",
+      "target": "danza"
+    },
+    {
+      "id": "topic_292:de haberlo sabido",
+      "ru": "Если бы я это знал",
+      "target": "de haberlo sabido"
+    },
+    {
+      "id": "topic_292:de humor",
+      "ru": "в настроении",
+      "target": "de humor"
+    },
+    {
+      "id": "topic_292:desfile",
+      "ru": "шествия",
+      "target": "desfile"
+    },
+    {
+      "id": "topic_292:desperdiciar",
+      "ru": "терять",
+      "target": "desperdiciar"
+    },
+    {
+      "id": "topic_292:eclipse",
+      "ru": "затмения",
+      "target": "eclipse"
+    },
+    {
+      "id": "topic_292:inauguración",
+      "ru": "инаугурация",
+      "target": "inauguración"
+    },
+    {
+      "id": "topic_292:indeciso",
+      "ru": "нерешительный",
+      "target": "indeciso"
+    },
+    {
+      "id": "topic_292:llevar la contraria",
+      "ru": "противоречить",
+      "target": "llevar la contraria"
+    },
+    {
+      "id": "topic_292:medieval",
+      "ru": "средневековый",
+      "target": "medieval"
+    },
+    {
+      "id": "topic_292:ni en sueños",
+      "ru": "ни за что; даже и не мечтай",
+      "target": "ni en sueños"
+    },
+    {
+      "id": "topic_292:para llevar",
+      "ru": "на вынос",
+      "target": "para llevar"
+    },
+    {
+      "id": "topic_292:por nada del mundo",
+      "ru": "ни за что на свете",
+      "target": "por nada del mundo"
+    },
+    {
+      "id": "topic_292:porción",
+      "ru": "порция",
+      "target": "porción"
+    }
+  ]
+}

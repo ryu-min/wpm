@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_240",
+  "description": "Обсуди выборы и кампании",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_240:anunciar",
+      "ru": "объявлять",
+      "target": "anunciar"
+    },
+    {
+      "id": "topic_240:asegurar",
+      "ru": "заверять",
+      "target": "asegurar"
+    },
+    {
+      "id": "topic_240:campaña",
+      "ru": "кампания",
+      "target": "campaña"
+    },
+    {
+      "id": "topic_240:derrota",
+      "ru": "поражение",
+      "target": "derrota"
+    },
+    {
+      "id": "topic_240:electoral",
+      "ru": "избирательный",
+      "target": "electoral"
+    },
+    {
+      "id": "topic_240:encuesta",
+      "ru": "анкета",
+      "target": "encuesta"
+    },
+    {
+      "id": "topic_240:etapa",
+      "ru": "этап",
+      "target": "etapa"
+    },
+    {
+      "id": "topic_240:no es para menos",
+      "ru": "не зря",
+      "target": "no es para menos"
+    },
+    {
+      "id": "topic_240:ocupar un cargo",
+      "ru": "занимать должность",
+      "target": "ocupar un cargo"
+    },
+    {
+      "id": "topic_240:para ese entonces",
+      "ru": "к тому времени",
+      "target": "para ese entonces"
+    },
+    {
+      "id": "topic_240:presentarse",
+      "ru": "явиться",
+      "target": "presentarse"
+    },
+    {
+      "id": "topic_240:probabilidad",
+      "ru": "вероятность",
+      "target": "probabilidad"
+    },
+    {
+      "id": "topic_240:propuesta",
+      "ru": "предложение",
+      "target": "propuesta"
+    },
+    {
+      "id": "topic_240:reflexionar",
+      "ru": "обдумать",
+      "target": "reflexionar"
+    },
+    {
+      "id": "topic_240:representante",
+      "ru": "представитель",
+      "target": "representante"
+    },
+    {
+      "id": "topic_240:triunfar",
+      "ru": "добиваться успеха",
+      "target": "triunfar"
+    }
+  ]
+}

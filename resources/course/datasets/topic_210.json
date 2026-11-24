@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_210",
+  "description": "Поговорим об интернете",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_210:adjuntar",
+      "ru": "прикреплять",
+      "target": "adjuntar"
+    },
+    {
+      "id": "topic_210:bloguero",
+      "ru": "блогер",
+      "target": "bloguero"
+    },
+    {
+      "id": "topic_210:buscador",
+      "ru": "поисковик",
+      "target": "buscador"
+    },
+    {
+      "id": "topic_210:configurar",
+      "ru": "настраивать",
+      "target": "configurar"
+    },
+    {
+      "id": "topic_210:el que",
+      "ru": "тот, что, тот, кто",
+      "target": "el que"
+    },
+    {
+      "id": "topic_210:enlace",
+      "ru": "ссылка",
+      "target": "enlace"
+    },
+    {
+      "id": "topic_210:estafar",
+      "ru": "обмануть",
+      "target": "estafar"
+    },
+    {
+      "id": "topic_210:los de",
+      "ru": "те, которые принадлежат (кому-либо); те из",
+      "target": "los de"
+    },
+    {
+      "id": "topic_210:los que",
+      "ru": "Те, кто, тех, кто",
+      "target": "los que"
+    },
+    {
+      "id": "topic_210:nombre de usuario",
+      "ru": "имя пользователя",
+      "target": "nombre de usuario"
+    },
+    {
+      "id": "topic_210:robot",
+      "ru": "робот",
+      "target": "robot"
+    },
+    {
+      "id": "topic_210:rúter",
+      "ru": "роутер",
+      "target": "rúter"
+    },
+    {
+      "id": "topic_210:seguridad",
+      "ru": "безопасность",
+      "target": "seguridad"
+    },
+    {
+      "id": "topic_210:señal",
+      "ru": "знак",
+      "target": "señal"
+    },
+    {
+      "id": "topic_210:símbolo",
+      "ru": "символ",
+      "target": "símbolo"
+    },
+    {
+      "id": "topic_210:tecla",
+      "ru": "клавиша",
+      "target": "tecla"
+    },
+    {
+      "id": "topic_210:tendencia",
+      "ru": "тенденция",
+      "target": "tendencia"
+    },
+    {
+      "id": "topic_210:ícono",
+      "ru": "значок; иконка",
+      "target": "ícono"
+    }
+  ]
+}

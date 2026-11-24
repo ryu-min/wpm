@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_014",
+  "description": "Обсуждайте хобби",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_014:España",
+      "ru": "Испания",
+      "target": "España"
+    },
+    {
+      "id": "topic_014:aburrido",
+      "ru": "скучный",
+      "target": "aburrido"
+    },
+    {
+      "id": "topic_014:cuatro",
+      "ru": "четыре",
+      "target": "cuatro"
+    },
+    {
+      "id": "topic_014:curso",
+      "ru": "курс",
+      "target": "curso"
+    },
+    {
+      "id": "topic_014:dibujar",
+      "ru": "рисовать",
+      "target": "dibujar"
+    },
+    {
+      "id": "topic_014:empezar",
+      "ru": "начинать",
+      "target": "empezar"
+    },
+    {
+      "id": "topic_014:enseñar",
+      "ru": "обучать",
+      "target": "enseñar"
+    },
+    {
+      "id": "topic_014:entonces",
+      "ru": "тогда",
+      "target": "entonces"
+    },
+    {
+      "id": "topic_014:favorito",
+      "ru": "любимый",
+      "target": "favorito"
+    },
+    {
+      "id": "topic_014:interesante",
+      "ru": "интересный",
+      "target": "interesante"
+    },
+    {
+      "id": "topic_014:mal",
+      "ru": "плохо",
+      "target": "mal"
+    },
+    {
+      "id": "topic_014:mañana",
+      "ru": "завтра",
+      "target": "mañana"
+    },
+    {
+      "id": "topic_014:pasear",
+      "ru": "гулять",
+      "target": "pasear"
+    },
+    {
+      "id": "topic_014:patinar",
+      "ru": "кататься на коньках",
+      "target": "patinar"
+    },
+    {
+      "id": "topic_014:perdón",
+      "ru": "прощение",
+      "target": "perdón"
+    },
+    {
+      "id": "topic_014:persona",
+      "ru": "человек",
+      "target": "persona"
+    },
+    {
+      "id": "topic_014:pescar",
+      "ru": "ловить рыбу",
+      "target": "pescar"
+    },
+    {
+      "id": "topic_014:pódcast",
+      "ru": "подкаст",
+      "target": "pódcast"
+    },
+    {
+      "id": "topic_014:son de",
+      "ru": "они родом из; они принадлежат",
+      "target": "son de"
+    },
+    {
+      "id": "topic_014:tango",
+      "ru": "танго",
+      "target": "tango"
+    },
+    {
+      "id": "topic_014:vecino",
+      "ru": "сосед",
+      "target": "vecino"
+    },
+    {
+      "id": "topic_014:yoga",
+      "ru": "йога",
+      "target": "yoga"
+    },
+    {
+      "id": "topic_014:árabe",
+      "ru": "арабский",
+      "target": "árabe"
+    }
+  ]
+}

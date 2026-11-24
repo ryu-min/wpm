@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_190",
+  "description": "Опиши морских животных",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_190:arroyo",
+      "ru": "ручей",
+      "target": "arroyo"
+    },
+    {
+      "id": "topic_190:ave",
+      "ru": "птица",
+      "target": "ave"
+    },
+    {
+      "id": "topic_190:bahía",
+      "ru": "бухта",
+      "target": "bahía"
+    },
+    {
+      "id": "topic_190:ballena",
+      "ru": "кит",
+      "target": "ballena"
+    },
+    {
+      "id": "topic_190:cambio climático",
+      "ru": "Изменение климата, изменении климата, изменение климата, изменения климата",
+      "target": "cambio climático"
+    },
+    {
+      "id": "topic_190:científico",
+      "ru": "научный",
+      "target": "científico"
+    },
+    {
+      "id": "topic_190:común",
+      "ru": "общий",
+      "target": "común"
+    },
+    {
+      "id": "topic_190:contaminación",
+      "ru": "загрязнение",
+      "target": "contaminación"
+    },
+    {
+      "id": "topic_190:cultivo",
+      "ru": "выращивание",
+      "target": "cultivo"
+    },
+    {
+      "id": "topic_190:delfín",
+      "ru": "дельфин",
+      "target": "delfín"
+    },
+    {
+      "id": "topic_190:ecologista",
+      "ru": "эколог",
+      "target": "ecologista"
+    },
+    {
+      "id": "topic_190:en ninguna parte",
+      "ru": "нигде",
+      "target": "en ninguna parte"
+    },
+    {
+      "id": "topic_190:jirafa",
+      "ru": "жираф",
+      "target": "jirafa"
+    },
+    {
+      "id": "topic_190:marino",
+      "ru": "морской",
+      "target": "marino"
+    },
+    {
+      "id": "topic_190:mariposa",
+      "ru": "бабочка",
+      "target": "mariposa"
+    },
+    {
+      "id": "topic_190:medio ambiente",
+      "ru": "окружающая среда",
+      "target": "medio ambiente"
+    },
+    {
+      "id": "topic_190:proteger",
+      "ru": "защищать",
+      "target": "proteger"
+    },
+    {
+      "id": "topic_190:tortuga",
+      "ru": "черепаха",
+      "target": "tortuga"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_258",
+  "description": "Опиши неприятные сюрпризы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_258:asco",
+      "ru": "гадость",
+      "target": "asco"
+    },
+    {
+      "id": "topic_258:averiguar",
+      "ru": "выяснять",
+      "target": "averiguar"
+    },
+    {
+      "id": "topic_258:colchón",
+      "ru": "матрас",
+      "target": "colchón"
+    },
+    {
+      "id": "topic_258:de la nada",
+      "ru": "из ниоткуда",
+      "target": "de la nada"
+    },
+    {
+      "id": "topic_258:de lo que",
+      "ru": "чем",
+      "target": "de lo que"
+    },
+    {
+      "id": "topic_258:de vuelta",
+      "ru": "обратно",
+      "target": "de vuelta"
+    },
+    {
+      "id": "topic_258:escapada",
+      "ru": "короткая поездка",
+      "target": "escapada"
+    },
+    {
+      "id": "topic_258:gusano",
+      "ru": "червь",
+      "target": "gusano"
+    },
+    {
+      "id": "topic_258:inesperado",
+      "ru": "неожиданный",
+      "target": "inesperado"
+    },
+    {
+      "id": "topic_258:la otra vez",
+      "ru": "в прошлый раз",
+      "target": "la otra vez"
+    },
+    {
+      "id": "topic_258:por ninguna parte",
+      "ru": "нигде",
+      "target": "por ninguna parte"
+    },
+    {
+      "id": "topic_258:por si fuera poco",
+      "ru": "как будто этого было мало",
+      "target": "por si fuera poco"
+    },
+    {
+      "id": "topic_258:recuperar",
+      "ru": "восстанавливать",
+      "target": "recuperar"
+    },
+    {
+      "id": "topic_258:ubicar",
+      "ru": "размещать",
+      "target": "ubicar"
+    }
+  ]
+}

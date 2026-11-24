@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_196",
+  "description": "Говори правду или молчи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_196:alegrarse",
+      "ru": "радоваться",
+      "target": "alegrarse"
+    },
+    {
+      "id": "topic_196:algún día",
+      "ru": "когда-нибудь",
+      "target": "algún día"
+    },
+    {
+      "id": "topic_196:cara a cara",
+      "ru": "лицом к лицу",
+      "target": "cara a cara"
+    },
+    {
+      "id": "topic_196:comprometido",
+      "ru": "обручался",
+      "target": "comprometido"
+    },
+    {
+      "id": "topic_196:dudar",
+      "ru": "сомневаться",
+      "target": "dudar"
+    },
+    {
+      "id": "topic_196:en contacto",
+      "ru": "на связи",
+      "target": "en contacto"
+    },
+    {
+      "id": "topic_196:en secreto",
+      "ru": "тайно",
+      "target": "en secreto"
+    },
+    {
+      "id": "topic_196:felizmente",
+      "ru": "счастливо",
+      "target": "felizmente"
+    },
+    {
+      "id": "topic_196:inseguro",
+      "ru": "неуверенный",
+      "target": "inseguro"
+    },
+    {
+      "id": "topic_196:no creo que",
+      "ru": "Я не верю, что",
+      "target": "no creo que"
+    },
+    {
+      "id": "topic_196:no es seguro que",
+      "ru": "нет уверенности, что",
+      "target": "no es seguro que"
+    },
+    {
+      "id": "topic_196:no me parece que",
+      "ru": "мне не кажется, что",
+      "target": "no me parece que"
+    },
+    {
+      "id": "topic_196:sensato",
+      "ru": "рассудительный",
+      "target": "sensato"
+    }
+  ]
+}

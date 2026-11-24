@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_233",
+  "description": "Опиши симптомы и лечение",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_233:a la larga",
+      "ru": "в долгосрочной перспективе",
+      "target": "a la larga"
+    },
+    {
+      "id": "topic_233:aliviar",
+      "ru": "облегчить",
+      "target": "aliviar"
+    },
+    {
+      "id": "topic_233:ansiedad",
+      "ru": "тревога",
+      "target": "ansiedad"
+    },
+    {
+      "id": "topic_233:automedicarse",
+      "ru": "заниматься самолечением",
+      "target": "automedicarse"
+    },
+    {
+      "id": "topic_233:calmante",
+      "ru": "успокоительное",
+      "target": "calmante"
+    },
+    {
+      "id": "topic_233:continuamente",
+      "ru": "постоянно",
+      "target": "continuamente"
+    },
+    {
+      "id": "topic_233:crees que si",
+      "ru": "Ты думаешь, если",
+      "target": "crees que si"
+    },
+    {
+      "id": "topic_233:de acuerdo a",
+      "ru": "согласно",
+      "target": "de acuerdo a"
+    },
+    {
+      "id": "topic_233:dicen que",
+      "ru": "Говорят, что",
+      "target": "dicen que"
+    },
+    {
+      "id": "topic_233:esguince",
+      "ru": "растяжение связок",
+      "target": "esguince"
+    },
+    {
+      "id": "topic_233:estado físico",
+      "ru": "физическое состояние",
+      "target": "estado físico"
+    },
+    {
+      "id": "topic_233:estar sentado",
+      "ru": "сидеть",
+      "target": "estar sentado"
+    },
+    {
+      "id": "topic_233:generalizar",
+      "ru": "обобщать",
+      "target": "generalizar"
+    },
+    {
+      "id": "topic_233:hablando de eso",
+      "ru": "Говоря об этом",
+      "target": "hablando de eso"
+    },
+    {
+      "id": "topic_233:hacer bien",
+      "ru": "делать хорошо; приносить пользу",
+      "target": "hacer bien"
+    },
+    {
+      "id": "topic_233:hidratarse",
+      "ru": "увлажняться",
+      "target": "hidratarse"
+    },
+    {
+      "id": "topic_233:lo suficiente",
+      "ru": "достаточно",
+      "target": "lo suficiente"
+    },
+    {
+      "id": "topic_233:mantenerse en forma",
+      "ru": "поддерживать себя в форме",
+      "target": "mantenerse en forma"
+    },
+    {
+      "id": "topic_233:perjudicial",
+      "ru": "вредный",
+      "target": "perjudicial"
+    },
+    {
+      "id": "topic_233:pomada",
+      "ru": "мазь",
+      "target": "pomada"
+    },
+    {
+      "id": "topic_233:sedentario",
+      "ru": "сидячий",
+      "target": "sedentario"
+    },
+    {
+      "id": "topic_233:supuestamente",
+      "ru": "якобы",
+      "target": "supuestamente"
+    },
+    {
+      "id": "topic_233:yo que tú",
+      "ru": "я на твоём месте",
+      "target": "yo que tú"
+    }
+  ]
+}

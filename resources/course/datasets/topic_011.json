@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_011",
+  "description": "Опишите свой дом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_011:apartamento",
+      "ru": "квартира",
+      "target": "apartamento"
+    },
+    {
+      "id": "topic_011:bonito",
+      "ru": "красивый",
+      "target": "bonito"
+    },
+    {
+      "id": "topic_011:calle",
+      "ru": "улица",
+      "target": "calle"
+    },
+    {
+      "id": "topic_011:con",
+      "ru": "с",
+      "target": "con"
+    },
+    {
+      "id": "topic_011:edificio",
+      "ru": "здание",
+      "target": "edificio"
+    },
+    {
+      "id": "topic_011:familia",
+      "ru": "семья",
+      "target": "familia"
+    },
+    {
+      "id": "topic_011:garaje",
+      "ru": "гараж",
+      "target": "garaje"
+    },
+    {
+      "id": "topic_011:gato",
+      "ru": "кот",
+      "target": "gato"
+    },
+    {
+      "id": "topic_011:grande",
+      "ru": "большой",
+      "target": "grande"
+    },
+    {
+      "id": "topic_011:jardín",
+      "ru": "сад",
+      "target": "jardín"
+    },
+    {
+      "id": "topic_011:lejos",
+      "ru": "далеко",
+      "target": "lejos"
+    },
+    {
+      "id": "topic_011:me gusta",
+      "ru": "мне нравится, я люблю (что-то)",
+      "target": "me gusta"
+    },
+    {
+      "id": "topic_011:muy",
+      "ru": "очень",
+      "target": "muy"
+    },
+    {
+      "id": "topic_011:pareja",
+      "ru": "пара",
+      "target": "pareja"
+    },
+    {
+      "id": "topic_011:pequeño",
+      "ru": "маленький",
+      "target": "pequeño"
+    },
+    {
+      "id": "topic_011:perro",
+      "ru": "собака",
+      "target": "perro"
+    },
+    {
+      "id": "topic_011:piso",
+      "ru": "квартира",
+      "target": "piso"
+    },
+    {
+      "id": "topic_011:restaurante",
+      "ru": "ресторан",
+      "target": "restaurante"
+    },
+    {
+      "id": "topic_011:solo",
+      "ru": "один",
+      "target": "solo"
+    },
+    {
+      "id": "topic_011:supermercado",
+      "ru": "супермаркет",
+      "target": "supermercado"
+    },
+    {
+      "id": "topic_011:terraza",
+      "ru": "терраса",
+      "target": "terraza"
+    },
+    {
+      "id": "topic_011:vivir",
+      "ru": "жить",
+      "target": "vivir"
+    }
+  ]
+}

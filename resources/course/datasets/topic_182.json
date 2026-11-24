@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_182",
+  "description": "Купить и примерить одежду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_182:al revés",
+      "ru": "наоборот, вверх ногами",
+      "target": "al revés"
+    },
+    {
+      "id": "topic_182:aro",
+      "ru": "кольцо",
+      "target": "aro"
+    },
+    {
+      "id": "topic_182:atar",
+      "ru": "связывать",
+      "target": "atar"
+    },
+    {
+      "id": "topic_182:colorido",
+      "ru": "цветной",
+      "target": "colorido"
+    },
+    {
+      "id": "topic_182:combinar",
+      "ru": "сочетать",
+      "target": "combinar"
+    },
+    {
+      "id": "topic_182:de segunda mano",
+      "ru": "секонд-хенд",
+      "target": "de segunda mano"
+    },
+    {
+      "id": "topic_182:ganga",
+      "ru": "выгодная покупка",
+      "target": "ganga"
+    },
+    {
+      "id": "topic_182:lino",
+      "ru": "лён",
+      "target": "lino"
+    },
+    {
+      "id": "topic_182:lunar",
+      "ru": "лунный",
+      "target": "lunar"
+    },
+    {
+      "id": "topic_182:manga",
+      "ru": "рукав; манга",
+      "target": "manga"
+    },
+    {
+      "id": "topic_182:pantufla",
+      "ru": "домашняя тапочка",
+      "target": "pantufla"
+    },
+    {
+      "id": "topic_182:perfumería",
+      "ru": "парфюмерный магазин",
+      "target": "perfumería"
+    },
+    {
+      "id": "topic_182:seda",
+      "ru": "шёлк",
+      "target": "seda"
+    },
+    {
+      "id": "topic_182:tejer",
+      "ru": "ткать",
+      "target": "tejer"
+    },
+    {
+      "id": "topic_182:zapatería",
+      "ru": "обувной магазин",
+      "target": "zapatería"
+    },
+    {
+      "id": "topic_182:zapatilla",
+      "ru": "лёгкая туфля; спортивная обувь",
+      "target": "zapatilla"
+    }
+  ]
+}

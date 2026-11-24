@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_149",
+  "description": "Обсуди политику и выборы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_149:debate",
+      "ru": "дискуссия",
+      "target": "debate"
+    },
+    {
+      "id": "topic_149:demócrata",
+      "ru": "демократ",
+      "target": "demócrata"
+    },
+    {
+      "id": "topic_149:humano",
+      "ru": "человеческий",
+      "target": "humano"
+    },
+    {
+      "id": "topic_149:inmigración",
+      "ru": "иммиграции",
+      "target": "inmigración"
+    },
+    {
+      "id": "topic_149:mencionar",
+      "ru": "упоминать",
+      "target": "mencionar"
+    },
+    {
+      "id": "topic_149:municipal",
+      "ru": "городской",
+      "target": "municipal"
+    },
+    {
+      "id": "topic_149:oficial",
+      "ru": "официальный",
+      "target": "oficial"
+    },
+    {
+      "id": "topic_149:regional",
+      "ru": "региональный",
+      "target": "regional"
+    },
+    {
+      "id": "topic_149:reportaje",
+      "ru": "репортаж",
+      "target": "reportaje"
+    },
+    {
+      "id": "topic_149:republicano",
+      "ru": "республиканец",
+      "target": "republicano"
+    },
+    {
+      "id": "topic_149:tolerante",
+      "ru": "терпимый; толерантный",
+      "target": "tolerante"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_012",
+  "description": "Используйте настоящее время для привычек",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_012:arroz",
+      "ru": "рис",
+      "target": "arroz"
+    },
+    {
+      "id": "topic_012:bailar",
+      "ru": "танцевать",
+      "target": "bailar"
+    },
+    {
+      "id": "topic_012:bueno",
+      "ru": "хороший",
+      "target": "bueno"
+    },
+    {
+      "id": "topic_012:cantar",
+      "ru": "петь",
+      "target": "cantar"
+    },
+    {
+      "id": "topic_012:cocinar",
+      "ru": "готовить еду",
+      "target": "cocinar"
+    },
+    {
+      "id": "topic_012:con pollo",
+      "ru": "с курицей",
+      "target": "con pollo"
+    },
+    {
+      "id": "topic_012:discoteca",
+      "ru": "дискотека",
+      "target": "discoteca"
+    },
+    {
+      "id": "topic_012:en coche",
+      "ru": "на машине",
+      "target": "en coche"
+    },
+    {
+      "id": "topic_012:en tren",
+      "ru": "на поезде",
+      "target": "en tren"
+    },
+    {
+      "id": "topic_012:es divertido",
+      "ru": "это весело",
+      "target": "es divertido"
+    },
+    {
+      "id": "topic_012:escuchar",
+      "ru": "слушать",
+      "target": "escuchar"
+    },
+    {
+      "id": "topic_012:nosotros",
+      "ru": "мы",
+      "target": "nosotros"
+    },
+    {
+      "id": "topic_012:pasta",
+      "ru": "паста",
+      "target": "pasta"
+    },
+    {
+      "id": "topic_012:película",
+      "ru": "фильм",
+      "target": "película"
+    },
+    {
+      "id": "topic_012:pintar",
+      "ru": "красить",
+      "target": "pintar"
+    },
+    {
+      "id": "topic_012:por la tarde",
+      "ru": "днём",
+      "target": "por la tarde"
+    },
+    {
+      "id": "topic_012:qué haces",
+      "ru": "что ты делаешь",
+      "target": "qué haces"
+    },
+    {
+      "id": "topic_012:salsa",
+      "ru": "сальса",
+      "target": "salsa"
+    },
+    {
+      "id": "topic_012:sopa",
+      "ru": "суп",
+      "target": "sopa"
+    },
+    {
+      "id": "topic_012:su",
+      "ru": "его или её",
+      "target": "su"
+    },
+    {
+      "id": "topic_012:tiempo libre",
+      "ru": "свободное время",
+      "target": "tiempo libre"
+    },
+    {
+      "id": "topic_012:ustedes",
+      "ru": "вы",
+      "target": "ustedes"
+    },
+    {
+      "id": "topic_012:viajar",
+      "ru": "путешествовать",
+      "target": "viajar"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "topic_159",
+  "description": "Скажи, что ты искал",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_159:crucero",
+      "ru": "круиз",
+      "target": "crucero"
+    },
+    {
+      "id": "topic_159:de vacaciones",
+      "ru": "в отпуске",
+      "target": "de vacaciones"
+    },
+    {
+      "id": "topic_159:lanzar",
+      "ru": "запускать",
+      "target": "lanzar"
+    },
+    {
+      "id": "topic_159:padrastro",
+      "ru": "отчим",
+      "target": "padrastro"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_055",
+  "description": "Неопределенные прилагательные",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_055:abierto",
+      "ru": "открытый",
+      "target": "abierto"
+    },
+    {
+      "id": "topic_055:algo",
+      "ru": "что-нибудь",
+      "target": "algo"
+    },
+    {
+      "id": "topic_055:alguien",
+      "ru": "кто-нибудь",
+      "target": "alguien"
+    },
+    {
+      "id": "topic_055:alguno",
+      "ru": "какой-нибудь",
+      "target": "alguno"
+    },
+    {
+      "id": "topic_055:clínica",
+      "ru": "клиника",
+      "target": "clínica"
+    },
+    {
+      "id": "topic_055:dentista",
+      "ru": "стоматолог",
+      "target": "dentista"
+    },
+    {
+      "id": "topic_055:doctor",
+      "ru": "доктор",
+      "target": "doctor"
+    },
+    {
+      "id": "topic_055:dolor",
+      "ru": "боль",
+      "target": "dolor"
+    },
+    {
+      "id": "topic_055:fiebre",
+      "ru": "жар",
+      "target": "fiebre"
+    },
+    {
+      "id": "topic_055:mascarilla",
+      "ru": "маска",
+      "target": "mascarilla"
+    },
+    {
+      "id": "topic_055:muela",
+      "ru": "коренной зуб",
+      "target": "muela"
+    },
+    {
+      "id": "topic_055:oído",
+      "ru": "слух",
+      "target": "oído"
+    },
+    {
+      "id": "topic_055:pastilla",
+      "ru": "таблетка",
+      "target": "pastilla"
+    },
+    {
+      "id": "topic_055:pie",
+      "ru": "ступня",
+      "target": "pie"
+    },
+    {
+      "id": "topic_055:por allí",
+      "ru": "там",
+      "target": "por allí"
+    },
+    {
+      "id": "topic_055:resfriado",
+      "ru": "простуда",
+      "target": "resfriado"
+    },
+    {
+      "id": "topic_055:vitamina",
+      "ru": "витамин",
+      "target": "vitamina"
+    }
+  ]
+}

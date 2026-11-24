@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_095",
+  "description": "Используйте несовершенное время",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_095:castaño",
+      "ru": "каштановое дерево",
+      "target": "castaño"
+    },
+    {
+      "id": "topic_095:gordo",
+      "ru": "толстый",
+      "target": "gordo"
+    },
+    {
+      "id": "topic_095:instituto",
+      "ru": "институт",
+      "target": "instituto"
+    },
+    {
+      "id": "topic_095:llorar",
+      "ru": "плакать",
+      "target": "llorar"
+    },
+    {
+      "id": "topic_095:marido",
+      "ru": "муж",
+      "target": "marido"
+    },
+    {
+      "id": "topic_095:menos cuarto",
+      "ru": "без четверти",
+      "target": "menos cuarto"
+    },
+    {
+      "id": "topic_095:reservado",
+      "ru": "сдержанный",
+      "target": "reservado"
+    },
+    {
+      "id": "topic_095:rizado",
+      "ru": "кудрявый",
+      "target": "rizado"
+    }
+  ]
+}

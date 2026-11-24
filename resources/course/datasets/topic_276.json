@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_276",
+  "description": "Обсудить жалобы жильцов",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_276:asociación",
+      "ru": "объединение",
+      "target": "asociación"
+    },
+    {
+      "id": "topic_276:conserje",
+      "ru": "консьерж",
+      "target": "conserje"
+    },
+    {
+      "id": "topic_276:cooperación",
+      "ru": "сотрудничество",
+      "target": "cooperación"
+    },
+    {
+      "id": "topic_276:cuyo",
+      "ru": "чья",
+      "target": "cuyo"
+    },
+    {
+      "id": "topic_276:hasta cierto punto",
+      "ru": "в определённой степени",
+      "target": "hasta cierto punto"
+    },
+    {
+      "id": "topic_276:iluminado",
+      "ru": "освещено",
+      "target": "iluminado"
+    },
+    {
+      "id": "topic_276:lo veo",
+      "ru": "я это вижу; я его вижу",
+      "target": "lo veo"
+    },
+    {
+      "id": "topic_276:no lo es",
+      "ru": "это не так; он или она таковым не является",
+      "target": "no lo es"
+    },
+    {
+      "id": "topic_276:pendiente",
+      "ru": "серьга",
+      "target": "pendiente"
+    },
+    {
+      "id": "topic_276:reglamento",
+      "ru": "регламент",
+      "target": "reglamento"
+    },
+    {
+      "id": "topic_276:residente",
+      "ru": "житель",
+      "target": "residente"
+    },
+    {
+      "id": "topic_276:restricción",
+      "ru": "ограничение",
+      "target": "restricción"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_148",
+  "description": "Говорить о работе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_148:beneficio",
+      "ru": "польза",
+      "target": "beneficio"
+    },
+    {
+      "id": "topic_148:búsqueda",
+      "ru": "поиск",
+      "target": "búsqueda"
+    },
+    {
+      "id": "topic_148:contabilidad",
+      "ru": "бухгалтерский учёт",
+      "target": "contabilidad"
+    },
+    {
+      "id": "topic_148:dato",
+      "ru": "сведение; элемент данных",
+      "target": "dato"
+    },
+    {
+      "id": "topic_148:dedicarse",
+      "ru": "заняться",
+      "target": "dedicarse"
+    },
+    {
+      "id": "topic_148:exportar",
+      "ru": "экспортировать",
+      "target": "exportar"
+    },
+    {
+      "id": "topic_148:general",
+      "ru": "общий",
+      "target": "general"
+    },
+    {
+      "id": "topic_148:producción",
+      "ru": "производство",
+      "target": "producción"
+    },
+    {
+      "id": "topic_148:quien",
+      "ru": "кто",
+      "target": "quien"
+    },
+    {
+      "id": "topic_148:rol",
+      "ru": "роль",
+      "target": "rol"
+    },
+    {
+      "id": "topic_148:servicio",
+      "ru": "услуга",
+      "target": "servicio"
+    },
+    {
+      "id": "topic_148:tercio",
+      "ru": "треть",
+      "target": "tercio"
+    },
+    {
+      "id": "topic_148:valor",
+      "ru": "ценность",
+      "target": "valor"
+    }
+  ]
+}

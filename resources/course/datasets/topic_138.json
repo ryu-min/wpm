@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "topic_138",
+  "description": "Расскажи о медицине",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_138:análisis de sangre",
+      "ru": "анализ крови",
+      "target": "análisis de sangre"
+    },
+    {
+      "id": "topic_138:enfermarse",
+      "ru": "заболевать",
+      "target": "enfermarse"
+    },
+    {
+      "id": "topic_138:quemarse",
+      "ru": "сгореть",
+      "target": "quemarse"
+    }
+  ]
+}

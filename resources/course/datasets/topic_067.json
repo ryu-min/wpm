@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_067",
+  "description": "Обсуждайте спорт",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_067:ansioso",
+      "ru": "встревоженный",
+      "target": "ansioso"
+    },
+    {
+      "id": "topic_067:campeón",
+      "ru": "чемпион",
+      "target": "campeón"
+    },
+    {
+      "id": "topic_067:cancha",
+      "ru": "площадка",
+      "target": "cancha"
+    },
+    {
+      "id": "topic_067:casi siempre",
+      "ru": "почти всегда",
+      "target": "casi siempre"
+    },
+    {
+      "id": "topic_067:confundirse",
+      "ru": "путаться",
+      "target": "confundirse"
+    },
+    {
+      "id": "topic_067:despertador",
+      "ru": "будильник",
+      "target": "despertador"
+    },
+    {
+      "id": "topic_067:el mejor",
+      "ru": "лучший",
+      "target": "el mejor"
+    },
+    {
+      "id": "topic_067:en fin",
+      "ru": "В конце концов",
+      "target": "en fin"
+    },
+    {
+      "id": "topic_067:estar seguro",
+      "ru": "быть уверенным",
+      "target": "estar seguro"
+    },
+    {
+      "id": "topic_067:exacto",
+      "ru": "точный",
+      "target": "exacto"
+    },
+    {
+      "id": "topic_067:excusa",
+      "ru": "основание для освобождения",
+      "target": "excusa"
+    },
+    {
+      "id": "topic_067:felicitaciones",
+      "ru": "поздравляю",
+      "target": "felicitaciones"
+    },
+    {
+      "id": "topic_067:ganar",
+      "ru": "выигрывать",
+      "target": "ganar"
+    },
+    {
+      "id": "topic_067:jugador",
+      "ru": "игрок",
+      "target": "jugador"
+    },
+    {
+      "id": "topic_067:revisar",
+      "ru": "проверять",
+      "target": "revisar"
+    },
+    {
+      "id": "topic_067:rival",
+      "ru": "соперник",
+      "target": "rival"
+    },
+    {
+      "id": "topic_067:siguiente",
+      "ru": "следующий",
+      "target": "siguiente"
+    },
+    {
+      "id": "topic_067:solucionar",
+      "ru": "решать проблему",
+      "target": "solucionar"
+    },
+    {
+      "id": "topic_067:sí o sí",
+      "ru": "во что бы то ни стало",
+      "target": "sí o sí"
+    },
+    {
+      "id": "topic_067:torneo",
+      "ru": "турнир",
+      "target": "torneo"
+    },
+    {
+      "id": "topic_067:últimamente",
+      "ru": "в последнее время",
+      "target": "últimamente"
+    }
+  ]
+}

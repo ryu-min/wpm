@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_077",
+  "description": "Превосходные степени с прилагательными",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_077:alegre",
+      "ru": "весёлый",
+      "target": "alegre"
+    },
+    {
+      "id": "topic_077:atractivo",
+      "ru": "привлекательный",
+      "target": "atractivo"
+    },
+    {
+      "id": "topic_077:celebridad",
+      "ru": "знаменитость",
+      "target": "celebridad"
+    },
+    {
+      "id": "topic_077:chaleco",
+      "ru": "жилет",
+      "target": "chaleco"
+    },
+    {
+      "id": "topic_077:comentario",
+      "ru": "комментарий",
+      "target": "comentario"
+    },
+    {
+      "id": "topic_077:coreano",
+      "ru": "Корейский",
+      "target": "coreano"
+    },
+    {
+      "id": "topic_077:fan",
+      "ru": "фанат; поклонник",
+      "target": "fan"
+    },
+    {
+      "id": "topic_077:formal",
+      "ru": "формальный, формального, формальной, формальная, формальную, элегантны, формальное, формальным, формальны, формальная (-ый, -ое), формальные, серьезная, формальном, деловую",
+      "target": "formal"
+    },
+    {
+      "id": "topic_077:guapísimo",
+      "ru": "красивая",
+      "target": "guapísimo"
+    },
+    {
+      "id": "topic_077:interesantísimo",
+      "ru": "интересный",
+      "target": "interesantísimo"
+    },
+    {
+      "id": "topic_077:periódico",
+      "ru": "газета",
+      "target": "periódico"
+    },
+    {
+      "id": "topic_077:presentador",
+      "ru": "ведущий",
+      "target": "presentador"
+    },
+    {
+      "id": "topic_077:publicar",
+      "ru": "публиковать",
+      "target": "publicar"
+    },
+    {
+      "id": "topic_077:radio",
+      "ru": "радио",
+      "target": "radio"
+    },
+    {
+      "id": "topic_077:rap",
+      "ru": "рэп",
+      "target": "rap"
+    },
+    {
+      "id": "topic_077:talentoso",
+      "ru": "талантливый",
+      "target": "talentoso"
+    }
+  ]
+}

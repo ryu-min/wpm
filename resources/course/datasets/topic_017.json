@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_017",
+  "description": "Оцените еду и обслуживание",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_017:bar",
+      "ru": "бар",
+      "target": "bar"
+    },
+    {
+      "id": "topic_017:caro",
+      "ru": "дорогой",
+      "target": "caro"
+    },
+    {
+      "id": "topic_017:comida",
+      "ru": "еда",
+      "target": "comida"
+    },
+    {
+      "id": "topic_017:cómodo",
+      "ru": "удобный",
+      "target": "cómodo"
+    },
+    {
+      "id": "topic_017:desayuno",
+      "ru": "завтрак",
+      "target": "desayuno"
+    },
+    {
+      "id": "topic_017:excelente",
+      "ru": "прекрасный",
+      "target": "excelente"
+    },
+    {
+      "id": "topic_017:grosero",
+      "ru": "грубый",
+      "target": "grosero"
+    },
+    {
+      "id": "topic_017:lugar",
+      "ru": "место",
+      "target": "lugar"
+    },
+    {
+      "id": "topic_017:malo",
+      "ru": "плохой",
+      "target": "malo"
+    },
+    {
+      "id": "topic_017:mesero",
+      "ru": "официант",
+      "target": "mesero"
+    },
+    {
+      "id": "topic_017:pizza",
+      "ru": "пицца",
+      "target": "pizza"
+    },
+    {
+      "id": "topic_017:postre",
+      "ru": "десерт",
+      "target": "postre"
+    },
+    {
+      "id": "topic_017:precio",
+      "ru": "цена",
+      "target": "precio"
+    },
+    {
+      "id": "topic_017:silla",
+      "ru": "стул",
+      "target": "silla"
+    },
+    {
+      "id": "topic_017:tomate",
+      "ru": "помидор",
+      "target": "tomate"
+    }
+  ]
+}

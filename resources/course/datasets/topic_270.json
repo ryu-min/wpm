@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_270",
+  "description": "Вернуть и обменять товар",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_270:a no ser que",
+      "ru": "если только",
+      "target": "a no ser que"
+    },
+    {
+      "id": "topic_270:autorizar",
+      "ru": "разрешать",
+      "target": "autorizar"
+    },
+    {
+      "id": "topic_270:crédito",
+      "ru": "кредит",
+      "target": "crédito"
+    },
+    {
+      "id": "topic_270:de ninguna manera",
+      "ru": "ни в коем случае",
+      "target": "de ninguna manera"
+    },
+    {
+      "id": "topic_270:decepción",
+      "ru": "разочарование",
+      "target": "decepción"
+    },
+    {
+      "id": "topic_270:defectuoso",
+      "ru": "дефектный",
+      "target": "defectuoso"
+    },
+    {
+      "id": "topic_270:destrozado",
+      "ru": "разбитый",
+      "target": "destrozado"
+    },
+    {
+      "id": "topic_270:encogerse",
+      "ru": "сесть",
+      "target": "encogerse"
+    },
+    {
+      "id": "topic_270:incompetente",
+      "ru": "некомпетентный",
+      "target": "incompetente"
+    },
+    {
+      "id": "topic_270:ni loco",
+      "ru": "ни за что",
+      "target": "ni loco"
+    },
+    {
+      "id": "topic_270:nunca jamás",
+      "ru": "никогда никогда",
+      "target": "nunca jamás"
+    },
+    {
+      "id": "topic_270:poner pie",
+      "ru": "ступил ногой, ступлю ногой",
+      "target": "poner pie"
+    },
+    {
+      "id": "topic_270:reputación",
+      "ru": "репутация",
+      "target": "reputación"
+    },
+    {
+      "id": "topic_270:si fuera por mí",
+      "ru": "Если бы это зависело от меня",
+      "target": "si fuera por mí"
+    },
+    {
+      "id": "topic_270:si no es mucho pedir",
+      "ru": "Если не трудно",
+      "target": "si no es mucho pedir"
+    },
+    {
+      "id": "topic_270:sin abrir",
+      "ru": "неоткрытый",
+      "target": "sin abrir"
+    },
+    {
+      "id": "topic_270:tarjeta de regalo",
+      "ru": "подарочной картой, подарочная карта, подарочную карту",
+      "target": "tarjeta de regalo"
+    },
+    {
+      "id": "topic_270:temer",
+      "ru": "бояться",
+      "target": "temer"
+    },
+    {
+      "id": "topic_270:vestido de novia",
+      "ru": "свадебное платье",
+      "target": "vestido de novia"
+    }
+  ]
+}

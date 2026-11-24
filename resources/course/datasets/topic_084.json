@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_084",
+  "description": "Используйте «сабер» в настоящем времени",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_084:agregar",
+      "ru": "добавить",
+      "target": "agregar"
+    },
+    {
+      "id": "topic_084:asiático",
+      "ru": "азиатский",
+      "target": "asiático"
+    },
+    {
+      "id": "topic_084:batidora",
+      "ru": "Миксер",
+      "target": "batidora"
+    },
+    {
+      "id": "topic_084:centro comunitario",
+      "ru": "общественный центр, общественным центром, общественном центре",
+      "target": "centro comunitario"
+    },
+    {
+      "id": "topic_084:cocido",
+      "ru": "отваренный",
+      "target": "cocido"
+    },
+    {
+      "id": "topic_084:cocinero",
+      "ru": "повар",
+      "target": "cocinero"
+    },
+    {
+      "id": "topic_084:condimento",
+      "ru": "приправа",
+      "target": "condimento"
+    },
+    {
+      "id": "topic_084:congelador",
+      "ru": "морозильник",
+      "target": "congelador"
+    },
+    {
+      "id": "topic_084:exactamente",
+      "ru": "точно",
+      "target": "exactamente"
+    },
+    {
+      "id": "topic_084:horno",
+      "ru": "духовка",
+      "target": "horno"
+    },
+    {
+      "id": "topic_084:miel",
+      "ru": "мёд",
+      "target": "miel"
+    },
+    {
+      "id": "topic_084:poner",
+      "ru": "класть",
+      "target": "poner"
+    },
+    {
+      "id": "topic_084:primer",
+      "ru": "первый (перед существительным мужского рода)",
+      "target": "primer"
+    },
+    {
+      "id": "topic_084:principiante",
+      "ru": "начинающий",
+      "target": "principiante"
+    },
+    {
+      "id": "topic_084:práctico",
+      "ru": "практичный",
+      "target": "práctico"
+    },
+    {
+      "id": "topic_084:saber",
+      "ru": "знать",
+      "target": "saber"
+    },
+    {
+      "id": "topic_084:vecindario",
+      "ru": "район",
+      "target": "vecindario"
+    }
+  ]
+}

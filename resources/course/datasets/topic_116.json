@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_116",
+  "description": "Используйте числа в контексте",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_116:acompañar",
+      "ru": "сопровождать",
+      "target": "acompañar"
+    },
+    {
+      "id": "topic_116:adelante",
+      "ru": "вперёд",
+      "target": "adelante"
+    },
+    {
+      "id": "topic_116:apurarse",
+      "ru": "поторопиться",
+      "target": "apurarse"
+    },
+    {
+      "id": "topic_116:asiento",
+      "ru": "сиденье",
+      "target": "asiento"
+    },
+    {
+      "id": "topic_116:asistir",
+      "ru": "присутствовать",
+      "target": "asistir"
+    },
+    {
+      "id": "topic_116:chequear",
+      "ru": "проверить",
+      "target": "chequear"
+    },
+    {
+      "id": "topic_116:chin chin",
+      "ru": "чокнемся",
+      "target": "chin chin"
+    },
+    {
+      "id": "topic_116:costoso",
+      "ru": "дорогой",
+      "target": "costoso"
+    },
+    {
+      "id": "topic_116:en total",
+      "ru": "всего",
+      "target": "en total"
+    },
+    {
+      "id": "topic_116:entrar",
+      "ru": "входить",
+      "target": "entrar"
+    },
+    {
+      "id": "topic_116:exmarido",
+      "ru": "бывший муж",
+      "target": "exmarido"
+    },
+    {
+      "id": "topic_116:guitarrista",
+      "ru": "гитарист",
+      "target": "guitarrista"
+    },
+    {
+      "id": "topic_116:intermedio",
+      "ru": "антракт",
+      "target": "intermedio"
+    },
+    {
+      "id": "topic_116:jazz",
+      "ru": "джаз",
+      "target": "jazz"
+    },
+    {
+      "id": "topic_116:letra",
+      "ru": "буква",
+      "target": "letra"
+    },
+    {
+      "id": "topic_116:obra",
+      "ru": "произведение или стройка",
+      "target": "obra"
+    },
+    {
+      "id": "topic_116:pianista",
+      "ru": "пианист",
+      "target": "pianista"
+    },
+    {
+      "id": "topic_116:sentado",
+      "ru": "сидящий",
+      "target": "sentado"
+    },
+    {
+      "id": "topic_116:te parece",
+      "ru": "тебе кажется",
+      "target": "te parece"
+    },
+    {
+      "id": "topic_116:ópera",
+      "ru": "опера",
+      "target": "ópera"
+    }
+  ]
+}

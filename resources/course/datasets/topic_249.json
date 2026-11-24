@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_249",
+  "description": "Планируй встречи и делись идеями",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_249:agendar",
+      "ru": "назначить",
+      "target": "agendar"
+    },
+    {
+      "id": "topic_249:básicamente",
+      "ru": "в основном",
+      "target": "básicamente"
+    },
+    {
+      "id": "topic_249:clave",
+      "ru": "ключ; ключевой",
+      "target": "clave"
+    },
+    {
+      "id": "topic_249:conocimiento",
+      "ru": "знание",
+      "target": "conocimiento"
+    },
+    {
+      "id": "topic_249:de cualquier manera",
+      "ru": "в любом случае",
+      "target": "de cualquier manera"
+    },
+    {
+      "id": "topic_249:hasta ahora",
+      "ru": "до сих пор",
+      "target": "hasta ahora"
+    },
+    {
+      "id": "topic_249:imprescindible",
+      "ru": "незаменимый",
+      "target": "imprescindible"
+    },
+    {
+      "id": "topic_249:interminable",
+      "ru": "бесконечный",
+      "target": "interminable"
+    },
+    {
+      "id": "topic_249:laboral",
+      "ru": "трудовой",
+      "target": "laboral"
+    },
+    {
+      "id": "topic_249:lo primero",
+      "ru": "первое",
+      "target": "lo primero"
+    },
+    {
+      "id": "topic_249:los pros y los contras",
+      "ru": "за и против",
+      "target": "los pros y los contras"
+    },
+    {
+      "id": "topic_249:mensual",
+      "ru": "ежемесячный",
+      "target": "mensual"
+    },
+    {
+      "id": "topic_249:mientras tanto",
+      "ru": "тем временем",
+      "target": "mientras tanto"
+    },
+    {
+      "id": "topic_249:no sabes",
+      "ru": "Ты не знаешь",
+      "target": "no sabes"
+    },
+    {
+      "id": "topic_249:por lo visto",
+      "ru": "по-видимому",
+      "target": "por lo visto"
+    },
+    {
+      "id": "topic_249:se me pasó",
+      "ru": "я упустил это; я забыл об этом",
+      "target": "se me pasó"
+    },
+    {
+      "id": "topic_249:subdirector",
+      "ru": "заместитель директора",
+      "target": "subdirector"
+    }
+  ]
+}

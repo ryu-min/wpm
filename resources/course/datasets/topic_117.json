@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_117",
+  "description": "Обсуждайте политику и общество",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_117:alcalde",
+      "ru": "мэр",
+      "target": "alcalde"
+    },
+    {
+      "id": "topic_117:alcaldesa",
+      "ru": "мэрша",
+      "target": "alcaldesa"
+    },
+    {
+      "id": "topic_117:candidato",
+      "ru": "кандидат",
+      "target": "candidato"
+    },
+    {
+      "id": "topic_117:elección",
+      "ru": "выбор",
+      "target": "elección"
+    },
+    {
+      "id": "topic_117:elegir",
+      "ru": "выбирать",
+      "target": "elegir"
+    },
+    {
+      "id": "topic_117:gobierno",
+      "ru": "правительство",
+      "target": "gobierno"
+    },
+    {
+      "id": "topic_117:habitante",
+      "ru": "житель",
+      "target": "habitante"
+    },
+    {
+      "id": "topic_117:mentiroso",
+      "ru": "лживый",
+      "target": "mentiroso"
+    },
+    {
+      "id": "topic_117:ministro",
+      "ru": "министр",
+      "target": "ministro"
+    },
+    {
+      "id": "topic_117:partido político",
+      "ru": "политическая партия",
+      "target": "partido político"
+    },
+    {
+      "id": "topic_117:paz",
+      "ru": "мир",
+      "target": "paz"
+    },
+    {
+      "id": "topic_117:político",
+      "ru": "политический; политик",
+      "target": "político"
+    },
+    {
+      "id": "topic_117:primer ministro",
+      "ru": "премьер-министр",
+      "target": "primer ministro"
+    },
+    {
+      "id": "topic_117:región",
+      "ru": "область",
+      "target": "región"
+    },
+    {
+      "id": "topic_117:sincero",
+      "ru": "искренний",
+      "target": "sincero"
+    },
+    {
+      "id": "topic_117:social",
+      "ru": "общественный",
+      "target": "social"
+    },
+    {
+      "id": "topic_117:sociedad",
+      "ru": "общество",
+      "target": "sociedad"
+    },
+    {
+      "id": "topic_117:tanto como",
+      "ru": "столько же, сколько, столько, сколько",
+      "target": "tanto como"
+    },
+    {
+      "id": "topic_117:votar",
+      "ru": "голосовать",
+      "target": "votar"
+    },
+    {
+      "id": "topic_117:voto",
+      "ru": "голос на выборах",
+      "target": "voto"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_284",
+  "description": "Строить догадки о фокусах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_284:abuchear",
+      "ru": "освистывать",
+      "target": "abuchear"
+    },
+    {
+      "id": "topic_284:así de fácil",
+      "ru": "так легко",
+      "target": "así de fácil"
+    },
+    {
+      "id": "topic_284:ataúd",
+      "ru": "гроб",
+      "target": "ataúd"
+    },
+    {
+      "id": "topic_284:atravesar",
+      "ru": "пересекать",
+      "target": "atravesar"
+    },
+    {
+      "id": "topic_284:desatarse",
+      "ru": "развязываться",
+      "target": "desatarse"
+    },
+    {
+      "id": "topic_284:espada",
+      "ru": "меч",
+      "target": "espada"
+    },
+    {
+      "id": "topic_284:farsante",
+      "ru": "обманщик",
+      "target": "farsante"
+    },
+    {
+      "id": "topic_284:imán",
+      "ru": "магнит",
+      "target": "imán"
+    },
+    {
+      "id": "topic_284:revelar",
+      "ru": "раскрывать",
+      "target": "revelar"
+    },
+    {
+      "id": "topic_284:soga",
+      "ru": "веревка",
+      "target": "soga"
+    },
+    {
+      "id": "topic_284:tragar",
+      "ru": "глотать",
+      "target": "tragar"
+    },
+    {
+      "id": "topic_284:truco",
+      "ru": "трюк",
+      "target": "truco"
+    },
+    {
+      "id": "topic_284:varita",
+      "ru": "палочка",
+      "target": "varita"
+    }
+  ]
+}

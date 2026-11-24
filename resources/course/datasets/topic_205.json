@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_205",
+  "description": "Говорить об испытаниях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_205:a fin de cuentas",
+      "ru": "в конце концов",
+      "target": "a fin de cuentas"
+    },
+    {
+      "id": "topic_205:cansarse",
+      "ru": "устать",
+      "target": "cansarse"
+    },
+    {
+      "id": "topic_205:debe haber",
+      "ru": "должно быть; должно иметься",
+      "target": "debe haber"
+    },
+    {
+      "id": "topic_205:debe haber sido",
+      "ru": "должно было быть",
+      "target": "debe haber sido"
+    },
+    {
+      "id": "topic_205:debo haber",
+      "ru": "я, должно быть, уже… (перед причастием)",
+      "target": "debo haber"
+    },
+    {
+      "id": "topic_205:desafío",
+      "ru": "вызов",
+      "target": "desafío"
+    },
+    {
+      "id": "topic_205:dolido",
+      "ru": "обиженный; испытывающий боль",
+      "target": "dolido"
+    },
+    {
+      "id": "topic_205:doloroso",
+      "ru": "болезненный; причиняющий боль",
+      "target": "doloroso"
+    },
+    {
+      "id": "topic_205:lástima",
+      "ru": "жаль",
+      "target": "lástima"
+    },
+    {
+      "id": "topic_205:pista",
+      "ru": "улика",
+      "target": "pista"
+    },
+    {
+      "id": "topic_205:suceder",
+      "ru": "случаться",
+      "target": "suceder"
+    },
+    {
+      "id": "topic_205:sufrir",
+      "ru": "страдать",
+      "target": "sufrir"
+    },
+    {
+      "id": "topic_205:victoria",
+      "ru": "победа",
+      "target": "victoria"
+    }
+  ]
+}

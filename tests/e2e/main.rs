@@ -13,3 +13,5 @@ mod spanish_catalog;
 mod spanish_settings;
 mod spanish_translation;
 mod typing;
+
+mod spanish_course;

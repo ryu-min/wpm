@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_171",
+  "description": "Обсуди планы и новости",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_171:aumentar",
+      "ru": "увеличивать",
+      "target": "aumentar"
+    },
+    {
+      "id": "topic_171:avisar",
+      "ru": "предупреждать",
+      "target": "avisar"
+    },
+    {
+      "id": "topic_171:compositor",
+      "ru": "композитор",
+      "target": "compositor"
+    },
+    {
+      "id": "topic_171:consultar",
+      "ru": "консультироваться",
+      "target": "consultar"
+    },
+    {
+      "id": "topic_171:convencer",
+      "ru": "убеждать",
+      "target": "convencer"
+    },
+    {
+      "id": "topic_171:iba a",
+      "ru": "собиралась, собирался",
+      "target": "iba a"
+    },
+    {
+      "id": "topic_171:iban a",
+      "ru": "они собирались; они намеревались",
+      "target": "iban a"
+    },
+    {
+      "id": "topic_171:nunca más",
+      "ru": "никогда больше",
+      "target": "nunca más"
+    },
+    {
+      "id": "topic_171:pasar por",
+      "ru": "проходить через; заходить к",
+      "target": "pasar por"
+    },
+    {
+      "id": "topic_171:portarse",
+      "ru": "вести",
+      "target": "portarse"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_075",
+  "description": "Оценивайте развлечения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_075:Guatemala",
+      "ru": "Гватемала",
+      "target": "Guatemala"
+    },
+    {
+      "id": "topic_075:comedia",
+      "ru": "комедия",
+      "target": "comedia"
+    },
+    {
+      "id": "topic_075:conocido",
+      "ru": "знакомый",
+      "target": "conocido"
+    },
+    {
+      "id": "topic_075:controvertido",
+      "ru": "спорный",
+      "target": "controvertido"
+    },
+    {
+      "id": "topic_075:cómico",
+      "ru": "комедийное",
+      "target": "cómico"
+    },
+    {
+      "id": "topic_075:de acción",
+      "ru": "боевик",
+      "target": "de acción"
+    },
+    {
+      "id": "topic_075:de terror",
+      "ru": "ужастик",
+      "target": "de terror"
+    },
+    {
+      "id": "topic_075:despacio",
+      "ru": "медленно",
+      "target": "despacio"
+    },
+    {
+      "id": "topic_075:documental",
+      "ru": "документальный фильм",
+      "target": "documental"
+    },
+    {
+      "id": "topic_075:el otro",
+      "ru": "другой",
+      "target": "el otro"
+    },
+    {
+      "id": "topic_075:emocionante",
+      "ru": "волнение",
+      "target": "emocionante"
+    },
+    {
+      "id": "topic_075:estrella",
+      "ru": "звезда",
+      "target": "estrella"
+    },
+    {
+      "id": "topic_075:europeo",
+      "ru": "европейское",
+      "target": "europeo"
+    },
+    {
+      "id": "topic_075:heroína",
+      "ru": "героиня",
+      "target": "heroína"
+    },
+    {
+      "id": "topic_075:héroe",
+      "ru": "герой",
+      "target": "héroe"
+    },
+    {
+      "id": "topic_075:la otra",
+      "ru": "другая (женский род)",
+      "target": "la otra"
+    },
+    {
+      "id": "topic_075:para nada",
+      "ru": "вовсе нет",
+      "target": "para nada"
+    },
+    {
+      "id": "topic_075:peor",
+      "ru": "хуже",
+      "target": "peor"
+    },
+    {
+      "id": "topic_075:que",
+      "ru": "что",
+      "target": "que"
+    }
+  ]
+}

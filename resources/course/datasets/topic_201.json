@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_201",
+  "description": "Поехали в объезд пробок",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_201:acceso",
+      "ru": "вход",
+      "target": "acceso"
+    },
+    {
+      "id": "topic_201:bajarse",
+      "ru": "спускаться",
+      "target": "bajarse"
+    },
+    {
+      "id": "topic_201:caber",
+      "ru": "помещаться",
+      "target": "caber"
+    },
+    {
+      "id": "topic_201:calle sin salida",
+      "ru": "тупиковая улица",
+      "target": "calle sin salida"
+    },
+    {
+      "id": "topic_201:carril",
+      "ru": "полоса движения",
+      "target": "carril"
+    },
+    {
+      "id": "topic_201:ciclovía",
+      "ru": "велодорожка",
+      "target": "ciclovía"
+    },
+    {
+      "id": "topic_201:diagonal",
+      "ru": "диагональный",
+      "target": "diagonal"
+    },
+    {
+      "id": "topic_201:embotellamiento",
+      "ru": "дорожная пробка",
+      "target": "embotellamiento"
+    },
+    {
+      "id": "topic_201:peatonal",
+      "ru": "пешеходный",
+      "target": "peatonal"
+    },
+    {
+      "id": "topic_201:rotonda",
+      "ru": "кольцевой перекрёсток",
+      "target": "rotonda"
+    },
+    {
+      "id": "topic_201:túnel",
+      "ru": "туннель",
+      "target": "túnel"
+    },
+    {
+      "id": "topic_201:irse",
+      "ru": "уходить",
+      "target": "irse"
+    }
+  ]
+}

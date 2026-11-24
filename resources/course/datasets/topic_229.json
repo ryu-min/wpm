@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_229",
+  "description": "Опиши будущие поездки",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_229:adelgazar",
+      "ru": "похудеть",
+      "target": "adelgazar"
+    },
+    {
+      "id": "topic_229:alianza",
+      "ru": "кольцо",
+      "target": "alianza"
+    },
+    {
+      "id": "topic_229:atletismo",
+      "ru": "лёгкая атлетика",
+      "target": "atletismo"
+    },
+    {
+      "id": "topic_229:ayudante",
+      "ru": "помощник",
+      "target": "ayudante"
+    },
+    {
+      "id": "topic_229:chequeo",
+      "ru": "осмотр; проверка",
+      "target": "chequeo"
+    },
+    {
+      "id": "topic_229:de tiempo parcial",
+      "ru": "неполный рабочий день",
+      "target": "de tiempo parcial"
+    },
+    {
+      "id": "topic_229:estadía",
+      "ru": "пребывание",
+      "target": "estadía"
+    },
+    {
+      "id": "topic_229:habrá ido",
+      "ru": "наверное, пошёл",
+      "target": "habrá ido"
+    },
+    {
+      "id": "topic_229:habrá sido",
+      "ru": "должно быть, было, должно быть, должно быть, это была, должно быть, была",
+      "target": "habrá sido"
+    },
+    {
+      "id": "topic_229:químico",
+      "ru": "химик",
+      "target": "químico"
+    },
+    {
+      "id": "topic_229:sudeste",
+      "ru": "юго-восток",
+      "target": "sudeste"
+    },
+    {
+      "id": "topic_229:vacuna",
+      "ru": "вакцина",
+      "target": "vacuna"
+    },
+    {
+      "id": "topic_229:valle",
+      "ru": "долина",
+      "target": "valle"
+    }
+  ]
+}

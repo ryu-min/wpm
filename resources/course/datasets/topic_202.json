@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_202",
+  "description": "Опиши свою школьную жизнь",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_202:a propósito",
+      "ru": "намеренно",
+      "target": "a propósito"
+    },
+    {
+      "id": "topic_202:atentamente",
+      "ru": "внимательно",
+      "target": "atentamente"
+    },
+    {
+      "id": "topic_202:composición",
+      "ru": "состав",
+      "target": "composición"
+    },
+    {
+      "id": "topic_202:concentrarse",
+      "ru": "сосредоточиться",
+      "target": "concentrarse"
+    },
+    {
+      "id": "topic_202:correctamente",
+      "ru": "правильно",
+      "target": "correctamente"
+    },
+    {
+      "id": "topic_202:desaprobar",
+      "ru": "провалить",
+      "target": "desaprobar"
+    },
+    {
+      "id": "topic_202:escuela primaria",
+      "ru": "начальная школа",
+      "target": "escuela primaria"
+    },
+    {
+      "id": "topic_202:escuela secundaria",
+      "ru": "средняя школа",
+      "target": "escuela secundaria"
+    },
+    {
+      "id": "topic_202:fatal",
+      "ru": "ужасно",
+      "target": "fatal"
+    },
+    {
+      "id": "topic_202:promedio",
+      "ru": "средний показатель; средний балл",
+      "target": "promedio"
+    },
+    {
+      "id": "topic_202:revisión",
+      "ru": "осмотр",
+      "target": "revisión"
+    },
+    {
+      "id": "topic_202:totalmente",
+      "ru": "полностью",
+      "target": "totalmente"
+    },
+    {
+      "id": "topic_202:unidad",
+      "ru": "единица; единство",
+      "target": "unidad"
+    }
+  ]
+}

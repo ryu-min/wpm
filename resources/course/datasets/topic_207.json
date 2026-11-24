@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_207",
+  "description": "Узнать об аренде квартиры",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_207:acogedor",
+      "ru": "уютный; гостеприимный",
+      "target": "acogedor"
+    },
+    {
+      "id": "topic_207:al menos",
+      "ru": "хотя бы",
+      "target": "al menos"
+    },
+    {
+      "id": "topic_207:ambiente",
+      "ru": "среда",
+      "target": "ambiente"
+    },
+    {
+      "id": "topic_207:céntrico",
+      "ru": "центральный",
+      "target": "céntrico"
+    },
+    {
+      "id": "topic_207:fregar",
+      "ru": "мыть посуду",
+      "target": "fregar"
+    },
+    {
+      "id": "topic_207:ideal",
+      "ru": "идеальный",
+      "target": "ideal"
+    },
+    {
+      "id": "topic_207:ruidoso",
+      "ru": "шумный",
+      "target": "ruidoso"
+    },
+    {
+      "id": "topic_207:timbre",
+      "ru": "звонок",
+      "target": "timbre"
+    }
+  ]
+}

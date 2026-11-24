@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_257",
+  "description": "Опиши своих соседей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_257:a todo volumen",
+      "ru": "на полной громкости",
+      "target": "a todo volumen"
+    },
+    {
+      "id": "topic_257:asombrar",
+      "ru": "удивлять",
+      "target": "asombrar"
+    },
+    {
+      "id": "topic_257:cachorro",
+      "ru": "детёныш",
+      "target": "cachorro"
+    },
+    {
+      "id": "topic_257:desesperado",
+      "ru": "отчаяние",
+      "target": "desesperado"
+    },
+    {
+      "id": "topic_257:echar en cara",
+      "ru": "попрекать; ставить в вину",
+      "target": "echar en cara"
+    },
+    {
+      "id": "topic_257:extraterrestre",
+      "ru": "инопланетный",
+      "target": "extraterrestre"
+    },
+    {
+      "id": "topic_257:insoportable",
+      "ru": "невыносимый",
+      "target": "insoportable"
+    },
+    {
+      "id": "topic_257:ofenderse",
+      "ru": "обижаться",
+      "target": "ofenderse"
+    },
+    {
+      "id": "topic_257:pasado de moda",
+      "ru": "вышедшее из моды, вышел из моды",
+      "target": "pasado de moda"
+    },
+    {
+      "id": "topic_257:pijamada",
+      "ru": "пижамная вечеринка",
+      "target": "pijamada"
+    },
+    {
+      "id": "topic_257:rencoroso",
+      "ru": "злопамятный",
+      "target": "rencoroso"
+    },
+    {
+      "id": "topic_257:tatuaje",
+      "ru": "татуировка",
+      "target": "tatuaje"
+    },
+    {
+      "id": "topic_257:torpe",
+      "ru": "неуклюжий",
+      "target": "torpe"
+    }
+  ]
+}

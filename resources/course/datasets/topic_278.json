@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_278",
+  "description": "Обсуди настольные игры",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_278:a toda costa",
+      "ru": "во что бы то ни стало",
+      "target": "a toda costa"
+    },
+    {
+      "id": "topic_278:avanzar",
+      "ru": "продвигаться",
+      "target": "avanzar"
+    },
+    {
+      "id": "topic_278:baraja",
+      "ru": "колода",
+      "target": "baraja"
+    },
+    {
+      "id": "topic_278:concordar",
+      "ru": "соглашаться",
+      "target": "concordar"
+    },
+    {
+      "id": "topic_278:dado",
+      "ru": "игральная кость",
+      "target": "dado"
+    },
+    {
+      "id": "topic_278:damas",
+      "ru": "шашки",
+      "target": "damas"
+    },
+    {
+      "id": "topic_278:dar para rato",
+      "ru": "хватить надолго; занять много времени",
+      "target": "dar para rato"
+    },
+    {
+      "id": "topic_278:dominó",
+      "ru": "домино",
+      "target": "dominó"
+    },
+    {
+      "id": "topic_278:entretenerse",
+      "ru": "развлекаться",
+      "target": "entretenerse"
+    },
+    {
+      "id": "topic_278:ficha",
+      "ru": "фишка",
+      "target": "ficha"
+    },
+    {
+      "id": "topic_278:hacer trampa",
+      "ru": "жульничать",
+      "target": "hacer trampa"
+    },
+    {
+      "id": "topic_278:otra cosa",
+      "ru": "что-нибудь другое",
+      "target": "otra cosa"
+    },
+    {
+      "id": "topic_278:paso a paso",
+      "ru": "шаг за шагом",
+      "target": "paso a paso"
+    },
+    {
+      "id": "topic_278:revancha",
+      "ru": "реванш",
+      "target": "revancha"
+    },
+    {
+      "id": "topic_278:ronda",
+      "ru": "раунд",
+      "target": "ronda"
+    },
+    {
+      "id": "topic_278:siempre es lo mismo contigo",
+      "ru": "всегда одно и то же с тобой",
+      "target": "siempre es lo mismo contigo"
+    },
+    {
+      "id": "topic_278:tablero",
+      "ru": "доска",
+      "target": "tablero"
+    },
+    {
+      "id": "topic_278:tener toda la razón",
+      "ru": "быть абсолютно правым, абсолютно прав",
+      "target": "tener toda la razón"
+    },
+    {
+      "id": "topic_278:turno",
+      "ru": "смена",
+      "target": "turno"
+    },
+    {
+      "id": "topic_278:y pensar que",
+      "ru": "И подумать только, что",
+      "target": "y pensar que"
+    }
+  ]
+}

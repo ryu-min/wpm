@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_026",
+  "description": "Спросите об ингредиентах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_026:aceite",
+      "ru": "масло",
+      "target": "aceite"
+    },
+    {
+      "id": "topic_026:ajo",
+      "ru": "чеснок",
+      "target": "ajo"
+    },
+    {
+      "id": "topic_026:ayuda",
+      "ru": "помощь",
+      "target": "ayuda"
+    },
+    {
+      "id": "topic_026:cebolla",
+      "ru": "лук",
+      "target": "cebolla"
+    },
+    {
+      "id": "topic_026:harina",
+      "ru": "мука",
+      "target": "harina"
+    },
+    {
+      "id": "topic_026:ingrediente",
+      "ru": "ингредиент",
+      "target": "ingrediente"
+    },
+    {
+      "id": "topic_026:kilo",
+      "ru": "килограмм",
+      "target": "kilo"
+    },
+    {
+      "id": "topic_026:lechuga",
+      "ru": "салат-латук",
+      "target": "lechuga"
+    },
+    {
+      "id": "topic_026:limón",
+      "ru": "лимон",
+      "target": "limón"
+    },
+    {
+      "id": "topic_026:listo",
+      "ru": "готовый или сообразительный",
+      "target": "listo"
+    },
+    {
+      "id": "topic_026:litro",
+      "ru": "литр",
+      "target": "litro"
+    },
+    {
+      "id": "topic_026:medio",
+      "ru": "половина; средний",
+      "target": "medio"
+    },
+    {
+      "id": "topic_026:picante",
+      "ru": "острый",
+      "target": "picante"
+    },
+    {
+      "id": "topic_026:pimienta",
+      "ru": "перец как приправа",
+      "target": "pimienta"
+    },
+    {
+      "id": "topic_026:receta",
+      "ru": "рецепт",
+      "target": "receta"
+    },
+    {
+      "id": "topic_026:rico",
+      "ru": "богатый; вкусный",
+      "target": "rico"
+    },
+    {
+      "id": "topic_026:tortilla",
+      "ru": "омлет",
+      "target": "tortilla"
+    },
+    {
+      "id": "topic_026:tradicional",
+      "ru": "традиционный",
+      "target": "tradicional"
+    }
+  ]
+}

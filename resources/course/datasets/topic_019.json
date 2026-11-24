@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_019",
+  "description": "Покупайте одежду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_019:amarillo",
+      "ru": "жёлтый",
+      "target": "amarillo"
+    },
+    {
+      "id": "topic_019:aquí tiene",
+      "ru": "вот, держите (вежливое обращение)",
+      "target": "aquí tiene"
+    },
+    {
+      "id": "topic_019:barato",
+      "ru": "дешёвый",
+      "target": "barato"
+    },
+    {
+      "id": "topic_019:blanco",
+      "ru": "белый",
+      "target": "blanco"
+    },
+    {
+      "id": "topic_019:blusa",
+      "ru": "блузка",
+      "target": "blusa"
+    },
+    {
+      "id": "topic_019:bolso",
+      "ru": "сумка",
+      "target": "bolso"
+    },
+    {
+      "id": "topic_019:bufanda",
+      "ru": "шарф",
+      "target": "bufanda"
+    },
+    {
+      "id": "topic_019:camisa",
+      "ru": "рубашка",
+      "target": "camisa"
+    },
+    {
+      "id": "topic_019:cinturón",
+      "ru": "ремень",
+      "target": "cinturón"
+    },
+    {
+      "id": "topic_019:collar",
+      "ru": "ожерелье",
+      "target": "collar"
+    },
+    {
+      "id": "topic_019:en oferta",
+      "ru": "по акции",
+      "target": "en oferta"
+    },
+    {
+      "id": "topic_019:en serio",
+      "ru": "серьёзно",
+      "target": "en serio"
+    },
+    {
+      "id": "topic_019:falda",
+      "ru": "юбка",
+      "target": "falda"
+    },
+    {
+      "id": "topic_019:largo",
+      "ru": "длинный",
+      "target": "largo"
+    },
+    {
+      "id": "topic_019:morado",
+      "ru": "фиолетовый",
+      "target": "morado"
+    },
+    {
+      "id": "topic_019:negro",
+      "ru": "чёрный",
+      "target": "negro"
+    },
+    {
+      "id": "topic_019:rojo",
+      "ru": "красный",
+      "target": "rojo"
+    },
+    {
+      "id": "topic_019:sombrero",
+      "ru": "шляпа",
+      "target": "sombrero"
+    },
+    {
+      "id": "topic_019:traje",
+      "ru": "костюм",
+      "target": "traje"
+    }
+  ]
+}

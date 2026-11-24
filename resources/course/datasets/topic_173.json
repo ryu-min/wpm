@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_173",
+  "description": "Обсуди прошлые события",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_173:en mi vida",
+      "ru": "в моей жизни",
+      "target": "en mi vida"
+    },
+    {
+      "id": "topic_173:en vivo",
+      "ru": "вживую",
+      "target": "en vivo"
+    },
+    {
+      "id": "topic_173:olvidado",
+      "ru": "забытый",
+      "target": "olvidado"
+    },
+    {
+      "id": "topic_173:permiso",
+      "ru": "разрешение",
+      "target": "permiso"
+    },
+    {
+      "id": "topic_173:personalmente",
+      "ru": "лично",
+      "target": "personalmente"
+    },
+    {
+      "id": "topic_173:prometer",
+      "ru": "обещать",
+      "target": "prometer"
+    }
+  ]
+}

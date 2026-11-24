@@ -1,0 +1,24 @@
+{
+  "accessed": "2026-11-24",
+  "vocabulary_version": "17.11.2026",
+  "structure_version": "2026/02/20",
+  "files": [
+    {
+      "path": "duome.html",
+      "url": "https://duome.eu/vocabulary/ru/es/skills",
+      "sha256": "d9e17b3a274af776bd9c3fd086ed9c2ec7a5d8a97a0ddb9344fa7bbc84aa77ed"
+    },
+    {
+      "path": "structure.html",
+      "url": "https://duolingodata.com/dat/esfru991.html",
+      "sha256": "e9505eb0b4d133020cc1ef5ad80039d9c8051e483b6dbd67980c12bb4277088c"
+    },
+    {
+      "path": "structure-details.html",
+      "url": "https://duolingodata.com/dat/esfru991-d.html",
+      "sha256": "1fd2935083e9fe596c5fdf6d2eaefdcdc75d536198798ad52875f1798336a555"
+    }
+  ],
+  "normalization_reference": "https://github.com/michmech/lemmatization-lists/blob/master/lemmatization-es.txt",
+  "normalization_reference_scope": "Candidate lemmas were consulted; the external dictionary is not redistributed. Explicit decisions are stored in normalization.json."
+}

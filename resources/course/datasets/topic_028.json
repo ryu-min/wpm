@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_028",
+  "description": "Опишите внешность",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_028:azul",
+      "ru": "синий",
+      "target": "azul"
+    },
+    {
+      "id": "topic_028:barba",
+      "ru": "борода",
+      "target": "barba"
+    },
+    {
+      "id": "topic_028:corto",
+      "ru": "короткий",
+      "target": "corto"
+    },
+    {
+      "id": "topic_028:flaco",
+      "ru": "худой",
+      "target": "flaco"
+    },
+    {
+      "id": "topic_028:foto",
+      "ru": "фотография",
+      "target": "foto"
+    },
+    {
+      "id": "topic_028:fuerte",
+      "ru": "сильный",
+      "target": "fuerte"
+    },
+    {
+      "id": "topic_028:guapo",
+      "ru": "красивый",
+      "target": "guapo"
+    },
+    {
+      "id": "topic_028:joven",
+      "ru": "молодой",
+      "target": "joven"
+    },
+    {
+      "id": "topic_028:moreno",
+      "ru": "темноволосый",
+      "target": "moreno"
+    },
+    {
+      "id": "topic_028:ojo",
+      "ru": "глаз",
+      "target": "ojo"
+    },
+    {
+      "id": "topic_028:padre",
+      "ru": "отец",
+      "target": "padre"
+    },
+    {
+      "id": "topic_028:pelirrojo",
+      "ru": "рыжий",
+      "target": "pelirrojo"
+    },
+    {
+      "id": "topic_028:pelo",
+      "ru": "волосы",
+      "target": "pelo"
+    },
+    {
+      "id": "topic_028:rubio",
+      "ru": "светловолосый",
+      "target": "rubio"
+    },
+    {
+      "id": "topic_028:sobrina",
+      "ru": "племянница",
+      "target": "sobrina"
+    },
+    {
+      "id": "topic_028:sobrino",
+      "ru": "племянник",
+      "target": "sobrino"
+    }
+  ]
+}

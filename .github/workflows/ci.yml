@@ -80,6 +80,9 @@ jobs:
       - name: cargo generate-lockfile
         if: hashFiles('Cargo.lock') == ''
         run: cargo generate-lockfile
+      - name: Validate Spanish course sources and generated datasets
+        if: runner.os == 'Linux'
+        run: python3 scripts/validate_spanish_course.py --self-test
       - name: cargo test --locked
         run: cargo test --locked --all-features --all-targets
       - name: Cache Cargo dependencies
@@ -101,13 +104,17 @@ jobs:
         run: cargo install --path . --locked --root "${{ runner.temp }}/wpm-install"
       - name: Verify installed binary on Linux and macOS
         if: runner.os != 'Windows'
-        run: test -x "${{ runner.temp }}/wpm-install/bin/wpm"
+        run: |
+          test -x "${{ runner.temp }}/wpm-install/bin/wpm"
+          test -x "${{ runner.temp }}/wpm-install/bin/wpm-es"
       - name: Verify installed binary on Windows
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          $binary = Join-Path '${{ runner.temp }}' 'wpm-install/bin/wpm.exe'
-          if (-not (Test-Path -LiteralPath $binary -PathType Leaf)) { throw "wpm.exe was not installed" }
+          foreach ($name in 'wpm.exe', 'wpm-es.exe') {
+            $binary = Join-Path '${{ runner.temp }}' "wpm-install/bin/$name"
+            if (-not (Test-Path -LiteralPath $binary -PathType Leaf)) { throw "$name was not installed" }
+          }
   install-from-git:
     if: github.event_name == 'push' && github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
@@ -120,4 +127,6 @@ jobs:
       - name: Install from public Git repository
         run: cargo install --git https://github.com/ryu-min/wmp --locked --root "${{ runner.temp }}/wpm-git-install"
       - name: Verify installed binary
-        run: test -x "${{ runner.temp }}/wpm-git-install/bin/wpm"
+        run: |
+          test -x "${{ runner.temp }}/wpm-git-install/bin/wpm"
+          test -x "${{ runner.temp }}/wpm-git-install/bin/wpm-es"

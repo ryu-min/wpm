@@ -1,7 +1,25 @@
+#[path = "src/dataset/course_build.rs"]
+mod course_build;
 #[allow(dead_code)]
 #[path = "src/dataset/mod.rs"]
 mod dataset;
+
 fn main() {
+    let course_dir = std::path::Path::new("resources/course");
+    for input in ["manifest.json", "datasets"] {
+        println!(
+            "cargo:rerun-if-changed={}",
+            course_dir.join(input).display()
+        );
+    }
+    println!("cargo:rerun-if-changed=src/dataset/course_build.rs");
+    let course =
+        course_build::assemble(course_dir).unwrap_or_else(|e| panic!("Spanish course: {e}"));
+    std::fs::write(
+        std::path::PathBuf::from(std::env::var_os("OUT_DIR").unwrap()).join("spanish-course.json"),
+        course,
+    )
+    .unwrap();
     println!("cargo:rerun-if-changed=resources/datasets");
     println!("cargo:rerun-if-changed=src/dataset/mod.rs");
     let mut ids = std::collections::BTreeMap::<String, String>::new();

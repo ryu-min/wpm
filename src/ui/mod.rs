@@ -1,3 +1,4 @@
+pub(crate) mod course;
 mod menu;
 mod mode_select;
 mod result;

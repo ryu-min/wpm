@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_280",
+  "description": "Расскажи страшную историю",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_280:abandonar",
+      "ru": "покидать",
+      "target": "abandonar"
+    },
+    {
+      "id": "topic_280:aterrador",
+      "ru": "пугающий",
+      "target": "aterrador"
+    },
+    {
+      "id": "topic_280:cementerio",
+      "ru": "кладбище",
+      "target": "cementerio"
+    },
+    {
+      "id": "topic_280:de solo",
+      "ru": "Только",
+      "target": "de solo"
+    },
+    {
+      "id": "topic_280:espantar",
+      "ru": "отпугивать",
+      "target": "espantar"
+    },
+    {
+      "id": "topic_280:espíritu",
+      "ru": "дух",
+      "target": "espíritu"
+    },
+    {
+      "id": "topic_280:hombre lobo",
+      "ru": "оборотень, оборотнем, оборотне, оборотня",
+      "target": "hombre lobo"
+    },
+    {
+      "id": "topic_280:linterna",
+      "ru": "фонарик",
+      "target": "linterna"
+    },
+    {
+      "id": "topic_280:observar",
+      "ru": "наблюдать",
+      "target": "observar"
+    },
+    {
+      "id": "topic_280:piel de gallina",
+      "ru": "мурашки по коже",
+      "target": "piel de gallina"
+    },
+    {
+      "id": "topic_280:pánico",
+      "ru": "паника",
+      "target": "pánico"
+    },
+    {
+      "id": "topic_280:qué susto",
+      "ru": "какой испуг",
+      "target": "qué susto"
+    },
+    {
+      "id": "topic_280:sensación",
+      "ru": "ощущение",
+      "target": "sensación"
+    },
+    {
+      "id": "topic_280:solitario",
+      "ru": "одинокий",
+      "target": "solitario"
+    },
+    {
+      "id": "topic_280:supersticioso",
+      "ru": "суеверный",
+      "target": "supersticioso"
+    },
+    {
+      "id": "topic_280:tumba",
+      "ru": "могила",
+      "target": "tumba"
+    }
+  ]
+}

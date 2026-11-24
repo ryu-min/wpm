@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_166",
+  "description": "Обсудим гаджеты и соцсети",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_166:antivirus",
+      "ru": "антивирус",
+      "target": "antivirus"
+    },
+    {
+      "id": "topic_166:auricular",
+      "ru": "наушник",
+      "target": "auricular"
+    },
+    {
+      "id": "topic_166:control remoto",
+      "ru": "пульт дистанционного управления",
+      "target": "control remoto"
+    },
+    {
+      "id": "topic_166:cámara web",
+      "ru": "веб-камера",
+      "target": "cámara web"
+    },
+    {
+      "id": "topic_166:enchufar",
+      "ru": "подключиться",
+      "target": "enchufar"
+    },
+    {
+      "id": "topic_166:equipo de música",
+      "ru": "оборудование, музыкальный центр",
+      "target": "equipo de música"
+    },
+    {
+      "id": "topic_166:favor",
+      "ru": "одолжение",
+      "target": "favor"
+    },
+    {
+      "id": "topic_166:navegador",
+      "ru": "браузер",
+      "target": "navegador"
+    },
+    {
+      "id": "topic_166:reenviar",
+      "ru": "переслать",
+      "target": "reenviar"
+    }
+  ]
+}

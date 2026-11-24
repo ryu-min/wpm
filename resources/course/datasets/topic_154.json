@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_154",
+  "description": "Обсуди технику и мебель",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_154:grifo",
+      "ru": "кран",
+      "target": "grifo"
+    },
+    {
+      "id": "topic_154:hacer la cama",
+      "ru": "застилать кровать",
+      "target": "hacer la cama"
+    },
+    {
+      "id": "topic_154:lavavajillas",
+      "ru": "посудомоечная машина",
+      "target": "lavavajillas"
+    },
+    {
+      "id": "topic_154:mancha",
+      "ru": "пятно",
+      "target": "mancha"
+    },
+    {
+      "id": "topic_154:me la",
+      "ru": "мне её",
+      "target": "me la"
+    },
+    {
+      "id": "topic_154:me lo",
+      "ru": "мне его, мне её",
+      "target": "me lo"
+    },
+    {
+      "id": "topic_154:me los",
+      "ru": "их мне",
+      "target": "me los"
+    },
+    {
+      "id": "topic_154:nos lo",
+      "ru": "нам его",
+      "target": "nos lo"
+    },
+    {
+      "id": "topic_154:quitar",
+      "ru": "убирать",
+      "target": "quitar"
+    },
+    {
+      "id": "topic_154:reciclar",
+      "ru": "перерабатывать отходы",
+      "target": "reciclar"
+    },
+    {
+      "id": "topic_154:se lo",
+      "ru": "ему, ей, им или Вам это (сочетание местоимений)",
+      "target": "se lo"
+    },
+    {
+      "id": "topic_154:tareas domésticas",
+      "ru": "домашние дела",
+      "target": "tareas domésticas"
+    },
+    {
+      "id": "topic_154:te lo",
+      "ru": "тебе это",
+      "target": "te lo"
+    }
+  ]
+}

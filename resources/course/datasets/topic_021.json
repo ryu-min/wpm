@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_021",
+  "description": "Используйте неопределенные артикли",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_021:aguacate",
+      "ru": "авокадо",
+      "target": "aguacate"
+    },
+    {
+      "id": "topic_021:ahora mismo",
+      "ru": "прямо сейчас",
+      "target": "ahora mismo"
+    },
+    {
+      "id": "topic_021:almuerzo",
+      "ru": "обед",
+      "target": "almuerzo"
+    },
+    {
+      "id": "topic_021:ensalada",
+      "ru": "салат",
+      "target": "ensalada"
+    },
+    {
+      "id": "topic_021:esperar",
+      "ru": "ждать",
+      "target": "esperar"
+    },
+    {
+      "id": "topic_021:fresa",
+      "ru": "клубника",
+      "target": "fresa"
+    },
+    {
+      "id": "topic_021:lima",
+      "ru": "лайм",
+      "target": "lima"
+    },
+    {
+      "id": "topic_021:manzana",
+      "ru": "яблоко",
+      "target": "manzana"
+    },
+    {
+      "id": "topic_021:minuto",
+      "ru": "минута",
+      "target": "minuto"
+    },
+    {
+      "id": "topic_021:para",
+      "ru": "для",
+      "target": "para"
+    },
+    {
+      "id": "topic_021:pepino",
+      "ru": "огурец",
+      "target": "pepino"
+    },
+    {
+      "id": "topic_021:pera",
+      "ru": "груша",
+      "target": "pera"
+    },
+    {
+      "id": "topic_021:pimiento",
+      "ru": "сладкий перец",
+      "target": "pimiento"
+    },
+    {
+      "id": "topic_021:plátano",
+      "ru": "банан",
+      "target": "plátano"
+    },
+    {
+      "id": "topic_021:señor",
+      "ru": "господин",
+      "target": "señor"
+    },
+    {
+      "id": "topic_021:señora",
+      "ru": "госпожа",
+      "target": "señora"
+    },
+    {
+      "id": "topic_021:unas",
+      "ru": "неопределённый артикль, женский род, множественное число",
+      "target": "unas"
+    },
+    {
+      "id": "topic_021:zanahoria",
+      "ru": "морковь",
+      "target": "zanahoria"
+    }
+  ]
+}

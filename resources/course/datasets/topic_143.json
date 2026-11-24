@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_143",
+  "description": "Не бойся и предупреди",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_143:desconocido",
+      "ru": "неизвестный",
+      "target": "desconocido"
+    },
+    {
+      "id": "topic_143:frágil",
+      "ru": "хрупкий",
+      "target": "frágil"
+    },
+    {
+      "id": "topic_143:galería",
+      "ru": "галерея",
+      "target": "galería"
+    },
+    {
+      "id": "topic_143:salida de emergencia",
+      "ru": "аварийный выход",
+      "target": "salida de emergencia"
+    },
+    {
+      "id": "topic_143:terremoto",
+      "ru": "землетрясение",
+      "target": "terremoto"
+    },
+    {
+      "id": "topic_143:tigre",
+      "ru": "тигр",
+      "target": "tigre"
+    }
+  ]
+}

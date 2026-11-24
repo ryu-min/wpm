@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_076",
+  "description": "Обсудите семейные черты",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_076:arruga",
+      "ru": "морщинистая",
+      "target": "arruga"
+    },
+    {
+      "id": "topic_076:cana",
+      "ru": "седой волос",
+      "target": "cana"
+    },
+    {
+      "id": "topic_076:carácter",
+      "ru": "характер",
+      "target": "carácter"
+    },
+    {
+      "id": "topic_076:delgado",
+      "ru": "худой",
+      "target": "delgado"
+    },
+    {
+      "id": "topic_076:edad",
+      "ru": "возраст",
+      "target": "edad"
+    },
+    {
+      "id": "topic_076:generación",
+      "ru": "поколение",
+      "target": "generación"
+    },
+    {
+      "id": "topic_076:honesto",
+      "ru": "честный",
+      "target": "honesto"
+    },
+    {
+      "id": "topic_076:maravilloso",
+      "ru": "чудесный",
+      "target": "maravilloso"
+    },
+    {
+      "id": "topic_076:mayor",
+      "ru": "больше",
+      "target": "mayor"
+    },
+    {
+      "id": "topic_076:menor",
+      "ru": "младший",
+      "target": "menor"
+    },
+    {
+      "id": "topic_076:muchacho",
+      "ru": "парень",
+      "target": "muchacho"
+    },
+    {
+      "id": "topic_076:musculoso",
+      "ru": "мускулистый",
+      "target": "musculoso"
+    },
+    {
+      "id": "topic_076:nariz",
+      "ru": "нос",
+      "target": "nariz"
+    },
+    {
+      "id": "topic_076:nieto",
+      "ru": "внук",
+      "target": "nieto"
+    },
+    {
+      "id": "topic_076:travieso",
+      "ru": "озорник",
+      "target": "travieso"
+    },
+    {
+      "id": "topic_076:verse",
+      "ru": "видеться",
+      "target": "verse"
+    }
+  ]
+}

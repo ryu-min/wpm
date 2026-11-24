@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "topic_016",
+  "description": "Обсуждайте еду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_016:azúcar",
+      "ru": "сахар",
+      "target": "azúcar"
+    },
+    {
+      "id": "topic_016:batido",
+      "ru": "молочный коктейль",
+      "target": "batido"
+    },
+    {
+      "id": "topic_016:bebida",
+      "ru": "напиток",
+      "target": "bebida"
+    },
+    {
+      "id": "topic_016:carne",
+      "ru": "мясо",
+      "target": "carne"
+    },
+    {
+      "id": "topic_016:claro",
+      "ru": "конечно",
+      "target": "claro"
+    },
+    {
+      "id": "topic_016:cuenta",
+      "ru": "счёт",
+      "target": "cuenta"
+    },
+    {
+      "id": "topic_016:disculpar",
+      "ru": "извинять",
+      "target": "disculpar"
+    },
+    {
+      "id": "topic_016:frijol",
+      "ru": "фасоль",
+      "target": "frijol"
+    },
+    {
+      "id": "topic_016:galleta",
+      "ru": "печенье",
+      "target": "galleta"
+    },
+    {
+      "id": "topic_016:hamburguesa",
+      "ru": "гамбургер",
+      "target": "hamburguesa"
+    },
+    {
+      "id": "topic_016:hielo",
+      "ru": "лёд",
+      "target": "hielo"
+    },
+    {
+      "id": "topic_016:huevo",
+      "ru": "яйцо",
+      "target": "huevo"
+    },
+    {
+      "id": "topic_016:las",
+      "ru": "опр. артикль ж.р. мн.ч.",
+      "target": "las"
+    },
+    {
+      "id": "topic_016:leche",
+      "ru": "молоко",
+      "target": "leche"
+    },
+    {
+      "id": "topic_016:llevar",
+      "ru": "нести",
+      "target": "llevar"
+    },
+    {
+      "id": "topic_016:lo siento",
+      "ru": "простите",
+      "target": "lo siento"
+    },
+    {
+      "id": "topic_016:los",
+      "ru": "вас",
+      "target": "los"
+    },
+    {
+      "id": "topic_016:papa",
+      "ru": "картошка",
+      "target": "papa"
+    },
+    {
+      "id": "topic_016:pastel",
+      "ru": "пирожное",
+      "target": "pastel"
+    },
+    {
+      "id": "topic_016:queso",
+      "ru": "сыр",
+      "target": "queso"
+    },
+    {
+      "id": "topic_016:sal",
+      "ru": "соль",
+      "target": "sal"
+    },
+    {
+      "id": "topic_016:sin",
+      "ru": "без",
+      "target": "sin"
+    },
+    {
+      "id": "topic_016:sin gluten",
+      "ru": "без глютена",
+      "target": "sin gluten"
+    },
+    {
+      "id": "topic_016:verdura",
+      "ru": "овощи",
+      "target": "verdura"
+    }
+  ]
+}

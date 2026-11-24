@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_097",
+  "description": "Планируйте свое путешествие",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_097:amanecer",
+      "ru": "рассветать",
+      "target": "amanecer"
+    },
+    {
+      "id": "topic_097:bikini",
+      "ru": "Бикини",
+      "target": "bikini"
+    },
+    {
+      "id": "topic_097:carpa",
+      "ru": "палатка; карп",
+      "target": "carpa"
+    },
+    {
+      "id": "topic_097:cascada",
+      "ru": "водопад",
+      "target": "cascada"
+    },
+    {
+      "id": "topic_097:deber",
+      "ru": "быть должным",
+      "target": "deber"
+    },
+    {
+      "id": "topic_097:decidir",
+      "ru": "решать",
+      "target": "decidir"
+    },
+    {
+      "id": "topic_097:desordenado",
+      "ru": "неопрятный; неорганизованный",
+      "target": "desordenado"
+    },
+    {
+      "id": "topic_097:detrás de",
+      "ru": "за",
+      "target": "detrás de"
+    },
+    {
+      "id": "topic_097:jamás",
+      "ru": "никогда",
+      "target": "jamás"
+    },
+    {
+      "id": "topic_097:lata",
+      "ru": "жестяная банка",
+      "target": "lata"
+    },
+    {
+      "id": "topic_097:luna",
+      "ru": "луна",
+      "target": "luna"
+    },
+    {
+      "id": "topic_097:manta",
+      "ru": "одеяло",
+      "target": "manta"
+    },
+    {
+      "id": "topic_097:mil gracias",
+      "ru": "большое спасибо",
+      "target": "mil gracias"
+    },
+    {
+      "id": "topic_097:millón",
+      "ru": "миллион",
+      "target": "millón"
+    },
+    {
+      "id": "topic_097:protector solar",
+      "ru": "солнцезащитный крем",
+      "target": "protector solar"
+    },
+    {
+      "id": "topic_097:público",
+      "ru": "публика",
+      "target": "público"
+    },
+    {
+      "id": "topic_097:repelente",
+      "ru": "репеллент",
+      "target": "repelente"
+    },
+    {
+      "id": "topic_097:sorprender",
+      "ru": "удивлять",
+      "target": "sorprender"
+    },
+    {
+      "id": "topic_097:tomar el sol",
+      "ru": "загорать",
+      "target": "tomar el sol"
+    }
+  ]
+}

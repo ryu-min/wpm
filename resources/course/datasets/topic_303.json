@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_303",
+  "description": "Расскажи о своей учёбе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_303:a medida que",
+      "ru": "по мере того как",
+      "target": "a medida que"
+    },
+    {
+      "id": "topic_303:adicionalmente",
+      "ru": "дополнительно",
+      "target": "adicionalmente"
+    },
+    {
+      "id": "topic_303:arreglárselas",
+      "ru": "справиться",
+      "target": "arreglárselas"
+    },
+    {
+      "id": "topic_303:dominar",
+      "ru": "овладеть",
+      "target": "dominar"
+    },
+    {
+      "id": "topic_303:en conclusión",
+      "ru": "в заключение",
+      "target": "en conclusión"
+    },
+    {
+      "id": "topic_303:en todo caso",
+      "ru": "в любом случае",
+      "target": "en todo caso"
+    },
+    {
+      "id": "topic_303:enseñanza",
+      "ru": "преподавание",
+      "target": "enseñanza"
+    },
+    {
+      "id": "topic_303:escritura",
+      "ru": "нотариальный акт",
+      "target": "escritura"
+    },
+    {
+      "id": "topic_303:hay mucho que",
+      "ru": "Есть много, что, есть много, что",
+      "target": "hay mucho que"
+    },
+    {
+      "id": "topic_303:por lo tanto",
+      "ru": "поэтому",
+      "target": "por lo tanto"
+    },
+    {
+      "id": "topic_303:tener constancia",
+      "ru": "проявлять настойчивость",
+      "target": "tener constancia"
+    },
+    {
+      "id": "topic_303:y mucho menos",
+      "ru": "и тем более",
+      "target": "y mucho menos"
+    }
+  ]
+}

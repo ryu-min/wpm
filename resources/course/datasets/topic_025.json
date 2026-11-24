@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "topic_025",
+  "description": "Узнавайте дорогу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_025:a pie",
+      "ru": "пешком",
+      "target": "a pie"
+    },
+    {
+      "id": "topic_025:a tiempo",
+      "ru": "вовремя",
+      "target": "a tiempo"
+    },
+    {
+      "id": "topic_025:al",
+      "ru": "при",
+      "target": "al"
+    },
+    {
+      "id": "topic_025:al lado de",
+      "ru": "рядом с",
+      "target": "al lado de"
+    },
+    {
+      "id": "topic_025:autobús",
+      "ru": "автобус",
+      "target": "autobús"
+    },
+    {
+      "id": "topic_025:cinco",
+      "ru": "пять",
+      "target": "cinco"
+    },
+    {
+      "id": "topic_025:cuadra",
+      "ru": "квартал",
+      "target": "cuadra"
+    },
+    {
+      "id": "topic_025:costar",
+      "ru": "стоить",
+      "target": "costar"
+    },
+    {
+      "id": "topic_025:cuándo",
+      "ru": "когда",
+      "target": "cuándo"
+    },
+    {
+      "id": "topic_025:cuánto",
+      "ru": "сколько",
+      "target": "cuánto"
+    },
+    {
+      "id": "topic_025:cómo",
+      "ru": "как",
+      "target": "cómo"
+    },
+    {
+      "id": "topic_025:diez",
+      "ru": "десять",
+      "target": "diez"
+    },
+    {
+      "id": "topic_025:entre",
+      "ru": "между",
+      "target": "entre"
+    },
+    {
+      "id": "topic_025:farmacia",
+      "ru": "аптека",
+      "target": "farmacia"
+    },
+    {
+      "id": "topic_025:hora",
+      "ru": "час",
+      "target": "hora"
+    },
+    {
+      "id": "topic_025:llegar",
+      "ru": "прибывать",
+      "target": "llegar"
+    },
+    {
+      "id": "topic_025:manejar",
+      "ru": "водить",
+      "target": "manejar"
+    },
+    {
+      "id": "topic_025:metro",
+      "ru": "метро",
+      "target": "metro"
+    },
+    {
+      "id": "topic_025:pronto",
+      "ru": "скоро",
+      "target": "pronto"
+    },
+    {
+      "id": "topic_025:puerto",
+      "ru": "порт",
+      "target": "puerto"
+    },
+    {
+      "id": "topic_025:quién",
+      "ru": "кто",
+      "target": "quién"
+    },
+    {
+      "id": "topic_025:salir",
+      "ru": "выходить",
+      "target": "salir"
+    },
+    {
+      "id": "topic_025:tomar",
+      "ru": "брать",
+      "target": "tomar"
+    },
+    {
+      "id": "topic_025:tren",
+      "ru": "поезд",
+      "target": "tren"
+    },
+    {
+      "id": "topic_025:ir",
+      "ru": "идти",
+      "target": "ir"
+    }
+  ]
+}

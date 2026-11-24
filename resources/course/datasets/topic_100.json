@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_100",
+  "description": "Используйте настоящее совершенное время",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_100:buen día",
+      "ru": "доброе утро",
+      "target": "buen día"
+    },
+    {
+      "id": "topic_100:currículum",
+      "ru": "резюме",
+      "target": "currículum"
+    },
+    {
+      "id": "topic_100:cómo está",
+      "ru": "как вы",
+      "target": "cómo está"
+    },
+    {
+      "id": "topic_100:dueño",
+      "ru": "владелец",
+      "target": "dueño"
+    },
+    {
+      "id": "topic_100:enhorabuena",
+      "ru": "поздравляю",
+      "target": "enhorabuena"
+    },
+    {
+      "id": "topic_100:fotocopia",
+      "ru": "ксерокопия",
+      "target": "fotocopia"
+    },
+    {
+      "id": "topic_100:fotocopiadora",
+      "ru": "копировальный аппарат",
+      "target": "fotocopiadora"
+    },
+    {
+      "id": "topic_100:informal",
+      "ru": "непринуждённый",
+      "target": "informal"
+    },
+    {
+      "id": "topic_100:jubilarse",
+      "ru": "выйти",
+      "target": "jubilarse"
+    },
+    {
+      "id": "topic_100:maletín",
+      "ru": "портфель",
+      "target": "maletín"
+    },
+    {
+      "id": "topic_100:mecánico",
+      "ru": "механик",
+      "target": "mecánico"
+    },
+    {
+      "id": "topic_100:pizarra",
+      "ru": "классная доска",
+      "target": "pizarra"
+    },
+    {
+      "id": "topic_100:presidente",
+      "ru": "президент",
+      "target": "presidente"
+    },
+    {
+      "id": "topic_100:salario",
+      "ru": "зарплата",
+      "target": "salario"
+    },
+    {
+      "id": "topic_100:sentarse",
+      "ru": "садиться",
+      "target": "sentarse"
+    }
+  ]
+}

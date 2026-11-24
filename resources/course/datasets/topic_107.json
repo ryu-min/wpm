@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_107",
+  "description": "Пожалуйтесь на поездку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_107:a cada rato",
+      "ru": "постоянно",
+      "target": "a cada rato"
+    },
+    {
+      "id": "topic_107:adónde",
+      "ru": "куда",
+      "target": "adónde"
+    },
+    {
+      "id": "topic_107:arena",
+      "ru": "песок",
+      "target": "arena"
+    },
+    {
+      "id": "topic_107:doscientos",
+      "ru": "двести",
+      "target": "doscientos"
+    },
+    {
+      "id": "topic_107:feriado",
+      "ru": "праздник",
+      "target": "feriado"
+    },
+    {
+      "id": "topic_107:fue",
+      "ru": "был; пошёл (прошедшее время, он или она)",
+      "target": "fue"
+    },
+    {
+      "id": "topic_107:fueron",
+      "ru": "поехали",
+      "target": "fueron"
+    },
+    {
+      "id": "topic_107:fui",
+      "ru": "(я) пошёл/пошла, ходил, пошел, (я) сходил/сходила, был, (я) ходил/ходила, (я) съездил/съездила, (я) был/была, ушел",
+      "target": "fui"
+    },
+    {
+      "id": "topic_107:fuiste",
+      "ru": "(ты) была, (ты) был, (ты) ходил, (ты) ходила, был",
+      "target": "fuiste"
+    },
+    {
+      "id": "topic_107:gasolinera",
+      "ru": "заправка",
+      "target": "gasolinera"
+    },
+    {
+      "id": "topic_107:hora pico",
+      "ru": "час пик",
+      "target": "hora pico"
+    },
+    {
+      "id": "topic_107:insistir",
+      "ru": "настаивать",
+      "target": "insistir"
+    },
+    {
+      "id": "topic_107:lluvioso",
+      "ru": "дождливый",
+      "target": "lluvioso"
+    },
+    {
+      "id": "topic_107:lo lamento",
+      "ru": "сожалею",
+      "target": "lo lamento"
+    },
+    {
+      "id": "topic_107:molesto",
+      "ru": "раздражающий; недовольный",
+      "target": "molesto"
+    },
+    {
+      "id": "topic_107:montar a caballo",
+      "ru": "ездить на лошади",
+      "target": "montar a caballo"
+    },
+    {
+      "id": "topic_107:ni hablar",
+      "ru": "ни в коем случае",
+      "target": "ni hablar"
+    },
+    {
+      "id": "topic_107:parar",
+      "ru": "останавливаться",
+      "target": "parar"
+    },
+    {
+      "id": "topic_107:piedra",
+      "ru": "камень",
+      "target": "piedra"
+    },
+    {
+      "id": "topic_107:selva",
+      "ru": "джунгли",
+      "target": "selva"
+    },
+    {
+      "id": "topic_107:tiburón",
+      "ru": "акула",
+      "target": "tiburón"
+    }
+  ]
+}

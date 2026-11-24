@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_038",
+  "description": "Расскажите о любимых занятиях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_038:agosto",
+      "ru": "август",
+      "target": "agosto"
+    },
+    {
+      "id": "topic_038:campo",
+      "ru": "поле",
+      "target": "campo"
+    },
+    {
+      "id": "topic_038:cenar",
+      "ru": "ужинать",
+      "target": "cenar"
+    },
+    {
+      "id": "topic_038:demasiado",
+      "ru": "слишком",
+      "target": "demasiado"
+    },
+    {
+      "id": "topic_038:diferente",
+      "ru": "разный",
+      "target": "diferente"
+    },
+    {
+      "id": "topic_038:en casa",
+      "ru": "дома",
+      "target": "en casa"
+    },
+    {
+      "id": "topic_038:encantar",
+      "ru": "восхищать",
+      "target": "encantar"
+    },
+    {
+      "id": "topic_038:jugar a",
+      "ru": "играть",
+      "target": "jugar a"
+    },
+    {
+      "id": "topic_038:musical",
+      "ru": "музыкальный",
+      "target": "musical"
+    },
+    {
+      "id": "topic_038:navegar",
+      "ru": "плавать на судне",
+      "target": "navegar"
+    },
+    {
+      "id": "topic_038:paella",
+      "ru": "паэлья",
+      "target": "paella"
+    },
+    {
+      "id": "topic_038:pasar",
+      "ru": "проходить",
+      "target": "pasar"
+    },
+    {
+      "id": "topic_038:por suerte",
+      "ru": "к счастью",
+      "target": "por suerte"
+    },
+    {
+      "id": "topic_038:serie",
+      "ru": "сериал",
+      "target": "serie"
+    },
+    {
+      "id": "topic_038:sin embargo",
+      "ru": "однако",
+      "target": "sin embargo"
+    },
+    {
+      "id": "topic_038:turista",
+      "ru": "турист",
+      "target": "turista"
+    },
+    {
+      "id": "topic_038:vacación",
+      "ru": "отпуск",
+      "target": "vacación"
+    },
+    {
+      "id": "topic_038:ver",
+      "ru": "видеть",
+      "target": "ver"
+    },
+    {
+      "id": "topic_038:vida",
+      "ru": "жизнь",
+      "target": "vida"
+    },
+    {
+      "id": "topic_038:vóleibol",
+      "ru": "волейбол",
+      "target": "vóleibol"
+    }
+  ]
+}

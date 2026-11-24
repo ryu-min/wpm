@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_033",
+  "description": "Обсуждайте животных",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_033:animal",
+      "ru": "животное",
+      "target": "animal"
+    },
+    {
+      "id": "topic_033:bosque",
+      "ru": "лес",
+      "target": "bosque"
+    },
+    {
+      "id": "topic_033:caballo",
+      "ru": "лошадь",
+      "target": "caballo"
+    },
+    {
+      "id": "topic_033:conocer",
+      "ru": "быть знакомым",
+      "target": "conocer"
+    },
+    {
+      "id": "topic_033:desierto",
+      "ru": "пустыня",
+      "target": "desierto"
+    },
+    {
+      "id": "topic_033:insecto",
+      "ru": "насекомое",
+      "target": "insecto"
+    },
+    {
+      "id": "topic_033:leer",
+      "ru": "читать",
+      "target": "leer"
+    },
+    {
+      "id": "topic_033:mar",
+      "ru": "море",
+      "target": "mar"
+    },
+    {
+      "id": "topic_033:mascota",
+      "ru": "домашний питомец",
+      "target": "mascota"
+    },
+    {
+      "id": "topic_033:mosquito",
+      "ru": "комар",
+      "target": "mosquito"
+    },
+    {
+      "id": "topic_033:peligroso",
+      "ru": "опасный",
+      "target": "peligroso"
+    },
+    {
+      "id": "topic_033:pez",
+      "ru": "рыба",
+      "target": "pez"
+    },
+    {
+      "id": "topic_033:pingüino",
+      "ru": "пингвин",
+      "target": "pingüino"
+    },
+    {
+      "id": "topic_033:planta",
+      "ru": "растение",
+      "target": "planta"
+    },
+    {
+      "id": "topic_033:pájaro",
+      "ru": "птица",
+      "target": "pájaro"
+    },
+    {
+      "id": "topic_033:revista",
+      "ru": "журнал",
+      "target": "revista"
+    },
+    {
+      "id": "topic_033:río",
+      "ru": "река",
+      "target": "río"
+    },
+    {
+      "id": "topic_033:serpiente",
+      "ru": "змея",
+      "target": "serpiente"
+    },
+    {
+      "id": "topic_033:sobre",
+      "ru": "над",
+      "target": "sobre"
+    },
+    {
+      "id": "topic_033:vaca",
+      "ru": "корова",
+      "target": "vaca"
+    }
+  ]
+}

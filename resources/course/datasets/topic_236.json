@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_236",
+  "description": "Обсудим травмы суставов",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_236:bronquitis",
+      "ru": "бронхит",
+      "target": "bronquitis"
+    },
+    {
+      "id": "topic_236:cansancio",
+      "ru": "усталость",
+      "target": "cansancio"
+    },
+    {
+      "id": "topic_236:cicatriz",
+      "ru": "шрам",
+      "target": "cicatriz"
+    },
+    {
+      "id": "topic_236:contagiarse",
+      "ru": "заразиться",
+      "target": "contagiarse"
+    },
+    {
+      "id": "topic_236:de antemano",
+      "ru": "заранее",
+      "target": "de antemano"
+    },
+    {
+      "id": "topic_236:debería haber",
+      "ru": "должен был",
+      "target": "debería haber"
+    },
+    {
+      "id": "topic_236:debería haberte",
+      "ru": "мне или ему следовало бы тебе… (перед причастием)",
+      "target": "debería haberte"
+    },
+    {
+      "id": "topic_236:decaído",
+      "ru": "подавленный; упавший духом",
+      "target": "decaído"
+    },
+    {
+      "id": "topic_236:deshidratar",
+      "ru": "обезвоживать",
+      "target": "deshidratar"
+    },
+    {
+      "id": "topic_236:efecto secundario",
+      "ru": "побочный эффект",
+      "target": "efecto secundario"
+    },
+    {
+      "id": "topic_236:hígado",
+      "ru": "печень",
+      "target": "hígado"
+    },
+    {
+      "id": "topic_236:leve",
+      "ru": "лёгкий",
+      "target": "leve"
+    },
+    {
+      "id": "topic_236:mareo",
+      "ru": "головокружение",
+      "target": "mareo"
+    },
+    {
+      "id": "topic_236:molestia",
+      "ru": "дискомфорт",
+      "target": "molestia"
+    },
+    {
+      "id": "topic_236:podría haber",
+      "ru": "мог бы",
+      "target": "podría haber"
+    },
+    {
+      "id": "topic_236:presión",
+      "ru": "давление",
+      "target": "presión"
+    },
+    {
+      "id": "topic_236:termómetro",
+      "ru": "термометр",
+      "target": "termómetro"
+    },
+    {
+      "id": "topic_236:torcer",
+      "ru": "поворачивать; скручивать",
+      "target": "torcer"
+    },
+    {
+      "id": "topic_236:traumatólogo",
+      "ru": "травматолог",
+      "target": "traumatólogo"
+    },
+    {
+      "id": "topic_236:vendar",
+      "ru": "перевязывать",
+      "target": "vendar"
+    }
+  ]
+}

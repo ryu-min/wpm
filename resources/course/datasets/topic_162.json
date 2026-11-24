@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_162",
+  "description": "Опиши болезнь и дай совет",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_162:atender",
+      "ru": "обслуживать",
+      "target": "atender"
+    },
+    {
+      "id": "topic_162:cirujano",
+      "ru": "хирург",
+      "target": "cirujano"
+    },
+    {
+      "id": "topic_162:consultorio",
+      "ru": "кабинет",
+      "target": "consultorio"
+    },
+    {
+      "id": "topic_162:corte",
+      "ru": "уменьшение",
+      "target": "corte"
+    },
+    {
+      "id": "topic_162:frente",
+      "ru": "лоб",
+      "target": "frente"
+    },
+    {
+      "id": "topic_162:operación",
+      "ru": "операция",
+      "target": "operación"
+    },
+    {
+      "id": "topic_162:operar",
+      "ru": "оперировать",
+      "target": "operar"
+    },
+    {
+      "id": "topic_162:profundo",
+      "ru": "глубокий",
+      "target": "profundo"
+    },
+    {
+      "id": "topic_162:se preocupe",
+      "ru": "беспокойтесь (вежливое обращение, форма без отрицания)",
+      "target": "se preocupe"
+    }
+  ]
+}

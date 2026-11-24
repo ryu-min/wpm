@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_225",
+  "description": "Опиши травму",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_225:cintura",
+      "ru": "талия",
+      "target": "cintura"
+    },
+    {
+      "id": "topic_225:circulación",
+      "ru": "кровообращение",
+      "target": "circulación"
+    },
+    {
+      "id": "topic_225:cáncer",
+      "ru": "рак",
+      "target": "cáncer"
+    },
+    {
+      "id": "topic_225:diabético",
+      "ru": "диабетик",
+      "target": "diabético"
+    },
+    {
+      "id": "topic_225:era necesario que",
+      "ru": "было необходимо, чтобы",
+      "target": "era necesario que"
+    },
+    {
+      "id": "topic_225:fibra",
+      "ru": "клетчатка",
+      "target": "fibra"
+    },
+    {
+      "id": "topic_225:oculista",
+      "ru": "окулист",
+      "target": "oculista"
+    },
+    {
+      "id": "topic_225:postura",
+      "ru": "позиция",
+      "target": "postura"
+    },
+    {
+      "id": "topic_225:primeros auxilios",
+      "ru": "первая помощь",
+      "target": "primeros auxilios"
+    },
+    {
+      "id": "topic_225:pulgar",
+      "ru": "большой палец",
+      "target": "pulgar"
+    },
+    {
+      "id": "topic_225:resaca",
+      "ru": "похмелье",
+      "target": "resaca"
+    },
+    {
+      "id": "topic_225:urgencia",
+      "ru": "неотложность",
+      "target": "urgencia"
+    }
+  ]
+}

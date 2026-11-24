@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_200",
+  "description": "Скажи спасибо",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_200:amabilidad",
+      "ru": "доброта",
+      "target": "amabilidad"
+    },
+    {
+      "id": "topic_200:gracias a",
+      "ru": "благодаря",
+      "target": "gracias a"
+    },
+    {
+      "id": "topic_200:haberme",
+      "ru": "меня",
+      "target": "haberme"
+    },
+    {
+      "id": "topic_200:muy amable",
+      "ru": "очень любезный",
+      "target": "muy amable"
+    },
+    {
+      "id": "topic_200:no hay de qué",
+      "ru": "Не за что",
+      "target": "no hay de qué"
+    },
+    {
+      "id": "topic_200:no hay problema",
+      "ru": "нет проблем",
+      "target": "no hay problema"
+    },
+    {
+      "id": "topic_200:no tienes por qué",
+      "ru": "тебе незачем; ты не обязан",
+      "target": "no tienes por qué"
+    },
+    {
+      "id": "topic_200:placer",
+      "ru": "удовольствие",
+      "target": "placer"
+    },
+    {
+      "id": "topic_200:por anticipado",
+      "ru": "заранее",
+      "target": "por anticipado"
+    },
+    {
+      "id": "topic_200:por nada",
+      "ru": "ни на что",
+      "target": "por nada"
+    }
+  ]
+}

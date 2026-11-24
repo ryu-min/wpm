@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_227",
+  "description": "Реагируй на неожиданные новости",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_227:bromear",
+      "ru": "шутить",
+      "target": "bromear"
+    },
+    {
+      "id": "topic_227:cabina",
+      "ru": "кабина",
+      "target": "cabina"
+    },
+    {
+      "id": "topic_227:calzoncillo",
+      "ru": "мужские трусы",
+      "target": "calzoncillo"
+    },
+    {
+      "id": "topic_227:casco",
+      "ru": "шлем",
+      "target": "casco"
+    },
+    {
+      "id": "topic_227:derramar",
+      "ru": "проливать",
+      "target": "derramar"
+    },
+    {
+      "id": "topic_227:filmar",
+      "ru": "снимать на видео",
+      "target": "filmar"
+    },
+    {
+      "id": "topic_227:hacia atrás",
+      "ru": "назад",
+      "target": "hacia atrás"
+    },
+    {
+      "id": "topic_227:maletero",
+      "ru": "багажник",
+      "target": "maletero"
+    },
+    {
+      "id": "topic_227:mirada",
+      "ru": "взгляд",
+      "target": "mirada"
+    },
+    {
+      "id": "topic_227:no me digas",
+      "ru": "что ты говоришь",
+      "target": "no me digas"
+    },
+    {
+      "id": "topic_227:no puede ser",
+      "ru": "Не может быть",
+      "target": "no puede ser"
+    },
+    {
+      "id": "topic_227:no te creo",
+      "ru": "Я тебе не верю",
+      "target": "no te creo"
+    },
+    {
+      "id": "topic_227:octavo",
+      "ru": "восьмой",
+      "target": "octavo"
+    },
+    {
+      "id": "topic_227:uy",
+      "ru": "ой",
+      "target": "uy"
+    },
+    {
+      "id": "topic_227:ventanilla",
+      "ru": "окошко обслуживания",
+      "target": "ventanilla"
+    }
+  ]
+}

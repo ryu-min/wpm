@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_300",
+  "description": "Обсуди инновации и ИИ",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_300:acerca de",
+      "ru": "о",
+      "target": "acerca de"
+    },
+    {
+      "id": "topic_300:crecimiento",
+      "ru": "рост",
+      "target": "crecimiento"
+    },
+    {
+      "id": "topic_300:de una vez",
+      "ru": "поскорее",
+      "target": "de una vez"
+    },
+    {
+      "id": "topic_300:ejercer de",
+      "ru": "работать, работали",
+      "target": "ejercer de"
+    },
+    {
+      "id": "topic_300:eliminar",
+      "ru": "устранять",
+      "target": "eliminar"
+    },
+    {
+      "id": "topic_300:fabricar",
+      "ru": "изготавливать",
+      "target": "fabricar"
+    },
+    {
+      "id": "topic_300:fluir",
+      "ru": "течь",
+      "target": "fluir"
+    },
+    {
+      "id": "topic_300:ganarse la vida",
+      "ru": "зарабатывать",
+      "target": "ganarse la vida"
+    },
+    {
+      "id": "topic_300:gracias a dios",
+      "ru": "слава Богу",
+      "target": "gracias a dios"
+    },
+    {
+      "id": "topic_300:innovador",
+      "ru": "инновационный",
+      "target": "innovador"
+    },
+    {
+      "id": "topic_300:inteligencia artificial",
+      "ru": "искусственный интеллект",
+      "target": "inteligencia artificial"
+    },
+    {
+      "id": "topic_300:interactuar",
+      "ru": "взаимодействовать",
+      "target": "interactuar"
+    },
+    {
+      "id": "topic_300:intrascendente",
+      "ru": "несущественный",
+      "target": "intrascendente"
+    },
+    {
+      "id": "topic_300:posibilidad",
+      "ru": "возможность",
+      "target": "posibilidad"
+    },
+    {
+      "id": "topic_300:preguntón",
+      "ru": "любопытный; постоянно задающий вопросы",
+      "target": "preguntón"
+    },
+    {
+      "id": "topic_300:profundizar",
+      "ru": "углубиться",
+      "target": "profundizar"
+    },
+    {
+      "id": "topic_300:qué hay de",
+      "ru": "как насчёт; что скажешь о",
+      "target": "qué hay de"
+    },
+    {
+      "id": "topic_300:timidez",
+      "ru": "застенчивость",
+      "target": "timidez"
+    },
+    {
+      "id": "topic_300:trayectoria",
+      "ru": "карьера",
+      "target": "trayectoria"
+    }
+  ]
+}

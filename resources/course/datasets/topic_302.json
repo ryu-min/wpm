@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_302",
+  "description": "Обсуди трудности переезда",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_302:adaptador",
+      "ru": "адаптер",
+      "target": "adaptador"
+    },
+    {
+      "id": "topic_302:agradecido",
+      "ru": "благодарный",
+      "target": "agradecido"
+    },
+    {
+      "id": "topic_302:alcantarilla",
+      "ru": "канализационный сток",
+      "target": "alcantarilla"
+    },
+    {
+      "id": "topic_302:apagón",
+      "ru": "отключение электроэнергии",
+      "target": "apagón"
+    },
+    {
+      "id": "topic_302:bacalao",
+      "ru": "треска",
+      "target": "bacalao"
+    },
+    {
+      "id": "topic_302:canela",
+      "ru": "корица",
+      "target": "canela"
+    },
+    {
+      "id": "topic_302:ciudadanía",
+      "ru": "гражданство",
+      "target": "ciudadanía"
+    },
+    {
+      "id": "topic_302:documentación",
+      "ru": "документация",
+      "target": "documentación"
+    },
+    {
+      "id": "topic_302:elaborado",
+      "ru": "сложный; тщательно разработанный",
+      "target": "elaborado"
+    },
+    {
+      "id": "topic_302:en regla",
+      "ru": "в порядке",
+      "target": "en regla"
+    },
+    {
+      "id": "topic_302:en sentido contrario",
+      "ru": "в противоположном направлении",
+      "target": "en sentido contrario"
+    },
+    {
+      "id": "topic_302:gratificante",
+      "ru": "приносящий удовлетворение",
+      "target": "gratificante"
+    },
+    {
+      "id": "topic_302:intimidante",
+      "ru": "пугающий",
+      "target": "intimidante"
+    },
+    {
+      "id": "topic_302:lidiar con",
+      "ru": "иметь дело с",
+      "target": "lidiar con"
+    },
+    {
+      "id": "topic_302:perder la paciencia",
+      "ru": "потерять терпение",
+      "target": "perder la paciencia"
+    },
+    {
+      "id": "topic_302:puesto callejero",
+      "ru": "уличном киоске, уличный киоск, уличного киоска",
+      "target": "puesto callejero"
+    }
+  ]
+}

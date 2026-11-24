@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_061",
+  "description": "Наслаждайтесь вечерним выходом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_061:ajedrez",
+      "ru": "шахматы",
+      "target": "ajedrez"
+    },
+    {
+      "id": "topic_061:antiguo",
+      "ru": "древний",
+      "target": "antiguo"
+    },
+    {
+      "id": "topic_061:apagar",
+      "ru": "выключать",
+      "target": "apagar"
+    },
+    {
+      "id": "topic_061:bachata",
+      "ru": "бачата",
+      "target": "bachata"
+    },
+    {
+      "id": "topic_061:buenas noches",
+      "ru": "спокойной ночи",
+      "target": "buenas noches"
+    },
+    {
+      "id": "topic_061:calvo",
+      "ru": "лысый",
+      "target": "calvo"
+    },
+    {
+      "id": "topic_061:charlar",
+      "ru": "болтать",
+      "target": "charlar"
+    },
+    {
+      "id": "topic_061:conmigo",
+      "ru": "со мной",
+      "target": "conmigo"
+    },
+    {
+      "id": "topic_061:cóctel",
+      "ru": "коктейль",
+      "target": "cóctel"
+    },
+    {
+      "id": "topic_061:disfrutar",
+      "ru": "наслаждаться",
+      "target": "disfrutar"
+    },
+    {
+      "id": "topic_061:dj",
+      "ru": "диджей",
+      "target": "dj"
+    },
+    {
+      "id": "topic_061:en común",
+      "ru": "общий",
+      "target": "en común"
+    },
+    {
+      "id": "topic_061:gritar",
+      "ru": "кричать",
+      "target": "gritar"
+    },
+    {
+      "id": "topic_061:grupo",
+      "ru": "группа",
+      "target": "grupo"
+    },
+    {
+      "id": "topic_061:hermoso",
+      "ru": "красивый",
+      "target": "hermoso"
+    },
+    {
+      "id": "topic_061:luz",
+      "ru": "свет",
+      "target": "luz"
+    },
+    {
+      "id": "topic_061:medianoche",
+      "ru": "полночь",
+      "target": "medianoche"
+    },
+    {
+      "id": "topic_061:negativo",
+      "ru": "неблагоприятный, отрицательный, отрицательного, отрицательный (-ая, -ое), негативной, негативный (-ая, -ое), отрицателен, негативным, отрицательными",
+      "target": "negativo"
+    },
+    {
+      "id": "topic_061:paso",
+      "ru": "шаг",
+      "target": "paso"
+    },
+    {
+      "id": "topic_061:pista de baile",
+      "ru": "танцпол, танцполе",
+      "target": "pista de baile"
+    },
+    {
+      "id": "topic_061:ritmo",
+      "ru": "ритм",
+      "target": "ritmo"
+    },
+    {
+      "id": "topic_061:saltar",
+      "ru": "прыгать",
+      "target": "saltar"
+    },
+    {
+      "id": "topic_061:tener razón",
+      "ru": "быть правым",
+      "target": "tener razón"
+    }
+  ]
+}

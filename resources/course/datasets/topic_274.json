@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_274",
+  "description": "Опиши борцовский поединок",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_274:arrastrar",
+      "ru": "тащить",
+      "target": "arrastrar"
+    },
+    {
+      "id": "topic_274:combate",
+      "ru": "поединок",
+      "target": "combate"
+    },
+    {
+      "id": "topic_274:con el tiempo",
+      "ru": "со временем",
+      "target": "con el tiempo"
+    },
+    {
+      "id": "topic_274:cuadrilátero",
+      "ru": "ринг; четырёхугольник",
+      "target": "cuadrilátero"
+    },
+    {
+      "id": "topic_274:el mejor de todos los tiempos",
+      "ru": "лучший за все времена",
+      "target": "el mejor de todos los tiempos"
+    },
+    {
+      "id": "topic_274:evolucionar",
+      "ru": "эволюционировать",
+      "target": "evolucionar"
+    },
+    {
+      "id": "topic_274:igual a",
+      "ru": "равной",
+      "target": "igual a"
+    },
+    {
+      "id": "topic_274:igual que",
+      "ru": "так же, как и",
+      "target": "igual que"
+    },
+    {
+      "id": "topic_274:lucha libre",
+      "ru": "луча либре",
+      "target": "lucha libre"
+    },
+    {
+      "id": "topic_274:luchador",
+      "ru": "борец",
+      "target": "luchador"
+    },
+    {
+      "id": "topic_274:máscara",
+      "ru": "маска",
+      "target": "máscara"
+    },
+    {
+      "id": "topic_274:perdedor",
+      "ru": "проигравший",
+      "target": "perdedor"
+    },
+    {
+      "id": "topic_274:rudo",
+      "ru": "Грубый",
+      "target": "rudo"
+    },
+    {
+      "id": "topic_274:salto",
+      "ru": "прыжок",
+      "target": "salto"
+    },
+    {
+      "id": "topic_274:seguidor",
+      "ru": "последователь",
+      "target": "seguidor"
+    },
+    {
+      "id": "topic_274:todo vale",
+      "ru": "всё позволено",
+      "target": "todo vale"
+    },
+    {
+      "id": "topic_274:vestimenta",
+      "ru": "одежда",
+      "target": "vestimenta"
+    },
+    {
+      "id": "topic_274:ágil",
+      "ru": "ловкий",
+      "target": "ágil"
+    }
+  ]
+}

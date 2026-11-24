@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_115",
+  "description": "Скажите, почему не можете сделать что-то",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_115:abajo",
+      "ru": "внизу",
+      "target": "abajo"
+    },
+    {
+      "id": "topic_115:avergonzado",
+      "ru": "смущённый",
+      "target": "avergonzado"
+    },
+    {
+      "id": "topic_115:centro estudiantil",
+      "ru": "студенческий центр",
+      "target": "centro estudiantil"
+    },
+    {
+      "id": "topic_115:cerrado",
+      "ru": "закрытый",
+      "target": "cerrado"
+    },
+    {
+      "id": "topic_115:decepcionado",
+      "ru": "разочарованный",
+      "target": "decepcionado"
+    },
+    {
+      "id": "topic_115:desconectado",
+      "ru": "отключённый",
+      "target": "desconectado"
+    },
+    {
+      "id": "topic_115:desorganizado",
+      "ru": "неорганизованный",
+      "target": "desorganizado"
+    },
+    {
+      "id": "topic_115:diploma",
+      "ru": "диплом",
+      "target": "diploma"
+    },
+    {
+      "id": "topic_115:enfadado",
+      "ru": "сердитый",
+      "target": "enfadado"
+    },
+    {
+      "id": "topic_115:es decir",
+      "ru": "то есть",
+      "target": "es decir"
+    },
+    {
+      "id": "topic_115:es posible",
+      "ru": "возможно",
+      "target": "es posible"
+    },
+    {
+      "id": "topic_115:graduarse",
+      "ru": "оканчивать учебное заведение",
+      "target": "graduarse"
+    },
+    {
+      "id": "topic_115:imprimir",
+      "ru": "напечатать",
+      "target": "imprimir"
+    },
+    {
+      "id": "topic_115:incompleto",
+      "ru": "неполный",
+      "target": "incompleto"
+    },
+    {
+      "id": "topic_115:irresponsable",
+      "ru": "безответственный",
+      "target": "irresponsable"
+    },
+    {
+      "id": "topic_115:me enfoqué",
+      "ru": "сосредоточился",
+      "target": "me enfoqué"
+    },
+    {
+      "id": "topic_115:nada más",
+      "ru": "и ничего больше",
+      "target": "nada más"
+    },
+    {
+      "id": "topic_115:psicología",
+      "ru": "психология",
+      "target": "psicología"
+    },
+    {
+      "id": "topic_115:tonto",
+      "ru": "глупый",
+      "target": "tonto"
+    },
+    {
+      "id": "topic_115:trescientos",
+      "ru": "триста",
+      "target": "trescientos"
+    }
+  ]
+}

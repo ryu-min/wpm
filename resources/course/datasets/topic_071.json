@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_071",
+  "description": "Используйте «por» и «para»",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_071:Canadá",
+      "ru": "Канада",
+      "target": "Canadá"
+    },
+    {
+      "id": "topic_071:Colombia",
+      "ru": "Колумбия",
+      "target": "Colombia"
+    },
+    {
+      "id": "topic_071:Venezuela",
+      "ru": "Венесуэла",
+      "target": "Venezuela"
+    },
+    {
+      "id": "topic_071:archivo",
+      "ru": "файл",
+      "target": "archivo"
+    },
+    {
+      "id": "topic_071:canadiense",
+      "ru": "канадский",
+      "target": "canadiense"
+    },
+    {
+      "id": "topic_071:completo",
+      "ru": "полный",
+      "target": "completo"
+    },
+    {
+      "id": "topic_071:cuarenta",
+      "ru": "сорок",
+      "target": "cuarenta"
+    },
+    {
+      "id": "topic_071:diecinueve",
+      "ru": "девятнадцать",
+      "target": "diecinueve"
+    },
+    {
+      "id": "topic_071:duro",
+      "ru": "твёрдый",
+      "target": "duro"
+    },
+    {
+      "id": "topic_071:escritorio",
+      "ru": "рабочий стол",
+      "target": "escritorio"
+    },
+    {
+      "id": "topic_071:euro",
+      "ru": "евро",
+      "target": "euro"
+    },
+    {
+      "id": "topic_071:fantástico",
+      "ru": "фантастический",
+      "target": "fantástico"
+    },
+    {
+      "id": "topic_071:fecha de entrega",
+      "ru": "дедлайн",
+      "target": "fecha de entrega"
+    },
+    {
+      "id": "topic_071:fábrica",
+      "ru": "фабрика",
+      "target": "fábrica"
+    },
+    {
+      "id": "topic_071:multinacional",
+      "ru": "международный",
+      "target": "multinacional"
+    },
+    {
+      "id": "topic_071:panameño",
+      "ru": "панамский",
+      "target": "panameño"
+    },
+    {
+      "id": "topic_071:presentación",
+      "ru": "презентация",
+      "target": "presentación"
+    },
+    {
+      "id": "topic_071:secretario",
+      "ru": "секретарь",
+      "target": "secretario"
+    },
+    {
+      "id": "topic_071:sudamericano",
+      "ru": "южноамериканский",
+      "target": "sudamericano"
+    },
+    {
+      "id": "topic_071:sueldo",
+      "ru": "оклад",
+      "target": "sueldo"
+    },
+    {
+      "id": "topic_071:vacío",
+      "ru": "пустой",
+      "target": "vacío"
+    },
+    {
+      "id": "topic_071:venezolano",
+      "ru": "венесуэльский",
+      "target": "venezolano"
+    }
+  ]
+}

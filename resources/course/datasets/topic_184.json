@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_184",
+  "description": "Расскажи о покупках",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_184:chal",
+      "ru": "шаль",
+      "target": "chal"
+    },
+    {
+      "id": "topic_184:colonia",
+      "ru": "одеколон",
+      "target": "colonia"
+    },
+    {
+      "id": "topic_184:cosmético",
+      "ru": "косметический",
+      "target": "cosmético"
+    },
+    {
+      "id": "topic_184:deportivo",
+      "ru": "спортивный",
+      "target": "deportivo"
+    },
+    {
+      "id": "topic_184:extragrande",
+      "ru": "очень большого размера",
+      "target": "extragrande"
+    },
+    {
+      "id": "topic_184:floreado",
+      "ru": "в цветочек",
+      "target": "floreado"
+    },
+    {
+      "id": "topic_184:hacer un descuento",
+      "ru": "делать скидку",
+      "target": "hacer un descuento"
+    },
+    {
+      "id": "topic_184:hebilla",
+      "ru": "пряжка",
+      "target": "hebilla"
+    },
+    {
+      "id": "topic_184:perla",
+      "ru": "жемчужина",
+      "target": "perla"
+    },
+    {
+      "id": "topic_184:plateado",
+      "ru": "серебристый",
+      "target": "plateado"
+    },
+    {
+      "id": "topic_184:rebaja",
+      "ru": "снижение цены",
+      "target": "rebaja"
+    },
+    {
+      "id": "topic_184:salón de belleza",
+      "ru": "салоне красоты, салон красоты",
+      "target": "salón de belleza"
+    },
+    {
+      "id": "topic_184:sofisticado",
+      "ru": "элегантный",
+      "target": "sofisticado"
+    },
+    {
+      "id": "topic_184:tacón",
+      "ru": "каблук",
+      "target": "tacón"
+    },
+    {
+      "id": "topic_184:top",
+      "ru": "топ",
+      "target": "top"
+    },
+    {
+      "id": "topic_184:unos cuantos",
+      "ru": "несколько",
+      "target": "unos cuantos"
+    }
+  ]
+}

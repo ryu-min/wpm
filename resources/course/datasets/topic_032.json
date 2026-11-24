@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_032",
+  "description": "Обсудите свой рацион питания",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_032:beber",
+      "ru": "пить",
+      "target": "beber"
+    },
+    {
+      "id": "topic_032:cansado",
+      "ru": "уставший",
+      "target": "cansado"
+    },
+    {
+      "id": "topic_032:chocolate",
+      "ru": "шоколад",
+      "target": "chocolate"
+    },
+    {
+      "id": "topic_032:comer",
+      "ru": "есть",
+      "target": "comer"
+    },
+    {
+      "id": "topic_032:correr",
+      "ru": "бегать",
+      "target": "correr"
+    },
+    {
+      "id": "topic_032:crudo",
+      "ru": "сырой",
+      "target": "crudo"
+    },
+    {
+      "id": "topic_032:desayunar",
+      "ru": "завтракать",
+      "target": "desayunar"
+    },
+    {
+      "id": "topic_032:dieta",
+      "ru": "диета",
+      "target": "dieta"
+    },
+    {
+      "id": "topic_032:dulce",
+      "ru": "сладкий",
+      "target": "dulce"
+    },
+    {
+      "id": "topic_032:fruta",
+      "ru": "фрукт",
+      "target": "fruta"
+    },
+    {
+      "id": "topic_032:hacer ejercicio",
+      "ru": "упражняться",
+      "target": "hacer ejercicio"
+    },
+    {
+      "id": "topic_032:mantequilla",
+      "ru": "сливочное масло",
+      "target": "mantequilla"
+    },
+    {
+      "id": "topic_032:menos",
+      "ru": "меньше",
+      "target": "menos"
+    },
+    {
+      "id": "topic_032:pescado",
+      "ru": "рыба как еда",
+      "target": "pescado"
+    },
+    {
+      "id": "topic_032:refresco",
+      "ru": "газировка",
+      "target": "refresco"
+    },
+    {
+      "id": "topic_032:salmón",
+      "ru": "лосось",
+      "target": "salmón"
+    },
+    {
+      "id": "topic_032:saludable",
+      "ru": "здоровый",
+      "target": "saludable"
+    },
+    {
+      "id": "topic_032:vender",
+      "ru": "продавать",
+      "target": "vender"
+    },
+    {
+      "id": "topic_032:vino",
+      "ru": "вино",
+      "target": "vino"
+    },
+    {
+      "id": "topic_032:yogur",
+      "ru": "йогурт",
+      "target": "yogur"
+    }
+  ]
+}

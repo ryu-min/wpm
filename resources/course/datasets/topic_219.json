@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_219",
+  "description": "Обсудим кулинарные шоу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_219:agrio",
+      "ru": "кислый",
+      "target": "agrio"
+    },
+    {
+      "id": "topic_219:calabaza",
+      "ru": "тыква",
+      "target": "calabaza"
+    },
+    {
+      "id": "topic_219:clara",
+      "ru": "ясная",
+      "target": "clara"
+    },
+    {
+      "id": "topic_219:descongelar",
+      "ru": "размораживать",
+      "target": "descongelar"
+    },
+    {
+      "id": "topic_219:leche descremada",
+      "ru": "обезжиренное молоко",
+      "target": "leche descremada"
+    },
+    {
+      "id": "topic_219:participante",
+      "ru": "участник",
+      "target": "participante"
+    },
+    {
+      "id": "topic_219:pelar",
+      "ru": "чистить кожуру",
+      "target": "pelar"
+    },
+    {
+      "id": "topic_219:programa de cocina",
+      "ru": "кулинарная передача",
+      "target": "programa de cocina"
+    },
+    {
+      "id": "topic_219:revolver",
+      "ru": "перемешивать",
+      "target": "revolver"
+    },
+    {
+      "id": "topic_219:seleccionar",
+      "ru": "отбирать",
+      "target": "seleccionar"
+    }
+  ]
+}

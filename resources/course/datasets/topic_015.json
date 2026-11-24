@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "topic_015",
+  "description": "Участвуйте в классе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_015:así es",
+      "ru": "именно так",
+      "target": "así es"
+    },
+    {
+      "id": "topic_015:biblioteca",
+      "ru": "библиотека",
+      "target": "biblioteca"
+    },
+    {
+      "id": "topic_015:chino",
+      "ru": "китайский",
+      "target": "chino"
+    },
+    {
+      "id": "topic_015:clase",
+      "ru": "урок",
+      "target": "clase"
+    },
+    {
+      "id": "topic_015:colegio",
+      "ru": "школа",
+      "target": "colegio"
+    },
+    {
+      "id": "topic_015:compañero",
+      "ru": "товарищ",
+      "target": "compañero"
+    },
+    {
+      "id": "topic_015:de",
+      "ru": "из",
+      "target": "de"
+    },
+    {
+      "id": "topic_015:difícil",
+      "ru": "трудный",
+      "target": "difícil"
+    },
+    {
+      "id": "topic_015:director",
+      "ru": "директор",
+      "target": "director"
+    },
+    {
+      "id": "topic_015:ejercicio",
+      "ru": "упражнение",
+      "target": "ejercicio"
+    },
+    {
+      "id": "topic_015:el",
+      "ru": "определённый артикль мужского рода",
+      "target": "el"
+    },
+    {
+      "id": "topic_015:en grupo",
+      "ru": "в группе",
+      "target": "en grupo"
+    },
+    {
+      "id": "topic_015:en línea",
+      "ru": "онлайн",
+      "target": "en línea"
+    },
+    {
+      "id": "topic_015:fácil",
+      "ru": "лёгкий",
+      "target": "fácil"
+    },
+    {
+      "id": "topic_015:geografía",
+      "ru": "география",
+      "target": "geografía"
+    },
+    {
+      "id": "topic_015:historia",
+      "ru": "история",
+      "target": "historia"
+    },
+    {
+      "id": "topic_015:japonés",
+      "ru": "японский",
+      "target": "japonés"
+    },
+    {
+      "id": "topic_015:la",
+      "ru": "артикль женского рода",
+      "target": "la"
+    },
+    {
+      "id": "topic_015:lección",
+      "ru": "урок",
+      "target": "lección"
+    },
+    {
+      "id": "topic_015:literatura",
+      "ru": "литература",
+      "target": "literatura"
+    },
+    {
+      "id": "topic_015:maestro",
+      "ru": "учитель",
+      "target": "maestro"
+    },
+    {
+      "id": "topic_015:matemáticas",
+      "ru": "математика",
+      "target": "matemáticas"
+    },
+    {
+      "id": "topic_015:química",
+      "ru": "химия",
+      "target": "química"
+    },
+    {
+      "id": "topic_015:repasar",
+      "ru": "повторять",
+      "target": "repasar"
+    },
+    {
+      "id": "topic_015:ruso",
+      "ru": "русский язык",
+      "target": "ruso"
+    },
+    {
+      "id": "topic_015:súper",
+      "ru": "супер",
+      "target": "súper"
+    },
+    {
+      "id": "topic_015:tarea",
+      "ru": "задание",
+      "target": "tarea"
+    },
+    {
+      "id": "topic_015:trabajar",
+      "ru": "работать",
+      "target": "trabajar"
+    },
+    {
+      "id": "topic_015:un poco",
+      "ru": "немного",
+      "target": "un poco"
+    }
+  ]
+}

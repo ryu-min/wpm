@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_293",
+  "description": "Спланируй поездку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_293:a este paso",
+      "ru": "с таким темпом",
+      "target": "a este paso"
+    },
+    {
+      "id": "topic_293:acantilado",
+      "ru": "скалистый обрыв",
+      "target": "acantilado"
+    },
+    {
+      "id": "topic_293:acuático",
+      "ru": "водный",
+      "target": "acuático"
+    },
+    {
+      "id": "topic_293:arrecife de coral",
+      "ru": "коралловый риф, коралловом рифе, коралловым рифом",
+      "target": "arrecife de coral"
+    },
+    {
+      "id": "topic_293:botiquín",
+      "ru": "аптечка",
+      "target": "botiquín"
+    },
+    {
+      "id": "topic_293:catarata",
+      "ru": "водопад; катаракта",
+      "target": "catarata"
+    },
+    {
+      "id": "topic_293:de cerca",
+      "ru": "вблизи",
+      "target": "de cerca"
+    },
+    {
+      "id": "topic_293:glaciar",
+      "ru": "ледник",
+      "target": "glaciar"
+    },
+    {
+      "id": "topic_293:guardabosques",
+      "ru": "лесник",
+      "target": "guardabosques"
+    },
+    {
+      "id": "topic_293:letrero",
+      "ru": "вывеска",
+      "target": "letrero"
+    },
+    {
+      "id": "topic_293:mirador",
+      "ru": "смотровая площадка",
+      "target": "mirador"
+    },
+    {
+      "id": "topic_293:no poder más",
+      "ru": "больше не мочь; быть не в силах продолжать",
+      "target": "no poder más"
+    },
+    {
+      "id": "topic_293:paraíso",
+      "ru": "рай",
+      "target": "paraíso"
+    },
+    {
+      "id": "topic_293:remar",
+      "ru": "грести",
+      "target": "remar"
+    },
+    {
+      "id": "topic_293:subterráneo",
+      "ru": "подземный",
+      "target": "subterráneo"
+    }
+  ]
+}

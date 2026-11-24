@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_180",
+  "description": "Просить и предлагать",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_180:análisis",
+      "ru": "анализ",
+      "target": "análisis"
+    },
+    {
+      "id": "topic_180:conferencia",
+      "ru": "лекция",
+      "target": "conferencia"
+    },
+    {
+      "id": "topic_180:en cuanto a",
+      "ru": "что касается",
+      "target": "en cuanto a"
+    },
+    {
+      "id": "topic_180:es bueno que",
+      "ru": "хорошо, что",
+      "target": "es bueno que"
+    },
+    {
+      "id": "topic_180:es mejor que",
+      "ru": "лучше, чтобы",
+      "target": "es mejor que"
+    },
+    {
+      "id": "topic_180:es preferible que",
+      "ru": "предпочтительно, чтобы",
+      "target": "es preferible que"
+    },
+    {
+      "id": "topic_180:objetivo",
+      "ru": "цель",
+      "target": "objetivo"
+    },
+    {
+      "id": "topic_180:pedir que",
+      "ru": "попросить чтобы",
+      "target": "pedir que"
+    },
+    {
+      "id": "topic_180:por mi parte",
+      "ru": "С моей стороны, с моей стороны",
+      "target": "por mi parte"
+    },
+    {
+      "id": "topic_180:principalmente",
+      "ru": "в основном",
+      "target": "principalmente"
+    },
+    {
+      "id": "topic_180:realista",
+      "ru": "реалист",
+      "target": "realista"
+    },
+    {
+      "id": "topic_180:venta",
+      "ru": "продажа",
+      "target": "venta"
+    }
+  ]
+}

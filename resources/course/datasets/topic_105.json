@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_105",
+  "description": "Празднуйте достижения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_105:de verdad",
+      "ru": "действительно",
+      "target": "de verdad"
+    },
+    {
+      "id": "topic_105:dedicarse a",
+      "ru": "заниматься",
+      "target": "dedicarse a"
+    },
+    {
+      "id": "topic_105:demás",
+      "ru": "остальные",
+      "target": "demás"
+    },
+    {
+      "id": "topic_105:dos mil diez",
+      "ru": "две тысячи десять",
+      "target": "dos mil diez"
+    },
+    {
+      "id": "topic_105:en particular",
+      "ru": "в частности",
+      "target": "en particular"
+    },
+    {
+      "id": "topic_105:exitoso",
+      "ru": "успешный",
+      "target": "exitoso"
+    },
+    {
+      "id": "topic_105:fin de curso",
+      "ru": "конец учебного года",
+      "target": "fin de curso"
+    },
+    {
+      "id": "topic_105:momento",
+      "ru": "момент",
+      "target": "momento"
+    },
+    {
+      "id": "topic_105:noventa",
+      "ru": "девяносто",
+      "target": "noventa"
+    },
+    {
+      "id": "topic_105:orgulloso",
+      "ru": "гордый",
+      "target": "orgulloso"
+    },
+    {
+      "id": "topic_105:pasarlo",
+      "ru": "проводя его",
+      "target": "pasarlo"
+    },
+    {
+      "id": "topic_105:premio",
+      "ru": "премия",
+      "target": "premio"
+    },
+    {
+      "id": "topic_105:propio",
+      "ru": "собственный",
+      "target": "propio"
+    },
+    {
+      "id": "topic_105:respetar",
+      "ru": "уважать",
+      "target": "respetar"
+    },
+    {
+      "id": "topic_105:valioso",
+      "ru": "ценный",
+      "target": "valioso"
+    }
+  ]
+}

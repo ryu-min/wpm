@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_216",
+  "description": "Обсуди текущие события",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_216:aerolínea",
+      "ru": "авиакомпания",
+      "target": "aerolínea"
+    },
+    {
+      "id": "topic_216:británico",
+      "ru": "британский, британской, британский ( -ая, -ое), британец",
+      "target": "británico"
+    },
+    {
+      "id": "topic_216:causado",
+      "ru": "вызвал",
+      "target": "causado"
+    },
+    {
+      "id": "topic_216:desarrollar",
+      "ru": "развивать",
+      "target": "desarrollar"
+    },
+    {
+      "id": "topic_216:destruidos",
+      "ru": "уничтожены",
+      "target": "destruidos"
+    },
+    {
+      "id": "topic_216:embajador",
+      "ru": "посол",
+      "target": "embajador"
+    },
+    {
+      "id": "topic_216:fue desarrollado",
+      "ru": "было разработано, был разработан, была разработана",
+      "target": "fue desarrollado"
+    },
+    {
+      "id": "topic_216:fueron invitados",
+      "ru": "были приглашены",
+      "target": "fueron invitados"
+    },
+    {
+      "id": "topic_216:huelga",
+      "ru": "забастовка",
+      "target": "huelga"
+    },
+    {
+      "id": "topic_216:informar",
+      "ru": "информировать",
+      "target": "informar"
+    },
+    {
+      "id": "topic_216:investigación",
+      "ru": "исследование",
+      "target": "investigación"
+    },
+    {
+      "id": "topic_216:monarquía",
+      "ru": "монархия",
+      "target": "monarquía"
+    },
+    {
+      "id": "topic_216:noroeste",
+      "ru": "северо-запад",
+      "target": "noroeste"
+    },
+    {
+      "id": "topic_216:norteamericano",
+      "ru": "североамериканский",
+      "target": "norteamericano"
+    },
+    {
+      "id": "topic_216:organizada",
+      "ru": "организована",
+      "target": "organizada"
+    },
+    {
+      "id": "topic_216:organizarse",
+      "ru": "организоваться",
+      "target": "organizarse"
+    },
+    {
+      "id": "topic_216:protestar",
+      "ru": "протестовать",
+      "target": "protestar"
+    },
+    {
+      "id": "topic_216:respecto a",
+      "ru": "относительно, Относительно",
+      "target": "respecto a"
+    }
+  ]
+}

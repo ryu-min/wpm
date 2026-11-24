@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_018",
+  "description": "Узнавайте дорогу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_018:a",
+      "ru": "к",
+      "target": "a"
+    },
+    {
+      "id": "topic_018:a la derecha",
+      "ru": "направо",
+      "target": "a la derecha"
+    },
+    {
+      "id": "topic_018:a la izquierda",
+      "ru": "налево",
+      "target": "a la izquierda"
+    },
+    {
+      "id": "topic_018:aeropuerto",
+      "ru": "аэропорт",
+      "target": "aeropuerto"
+    },
+    {
+      "id": "topic_018:bastante",
+      "ru": "достаточно",
+      "target": "bastante"
+    },
+    {
+      "id": "topic_018:buscar",
+      "ru": "искать",
+      "target": "buscar"
+    },
+    {
+      "id": "topic_018:centro",
+      "ru": "центр",
+      "target": "centro"
+    },
+    {
+      "id": "topic_018:cerca de",
+      "ru": "возле, близко, около, у",
+      "target": "cerca de"
+    },
+    {
+      "id": "topic_018:cine",
+      "ru": "кинотеатр",
+      "target": "cine"
+    },
+    {
+      "id": "topic_018:enfrente de",
+      "ru": "напротив",
+      "target": "enfrente de"
+    },
+    {
+      "id": "topic_018:estación de tren",
+      "ru": "вокзал",
+      "target": "estación de tren"
+    },
+    {
+      "id": "topic_018:están",
+      "ru": "находящихся, бывают, они (находятся), бываете, поживают, лежат, находятся, (находятся), стоят, состоят",
+      "target": "están"
+    },
+    {
+      "id": "topic_018:kilómetro",
+      "ru": "километр",
+      "target": "kilómetro"
+    },
+    {
+      "id": "topic_018:lago",
+      "ru": "озеро",
+      "target": "lago"
+    },
+    {
+      "id": "topic_018:lejos de",
+      "ru": "далеко от",
+      "target": "lejos de"
+    },
+    {
+      "id": "topic_018:montaña",
+      "ru": "гора",
+      "target": "montaña"
+    },
+    {
+      "id": "topic_018:oficina de información",
+      "ru": "информационное бюро",
+      "target": "oficina de información"
+    },
+    {
+      "id": "topic_018:parada de taxi",
+      "ru": "стоянка такси",
+      "target": "parada de taxi"
+    },
+    {
+      "id": "topic_018:playa",
+      "ru": "пляж",
+      "target": "playa"
+    },
+    {
+      "id": "topic_018:plaza",
+      "ru": "площадь",
+      "target": "plaza"
+    },
+    {
+      "id": "topic_018:salida",
+      "ru": "выход",
+      "target": "salida"
+    },
+    {
+      "id": "topic_018:taxi",
+      "ru": "такси",
+      "target": "taxi"
+    }
+  ]
+}

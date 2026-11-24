@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_089",
+  "description": "Ориентируйтесь по указаниям",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_089:a lo mejor",
+      "ru": "возможно",
+      "target": "a lo mejor"
+    },
+    {
+      "id": "topic_089:a ver",
+      "ru": "посмотрим; ну-ка",
+      "target": "a ver"
+    },
+    {
+      "id": "topic_089:al final",
+      "ru": "в конце концов",
+      "target": "al final"
+    },
+    {
+      "id": "topic_089:camino",
+      "ru": "дорога",
+      "target": "camino"
+    },
+    {
+      "id": "topic_089:correcto",
+      "ru": "правильный",
+      "target": "correcto"
+    },
+    {
+      "id": "topic_089:cruce",
+      "ru": "перекрёсток",
+      "target": "cruce"
+    },
+    {
+      "id": "topic_089:cruzar",
+      "ru": "пересекать",
+      "target": "cruzar"
+    },
+    {
+      "id": "topic_089:delante de",
+      "ru": "перед",
+      "target": "delante de"
+    },
+    {
+      "id": "topic_089:doblar",
+      "ru": "складывать",
+      "target": "doblar"
+    },
+    {
+      "id": "topic_089:hacia",
+      "ru": "по направлению к",
+      "target": "hacia"
+    },
+    {
+      "id": "topic_089:indicación",
+      "ru": "указание",
+      "target": "indicación"
+    },
+    {
+      "id": "topic_089:intersección",
+      "ru": "перекрёсток",
+      "target": "intersección"
+    },
+    {
+      "id": "topic_089:licencia",
+      "ru": "лицензия",
+      "target": "licencia"
+    },
+    {
+      "id": "topic_089:parque de diversiones",
+      "ru": "парк аттракционов",
+      "target": "parque de diversiones"
+    },
+    {
+      "id": "topic_089:prestar atención",
+      "ru": "обращать внимание",
+      "target": "prestar atención"
+    },
+    {
+      "id": "topic_089:puente",
+      "ru": "мост",
+      "target": "puente"
+    },
+    {
+      "id": "topic_089:segundo",
+      "ru": "второй",
+      "target": "segundo"
+    },
+    {
+      "id": "topic_089:semáforo",
+      "ru": "светофор",
+      "target": "semáforo"
+    },
+    {
+      "id": "topic_089:todo recto",
+      "ru": "прямо",
+      "target": "todo recto"
+    }
+  ]
+}

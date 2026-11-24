@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_108",
+  "description": "Обратитесь за помощью после аварии",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_108:accidente",
+      "ru": "несчастный случай",
+      "target": "accidente"
+    },
+    {
+      "id": "topic_108:asustarse",
+      "ru": "испугаться",
+      "target": "asustarse"
+    },
+    {
+      "id": "topic_108:bombero",
+      "ru": "пожарный",
+      "target": "bombero"
+    },
+    {
+      "id": "topic_108:caerse",
+      "ru": "упасть",
+      "target": "caerse"
+    },
+    {
+      "id": "topic_108:carretera",
+      "ru": "шоссе",
+      "target": "carretera"
+    },
+    {
+      "id": "topic_108:carro",
+      "ru": "машина",
+      "target": "carro"
+    },
+    {
+      "id": "topic_108:chocar",
+      "ru": "сталкиваться",
+      "target": "chocar"
+    },
+    {
+      "id": "topic_108:comisaría",
+      "ru": "полицейский участок",
+      "target": "comisaría"
+    },
+    {
+      "id": "topic_108:dedo",
+      "ru": "палец",
+      "target": "dedo"
+    },
+    {
+      "id": "topic_108:dedo del pie",
+      "ru": "палец на ноге, пальца на ноге",
+      "target": "dedo del pie"
+    },
+    {
+      "id": "topic_108:farola",
+      "ru": "уличный фонарь",
+      "target": "farola"
+    },
+    {
+      "id": "topic_108:fracturarse",
+      "ru": "получить перелом",
+      "target": "fracturarse"
+    },
+    {
+      "id": "topic_108:lastimarse",
+      "ru": "пораниться",
+      "target": "lastimarse"
+    },
+    {
+      "id": "topic_108:oreja",
+      "ru": "ухо",
+      "target": "oreja"
+    },
+    {
+      "id": "topic_108:policía",
+      "ru": "полиция",
+      "target": "policía"
+    },
+    {
+      "id": "topic_108:rueda",
+      "ru": "колесо",
+      "target": "rueda"
+    },
+    {
+      "id": "topic_108:se cayó",
+      "ru": "(он/она) упал/а, упал",
+      "target": "se cayó"
+    },
+    {
+      "id": "topic_108:socorro",
+      "ru": "помощь",
+      "target": "socorro"
+    },
+    {
+      "id": "topic_108:tobillo",
+      "ru": "лодыжка",
+      "target": "tobillo"
+    },
+    {
+      "id": "topic_108:tuve",
+      "ru": "у меня была",
+      "target": "tuve"
+    },
+    {
+      "id": "topic_108:vivo",
+      "ru": "живой",
+      "target": "vivo"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_185",
+  "description": "Обсудить ремонт гаджетов",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_185:además de",
+      "ru": "кроме того, что",
+      "target": "además de"
+    },
+    {
+      "id": "topic_185:bombilla",
+      "ru": "лампочка",
+      "target": "bombilla"
+    },
+    {
+      "id": "topic_185:caer",
+      "ru": "падать",
+      "target": "caer"
+    },
+    {
+      "id": "topic_185:dejar de",
+      "ru": "перестать",
+      "target": "dejar de"
+    },
+    {
+      "id": "topic_185:devolución",
+      "ru": "возврат",
+      "target": "devolución"
+    },
+    {
+      "id": "topic_185:garantía",
+      "ru": "гарантия",
+      "target": "garantía"
+    },
+    {
+      "id": "topic_185:manchar",
+      "ru": "испачкать",
+      "target": "manchar"
+    },
+    {
+      "id": "topic_185:mudanza",
+      "ru": "переезд",
+      "target": "mudanza"
+    },
+    {
+      "id": "topic_185:prender",
+      "ru": "зажигать",
+      "target": "prender"
+    },
+    {
+      "id": "topic_185:radiador",
+      "ru": "радиатор",
+      "target": "radiador"
+    },
+    {
+      "id": "topic_185:realizar",
+      "ru": "осуществлять",
+      "target": "realizar"
+    },
+    {
+      "id": "topic_185:reparación",
+      "ru": "ремонт",
+      "target": "reparación"
+    },
+    {
+      "id": "topic_185:se nos",
+      "ru": "у нас с, у нас",
+      "target": "se nos"
+    },
+    {
+      "id": "topic_185:se paga",
+      "ru": "оплачивается",
+      "target": "se paga"
+    },
+    {
+      "id": "topic_185:se puede",
+      "ru": "(это) можно",
+      "target": "se puede"
+    },
+    {
+      "id": "topic_185:similar",
+      "ru": "похожий",
+      "target": "similar"
+    }
+  ]
+}

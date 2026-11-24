@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_178",
+  "description": "Скажи, что думаешь",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_178:a pesar de",
+      "ru": "несмотря на",
+      "target": "a pesar de"
+    },
+    {
+      "id": "topic_178:como siempre",
+      "ru": "как обычно",
+      "target": "como siempre"
+    },
+    {
+      "id": "topic_178:conclusión",
+      "ru": "заключение",
+      "target": "conclusión"
+    },
+    {
+      "id": "topic_178:desacuerdo",
+      "ru": "несогласие",
+      "target": "desacuerdo"
+    },
+    {
+      "id": "topic_178:en contra de",
+      "ru": "против",
+      "target": "en contra de"
+    },
+    {
+      "id": "topic_178:enojarse",
+      "ru": "сердиться",
+      "target": "enojarse"
+    },
+    {
+      "id": "topic_178:lo contrario",
+      "ru": "противоположное",
+      "target": "lo contrario"
+    },
+    {
+      "id": "topic_178:lo mismo",
+      "ru": "то же самое",
+      "target": "lo mismo"
+    },
+    {
+      "id": "topic_178:lo que",
+      "ru": "то, что, того, что",
+      "target": "lo que"
+    },
+    {
+      "id": "topic_178:locura",
+      "ru": "сумасшествие",
+      "target": "locura"
+    },
+    {
+      "id": "topic_178:opuesto",
+      "ru": "противоположный",
+      "target": "opuesto"
+    },
+    {
+      "id": "topic_178:ponerse de acuerdo",
+      "ru": "договориться",
+      "target": "ponerse de acuerdo"
+    }
+  ]
+}

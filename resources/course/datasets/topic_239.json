@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_239",
+  "description": "Опиши людей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_239:aparentar",
+      "ru": "казаться",
+      "target": "aparentar"
+    },
+    {
+      "id": "topic_239:como si nada",
+      "ru": "как ни в чём не бывало",
+      "target": "como si nada"
+    },
+    {
+      "id": "topic_239:con razón",
+      "ru": "неудивительно",
+      "target": "con razón"
+    },
+    {
+      "id": "topic_239:de mediana edad",
+      "ru": "среднего возраста",
+      "target": "de mediana edad"
+    },
+    {
+      "id": "topic_239:editor",
+      "ru": "редактор",
+      "target": "editor"
+    },
+    {
+      "id": "topic_239:ese que",
+      "ru": "та которую, того который, который, том который, тот который",
+      "target": "ese que"
+    },
+    {
+      "id": "topic_239:hacerse",
+      "ru": "прославиться",
+      "target": "hacerse"
+    },
+    {
+      "id": "topic_239:humilde",
+      "ru": "скромный",
+      "target": "humilde"
+    },
+    {
+      "id": "topic_239:idéntico",
+      "ru": "идентичный",
+      "target": "idéntico"
+    },
+    {
+      "id": "topic_239:imitar",
+      "ru": "подражать",
+      "target": "imitar"
+    },
+    {
+      "id": "topic_239:indignado",
+      "ru": "возмущённый",
+      "target": "indignado"
+    },
+    {
+      "id": "topic_239:presumido",
+      "ru": "самодовольный",
+      "target": "presumido"
+    },
+    {
+      "id": "topic_239:que te decía",
+      "ru": "о котором я тебе говорил, о котором я тебе говорила, о которой я тебе говорил, о которых я тебе говорил",
+      "target": "que te decía"
+    },
+    {
+      "id": "topic_239:que yo sepa",
+      "ru": "насколько я знаю",
+      "target": "que yo sepa"
+    },
+    {
+      "id": "topic_239:rumor",
+      "ru": "слух",
+      "target": "rumor"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_155",
+  "description": "Что бы ты делал в сказке",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_155:cocodrilo",
+      "ru": "крокодил",
+      "target": "cocodrilo"
+    },
+    {
+      "id": "topic_155:cueva",
+      "ru": "пещера",
+      "target": "cueva"
+    },
+    {
+      "id": "topic_155:imaginación",
+      "ru": "воображение",
+      "target": "imaginación"
+    },
+    {
+      "id": "topic_155:invisible",
+      "ru": "невидимый",
+      "target": "invisible"
+    },
+    {
+      "id": "topic_155:por todas partes",
+      "ru": "повсюду",
+      "target": "por todas partes"
+    },
+    {
+      "id": "topic_155:ángel",
+      "ru": "ангел",
+      "target": "ángel"
+    }
+  ]
+}

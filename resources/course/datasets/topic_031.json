@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_031",
+  "description": "Выражайте свои чувства",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_031:antipático",
+      "ru": "неприятный",
+      "target": "antipático"
+    },
+    {
+      "id": "topic_031:cita",
+      "ru": "назначенная встреча",
+      "target": "cita"
+    },
+    {
+      "id": "topic_031:compartir",
+      "ru": "делиться",
+      "target": "compartir"
+    },
+    {
+      "id": "topic_031:diario",
+      "ru": "дневник",
+      "target": "diario"
+    },
+    {
+      "id": "topic_031:discutir",
+      "ru": "спорить",
+      "target": "discutir"
+    },
+    {
+      "id": "topic_031:enamorado",
+      "ru": "влюблён",
+      "target": "enamorado"
+    },
+    {
+      "id": "topic_031:enojado",
+      "ru": "злой",
+      "target": "enojado"
+    },
+    {
+      "id": "topic_031:es verdad",
+      "ru": "это правда",
+      "target": "es verdad"
+    },
+    {
+      "id": "topic_031:escribir",
+      "ru": "писать",
+      "target": "escribir"
+    },
+    {
+      "id": "topic_031:feliz",
+      "ru": "счастливый",
+      "target": "feliz"
+    },
+    {
+      "id": "topic_031:feo",
+      "ru": "некрасивый",
+      "target": "feo"
+    },
+    {
+      "id": "topic_031:increíble",
+      "ru": "невероятный",
+      "target": "increíble"
+    },
+    {
+      "id": "topic_031:mejor amigo",
+      "ru": "лучший друг",
+      "target": "mejor amigo"
+    },
+    {
+      "id": "topic_031:poema",
+      "ru": "стихотворение",
+      "target": "poema"
+    },
+    {
+      "id": "topic_031:problema",
+      "ru": "проблема",
+      "target": "problema"
+    },
+    {
+      "id": "topic_031:querido",
+      "ru": "дорогой",
+      "target": "querido"
+    },
+    {
+      "id": "topic_031:romántico",
+      "ru": "романтичный",
+      "target": "romántico"
+    },
+    {
+      "id": "topic_031:secreto",
+      "ru": "секрет",
+      "target": "secreto"
+    }
+  ]
+}

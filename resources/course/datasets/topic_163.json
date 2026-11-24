@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_163",
+  "description": "Указывать дорогу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_163:GPS",
+      "ru": "система GPS",
+      "target": "GPS"
+    },
+    {
+      "id": "topic_163:auto",
+      "ru": "автомобиль",
+      "target": "auto"
+    },
+    {
+      "id": "topic_163:cinturón de seguridad",
+      "ru": "ремень безопасности",
+      "target": "cinturón de seguridad"
+    },
+    {
+      "id": "topic_163:cruce peatonal",
+      "ru": "пешеходному переходу, пешеходном переходе, пешеходный переход",
+      "target": "cruce peatonal"
+    },
+    {
+      "id": "topic_163:licencia de conducir",
+      "ru": "водительские права, водительских прав",
+      "target": "licencia de conducir"
+    },
+    {
+      "id": "topic_163:prohibido",
+      "ru": "запрещено",
+      "target": "prohibido"
+    },
+    {
+      "id": "topic_163:señal de tránsito",
+      "ru": "дорожный знак",
+      "target": "señal de tránsito"
+    },
+    {
+      "id": "topic_163:tránsito",
+      "ru": "движение",
+      "target": "tránsito"
+    },
+    {
+      "id": "topic_163:ubicación",
+      "ru": "расположение",
+      "target": "ubicación"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_215",
+  "description": "Расскажи нам о праздниках",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_215:Día de los Muertos",
+      "ru": "День мёртвых",
+      "target": "Día de los Muertos"
+    },
+    {
+      "id": "topic_215:anciano",
+      "ru": "пожилой",
+      "target": "anciano"
+    },
+    {
+      "id": "topic_215:atraer",
+      "ru": "привлекать",
+      "target": "atraer"
+    },
+    {
+      "id": "topic_215:día festivo",
+      "ru": "праздничный день",
+      "target": "día festivo"
+    },
+    {
+      "id": "topic_215:fuegos artificiales",
+      "ru": "фейерверк",
+      "target": "fuegos artificiales"
+    },
+    {
+      "id": "topic_215:judío",
+      "ru": "еврей",
+      "target": "judío"
+    },
+    {
+      "id": "topic_215:se debe",
+      "ru": "нужно",
+      "target": "se debe"
+    },
+    {
+      "id": "topic_215:se está realizando",
+      "ru": "проводится",
+      "target": "se está realizando"
+    },
+    {
+      "id": "topic_215:se festeja",
+      "ru": "празднуются, празднуется",
+      "target": "se festeja"
+    },
+    {
+      "id": "topic_215:se han vendido",
+      "ru": "проданы",
+      "target": "se han vendido"
+    },
+    {
+      "id": "topic_215:se tiene que",
+      "ru": "Нужно, нужно",
+      "target": "se tiene que"
+    },
+    {
+      "id": "topic_215:se visita",
+      "ru": "навещают",
+      "target": "se visita"
+    }
+  ]
+}

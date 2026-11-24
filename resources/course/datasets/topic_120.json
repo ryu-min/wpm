@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_120",
+  "description": "Определите украденные вещи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_120:arma",
+      "ru": "оружие",
+      "target": "arma"
+    },
+    {
+      "id": "topic_120:arrestar",
+      "ru": "арестовать",
+      "target": "arrestar"
+    },
+    {
+      "id": "topic_120:billete",
+      "ru": "билет или купюра",
+      "target": "billete"
+    },
+    {
+      "id": "topic_120:bolsillo",
+      "ru": "карман",
+      "target": "bolsillo"
+    },
+    {
+      "id": "topic_120:creer",
+      "ru": "верить",
+      "target": "creer"
+    },
+    {
+      "id": "topic_120:cuatrocientos",
+      "ru": "четыреста",
+      "target": "cuatrocientos"
+    },
+    {
+      "id": "topic_120:cárcel",
+      "ru": "тюрьма",
+      "target": "cárcel"
+    },
+    {
+      "id": "topic_120:de oro",
+      "ru": "из золота",
+      "target": "de oro"
+    },
+    {
+      "id": "topic_120:de plata",
+      "ru": "из серебра",
+      "target": "de plata"
+    },
+    {
+      "id": "topic_120:equivocarse",
+      "ru": "ошибаться",
+      "target": "equivocarse"
+    },
+    {
+      "id": "topic_120:inocente",
+      "ru": "невиновный",
+      "target": "inocente"
+    },
+    {
+      "id": "topic_120:joya",
+      "ru": "драгоценность",
+      "target": "joya"
+    },
+    {
+      "id": "topic_120:joyería",
+      "ru": "ювелирный магазин",
+      "target": "joyería"
+    },
+    {
+      "id": "topic_120:ladrón",
+      "ru": "Вор",
+      "target": "ladrón"
+    },
+    {
+      "id": "topic_120:menos mal",
+      "ru": "слава богу",
+      "target": "menos mal"
+    },
+    {
+      "id": "topic_120:pedir disculpas",
+      "ru": "просить прощения",
+      "target": "pedir disculpas"
+    },
+    {
+      "id": "topic_120:soltar",
+      "ru": "отпускать",
+      "target": "soltar"
+    },
+    {
+      "id": "topic_120:testigo",
+      "ru": "свидетель",
+      "target": "testigo"
+    }
+  ]
+}

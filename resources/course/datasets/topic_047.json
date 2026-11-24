@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_047",
+  "description": "Организуйте вечеринку-сюрприз",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_047:a punto de",
+      "ru": "вот-вот; на грани того, чтобы",
+      "target": "a punto de"
+    },
+    {
+      "id": "topic_047:cubiertos",
+      "ru": "столовые приборы",
+      "target": "cubiertos"
+    },
+    {
+      "id": "topic_047:cuchara",
+      "ru": "ложка",
+      "target": "cuchara"
+    },
+    {
+      "id": "topic_047:cuchillo",
+      "ru": "нож",
+      "target": "cuchillo"
+    },
+    {
+      "id": "topic_047:de cumpleaños",
+      "ru": "день рождения",
+      "target": "de cumpleaños"
+    },
+    {
+      "id": "topic_047:decoración",
+      "ru": "украшение",
+      "target": "decoración"
+    },
+    {
+      "id": "topic_047:elegante",
+      "ru": "элегантный",
+      "target": "elegante"
+    },
+    {
+      "id": "topic_047:enviar",
+      "ru": "отправлять",
+      "target": "enviar"
+    },
+    {
+      "id": "topic_047:flor",
+      "ru": "цветок",
+      "target": "flor"
+    },
+    {
+      "id": "topic_047:hacer una fiesta",
+      "ru": "устроить праздник",
+      "target": "hacer una fiesta"
+    },
+    {
+      "id": "topic_047:impresionante",
+      "ru": "потрясающий",
+      "target": "impresionante"
+    },
+    {
+      "id": "topic_047:madre",
+      "ru": "мать",
+      "target": "madre"
+    },
+    {
+      "id": "topic_047:mensaje",
+      "ru": "сообщение",
+      "target": "mensaje"
+    },
+    {
+      "id": "topic_047:que viene",
+      "ru": "следующий",
+      "target": "que viene"
+    },
+    {
+      "id": "topic_047:sorpresa",
+      "ru": "сюрприз",
+      "target": "sorpresa"
+    },
+    {
+      "id": "topic_047:tenedor",
+      "ru": "вилка",
+      "target": "tenedor"
+    },
+    {
+      "id": "topic_047:veinte",
+      "ru": "двадцать",
+      "target": "veinte"
+    }
+  ]
+}

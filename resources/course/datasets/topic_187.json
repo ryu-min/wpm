@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_187",
+  "description": "Жаловаться менеджеру",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_187:actitud",
+      "ru": "отношение",
+      "target": "actitud"
+    },
+    {
+      "id": "topic_187:de más",
+      "ru": "слишком много",
+      "target": "de más"
+    },
+    {
+      "id": "topic_187:en cuanto",
+      "ru": "как только",
+      "target": "en cuanto"
+    },
+    {
+      "id": "topic_187:queja",
+      "ru": "жалоба",
+      "target": "queja"
+    },
+    {
+      "id": "topic_187:rastrear",
+      "ru": "отследить",
+      "target": "rastrear"
+    },
+    {
+      "id": "topic_187:reclamo",
+      "ru": "претензия",
+      "target": "reclamo"
+    },
+    {
+      "id": "topic_187:supervisor",
+      "ru": "руководитель",
+      "target": "supervisor"
+    },
+    {
+      "id": "topic_187:una vez que",
+      "ru": "как только",
+      "target": "una vez que"
+    }
+  ]
+}

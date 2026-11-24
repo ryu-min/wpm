@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_279",
+  "description": "Выдвигать версии о краже",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_279:a eso de",
+      "ru": "около",
+      "target": "a eso de"
+    },
+    {
+      "id": "topic_279:anónimo",
+      "ru": "анонимный",
+      "target": "anónimo"
+    },
+    {
+      "id": "topic_279:caja fuerte",
+      "ru": "сейф, сейфа, сейфе",
+      "target": "caja fuerte"
+    },
+    {
+      "id": "topic_279:coartada",
+      "ru": "алиби",
+      "target": "coartada"
+    },
+    {
+      "id": "topic_279:confesar",
+      "ru": "признаваться",
+      "target": "confesar"
+    },
+    {
+      "id": "topic_279:convincente",
+      "ru": "убедительный",
+      "target": "convincente"
+    },
+    {
+      "id": "topic_279:culpable",
+      "ru": "виновный",
+      "target": "culpable"
+    },
+    {
+      "id": "topic_279:cómplice",
+      "ru": "сообщник или сообщница",
+      "target": "cómplice"
+    },
+    {
+      "id": "topic_279:diamante",
+      "ru": "алмаз",
+      "target": "diamante"
+    },
+    {
+      "id": "topic_279:forzar",
+      "ru": "вскрыть",
+      "target": "forzar"
+    },
+    {
+      "id": "topic_279:hipótesis",
+      "ru": "гипотеза",
+      "target": "hipótesis"
+    },
+    {
+      "id": "topic_279:huella",
+      "ru": "отпечаток",
+      "target": "huella"
+    },
+    {
+      "id": "topic_279:improvisado",
+      "ru": "импровизированный",
+      "target": "improvisado"
+    },
+    {
+      "id": "topic_279:investigador",
+      "ru": "исследователь",
+      "target": "investigador"
+    },
+    {
+      "id": "topic_279:no pudo haber",
+      "ru": "не мог, не могло быть, не могло",
+      "target": "no pudo haber"
+    },
+    {
+      "id": "topic_279:ocultar",
+      "ru": "таить",
+      "target": "ocultar"
+    },
+    {
+      "id": "topic_279:peluca",
+      "ru": "парик",
+      "target": "peluca"
+    },
+    {
+      "id": "topic_279:recompensa",
+      "ru": "награда",
+      "target": "recompensa"
+    },
+    {
+      "id": "topic_279:sin que",
+      "ru": "без того, чтобы",
+      "target": "sin que"
+    },
+    {
+      "id": "topic_279:tuvo que haber",
+      "ru": "должен был",
+      "target": "tuvo que haber"
+    }
+  ]
+}

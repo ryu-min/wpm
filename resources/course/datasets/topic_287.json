@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_287",
+  "description": "Напомни об учёбе и уборке",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_287:cabra",
+      "ru": "коза",
+      "target": "cabra"
+    },
+    {
+      "id": "topic_287:callejero",
+      "ru": "уличный; бездомный",
+      "target": "callejero"
+    },
+    {
+      "id": "topic_287:canario",
+      "ru": "канарейка",
+      "target": "canario"
+    },
+    {
+      "id": "topic_287:chillar",
+      "ru": "кричать",
+      "target": "chillar"
+    },
+    {
+      "id": "topic_287:compinche",
+      "ru": "приятель",
+      "target": "compinche"
+    },
+    {
+      "id": "topic_287:el uno para el otro",
+      "ru": "друг для друга",
+      "target": "el uno para el otro"
+    },
+    {
+      "id": "topic_287:hacer compañía",
+      "ru": "составлять компанию",
+      "target": "hacer compañía"
+    },
+    {
+      "id": "topic_287:hurón",
+      "ru": "хорёк",
+      "target": "hurón"
+    },
+    {
+      "id": "topic_287:hámster",
+      "ru": "хомяк",
+      "target": "hámster"
+    },
+    {
+      "id": "topic_287:inconveniente",
+      "ru": "неудобство",
+      "target": "inconveniente"
+    },
+    {
+      "id": "topic_287:juguetón",
+      "ru": "игривый",
+      "target": "juguetón"
+    },
+    {
+      "id": "topic_287:lechuza",
+      "ru": "сипуха",
+      "target": "lechuza"
+    },
+    {
+      "id": "topic_287:pecera",
+      "ru": "аквариум",
+      "target": "pecera"
+    },
+    {
+      "id": "topic_287:poni",
+      "ru": "пони",
+      "target": "poni"
+    },
+    {
+      "id": "topic_287:regatear",
+      "ru": "торговаться",
+      "target": "regatear"
+    },
+    {
+      "id": "topic_287:sapo",
+      "ru": "жаба",
+      "target": "sapo"
+    },
+    {
+      "id": "topic_287:sin falta",
+      "ru": "обязательно",
+      "target": "sin falta"
+    },
+    {
+      "id": "topic_287:travesura",
+      "ru": "Шалость",
+      "target": "travesura"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_085",
+  "description": "Общайтесь на мероприятии",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_085:bistec",
+      "ru": "стейк",
+      "target": "bistec"
+    },
+    {
+      "id": "topic_085:camarero",
+      "ru": "официант",
+      "target": "camarero"
+    },
+    {
+      "id": "topic_085:cambiar de tema",
+      "ru": "сменить тему разговора",
+      "target": "cambiar de tema"
+    },
+    {
+      "id": "topic_085:ceremonia",
+      "ru": "церемония",
+      "target": "ceremonia"
+    },
+    {
+      "id": "topic_085:contar",
+      "ru": "считать",
+      "target": "contar"
+    },
+    {
+      "id": "topic_085:cuarto de hora",
+      "ru": "четверть часа",
+      "target": "cuarto de hora"
+    },
+    {
+      "id": "topic_085:cuento",
+      "ru": "сказка",
+      "target": "cuento"
+    },
+    {
+      "id": "topic_085:luna de miel",
+      "ru": "медовый месяц",
+      "target": "luna de miel"
+    },
+    {
+      "id": "topic_085:madrastra",
+      "ru": "мачеха",
+      "target": "madrastra"
+    },
+    {
+      "id": "topic_085:mantel",
+      "ru": "скатерть",
+      "target": "mantel"
+    },
+    {
+      "id": "topic_085:marisco",
+      "ru": "морепродукт",
+      "target": "marisco"
+    },
+    {
+      "id": "topic_085:matrimonio",
+      "ru": "брак",
+      "target": "matrimonio"
+    },
+    {
+      "id": "topic_085:pienso que",
+      "ru": "Я думаю, что, я думаю, что",
+      "target": "pienso que"
+    },
+    {
+      "id": "topic_085:por cierto",
+      "ru": "кстати",
+      "target": "por cierto"
+    },
+    {
+      "id": "topic_085:por curiosidad",
+      "ru": "из любопытства",
+      "target": "por curiosidad"
+    },
+    {
+      "id": "topic_085:realmente",
+      "ru": "действительно",
+      "target": "realmente"
+    },
+    {
+      "id": "topic_085:rosado",
+      "ru": "розовый",
+      "target": "rosado"
+    },
+    {
+      "id": "topic_085:servilleta",
+      "ru": "салфетка",
+      "target": "servilleta"
+    },
+    {
+      "id": "topic_085:tinto",
+      "ru": "бордовый",
+      "target": "tinto"
+    },
+    {
+      "id": "topic_085:tropical",
+      "ru": "тропический",
+      "target": "tropical"
+    },
+    {
+      "id": "topic_085:vidrio",
+      "ru": "стекло",
+      "target": "vidrio"
+    }
+  ]
+}

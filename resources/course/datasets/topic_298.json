@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_298",
+  "description": "Обсуждать Олимпиаду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_298:bronce",
+      "ru": "бронза",
+      "target": "bronce"
+    },
+    {
+      "id": "topic_298:caer en la cuenta",
+      "ru": "осознать; догадаться",
+      "target": "caer en la cuenta"
+    },
+    {
+      "id": "topic_298:darle la vuelta a",
+      "ru": "перевернуть",
+      "target": "darle la vuelta a"
+    },
+    {
+      "id": "topic_298:en breve",
+      "ru": "скоро",
+      "target": "en breve"
+    },
+    {
+      "id": "topic_298:en este instante",
+      "ru": "в этот самый момент",
+      "target": "en este instante"
+    },
+    {
+      "id": "topic_298:estar a la altura",
+      "ru": "быть на уровне, будем на уровне, буду на уровне",
+      "target": "estar a la altura"
+    },
+    {
+      "id": "topic_298:gimnasta",
+      "ru": "гимнаст",
+      "target": "gimnasta"
+    },
+    {
+      "id": "topic_298:hazaña",
+      "ru": "подвиг",
+      "target": "hazaña"
+    },
+    {
+      "id": "topic_298:lesionarse",
+      "ru": "получить травму",
+      "target": "lesionarse"
+    },
+    {
+      "id": "topic_298:medalla",
+      "ru": "медаль",
+      "target": "medalla"
+    },
+    {
+      "id": "topic_298:muscular",
+      "ru": "мышечный",
+      "target": "muscular"
+    },
+    {
+      "id": "topic_298:nadador",
+      "ru": "пловец",
+      "target": "nadador"
+    },
+    {
+      "id": "topic_298:olimpiadas",
+      "ru": "Олимпиада",
+      "target": "olimpiadas"
+    },
+    {
+      "id": "topic_298:piragüismo",
+      "ru": "гребля на байдарках и каноэ",
+      "target": "piragüismo"
+    },
+    {
+      "id": "topic_298:podio",
+      "ru": "подиум",
+      "target": "podio"
+    },
+    {
+      "id": "topic_298:predecir",
+      "ru": "предсказывать",
+      "target": "predecir"
+    },
+    {
+      "id": "topic_298:premiación",
+      "ru": "награждение",
+      "target": "premiación"
+    },
+    {
+      "id": "topic_298:rendimiento",
+      "ru": "производительность",
+      "target": "rendimiento"
+    },
+    {
+      "id": "topic_298:récord",
+      "ru": "рекорд",
+      "target": "récord"
+    },
+    {
+      "id": "topic_298:y así fue",
+      "ru": "и так и было",
+      "target": "y así fue"
+    }
+  ]
+}

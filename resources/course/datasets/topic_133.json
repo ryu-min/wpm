@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "topic_133",
+  "description": "Говори о романах и стихах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_133:autobiografía",
+      "ru": "автобиография",
+      "target": "autobiografía"
+    },
+    {
+      "id": "topic_133:capítulo",
+      "ru": "глава",
+      "target": "capítulo"
+    },
+    {
+      "id": "topic_133:hispano",
+      "ru": "испаноязычный",
+      "target": "hispano"
+    },
+    {
+      "id": "topic_133:párrafo",
+      "ru": "абзац",
+      "target": "párrafo"
+    },
+    {
+      "id": "topic_133:texto",
+      "ru": "текст",
+      "target": "texto"
+    }
+  ]
+}

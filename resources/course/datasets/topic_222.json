@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_222",
+  "description": "Управляй бизнесом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_222:administración",
+      "ru": "управление",
+      "target": "administración"
+    },
+    {
+      "id": "topic_222:aparentemente",
+      "ru": "по-видимому",
+      "target": "aparentemente"
+    },
+    {
+      "id": "topic_222:astronauta",
+      "ru": "астронавт",
+      "target": "astronauta"
+    },
+    {
+      "id": "topic_222:azafato",
+      "ru": "стюард",
+      "target": "azafato"
+    },
+    {
+      "id": "topic_222:capitán",
+      "ru": "капитан",
+      "target": "capitán"
+    },
+    {
+      "id": "topic_222:colaborar",
+      "ru": "сотрудничать",
+      "target": "colaborar"
+    },
+    {
+      "id": "topic_222:dirigir",
+      "ru": "руководить",
+      "target": "dirigir"
+    },
+    {
+      "id": "topic_222:editorial",
+      "ru": "издательство; издательский",
+      "target": "editorial"
+    },
+    {
+      "id": "topic_222:evidentemente",
+      "ru": "очевидно",
+      "target": "evidentemente"
+    },
+    {
+      "id": "topic_222:licenciado",
+      "ru": "дипломированный специалист",
+      "target": "licenciado"
+    },
+    {
+      "id": "topic_222:lo curioso",
+      "ru": "любопытно",
+      "target": "lo curioso"
+    },
+    {
+      "id": "topic_222:lo interesante",
+      "ru": "интересное",
+      "target": "lo interesante"
+    },
+    {
+      "id": "topic_222:lo más importante",
+      "ru": "самое важное",
+      "target": "lo más importante"
+    },
+    {
+      "id": "topic_222:lo raro",
+      "ru": "странное",
+      "target": "lo raro"
+    },
+    {
+      "id": "topic_222:marinero",
+      "ru": "моряк",
+      "target": "marinero"
+    },
+    {
+      "id": "topic_222:permanente",
+      "ru": "постоянный",
+      "target": "permanente"
+    },
+    {
+      "id": "topic_222:resultar",
+      "ru": "оказываться",
+      "target": "resultar"
+    },
+    {
+      "id": "topic_222:se supone que",
+      "ru": "предполагается, что",
+      "target": "se supone que"
+    },
+    {
+      "id": "topic_222:suspender",
+      "ru": "отменить",
+      "target": "suspender"
+    },
+    {
+      "id": "topic_222:tiempo completo",
+      "ru": "полный рабочий день",
+      "target": "tiempo completo"
+    }
+  ]
+}

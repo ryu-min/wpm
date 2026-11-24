@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_217",
+  "description": "Расскажите о растениях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_217:arruinar",
+      "ru": "разорять",
+      "target": "arruinar"
+    },
+    {
+      "id": "topic_217:bajo cero",
+      "ru": "ниже нуля",
+      "target": "bajo cero"
+    },
+    {
+      "id": "topic_217:congelar",
+      "ru": "замораживать",
+      "target": "congelar"
+    },
+    {
+      "id": "topic_217:consecuencia",
+      "ru": "последствие",
+      "target": "consecuencia"
+    },
+    {
+      "id": "topic_217:crecer",
+      "ru": "расти",
+      "target": "crecer"
+    },
+    {
+      "id": "topic_217:cultivar",
+      "ru": "выращивать",
+      "target": "cultivar"
+    },
+    {
+      "id": "topic_217:efecto",
+      "ru": "эффект",
+      "target": "efecto"
+    },
+    {
+      "id": "topic_217:evitable",
+      "ru": "предотвратимо",
+      "target": "evitable"
+    },
+    {
+      "id": "topic_217:frutal",
+      "ru": "фруктовое дерево",
+      "target": "frutal"
+    },
+    {
+      "id": "topic_217:helada",
+      "ru": "заморозок",
+      "target": "helada"
+    },
+    {
+      "id": "topic_217:huerto",
+      "ru": "огород",
+      "target": "huerto"
+    },
+    {
+      "id": "topic_217:rural",
+      "ru": "сельский",
+      "target": "rural"
+    },
+    {
+      "id": "topic_217:secarse",
+      "ru": "высохнуть",
+      "target": "secarse"
+    },
+    {
+      "id": "topic_217:semilla",
+      "ru": "семя",
+      "target": "semilla"
+    },
+    {
+      "id": "topic_217:terreno",
+      "ru": "земельный участок",
+      "target": "terreno"
+    },
+    {
+      "id": "topic_217:trigo",
+      "ru": "пшеница",
+      "target": "trigo"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_158",
+  "description": "Говори о длительности дел",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_158:cabaña",
+      "ru": "хижина",
+      "target": "cabaña"
+    },
+    {
+      "id": "topic_158:cuánto hace que",
+      "ru": "как давно; сколько времени прошло с тех пор, как",
+      "target": "cuánto hace que"
+    },
+    {
+      "id": "topic_158:desde que",
+      "ru": "с тех пор как",
+      "target": "desde que"
+    },
+    {
+      "id": "topic_158:década",
+      "ru": "десятилетие",
+      "target": "década"
+    },
+    {
+      "id": "topic_158:extrañar",
+      "ru": "скучать",
+      "target": "extrañar"
+    },
+    {
+      "id": "topic_158:lotería",
+      "ru": "лотерея",
+      "target": "lotería"
+    },
+    {
+      "id": "topic_158:saludar",
+      "ru": "приветствовать",
+      "target": "saludar"
+    },
+    {
+      "id": "topic_158:trompeta",
+      "ru": "труба музыкальная",
+      "target": "trompeta"
+    }
+  ]
+}

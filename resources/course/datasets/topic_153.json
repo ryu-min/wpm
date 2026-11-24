@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_153",
+  "description": "Обсуди спорт и команды",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_153:agradecerle",
+      "ru": "поблагодарить",
+      "target": "agradecerle"
+    },
+    {
+      "id": "topic_153:atención",
+      "ru": "внимание",
+      "target": "atención"
+    },
+    {
+      "id": "topic_153:atleta",
+      "ru": "атлет",
+      "target": "atleta"
+    },
+    {
+      "id": "topic_153:histórico",
+      "ru": "исторический, историческом, исторический (-ая,-ое), историческое",
+      "target": "histórico"
+    },
+    {
+      "id": "topic_153:infancia",
+      "ru": "детство",
+      "target": "infancia"
+    },
+    {
+      "id": "topic_153:invento",
+      "ru": "изобретение",
+      "target": "invento"
+    },
+    {
+      "id": "topic_153:invitarlos",
+      "ru": "пригласить",
+      "target": "invitarlos"
+    },
+    {
+      "id": "topic_153:los años",
+      "ru": "годов, годах, годы",
+      "target": "los años"
+    },
+    {
+      "id": "topic_153:período",
+      "ru": "период",
+      "target": "período"
+    },
+    {
+      "id": "topic_153:qué te pasa",
+      "ru": "что с тобой",
+      "target": "qué te pasa"
+    },
+    {
+      "id": "topic_153:universo",
+      "ru": "вселенная",
+      "target": "universo"
+    },
+    {
+      "id": "topic_153:árbitro",
+      "ru": "судья спортивный",
+      "target": "árbitro"
+    }
+  ]
+}

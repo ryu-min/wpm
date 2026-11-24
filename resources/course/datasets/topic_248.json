@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_248",
+  "description": "Выражать чувства близким",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_248:acomodar",
+      "ru": "устраивать",
+      "target": "acomodar"
+    },
+    {
+      "id": "topic_248:atento",
+      "ru": "внимательный",
+      "target": "atento"
+    },
+    {
+      "id": "topic_248:chuparse los dedos",
+      "ru": "пальчики оближешь",
+      "target": "chuparse los dedos"
+    },
+    {
+      "id": "topic_248:detestar",
+      "ru": "ненавидеть",
+      "target": "detestar"
+    },
+    {
+      "id": "topic_248:diverso",
+      "ru": "разнообразный",
+      "target": "diverso"
+    },
+    {
+      "id": "topic_248:elogio",
+      "ru": "комплимент",
+      "target": "elogio"
+    },
+    {
+      "id": "topic_248:fideo",
+      "ru": "лапша",
+      "target": "fideo"
+    },
+    {
+      "id": "topic_248:hacer de comer",
+      "ru": "готовить еду",
+      "target": "hacer de comer"
+    },
+    {
+      "id": "topic_248:ni modo",
+      "ru": "ничего не поделаешь",
+      "target": "ni modo"
+    },
+    {
+      "id": "topic_248:no es para tanto",
+      "ru": "не стоит преувеличивать",
+      "target": "no es para tanto"
+    },
+    {
+      "id": "topic_248:qué cosa",
+      "ru": "Какая вещь",
+      "target": "qué cosa"
+    },
+    {
+      "id": "topic_248:sobremesa",
+      "ru": "послеобеденное время",
+      "target": "sobremesa"
+    },
+    {
+      "id": "topic_248:sumamente",
+      "ru": "чрезвычайно",
+      "target": "sumamente"
+    },
+    {
+      "id": "topic_248:tanto tiempo",
+      "ru": "давно",
+      "target": "tanto tiempo"
+    },
+    {
+      "id": "topic_248:vínculo",
+      "ru": "связь",
+      "target": "vínculo"
+    }
+  ]
+}

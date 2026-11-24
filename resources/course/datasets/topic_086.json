@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_086",
+  "description": "Оцените условия жилья",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_086:alquilar",
+      "ru": "арендовать",
+      "target": "alquilar"
+    },
+    {
+      "id": "topic_086:apagado",
+      "ru": "отключённый",
+      "target": "apagado"
+    },
+    {
+      "id": "topic_086:arreglar",
+      "ru": "чинить",
+      "target": "arreglar"
+    },
+    {
+      "id": "topic_086:cuadro",
+      "ru": "картина",
+      "target": "cuadro"
+    },
+    {
+      "id": "topic_086:de memoria",
+      "ru": "наизусть",
+      "target": "de memoria"
+    },
+    {
+      "id": "topic_086:ducha",
+      "ru": "душ",
+      "target": "ducha"
+    },
+    {
+      "id": "topic_086:electricidad",
+      "ru": "электричество",
+      "target": "electricidad"
+    },
+    {
+      "id": "topic_086:felicitar",
+      "ru": "поздравлять",
+      "target": "felicitar"
+    },
+    {
+      "id": "topic_086:lavabo",
+      "ru": "умывальник",
+      "target": "lavabo"
+    },
+    {
+      "id": "topic_086:microondas",
+      "ru": "микроволновка",
+      "target": "microondas"
+    },
+    {
+      "id": "topic_086:mueble",
+      "ru": "мебель",
+      "target": "mueble"
+    },
+    {
+      "id": "topic_086:no te preocupes",
+      "ru": "не волнуйся",
+      "target": "no te preocupes"
+    },
+    {
+      "id": "topic_086:parada",
+      "ru": "остановка",
+      "target": "parada"
+    },
+    {
+      "id": "topic_086:pared",
+      "ru": "стена",
+      "target": "pared"
+    },
+    {
+      "id": "topic_086:plomero",
+      "ru": "водопроводчик",
+      "target": "plomero"
+    },
+    {
+      "id": "topic_086:refrigerador",
+      "ru": "холодильник",
+      "target": "refrigerador"
+    },
+    {
+      "id": "topic_086:sillón",
+      "ru": "кресло",
+      "target": "sillón"
+    },
+    {
+      "id": "topic_086:techo",
+      "ru": "потолок",
+      "target": "techo"
+    }
+  ]
+}

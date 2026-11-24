@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_262",
+  "description": "Поддержать друга словами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_262:alguna cosa",
+      "ru": "Какая-нибудь вещь, какую-нибудь вещь, какая-нибудь вещь",
+      "target": "alguna cosa"
+    },
+    {
+      "id": "topic_262:apresurado",
+      "ru": "поспешный",
+      "target": "apresurado"
+    },
+    {
+      "id": "topic_262:astrólogo",
+      "ru": "астролог",
+      "target": "astrólogo"
+    },
+    {
+      "id": "topic_262:claridad",
+      "ru": "ясность",
+      "target": "claridad"
+    },
+    {
+      "id": "topic_262:consolar",
+      "ru": "утешить",
+      "target": "consolar"
+    },
+    {
+      "id": "topic_262:cualquiera",
+      "ru": "любой",
+      "target": "cualquiera"
+    },
+    {
+      "id": "topic_262:cualquier cosa",
+      "ru": "что угодно",
+      "target": "cualquier cosa"
+    },
+    {
+      "id": "topic_262:de mal en peor",
+      "ru": "от плохого к худшему",
+      "target": "de mal en peor"
+    },
+    {
+      "id": "topic_262:desahogar",
+      "ru": "излить душу",
+      "target": "desahogar"
+    },
+    {
+      "id": "topic_262:desanimado",
+      "ru": "приунывший",
+      "target": "desanimado"
+    },
+    {
+      "id": "topic_262:equivocación",
+      "ru": "ошибка",
+      "target": "equivocación"
+    },
+    {
+      "id": "topic_262:impedir",
+      "ru": "препятствовать",
+      "target": "impedir"
+    },
+    {
+      "id": "topic_262:lado positivo",
+      "ru": "положительная сторона",
+      "target": "lado positivo"
+    },
+    {
+      "id": "topic_262:negar",
+      "ru": "отрицать",
+      "target": "negar"
+    },
+    {
+      "id": "topic_262:pensativo",
+      "ru": "задумчивый",
+      "target": "pensativo"
+    },
+    {
+      "id": "topic_262:preocupación",
+      "ru": "беспокойство",
+      "target": "preocupación"
+    },
+    {
+      "id": "topic_262:racha",
+      "ru": "серия",
+      "target": "racha"
+    },
+    {
+      "id": "topic_262:salir adelante",
+      "ru": "преуспеть; справиться с трудностями",
+      "target": "salir adelante"
+    },
+    {
+      "id": "topic_262:tranquilizarse",
+      "ru": "успокаиваться",
+      "target": "tranquilizarse"
+    },
+    {
+      "id": "topic_262:ya veremos",
+      "ru": "посмотрим",
+      "target": "ya veremos"
+    }
+  ]
+}

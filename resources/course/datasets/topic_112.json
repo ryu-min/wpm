@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_112",
+  "description": "Решайте проблемы с питанием",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_112:a la parrilla",
+      "ru": "на гриле",
+      "target": "a la parrilla"
+    },
+    {
+      "id": "topic_112:bien hecho",
+      "ru": "хорошо сделано; хорошо прожаренный",
+      "target": "bien hecho"
+    },
+    {
+      "id": "topic_112:cacahuete",
+      "ru": "арахис",
+      "target": "cacahuete"
+    },
+    {
+      "id": "topic_112:calidad",
+      "ru": "качество",
+      "target": "calidad"
+    },
+    {
+      "id": "topic_112:confusión",
+      "ru": "смешение",
+      "target": "confusión"
+    },
+    {
+      "id": "topic_112:descuento",
+      "ru": "скидка",
+      "target": "descuento"
+    },
+    {
+      "id": "topic_112:estornudar",
+      "ru": "чихать",
+      "target": "estornudar"
+    },
+    {
+      "id": "topic_112:gamba",
+      "ru": "креветка",
+      "target": "gamba"
+    },
+    {
+      "id": "topic_112:oler",
+      "ru": "пахнуть",
+      "target": "oler"
+    },
+    {
+      "id": "topic_112:ofrecer",
+      "ru": "предлагать",
+      "target": "ofrecer"
+    },
+    {
+      "id": "topic_112:orden",
+      "ru": "порядок",
+      "target": "orden"
+    },
+    {
+      "id": "topic_112:patata",
+      "ru": "картофель",
+      "target": "patata"
+    },
+    {
+      "id": "topic_112:perejil",
+      "ru": "петрушка",
+      "target": "perejil"
+    },
+    {
+      "id": "topic_112:plato del día",
+      "ru": "блюдо дня",
+      "target": "plato del día"
+    },
+    {
+      "id": "topic_112:propina",
+      "ru": "чаевые",
+      "target": "propina"
+    },
+    {
+      "id": "topic_112:quemar",
+      "ru": "жечь",
+      "target": "quemar"
+    },
+    {
+      "id": "topic_112:sabor",
+      "ru": "вкус",
+      "target": "sabor"
+    },
+    {
+      "id": "topic_112:salteado",
+      "ru": "обжаренный",
+      "target": "salteado"
+    }
+  ]
+}

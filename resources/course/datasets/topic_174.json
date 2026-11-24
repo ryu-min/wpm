@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_174",
+  "description": "Обсуди футбольные матчи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_174:cancha de golf",
+      "ru": "поле для гольфа",
+      "target": "cancha de golf"
+    },
+    {
+      "id": "topic_174:competidor",
+      "ru": "конкурент",
+      "target": "competidor"
+    },
+    {
+      "id": "topic_174:de pie",
+      "ru": "стоя",
+      "target": "de pie"
+    },
+    {
+      "id": "topic_174:despedirse",
+      "ru": "попрощаться",
+      "target": "despedirse"
+    },
+    {
+      "id": "topic_174:golfista",
+      "ru": "гольфист",
+      "target": "golfista"
+    },
+    {
+      "id": "topic_174:hincha",
+      "ru": "болельщик",
+      "target": "hincha"
+    },
+    {
+      "id": "topic_174:la mano",
+      "ru": "рука",
+      "target": "la mano"
+    },
+    {
+      "id": "topic_174:marcar",
+      "ru": "забивать",
+      "target": "marcar"
+    },
+    {
+      "id": "topic_174:tenista",
+      "ru": "теннисист",
+      "target": "tenista"
+    }
+  ]
+}

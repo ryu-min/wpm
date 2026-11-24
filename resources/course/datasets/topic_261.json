@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_261",
+  "description": "Опиши себя в юности",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_261:aguafiestas",
+      "ru": "зануда",
+      "target": "aguafiestas"
+    },
+    {
+      "id": "topic_261:aventurero",
+      "ru": "любитель приключений; авантюрный",
+      "target": "aventurero"
+    },
+    {
+      "id": "topic_261:chismear",
+      "ru": "сплетничать",
+      "target": "chismear"
+    },
+    {
+      "id": "topic_261:comprensivo",
+      "ru": "понимающий",
+      "target": "comprensivo"
+    },
+    {
+      "id": "topic_261:de grande",
+      "ru": "когда вырос, когда выросла",
+      "target": "de grande"
+    },
+    {
+      "id": "topic_261:decepcionar",
+      "ru": "разочаровать",
+      "target": "decepcionar"
+    },
+    {
+      "id": "topic_261:detener",
+      "ru": "останавливать",
+      "target": "detener"
+    },
+    {
+      "id": "topic_261:distanciarse",
+      "ru": "отдалиться",
+      "target": "distanciarse"
+    },
+    {
+      "id": "topic_261:exigir",
+      "ru": "требовать",
+      "target": "exigir"
+    },
+    {
+      "id": "topic_261:inseguridad",
+      "ru": "неуверенность",
+      "target": "inseguridad"
+    },
+    {
+      "id": "topic_261:más que nunca",
+      "ru": "как никогда",
+      "target": "más que nunca"
+    },
+    {
+      "id": "topic_261:obstáculo",
+      "ru": "препятствие",
+      "target": "obstáculo"
+    },
+    {
+      "id": "topic_261:popularidad",
+      "ru": "популярность",
+      "target": "popularidad"
+    },
+    {
+      "id": "topic_261:que nada",
+      "ru": "больше всего",
+      "target": "que nada"
+    },
+    {
+      "id": "topic_261:que nadie",
+      "ru": "чем все",
+      "target": "que nadie"
+    },
+    {
+      "id": "topic_261:significativo",
+      "ru": "значимый",
+      "target": "significativo"
+    },
+    {
+      "id": "topic_261:volverse",
+      "ru": "стать",
+      "target": "volverse"
+    },
+    {
+      "id": "topic_261:y eso que",
+      "ru": "и при том что",
+      "target": "y eso que"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_256",
+  "description": "Проспать и всё пропустить",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_256:angustiado",
+      "ru": "тревожный",
+      "target": "angustiado"
+    },
+    {
+      "id": "topic_256:como mucho",
+      "ru": "максимум",
+      "target": "como mucho"
+    },
+    {
+      "id": "topic_256:de mala gana",
+      "ru": "неохотно",
+      "target": "de mala gana"
+    },
+    {
+      "id": "topic_256:el día a día",
+      "ru": "повседневная жизнь",
+      "target": "el día a día"
+    },
+    {
+      "id": "topic_256:en ese entonces",
+      "ru": "в то время",
+      "target": "en ese entonces"
+    },
+    {
+      "id": "topic_256:estresarse",
+      "ru": "стрессоваться",
+      "target": "estresarse"
+    },
+    {
+      "id": "topic_256:eterno",
+      "ru": "вечный",
+      "target": "eterno"
+    },
+    {
+      "id": "topic_256:faltar a",
+      "ru": "пропустить",
+      "target": "faltar a"
+    },
+    {
+      "id": "topic_256:frustrante",
+      "ru": "раздражающий",
+      "target": "frustrante"
+    },
+    {
+      "id": "topic_256:levantar el ánimo",
+      "ru": "поднять настроение",
+      "target": "levantar el ánimo"
+    },
+    {
+      "id": "topic_256:licuadora",
+      "ru": "блендер",
+      "target": "licuadora"
+    },
+    {
+      "id": "topic_256:monotonía",
+      "ru": "однообразие",
+      "target": "monotonía"
+    },
+    {
+      "id": "topic_256:muerto de cansancio",
+      "ru": "смертельно уставший",
+      "target": "muerto de cansancio"
+    },
+    {
+      "id": "topic_256:nada que hacer",
+      "ru": "нечего делать; ничего не поделаешь",
+      "target": "nada que hacer"
+    },
+    {
+      "id": "topic_256:planificar",
+      "ru": "планировать",
+      "target": "planificar"
+    },
+    {
+      "id": "topic_256:pretender",
+      "ru": "намереваться",
+      "target": "pretender"
+    },
+    {
+      "id": "topic_256:rutinario",
+      "ru": "рутинный",
+      "target": "rutinario"
+    },
+    {
+      "id": "topic_256:únicamente",
+      "ru": "только",
+      "target": "únicamente"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_044",
+  "description": "Планируйте оздоровительные занятия",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_044:abrir",
+      "ru": "открывать",
+      "target": "abrir"
+    },
+    {
+      "id": "topic_044:actividad",
+      "ru": "деятельность",
+      "target": "actividad"
+    },
+    {
+      "id": "topic_044:activo",
+      "ru": "активный",
+      "target": "activo"
+    },
+    {
+      "id": "topic_044:baile",
+      "ru": "танец",
+      "target": "baile"
+    },
+    {
+      "id": "topic_044:boxeo",
+      "ru": "бокс",
+      "target": "boxeo"
+    },
+    {
+      "id": "topic_044:desde",
+      "ru": "с",
+      "target": "desde"
+    },
+    {
+      "id": "topic_044:dos veces por",
+      "ru": "два раза в",
+      "target": "dos veces por"
+    },
+    {
+      "id": "topic_044:energía",
+      "ru": "энергия",
+      "target": "energía"
+    },
+    {
+      "id": "topic_044:gimnasia",
+      "ru": "гимнастика",
+      "target": "gimnasia"
+    },
+    {
+      "id": "topic_044:hockey",
+      "ru": "хоккей",
+      "target": "hockey"
+    },
+    {
+      "id": "topic_044:horario",
+      "ru": "расписание",
+      "target": "horario"
+    },
+    {
+      "id": "topic_044:instructor",
+      "ru": "инструктор",
+      "target": "instructor"
+    },
+    {
+      "id": "topic_044:montar en bicicleta",
+      "ru": "кататься на велосипеде",
+      "target": "montar en bicicleta"
+    },
+    {
+      "id": "topic_044:por eso",
+      "ru": "поэтому",
+      "target": "por eso"
+    },
+    {
+      "id": "topic_044:semana",
+      "ru": "неделя",
+      "target": "semana"
+    },
+    {
+      "id": "topic_044:tipo de",
+      "ru": "тип чего-либо",
+      "target": "tipo de"
+    },
+    {
+      "id": "topic_044:tomar clases",
+      "ru": "ходить на уроки",
+      "target": "tomar clases"
+    }
+  ]
+}

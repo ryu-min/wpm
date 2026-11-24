@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_296",
+  "description": "Выбери авто и узнай цену",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_296:acelerador",
+      "ru": "акселератор",
+      "target": "acelerador"
+    },
+    {
+      "id": "topic_296:al contado",
+      "ru": "наличный",
+      "target": "al contado"
+    },
+    {
+      "id": "topic_296:alcance",
+      "ru": "досягаемость",
+      "target": "alcance"
+    },
+    {
+      "id": "topic_296:caja de velocidades",
+      "ru": "коробку передач, коробке передач",
+      "target": "caja de velocidades"
+    },
+    {
+      "id": "topic_296:camioneta",
+      "ru": "фургон",
+      "target": "camioneta"
+    },
+    {
+      "id": "topic_296:característica",
+      "ru": "особенность",
+      "target": "característica"
+    },
+    {
+      "id": "topic_296:cargo",
+      "ru": "должность",
+      "target": "cargo"
+    },
+    {
+      "id": "topic_296:consumir",
+      "ru": "потреблять",
+      "target": "consumir"
+    },
+    {
+      "id": "topic_296:convertible",
+      "ru": "кабриолет",
+      "target": "convertible"
+    },
+    {
+      "id": "topic_296:cuota",
+      "ru": "взнос",
+      "target": "cuota"
+    },
+    {
+      "id": "topic_296:darse el gusto",
+      "ru": "доставить себе удовольствие",
+      "target": "darse el gusto"
+    },
+    {
+      "id": "topic_296:en caso de que",
+      "ru": "на случай если",
+      "target": "en caso de que"
+    },
+    {
+      "id": "topic_296:limpiaparabrisas",
+      "ru": "дворники",
+      "target": "limpiaparabrisas"
+    },
+    {
+      "id": "topic_296:lo único es que",
+      "ru": "единственное, что",
+      "target": "lo único es que"
+    },
+    {
+      "id": "topic_296:ni más ni menos",
+      "ru": "ни больше ни меньше",
+      "target": "ni más ni menos"
+    },
+    {
+      "id": "topic_296:permitirse",
+      "ru": "позволить себе",
+      "target": "permitirse"
+    },
+    {
+      "id": "topic_296:solo que",
+      "ru": "только",
+      "target": "solo que"
+    },
+    {
+      "id": "topic_296:tapizado",
+      "ru": "обивка",
+      "target": "tapizado"
+    },
+    {
+      "id": "topic_296:vibrar",
+      "ru": "вибрировать",
+      "target": "vibrar"
+    },
+    {
+      "id": "topic_296:volante",
+      "ru": "руль",
+      "target": "volante"
+    }
+  ]
+}

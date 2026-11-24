@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "topic_074",
+  "description": "Опишите свое окружение",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_074:atracción",
+      "ru": "достопримечательность",
+      "target": "atracción"
+    },
+    {
+      "id": "topic_074:ayuntamiento",
+      "ru": "мэрия",
+      "target": "ayuntamiento"
+    },
+    {
+      "id": "topic_074:celebración",
+      "ru": "празднование",
+      "target": "celebración"
+    },
+    {
+      "id": "topic_074:clima",
+      "ru": "климат",
+      "target": "clima"
+    },
+    {
+      "id": "topic_074:comunidad",
+      "ru": "сообщество",
+      "target": "comunidad"
+    },
+    {
+      "id": "topic_074:cultural",
+      "ru": "культурная",
+      "target": "cultural"
+    },
+    {
+      "id": "topic_074:decir",
+      "ru": "сказать",
+      "target": "decir"
+    },
+    {
+      "id": "topic_074:deportista",
+      "ru": "спортсменка",
+      "target": "deportista"
+    },
+    {
+      "id": "topic_074:describir",
+      "ru": "описывать",
+      "target": "describir"
+    },
+    {
+      "id": "topic_074:durar",
+      "ru": "длиться",
+      "target": "durar"
+    },
+    {
+      "id": "topic_074:gratis",
+      "ru": "бесплатно",
+      "target": "gratis"
+    },
+    {
+      "id": "topic_074:la verdad",
+      "ru": "правда",
+      "target": "la verdad"
+    },
+    {
+      "id": "topic_074:laguna",
+      "ru": "лагуна",
+      "target": "laguna"
+    },
+    {
+      "id": "topic_074:lleno de",
+      "ru": "полный чего-либо",
+      "target": "lleno de"
+    },
+    {
+      "id": "topic_074:molestar",
+      "ru": "беспокоить",
+      "target": "molestar"
+    },
+    {
+      "id": "topic_074:niño",
+      "ru": "ребёнок",
+      "target": "niño"
+    },
+    {
+      "id": "topic_074:parte",
+      "ru": "часть",
+      "target": "parte"
+    },
+    {
+      "id": "topic_074:periodista",
+      "ru": "журналист",
+      "target": "periodista"
+    },
+    {
+      "id": "topic_074:por algo",
+      "ru": "не просто так",
+      "target": "por algo"
+    },
+    {
+      "id": "topic_074:pícnic",
+      "ru": "пикник",
+      "target": "pícnic"
+    },
+    {
+      "id": "topic_074:sobre todo",
+      "ru": "прежде всего",
+      "target": "sobre todo"
+    },
+    {
+      "id": "topic_074:tema",
+      "ru": "тема",
+      "target": "tema"
+    },
+    {
+      "id": "topic_074:tener ganas de",
+      "ru": "хотеть; испытывать желание (сделать что-либо)",
+      "target": "tener ganas de"
+    },
+    {
+      "id": "topic_074:turístico",
+      "ru": "туристический",
+      "target": "turístico"
+    },
+    {
+      "id": "topic_074:venir a",
+      "ru": "приходить (куда-либо или чтобы сделать что-либо)",
+      "target": "venir a"
+    }
+  ]
+}

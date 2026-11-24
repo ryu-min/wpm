@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s05_character",
+  "description": "Описывайте характеры",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s05_character:abuela",
+      "ru": "бабушка",
+      "target": "abuela"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:abuelo",
+      "ru": "дедушка",
+      "target": "abuelo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:como yo",
+      "ru": "как и я",
+      "target": "como yo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:creo que",
+      "ru": "думаю что",
+      "target": "creo que"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:cómo es",
+      "ru": "какой",
+      "target": "cómo es"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:en general",
+      "ru": "в общем",
+      "target": "en general"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:esposa",
+      "ru": "жена",
+      "target": "esposa"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:esposo",
+      "ru": "муж",
+      "target": "esposo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:gracioso",
+      "ru": "смешной",
+      "target": "gracioso"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:no crees",
+      "ru": "не думаешь",
+      "target": "no crees"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:novia",
+      "ru": "девушка",
+      "target": "novia"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:novio",
+      "ru": "парень",
+      "target": "novio"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:papá",
+      "ru": "папа",
+      "target": "papá"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:pero",
+      "ru": "а",
+      "target": "pero"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:serio",
+      "ru": "серьёзный",
+      "target": "serio"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:simpático",
+      "ru": "приятный",
+      "target": "simpático"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:tu",
+      "ru": "твой",
+      "target": "tu"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s05_character:tímido",
+      "ru": "застенчивый",
+      "target": "tímido"
+    }
+  ]
+}

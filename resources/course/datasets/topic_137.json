@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "topic_137",
+  "description": "Подготовься к экзамену",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_137:contenido",
+      "ru": "содержание",
+      "target": "contenido"
+    },
+    {
+      "id": "topic_137:corregir",
+      "ru": "исправлять",
+      "target": "corregir"
+    },
+    {
+      "id": "topic_137:frase",
+      "ru": "фраза",
+      "target": "frase"
+    },
+    {
+      "id": "topic_137:significado",
+      "ru": "значение",
+      "target": "significado"
+    },
+    {
+      "id": "topic_137:traducción",
+      "ru": "перевод",
+      "target": "traducción"
+    }
+  ]
+}

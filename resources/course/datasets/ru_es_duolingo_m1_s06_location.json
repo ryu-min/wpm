@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s06_location",
+  "description": "Используйте «estar» для местоположений",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s06_location:aquí",
+      "ru": "здесь",
+      "target": "aquí"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:ay",
+      "ru": "ой",
+      "target": "ay"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:cargador",
+      "ru": "зарядное устройство",
+      "target": "cargador"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:cartera",
+      "ru": "кошелёк",
+      "target": "cartera"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:chaqueta",
+      "ru": "куртка",
+      "target": "chaqueta"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:dónde",
+      "ru": "где",
+      "target": "dónde"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:estar",
+      "ru": "находиться",
+      "target": "estar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:gorra",
+      "ru": "кепка",
+      "target": "gorra"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:libro",
+      "ru": "книга",
+      "target": "libro"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:maleta",
+      "ru": "чемодан",
+      "target": "maleta"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:mochila",
+      "ru": "рюкзак",
+      "target": "mochila"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:no encuentro",
+      "ru": "не нахожу",
+      "target": "no encuentro"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:nuevo",
+      "ru": "новый",
+      "target": "nuevo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:pasaporte",
+      "ru": "паспорт",
+      "target": "pasaporte"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:pues",
+      "ru": "ну",
+      "target": "pues"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:reloj",
+      "ru": "часы",
+      "target": "reloj"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:suéter",
+      "ru": "свитер",
+      "target": "suéter"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:tableta",
+      "ru": "планшет",
+      "target": "tableta"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:tranquilo",
+      "ru": "спокойный",
+      "target": "tranquilo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s06_location:vestido",
+      "ru": "платье",
+      "target": "vestido"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_161",
+  "description": "Опиши страшную сцену",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_161:asesino",
+      "ru": "убийца",
+      "target": "asesino"
+    },
+    {
+      "id": "topic_161:el otro día",
+      "ru": "на днях",
+      "target": "el otro día"
+    },
+    {
+      "id": "topic_161:grito",
+      "ru": "крик",
+      "target": "grito"
+    },
+    {
+      "id": "topic_161:misterio",
+      "ru": "тайна",
+      "target": "misterio"
+    },
+    {
+      "id": "topic_161:moverse",
+      "ru": "двигаться",
+      "target": "moverse"
+    },
+    {
+      "id": "topic_161:oscuridad",
+      "ru": "темнота",
+      "target": "oscuridad"
+    },
+    {
+      "id": "topic_161:pesadilla",
+      "ru": "кошмар",
+      "target": "pesadilla"
+    },
+    {
+      "id": "topic_161:silencio",
+      "ru": "тишина",
+      "target": "silencio"
+    },
+    {
+      "id": "topic_161:sombra",
+      "ru": "тень",
+      "target": "sombra"
+    },
+    {
+      "id": "topic_161:suspenso",
+      "ru": "триллер",
+      "target": "suspenso"
+    }
+  ]
+}

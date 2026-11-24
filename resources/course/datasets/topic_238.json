@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_238",
+  "description": "Обсуди планы карьеры",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_238:al contrario",
+      "ru": "напротив, Напротив",
+      "target": "al contrario"
+    },
+    {
+      "id": "topic_238:consejero",
+      "ru": "советник",
+      "target": "consejero"
+    },
+    {
+      "id": "topic_238:en cambio",
+      "ru": "вместо этого",
+      "target": "en cambio"
+    },
+    {
+      "id": "topic_238:en cierto modo",
+      "ru": "в некотором смысле",
+      "target": "en cierto modo"
+    },
+    {
+      "id": "topic_238:expectativa",
+      "ru": "ожидание",
+      "target": "expectativa"
+    },
+    {
+      "id": "topic_238:igual de",
+      "ru": "так же",
+      "target": "igual de"
+    },
+    {
+      "id": "topic_238:intérprete",
+      "ru": "устный переводчик",
+      "target": "intérprete"
+    },
+    {
+      "id": "topic_238:más vale tarde que nunca",
+      "ru": "лучше поздно, чем никогда",
+      "target": "más vale tarde que nunca"
+    },
+    {
+      "id": "topic_238:pasante",
+      "ru": "стажёр",
+      "target": "pasante"
+    },
+    {
+      "id": "topic_238:plan de estudio",
+      "ru": "учебный план",
+      "target": "plan de estudio"
+    },
+    {
+      "id": "topic_238:por el otro",
+      "ru": "с другой стороны",
+      "target": "por el otro"
+    },
+    {
+      "id": "topic_238:por un lado",
+      "ru": "с одной стороны",
+      "target": "por un lado"
+    },
+    {
+      "id": "topic_238:programador",
+      "ru": "программист",
+      "target": "programador"
+    },
+    {
+      "id": "topic_238:pésimo",
+      "ru": "ужасный",
+      "target": "pésimo"
+    },
+    {
+      "id": "topic_238:sino",
+      "ru": "а",
+      "target": "sino"
+    },
+    {
+      "id": "topic_238:trabajador autónomo",
+      "ru": "самозанятый, самозанятым",
+      "target": "trabajador autónomo"
+    }
+  ]
+}

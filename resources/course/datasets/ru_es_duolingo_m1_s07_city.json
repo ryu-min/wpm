@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s07_city",
+  "description": "Говорите о местах в городе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s07_city:banco",
+      "ru": "банк",
+      "target": "banco"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:barrio",
+      "ru": "район",
+      "target": "barrio"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:cafetería",
+      "ru": "кофейня",
+      "target": "cafetería"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:centro comercial",
+      "ru": "торговый центр",
+      "target": "centro comercial"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:cerca",
+      "ru": "рядом",
+      "target": "cerca"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:ciudad",
+      "ru": "город",
+      "target": "ciudad"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:en",
+      "ru": "в",
+      "target": "en"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:estacionamiento",
+      "ru": "парковка",
+      "target": "estacionamiento"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:estación de metro",
+      "ru": "станция метро",
+      "target": "estación de metro"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:haber",
+      "ru": "иметься",
+      "target": "haber"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:hotel",
+      "ru": "отель",
+      "target": "hotel"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:librería",
+      "ru": "книжный магазин",
+      "target": "librería"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:mirar",
+      "ru": "смотреть",
+      "target": "mirar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:museo",
+      "ru": "музей",
+      "target": "museo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:no hay",
+      "ru": "не имеется",
+      "target": "no hay"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:oír",
+      "ru": "слышать",
+      "target": "oír"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:panadería",
+      "ru": "булочная",
+      "target": "panadería"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:parque",
+      "ru": "парк",
+      "target": "parque"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:por aquí",
+      "ru": "здесь",
+      "target": "por aquí"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:pueblo",
+      "ru": "деревня",
+      "target": "pueblo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:teatro",
+      "ru": "театр",
+      "target": "teatro"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s07_city:tienda",
+      "ru": "магазин",
+      "target": "tienda"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_022",
+  "description": "Выполняйте домашние дела",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_022:a veces",
+      "ru": "иногда",
+      "target": "a veces"
+    },
+    {
+      "id": "topic_022:baño",
+      "ru": "ванная",
+      "target": "baño"
+    },
+    {
+      "id": "topic_022:caja",
+      "ru": "коробка",
+      "target": "caja"
+    },
+    {
+      "id": "topic_022:cocina",
+      "ru": "кухня",
+      "target": "cocina"
+    },
+    {
+      "id": "topic_022:comprar",
+      "ru": "покупать",
+      "target": "comprar"
+    },
+    {
+      "id": "topic_022:cuarto",
+      "ru": "комната",
+      "target": "cuarto"
+    },
+    {
+      "id": "topic_022:encima de",
+      "ru": "над",
+      "target": "encima de"
+    },
+    {
+      "id": "topic_022:fiesta",
+      "ru": "праздник",
+      "target": "fiesta"
+    },
+    {
+      "id": "topic_022:lavar",
+      "ru": "мыть",
+      "target": "lavar"
+    },
+    {
+      "id": "topic_022:limpiar",
+      "ru": "чистить",
+      "target": "limpiar"
+    },
+    {
+      "id": "topic_022:merienda",
+      "ru": "полдник",
+      "target": "merienda"
+    },
+    {
+      "id": "topic_022:mesa",
+      "ru": "стол",
+      "target": "mesa"
+    },
+    {
+      "id": "topic_022:mis",
+      "ru": "моих",
+      "target": "mis"
+    },
+    {
+      "id": "topic_022:nunca",
+      "ru": "никогда",
+      "target": "nunca"
+    },
+    {
+      "id": "topic_022:plato",
+      "ru": "тарелка",
+      "target": "plato"
+    },
+    {
+      "id": "topic_022:preparar",
+      "ru": "готовить",
+      "target": "preparar"
+    },
+    {
+      "id": "topic_022:regalo",
+      "ru": "подарок",
+      "target": "regalo"
+    },
+    {
+      "id": "topic_022:ropa",
+      "ru": "одежда",
+      "target": "ropa"
+    },
+    {
+      "id": "topic_022:rápido",
+      "ru": "быстрый",
+      "target": "rápido"
+    },
+    {
+      "id": "topic_022:sus",
+      "ru": "свои",
+      "target": "sus"
+    },
+    {
+      "id": "topic_022:vaso",
+      "ru": "стакан",
+      "target": "vaso"
+    }
+  ]
+}

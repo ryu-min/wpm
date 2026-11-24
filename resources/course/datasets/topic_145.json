@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_145",
+  "description": "Опиши мебель",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_145:adicional",
+      "ru": "дополнительный",
+      "target": "adicional"
+    },
+    {
+      "id": "topic_145:aire acondicionado",
+      "ru": "кондиционер, кондиционера, кондиционером",
+      "target": "aire acondicionado"
+    },
+    {
+      "id": "topic_145:botón",
+      "ru": "пуговица",
+      "target": "botón"
+    },
+    {
+      "id": "topic_145:cobrar",
+      "ru": "получать плату",
+      "target": "cobrar"
+    },
+    {
+      "id": "topic_145:comedor",
+      "ru": "столовая",
+      "target": "comedor"
+    },
+    {
+      "id": "topic_145:electrodoméstico",
+      "ru": "электроприбор",
+      "target": "electrodoméstico"
+    },
+    {
+      "id": "topic_145:entrega",
+      "ru": "доставка",
+      "target": "entrega"
+    },
+    {
+      "id": "topic_145:material",
+      "ru": "материал",
+      "target": "material"
+    },
+    {
+      "id": "topic_145:mesa de noche",
+      "ru": "прикроватная тумбочка",
+      "target": "mesa de noche"
+    },
+    {
+      "id": "topic_145:por ciento",
+      "ru": "процент",
+      "target": "por ciento"
+    },
+    {
+      "id": "topic_145:renovar",
+      "ru": "обновлять",
+      "target": "renovar"
+    },
+    {
+      "id": "topic_145:sección",
+      "ru": "раздел; секция",
+      "target": "sección"
+    }
+  ]
+}

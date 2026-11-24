@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_253",
+  "description": "Спорить с членами семьи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_253:alternativa",
+      "ru": "выбор",
+      "target": "alternativa"
+    },
+    {
+      "id": "topic_253:aprobación",
+      "ru": "одобрение",
+      "target": "aprobación"
+    },
+    {
+      "id": "topic_253:cambiar de parecer",
+      "ru": "передумать",
+      "target": "cambiar de parecer"
+    },
+    {
+      "id": "topic_253:como si",
+      "ru": "как будто",
+      "target": "como si"
+    },
+    {
+      "id": "topic_253:disco rayado",
+      "ru": "заевшая пластинка",
+      "target": "disco rayado"
+    },
+    {
+      "id": "topic_253:excluir",
+      "ru": "исключить",
+      "target": "excluir"
+    },
+    {
+      "id": "topic_253:hablar hasta por los codos",
+      "ru": "говорить без умолку, говорит без умолку",
+      "target": "hablar hasta por los codos"
+    },
+    {
+      "id": "topic_253:harto",
+      "ru": "сытый; пресыщенный",
+      "target": "harto"
+    },
+    {
+      "id": "topic_253:interferir",
+      "ru": "вмешиваться",
+      "target": "interferir"
+    },
+    {
+      "id": "topic_253:irritar",
+      "ru": "раздражать",
+      "target": "irritar"
+    },
+    {
+      "id": "topic_253:malcriar",
+      "ru": "баловать (портить воспитанием)",
+      "target": "malcriar"
+    },
+    {
+      "id": "topic_253:mandón",
+      "ru": "властный",
+      "target": "mandón"
+    },
+    {
+      "id": "topic_253:no lo tomes a mal",
+      "ru": "не пойми это превратно; не обижайся",
+      "target": "no lo tomes a mal"
+    },
+    {
+      "id": "topic_253:no te metas",
+      "ru": "не вмешивайся",
+      "target": "no te metas"
+    },
+    {
+      "id": "topic_253:pleno",
+      "ru": "полный; находящийся в разгаре",
+      "target": "pleno"
+    },
+    {
+      "id": "topic_253:pretexto",
+      "ru": "предлог",
+      "target": "pretexto"
+    },
+    {
+      "id": "topic_253:quedar mal",
+      "ru": "выглядеть плохо",
+      "target": "quedar mal"
+    },
+    {
+      "id": "topic_253:recoger la mesa",
+      "ru": "убирать со стола",
+      "target": "recoger la mesa"
+    },
+    {
+      "id": "topic_253:regañar",
+      "ru": "отчитывать",
+      "target": "regañar"
+    },
+    {
+      "id": "topic_253:respetuoso",
+      "ru": "уважительный",
+      "target": "respetuoso"
+    },
+    {
+      "id": "topic_253:solo eso faltaba",
+      "ru": "Только этого не хватало, только этого не хватало",
+      "target": "solo eso faltaba"
+    },
+    {
+      "id": "topic_253:tensión",
+      "ru": "напряжение",
+      "target": "tensión"
+    }
+  ]
+}

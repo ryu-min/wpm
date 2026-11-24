@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_209",
+  "description": "Поделись рецептом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_209:alimento",
+      "ru": "продукт питания",
+      "target": "alimento"
+    },
+    {
+      "id": "topic_209:calabacín",
+      "ru": "кабачок",
+      "target": "calabacín"
+    },
+    {
+      "id": "topic_209:docena",
+      "ru": "дюжина",
+      "target": "docena"
+    },
+    {
+      "id": "topic_209:líquido",
+      "ru": "жидкость",
+      "target": "líquido"
+    },
+    {
+      "id": "topic_209:verdulería",
+      "ru": "овощной магазин",
+      "target": "verdulería"
+    },
+    {
+      "id": "topic_209:yema",
+      "ru": "желток",
+      "target": "yema"
+    }
+  ]
+}

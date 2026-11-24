@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_179",
+  "description": "Поговори о любви и браке",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_179:a primera vista",
+      "ru": "с первого взгляда",
+      "target": "a primera vista"
+    },
+    {
+      "id": "topic_179:abrazar",
+      "ru": "обнимать",
+      "target": "abrazar"
+    },
+    {
+      "id": "topic_179:besar",
+      "ru": "целовать",
+      "target": "besar"
+    },
+    {
+      "id": "topic_179:capaz",
+      "ru": "способный",
+      "target": "capaz"
+    },
+    {
+      "id": "topic_179:enamorarse",
+      "ru": "влюбляться",
+      "target": "enamorarse"
+    },
+    {
+      "id": "topic_179:para siempre",
+      "ru": "навсегда",
+      "target": "para siempre"
+    },
+    {
+      "id": "topic_179:por ahora",
+      "ru": "пока что",
+      "target": "por ahora"
+    },
+    {
+      "id": "topic_179:por amor",
+      "ru": "из-за любви",
+      "target": "por amor"
+    },
+    {
+      "id": "topic_179:por mi culpa",
+      "ru": "по моей вине",
+      "target": "por mi culpa"
+    },
+    {
+      "id": "topic_179:prioridad",
+      "ru": "приоритет",
+      "target": "prioridad"
+    },
+    {
+      "id": "topic_179:salir con",
+      "ru": "встречаться",
+      "target": "salir con"
+    },
+    {
+      "id": "topic_179:sentido del humor",
+      "ru": "чувство юмора",
+      "target": "sentido del humor"
+    },
+    {
+      "id": "topic_179:sonreír",
+      "ru": "улыбаться",
+      "target": "sonreír"
+    },
+    {
+      "id": "topic_179:voz",
+      "ru": "голос",
+      "target": "voz"
+    }
+  ]
+}

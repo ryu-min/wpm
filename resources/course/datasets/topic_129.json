@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_129",
+  "description": "Обсуждайте политические мнения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_129:América latina",
+      "ru": "Латинская Америка",
+      "target": "América latina"
+    },
+    {
+      "id": "topic_129:Seguridad social",
+      "ru": "социальное обеспечение",
+      "target": "Seguridad social"
+    },
+    {
+      "id": "topic_129:alcanzar",
+      "ru": "достигать",
+      "target": "alcanzar"
+    },
+    {
+      "id": "topic_129:cambio",
+      "ru": "сдача",
+      "target": "cambio"
+    },
+    {
+      "id": "topic_129:campaña política",
+      "ru": "политическая кампания",
+      "target": "campaña política"
+    },
+    {
+      "id": "topic_129:ciudadano",
+      "ru": "гражданин",
+      "target": "ciudadano"
+    },
+    {
+      "id": "topic_129:económico",
+      "ru": "экономический",
+      "target": "económico"
+    },
+    {
+      "id": "topic_129:educación",
+      "ru": "образование",
+      "target": "educación"
+    },
+    {
+      "id": "topic_129:ejército",
+      "ru": "армия",
+      "target": "ejército"
+    },
+    {
+      "id": "topic_129:impuesto",
+      "ru": "налог",
+      "target": "impuesto"
+    },
+    {
+      "id": "topic_129:injusto",
+      "ru": "несправедливый",
+      "target": "injusto"
+    },
+    {
+      "id": "topic_129:internacional",
+      "ru": "международный",
+      "target": "internacional"
+    },
+    {
+      "id": "topic_129:juez",
+      "ru": "судья",
+      "target": "juez"
+    },
+    {
+      "id": "topic_129:jueza",
+      "ru": "судья (женщина)",
+      "target": "jueza"
+    },
+    {
+      "id": "topic_129:legal",
+      "ru": "законный",
+      "target": "legal"
+    },
+    {
+      "id": "topic_129:ley",
+      "ru": "закон",
+      "target": "ley"
+    },
+    {
+      "id": "topic_129:nacional",
+      "ru": "национальный",
+      "target": "nacional"
+    },
+    {
+      "id": "topic_129:opinar",
+      "ru": "высказывать мнение",
+      "target": "opinar"
+    },
+    {
+      "id": "topic_129:persona mayor",
+      "ru": "Пожилой человек, пожилой человек",
+      "target": "persona mayor"
+    },
+    {
+      "id": "topic_129:puertorriqueño",
+      "ru": "Пуэрториканский",
+      "target": "puertorriqueño"
+    },
+    {
+      "id": "topic_129:reunirse",
+      "ru": "встретиться",
+      "target": "reunirse"
+    }
+  ]
+}

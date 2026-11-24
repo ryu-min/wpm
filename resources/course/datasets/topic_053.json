@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_053",
+  "description": "Выполняйте задачи няни",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_053:al mediodía",
+      "ru": "в полдень",
+      "target": "al mediodía"
+    },
+    {
+      "id": "topic_053:como",
+      "ru": "как",
+      "target": "como"
+    },
+    {
+      "id": "topic_053:cuaderno",
+      "ru": "тетрадь",
+      "target": "cuaderno"
+    },
+    {
+      "id": "topic_053:en punto",
+      "ru": "ровно",
+      "target": "en punto"
+    },
+    {
+      "id": "topic_053:experiencia",
+      "ru": "опыт",
+      "target": "experiencia"
+    },
+    {
+      "id": "topic_053:generalmente",
+      "ru": "как правило",
+      "target": "generalmente"
+    },
+    {
+      "id": "topic_053:inteligente",
+      "ru": "умный",
+      "target": "inteligente"
+    },
+    {
+      "id": "topic_053:invitar a",
+      "ru": "пригласить",
+      "target": "invitar a"
+    },
+    {
+      "id": "topic_053:juguete",
+      "ru": "игрушка",
+      "target": "juguete"
+    },
+    {
+      "id": "topic_053:lavadora",
+      "ru": "стиральная машина",
+      "target": "lavadora"
+    },
+    {
+      "id": "topic_053:niñero",
+      "ru": "няня",
+      "target": "niñero"
+    },
+    {
+      "id": "topic_053:ordenar",
+      "ru": "упорядочивать",
+      "target": "ordenar"
+    },
+    {
+      "id": "topic_053:papel",
+      "ru": "бумага",
+      "target": "papel"
+    },
+    {
+      "id": "topic_053:patineta",
+      "ru": "скейтборд",
+      "target": "patineta"
+    },
+    {
+      "id": "topic_053:regla",
+      "ru": "линейка",
+      "target": "regla"
+    },
+    {
+      "id": "topic_053:salgo de",
+      "ru": "выхожу из",
+      "target": "salgo de"
+    },
+    {
+      "id": "topic_053:salir de",
+      "ru": "выходить из",
+      "target": "salir de"
+    },
+    {
+      "id": "topic_053:tener sueño",
+      "ru": "хотеть спать",
+      "target": "tener sueño"
+    },
+    {
+      "id": "topic_053:terminar",
+      "ru": "заканчивать",
+      "target": "terminar"
+    },
+    {
+      "id": "topic_053:traer",
+      "ru": "приносить",
+      "target": "traer"
+    },
+    {
+      "id": "topic_053:uniforme",
+      "ru": "форма",
+      "target": "uniforme"
+    },
+    {
+      "id": "topic_053:y cuarto",
+      "ru": "с четвертью",
+      "target": "y cuarto"
+    }
+  ]
+}

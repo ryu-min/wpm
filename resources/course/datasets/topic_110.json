@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_110",
+  "description": "Используйте \"hacer\" в прошедшем времени",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_110:alumno",
+      "ru": "ученик",
+      "target": "alumno"
+    },
+    {
+      "id": "topic_110:aprobar",
+      "ru": "одобрять",
+      "target": "aprobar"
+    },
+    {
+      "id": "topic_110:añadir",
+      "ru": "добавлять",
+      "target": "añadir"
+    },
+    {
+      "id": "topic_110:beige",
+      "ru": "бежевый",
+      "target": "beige"
+    },
+    {
+      "id": "topic_110:comprender",
+      "ru": "понимать",
+      "target": "comprender"
+    },
+    {
+      "id": "topic_110:contigo",
+      "ru": "с тобой",
+      "target": "contigo"
+    },
+    {
+      "id": "topic_110:dibujo",
+      "ru": "рисунок",
+      "target": "dibujo"
+    },
+    {
+      "id": "topic_110:error",
+      "ru": "ошибка",
+      "target": "error"
+    },
+    {
+      "id": "topic_110:imagen",
+      "ru": "изображение",
+      "target": "imagen"
+    },
+    {
+      "id": "topic_110:memorizar",
+      "ru": "запомнить",
+      "target": "memorizar"
+    },
+    {
+      "id": "topic_110:oración",
+      "ru": "предложение",
+      "target": "oración"
+    },
+    {
+      "id": "topic_110:palabra",
+      "ru": "слово",
+      "target": "palabra"
+    },
+    {
+      "id": "topic_110:pupitre",
+      "ru": "парта",
+      "target": "pupitre"
+    },
+    {
+      "id": "topic_110:satisfecho",
+      "ru": "довольный",
+      "target": "satisfecho"
+    },
+    {
+      "id": "topic_110:semestre",
+      "ru": "семестр",
+      "target": "semestre"
+    },
+    {
+      "id": "topic_110:tiza",
+      "ru": "мел",
+      "target": "tiza"
+    },
+    {
+      "id": "topic_110:usualmente",
+      "ru": "обычно",
+      "target": "usualmente"
+    }
+  ]
+}

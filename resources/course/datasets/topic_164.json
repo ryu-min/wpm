@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "topic_164",
+  "description": "Спланируй поездку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_164:alojamiento",
+      "ru": "размещение",
+      "target": "alojamiento"
+    },
+    {
+      "id": "topic_164:hostal",
+      "ru": "небольшая гостиница",
+      "target": "hostal"
+    },
+    {
+      "id": "topic_164:lujo",
+      "ru": "люкс",
+      "target": "lujo"
+    },
+    {
+      "id": "topic_164:no vayamos",
+      "ru": "давайте не пойдём; давайте не поедем",
+      "target": "no vayamos"
+    },
+    {
+      "id": "topic_164:pasarla bien",
+      "ru": "хорошо проводить время",
+      "target": "pasarla bien"
+    }
+  ]
+}

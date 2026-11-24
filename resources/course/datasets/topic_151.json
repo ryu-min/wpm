@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_151",
+  "description": "Опиши черты характера",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_151:amistad",
+      "ru": "дружба",
+      "target": "amistad"
+    },
+    {
+      "id": "topic_151:con calma",
+      "ru": "спокойно",
+      "target": "con calma"
+    },
+    {
+      "id": "topic_151:confiar",
+      "ru": "доверять",
+      "target": "confiar"
+    },
+    {
+      "id": "topic_151:cruel",
+      "ru": "жестокий",
+      "target": "cruel"
+    },
+    {
+      "id": "topic_151:eficiente",
+      "ru": "эффективный",
+      "target": "eficiente"
+    },
+    {
+      "id": "topic_151:gay",
+      "ru": "гомосексуальный; гей",
+      "target": "gay"
+    },
+    {
+      "id": "topic_151:jubilado",
+      "ru": "пенсионер",
+      "target": "jubilado"
+    },
+    {
+      "id": "topic_151:paciencia",
+      "ru": "терпение",
+      "target": "paciencia"
+    },
+    {
+      "id": "topic_151:personalidad",
+      "ru": "индивидуальность",
+      "target": "personalidad"
+    }
+  ]
+}

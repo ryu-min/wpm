@@ -1,14 +1,14 @@
 use archunit::{assert_passes, pattern, project_files_in};
 
 #[test]
-fn main_respects_module_boundaries() {
+fn library_respects_module_boundaries() {
     assert_passes!(
         project_files_in(env!("CARGO_MANIFEST_DIR"))
-            .in_path("src/main.rs")
+            .in_path("src/lib.rs")
             .should_not()
             .depend_on_files()
             .in_path(pattern("**/*.rs").except_all([
-                "src/main.rs",
+                "src/lib.rs",
                 "src/app/**",
                 "src/ui/**",
                 "src/domain/**",
@@ -92,4 +92,17 @@ fn build_respects_module_boundaries() {
             .depend_on_files()
             .in_path(pattern("**/*.rs").except_all(["src/dataset/**"]))
     );
+}
+
+#[test]
+fn binaries_do_not_import_internal_modules() {
+    for path in ["src/main.rs", "src/bin/wpm-es.rs"] {
+        assert_passes!(
+            project_files_in(env!("CARGO_MANIFEST_DIR"))
+                .in_path(path)
+                .should_not()
+                .depend_on_files()
+                .in_path(pattern("src/**").except_all(["src/lib.rs", path]))
+        );
+    }
 }

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_118",
+  "description": "Оцените товары и услуги",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_118:chamarra",
+      "ru": "куртка",
+      "target": "chamarra"
+    },
+    {
+      "id": "topic_118:chancla",
+      "ru": "шлёпанец",
+      "target": "chancla"
+    },
+    {
+      "id": "topic_118:cupón",
+      "ru": "купон",
+      "target": "cupón"
+    },
+    {
+      "id": "topic_118:céntimo",
+      "ru": "цент",
+      "target": "céntimo"
+    },
+    {
+      "id": "topic_118:dorado",
+      "ru": "поджаренный",
+      "target": "dorado"
+    },
+    {
+      "id": "topic_118:efectivamente",
+      "ru": "действительно",
+      "target": "efectivamente"
+    },
+    {
+      "id": "topic_118:en absoluto",
+      "ru": "совсем",
+      "target": "en absoluto"
+    },
+    {
+      "id": "topic_118:encargado",
+      "ru": "ответственный",
+      "target": "encargado"
+    },
+    {
+      "id": "topic_118:estilo",
+      "ru": "стиль",
+      "target": "estilo"
+    },
+    {
+      "id": "topic_118:inútil",
+      "ru": "бесполезный",
+      "target": "inútil"
+    },
+    {
+      "id": "topic_118:ni siquiera",
+      "ru": "даже",
+      "target": "ni siquiera"
+    },
+    {
+      "id": "topic_118:objeto",
+      "ru": "предмет",
+      "target": "objeto"
+    },
+    {
+      "id": "topic_118:ponerse",
+      "ru": "надеть",
+      "target": "ponerse"
+    },
+    {
+      "id": "topic_118:probarse",
+      "ru": "Примерять",
+      "target": "probarse"
+    },
+    {
+      "id": "topic_118:quitarse",
+      "ru": "снять",
+      "target": "quitarse"
+    },
+    {
+      "id": "topic_118:reembolso",
+      "ru": "возмещение",
+      "target": "reembolso"
+    },
+    {
+      "id": "topic_118:sitio",
+      "ru": "сайт",
+      "target": "sitio"
+    },
+    {
+      "id": "topic_118:sostén",
+      "ru": "бюстгальтер",
+      "target": "sostén"
+    },
+    {
+      "id": "topic_118:sudadera",
+      "ru": "толстовка",
+      "target": "sudadera"
+    },
+    {
+      "id": "topic_118:tanto",
+      "ru": "так долго",
+      "target": "tanto"
+    }
+  ]
+}

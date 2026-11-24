@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_208",
+  "description": "Опиши свою личную жизнь",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_208:anticuado",
+      "ru": "старомодный",
+      "target": "anticuado"
+    },
+    {
+      "id": "topic_208:aquí mismo",
+      "ru": "прямо здесь",
+      "target": "aquí mismo"
+    },
+    {
+      "id": "topic_208:chiste",
+      "ru": "шутка",
+      "target": "chiste"
+    },
+    {
+      "id": "topic_208:desilusionado",
+      "ru": "разочарован",
+      "target": "desilusionado"
+    },
+    {
+      "id": "topic_208:discusión",
+      "ru": "спор",
+      "target": "discusión"
+    },
+    {
+      "id": "topic_208:educado",
+      "ru": "воспитанный",
+      "target": "educado"
+    },
+    {
+      "id": "topic_208:estúpido",
+      "ru": "глупый",
+      "target": "estúpido"
+    },
+    {
+      "id": "topic_208:evidente",
+      "ru": "очевидный",
+      "target": "evidente"
+    },
+    {
+      "id": "topic_208:ilusionado",
+      "ru": "воодушевлённый",
+      "target": "ilusionado"
+    },
+    {
+      "id": "topic_208:ocasión",
+      "ru": "случай",
+      "target": "ocasión"
+    },
+    {
+      "id": "topic_208:precioso",
+      "ru": "красивый",
+      "target": "precioso"
+    }
+  ]
+}

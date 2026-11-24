@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_136",
+  "description": "Опиши места и людей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_136:actual",
+      "ru": "нынешний",
+      "target": "actual"
+    },
+    {
+      "id": "topic_136:actualmente",
+      "ru": "в настоящее время",
+      "target": "actualmente"
+    },
+    {
+      "id": "topic_136:causa",
+      "ru": "причина",
+      "target": "causa"
+    },
+    {
+      "id": "topic_136:causar",
+      "ru": "нанести",
+      "target": "causar"
+    },
+    {
+      "id": "topic_136:curioso",
+      "ru": "любопытный",
+      "target": "curioso"
+    },
+    {
+      "id": "topic_136:dañar",
+      "ru": "повреждать",
+      "target": "dañar"
+    },
+    {
+      "id": "topic_136:daño",
+      "ru": "Вред",
+      "target": "daño"
+    },
+    {
+      "id": "topic_136:escapar",
+      "ru": "убегать",
+      "target": "escapar"
+    },
+    {
+      "id": "topic_136:mundial",
+      "ru": "мировой",
+      "target": "mundial"
+    },
+    {
+      "id": "topic_136:población",
+      "ru": "население",
+      "target": "población"
+    },
+    {
+      "id": "topic_136:por el momento",
+      "ru": "на данный момент",
+      "target": "por el momento"
+    },
+    {
+      "id": "topic_136:reciente",
+      "ru": "недавний",
+      "target": "reciente"
+    },
+    {
+      "id": "topic_136:silenciosamente",
+      "ru": "тихо",
+      "target": "silenciosamente"
+    },
+    {
+      "id": "topic_136:silencioso",
+      "ru": "тихий",
+      "target": "silencioso"
+    },
+    {
+      "id": "topic_136:situación",
+      "ru": "ситуация",
+      "target": "situación"
+    },
+    {
+      "id": "topic_136:total",
+      "ru": "полный",
+      "target": "total"
+    },
+    {
+      "id": "topic_136:título",
+      "ru": "название",
+      "target": "título"
+    }
+  ]
+}

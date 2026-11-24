@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_066",
+  "description": "Общайтесь онлайн",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_066:Europa",
+      "ru": "Европа",
+      "target": "Europa"
+    },
+    {
+      "id": "topic_066:Sudamérica",
+      "ru": "Южная Америка",
+      "target": "Sudamérica"
+    },
+    {
+      "id": "topic_066:adolescente",
+      "ru": "подросток",
+      "target": "adolescente"
+    },
+    {
+      "id": "topic_066:competitivo",
+      "ru": "азартный",
+      "target": "competitivo"
+    },
+    {
+      "id": "topic_066:despierto",
+      "ru": "не спать",
+      "target": "despierto"
+    },
+    {
+      "id": "topic_066:dormir",
+      "ru": "спать",
+      "target": "dormir"
+    },
+    {
+      "id": "topic_066:el extranjero",
+      "ru": "заграница; иностранец",
+      "target": "el extranjero"
+    },
+    {
+      "id": "topic_066:fantasía",
+      "ru": "в жанре фэнтези",
+      "target": "fantasía"
+    },
+    {
+      "id": "topic_066:foro",
+      "ru": "форум",
+      "target": "foro"
+    },
+    {
+      "id": "topic_066:madrugada",
+      "ru": "рассвет",
+      "target": "madrugada"
+    },
+    {
+      "id": "topic_066:más de",
+      "ru": "больше чем",
+      "target": "más de"
+    },
+    {
+      "id": "topic_066:nivel",
+      "ru": "уровень",
+      "target": "nivel"
+    },
+    {
+      "id": "topic_066:oscuro",
+      "ru": "тёмный",
+      "target": "oscuro"
+    },
+    {
+      "id": "topic_066:personaje",
+      "ru": "персонаж",
+      "target": "personaje"
+    },
+    {
+      "id": "topic_066:red social",
+      "ru": "социальная сеть",
+      "target": "red social"
+    },
+    {
+      "id": "topic_066:ruido",
+      "ru": "шум",
+      "target": "ruido"
+    },
+    {
+      "id": "topic_066:seguramente",
+      "ru": "наверняка",
+      "target": "seguramente"
+    },
+    {
+      "id": "topic_066:tecnología",
+      "ru": "технология",
+      "target": "tecnología"
+    },
+    {
+      "id": "topic_066:terminar de",
+      "ru": "заканчивать",
+      "target": "terminar de"
+    },
+    {
+      "id": "topic_066:videollamada",
+      "ru": "видеозвонок",
+      "target": "videollamada"
+    },
+    {
+      "id": "topic_066:wifi",
+      "ru": "вайфай",
+      "target": "wifi"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_079",
+  "description": "Используйте прошедшее время",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_079:amargo",
+      "ru": "горький",
+      "target": "amargo"
+    },
+    {
+      "id": "topic_079:anaranjado",
+      "ru": "оранжевый",
+      "target": "anaranjado"
+    },
+    {
+      "id": "topic_079:anillo",
+      "ru": "кольцо",
+      "target": "anillo"
+    },
+    {
+      "id": "topic_079:boda",
+      "ru": "свадьба",
+      "target": "boda"
+    },
+    {
+      "id": "topic_079:lentes",
+      "ru": "очки",
+      "target": "lentes"
+    },
+    {
+      "id": "topic_079:nieta",
+      "ru": "внучка",
+      "target": "nieta"
+    },
+    {
+      "id": "topic_079:pavo",
+      "ru": "индейка",
+      "target": "pavo"
+    },
+    {
+      "id": "topic_079:qué asco",
+      "ru": "какая гадость",
+      "target": "qué asco"
+    },
+    {
+      "id": "topic_079:reguetón",
+      "ru": "реггетон",
+      "target": "reguetón"
+    },
+    {
+      "id": "topic_079:suegra",
+      "ru": "свекровь или тёща",
+      "target": "suegra"
+    },
+    {
+      "id": "topic_079:suegro",
+      "ru": "свёкор",
+      "target": "suegro"
+    },
+    {
+      "id": "topic_079:vegano",
+      "ru": "веганский",
+      "target": "vegano"
+    }
+  ]
+}

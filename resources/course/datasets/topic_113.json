@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_113",
+  "description": "Обсудите личные достижения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_113:adivinar",
+      "ru": "угадывать",
+      "target": "adivinar"
+    },
+    {
+      "id": "topic_113:alfabeto",
+      "ru": "алфавит",
+      "target": "alfabeto"
+    },
+    {
+      "id": "topic_113:apunte",
+      "ru": "запись",
+      "target": "apunte"
+    },
+    {
+      "id": "topic_113:aunque",
+      "ru": "хотя",
+      "target": "aunque"
+    },
+    {
+      "id": "topic_113:avanzado",
+      "ru": "продвинутый",
+      "target": "avanzado"
+    },
+    {
+      "id": "topic_113:calcular",
+      "ru": "вычислять",
+      "target": "calcular"
+    },
+    {
+      "id": "topic_113:ciencia",
+      "ru": "наука",
+      "target": "ciencia"
+    },
+    {
+      "id": "topic_113:complejo",
+      "ru": "сложный",
+      "target": "complejo"
+    },
+    {
+      "id": "topic_113:estupendo",
+      "ru": "великолепный",
+      "target": "estupendo"
+    },
+    {
+      "id": "topic_113:experimento",
+      "ru": "эксперимент",
+      "target": "experimento"
+    },
+    {
+      "id": "topic_113:explotar",
+      "ru": "взрываться",
+      "target": "explotar"
+    },
+    {
+      "id": "topic_113:extraordinario",
+      "ru": "необычный",
+      "target": "extraordinario"
+    },
+    {
+      "id": "topic_113:genio",
+      "ru": "гений",
+      "target": "genio"
+    },
+    {
+      "id": "topic_113:habilidad",
+      "ru": "умение",
+      "target": "habilidad"
+    },
+    {
+      "id": "topic_113:impacto",
+      "ru": "воздействие",
+      "target": "impacto"
+    },
+    {
+      "id": "topic_113:inventar",
+      "ru": "изобретать",
+      "target": "inventar"
+    },
+    {
+      "id": "topic_113:investigar",
+      "ru": "исследовать; расследовать",
+      "target": "investigar"
+    },
+    {
+      "id": "topic_113:laboratorio",
+      "ru": "лаборатория",
+      "target": "laboratorio"
+    },
+    {
+      "id": "topic_113:millonario",
+      "ru": "миллионер",
+      "target": "millonario"
+    },
+    {
+      "id": "topic_113:real",
+      "ru": "реальный; королевский",
+      "target": "real"
+    },
+    {
+      "id": "topic_113:talento",
+      "ru": "Талант",
+      "target": "talento"
+    }
+  ]
+}

@@ -1,0 +1,3769 @@
+{
+  "schema_version": 1,
+  "structure_snapshot": "2025-05-09",
+  "structure_url": "https://duolingodata.com/dat/esfru131.html",
+  "vocabulary_url": "https://duome.eu/vocabulary/ru/es/skills",
+  "vocabulary_snapshot": "2026-11-17",
+  "accessed": "2026-11-24",
+  "coverage": "preliminary",
+  "published_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "entries": [
+    {
+      "section": 1,
+      "source_form": "agua",
+      "source_translation": "вода",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:agua",
+      "target": "agua",
+      "ru": "вода",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/agua"
+    },
+    {
+      "section": 1,
+      "source_form": "café",
+      "source_translation": "кофе",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:café",
+      "target": "café",
+      "ru": "кофе",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/caf%C3%A9"
+    },
+    {
+      "section": 1,
+      "source_form": "chao",
+      "source_translation": "пока",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:chao",
+      "target": "chao",
+      "ru": "пока",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/chao"
+    },
+    {
+      "section": 1,
+      "source_form": "con azúcar",
+      "source_translation": "с сахаром",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:con azúcar",
+      "target": "con azúcar",
+      "ru": "с сахаром",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/con%20az%C3%BAcar"
+    },
+    {
+      "section": 1,
+      "source_form": "con hielo",
+      "source_translation": "со льдом",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:con hielo",
+      "target": "con hielo",
+      "ru": "со льдом",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/con%20hielo"
+    },
+    {
+      "section": 1,
+      "source_form": "con leche",
+      "source_translation": "с молоком",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:con leche",
+      "target": "con leche",
+      "ru": "с молоком",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/con%20leche"
+    },
+    {
+      "section": 1,
+      "source_form": "gracias",
+      "source_translation": "спасибо",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:gracias",
+      "target": "gracias",
+      "ru": "спасибо",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/gracias"
+    },
+    {
+      "section": 1,
+      "source_form": "helado",
+      "source_translation": "мороженое",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:helado",
+      "target": "helado",
+      "ru": "мороженое",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/helado"
+    },
+    {
+      "section": 1,
+      "source_form": "hola",
+      "source_translation": "привет",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:hola",
+      "target": "hola",
+      "ru": "привет",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hola"
+    },
+    {
+      "section": 1,
+      "source_form": "o",
+      "source_translation": "или",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:o",
+      "target": "o",
+      "ru": "или",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/o"
+    },
+    {
+      "section": 1,
+      "source_form": "pan",
+      "source_translation": "хлеб",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:pan",
+      "target": "pan",
+      "ru": "хлеб",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pan"
+    },
+    {
+      "section": 1,
+      "source_form": "perfecto",
+      "source_translation": "отлично",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:perfecto",
+      "target": "perfecto",
+      "ru": "отлично",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/perfecto"
+    },
+    {
+      "section": 1,
+      "source_form": "por favor",
+      "source_translation": "пожалуйста",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:por favor",
+      "target": "por favor",
+      "ru": "пожалуйста",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/por%20favor"
+    },
+    {
+      "section": 1,
+      "source_form": "quieres",
+      "source_translation": "(ты) хочешь, (ты) любишь (кого-то), любишь",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:querer",
+      "target": "querer",
+      "ru": "хотеть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/querer"
+    },
+    {
+      "section": 1,
+      "source_form": "quiero",
+      "source_translation": "(я) хочу, (мне) хочется, (я) люблю, хочется, quiero",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:querer",
+      "target": "querer",
+      "ru": "хотеть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/querer"
+    },
+    {
+      "section": 1,
+      "source_form": "sándwich",
+      "source_translation": "бутерброд, сэндвичем, сэндвич, сэндвиче, бутерброда, бутерброде",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:sándwich",
+      "target": "sándwich",
+      "ru": "сэндвич",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/s%C3%A1ndwich"
+    },
+    {
+      "section": 1,
+      "source_form": "taco",
+      "source_translation": "тако",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:taco",
+      "target": "taco",
+      "ru": "тако",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/taco"
+    },
+    {
+      "section": 1,
+      "source_form": "té",
+      "source_translation": "чай",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:té",
+      "target": "té",
+      "ru": "чай",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%A9"
+    },
+    {
+      "section": 1,
+      "source_form": "un",
+      "source_translation": "одним, одно, одна, a, один, целое",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:uno",
+      "target": "uno",
+      "ru": "один",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/uno"
+    },
+    {
+      "section": 1,
+      "source_form": "vaso de",
+      "source_translation": "стакан, стаканом",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:vaso de",
+      "target": "vaso de",
+      "ru": "стакан чего-либо",
+      "normalization": "Сохранён оборот меры с de и его значение.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/vaso%20de"
+    },
+    {
+      "section": 1,
+      "source_form": "y",
+      "source_translation": "и",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:y",
+      "target": "y",
+      "ru": "и",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s1",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/y"
+    },
+    {
+      "section": 2,
+      "source_form": "bien",
+      "source_translation": "хорошо",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:bien",
+      "target": "bien",
+      "ru": "хорошо",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/bien"
+    },
+    {
+      "section": 2,
+      "source_form": "bienvenida",
+      "source_translation": "добро пожаловать",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:bienvenido",
+      "target": "bienvenido",
+      "ru": "добро пожаловать",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/bienvenido"
+    },
+    {
+      "section": 2,
+      "source_form": "bienvenido",
+      "source_translation": "добро пожаловать",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:bienvenido",
+      "target": "bienvenido",
+      "ru": "добро пожаловать",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/bienvenido"
+    },
+    {
+      "section": 2,
+      "source_form": "buenos días",
+      "source_translation": "доброе утро",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:buenos días",
+      "target": "buenos días",
+      "ru": "доброе утро",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/buenos%20d%C3%ADas"
+    },
+    {
+      "section": 2,
+      "source_form": "ella",
+      "source_translation": "она",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:ella",
+      "target": "ella",
+      "ru": "она",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ella"
+    },
+    {
+      "section": 2,
+      "source_form": "es",
+      "source_translation": "является, составляет, это, она, являетесь",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:ser",
+      "target": "ser",
+      "ru": "быть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ser"
+    },
+    {
+      "section": 2,
+      "source_form": "hasta luego",
+      "source_translation": "до свидания",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:hasta luego",
+      "target": "hasta luego",
+      "ru": "до свидания",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hasta%20luego"
+    },
+    {
+      "section": 2,
+      "source_form": "jugo",
+      "source_translation": "сок",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:jugo",
+      "target": "jugo",
+      "ru": "сок",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/jugo"
+    },
+    {
+      "section": 2,
+      "source_form": "mi mejor amiga",
+      "source_translation": "лучшая подруга",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:mi mejor amiga",
+      "target": "mi mejor amiga",
+      "ru": "моя лучшая подруга",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mi%20mejor%20amiga"
+    },
+    {
+      "section": 2,
+      "source_form": "mi mejor amigo",
+      "source_translation": "мой лучший друг",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:mi mejor amigo",
+      "target": "mi mejor amigo",
+      "ru": "мой лучший друг",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mi%20mejor%20amigo"
+    },
+    {
+      "section": 2,
+      "source_form": "mucho gusto",
+      "source_translation": "очень приятно",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:mucho gusto",
+      "target": "mucho gusto",
+      "ru": "очень приятно",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mucho%20gusto"
+    },
+    {
+      "section": 2,
+      "source_form": "qué tal",
+      "source_translation": "как дела",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:qué tal",
+      "target": "qué tal",
+      "ru": "как дела",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/qu%C3%A9%20tal"
+    },
+    {
+      "section": 2,
+      "source_form": "soy",
+      "source_translation": "я, быть, являться, есть",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:ser",
+      "target": "ser",
+      "ru": "быть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ser"
+    },
+    {
+      "section": 2,
+      "source_form": "yo",
+      "source_translation": "я",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:yo",
+      "target": "yo",
+      "ru": "я",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/yo"
+    },
+    {
+      "section": 2,
+      "source_form": "él",
+      "source_translation": "он",
+      "entry_id": "ru_es_duolingo_m1_s02_greetings:él",
+      "target": "él",
+      "ru": "он",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s2",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/%C3%A9l"
+    },
+    {
+      "section": 3,
+      "source_form": "Alemania",
+      "source_translation": "Германия",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:Alemania",
+      "target": "Alemania",
+      "ru": "Германия",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/Alemania"
+    },
+    {
+      "section": 3,
+      "source_form": "buenas tardes",
+      "source_translation": "добрый день",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:buenas tardes",
+      "target": "buenas tardes",
+      "ru": "добрый день",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/buenas%20tardes"
+    },
+    {
+      "section": 3,
+      "source_form": "compañero de cuarto",
+      "source_translation": "сосед по комнате",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:compañero de cuarto",
+      "target": "compañero de cuarto",
+      "ru": "сосед по комнате",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/compa%C3%B1ero%20de%20cuarto"
+    },
+    {
+      "section": 3,
+      "source_form": "de dónde eres",
+      "source_translation": "откуда ты",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:de dónde eres",
+      "target": "de dónde eres",
+      "ru": "откуда ты",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/de%20d%C3%B3nde%20eres"
+    },
+    {
+      "section": 3,
+      "source_form": "encantada",
+      "source_translation": "приятно познакомиться",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:encantado",
+      "target": "encantado",
+      "ru": "очень приятно",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/encantado"
+    },
+    {
+      "section": 3,
+      "source_form": "encantado",
+      "source_translation": "приятно познакомиться",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:encantado",
+      "target": "encantado",
+      "ru": "очень приятно",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/encantado"
+    },
+    {
+      "section": 3,
+      "source_form": "eres de",
+      "source_translation": "ты из",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:ser de",
+      "target": "ser de",
+      "ru": "быть родом из",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ser%20de"
+    },
+    {
+      "section": 3,
+      "source_form": "es de",
+      "source_translation": "этого, из",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:ser de",
+      "target": "ser de",
+      "ru": "быть родом из",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ser%20de"
+    },
+    {
+      "section": 3,
+      "source_form": "mamá",
+      "source_translation": "мама, мамина, мамой, мам",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:mamá",
+      "target": "mamá",
+      "ru": "мама",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mam%C3%A1"
+    },
+    {
+      "section": 3,
+      "source_form": "mi",
+      "source_translation": "свой, мою, мой, своем, моей, свое, моё, моего, своё, моим, своего, мое, моя, своим",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:mi",
+      "target": "mi",
+      "ru": "мой",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mi"
+    },
+    {
+      "section": 3,
+      "source_form": "no",
+      "source_translation": "нет, не",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:no",
+      "target": "no",
+      "ru": "нет",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no"
+    },
+    {
+      "section": 3,
+      "source_form": "soy de",
+      "source_translation": "я из",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:ser de",
+      "target": "ser de",
+      "ru": "быть родом из",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ser%20de"
+    },
+    {
+      "section": 3,
+      "source_form": "sí",
+      "source_translation": "да",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:sí",
+      "target": "sí",
+      "ru": "да",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/s%C3%AD"
+    },
+    {
+      "section": 3,
+      "source_form": "tú",
+      "source_translation": "ты",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:tú",
+      "target": "tú",
+      "ru": "ты",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%BA"
+    },
+    {
+      "section": 3,
+      "source_form": "verdad",
+      "source_translation": "верно",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:verdad",
+      "target": "verdad",
+      "ru": "верно",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s3",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/verdad"
+    },
+    {
+      "section": 4,
+      "source_form": "amiga",
+      "source_translation": "подругой, подруге, подруга, подругу",
+      "entry_id": "ru_es_duolingo_m1_s04_family:amiga",
+      "target": "amiga",
+      "ru": "подруга",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/amiga"
+    },
+    {
+      "section": 4,
+      "source_form": "amigo",
+      "source_translation": "друг",
+      "entry_id": "ru_es_duolingo_m1_s04_family:amigo",
+      "target": "amigo",
+      "ru": "друг",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/amigo"
+    },
+    {
+      "section": 4,
+      "source_form": "compañera de trabajo",
+      "source_translation": "коллега по работе",
+      "entry_id": "ru_es_duolingo_m1_s04_family:compañero de trabajo",
+      "target": "compañero de trabajo",
+      "ru": "коллега по работе",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/compa%C3%B1ero%20de%20trabajo"
+    },
+    {
+      "section": 4,
+      "source_form": "compañero de trabajo",
+      "source_translation": "коллега по работе",
+      "entry_id": "ru_es_duolingo_m1_s04_family:compañero de trabajo",
+      "target": "compañero de trabajo",
+      "ru": "коллега по работе",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/compa%C3%B1ero%20de%20trabajo"
+    },
+    {
+      "section": 4,
+      "source_form": "en realidad",
+      "source_translation": "на самом деле",
+      "entry_id": "ru_es_duolingo_m1_s04_family:en realidad",
+      "target": "en realidad",
+      "ru": "на самом деле",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/en%20realidad"
+    },
+    {
+      "section": 4,
+      "source_form": "hermana",
+      "source_translation": "сестра",
+      "entry_id": "ru_es_duolingo_m1_s04_family:hermana",
+      "target": "hermana",
+      "ru": "сестра",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hermana"
+    },
+    {
+      "section": 4,
+      "source_form": "hermano",
+      "source_translation": "брат",
+      "entry_id": "ru_es_duolingo_m1_s04_family:hermano",
+      "target": "hermano",
+      "ru": "брат",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hermano"
+    },
+    {
+      "section": 4,
+      "source_form": "hija",
+      "source_translation": "дочь",
+      "entry_id": "ru_es_duolingo_m1_s04_family:hija",
+      "target": "hija",
+      "ru": "дочь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hija"
+    },
+    {
+      "section": 4,
+      "source_form": "hijo",
+      "source_translation": "сын",
+      "entry_id": "ru_es_duolingo_m1_s04_family:hijo",
+      "target": "hijo",
+      "ru": "сын",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hijo"
+    },
+    {
+      "section": 4,
+      "source_form": "quiere",
+      "source_translation": "(она) хочет, (он) любит, любит, (он) хочет, (вы) хотите, хочется",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:querer",
+      "target": "querer",
+      "ru": "хотеть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/querer"
+    },
+    {
+      "section": 4,
+      "source_form": "solamente",
+      "source_translation": "только",
+      "entry_id": "ru_es_duolingo_m1_s04_family:solamente",
+      "target": "solamente",
+      "ru": "только",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/solamente"
+    },
+    {
+      "section": 4,
+      "source_form": "también",
+      "source_translation": "тоже",
+      "entry_id": "ru_es_duolingo_m1_s04_family:también",
+      "target": "también",
+      "ru": "тоже",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tambi%C3%A9n"
+    },
+    {
+      "section": 4,
+      "source_form": "tengo",
+      "source_translation": "у меня (есть), (я) имею",
+      "entry_id": "ru_es_duolingo_m1_s04_family:tener",
+      "target": "tener",
+      "ru": "иметь",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tener"
+    },
+    {
+      "section": 4,
+      "source_form": "tía",
+      "source_translation": "тётя",
+      "entry_id": "ru_es_duolingo_m1_s04_family:tía",
+      "target": "tía",
+      "ru": "тётя",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%ADa"
+    },
+    {
+      "section": 4,
+      "source_form": "tío",
+      "source_translation": "дядя",
+      "entry_id": "ru_es_duolingo_m1_s04_family:tío",
+      "target": "tío",
+      "ru": "дядя",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%ADo"
+    },
+    {
+      "section": 4,
+      "source_form": "una",
+      "source_translation": "одно, одну, одной, одна, один, una",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:uno",
+      "target": "uno",
+      "ru": "один",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/uno"
+    },
+    {
+      "section": 4,
+      "source_form": "uno",
+      "source_translation": "один",
+      "entry_id": "ru_es_duolingo_m1_s01_cafe:uno",
+      "target": "uno",
+      "ru": "один",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s4",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/uno"
+    },
+    {
+      "section": 5,
+      "source_form": "abuela",
+      "source_translation": "бабушка",
+      "entry_id": "ru_es_duolingo_m1_s05_character:abuela",
+      "target": "abuela",
+      "ru": "бабушка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/abuela"
+    },
+    {
+      "section": 5,
+      "source_form": "abuelo",
+      "source_translation": "дедушка",
+      "entry_id": "ru_es_duolingo_m1_s05_character:abuelo",
+      "target": "abuelo",
+      "ru": "дедушка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/abuelo"
+    },
+    {
+      "section": 5,
+      "source_form": "como yo",
+      "source_translation": "как и я",
+      "entry_id": "ru_es_duolingo_m1_s05_character:como yo",
+      "target": "como yo",
+      "ru": "как и я",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/como%20yo"
+    },
+    {
+      "section": 5,
+      "source_form": "creo que",
+      "source_translation": "(я) думаю, (что), думаю",
+      "entry_id": "ru_es_duolingo_m1_s05_character:creo que",
+      "target": "creo que",
+      "ru": "думаю что",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/creo%20que"
+    },
+    {
+      "section": 5,
+      "source_form": "cómo es",
+      "source_translation": "какой",
+      "entry_id": "ru_es_duolingo_m1_s05_character:cómo es",
+      "target": "cómo es",
+      "ru": "какой",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/c%C3%B3mo%20es"
+    },
+    {
+      "section": 5,
+      "source_form": "en general",
+      "source_translation": "в общем",
+      "entry_id": "ru_es_duolingo_m1_s05_character:en general",
+      "target": "en general",
+      "ru": "в общем",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/en%20general"
+    },
+    {
+      "section": 5,
+      "source_form": "esposa",
+      "source_translation": "жена",
+      "entry_id": "ru_es_duolingo_m1_s05_character:esposa",
+      "target": "esposa",
+      "ru": "жена",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/esposa"
+    },
+    {
+      "section": 5,
+      "source_form": "esposo",
+      "source_translation": "муж",
+      "entry_id": "ru_es_duolingo_m1_s05_character:esposo",
+      "target": "esposo",
+      "ru": "муж",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/esposo"
+    },
+    {
+      "section": 5,
+      "source_form": "graciosa",
+      "source_translation": "смешная, смешной, смешная, забавную",
+      "entry_id": "ru_es_duolingo_m1_s05_character:gracioso",
+      "target": "gracioso",
+      "ru": "смешной",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/gracioso"
+    },
+    {
+      "section": 5,
+      "source_form": "gracioso",
+      "source_translation": "смешной",
+      "entry_id": "ru_es_duolingo_m1_s05_character:gracioso",
+      "target": "gracioso",
+      "ru": "смешной",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/gracioso"
+    },
+    {
+      "section": 5,
+      "source_form": "no crees",
+      "source_translation": "не так ли?",
+      "entry_id": "ru_es_duolingo_m1_s05_character:no crees",
+      "target": "no crees",
+      "ru": "не думаешь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no%20crees"
+    },
+    {
+      "section": 5,
+      "source_form": "novia",
+      "source_translation": "девушка",
+      "entry_id": "ru_es_duolingo_m1_s05_character:novia",
+      "target": "novia",
+      "ru": "девушка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/novia"
+    },
+    {
+      "section": 5,
+      "source_form": "novio",
+      "source_translation": "парень",
+      "entry_id": "ru_es_duolingo_m1_s05_character:novio",
+      "target": "novio",
+      "ru": "парень",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/novio"
+    },
+    {
+      "section": 5,
+      "source_form": "papá",
+      "source_translation": "папа",
+      "entry_id": "ru_es_duolingo_m1_s05_character:papá",
+      "target": "papá",
+      "ru": "папа",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pap%C3%A1"
+    },
+    {
+      "section": 5,
+      "source_form": "pero",
+      "source_translation": "а, но, зато",
+      "entry_id": "ru_es_duolingo_m1_s05_character:pero",
+      "target": "pero",
+      "ru": "а",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pero"
+    },
+    {
+      "section": 5,
+      "source_form": "seria",
+      "source_translation": "серьезной, серьёзный, серьёзной, серьёзная, серьёзна",
+      "entry_id": "ru_es_duolingo_m1_s05_character:serio",
+      "target": "serio",
+      "ru": "серьёзный",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/serio"
+    },
+    {
+      "section": 5,
+      "source_form": "serio",
+      "source_translation": "серьёзную, серьёзном, серьезной, серьёзный, серьёзного, серьёзен, серьёзным, серьёзнее, серьезное, серьёзной, серьезном, серьезную, серьёзно, серьезный, серьезная, серьёзна, тяжкое",
+      "entry_id": "ru_es_duolingo_m1_s05_character:serio",
+      "target": "serio",
+      "ru": "серьёзный",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/serio"
+    },
+    {
+      "section": 5,
+      "source_form": "simpática",
+      "source_translation": "приятная",
+      "entry_id": "ru_es_duolingo_m1_s05_character:simpático",
+      "target": "simpático",
+      "ru": "приятный",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/simp%C3%A1tico"
+    },
+    {
+      "section": 5,
+      "source_form": "simpático",
+      "source_translation": "приятный",
+      "entry_id": "ru_es_duolingo_m1_s05_character:simpático",
+      "target": "simpático",
+      "ru": "приятный",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/simp%C3%A1tico"
+    },
+    {
+      "section": 5,
+      "source_form": "tu",
+      "source_translation": "твой",
+      "entry_id": "ru_es_duolingo_m1_s05_character:tu",
+      "target": "tu",
+      "ru": "твой",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tu"
+    },
+    {
+      "section": 5,
+      "source_form": "tímida",
+      "source_translation": "застенчивая, стеснительная, застенчива, застенчивой, малообщительная",
+      "entry_id": "ru_es_duolingo_m1_s05_character:tímido",
+      "target": "tímido",
+      "ru": "застенчивый",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%ADmido"
+    },
+    {
+      "section": 5,
+      "source_form": "tímido",
+      "source_translation": "стеснительный",
+      "entry_id": "ru_es_duolingo_m1_s05_character:tímido",
+      "target": "tímido",
+      "ru": "застенчивый",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s5",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/t%C3%ADmido"
+    },
+    {
+      "section": 6,
+      "source_form": "aquí",
+      "source_translation": "здесь",
+      "entry_id": "ru_es_duolingo_m1_s06_location:aquí",
+      "target": "aquí",
+      "ru": "здесь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/aqu%C3%AD"
+    },
+    {
+      "section": 6,
+      "source_form": "ay",
+      "source_translation": "ой",
+      "entry_id": "ru_es_duolingo_m1_s06_location:ay",
+      "target": "ay",
+      "ru": "ой",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ay"
+    },
+    {
+      "section": 6,
+      "source_form": "cargador",
+      "source_translation": "зарядное устройство",
+      "entry_id": "ru_es_duolingo_m1_s06_location:cargador",
+      "target": "cargador",
+      "ru": "зарядное устройство",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cargador"
+    },
+    {
+      "section": 6,
+      "source_form": "cartera",
+      "source_translation": "кошелёк",
+      "entry_id": "ru_es_duolingo_m1_s06_location:cartera",
+      "target": "cartera",
+      "ru": "кошелёк",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cartera"
+    },
+    {
+      "section": 6,
+      "source_form": "chaqueta",
+      "source_translation": "куртка",
+      "entry_id": "ru_es_duolingo_m1_s06_location:chaqueta",
+      "target": "chaqueta",
+      "ru": "куртка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/chaqueta"
+    },
+    {
+      "section": 6,
+      "source_form": "dónde",
+      "source_translation": "где",
+      "entry_id": "ru_es_duolingo_m1_s06_location:dónde",
+      "target": "dónde",
+      "ru": "где",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/d%C3%B3nde"
+    },
+    {
+      "section": 6,
+      "source_form": "está",
+      "source_translation": "поживает, (она) находится, (он) находится, лежит, лежала, стоит, находится, поживаете, бывает, есть, (он) стоит, (она) стоит, горит",
+      "entry_id": "ru_es_duolingo_m1_s06_location:estar",
+      "target": "estar",
+      "ru": "находиться",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/estar"
+    },
+    {
+      "section": 6,
+      "source_form": "gorra",
+      "source_translation": "кепка",
+      "entry_id": "ru_es_duolingo_m1_s06_location:gorra",
+      "target": "gorra",
+      "ru": "кепка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/gorra"
+    },
+    {
+      "section": 6,
+      "source_form": "libro",
+      "source_translation": "книга",
+      "entry_id": "ru_es_duolingo_m1_s06_location:libro",
+      "target": "libro",
+      "ru": "книга",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/libro"
+    },
+    {
+      "section": 6,
+      "source_form": "maleta",
+      "source_translation": "чемодан",
+      "entry_id": "ru_es_duolingo_m1_s06_location:maleta",
+      "target": "maleta",
+      "ru": "чемодан",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/maleta"
+    },
+    {
+      "section": 6,
+      "source_form": "mochila",
+      "source_translation": "рюкзак",
+      "entry_id": "ru_es_duolingo_m1_s06_location:mochila",
+      "target": "mochila",
+      "ru": "рюкзак",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mochila"
+    },
+    {
+      "section": 6,
+      "source_form": "no",
+      "source_translation": "нет",
+      "entry_id": "ru_es_duolingo_m1_s03_origin:no",
+      "target": "no",
+      "ru": "нет",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no"
+    },
+    {
+      "section": 6,
+      "source_form": "no encuentro",
+      "source_translation": "нахожу",
+      "entry_id": "ru_es_duolingo_m1_s06_location:no encuentro",
+      "target": "no encuentro",
+      "ru": "не нахожу",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no%20encuentro"
+    },
+    {
+      "section": 6,
+      "source_form": "nuevo",
+      "source_translation": "новый",
+      "entry_id": "ru_es_duolingo_m1_s06_location:nuevo",
+      "target": "nuevo",
+      "ru": "новый",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/nuevo"
+    },
+    {
+      "section": 6,
+      "source_form": "pasaporte",
+      "source_translation": "паспорт, паспортом",
+      "entry_id": "ru_es_duolingo_m1_s06_location:pasaporte",
+      "target": "pasaporte",
+      "ru": "паспорт",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pasaporte"
+    },
+    {
+      "section": 6,
+      "source_form": "pues",
+      "source_translation": "ну",
+      "entry_id": "ru_es_duolingo_m1_s06_location:pues",
+      "target": "pues",
+      "ru": "ну",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pues"
+    },
+    {
+      "section": 6,
+      "source_form": "reloj",
+      "source_translation": "часы",
+      "entry_id": "ru_es_duolingo_m1_s06_location:reloj",
+      "target": "reloj",
+      "ru": "часы",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/reloj"
+    },
+    {
+      "section": 6,
+      "source_form": "suéter",
+      "source_translation": "свитеры, свитер, свитере, джемпер, свитером, пуловера, пуловере",
+      "entry_id": "ru_es_duolingo_m1_s06_location:suéter",
+      "target": "suéter",
+      "ru": "свитер",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/su%C3%A9ter"
+    },
+    {
+      "section": 6,
+      "source_form": "tableta",
+      "source_translation": "планшет, планшете, планшету, планшетом, таблетке",
+      "entry_id": "ru_es_duolingo_m1_s06_location:tableta",
+      "target": "tableta",
+      "ru": "планшет",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tableta"
+    },
+    {
+      "section": 6,
+      "source_form": "tengo",
+      "source_translation": "у меня (есть), (я) имею",
+      "entry_id": "ru_es_duolingo_m1_s04_family:tener",
+      "target": "tener",
+      "ru": "иметь",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tener"
+    },
+    {
+      "section": 6,
+      "source_form": "tranquila",
+      "source_translation": "спокойно",
+      "entry_id": "ru_es_duolingo_m1_s06_location:tranquilo",
+      "target": "tranquilo",
+      "ru": "спокойный",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tranquilo"
+    },
+    {
+      "section": 6,
+      "source_form": "tranquilo",
+      "source_translation": "спокойно",
+      "entry_id": "ru_es_duolingo_m1_s06_location:tranquilo",
+      "target": "tranquilo",
+      "ru": "спокойный",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tranquilo"
+    },
+    {
+      "section": 6,
+      "source_form": "vestido",
+      "source_translation": "платье",
+      "entry_id": "ru_es_duolingo_m1_s06_location:vestido",
+      "target": "vestido",
+      "ru": "платье",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s6",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/vestido"
+    },
+    {
+      "section": 7,
+      "source_form": "banco",
+      "source_translation": "банком, банк, парта",
+      "entry_id": "ru_es_duolingo_m1_s07_city:banco",
+      "target": "banco",
+      "ru": "банк",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/banco"
+    },
+    {
+      "section": 7,
+      "source_form": "barrio",
+      "source_translation": "район",
+      "entry_id": "ru_es_duolingo_m1_s07_city:barrio",
+      "target": "barrio",
+      "ru": "район",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/barrio"
+    },
+    {
+      "section": 7,
+      "source_form": "cafetería",
+      "source_translation": "кофейня",
+      "entry_id": "ru_es_duolingo_m1_s07_city:cafetería",
+      "target": "cafetería",
+      "ru": "кофейня",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cafeter%C3%ADa"
+    },
+    {
+      "section": 7,
+      "source_form": "centro comercial",
+      "source_translation": "торговый центр",
+      "entry_id": "ru_es_duolingo_m1_s07_city:centro comercial",
+      "target": "centro comercial",
+      "ru": "торговый центр",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/centro%20comercial"
+    },
+    {
+      "section": 7,
+      "source_form": "cerca",
+      "source_translation": "рядом",
+      "entry_id": "ru_es_duolingo_m1_s07_city:cerca",
+      "target": "cerca",
+      "ru": "рядом",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cerca"
+    },
+    {
+      "section": 7,
+      "source_form": "ciudad",
+      "source_translation": "город",
+      "entry_id": "ru_es_duolingo_m1_s07_city:ciudad",
+      "target": "ciudad",
+      "ru": "город",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ciudad"
+    },
+    {
+      "section": 7,
+      "source_form": "en",
+      "source_translation": "en, за, через, во, на, о, в, средь",
+      "entry_id": "ru_es_duolingo_m1_s07_city:en",
+      "target": "en",
+      "ru": "в",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/en"
+    },
+    {
+      "section": 7,
+      "source_form": "estacionamiento",
+      "source_translation": "парковка",
+      "entry_id": "ru_es_duolingo_m1_s07_city:estacionamiento",
+      "target": "estacionamiento",
+      "ru": "парковка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/estacionamiento"
+    },
+    {
+      "section": 7,
+      "source_form": "estación de metro",
+      "source_translation": "станция метро",
+      "entry_id": "ru_es_duolingo_m1_s07_city:estación de metro",
+      "target": "estación de metro",
+      "ru": "станция метро",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/estaci%C3%B3n%20de%20metro"
+    },
+    {
+      "section": 7,
+      "source_form": "hay",
+      "source_translation": "лежит, лежат, стоит, водятся, имеется, есть, есть (имеется), попадаются, имеются, стоят, hay",
+      "entry_id": "ru_es_duolingo_m1_s07_city:haber",
+      "target": "haber",
+      "ru": "иметься",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/haber"
+    },
+    {
+      "section": 7,
+      "source_form": "hotel",
+      "source_translation": "отель, отелю, гостиница, гостиницы, гостиницу, отеля, гостинице, отеле, отелем",
+      "entry_id": "ru_es_duolingo_m1_s07_city:hotel",
+      "target": "hotel",
+      "ru": "отель",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hotel"
+    },
+    {
+      "section": 7,
+      "source_form": "librería",
+      "source_translation": "книжный магазин",
+      "entry_id": "ru_es_duolingo_m1_s07_city:librería",
+      "target": "librería",
+      "ru": "книжный магазин",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/librer%C3%ADa"
+    },
+    {
+      "section": 7,
+      "source_form": "mira",
+      "source_translation": "смотрит, посмотрит, посмотри, глянь, смотри, взгляни",
+      "entry_id": "ru_es_duolingo_m1_s07_city:mirar",
+      "target": "mirar",
+      "ru": "смотреть",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mirar"
+    },
+    {
+      "section": 7,
+      "source_form": "museo",
+      "source_translation": "музея, музеем, музей, музее, музеям",
+      "entry_id": "ru_es_duolingo_m1_s07_city:museo",
+      "target": "museo",
+      "ru": "музей",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/museo"
+    },
+    {
+      "section": 7,
+      "source_form": "no hay",
+      "source_translation": "нет (не имеется), нет",
+      "entry_id": "ru_es_duolingo_m1_s07_city:no hay",
+      "target": "no hay",
+      "ru": "не имеется",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no%20hay"
+    },
+    {
+      "section": 7,
+      "source_form": "oye",
+      "source_translation": "слушай",
+      "entry_id": "ru_es_duolingo_m1_s07_city:oír",
+      "target": "oír",
+      "ru": "слышать",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/o%C3%ADr"
+    },
+    {
+      "section": 7,
+      "source_form": "panadería",
+      "source_translation": "булочная",
+      "entry_id": "ru_es_duolingo_m1_s07_city:panadería",
+      "target": "panadería",
+      "ru": "булочная",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/panader%C3%ADa"
+    },
+    {
+      "section": 7,
+      "source_form": "parque",
+      "source_translation": "парк",
+      "entry_id": "ru_es_duolingo_m1_s07_city:parque",
+      "target": "parque",
+      "ru": "парк",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/parque"
+    },
+    {
+      "section": 7,
+      "source_form": "por aquí",
+      "source_translation": "здесь",
+      "entry_id": "ru_es_duolingo_m1_s07_city:por aquí",
+      "target": "por aquí",
+      "ru": "здесь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/por%20aqu%C3%AD"
+    },
+    {
+      "section": 7,
+      "source_form": "pueblo",
+      "source_translation": "деревня",
+      "entry_id": "ru_es_duolingo_m1_s07_city:pueblo",
+      "target": "pueblo",
+      "ru": "деревня",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pueblo"
+    },
+    {
+      "section": 7,
+      "source_form": "teatro",
+      "source_translation": "театра, театр, театре, театром, театру",
+      "entry_id": "ru_es_duolingo_m1_s07_city:teatro",
+      "target": "teatro",
+      "ru": "театр",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/teatro"
+    },
+    {
+      "section": 7,
+      "source_form": "tienda",
+      "source_translation": "магазин",
+      "entry_id": "ru_es_duolingo_m1_s07_city:tienda",
+      "target": "tienda",
+      "ru": "магазин",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s7",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tienda"
+    },
+    {
+      "section": 8,
+      "source_form": "alemán",
+      "source_translation": "немецкий",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:alemán",
+      "target": "alemán",
+      "ru": "немецкий",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/alem%C3%A1n"
+    },
+    {
+      "section": 8,
+      "source_form": "arte",
+      "source_translation": "искусство",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:arte",
+      "target": "arte",
+      "ru": "искусство",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/arte"
+    },
+    {
+      "section": 8,
+      "source_form": "casa",
+      "source_translation": "дом",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:casa",
+      "target": "casa",
+      "ru": "дом",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/casa"
+    },
+    {
+      "section": 8,
+      "source_form": "escuela",
+      "source_translation": "школа",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:escuela",
+      "target": "escuela",
+      "ru": "школа",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/escuela"
+    },
+    {
+      "section": 8,
+      "source_form": "español",
+      "source_translation": "испанский",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:español",
+      "target": "español",
+      "ru": "испанский",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/espa%C3%B1ol"
+    },
+    {
+      "section": 8,
+      "source_form": "estudias",
+      "source_translation": "изучаете, изучаешь, учишь, учишься",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:estudiar",
+      "target": "estudiar",
+      "ru": "учиться",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/estudiar"
+    },
+    {
+      "section": 8,
+      "source_form": "estudio",
+      "source_translation": "учебе, занятию, изучение, изучением, изучаю, изучения, студии, (я) учусь, учебу, изучении, учеба, учу, исследованию, учебном, исследование, студию, учусь, науку",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:estudiar",
+      "target": "estudiar",
+      "ru": "учиться",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/estudiar"
+    },
+    {
+      "section": 8,
+      "source_form": "francés",
+      "source_translation": "французский",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:francés",
+      "target": "francés",
+      "ru": "французский",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/franc%C3%A9s"
+    },
+    {
+      "section": 8,
+      "source_form": "genial",
+      "source_translation": "здорово",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:genial",
+      "target": "genial",
+      "ru": "здорово",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/genial"
+    },
+    {
+      "section": 8,
+      "source_form": "guau",
+      "source_translation": "вау",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:guau",
+      "target": "guau",
+      "ru": "вау",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/guau"
+    },
+    {
+      "section": 8,
+      "source_form": "hablar",
+      "source_translation": "говорить",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:hablar",
+      "target": "hablar",
+      "ru": "говорить",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hablar"
+    },
+    {
+      "section": 8,
+      "source_form": "hablas",
+      "source_translation": "болтаешь, разговариваешь, (ты) говоришь, отзывается",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:hablar",
+      "target": "hablar",
+      "ru": "говорить",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hablar"
+    },
+    {
+      "section": 8,
+      "source_form": "inglés",
+      "source_translation": "английский",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:inglés",
+      "target": "inglés",
+      "ru": "английский",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ingl%C3%A9s"
+    },
+    {
+      "section": 8,
+      "source_form": "italiano",
+      "source_translation": "итальянский",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:italiano",
+      "target": "italiano",
+      "ru": "итальянский",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/italiano"
+    },
+    {
+      "section": 8,
+      "source_form": "muy bien",
+      "source_translation": "очень хорошо",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:muy bien",
+      "target": "muy bien",
+      "ru": "очень хорошо",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/muy%20bien"
+    },
+    {
+      "section": 8,
+      "source_form": "música",
+      "source_translation": "музыка",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:música",
+      "target": "música",
+      "ru": "музыка",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/m%C3%BAsica"
+    },
+    {
+      "section": 8,
+      "source_form": "por la mañana",
+      "source_translation": "по утрам",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:por la mañana",
+      "target": "por la mañana",
+      "ru": "по утрам",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/por%20la%20ma%C3%B1ana"
+    },
+    {
+      "section": 8,
+      "source_form": "por la noche",
+      "source_translation": "по вечерам",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:por la noche",
+      "target": "por la noche",
+      "ru": "по вечерам",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/por%20la%20noche"
+    },
+    {
+      "section": 8,
+      "source_form": "portugués",
+      "source_translation": "португальский",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:portugués",
+      "target": "portugués",
+      "ru": "португальский",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/portugu%C3%A9s"
+    },
+    {
+      "section": 8,
+      "source_form": "un poco de",
+      "source_translation": "немного",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:un poco de",
+      "target": "un poco de",
+      "ru": "немного",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/un%20poco%20de"
+    },
+    {
+      "section": 8,
+      "source_form": "y tú",
+      "source_translation": "а ты?",
+      "entry_id": "ru_es_duolingo_m1_s08_languages:y tú",
+      "target": "y tú",
+      "ru": "а ты?",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s8",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/y%20t%C3%BA"
+    },
+    {
+      "section": 9,
+      "source_form": "abrigo",
+      "source_translation": "пальто",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:abrigo",
+      "target": "abrigo",
+      "ru": "пальто",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/abrigo"
+    },
+    {
+      "section": 9,
+      "source_form": "ahora",
+      "source_translation": "сейчас",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:ahora",
+      "target": "ahora",
+      "ru": "сейчас",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/ahora"
+    },
+    {
+      "section": 9,
+      "source_form": "allí",
+      "source_translation": "там",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:allí",
+      "target": "allí",
+      "ru": "там",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/all%C3%AD"
+    },
+    {
+      "section": 9,
+      "source_form": "buen tiempo",
+      "source_translation": "хорошая погода",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:buen tiempo",
+      "target": "buen tiempo",
+      "ru": "хорошая погода",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/buen%20tiempo"
+    },
+    {
+      "section": 9,
+      "source_form": "calor",
+      "source_translation": "жарко",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:calor",
+      "target": "calor",
+      "ru": "жара",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/calor"
+    },
+    {
+      "section": 9,
+      "source_form": "diciembre",
+      "source_translation": "декабрь",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:diciembre",
+      "target": "diciembre",
+      "ru": "декабрь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/diciembre"
+    },
+    {
+      "section": 9,
+      "source_form": "en",
+      "source_translation": "en, за, через, во, на, о, в, средь",
+      "entry_id": "ru_es_duolingo_m1_s07_city:en",
+      "target": "en",
+      "ru": "в",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/en"
+    },
+    {
+      "section": 9,
+      "source_form": "enero",
+      "source_translation": "январь",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:enero",
+      "target": "enero",
+      "ru": "январь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/enero"
+    },
+    {
+      "section": 9,
+      "source_form": "frío",
+      "source_translation": "холодно",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:frío",
+      "target": "frío",
+      "ru": "холод",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/fr%C3%ADo"
+    },
+    {
+      "section": 9,
+      "source_form": "hace",
+      "source_translation": "жульничает, прилагает, снимает, задаёт, издает, задает, делает, закатит",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:hacer",
+      "target": "hacer",
+      "ru": "делать",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hacer"
+    },
+    {
+      "section": 9,
+      "source_form": "hoy",
+      "source_translation": "сегодня",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:hoy",
+      "target": "hoy",
+      "ru": "сегодня",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/hoy"
+    },
+    {
+      "section": 9,
+      "source_form": "invierno",
+      "source_translation": "зима",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:invierno",
+      "target": "invierno",
+      "ru": "зима",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/invierno"
+    },
+    {
+      "section": 9,
+      "source_form": "julio",
+      "source_translation": "июль",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:julio",
+      "target": "julio",
+      "ru": "июль",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/julio"
+    },
+    {
+      "section": 9,
+      "source_form": "marzo",
+      "source_translation": "март",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:marzo",
+      "target": "marzo",
+      "ru": "март",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/marzo"
+    },
+    {
+      "section": 9,
+      "source_form": "mucho",
+      "source_translation": "очень",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:mucho",
+      "target": "mucho",
+      "ru": "много",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mucho"
+    },
+    {
+      "section": 9,
+      "source_form": "no hace",
+      "source_translation": "не, делает",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:no hace",
+      "target": "no hace",
+      "ru": "не делает",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/no%20hace"
+    },
+    {
+      "section": 9,
+      "source_form": "octubre",
+      "source_translation": "октябрь",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:octubre",
+      "target": "octubre",
+      "ru": "октябрь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/octubre"
+    },
+    {
+      "section": 9,
+      "source_form": "otoño",
+      "source_translation": "осень",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:otoño",
+      "target": "otoño",
+      "ru": "осень",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/oto%C3%B1o"
+    },
+    {
+      "section": 9,
+      "source_form": "país",
+      "source_translation": "страна",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:país",
+      "target": "país",
+      "ru": "страна",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pa%C3%ADs"
+    },
+    {
+      "section": 9,
+      "source_form": "primavera",
+      "source_translation": "весна",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:primavera",
+      "target": "primavera",
+      "ru": "весна",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/primavera"
+    },
+    {
+      "section": 9,
+      "source_form": "septiembre",
+      "source_translation": "сентябрь",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:septiembre",
+      "target": "septiembre",
+      "ru": "сентябрь",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/septiembre"
+    },
+    {
+      "section": 9,
+      "source_form": "sol",
+      "source_translation": "солнце",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:sol",
+      "target": "sol",
+      "ru": "солнце",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/sol"
+    },
+    {
+      "section": 9,
+      "source_form": "traje de baño",
+      "source_translation": "купальник",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:traje de baño",
+      "target": "traje de baño",
+      "ru": "купальник",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/traje%20de%20ba%C3%B1o"
+    },
+    {
+      "section": 9,
+      "source_form": "uso",
+      "source_translation": "пользуюсь, употребление, использование, применением, использования, использовании, использую, пользования",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:usar",
+      "target": "usar",
+      "ru": "использовать",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/usar"
+    },
+    {
+      "section": 9,
+      "source_form": "verano",
+      "source_translation": "лето",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:verano",
+      "target": "verano",
+      "ru": "лето",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/verano"
+    },
+    {
+      "section": 9,
+      "source_form": "viento",
+      "source_translation": "ветрено",
+      "entry_id": "ru_es_duolingo_m1_s09_weather:viento",
+      "target": "viento",
+      "ru": "ветер",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s9",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/viento"
+    },
+    {
+      "section": 10,
+      "source_form": "bolsa",
+      "source_translation": "пакет",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:bolsa",
+      "target": "bolsa",
+      "ru": "пакет",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/bolsa"
+    },
+    {
+      "section": 10,
+      "source_form": "bolsas",
+      "source_translation": "пакеты",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:bolsa",
+      "target": "bolsa",
+      "ru": "пакет",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/bolsa"
+    },
+    {
+      "section": 10,
+      "source_form": "botella de",
+      "source_translation": "бутылка, бутылку",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:botella de",
+      "target": "botella de",
+      "ru": "бутылка чего-либо",
+      "normalization": "Сохранён оборот меры с de и его значение.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/botella%20de"
+    },
+    {
+      "section": 10,
+      "source_form": "cuánto cuesta",
+      "source_translation": "сколько стоит",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:cuánto cuesta",
+      "target": "cuánto cuesta",
+      "ru": "сколько стоит",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cu%C3%A1nto%20cuesta"
+    },
+    {
+      "section": 10,
+      "source_form": "cuánto cuestan",
+      "source_translation": "стоят",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:cuánto cuesta",
+      "target": "cuánto cuesta",
+      "ru": "сколько стоит",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/cu%C3%A1nto%20cuesta"
+    },
+    {
+      "section": 10,
+      "source_form": "dos",
+      "source_translation": "два",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:dos",
+      "target": "dos",
+      "ru": "два",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/dos"
+    },
+    {
+      "section": 10,
+      "source_form": "durazno",
+      "source_translation": "персик",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:durazno",
+      "target": "durazno",
+      "ru": "персик",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/durazno"
+    },
+    {
+      "section": 10,
+      "source_form": "duraznos",
+      "source_translation": "персики",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:durazno",
+      "target": "durazno",
+      "ru": "персик",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/durazno"
+    },
+    {
+      "section": 10,
+      "source_form": "este",
+      "source_translation": "этот",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:este",
+      "target": "este",
+      "ru": "этот",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/este"
+    },
+    {
+      "section": 10,
+      "source_form": "hay",
+      "source_translation": "лежит, лежат, стоит, водятся, имеется, есть, есть (имеется), попадаются, имеются, стоят, hay",
+      "entry_id": "ru_es_duolingo_m1_s07_city:haber",
+      "target": "haber",
+      "ru": "иметься",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/haber"
+    },
+    {
+      "section": 10,
+      "source_form": "kilo de",
+      "source_translation": "килограмм, полкило",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:kilo de",
+      "target": "kilo de",
+      "ru": "килограмм чего-либо",
+      "normalization": "Сохранён оборот меры с de. Множественное kilos de приведено к kilo de.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/kilo%20de"
+    },
+    {
+      "section": 10,
+      "source_form": "kilos de",
+      "source_translation": "килограммов, килограмма",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:kilo de",
+      "target": "kilo de",
+      "ru": "килограмм чего-либо",
+      "normalization": "Сохранён оборот меры с de. Множественное kilos de приведено к kilo de.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/kilo%20de"
+    },
+    {
+      "section": 10,
+      "source_form": "mango",
+      "source_translation": "манго",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:mango",
+      "target": "mango",
+      "ru": "манго",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mango"
+    },
+    {
+      "section": 10,
+      "source_form": "mangos",
+      "source_translation": "манго",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:mango",
+      "target": "mango",
+      "ru": "манго",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mango"
+    },
+    {
+      "section": 10,
+      "source_form": "mercado",
+      "source_translation": "рынок",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:mercado",
+      "target": "mercado",
+      "ru": "рынок",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mercado"
+    },
+    {
+      "section": 10,
+      "source_form": "mercados",
+      "source_translation": "рынки",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:mercado",
+      "target": "mercado",
+      "ru": "рынок",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/mercado"
+    },
+    {
+      "section": 10,
+      "source_form": "más",
+      "source_translation": "больше",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:más",
+      "target": "más",
+      "ru": "больше",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/m%C3%A1s"
+    },
+    {
+      "section": 10,
+      "source_form": "naranja",
+      "source_translation": "апельсин",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:naranja",
+      "target": "naranja",
+      "ru": "апельсин",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/naranja"
+    },
+    {
+      "section": 10,
+      "source_form": "naranjas",
+      "source_translation": "апельсины",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:naranja",
+      "target": "naranja",
+      "ru": "апельсин",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/naranja"
+    },
+    {
+      "section": 10,
+      "source_form": "necesitas",
+      "source_translation": "тебе нужно, (ты) нуждаешься, тебе нужен, тебе нужна, тебе нужны, понадоблюсь",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:necesitar",
+      "target": "necesitar",
+      "ru": "нуждаться",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/necesitar"
+    },
+    {
+      "section": 10,
+      "source_form": "necesito",
+      "source_translation": "мне надо, мне нужна, нужно, мне нужен, мне нужно, мне нужны, нужной",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:necesitar",
+      "target": "necesitar",
+      "ru": "нуждаться",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/necesitar"
+    },
+    {
+      "section": 10,
+      "source_form": "piña",
+      "source_translation": "ананас",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:piña",
+      "target": "piña",
+      "ru": "ананас",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pi%C3%B1a"
+    },
+    {
+      "section": 10,
+      "source_form": "piñas",
+      "source_translation": "ананасы",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:piña",
+      "target": "piña",
+      "ru": "ананас",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/pi%C3%B1a"
+    },
+    {
+      "section": 10,
+      "source_form": "sandía",
+      "source_translation": "арбуз",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:sandía",
+      "target": "sandía",
+      "ru": "арбуз",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/sand%C3%ADa"
+    },
+    {
+      "section": 10,
+      "source_form": "sandías",
+      "source_translation": "арбузы",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:sandía",
+      "target": "sandía",
+      "ru": "арбуз",
+      "normalization": "Словоформа глагола приведена к инфинитиву либо согласованная форма к словарной. Самостоятельные выражения и отрицание сохраняются. Повторения канонической единицы отнесены к первому подтверждённому разделу.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/sand%C3%ADa"
+    },
+    {
+      "section": 10,
+      "source_form": "tres",
+      "source_translation": "три",
+      "entry_id": "ru_es_duolingo_m1_s10_fruit:tres",
+      "target": "tres",
+      "ru": "три",
+      "normalization": "Сохранена лексическая единица. Русское значение отредактировано составителем.",
+      "source_url": "https://duome.eu/vocabulary/ru/es/skills#s10",
+      "accessed": "2026-11-24",
+      "coverage": "preliminary",
+      "reference_url": "https://www.spanishdict.com/translate/tres"
+    }
+  ],
+  "source_rows": [
+    {
+      "section": 1,
+      "es": "agua",
+      "ru": "вода"
+    },
+    {
+      "section": 1,
+      "es": "café",
+      "ru": "кофе"
+    },
+    {
+      "section": 1,
+      "es": "chao",
+      "ru": "пока"
+    },
+    {
+      "section": 1,
+      "es": "con azúcar",
+      "ru": "с сахаром"
+    },
+    {
+      "section": 1,
+      "es": "con hielo",
+      "ru": "со льдом"
+    },
+    {
+      "section": 1,
+      "es": "con leche",
+      "ru": "с молоком"
+    },
+    {
+      "section": 1,
+      "es": "gracias",
+      "ru": "спасибо"
+    },
+    {
+      "section": 1,
+      "es": "helado",
+      "ru": "мороженое"
+    },
+    {
+      "section": 1,
+      "es": "hola",
+      "ru": "привет"
+    },
+    {
+      "section": 1,
+      "es": "o",
+      "ru": "или"
+    },
+    {
+      "section": 1,
+      "es": "pan",
+      "ru": "хлеб"
+    },
+    {
+      "section": 1,
+      "es": "perfecto",
+      "ru": "отлично"
+    },
+    {
+      "section": 1,
+      "es": "por favor",
+      "ru": "пожалуйста"
+    },
+    {
+      "section": 1,
+      "es": "quieres",
+      "ru": "(ты) хочешь, (ты) любишь (кого-то), любишь"
+    },
+    {
+      "section": 1,
+      "es": "quiero",
+      "ru": "(я) хочу, (мне) хочется, (я) люблю, хочется, quiero"
+    },
+    {
+      "section": 1,
+      "es": "sándwich",
+      "ru": "бутерброд, сэндвичем, сэндвич, сэндвиче, бутерброда, бутерброде"
+    },
+    {
+      "section": 1,
+      "es": "taco",
+      "ru": "тако"
+    },
+    {
+      "section": 1,
+      "es": "té",
+      "ru": "чай"
+    },
+    {
+      "section": 1,
+      "es": "un",
+      "ru": "одним, одно, одна, a, один, целое"
+    },
+    {
+      "section": 1,
+      "es": "vaso de",
+      "ru": "стакан, стаканом"
+    },
+    {
+      "section": 1,
+      "es": "y",
+      "ru": "и"
+    },
+    {
+      "section": 2,
+      "es": "bien",
+      "ru": "хорошо"
+    },
+    {
+      "section": 2,
+      "es": "bienvenida",
+      "ru": "добро пожаловать"
+    },
+    {
+      "section": 2,
+      "es": "bienvenido",
+      "ru": "добро пожаловать"
+    },
+    {
+      "section": 2,
+      "es": "buenos días",
+      "ru": "доброе утро"
+    },
+    {
+      "section": 2,
+      "es": "ella",
+      "ru": "она"
+    },
+    {
+      "section": 2,
+      "es": "es",
+      "ru": "является, составляет, это, она, являетесь"
+    },
+    {
+      "section": 2,
+      "es": "hasta luego",
+      "ru": "до свидания"
+    },
+    {
+      "section": 2,
+      "es": "jugo",
+      "ru": "сок"
+    },
+    {
+      "section": 2,
+      "es": "mi mejor amiga",
+      "ru": "лучшая подруга"
+    },
+    {
+      "section": 2,
+      "es": "mi mejor amigo",
+      "ru": "мой лучший друг"
+    },
+    {
+      "section": 2,
+      "es": "mucho gusto",
+      "ru": "очень приятно"
+    },
+    {
+      "section": 2,
+      "es": "qué tal",
+      "ru": "как дела"
+    },
+    {
+      "section": 2,
+      "es": "soy",
+      "ru": "я, быть, являться, есть"
+    },
+    {
+      "section": 2,
+      "es": "yo",
+      "ru": "я"
+    },
+    {
+      "section": 2,
+      "es": "él",
+      "ru": "он"
+    },
+    {
+      "section": 3,
+      "es": "Alemania",
+      "ru": "Германия"
+    },
+    {
+      "section": 3,
+      "es": "buenas tardes",
+      "ru": "добрый день"
+    },
+    {
+      "section": 3,
+      "es": "compañero de cuarto",
+      "ru": "сосед по комнате"
+    },
+    {
+      "section": 3,
+      "es": "de dónde eres",
+      "ru": "откуда ты"
+    },
+    {
+      "section": 3,
+      "es": "encantada",
+      "ru": "приятно познакомиться"
+    },
+    {
+      "section": 3,
+      "es": "encantado",
+      "ru": "приятно познакомиться"
+    },
+    {
+      "section": 3,
+      "es": "eres de",
+      "ru": "ты из"
+    },
+    {
+      "section": 3,
+      "es": "es de",
+      "ru": "этого, из"
+    },
+    {
+      "section": 3,
+      "es": "mamá",
+      "ru": "мама, мамина, мамой, мам"
+    },
+    {
+      "section": 3,
+      "es": "mi",
+      "ru": "свой, мою, мой, своем, моей, свое, моё, моего, своё, моим, своего, мое, моя, своим"
+    },
+    {
+      "section": 3,
+      "es": "no",
+      "ru": "нет, не"
+    },
+    {
+      "section": 3,
+      "es": "soy de",
+      "ru": "я из"
+    },
+    {
+      "section": 3,
+      "es": "sí",
+      "ru": "да"
+    },
+    {
+      "section": 3,
+      "es": "tú",
+      "ru": "ты"
+    },
+    {
+      "section": 3,
+      "es": "verdad",
+      "ru": "верно"
+    },
+    {
+      "section": 4,
+      "es": "amiga",
+      "ru": "подругой, подруге, подруга, подругу"
+    },
+    {
+      "section": 4,
+      "es": "amigo",
+      "ru": "друг"
+    },
+    {
+      "section": 4,
+      "es": "compañera de trabajo",
+      "ru": "коллега по работе"
+    },
+    {
+      "section": 4,
+      "es": "compañero de trabajo",
+      "ru": "коллега по работе"
+    },
+    {
+      "section": 4,
+      "es": "en realidad",
+      "ru": "на самом деле"
+    },
+    {
+      "section": 4,
+      "es": "hermana",
+      "ru": "сестра"
+    },
+    {
+      "section": 4,
+      "es": "hermano",
+      "ru": "брат"
+    },
+    {
+      "section": 4,
+      "es": "hija",
+      "ru": "дочь"
+    },
+    {
+      "section": 4,
+      "es": "hijo",
+      "ru": "сын"
+    },
+    {
+      "section": 4,
+      "es": "quiere",
+      "ru": "(она) хочет, (он) любит, любит, (он) хочет, (вы) хотите, хочется"
+    },
+    {
+      "section": 4,
+      "es": "solamente",
+      "ru": "только"
+    },
+    {
+      "section": 4,
+      "es": "también",
+      "ru": "тоже"
+    },
+    {
+      "section": 4,
+      "es": "tengo",
+      "ru": "у меня (есть), (я) имею"
+    },
+    {
+      "section": 4,
+      "es": "tía",
+      "ru": "тётя"
+    },
+    {
+      "section": 4,
+      "es": "tío",
+      "ru": "дядя"
+    },
+    {
+      "section": 4,
+      "es": "una",
+      "ru": "одно, одну, одной, одна, один, una"
+    },
+    {
+      "section": 4,
+      "es": "uno",
+      "ru": "один"
+    },
+    {
+      "section": 5,
+      "es": "abuela",
+      "ru": "бабушка"
+    },
+    {
+      "section": 5,
+      "es": "abuelo",
+      "ru": "дедушка"
+    },
+    {
+      "section": 5,
+      "es": "como yo",
+      "ru": "как и я"
+    },
+    {
+      "section": 5,
+      "es": "creo que",
+      "ru": "(я) думаю, (что), думаю"
+    },
+    {
+      "section": 5,
+      "es": "cómo es",
+      "ru": "какой"
+    },
+    {
+      "section": 5,
+      "es": "en general",
+      "ru": "в общем"
+    },
+    {
+      "section": 5,
+      "es": "esposa",
+      "ru": "жена"
+    },
+    {
+      "section": 5,
+      "es": "esposo",
+      "ru": "муж"
+    },
+    {
+      "section": 5,
+      "es": "graciosa",
+      "ru": "смешная, смешной, смешная, забавную"
+    },
+    {
+      "section": 5,
+      "es": "gracioso",
+      "ru": "смешной"
+    },
+    {
+      "section": 5,
+      "es": "no crees",
+      "ru": "не так ли?"
+    },
+    {
+      "section": 5,
+      "es": "novia",
+      "ru": "девушка"
+    },
+    {
+      "section": 5,
+      "es": "novio",
+      "ru": "парень"
+    },
+    {
+      "section": 5,
+      "es": "papá",
+      "ru": "папа"
+    },
+    {
+      "section": 5,
+      "es": "pero",
+      "ru": "а, но, зато"
+    },
+    {
+      "section": 5,
+      "es": "seria",
+      "ru": "серьезной, серьёзный, серьёзной, серьёзная, серьёзна"
+    },
+    {
+      "section": 5,
+      "es": "serio",
+      "ru": "серьёзную, серьёзном, серьезной, серьёзный, серьёзного, серьёзен, серьёзным, серьёзнее, серьезное, серьёзной, серьезном, серьезную, серьёзно, серьезный, серьезная, серьёзна, тяжкое"
+    },
+    {
+      "section": 5,
+      "es": "simpática",
+      "ru": "приятная"
+    },
+    {
+      "section": 5,
+      "es": "simpático",
+      "ru": "приятный"
+    },
+    {
+      "section": 5,
+      "es": "tu",
+      "ru": "твой"
+    },
+    {
+      "section": 5,
+      "es": "tímida",
+      "ru": "застенчивая, стеснительная, застенчива, застенчивой, малообщительная"
+    },
+    {
+      "section": 5,
+      "es": "tímido",
+      "ru": "стеснительный"
+    },
+    {
+      "section": 6,
+      "es": "aquí",
+      "ru": "здесь"
+    },
+    {
+      "section": 6,
+      "es": "ay",
+      "ru": "ой"
+    },
+    {
+      "section": 6,
+      "es": "cargador",
+      "ru": "зарядное устройство"
+    },
+    {
+      "section": 6,
+      "es": "cartera",
+      "ru": "кошелёк"
+    },
+    {
+      "section": 6,
+      "es": "chaqueta",
+      "ru": "куртка"
+    },
+    {
+      "section": 6,
+      "es": "dónde",
+      "ru": "где"
+    },
+    {
+      "section": 6,
+      "es": "está",
+      "ru": "поживает, (она) находится, (он) находится, лежит, лежала, стоит, находится, поживаете, бывает, есть, (он) стоит, (она) стоит, горит"
+    },
+    {
+      "section": 6,
+      "es": "gorra",
+      "ru": "кепка"
+    },
+    {
+      "section": 6,
+      "es": "libro",
+      "ru": "книга"
+    },
+    {
+      "section": 6,
+      "es": "maleta",
+      "ru": "чемодан"
+    },
+    {
+      "section": 6,
+      "es": "mochila",
+      "ru": "рюкзак"
+    },
+    {
+      "section": 6,
+      "es": "no",
+      "ru": "нет"
+    },
+    {
+      "section": 6,
+      "es": "no encuentro",
+      "ru": "нахожу"
+    },
+    {
+      "section": 6,
+      "es": "nuevo",
+      "ru": "новый"
+    },
+    {
+      "section": 6,
+      "es": "pasaporte",
+      "ru": "паспорт, паспортом"
+    },
+    {
+      "section": 6,
+      "es": "pues",
+      "ru": "ну"
+    },
+    {
+      "section": 6,
+      "es": "reloj",
+      "ru": "часы"
+    },
+    {
+      "section": 6,
+      "es": "suéter",
+      "ru": "свитеры, свитер, свитере, джемпер, свитером, пуловера, пуловере"
+    },
+    {
+      "section": 6,
+      "es": "tableta",
+      "ru": "планшет, планшете, планшету, планшетом, таблетке"
+    },
+    {
+      "section": 6,
+      "es": "tengo",
+      "ru": "у меня (есть), (я) имею"
+    },
+    {
+      "section": 6,
+      "es": "tranquila",
+      "ru": "спокойно"
+    },
+    {
+      "section": 6,
+      "es": "tranquilo",
+      "ru": "спокойно"
+    },
+    {
+      "section": 6,
+      "es": "vestido",
+      "ru": "платье"
+    },
+    {
+      "section": 7,
+      "es": "banco",
+      "ru": "банком, банк, парта"
+    },
+    {
+      "section": 7,
+      "es": "barrio",
+      "ru": "район"
+    },
+    {
+      "section": 7,
+      "es": "cafetería",
+      "ru": "кофейня"
+    },
+    {
+      "section": 7,
+      "es": "centro comercial",
+      "ru": "торговый центр"
+    },
+    {
+      "section": 7,
+      "es": "cerca",
+      "ru": "рядом"
+    },
+    {
+      "section": 7,
+      "es": "ciudad",
+      "ru": "город"
+    },
+    {
+      "section": 7,
+      "es": "en",
+      "ru": "en, за, через, во, на, о, в, средь"
+    },
+    {
+      "section": 7,
+      "es": "estacionamiento",
+      "ru": "парковка"
+    },
+    {
+      "section": 7,
+      "es": "estación de metro",
+      "ru": "станция метро"
+    },
+    {
+      "section": 7,
+      "es": "hay",
+      "ru": "лежит, лежат, стоит, водятся, имеется, есть, есть (имеется), попадаются, имеются, стоят, hay"
+    },
+    {
+      "section": 7,
+      "es": "hotel",
+      "ru": "отель, отелю, гостиница, гостиницы, гостиницу, отеля, гостинице, отеле, отелем"
+    },
+    {
+      "section": 7,
+      "es": "librería",
+      "ru": "книжный магазин"
+    },
+    {
+      "section": 7,
+      "es": "mira",
+      "ru": "смотрит, посмотрит, посмотри, глянь, смотри, взгляни"
+    },
+    {
+      "section": 7,
+      "es": "museo",
+      "ru": "музея, музеем, музей, музее, музеям"
+    },
+    {
+      "section": 7,
+      "es": "no hay",
+      "ru": "нет (не имеется), нет"
+    },
+    {
+      "section": 7,
+      "es": "oye",
+      "ru": "слушай"
+    },
+    {
+      "section": 7,
+      "es": "panadería",
+      "ru": "булочная"
+    },
+    {
+      "section": 7,
+      "es": "parque",
+      "ru": "парк"
+    },
+    {
+      "section": 7,
+      "es": "por aquí",
+      "ru": "здесь"
+    },
+    {
+      "section": 7,
+      "es": "pueblo",
+      "ru": "деревня"
+    },
+    {
+      "section": 7,
+      "es": "teatro",
+      "ru": "театра, театр, театре, театром, театру"
+    },
+    {
+      "section": 7,
+      "es": "tienda",
+      "ru": "магазин"
+    },
+    {
+      "section": 8,
+      "es": "alemán",
+      "ru": "немецкий"
+    },
+    {
+      "section": 8,
+      "es": "arte",
+      "ru": "искусство"
+    },
+    {
+      "section": 8,
+      "es": "casa",
+      "ru": "дом"
+    },
+    {
+      "section": 8,
+      "es": "escuela",
+      "ru": "школа"
+    },
+    {
+      "section": 8,
+      "es": "español",
+      "ru": "испанский"
+    },
+    {
+      "section": 8,
+      "es": "estudias",
+      "ru": "изучаете, изучаешь, учишь, учишься"
+    },
+    {
+      "section": 8,
+      "es": "estudio",
+      "ru": "учебе, занятию, изучение, изучением, изучаю, изучения, студии, (я) учусь, учебу, изучении, учеба, учу, исследованию, учебном, исследование, студию, учусь, науку"
+    },
+    {
+      "section": 8,
+      "es": "francés",
+      "ru": "французский"
+    },
+    {
+      "section": 8,
+      "es": "genial",
+      "ru": "здорово"
+    },
+    {
+      "section": 8,
+      "es": "guau",
+      "ru": "вау"
+    },
+    {
+      "section": 8,
+      "es": "hablar",
+      "ru": "говорить"
+    },
+    {
+      "section": 8,
+      "es": "hablas",
+      "ru": "болтаешь, разговариваешь, (ты) говоришь, отзывается"
+    },
+    {
+      "section": 8,
+      "es": "inglés",
+      "ru": "английский"
+    },
+    {
+      "section": 8,
+      "es": "italiano",
+      "ru": "итальянский"
+    },
+    {
+      "section": 8,
+      "es": "muy bien",
+      "ru": "очень хорошо"
+    },
+    {
+      "section": 8,
+      "es": "música",
+      "ru": "музыка"
+    },
+    {
+      "section": 8,
+      "es": "por la mañana",
+      "ru": "по утрам"
+    },
+    {
+      "section": 8,
+      "es": "por la noche",
+      "ru": "по вечерам"
+    },
+    {
+      "section": 8,
+      "es": "portugués",
+      "ru": "португальский"
+    },
+    {
+      "section": 8,
+      "es": "un poco de",
+      "ru": "немного"
+    },
+    {
+      "section": 8,
+      "es": "y tú",
+      "ru": "а ты?"
+    },
+    {
+      "section": 9,
+      "es": "abrigo",
+      "ru": "пальто"
+    },
+    {
+      "section": 9,
+      "es": "ahora",
+      "ru": "сейчас"
+    },
+    {
+      "section": 9,
+      "es": "allí",
+      "ru": "там"
+    },
+    {
+      "section": 9,
+      "es": "buen tiempo",
+      "ru": "хорошая погода"
+    },
+    {
+      "section": 9,
+      "es": "calor",
+      "ru": "жарко"
+    },
+    {
+      "section": 9,
+      "es": "diciembre",
+      "ru": "декабрь"
+    },
+    {
+      "section": 9,
+      "es": "en",
+      "ru": "en, за, через, во, на, о, в, средь"
+    },
+    {
+      "section": 9,
+      "es": "enero",
+      "ru": "январь"
+    },
+    {
+      "section": 9,
+      "es": "frío",
+      "ru": "холодно"
+    },
+    {
+      "section": 9,
+      "es": "hace",
+      "ru": "жульничает, прилагает, снимает, задаёт, издает, задает, делает, закатит"
+    },
+    {
+      "section": 9,
+      "es": "hoy",
+      "ru": "сегодня"
+    },
+    {
+      "section": 9,
+      "es": "invierno",
+      "ru": "зима"
+    },
+    {
+      "section": 9,
+      "es": "julio",
+      "ru": "июль"
+    },
+    {
+      "section": 9,
+      "es": "marzo",
+      "ru": "март"
+    },
+    {
+      "section": 9,
+      "es": "mucho",
+      "ru": "очень"
+    },
+    {
+      "section": 9,
+      "es": "no hace",
+      "ru": "не, делает"
+    },
+    {
+      "section": 9,
+      "es": "octubre",
+      "ru": "октябрь"
+    },
+    {
+      "section": 9,
+      "es": "otoño",
+      "ru": "осень"
+    },
+    {
+      "section": 9,
+      "es": "país",
+      "ru": "страна"
+    },
+    {
+      "section": 9,
+      "es": "primavera",
+      "ru": "весна"
+    },
+    {
+      "section": 9,
+      "es": "septiembre",
+      "ru": "сентябрь"
+    },
+    {
+      "section": 9,
+      "es": "sol",
+      "ru": "солнце"
+    },
+    {
+      "section": 9,
+      "es": "traje de baño",
+      "ru": "купальник"
+    },
+    {
+      "section": 9,
+      "es": "uso",
+      "ru": "пользуюсь, употребление, использование, применением, использования, использовании, использую, пользования"
+    },
+    {
+      "section": 9,
+      "es": "verano",
+      "ru": "лето"
+    },
+    {
+      "section": 9,
+      "es": "viento",
+      "ru": "ветрено"
+    },
+    {
+      "section": 10,
+      "es": "bolsa",
+      "ru": "пакет"
+    },
+    {
+      "section": 10,
+      "es": "bolsas",
+      "ru": "пакеты"
+    },
+    {
+      "section": 10,
+      "es": "botella de",
+      "ru": "бутылка, бутылку"
+    },
+    {
+      "section": 10,
+      "es": "cuánto cuesta",
+      "ru": "сколько стоит"
+    },
+    {
+      "section": 10,
+      "es": "cuánto cuestan",
+      "ru": "стоят"
+    },
+    {
+      "section": 10,
+      "es": "dos",
+      "ru": "два"
+    },
+    {
+      "section": 10,
+      "es": "durazno",
+      "ru": "персик"
+    },
+    {
+      "section": 10,
+      "es": "duraznos",
+      "ru": "персики"
+    },
+    {
+      "section": 10,
+      "es": "este",
+      "ru": "этот"
+    },
+    {
+      "section": 10,
+      "es": "hay",
+      "ru": "лежит, лежат, стоит, водятся, имеется, есть, есть (имеется), попадаются, имеются, стоят, hay"
+    },
+    {
+      "section": 10,
+      "es": "kilo de",
+      "ru": "килограмм, полкило"
+    },
+    {
+      "section": 10,
+      "es": "kilos de",
+      "ru": "килограммов, килограмма"
+    },
+    {
+      "section": 10,
+      "es": "mango",
+      "ru": "манго"
+    },
+    {
+      "section": 10,
+      "es": "mangos",
+      "ru": "манго"
+    },
+    {
+      "section": 10,
+      "es": "mercado",
+      "ru": "рынок"
+    },
+    {
+      "section": 10,
+      "es": "mercados",
+      "ru": "рынки"
+    },
+    {
+      "section": 10,
+      "es": "más",
+      "ru": "больше"
+    },
+    {
+      "section": 10,
+      "es": "naranja",
+      "ru": "апельсин"
+    },
+    {
+      "section": 10,
+      "es": "naranjas",
+      "ru": "апельсины"
+    },
+    {
+      "section": 10,
+      "es": "necesitas",
+      "ru": "тебе нужно, (ты) нуждаешься, тебе нужен, тебе нужна, тебе нужны, понадоблюсь"
+    },
+    {
+      "section": 10,
+      "es": "necesito",
+      "ru": "мне надо, мне нужна, нужно, мне нужен, мне нужно, мне нужны, нужной"
+    },
+    {
+      "section": 10,
+      "es": "piña",
+      "ru": "ананас"
+    },
+    {
+      "section": 10,
+      "es": "piñas",
+      "ru": "ананасы"
+    },
+    {
+      "section": 10,
+      "es": "sandía",
+      "ru": "арбуз"
+    },
+    {
+      "section": 10,
+      "es": "sandías",
+      "ru": "арбузы"
+    },
+    {
+      "section": 10,
+      "es": "tres",
+      "ru": "три"
+    }
+  ]
+}

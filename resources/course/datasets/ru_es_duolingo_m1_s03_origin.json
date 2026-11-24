@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s03_origin",
+  "description": "\"Ser de\" для указания происхождения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:Alemania",
+      "ru": "Германия",
+      "target": "Alemania"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:buenas tardes",
+      "ru": "добрый день",
+      "target": "buenas tardes"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:compañero de cuarto",
+      "ru": "сосед по комнате",
+      "target": "compañero de cuarto"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:de dónde eres",
+      "ru": "откуда ты",
+      "target": "de dónde eres"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:encantado",
+      "ru": "очень приятно",
+      "target": "encantado"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:ser de",
+      "ru": "быть родом из",
+      "target": "ser de"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:mamá",
+      "ru": "мама",
+      "target": "mamá"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:mi",
+      "ru": "мой",
+      "target": "mi"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:no",
+      "ru": "нет",
+      "target": "no"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:sí",
+      "ru": "да",
+      "target": "sí"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:tú",
+      "ru": "ты",
+      "target": "tú"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s03_origin:verdad",
+      "ru": "верно",
+      "target": "verdad"
+    }
+  ]
+}

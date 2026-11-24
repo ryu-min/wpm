@@ -9,10 +9,12 @@ fn discovered_sources_belong_to_a_documented_module() {
             .adhere_to(
                 |file| {
                     let path = file.path.replace('\\', "/");
-                    path == "src/main.rs"
-                        || ["app", "ui", "domain", "storage", "dataset", "tests"]
-                            .iter()
-                            .any(|root| path.starts_with(&format!("src/{root}/")))
+                    matches!(
+                        path.as_str(),
+                        "src/main.rs" | "src/lib.rs" | "src/bin/wpm-es.rs"
+                    ) || ["app", "ui", "domain", "storage", "dataset", "tests"]
+                        .iter()
+                        .any(|root| path.starts_with(&format!("src/{root}/")))
                 },
                 "обнаруженный исходник должен принадлежать документированному модулю"
             )

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_130",
+  "description": "Обсудите оздоровительные занятия",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_130:a la semana",
+      "ru": "в неделю",
+      "target": "a la semana"
+    },
+    {
+      "id": "topic_130:aconsejar",
+      "ru": "советовать",
+      "target": "aconsejar"
+    },
+    {
+      "id": "topic_130:al día",
+      "ru": "в день",
+      "target": "al día"
+    },
+    {
+      "id": "topic_130:baloncesto",
+      "ru": "баскетбол",
+      "target": "baloncesto"
+    },
+    {
+      "id": "topic_130:bucear",
+      "ru": "нырять",
+      "target": "bucear"
+    },
+    {
+      "id": "topic_130:caramelo",
+      "ru": "конфета",
+      "target": "caramelo"
+    },
+    {
+      "id": "topic_130:dormido",
+      "ru": "спящий",
+      "target": "dormido"
+    },
+    {
+      "id": "topic_130:gafas de sol",
+      "ru": "солнцезащитные очки",
+      "target": "gafas de sol"
+    },
+    {
+      "id": "topic_130:hace poco",
+      "ru": "недавно",
+      "target": "hace poco"
+    },
+    {
+      "id": "topic_130:hueso",
+      "ru": "кость",
+      "target": "hueso"
+    },
+    {
+      "id": "topic_130:meditación",
+      "ru": "медитация",
+      "target": "meditación"
+    },
+    {
+      "id": "topic_130:músculo",
+      "ru": "мышца",
+      "target": "músculo"
+    },
+    {
+      "id": "topic_130:ramo",
+      "ru": "букет",
+      "target": "ramo"
+    },
+    {
+      "id": "topic_130:senderismo",
+      "ru": "пеший туризм",
+      "target": "senderismo"
+    },
+    {
+      "id": "topic_130:terapia",
+      "ru": "терапия",
+      "target": "terapia"
+    },
+    {
+      "id": "topic_130:toronja",
+      "ru": "грейпфрут",
+      "target": "toronja"
+    },
+    {
+      "id": "topic_130:vuelta",
+      "ru": "возвращение",
+      "target": "vuelta"
+    }
+  ]
+}

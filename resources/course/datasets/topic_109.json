@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_109",
+  "description": "Обсуждайте праздники",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_109:Año nuevo",
+      "ru": "Новый год",
+      "target": "Año nuevo"
+    },
+    {
+      "id": "topic_109:anterior",
+      "ru": "предыдущий",
+      "target": "anterior"
+    },
+    {
+      "id": "topic_109:anécdota",
+      "ru": "короткий рассказ",
+      "target": "anécdota"
+    },
+    {
+      "id": "topic_109:brindis",
+      "ru": "тост",
+      "target": "brindis"
+    },
+    {
+      "id": "topic_109:costumbre",
+      "ru": "обычай",
+      "target": "costumbre"
+    },
+    {
+      "id": "topic_109:criticar",
+      "ru": "критиковать",
+      "target": "criticar"
+    },
+    {
+      "id": "topic_109:cuñado",
+      "ru": "шурин",
+      "target": "cuñado"
+    },
+    {
+      "id": "topic_109:deseo",
+      "ru": "желание",
+      "target": "deseo"
+    },
+    {
+      "id": "topic_109:festejar",
+      "ru": "праздновать",
+      "target": "festejar"
+    },
+    {
+      "id": "topic_109:inolvidable",
+      "ru": "незабываемый",
+      "target": "inolvidable"
+    },
+    {
+      "id": "topic_109:nochebuena",
+      "ru": "канун Рождества",
+      "target": "nochebuena"
+    },
+    {
+      "id": "topic_109:ridículo",
+      "ru": "смешной",
+      "target": "ridículo"
+    },
+    {
+      "id": "topic_109:ron",
+      "ru": "ром",
+      "target": "ron"
+    },
+    {
+      "id": "topic_109:tontería",
+      "ru": "пустяк",
+      "target": "tontería"
+    },
+    {
+      "id": "topic_109:treinta y uno",
+      "ru": "тридцать один",
+      "target": "treinta y uno"
+    },
+    {
+      "id": "topic_109:uva",
+      "ru": "виноград",
+      "target": "uva"
+    }
+  ]
+}

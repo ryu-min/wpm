@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_172",
+  "description": "Обсуди новости экономики",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_172:campeonato",
+      "ru": "чемпионат",
+      "target": "campeonato"
+    },
+    {
+      "id": "topic_172:caído",
+      "ru": "упавший",
+      "target": "caído"
+    },
+    {
+      "id": "topic_172:decidido",
+      "ru": "решено",
+      "target": "decidido"
+    },
+    {
+      "id": "topic_172:desempleo",
+      "ru": "безработица",
+      "target": "desempleo"
+    },
+    {
+      "id": "topic_172:enterado",
+      "ru": "слышал",
+      "target": "enterado"
+    },
+    {
+      "id": "topic_172:liga",
+      "ru": "лига",
+      "target": "liga"
+    },
+    {
+      "id": "topic_172:medida",
+      "ru": "мера",
+      "target": "medida"
+    },
+    {
+      "id": "topic_172:publicado",
+      "ru": "публикуемый",
+      "target": "publicado"
+    },
+    {
+      "id": "topic_172:tornado",
+      "ru": "торнадо",
+      "target": "tornado"
+    }
+  ]
+}

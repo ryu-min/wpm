@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_281",
+  "description": "Искать вакансии",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_281:a distancia",
+      "ru": "удалённый",
+      "target": "a distancia"
+    },
+    {
+      "id": "topic_281:asesor",
+      "ru": "советник",
+      "target": "asesor"
+    },
+    {
+      "id": "topic_281:caracol",
+      "ru": "улитка",
+      "target": "caracol"
+    },
+    {
+      "id": "topic_281:competente",
+      "ru": "толковый",
+      "target": "competente"
+    },
+    {
+      "id": "topic_281:con fluidez",
+      "ru": "бегло",
+      "target": "con fluidez"
+    },
+    {
+      "id": "topic_281:coordinador",
+      "ru": "координатор",
+      "target": "coordinador"
+    },
+    {
+      "id": "topic_281:facilidad",
+      "ru": "лёгкость",
+      "target": "facilidad"
+    },
+    {
+      "id": "topic_281:finanzas",
+      "ru": "финансы",
+      "target": "finanzas"
+    },
+    {
+      "id": "topic_281:fundamental",
+      "ru": "основный",
+      "target": "fundamental"
+    },
+    {
+      "id": "topic_281:horas extra",
+      "ru": "сверхурочные часы",
+      "target": "horas extra"
+    },
+    {
+      "id": "topic_281:importación",
+      "ru": "импорт",
+      "target": "importación"
+    },
+    {
+      "id": "topic_281:llegar a ser",
+      "ru": "стать",
+      "target": "llegar a ser"
+    },
+    {
+      "id": "topic_281:líder",
+      "ru": "лидер",
+      "target": "líder"
+    },
+    {
+      "id": "topic_281:moda",
+      "ru": "мода",
+      "target": "moda"
+    },
+    {
+      "id": "topic_281:perfeccionista",
+      "ru": "перфекционист",
+      "target": "perfeccionista"
+    },
+    {
+      "id": "topic_281:perseverante",
+      "ru": "упорный",
+      "target": "perseverante"
+    },
+    {
+      "id": "topic_281:precisamente",
+      "ru": "именно",
+      "target": "precisamente"
+    },
+    {
+      "id": "topic_281:sastre",
+      "ru": "портной",
+      "target": "sastre"
+    },
+    {
+      "id": "topic_281:vacante",
+      "ru": "вакансия",
+      "target": "vacante"
+    },
+    {
+      "id": "topic_281:valorar",
+      "ru": "оценивать",
+      "target": "valorar"
+    }
+  ]
+}

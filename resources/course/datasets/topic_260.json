@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_260",
+  "description": "Расскажи об уборке",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_260:abrelatas",
+      "ru": "консервный нож",
+      "target": "abrelatas"
+    },
+    {
+      "id": "topic_260:algo así",
+      "ru": "что-то в этом роде",
+      "target": "algo así"
+    },
+    {
+      "id": "topic_260:aparato",
+      "ru": "прибор",
+      "target": "aparato"
+    },
+    {
+      "id": "topic_260:bicho",
+      "ru": "жук",
+      "target": "bicho"
+    },
+    {
+      "id": "topic_260:comestible",
+      "ru": "съедобный",
+      "target": "comestible"
+    },
+    {
+      "id": "topic_260:como se llame",
+      "ru": "как её там называют",
+      "target": "como se llame"
+    },
+    {
+      "id": "topic_260:coso",
+      "ru": "штука",
+      "target": "coso"
+    },
+    {
+      "id": "topic_260:cómo se llama",
+      "ru": "как это называется",
+      "target": "cómo se llama"
+    },
+    {
+      "id": "topic_260:destapador",
+      "ru": "открывашка",
+      "target": "destapador"
+    },
+    {
+      "id": "topic_260:esa cosa",
+      "ru": "та штука",
+      "target": "esa cosa"
+    },
+    {
+      "id": "topic_260:exprimir",
+      "ru": "выжимать",
+      "target": "exprimir"
+    },
+    {
+      "id": "topic_260:licuado",
+      "ru": "коктейль",
+      "target": "licuado"
+    },
+    {
+      "id": "topic_260:me explico",
+      "ru": "понятно ли я объясняю",
+      "target": "me explico"
+    },
+    {
+      "id": "topic_260:podrido",
+      "ru": "гнилой",
+      "target": "podrido"
+    },
+    {
+      "id": "topic_260:rallador",
+      "ru": "тёрка",
+      "target": "rallador"
+    },
+    {
+      "id": "topic_260:rallar",
+      "ru": "натереть",
+      "target": "rallar"
+    },
+    {
+      "id": "topic_260:sacacorchos",
+      "ru": "штопор",
+      "target": "sacacorchos"
+    },
+    {
+      "id": "topic_260:sería bueno que",
+      "ru": "Было бы хорошо, если бы, было бы хорошо, если бы, Было бы хорошо",
+      "target": "sería bueno que"
+    },
+    {
+      "id": "topic_260:suciedad",
+      "ru": "грязь",
+      "target": "suciedad"
+    },
+    {
+      "id": "topic_260:trapo",
+      "ru": "тряпка",
+      "target": "trapo"
+    }
+  ]
+}

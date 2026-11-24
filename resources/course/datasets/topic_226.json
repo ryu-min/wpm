@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_226",
+  "description": "Обсуждать кражу и слухи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_226:borracho",
+      "ru": "пьяный",
+      "target": "borracho"
+    },
+    {
+      "id": "topic_226:ciego",
+      "ru": "слепой",
+      "target": "ciego"
+    },
+    {
+      "id": "topic_226:desaparecer",
+      "ru": "исчезать",
+      "target": "desaparecer"
+    },
+    {
+      "id": "topic_226:estar en problemas",
+      "ru": "быть в неприятностях",
+      "target": "estar en problemas"
+    },
+    {
+      "id": "topic_226:guardia",
+      "ru": "охранник",
+      "target": "guardia"
+    },
+    {
+      "id": "topic_226:horóscopo",
+      "ru": "гороскоп",
+      "target": "horóscopo"
+    },
+    {
+      "id": "topic_226:inevitable",
+      "ru": "неизбежный",
+      "target": "inevitable"
+    },
+    {
+      "id": "topic_226:masculino",
+      "ru": "мужской",
+      "target": "masculino"
+    },
+    {
+      "id": "topic_226:mil millones",
+      "ru": "миллиард",
+      "target": "mil millones"
+    },
+    {
+      "id": "topic_226:no es cierto que",
+      "ru": "Не верно, что, не верно, что",
+      "target": "no es cierto que"
+    },
+    {
+      "id": "topic_226:no puede ser que",
+      "ru": "Не может быть, что",
+      "target": "no puede ser que"
+    },
+    {
+      "id": "topic_226:no puedo creer que",
+      "ru": "не могу поверить, что",
+      "target": "no puedo creer que"
+    },
+    {
+      "id": "topic_226:notar",
+      "ru": "замечать",
+      "target": "notar"
+    },
+    {
+      "id": "topic_226:pescador",
+      "ru": "Рыбак",
+      "target": "pescador"
+    },
+    {
+      "id": "topic_226:sospechoso",
+      "ru": "подозрительный",
+      "target": "sospechoso"
+    },
+    {
+      "id": "topic_226:vigilar",
+      "ru": "следить",
+      "target": "vigilar"
+    }
+  ]
+}

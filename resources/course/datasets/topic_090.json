@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_090",
+  "description": "Используйте команды",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_090:adulto",
+      "ru": "взрослый",
+      "target": "adulto"
+    },
+    {
+      "id": "topic_090:apoyar",
+      "ru": "поддерживать",
+      "target": "apoyar"
+    },
+    {
+      "id": "topic_090:boca",
+      "ru": "рот",
+      "target": "boca"
+    },
+    {
+      "id": "topic_090:de nuevo",
+      "ru": "снова",
+      "target": "de nuevo"
+    },
+    {
+      "id": "topic_090:deprimido",
+      "ru": "подавленный",
+      "target": "deprimido"
+    },
+    {
+      "id": "topic_090:débil",
+      "ru": "слабый",
+      "target": "débil"
+    },
+    {
+      "id": "topic_090:entender",
+      "ru": "понимать",
+      "target": "entender"
+    },
+    {
+      "id": "topic_090:escalera",
+      "ru": "лестница",
+      "target": "escalera"
+    },
+    {
+      "id": "topic_090:herida",
+      "ru": "рана",
+      "target": "herida"
+    },
+    {
+      "id": "topic_090:jabón",
+      "ru": "мыло",
+      "target": "jabón"
+    },
+    {
+      "id": "topic_090:piel",
+      "ru": "кожа",
+      "target": "piel"
+    },
+    {
+      "id": "topic_090:proteína",
+      "ru": "белок",
+      "target": "proteína"
+    },
+    {
+      "id": "topic_090:recuperación",
+      "ru": "восстановление",
+      "target": "recuperación"
+    },
+    {
+      "id": "topic_090:regular",
+      "ru": "регулировать",
+      "target": "regular"
+    },
+    {
+      "id": "topic_090:resultado",
+      "ru": "результат",
+      "target": "resultado"
+    },
+    {
+      "id": "topic_090:sentir",
+      "ru": "чувствовать",
+      "target": "sentir"
+    },
+    {
+      "id": "topic_090:suficiente",
+      "ru": "достаточный",
+      "target": "suficiente"
+    },
+    {
+      "id": "topic_090:síntoma",
+      "ru": "симптом",
+      "target": "síntoma"
+    }
+  ]
+}

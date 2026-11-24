@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_199",
+  "description": "Поговорим о вождении",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_199:cargar gasolina",
+      "ru": "заправляться бензином",
+      "target": "cargar gasolina"
+    },
+    {
+      "id": "topic_199:centro médico",
+      "ru": "медицинский центр",
+      "target": "centro médico"
+    },
+    {
+      "id": "topic_199:con llave",
+      "ru": "на ключ",
+      "target": "con llave"
+    },
+    {
+      "id": "topic_199:de inmediato",
+      "ru": "немедленно",
+      "target": "de inmediato"
+    },
+    {
+      "id": "topic_199:disminuir",
+      "ru": "уменьшать",
+      "target": "disminuir"
+    },
+    {
+      "id": "topic_199:doméstico",
+      "ru": "домашний",
+      "target": "doméstico"
+    },
+    {
+      "id": "topic_199:humo",
+      "ru": "дым",
+      "target": "humo"
+    },
+    {
+      "id": "topic_199:lastimado",
+      "ru": "ранен",
+      "target": "lastimado"
+    },
+    {
+      "id": "topic_199:parabrisas",
+      "ru": "лобовое стекло",
+      "target": "parabrisas"
+    },
+    {
+      "id": "topic_199:por si acaso",
+      "ru": "на всякий случай",
+      "target": "por si acaso"
+    },
+    {
+      "id": "topic_199:velocidad",
+      "ru": "скорость",
+      "target": "velocidad"
+    }
+  ]
+}

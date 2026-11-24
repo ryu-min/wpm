@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_126",
+  "description": "Используйте прошедшее время",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_126:advertir",
+      "ru": "предупреждать",
+      "target": "advertir"
+    },
+    {
+      "id": "topic_126:bruja",
+      "ru": "ведьма",
+      "target": "bruja"
+    },
+    {
+      "id": "topic_126:casado",
+      "ru": "женатый",
+      "target": "casado"
+    },
+    {
+      "id": "topic_126:casarse",
+      "ru": "вступать в брак",
+      "target": "casarse"
+    },
+    {
+      "id": "topic_126:cola",
+      "ru": "хвост",
+      "target": "cola"
+    },
+    {
+      "id": "topic_126:convertir",
+      "ru": "превращать",
+      "target": "convertir"
+    },
+    {
+      "id": "topic_126:dragón",
+      "ru": "дракон",
+      "target": "dragón"
+    },
+    {
+      "id": "topic_126:envidia",
+      "ru": "зависть",
+      "target": "envidia"
+    },
+    {
+      "id": "topic_126:hervir",
+      "ru": "кипятить",
+      "target": "hervir"
+    },
+    {
+      "id": "topic_126:matar",
+      "ru": "убивать",
+      "target": "matar"
+    },
+    {
+      "id": "topic_126:mentira",
+      "ru": "ложь",
+      "target": "mentira"
+    },
+    {
+      "id": "topic_126:muerto",
+      "ru": "мёртвый",
+      "target": "muerto"
+    },
+    {
+      "id": "topic_126:mágico",
+      "ru": "волшебный",
+      "target": "mágico"
+    },
+    {
+      "id": "topic_126:pelear",
+      "ru": "драться",
+      "target": "pelear"
+    },
+    {
+      "id": "topic_126:princesa",
+      "ru": "принцесса",
+      "target": "princesa"
+    },
+    {
+      "id": "topic_126:príncipe",
+      "ru": "принц",
+      "target": "príncipe"
+    },
+    {
+      "id": "topic_126:ratón",
+      "ru": "мышь",
+      "target": "ratón"
+    },
+    {
+      "id": "topic_126:reino",
+      "ru": "королевство",
+      "target": "reino"
+    },
+    {
+      "id": "topic_126:valiente",
+      "ru": "смелый",
+      "target": "valiente"
+    }
+  ]
+}

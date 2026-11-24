@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "topic_059",
+  "description": "Используйте косвенные местоимения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_059:agradecer",
+      "ru": "благодарить",
+      "target": "agradecer"
+    },
+    {
+      "id": "topic_059:carrera",
+      "ru": "бег или карьера",
+      "target": "carrera"
+    },
+    {
+      "id": "topic_059:ciclista",
+      "ru": "велосипедист",
+      "target": "ciclista"
+    },
+    {
+      "id": "topic_059:ciencia ficción",
+      "ru": "научная фантастика",
+      "target": "ciencia ficción"
+    },
+    {
+      "id": "topic_059:club",
+      "ru": "клуб",
+      "target": "club"
+    },
+    {
+      "id": "topic_059:costa",
+      "ru": "побережье",
+      "target": "costa"
+    },
+    {
+      "id": "topic_059:dar",
+      "ru": "давать",
+      "target": "dar"
+    },
+    {
+      "id": "topic_059:entrenamiento",
+      "ru": "тренировка",
+      "target": "entrenamiento"
+    },
+    {
+      "id": "topic_059:esquina",
+      "ru": "угол",
+      "target": "esquina"
+    },
+    {
+      "id": "topic_059:estatua",
+      "ru": "статуя",
+      "target": "estatua"
+    },
+    {
+      "id": "topic_059:explorar",
+      "ru": "исследовать",
+      "target": "explorar"
+    },
+    {
+      "id": "topic_059:flamenco",
+      "ru": "фламинго",
+      "target": "flamenco"
+    },
+    {
+      "id": "topic_059:iglesia",
+      "ru": "церковь",
+      "target": "iglesia"
+    },
+    {
+      "id": "topic_059:le",
+      "ru": "ему",
+      "target": "le"
+    },
+    {
+      "id": "topic_059:me",
+      "ru": "меня, мной, меня (себя), мне, себя",
+      "target": "me"
+    },
+    {
+      "id": "topic_059:más tarde",
+      "ru": "позже",
+      "target": "más tarde"
+    },
+    {
+      "id": "topic_059:naturaleza",
+      "ru": "природа",
+      "target": "naturaleza"
+    },
+    {
+      "id": "topic_059:opinión",
+      "ru": "мнение",
+      "target": "opinión"
+    },
+    {
+      "id": "topic_059:participar",
+      "ru": "участвовать",
+      "target": "participar"
+    },
+    {
+      "id": "topic_059:prestar",
+      "ru": "одалживать",
+      "target": "prestar"
+    },
+    {
+      "id": "topic_059:raqueta",
+      "ru": "ракетка",
+      "target": "raqueta"
+    },
+    {
+      "id": "topic_059:te",
+      "ru": "тебе",
+      "target": "te"
+    },
+    {
+      "id": "topic_059:tenis de mesa",
+      "ru": "настольный теннис",
+      "target": "tenis de mesa"
+    },
+    {
+      "id": "topic_059:tour",
+      "ru": "тур",
+      "target": "tour"
+    },
+    {
+      "id": "topic_059:zoológico",
+      "ru": "зоопарк",
+      "target": "zoológico"
+    },
+    {
+      "id": "topic_059:árbol",
+      "ru": "дерево",
+      "target": "árbol"
+    }
+  ]
+}

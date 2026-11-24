@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_291",
+  "description": "Заниматься в спортзале",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_291:a mover",
+      "ru": "двигать",
+      "target": "a mover"
+    },
+    {
+      "id": "topic_291:abdominales",
+      "ru": "пресс",
+      "target": "abdominales"
+    },
+    {
+      "id": "topic_291:adolorido",
+      "ru": "испытывающий боль",
+      "target": "adolorido"
+    },
+    {
+      "id": "topic_291:aguantar",
+      "ru": "терпеть",
+      "target": "aguantar"
+    },
+    {
+      "id": "topic_291:beneficioso",
+      "ru": "полезный",
+      "target": "beneficioso"
+    },
+    {
+      "id": "topic_291:cardio",
+      "ru": "кардио",
+      "target": "cardio"
+    },
+    {
+      "id": "topic_291:dar lo mejor",
+      "ru": "Дать лучшее, дать лучшее",
+      "target": "dar lo mejor"
+    },
+    {
+      "id": "topic_291:de mucha ayuda",
+      "ru": "очень полезно",
+      "target": "de mucha ayuda"
+    },
+    {
+      "id": "topic_291:detenerse",
+      "ru": "остановиться",
+      "target": "detenerse"
+    },
+    {
+      "id": "topic_291:fortalecer",
+      "ru": "укрепить",
+      "target": "fortalecer"
+    },
+    {
+      "id": "topic_291:intenso",
+      "ru": "интенсивный",
+      "target": "intenso"
+    },
+    {
+      "id": "topic_291:mental",
+      "ru": "психический",
+      "target": "mental"
+    },
+    {
+      "id": "topic_291:pesas",
+      "ru": "тяжести",
+      "target": "pesas"
+    },
+    {
+      "id": "topic_291:recuperarse",
+      "ru": "восстанавливаться",
+      "target": "recuperarse"
+    },
+    {
+      "id": "topic_291:resistencia",
+      "ru": "выносливость",
+      "target": "resistencia"
+    },
+    {
+      "id": "topic_291:sentadilla",
+      "ru": "приседание",
+      "target": "sentadilla"
+    },
+    {
+      "id": "topic_291:sin aliento",
+      "ru": "запыхавшийся; без дыхания",
+      "target": "sin aliento"
+    },
+    {
+      "id": "topic_291:ánimo",
+      "ru": "настроение; воодушевление",
+      "target": "ánimo"
+    }
+  ]
+}

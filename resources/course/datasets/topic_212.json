@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_212",
+  "description": "Расскажи о ремонте дома",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_212:aluminio",
+      "ru": "алюминий",
+      "target": "aluminio"
+    },
+    {
+      "id": "topic_212:bandeja",
+      "ru": "поднос",
+      "target": "bandeja"
+    },
+    {
+      "id": "topic_212:candelabro",
+      "ru": "канделябр",
+      "target": "candelabro"
+    },
+    {
+      "id": "topic_212:cojín",
+      "ru": "подушка",
+      "target": "cojín"
+    },
+    {
+      "id": "topic_212:colocar",
+      "ru": "размещать",
+      "target": "colocar"
+    },
+    {
+      "id": "topic_212:de alto",
+      "ru": "в высоту",
+      "target": "de alto"
+    },
+    {
+      "id": "topic_212:de largo",
+      "ru": "в длину",
+      "target": "de largo"
+    },
+    {
+      "id": "topic_212:de madera",
+      "ru": "из дерева",
+      "target": "de madera"
+    },
+    {
+      "id": "topic_212:jarrón",
+      "ru": "ваза",
+      "target": "jarrón"
+    },
+    {
+      "id": "topic_212:maceta",
+      "ru": "цветочный горшок",
+      "target": "maceta"
+    },
+    {
+      "id": "topic_212:medir",
+      "ru": "измерять",
+      "target": "medir"
+    },
+    {
+      "id": "topic_212:metal",
+      "ru": "металл",
+      "target": "metal"
+    },
+    {
+      "id": "topic_212:persiana",
+      "ru": "жалюзи",
+      "target": "persiana"
+    },
+    {
+      "id": "topic_212:remodelar",
+      "ru": "отремонтировать",
+      "target": "remodelar"
+    },
+    {
+      "id": "topic_212:rincón",
+      "ru": "угол",
+      "target": "rincón"
+    },
+    {
+      "id": "topic_212:tendré que",
+      "ru": "мне надо будет, мне будет надо",
+      "target": "tendré que"
+    },
+    {
+      "id": "topic_212:tendría que",
+      "ru": "пришлось бы; должен был бы",
+      "target": "tendría que"
+    }
+  ]
+}

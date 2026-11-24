@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_237",
+  "description": "Обсуди поломку автомобиля",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_237:arrancar",
+      "ru": "вырывать",
+      "target": "arrancar"
+    },
+    {
+      "id": "topic_237:atascado",
+      "ru": "застрявший",
+      "target": "atascado"
+    },
+    {
+      "id": "topic_237:capó",
+      "ru": "капот",
+      "target": "capó"
+    },
+    {
+      "id": "topic_237:descomponer",
+      "ru": "разлагать на части",
+      "target": "descomponer"
+    },
+    {
+      "id": "topic_237:freno",
+      "ru": "тормоз",
+      "target": "freno"
+    },
+    {
+      "id": "topic_237:grúa",
+      "ru": "подъёмный кран",
+      "target": "grúa"
+    },
+    {
+      "id": "topic_237:habitualmente",
+      "ru": "обычно",
+      "target": "habitualmente"
+    },
+    {
+      "id": "topic_237:llanta",
+      "ru": "шина; колёсный обод",
+      "target": "llanta"
+    },
+    {
+      "id": "topic_237:lo mejor sería",
+      "ru": "Лучше всего было бы, лучше всего было бы",
+      "target": "lo mejor sería"
+    },
+    {
+      "id": "topic_237:luces delanteras",
+      "ru": "передние фары",
+      "target": "luces delanteras"
+    },
+    {
+      "id": "topic_237:ni se te ocurra",
+      "ru": "Даже не думай",
+      "target": "ni se te ocurra"
+    },
+    {
+      "id": "topic_237:pinchar una llanta",
+      "ru": "проколоть шину",
+      "target": "pinchar una llanta"
+    },
+    {
+      "id": "topic_237:remolcar",
+      "ru": "буксировать",
+      "target": "remolcar"
+    },
+    {
+      "id": "topic_237:repuesto",
+      "ru": "запасная часть",
+      "target": "repuesto"
+    },
+    {
+      "id": "topic_237:si fuera tú",
+      "ru": "если бы я был тобой",
+      "target": "si fuera tú"
+    },
+    {
+      "id": "topic_237:si fuera yo",
+      "ru": "Если бы это был я",
+      "target": "si fuera yo"
+    },
+    {
+      "id": "topic_237:yo mismo",
+      "ru": "Я сам",
+      "target": "yo mismo"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_062",
+  "description": "Поговорите о погоде",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_062:Argentina",
+      "ru": "Аргентина",
+      "target": "Argentina"
+    },
+    {
+      "id": "topic_062:caminata",
+      "ru": "поход",
+      "target": "caminata"
+    },
+    {
+      "id": "topic_062:charco",
+      "ru": "лужа",
+      "target": "charco"
+    },
+    {
+      "id": "topic_062:cielo",
+      "ru": "небо",
+      "target": "cielo"
+    },
+    {
+      "id": "topic_062:de repente",
+      "ru": "вдруг",
+      "target": "de repente"
+    },
+    {
+      "id": "topic_062:despejado",
+      "ru": "безоблачный",
+      "target": "despejado"
+    },
+    {
+      "id": "topic_062:impermeable",
+      "ru": "дождевик",
+      "target": "impermeable"
+    },
+    {
+      "id": "topic_062:llover",
+      "ru": "идти о дожде",
+      "target": "llover"
+    },
+    {
+      "id": "topic_062:mojado",
+      "ru": "мокрый",
+      "target": "mojado"
+    },
+    {
+      "id": "topic_062:nevar",
+      "ru": "идти о снеге",
+      "target": "nevar"
+    },
+    {
+      "id": "topic_062:nublado",
+      "ru": "облачный",
+      "target": "nublado"
+    },
+    {
+      "id": "topic_062:qué alivio",
+      "ru": "какое облегчение",
+      "target": "qué alivio"
+    },
+    {
+      "id": "topic_062:qué bien",
+      "ru": "как хорошо",
+      "target": "qué bien"
+    },
+    {
+      "id": "topic_062:qué tiempo hace",
+      "ru": "какая погода",
+      "target": "qué tiempo hace"
+    },
+    {
+      "id": "topic_062:refugio",
+      "ru": "убежище",
+      "target": "refugio"
+    },
+    {
+      "id": "topic_062:subir",
+      "ru": "подниматься",
+      "target": "subir"
+    },
+    {
+      "id": "topic_062:tormenta",
+      "ru": "гроза",
+      "target": "tormenta"
+    },
+    {
+      "id": "topic_062:trueno",
+      "ru": "гром",
+      "target": "trueno"
+    },
+    {
+      "id": "topic_062:vez",
+      "ru": "раз",
+      "target": "vez"
+    }
+  ]
+}

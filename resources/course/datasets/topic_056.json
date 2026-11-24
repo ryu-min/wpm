@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_056",
+  "description": "Решайте рабочие проблемы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_056:anotar",
+      "ru": "записать",
+      "target": "anotar"
+    },
+    {
+      "id": "topic_056:antes",
+      "ru": "раньше",
+      "target": "antes"
+    },
+    {
+      "id": "topic_056:anuncio",
+      "ru": "объявление",
+      "target": "anuncio"
+    },
+    {
+      "id": "topic_056:calendario",
+      "ru": "календарь",
+      "target": "calendario"
+    },
+    {
+      "id": "topic_056:cambiar de",
+      "ru": "сменить",
+      "target": "cambiar de"
+    },
+    {
+      "id": "topic_056:cliente",
+      "ru": "клиент",
+      "target": "cliente"
+    },
+    {
+      "id": "topic_056:contestar",
+      "ru": "отвечать",
+      "target": "contestar"
+    },
+    {
+      "id": "topic_056:correo electrónico",
+      "ru": "электронное письмо",
+      "target": "correo electrónico"
+    },
+    {
+      "id": "topic_056:documento",
+      "ru": "документ",
+      "target": "documento"
+    },
+    {
+      "id": "topic_056:entrevista",
+      "ru": "собеседование",
+      "target": "entrevista"
+    },
+    {
+      "id": "topic_056:exigente",
+      "ru": "требовательный",
+      "target": "exigente"
+    },
+    {
+      "id": "topic_056:información",
+      "ru": "информация",
+      "target": "información"
+    },
+    {
+      "id": "topic_056:ingeniero",
+      "ru": "инженер",
+      "target": "ingeniero"
+    },
+    {
+      "id": "topic_056:mejorar",
+      "ru": "улучшать",
+      "target": "mejorar"
+    },
+    {
+      "id": "topic_056:mil",
+      "ru": "тысяча",
+      "target": "mil"
+    },
+    {
+      "id": "topic_056:nada",
+      "ru": "ничего",
+      "target": "nada"
+    },
+    {
+      "id": "topic_056:nadie",
+      "ru": "никто",
+      "target": "nadie"
+    },
+    {
+      "id": "topic_056:negocio",
+      "ru": "дело",
+      "target": "negocio"
+    },
+    {
+      "id": "topic_056:ninguno",
+      "ru": "ни один",
+      "target": "ninguno"
+    },
+    {
+      "id": "topic_056:pregunta",
+      "ru": "вопрос",
+      "target": "pregunta"
+    },
+    {
+      "id": "topic_056:quejarse",
+      "ru": "жаловаться",
+      "target": "quejarse"
+    },
+    {
+      "id": "topic_056:teléfono",
+      "ru": "телефон",
+      "target": "teléfono"
+    }
+  ]
+}

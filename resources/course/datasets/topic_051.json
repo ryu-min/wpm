@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_051",
+  "description": "Наслаждайтесь вечеринкой",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_051:argentino",
+      "ru": "аргентинский",
+      "target": "argentino"
+    },
+    {
+      "id": "topic_051:asustado",
+      "ru": "испуганный",
+      "target": "asustado"
+    },
+    {
+      "id": "topic_051:basta de",
+      "ru": "хватит",
+      "target": "basta de"
+    },
+    {
+      "id": "topic_051:botella",
+      "ru": "бутылка",
+      "target": "botella"
+    },
+    {
+      "id": "topic_051:champán",
+      "ru": "шампанское",
+      "target": "champán"
+    },
+    {
+      "id": "topic_051:chisme",
+      "ru": "сплетня",
+      "target": "chisme"
+    },
+    {
+      "id": "topic_051:criticón",
+      "ru": "придирчивый",
+      "target": "criticón"
+    },
+    {
+      "id": "topic_051:cumplir",
+      "ru": "выполнять",
+      "target": "cumplir"
+    },
+    {
+      "id": "topic_051:cámara",
+      "ru": "камера",
+      "target": "cámara"
+    },
+    {
+      "id": "topic_051:desastre",
+      "ru": "катастрофа",
+      "target": "desastre"
+    },
+    {
+      "id": "topic_051:empanada",
+      "ru": "пирог с начинкой",
+      "target": "empanada"
+    },
+    {
+      "id": "topic_051:enchilada",
+      "ru": "энчилада",
+      "target": "enchilada"
+    },
+    {
+      "id": "topic_051:limonada",
+      "ru": "лимонад",
+      "target": "limonada"
+    },
+    {
+      "id": "topic_051:piñata",
+      "ru": "пиньята",
+      "target": "piñata"
+    },
+    {
+      "id": "topic_051:qué emoción",
+      "ru": "как волнительно",
+      "target": "qué emoción"
+    },
+    {
+      "id": "topic_051:qué lástima",
+      "ru": "как жаль",
+      "target": "qué lástima"
+    },
+    {
+      "id": "topic_051:raro",
+      "ru": "странный",
+      "target": "raro"
+    },
+    {
+      "id": "topic_051:rock",
+      "ru": "рок",
+      "target": "rock"
+    },
+    {
+      "id": "topic_051:salud",
+      "ru": "здоровье",
+      "target": "salud"
+    },
+    {
+      "id": "topic_051:sucio",
+      "ru": "грязный",
+      "target": "sucio"
+    },
+    {
+      "id": "topic_051:terrible",
+      "ru": "ужасный",
+      "target": "terrible"
+    },
+    {
+      "id": "topic_051:todo el mundo",
+      "ru": "все",
+      "target": "todo el mundo"
+    },
+    {
+      "id": "topic_051:treinta",
+      "ru": "тридцать",
+      "target": "treinta"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_060",
+  "description": "Отправляйте и получайте почту",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_060:Estados unidos",
+      "ru": "Соединённые Штаты",
+      "target": "Estados unidos"
+    },
+    {
+      "id": "topic_060:buzón",
+      "ru": "почтовый ящик",
+      "target": "buzón"
+    },
+    {
+      "id": "topic_060:carta",
+      "ru": "письмо",
+      "target": "carta"
+    },
+    {
+      "id": "topic_060:cartero",
+      "ru": "почтальон",
+      "target": "cartero"
+    },
+    {
+      "id": "topic_060:código postal",
+      "ru": "индекс",
+      "target": "código postal"
+    },
+    {
+      "id": "topic_060:debajo de",
+      "ru": "под",
+      "target": "debajo de"
+    },
+    {
+      "id": "topic_060:del",
+      "ru": "за",
+      "target": "del"
+    },
+    {
+      "id": "topic_060:destinatario",
+      "ru": "получатель",
+      "target": "destinatario"
+    },
+    {
+      "id": "topic_060:estampilla",
+      "ru": "марка",
+      "target": "estampilla"
+    },
+    {
+      "id": "topic_060:felicidad",
+      "ru": "радость",
+      "target": "felicidad"
+    },
+    {
+      "id": "topic_060:lamentablemente",
+      "ru": "к сожалению",
+      "target": "lamentablemente"
+    },
+    {
+      "id": "topic_060:les",
+      "ru": "их",
+      "target": "les"
+    },
+    {
+      "id": "topic_060:nos",
+      "ru": "нам",
+      "target": "nos"
+    },
+    {
+      "id": "topic_060:oficina de correos",
+      "ru": "почтовое отделение",
+      "target": "oficina de correos"
+    },
+    {
+      "id": "topic_060:paquete",
+      "ru": "посылка",
+      "target": "paquete"
+    },
+    {
+      "id": "topic_060:postal",
+      "ru": "открытка",
+      "target": "postal"
+    },
+    {
+      "id": "topic_060:qué interesante",
+      "ru": "как интересно",
+      "target": "qué interesante"
+    },
+    {
+      "id": "topic_060:recibir",
+      "ru": "получать",
+      "target": "recibir"
+    },
+    {
+      "id": "topic_060:remitente",
+      "ru": "отправитель",
+      "target": "remitente"
+    },
+    {
+      "id": "topic_060:responder",
+      "ru": "отвечать",
+      "target": "responder"
+    },
+    {
+      "id": "topic_060:tantos",
+      "ru": "столько",
+      "target": "tantos"
+    },
+    {
+      "id": "topic_060:una vez por",
+      "ru": "раз в",
+      "target": "una vez por"
+    }
+  ]
+}

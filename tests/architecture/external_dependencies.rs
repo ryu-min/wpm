@@ -95,10 +95,10 @@ fn build_uses_only_its_external_dependencies() {
 }
 
 #[test]
-fn main_uses_only_its_external_dependencies() {
+fn library_uses_only_its_external_dependencies() {
     assert_passes!(
         project_files_in(env!("CARGO_MANIFEST_DIR"))
-            .in_path("src/main.rs")
+            .in_path("src/lib.rs")
             .should()
             .depend_on_external_modules()
             .matching("std")
@@ -107,4 +107,18 @@ fn main_uses_only_its_external_dependencies() {
             .matching("ratatui")
             .matching("color_eyre")
     );
+}
+
+#[test]
+fn binaries_use_only_the_public_entry_points() {
+    for path in ["src/main.rs", "src/bin/wpm-es.rs"] {
+        assert_passes!(
+            project_files_in(env!("CARGO_MANIFEST_DIR"))
+                .in_path(path)
+                .should()
+                .depend_on_external_modules()
+                .matching("wpm")
+                .matching("color_eyre")
+        );
+    }
 }

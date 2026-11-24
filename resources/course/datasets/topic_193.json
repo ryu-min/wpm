@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_193",
+  "description": "Делиться мнениями",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_193:absolutamente",
+      "ru": "абсолютно",
+      "target": "absolutamente"
+    },
+    {
+      "id": "topic_193:admitir",
+      "ru": "допускать",
+      "target": "admitir"
+    },
+    {
+      "id": "topic_193:de mi lado",
+      "ru": "на моей стороне",
+      "target": "de mi lado"
+    },
+    {
+      "id": "topic_193:es mejor",
+      "ru": "лучше",
+      "target": "es mejor"
+    },
+    {
+      "id": "topic_193:intercambiar",
+      "ru": "обмениваться",
+      "target": "intercambiar"
+    },
+    {
+      "id": "topic_193:mente",
+      "ru": "ум; разум",
+      "target": "mente"
+    },
+    {
+      "id": "topic_193:minoría",
+      "ru": "меньшинство",
+      "target": "minoría"
+    },
+    {
+      "id": "topic_193:pensamiento",
+      "ru": "мысль",
+      "target": "pensamiento"
+    },
+    {
+      "id": "topic_193:podría ser",
+      "ru": "могло бы быть",
+      "target": "podría ser"
+    },
+    {
+      "id": "topic_193:punto",
+      "ru": "точка",
+      "target": "punto"
+    },
+    {
+      "id": "topic_193:reconocer",
+      "ru": "узнавать",
+      "target": "reconocer"
+    },
+    {
+      "id": "topic_193:yo diría",
+      "ru": "я бы сказал",
+      "target": "yo diría"
+    }
+  ]
+}

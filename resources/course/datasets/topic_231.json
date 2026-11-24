@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_231",
+  "description": "Обсудите слухи и мнения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_231:amante",
+      "ru": "любовник",
+      "target": "amante"
+    },
+    {
+      "id": "topic_231:barriga",
+      "ru": "живот",
+      "target": "barriga"
+    },
+    {
+      "id": "topic_231:bronceado",
+      "ru": "загорелый",
+      "target": "bronceado"
+    },
+    {
+      "id": "topic_231:cambiarse de",
+      "ru": "сменить",
+      "target": "cambiarse de"
+    },
+    {
+      "id": "topic_231:casino",
+      "ru": "казино",
+      "target": "casino"
+    },
+    {
+      "id": "topic_231:cortarse el pelo",
+      "ru": "подстричься, стричься",
+      "target": "cortarse el pelo"
+    },
+    {
+      "id": "topic_231:figura",
+      "ru": "фигура",
+      "target": "figura"
+    },
+    {
+      "id": "topic_231:hablar mal de",
+      "ru": "говорить плохо о, плохо говорить о",
+      "target": "hablar mal de"
+    },
+    {
+      "id": "topic_231:ir a pasear",
+      "ru": "пойти погулять",
+      "target": "ir a pasear"
+    },
+    {
+      "id": "topic_231:juzgar",
+      "ru": "судить",
+      "target": "juzgar"
+    },
+    {
+      "id": "topic_231:se nota",
+      "ru": "заметно",
+      "target": "se nota"
+    },
+    {
+      "id": "topic_231:superar",
+      "ru": "преодолевать",
+      "target": "superar"
+    }
+  ]
+}

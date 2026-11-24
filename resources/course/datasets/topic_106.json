@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_106",
+  "description": "Обсудите мебель и обстановку дома",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_106:amueblado",
+      "ru": "меблированный",
+      "target": "amueblado"
+    },
+    {
+      "id": "topic_106:arriba",
+      "ru": "наверху",
+      "target": "arriba"
+    },
+    {
+      "id": "topic_106:bajar",
+      "ru": "спускаться",
+      "target": "bajar"
+    },
+    {
+      "id": "topic_106:carpintero",
+      "ru": "плотник",
+      "target": "carpintero"
+    },
+    {
+      "id": "topic_106:confiable",
+      "ru": "надёжный",
+      "target": "confiable"
+    },
+    {
+      "id": "topic_106:contratar",
+      "ru": "нанимать",
+      "target": "contratar"
+    },
+    {
+      "id": "topic_106:cortina",
+      "ru": "занавеска",
+      "target": "cortina"
+    },
+    {
+      "id": "topic_106:decorar",
+      "ru": "украшать",
+      "target": "decorar"
+    },
+    {
+      "id": "topic_106:diseño",
+      "ru": "проектирую",
+      "target": "diseño"
+    },
+    {
+      "id": "topic_106:electricista",
+      "ru": "электрик",
+      "target": "electricista"
+    },
+    {
+      "id": "topic_106:espejo",
+      "ru": "зеркало",
+      "target": "espejo"
+    },
+    {
+      "id": "topic_106:estante",
+      "ru": "полка",
+      "target": "estante"
+    },
+    {
+      "id": "topic_106:estresante",
+      "ru": "вызывающий стресс",
+      "target": "estresante"
+    },
+    {
+      "id": "topic_106:martillo",
+      "ru": "молоток",
+      "target": "martillo"
+    },
+    {
+      "id": "topic_106:mesita de noche",
+      "ru": "прикроватная тумбочка",
+      "target": "mesita de noche"
+    },
+    {
+      "id": "topic_106:mudarse",
+      "ru": "переезжать",
+      "target": "mudarse"
+    },
+    {
+      "id": "topic_106:televisor",
+      "ru": "телевизор",
+      "target": "televisor"
+    },
+    {
+      "id": "topic_106:tercer",
+      "ru": "третий",
+      "target": "tercer"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_191",
+  "description": "Сравни людей или вещи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_191:admirar",
+      "ru": "восхищаться",
+      "target": "admirar"
+    },
+    {
+      "id": "topic_191:aplaudir",
+      "ru": "аплодировать",
+      "target": "aplaudir"
+    },
+    {
+      "id": "topic_191:autorretrato",
+      "ru": "автопортрет",
+      "target": "autorretrato"
+    },
+    {
+      "id": "topic_191:ballet",
+      "ru": "балет",
+      "target": "ballet"
+    },
+    {
+      "id": "topic_191:brillante",
+      "ru": "блестящий",
+      "target": "brillante"
+    },
+    {
+      "id": "topic_191:el de",
+      "ru": "тот, который принадлежит (кому-либо); тот из",
+      "target": "el de"
+    },
+    {
+      "id": "topic_191:episodio",
+      "ru": "серия",
+      "target": "episodio"
+    },
+    {
+      "id": "topic_191:escultor",
+      "ru": "скульптор",
+      "target": "escultor"
+    },
+    {
+      "id": "topic_191:estreno",
+      "ru": "премьера",
+      "target": "estreno"
+    },
+    {
+      "id": "topic_191:exhibición",
+      "ru": "экспозиция",
+      "target": "exhibición"
+    },
+    {
+      "id": "topic_191:historia del arte",
+      "ru": "история искусства",
+      "target": "historia del arte"
+    },
+    {
+      "id": "topic_191:internacionalmente",
+      "ru": "международно",
+      "target": "internacionalmente"
+    },
+    {
+      "id": "topic_191:película de suspenso",
+      "ru": "триллер, триллере",
+      "target": "película de suspenso"
+    },
+    {
+      "id": "topic_191:retrato",
+      "ru": "портрет",
+      "target": "retrato"
+    }
+  ]
+}

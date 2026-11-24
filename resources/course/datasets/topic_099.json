@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_099",
+  "description": "Обсудите проблемы района",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_099:abandonado",
+      "ru": "заброшенный",
+      "target": "abandonado"
+    },
+    {
+      "id": "topic_099:araña",
+      "ru": "паук",
+      "target": "araña"
+    },
+    {
+      "id": "topic_099:calefacción",
+      "ru": "отопление",
+      "target": "calefacción"
+    },
+    {
+      "id": "topic_099:dos mil",
+      "ru": "две тысячи",
+      "target": "dos mil"
+    },
+    {
+      "id": "topic_099:dos mil veinte",
+      "ru": "две тысячи двадцать",
+      "target": "dos mil veinte"
+    },
+    {
+      "id": "topic_099:fantasma",
+      "ru": "призрак",
+      "target": "fantasma"
+    },
+    {
+      "id": "topic_099:hecho",
+      "ru": "факт",
+      "target": "hecho"
+    },
+    {
+      "id": "topic_099:herramienta",
+      "ru": "инструмент",
+      "target": "herramienta"
+    },
+    {
+      "id": "topic_099:igual",
+      "ru": "одинаковый",
+      "target": "igual"
+    },
+    {
+      "id": "topic_099:incendio",
+      "ru": "пожар",
+      "target": "incendio"
+    },
+    {
+      "id": "topic_099:madera",
+      "ru": "древесина",
+      "target": "madera"
+    },
+    {
+      "id": "topic_099:mosca",
+      "ru": "муха",
+      "target": "mosca"
+    },
+    {
+      "id": "topic_099:polvo",
+      "ru": "порошок",
+      "target": "polvo"
+    },
+    {
+      "id": "topic_099:rata",
+      "ru": "крыса",
+      "target": "rata"
+    },
+    {
+      "id": "topic_099:robo",
+      "ru": "кража",
+      "target": "robo"
+    },
+    {
+      "id": "topic_099:sangre",
+      "ru": "кровь",
+      "target": "sangre"
+    },
+    {
+      "id": "topic_099:sin querer",
+      "ru": "случайно",
+      "target": "sin querer"
+    },
+    {
+      "id": "topic_099:supongo que",
+      "ru": "полагаю, что",
+      "target": "supongo que"
+    },
+    {
+      "id": "topic_099:ático",
+      "ru": "чердак",
+      "target": "ático"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_295",
+  "description": "Опиши детскую шалость",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_295:astuto",
+      "ru": "хитрый",
+      "target": "astuto"
+    },
+    {
+      "id": "topic_295:con normalidad",
+      "ru": "нормально",
+      "target": "con normalidad"
+    },
+    {
+      "id": "topic_295:desarmar",
+      "ru": "разбирать",
+      "target": "desarmar"
+    },
+    {
+      "id": "topic_295:disfrazarse",
+      "ru": "переодеться",
+      "target": "disfrazarse"
+    },
+    {
+      "id": "topic_295:esqueleto",
+      "ru": "скелет",
+      "target": "esqueleto"
+    },
+    {
+      "id": "topic_295:frasco",
+      "ru": "флакон",
+      "target": "frasco"
+    },
+    {
+      "id": "topic_295:mejor no",
+      "ru": "лучше не",
+      "target": "mejor no"
+    },
+    {
+      "id": "topic_295:meter la pata",
+      "ru": "совершить ошибку, совершать ошибку",
+      "target": "meter la pata"
+    },
+    {
+      "id": "topic_295:miedoso",
+      "ru": "боязливый",
+      "target": "miedoso"
+    },
+    {
+      "id": "topic_295:pegamento",
+      "ru": "клей",
+      "target": "pegamento"
+    },
+    {
+      "id": "topic_295:seguir la corriente",
+      "ru": "подыгрывать",
+      "target": "seguir la corriente"
+    },
+    {
+      "id": "topic_295:siesta",
+      "ru": "сиеста",
+      "target": "siesta"
+    },
+    {
+      "id": "topic_295:soplón",
+      "ru": "стукач",
+      "target": "soplón"
+    },
+    {
+      "id": "topic_295:sospechar de",
+      "ru": "подозревать",
+      "target": "sospechar de"
+    },
+    {
+      "id": "topic_295:traicionar",
+      "ru": "предать",
+      "target": "traicionar"
+    },
+    {
+      "id": "topic_295:y qué",
+      "ru": "и что",
+      "target": "y qué"
+    }
+  ]
+}

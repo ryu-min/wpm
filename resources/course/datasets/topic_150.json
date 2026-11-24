@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_150",
+  "description": "Давай учиться новому",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_150:biografía",
+      "ru": "биография",
+      "target": "biografía"
+    },
+    {
+      "id": "topic_150:cocinándolas",
+      "ru": "готовя их",
+      "target": "cocinándolas"
+    },
+    {
+      "id": "topic_150:ficción",
+      "ru": "художественный вымысел",
+      "target": "ficción"
+    },
+    {
+      "id": "topic_150:lenteja",
+      "ru": "чечевица",
+      "target": "lenteja"
+    },
+    {
+      "id": "topic_150:línea",
+      "ru": "линия",
+      "target": "línea"
+    },
+    {
+      "id": "topic_150:multiplicar",
+      "ru": "умножить",
+      "target": "multiplicar"
+    },
+    {
+      "id": "topic_150:seguir",
+      "ru": "следовать",
+      "target": "seguir"
+    },
+    {
+      "id": "topic_150:visitándolos",
+      "ru": "навещая их",
+      "target": "visitándolos"
+    }
+  ]
+}

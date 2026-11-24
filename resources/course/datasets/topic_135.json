@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_135",
+  "description": "Расскажи о прошлом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_135:abrazo",
+      "ru": "объятие",
+      "target": "abrazo"
+    },
+    {
+      "id": "topic_135:beso",
+      "ru": "поцелуй",
+      "target": "beso"
+    },
+    {
+      "id": "topic_135:en el",
+      "ru": "на",
+      "target": "en el"
+    },
+    {
+      "id": "topic_135:hubo",
+      "ru": "было",
+      "target": "hubo"
+    },
+    {
+      "id": "topic_135:humor",
+      "ru": "настроение",
+      "target": "humor"
+    },
+    {
+      "id": "topic_135:romance",
+      "ru": "Роман",
+      "target": "romance"
+    }
+  ]
+}

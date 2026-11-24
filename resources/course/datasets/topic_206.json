@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_206",
+  "description": "Извинись и помоги по дому",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_206:a la perfección",
+      "ru": "безупречно",
+      "target": "a la perfección"
+    },
+    {
+      "id": "topic_206:acostumbrado",
+      "ru": "привыкший",
+      "target": "acostumbrado"
+    },
+    {
+      "id": "topic_206:desorden",
+      "ru": "беспорядок",
+      "target": "desorden"
+    },
+    {
+      "id": "topic_206:disculparse",
+      "ru": "извиняться",
+      "target": "disculparse"
+    },
+    {
+      "id": "topic_206:enchufe",
+      "ru": "розетка",
+      "target": "enchufe"
+    },
+    {
+      "id": "topic_206:es una lástima que",
+      "ru": "Жаль, что",
+      "target": "es una lástima que"
+    },
+    {
+      "id": "topic_206:es una pena que",
+      "ru": "жаль, что",
+      "target": "es una pena que"
+    },
+    {
+      "id": "topic_206:lamento que",
+      "ru": "Сожалею, что",
+      "target": "lamento que"
+    },
+    {
+      "id": "topic_206:marco",
+      "ru": "рама",
+      "target": "marco"
+    },
+    {
+      "id": "topic_206:ordenado",
+      "ru": "аккуратный",
+      "target": "ordenado"
+    },
+    {
+      "id": "topic_206:poner la mesa",
+      "ru": "накрывать на стол",
+      "target": "poner la mesa"
+    },
+    {
+      "id": "topic_206:siento mucho que",
+      "ru": "мне очень жаль, что",
+      "target": "siento mucho que"
+    }
+  ]
+}

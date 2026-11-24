@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s09_weather",
+  "description": "Используйте \"hace\" для описания погоды",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:abrigo",
+      "ru": "пальто",
+      "target": "abrigo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:ahora",
+      "ru": "сейчас",
+      "target": "ahora"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:allí",
+      "ru": "там",
+      "target": "allí"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:buen tiempo",
+      "ru": "хорошая погода",
+      "target": "buen tiempo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:calor",
+      "ru": "жара",
+      "target": "calor"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:diciembre",
+      "ru": "декабрь",
+      "target": "diciembre"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:enero",
+      "ru": "январь",
+      "target": "enero"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:frío",
+      "ru": "холод",
+      "target": "frío"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:hacer",
+      "ru": "делать",
+      "target": "hacer"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:hoy",
+      "ru": "сегодня",
+      "target": "hoy"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:invierno",
+      "ru": "зима",
+      "target": "invierno"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:julio",
+      "ru": "июль",
+      "target": "julio"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:marzo",
+      "ru": "март",
+      "target": "marzo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:mucho",
+      "ru": "много",
+      "target": "mucho"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:no hace",
+      "ru": "не делает; в выражениях о погоде: не стоит (такая погода)",
+      "target": "no hace"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:octubre",
+      "ru": "октябрь",
+      "target": "octubre"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:otoño",
+      "ru": "осень",
+      "target": "otoño"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:país",
+      "ru": "страна",
+      "target": "país"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:primavera",
+      "ru": "весна",
+      "target": "primavera"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:septiembre",
+      "ru": "сентябрь",
+      "target": "septiembre"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:sol",
+      "ru": "солнце",
+      "target": "sol"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:traje de baño",
+      "ru": "купальник",
+      "target": "traje de baño"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:usar",
+      "ru": "использовать",
+      "target": "usar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:verano",
+      "ru": "лето",
+      "target": "verano"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s09_weather:viento",
+      "ru": "ветер",
+      "target": "viento"
+    }
+  ]
+}

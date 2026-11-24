@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_052",
+  "description": "Покупайте одежду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_052:arete",
+      "ru": "серьга",
+      "target": "arete"
+    },
+    {
+      "id": "topic_052:bah",
+      "ru": "пфф",
+      "target": "bah"
+    },
+    {
+      "id": "topic_052:cuál",
+      "ru": "который",
+      "target": "cuál"
+    },
+    {
+      "id": "topic_052:de acuerdo",
+      "ru": "согласен",
+      "target": "de acuerdo"
+    },
+    {
+      "id": "topic_052:incómodo",
+      "ru": "неудобный",
+      "target": "incómodo"
+    },
+    {
+      "id": "topic_052:internet",
+      "ru": "интернет",
+      "target": "internet"
+    },
+    {
+      "id": "topic_052:lluvia",
+      "ru": "дождь",
+      "target": "lluvia"
+    },
+    {
+      "id": "topic_052:marrón",
+      "ru": "коричневый",
+      "target": "marrón"
+    },
+    {
+      "id": "topic_052:mejor",
+      "ru": "лучше",
+      "target": "mejor"
+    },
+    {
+      "id": "topic_052:moneda",
+      "ru": "монета",
+      "target": "moneda"
+    },
+    {
+      "id": "topic_052:nieve",
+      "ru": "снег",
+      "target": "nieve"
+    },
+    {
+      "id": "topic_052:pagar",
+      "ru": "платить",
+      "target": "pagar"
+    },
+    {
+      "id": "topic_052:pañuelo",
+      "ru": "платок",
+      "target": "pañuelo"
+    },
+    {
+      "id": "topic_052:pijama",
+      "ru": "пижама",
+      "target": "pijama"
+    },
+    {
+      "id": "topic_052:probador",
+      "ru": "примерочная",
+      "target": "probador"
+    },
+    {
+      "id": "topic_052:página web",
+      "ru": "веб-страница",
+      "target": "página web"
+    },
+    {
+      "id": "topic_052:ropa interior",
+      "ru": "нижнее бельё",
+      "target": "ropa interior"
+    },
+    {
+      "id": "topic_052:sandalia",
+      "ru": "сандалия",
+      "target": "sandalia"
+    },
+    {
+      "id": "topic_052:shorts",
+      "ru": "шорты",
+      "target": "shorts"
+    },
+    {
+      "id": "topic_052:tarjeta de crédito",
+      "ru": "кредитная карта",
+      "target": "tarjeta de crédito"
+    }
+  ]
+}

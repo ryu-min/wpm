@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_023",
+  "description": "Обсудите школьный проект",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_023:borrador",
+      "ru": "ластик",
+      "target": "borrador"
+    },
+    {
+      "id": "topic_023:calificación",
+      "ru": "оценка",
+      "target": "calificación"
+    },
+    {
+      "id": "topic_023:cierto",
+      "ru": "достоверный",
+      "target": "cierto"
+    },
+    {
+      "id": "topic_023:computadora",
+      "ru": "компьютер",
+      "target": "computadora"
+    },
+    {
+      "id": "topic_023:copia",
+      "ru": "копия",
+      "target": "copia"
+    },
+    {
+      "id": "topic_023:creativo",
+      "ru": "творческий",
+      "target": "creativo"
+    },
+    {
+      "id": "topic_023:diccionario",
+      "ru": "словарь",
+      "target": "diccionario"
+    },
+    {
+      "id": "topic_023:estudiante",
+      "ru": "студент",
+      "target": "estudiante"
+    },
+    {
+      "id": "topic_023:está bien",
+      "ru": "хорошо",
+      "target": "está bien"
+    },
+    {
+      "id": "topic_023:lindo",
+      "ru": "милый",
+      "target": "lindo"
+    },
+    {
+      "id": "topic_023:lápiz",
+      "ru": "карандаш",
+      "target": "lápiz"
+    },
+    {
+      "id": "topic_023:mapa",
+      "ru": "карта",
+      "target": "mapa"
+    },
+    {
+      "id": "topic_023:ni idea",
+      "ru": "понятия не имею",
+      "target": "ni idea"
+    },
+    {
+      "id": "topic_023:nuestro",
+      "ru": "наш",
+      "target": "nuestro"
+    },
+    {
+      "id": "topic_023:pluma",
+      "ru": "перо",
+      "target": "pluma"
+    },
+    {
+      "id": "topic_023:proyecto",
+      "ru": "проект",
+      "target": "proyecto"
+    },
+    {
+      "id": "topic_023:qué",
+      "ru": "что",
+      "target": "qué"
+    },
+    {
+      "id": "topic_023:seguro",
+      "ru": "страховка",
+      "target": "seguro"
+    }
+  ]
+}

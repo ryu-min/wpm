@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_220",
+  "description": "Обсуди политику и новости",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_220:democracia",
+      "ru": "демократия",
+      "target": "democracia"
+    },
+    {
+      "id": "topic_220:desagradable",
+      "ru": "неприятный",
+      "target": "desagradable"
+    },
+    {
+      "id": "topic_220:desventaja",
+      "ru": "недостаток",
+      "target": "desventaja"
+    },
+    {
+      "id": "topic_220:dictadura",
+      "ru": "диктатура",
+      "target": "dictadura"
+    },
+    {
+      "id": "topic_220:ecología",
+      "ru": "экология",
+      "target": "ecología"
+    },
+    {
+      "id": "topic_220:empleo",
+      "ru": "занятость",
+      "target": "empleo"
+    },
+    {
+      "id": "topic_220:esperanza",
+      "ru": "надежда",
+      "target": "esperanza"
+    },
+    {
+      "id": "topic_220:estabilidad",
+      "ru": "стабильность",
+      "target": "estabilidad"
+    },
+    {
+      "id": "topic_220:gobernador",
+      "ru": "губернатор",
+      "target": "gobernador"
+    },
+    {
+      "id": "topic_220:impresión",
+      "ru": "печать",
+      "target": "impresión"
+    },
+    {
+      "id": "topic_220:intención",
+      "ru": "намерение",
+      "target": "intención"
+    },
+    {
+      "id": "topic_220:libertad",
+      "ru": "свобода",
+      "target": "libertad"
+    },
+    {
+      "id": "topic_220:me da miedo que",
+      "ru": "Мне страшно, что",
+      "target": "me da miedo que"
+    },
+    {
+      "id": "topic_220:me molesta que",
+      "ru": "меня раздражает, что",
+      "target": "me molesta que"
+    },
+    {
+      "id": "topic_220:me preocupa que",
+      "ru": "Меня беспокоит, что",
+      "target": "me preocupa que"
+    },
+    {
+      "id": "topic_220:muerte",
+      "ru": "смерть",
+      "target": "muerte"
+    },
+    {
+      "id": "topic_220:no soporto que",
+      "ru": "Я не выношу, когда, Я не выношу, что",
+      "target": "no soporto que"
+    },
+    {
+      "id": "topic_220:noticiero",
+      "ru": "новостной выпуск",
+      "target": "noticiero"
+    },
+    {
+      "id": "topic_220:pobreza",
+      "ru": "бедность",
+      "target": "pobreza"
+    },
+    {
+      "id": "topic_220:terrorismo",
+      "ru": "терроризм",
+      "target": "terrorismo"
+    }
+  ]
+}

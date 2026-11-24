@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "topic_013",
+  "description": "Обсуждайте спорт",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_013:a menudo",
+      "ru": "часто",
+      "target": "a menudo"
+    },
+    {
+      "id": "topic_013:ah",
+      "ru": "ах",
+      "target": "ah"
+    },
+    {
+      "id": "topic_013:al aire libre",
+      "ru": "на свежем воздухе",
+      "target": "al aire libre"
+    },
+    {
+      "id": "topic_013:atlético",
+      "ru": "атлетичный",
+      "target": "atlético"
+    },
+    {
+      "id": "topic_013:básquetbol",
+      "ru": "баскетбол",
+      "target": "básquetbol"
+    },
+    {
+      "id": "topic_013:béisbol",
+      "ru": "бейсбол",
+      "target": "béisbol"
+    },
+    {
+      "id": "topic_013:caminar",
+      "ru": "ходить",
+      "target": "caminar"
+    },
+    {
+      "id": "topic_013:descansar",
+      "ru": "отдыхать",
+      "target": "descansar"
+    },
+    {
+      "id": "topic_013:ellos",
+      "ru": "они",
+      "target": "ellos"
+    },
+    {
+      "id": "topic_013:entrenador",
+      "ru": "тренер",
+      "target": "entrenador"
+    },
+    {
+      "id": "topic_013:entrenar",
+      "ru": "тренировать",
+      "target": "entrenar"
+    },
+    {
+      "id": "topic_013:equipo",
+      "ru": "команда",
+      "target": "equipo"
+    },
+    {
+      "id": "topic_013:esquiar",
+      "ru": "кататься на лыжах",
+      "target": "esquiar"
+    },
+    {
+      "id": "topic_013:frecuentemente",
+      "ru": "часто",
+      "target": "frecuentemente"
+    },
+    {
+      "id": "topic_013:fútbol",
+      "ru": "футбол",
+      "target": "fútbol"
+    },
+    {
+      "id": "topic_013:gimnasio",
+      "ru": "спортзал",
+      "target": "gimnasio"
+    },
+    {
+      "id": "topic_013:honestamente",
+      "ru": "честно говоря",
+      "target": "honestamente"
+    },
+    {
+      "id": "topic_013:nadar",
+      "ru": "плавать",
+      "target": "nadar"
+    },
+    {
+      "id": "topic_013:perezoso",
+      "ru": "ленивый",
+      "target": "perezoso"
+    },
+    {
+      "id": "topic_013:piscina",
+      "ru": "бассейн",
+      "target": "piscina"
+    },
+    {
+      "id": "topic_013:porque",
+      "ru": "потому что",
+      "target": "porque"
+    },
+    {
+      "id": "topic_013:practicar",
+      "ru": "практиковать",
+      "target": "practicar"
+    },
+    {
+      "id": "topic_013:siempre",
+      "ru": "всегда",
+      "target": "siempre"
+    },
+    {
+      "id": "topic_013:tenis",
+      "ru": "теннис",
+      "target": "tenis"
+    },
+    {
+      "id": "topic_013:todos los días",
+      "ru": "каждый день",
+      "target": "todos los días"
+    },
+    {
+      "id": "topic_013:ya no",
+      "ru": "больше не",
+      "target": "ya no"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_230",
+  "description": "Опиши встречи с животными",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_230:acercarse",
+      "ru": "подходить",
+      "target": "acercarse"
+    },
+    {
+      "id": "topic_230:cucaracha",
+      "ru": "таракан",
+      "target": "cucaracha"
+    },
+    {
+      "id": "topic_230:gallina",
+      "ru": "курица-несушка",
+      "target": "gallina"
+    },
+    {
+      "id": "topic_230:lobo",
+      "ru": "волк",
+      "target": "lobo"
+    },
+    {
+      "id": "topic_230:morder",
+      "ru": "кусать",
+      "target": "morder"
+    },
+    {
+      "id": "topic_230:orilla",
+      "ru": "берег",
+      "target": "orilla"
+    },
+    {
+      "id": "topic_230:oíste que",
+      "ru": "слышала, что, слышал, что",
+      "target": "oíste que"
+    },
+    {
+      "id": "topic_230:paloma",
+      "ru": "голубь",
+      "target": "paloma"
+    },
+    {
+      "id": "topic_230:permitir",
+      "ru": "разрешать",
+      "target": "permitir"
+    },
+    {
+      "id": "topic_230:picar",
+      "ru": "кусать; клевать; нарезать",
+      "target": "picar"
+    },
+    {
+      "id": "topic_230:por lo que veo",
+      "ru": "насколько я вижу",
+      "target": "por lo que veo"
+    },
+    {
+      "id": "topic_230:rama",
+      "ru": "ветка",
+      "target": "rama"
+    },
+    {
+      "id": "topic_230:rescatar",
+      "ru": "спасать",
+      "target": "rescatar"
+    }
+  ]
+}

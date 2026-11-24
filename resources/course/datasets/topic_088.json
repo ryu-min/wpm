@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_088",
+  "description": "Обсуждайте отношения и чувства",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_088:amor",
+      "ru": "любовь",
+      "target": "amor"
+    },
+    {
+      "id": "topic_088:arrogante",
+      "ru": "высокомерный",
+      "target": "arrogante"
+    },
+    {
+      "id": "topic_088:cita a ciegas",
+      "ru": "свидание вслепую",
+      "target": "cita a ciegas"
+    },
+    {
+      "id": "topic_088:consejo",
+      "ru": "совет",
+      "target": "consejo"
+    },
+    {
+      "id": "topic_088:ecuatoriano",
+      "ru": "эквадорский",
+      "target": "ecuatoriano"
+    },
+    {
+      "id": "topic_088:egocéntrico",
+      "ru": "самовлюблённый",
+      "target": "egocéntrico"
+    },
+    {
+      "id": "topic_088:es que",
+      "ru": "дело в том, что",
+      "target": "es que"
+    },
+    {
+      "id": "topic_088:obviamente",
+      "ru": "очевидно",
+      "target": "obviamente"
+    },
+    {
+      "id": "topic_088:proponer",
+      "ru": "предлагать",
+      "target": "proponer"
+    },
+    {
+      "id": "topic_088:relación",
+      "ru": "отношение",
+      "target": "relación"
+    },
+    {
+      "id": "topic_088:se",
+      "ru": "(им), (себя), похож, себе, себя, se",
+      "target": "se"
+    },
+    {
+      "id": "topic_088:sinceramente",
+      "ru": "искренне",
+      "target": "sinceramente"
+    }
+  ]
+}

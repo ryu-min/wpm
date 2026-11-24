@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_134",
+  "description": "Рассказывать о своём дне",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_134:borrar",
+      "ru": "стирать",
+      "target": "borrar"
+    },
+    {
+      "id": "topic_134:buzón de voz",
+      "ru": "голосовая почта",
+      "target": "buzón de voz"
+    },
+    {
+      "id": "topic_134:chatear",
+      "ru": "общаться в чате",
+      "target": "chatear"
+    },
+    {
+      "id": "topic_134:comunicarse",
+      "ru": "общаться; связываться",
+      "target": "comunicarse"
+    },
+    {
+      "id": "topic_134:conectar",
+      "ru": "соединять",
+      "target": "conectar"
+    },
+    {
+      "id": "topic_134:crear",
+      "ru": "создавать",
+      "target": "crear"
+    },
+    {
+      "id": "topic_134:experto",
+      "ru": "эксперт",
+      "target": "experto"
+    },
+    {
+      "id": "topic_134:instalar",
+      "ru": "устанавливать оборудование",
+      "target": "instalar"
+    },
+    {
+      "id": "topic_134:publicidad",
+      "ru": "реклама",
+      "target": "publicidad"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_251",
+  "description": "Обсуди симптомы и лечение",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_251:algo de",
+      "ru": "что-то",
+      "target": "algo de"
+    },
+    {
+      "id": "topic_251:arder",
+      "ru": "жечь",
+      "target": "arder"
+    },
+    {
+      "id": "topic_251:curita",
+      "ru": "пластырь",
+      "target": "curita"
+    },
+    {
+      "id": "topic_251:determinar",
+      "ru": "устанавливать",
+      "target": "determinar"
+    },
+    {
+      "id": "topic_251:dolor de oído",
+      "ru": "боль в ухе",
+      "target": "dolor de oído"
+    },
+    {
+      "id": "topic_251:escalofríos",
+      "ru": "озноб",
+      "target": "escalofríos"
+    },
+    {
+      "id": "topic_251:fortalecerse",
+      "ru": "укрепиться",
+      "target": "fortalecerse"
+    },
+    {
+      "id": "topic_251:hacer efecto",
+      "ru": "подействовать; возыметь действие",
+      "target": "hacer efecto"
+    },
+    {
+      "id": "topic_251:hinchado",
+      "ru": "опухлый",
+      "target": "hinchado"
+    },
+    {
+      "id": "topic_251:indicar",
+      "ru": "указывать",
+      "target": "indicar"
+    },
+    {
+      "id": "topic_251:infección",
+      "ru": "инфекция",
+      "target": "infección"
+    },
+    {
+      "id": "topic_251:malestar",
+      "ru": "недомогание",
+      "target": "malestar"
+    },
+    {
+      "id": "topic_251:me avisas",
+      "ru": "Сообщи",
+      "target": "me avisas"
+    },
+    {
+      "id": "topic_251:nada de",
+      "ru": "ничего",
+      "target": "nada de"
+    },
+    {
+      "id": "topic_251:por poco",
+      "ru": "почти",
+      "target": "por poco"
+    },
+    {
+      "id": "topic_251:puntos",
+      "ru": "шов",
+      "target": "puntos"
+    },
+    {
+      "id": "topic_251:resbalarse",
+      "ru": "поскользнуться",
+      "target": "resbalarse"
+    },
+    {
+      "id": "topic_251:sala de espera",
+      "ru": "зале ожидания, зал ожидания",
+      "target": "sala de espera"
+    },
+    {
+      "id": "topic_251:salir de dudas",
+      "ru": "развеять сомнения",
+      "target": "salir de dudas"
+    },
+    {
+      "id": "topic_251:terapeuta",
+      "ru": "терапевт",
+      "target": "terapeuta"
+    }
+  ]
+}

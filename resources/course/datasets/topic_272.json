@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_272",
+  "description": "Обсуди права женщин",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_272:administrar",
+      "ru": "управлять",
+      "target": "administrar"
+    },
+    {
+      "id": "topic_272:desigualdad",
+      "ru": "неравенство",
+      "target": "desigualdad"
+    },
+    {
+      "id": "topic_272:discriminación",
+      "ru": "дискриминация",
+      "target": "discriminación"
+    },
+    {
+      "id": "topic_272:embarazo",
+      "ru": "беременность",
+      "target": "embarazo"
+    },
+    {
+      "id": "topic_272:empoderar",
+      "ru": "наделить полномочиями",
+      "target": "empoderar"
+    },
+    {
+      "id": "topic_272:género",
+      "ru": "род",
+      "target": "género"
+    },
+    {
+      "id": "topic_272:igualdad",
+      "ru": "равенство",
+      "target": "igualdad"
+    },
+    {
+      "id": "topic_272:indígena",
+      "ru": "индейский",
+      "target": "indígena"
+    },
+    {
+      "id": "topic_272:liderazgo",
+      "ru": "лидерство",
+      "target": "liderazgo"
+    },
+    {
+      "id": "topic_272:luchar",
+      "ru": "бороться",
+      "target": "luchar"
+    },
+    {
+      "id": "topic_272:lugar de trabajo",
+      "ru": "место работы",
+      "target": "lugar de trabajo"
+    },
+    {
+      "id": "topic_272:marcha",
+      "ru": "ходьба",
+      "target": "marcha"
+    },
+    {
+      "id": "topic_272:por cuestiones de",
+      "ru": "по причинам",
+      "target": "por cuestiones de"
+    },
+    {
+      "id": "topic_272:si bien",
+      "ru": "хотя",
+      "target": "si bien"
+    },
+    {
+      "id": "topic_272:tesis",
+      "ru": "тезис",
+      "target": "tesis"
+    },
+    {
+      "id": "topic_272:tomar conciencia",
+      "ru": "осознать",
+      "target": "tomar conciencia"
+    },
+    {
+      "id": "topic_272:violencia",
+      "ru": "насилие",
+      "target": "violencia"
+    }
+  ]
+}

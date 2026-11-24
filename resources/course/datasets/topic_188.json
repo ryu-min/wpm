@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_188",
+  "description": "Пожаловаться продавцу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_188:aceptable",
+      "ru": "приемлемый",
+      "target": "aceptable"
+    },
+    {
+      "id": "topic_188:comparar",
+      "ru": "сравнивать",
+      "target": "comparar"
+    },
+    {
+      "id": "topic_188:en cualquier caso",
+      "ru": "в любом случае",
+      "target": "en cualquier caso"
+    },
+    {
+      "id": "topic_188:en primer lugar",
+      "ru": "во-первых",
+      "target": "en primer lugar"
+    },
+    {
+      "id": "topic_188:en segundo lugar",
+      "ru": "во-вторых",
+      "target": "en segundo lugar"
+    },
+    {
+      "id": "topic_188:encargarse",
+      "ru": "заниматься",
+      "target": "encargarse"
+    },
+    {
+      "id": "topic_188:fijarse",
+      "ru": "проверить",
+      "target": "fijarse"
+    },
+    {
+      "id": "topic_188:gasto",
+      "ru": "расход",
+      "target": "gasto"
+    },
+    {
+      "id": "topic_188:lógico",
+      "ru": "логичный",
+      "target": "lógico"
+    },
+    {
+      "id": "topic_188:manchado",
+      "ru": "испачкан",
+      "target": "manchado"
+    },
+    {
+      "id": "topic_188:perder el tiempo",
+      "ru": "терять время",
+      "target": "perder el tiempo"
+    },
+    {
+      "id": "topic_188:plazo",
+      "ru": "срок",
+      "target": "plazo"
+    },
+    {
+      "id": "topic_188:quinto",
+      "ru": "пятый",
+      "target": "quinto"
+    },
+    {
+      "id": "topic_188:reemplazar",
+      "ru": "заменять",
+      "target": "reemplazar"
+    },
+    {
+      "id": "topic_188:vencido",
+      "ru": "истек",
+      "target": "vencido"
+    }
+  ]
+}

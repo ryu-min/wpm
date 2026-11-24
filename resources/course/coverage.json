@@ -1,0 +1,67 @@
+{
+  "modules": [
+    {
+      "module_id": "module-1",
+      "topics": 10,
+      "source_rows": 208,
+      "canonical_units": 177,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-2",
+      "topics": 31,
+      "source_rows": 747,
+      "canonical_units": 632,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-3",
+      "topics": 30,
+      "source_rows": 738,
+      "canonical_units": 601,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-4",
+      "topics": 60,
+      "source_rows": 1356,
+      "canonical_units": 1101,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-5",
+      "topics": 50,
+      "source_rows": 1204,
+      "canonical_units": 437,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-6",
+      "topics": 50,
+      "source_rows": 1188,
+      "canonical_units": 693,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-7",
+      "topics": 36,
+      "source_rows": 808,
+      "canonical_units": 634,
+      "unprocessed": 0
+    },
+    {
+      "module_id": "module-8",
+      "topics": 36,
+      "source_rows": 812,
+      "canonical_units": 628,
+      "unprocessed": 0
+    }
+  ],
+  "legacy_first_module": {
+    "source_rows": 208,
+    "canonical_units": 177
+  },
+  "total_source_rows": 7061,
+  "unprocessed": 0,
+  "linguistic_review": "Canonical dictionary candidates and ambiguous homographs were checked. Independent expert editorial review remains pending."
+}

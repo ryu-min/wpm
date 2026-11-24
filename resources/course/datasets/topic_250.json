@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_250",
+  "description": "Обсудить бюрократию",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_250:a menos que",
+      "ru": "если не",
+      "target": "a menos que"
+    },
+    {
+      "id": "topic_250:a primera hora",
+      "ru": "рано утром",
+      "target": "a primera hora"
+    },
+    {
+      "id": "topic_250:administrativo",
+      "ru": "административный",
+      "target": "administrativo"
+    },
+    {
+      "id": "topic_250:burocracia",
+      "ru": "бюрократия",
+      "target": "burocracia"
+    },
+    {
+      "id": "topic_250:certificado",
+      "ru": "справка",
+      "target": "certificado"
+    },
+    {
+      "id": "topic_250:con tal de que",
+      "ru": "если только",
+      "target": "con tal de que"
+    },
+    {
+      "id": "topic_250:consulado",
+      "ru": "консульство",
+      "target": "consulado"
+    },
+    {
+      "id": "topic_250:estar dispuesto a",
+      "ru": "быть готовым (сделать что-либо)",
+      "target": "estar dispuesto a"
+    },
+    {
+      "id": "topic_250:idas y vueltas",
+      "ru": "беготня",
+      "target": "idas y vueltas"
+    },
+    {
+      "id": "topic_250:ineficiente",
+      "ru": "неэффективный",
+      "target": "ineficiente"
+    },
+    {
+      "id": "topic_250:inscripción",
+      "ru": "регистрация",
+      "target": "inscripción"
+    },
+    {
+      "id": "topic_250:papeleo",
+      "ru": "бумажная работа",
+      "target": "papeleo"
+    },
+    {
+      "id": "topic_250:por más que",
+      "ru": "Сколько бы ни",
+      "target": "por más que"
+    },
+    {
+      "id": "topic_250:sello",
+      "ru": "почтовая марка",
+      "target": "sello"
+    },
+    {
+      "id": "topic_250:simplificar",
+      "ru": "упростить",
+      "target": "simplificar"
+    },
+    {
+      "id": "topic_250:trámite",
+      "ru": "оформление",
+      "target": "trámite"
+    },
+    {
+      "id": "topic_250:vencer",
+      "ru": "побеждать",
+      "target": "vencer"
+    },
+    {
+      "id": "topic_250:válido",
+      "ru": "годный",
+      "target": "válido"
+    }
+  ]
+}

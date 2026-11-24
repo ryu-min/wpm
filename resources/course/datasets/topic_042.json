@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_042",
+  "description": "Покупайте одежду",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_042:ancho",
+      "ru": "широкий",
+      "target": "ancho"
+    },
+    {
+      "id": "topic_042:bota",
+      "ru": "сапог",
+      "target": "bota"
+    },
+    {
+      "id": "topic_042:calcetín",
+      "ru": "носок",
+      "target": "calcetín"
+    },
+    {
+      "id": "topic_042:color",
+      "ru": "цвет",
+      "target": "color"
+    },
+    {
+      "id": "topic_042:corbata",
+      "ru": "галстук",
+      "target": "corbata"
+    },
+    {
+      "id": "topic_042:de nada",
+      "ru": "пожалуйста",
+      "target": "de nada"
+    },
+    {
+      "id": "topic_042:estrecho",
+      "ru": "узкий",
+      "target": "estrecho"
+    },
+    {
+      "id": "topic_042:gris",
+      "ru": "серый",
+      "target": "gris"
+    },
+    {
+      "id": "topic_042:guante",
+      "ru": "перчатка",
+      "target": "guante"
+    },
+    {
+      "id": "topic_042:hasta pronto",
+      "ru": "до скорого",
+      "target": "hasta pronto"
+    },
+    {
+      "id": "topic_042:jeans",
+      "ru": "джинсы",
+      "target": "jeans"
+    },
+    {
+      "id": "topic_042:media",
+      "ru": "чулок",
+      "target": "media"
+    },
+    {
+      "id": "topic_042:pantalón",
+      "ru": "брюки",
+      "target": "pantalón"
+    },
+    {
+      "id": "topic_042:preferir",
+      "ru": "предпочитать",
+      "target": "preferir"
+    },
+    {
+      "id": "topic_042:rosa",
+      "ru": "розовый",
+      "target": "rosa"
+    },
+    {
+      "id": "topic_042:talla",
+      "ru": "размер",
+      "target": "talla"
+    }
+  ]
+}

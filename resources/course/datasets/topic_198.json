@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_198",
+  "description": "Обсуди проблемы бизнеса",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_198:a cuánto",
+      "ru": "сколько стоит",
+      "target": "a cuánto"
+    },
+    {
+      "id": "topic_198:aprovechar",
+      "ru": "использовать с пользой",
+      "target": "aprovechar"
+    },
+    {
+      "id": "topic_198:aumento",
+      "ru": "прибавка",
+      "target": "aumento"
+    },
+    {
+      "id": "topic_198:comenzado",
+      "ru": "началось",
+      "target": "comenzado"
+    },
+    {
+      "id": "topic_198:considerar",
+      "ru": "считать",
+      "target": "considerar"
+    },
+    {
+      "id": "topic_198:construcción",
+      "ru": "строительство",
+      "target": "construcción"
+    },
+    {
+      "id": "topic_198:demanda",
+      "ru": "спрос",
+      "target": "demanda"
+    },
+    {
+      "id": "topic_198:despedir",
+      "ru": "прощаться или увольнять",
+      "target": "despedir"
+    },
+    {
+      "id": "topic_198:dificultad",
+      "ru": "трудность",
+      "target": "dificultad"
+    },
+    {
+      "id": "topic_198:esfuerzo",
+      "ru": "усилие",
+      "target": "esfuerzo"
+    },
+    {
+      "id": "topic_198:financiero",
+      "ru": "финансовый",
+      "target": "financiero"
+    },
+    {
+      "id": "topic_198:industria",
+      "ru": "промышленность",
+      "target": "industria"
+    },
+    {
+      "id": "topic_198:producir",
+      "ru": "производить",
+      "target": "producir"
+    },
+    {
+      "id": "topic_198:préstamo",
+      "ru": "заём",
+      "target": "préstamo"
+    },
+    {
+      "id": "topic_198:recurso",
+      "ru": "ресурс",
+      "target": "recurso"
+    },
+    {
+      "id": "topic_198:reunido",
+      "ru": "встретился",
+      "target": "reunido"
+    },
+    {
+      "id": "topic_198:trimestre",
+      "ru": "триместр",
+      "target": "trimestre"
+    }
+  ]
+}

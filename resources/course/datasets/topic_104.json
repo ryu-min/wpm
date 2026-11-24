@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_104",
+  "description": "Обсуждайте фильмы и сериалы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_104:India",
+      "ru": "Индия",
+      "target": "India"
+    },
+    {
+      "id": "topic_104:Inglaterra",
+      "ru": "Англия",
+      "target": "Inglaterra"
+    },
+    {
+      "id": "topic_104:Japón",
+      "ru": "Япония",
+      "target": "Japón"
+    },
+    {
+      "id": "topic_104:anteayer",
+      "ru": "позавчера",
+      "target": "anteayer"
+    },
+    {
+      "id": "topic_104:caricatura",
+      "ru": "карикатура",
+      "target": "caricatura"
+    },
+    {
+      "id": "topic_104:de misterio",
+      "ru": "детективный",
+      "target": "de misterio"
+    },
+    {
+      "id": "topic_104:de suspenso",
+      "ru": "триллер",
+      "target": "de suspenso"
+    },
+    {
+      "id": "topic_104:descargar",
+      "ru": "скачивать",
+      "target": "descargar"
+    },
+    {
+      "id": "topic_104:dramático",
+      "ru": "театральный",
+      "target": "dramático"
+    },
+    {
+      "id": "topic_104:harto de",
+      "ru": "устал от",
+      "target": "harto de"
+    },
+    {
+      "id": "topic_104:ochenta",
+      "ru": "восемьдесят",
+      "target": "ochenta"
+    },
+    {
+      "id": "topic_104:política",
+      "ru": "политика",
+      "target": "política"
+    },
+    {
+      "id": "topic_104:setenta",
+      "ru": "семьдесят",
+      "target": "setenta"
+    },
+    {
+      "id": "topic_104:soler",
+      "ru": "иметь обыкновение что-либо делать",
+      "target": "soler"
+    },
+    {
+      "id": "topic_104:suelo",
+      "ru": "пол",
+      "target": "suelo"
+    },
+    {
+      "id": "topic_104:telenovela",
+      "ru": "теленовелла",
+      "target": "telenovela"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_197",
+  "description": "Обсуди роды и вес малыша",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_197:dentro de",
+      "ru": "через",
+      "target": "dentro de"
+    },
+    {
+      "id": "topic_197:internar",
+      "ru": "положить",
+      "target": "internar"
+    },
+    {
+      "id": "topic_197:mejorarse",
+      "ru": "поправляться",
+      "target": "mejorarse"
+    },
+    {
+      "id": "topic_197:morir",
+      "ru": "умирать",
+      "target": "morir"
+    },
+    {
+      "id": "topic_197:nacer",
+      "ru": "рождаться",
+      "target": "nacer"
+    },
+    {
+      "id": "topic_197:parto",
+      "ru": "роды",
+      "target": "parto"
+    },
+    {
+      "id": "topic_197:pesar",
+      "ru": "взвешивать",
+      "target": "pesar"
+    },
+    {
+      "id": "topic_197:pulmón",
+      "ru": "лёгкое",
+      "target": "pulmón"
+    },
+    {
+      "id": "topic_197:radiografía",
+      "ru": "рентгеновский снимок",
+      "target": "radiografía"
+    },
+    {
+      "id": "topic_197:seguro médico",
+      "ru": "медицинской страховке, медицинская страховка, медицинской страховкой, медицинскую страховку",
+      "target": "seguro médico"
+    },
+    {
+      "id": "topic_197:toser",
+      "ru": "кашлять",
+      "target": "toser"
+    },
+    {
+      "id": "topic_197:tratamiento",
+      "ru": "лечение",
+      "target": "tratamiento"
+    }
+  ]
+}

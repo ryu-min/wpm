@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_080",
+  "description": "Участвуйте в волонтерстве",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_080:acera",
+      "ru": "тротуар",
+      "target": "acera"
+    },
+    {
+      "id": "topic_080:adoptar",
+      "ru": "усыновлять",
+      "target": "adoptar"
+    },
+    {
+      "id": "topic_080:aprender",
+      "ru": "учиться",
+      "target": "aprender"
+    },
+    {
+      "id": "topic_080:basura",
+      "ru": "мусор",
+      "target": "basura"
+    },
+    {
+      "id": "topic_080:conversar",
+      "ru": "беседовать",
+      "target": "conversar"
+    },
+    {
+      "id": "topic_080:cuidar",
+      "ru": "заботиться",
+      "target": "cuidar"
+    },
+    {
+      "id": "topic_080:cultura",
+      "ru": "культура",
+      "target": "cultura"
+    },
+    {
+      "id": "topic_080:jardinero",
+      "ru": "садовник",
+      "target": "jardinero"
+    },
+    {
+      "id": "topic_080:limpieza",
+      "ru": "чистота",
+      "target": "limpieza"
+    },
+    {
+      "id": "topic_080:pariente",
+      "ru": "родственник",
+      "target": "pariente"
+    },
+    {
+      "id": "topic_080:pasado",
+      "ru": "прошлое",
+      "target": "pasado"
+    },
+    {
+      "id": "topic_080:plantar",
+      "ru": "сажать растение",
+      "target": "plantar"
+    },
+    {
+      "id": "topic_080:positivo",
+      "ru": "позитивный",
+      "target": "positivo"
+    },
+    {
+      "id": "topic_080:regar",
+      "ru": "поливать",
+      "target": "regar"
+    },
+    {
+      "id": "topic_080:tutor",
+      "ru": "репетитор",
+      "target": "tutor"
+    },
+    {
+      "id": "topic_080:veterinario",
+      "ru": "ветеринар",
+      "target": "veterinario"
+    }
+  ]
+}

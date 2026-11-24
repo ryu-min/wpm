@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "topic_141",
+  "description": "Поговори о рецептах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_141:batir",
+      "ru": "взбивать",
+      "target": "batir"
+    },
+    {
+      "id": "topic_141:cereza",
+      "ru": "вишня",
+      "target": "cereza"
+    },
+    {
+      "id": "topic_141:compra",
+      "ru": "покупка",
+      "target": "compra"
+    },
+    {
+      "id": "topic_141:freír",
+      "ru": "жарить в масле",
+      "target": "freír"
+    },
+    {
+      "id": "topic_141:libra",
+      "ru": "фунт",
+      "target": "libra"
+    },
+    {
+      "id": "topic_141:mezcla",
+      "ru": "смешай",
+      "target": "mezcla"
+    },
+    {
+      "id": "topic_141:mostaza",
+      "ru": "горчица",
+      "target": "mostaza"
+    }
+  ]
+}

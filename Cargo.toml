@@ -1,4 +1,5 @@
 [package]
+default-run = "wpm"
 name = "wpm"
 version = "0.1.0"
 description = "Terminal typing and translation practice with speed and accuracy tracking"

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_065",
+  "description": "Указатели количества с существительными",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_065:acampar",
+      "ru": "кемпинговать",
+      "target": "acampar"
+    },
+    {
+      "id": "topic_065:al sur",
+      "ru": "на юг",
+      "target": "al sur"
+    },
+    {
+      "id": "topic_065:ciclismo",
+      "ru": "велоспорт",
+      "target": "ciclismo"
+    },
+    {
+      "id": "topic_065:depender",
+      "ru": "зависеть",
+      "target": "depender"
+    },
+    {
+      "id": "topic_065:durante",
+      "ru": "во время",
+      "target": "durante"
+    },
+    {
+      "id": "topic_065:espacio",
+      "ru": "место",
+      "target": "espacio"
+    },
+    {
+      "id": "topic_065:físico",
+      "ru": "физический",
+      "target": "físico"
+    },
+    {
+      "id": "topic_065:ir a",
+      "ru": "пойти",
+      "target": "ir a"
+    },
+    {
+      "id": "topic_065:natación",
+      "ru": "плавание",
+      "target": "natación"
+    },
+    {
+      "id": "topic_065:nos vemos",
+      "ru": "увидимся",
+      "target": "nos vemos"
+    },
+    {
+      "id": "topic_065:ola",
+      "ru": "волна",
+      "target": "ola"
+    },
+    {
+      "id": "topic_065:pilates",
+      "ru": "пилатес",
+      "target": "pilates"
+    },
+    {
+      "id": "topic_065:sendero",
+      "ru": "тропинка",
+      "target": "sendero"
+    },
+    {
+      "id": "topic_065:surfear",
+      "ru": "сёрфить",
+      "target": "surfear"
+    },
+    {
+      "id": "topic_065:trotar",
+      "ru": "бегать",
+      "target": "trotar"
+    }
+  ]
+}

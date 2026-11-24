@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_037",
+  "description": "Обсудите музыкальные предпочтения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_037:batería",
+      "ru": "аккумулятор",
+      "target": "batería"
+    },
+    {
+      "id": "topic_037:canción",
+      "ru": "песня",
+      "target": "canción"
+    },
+    {
+      "id": "topic_037:cantante",
+      "ru": "певец",
+      "target": "cantante"
+    },
+    {
+      "id": "topic_037:evento",
+      "ru": "событие",
+      "target": "evento"
+    },
+    {
+      "id": "topic_037:guitarra",
+      "ru": "гитара",
+      "target": "guitarra"
+    },
+    {
+      "id": "topic_037:instrumento",
+      "ru": "инструмент",
+      "target": "instrumento"
+    },
+    {
+      "id": "topic_037:les gusta",
+      "ru": "они любят (что-то), (им) нравится (что-то)",
+      "target": "les gusta"
+    },
+    {
+      "id": "topic_037:les gustan",
+      "ru": "им или вам нравятся (несколько вещей)",
+      "target": "les gustan"
+    },
+    {
+      "id": "topic_037:les interesa",
+      "ru": "им интересно (одна вещь)",
+      "target": "les interesa"
+    },
+    {
+      "id": "topic_037:les interesan",
+      "ru": "им или вам интересны (несколько вещей)",
+      "target": "les interesan"
+    },
+    {
+      "id": "topic_037:más o menos",
+      "ru": "примерно",
+      "target": "más o menos"
+    },
+    {
+      "id": "topic_037:músico",
+      "ru": "музыкант",
+      "target": "músico"
+    },
+    {
+      "id": "topic_037:nos gusta",
+      "ru": "мы любим, (нам) нравится",
+      "target": "nos gusta"
+    },
+    {
+      "id": "topic_037:nos gustan",
+      "ru": "нам нравятся (несколько вещей)",
+      "target": "nos gustan"
+    },
+    {
+      "id": "topic_037:nos interesa",
+      "ru": "нам интересно (одна вещь)",
+      "target": "nos interesa"
+    },
+    {
+      "id": "topic_037:piano",
+      "ru": "фортепиано",
+      "target": "piano"
+    },
+    {
+      "id": "topic_037:pop",
+      "ru": "поп",
+      "target": "pop"
+    },
+    {
+      "id": "topic_037:próximo",
+      "ru": "следующий",
+      "target": "próximo"
+    },
+    {
+      "id": "topic_037:relajante",
+      "ru": "расслабляющий",
+      "target": "relajante"
+    },
+    {
+      "id": "topic_037:tocar",
+      "ru": "трогать",
+      "target": "tocar"
+    },
+    {
+      "id": "topic_037:violín",
+      "ru": "скрипка",
+      "target": "violín"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_139",
+  "description": "Поделись честным мнением",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_139:descripción",
+      "ru": "описание",
+      "target": "descripción"
+    },
+    {
+      "id": "topic_139:distinto",
+      "ru": "отличающийся",
+      "target": "distinto"
+    },
+    {
+      "id": "topic_139:importancia",
+      "ru": "значения",
+      "target": "importancia"
+    },
+    {
+      "id": "topic_139:obvio",
+      "ru": "очевидный",
+      "target": "obvio"
+    },
+    {
+      "id": "topic_139:oportunidad",
+      "ru": "возможность",
+      "target": "oportunidad"
+    },
+    {
+      "id": "topic_139:personal",
+      "ru": "личный",
+      "target": "personal"
+    },
+    {
+      "id": "topic_139:progreso",
+      "ru": "прогресс",
+      "target": "progreso"
+    },
+    {
+      "id": "topic_139:punto de vista",
+      "ru": "точка зрения",
+      "target": "punto de vista"
+    },
+    {
+      "id": "topic_139:sentido",
+      "ru": "смысл",
+      "target": "sentido"
+    },
+    {
+      "id": "topic_139:ventaja",
+      "ru": "преимущество",
+      "target": "ventaja"
+    },
+    {
+      "id": "topic_139:único",
+      "ru": "единственный",
+      "target": "único"
+    }
+  ]
+}

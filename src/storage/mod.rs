@@ -1,4 +1,5 @@
 mod catalog;
+pub(crate) mod course;
 mod settings;
 use crate::domain::Settings;
 use catalog::bundled_datasets;

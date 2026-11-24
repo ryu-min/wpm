@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_119",
+  "description": "Используйте сравнительные количества",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_119:afeitarse",
+      "ru": "бриться",
+      "target": "afeitarse"
+    },
+    {
+      "id": "topic_119:centímetro",
+      "ru": "сантиметр",
+      "target": "centímetro"
+    },
+    {
+      "id": "topic_119:champú",
+      "ru": "шампунь",
+      "target": "champú"
+    },
+    {
+      "id": "topic_119:corte de pelo",
+      "ru": "стрижку, стрижка, стрижки",
+      "target": "corte de pelo"
+    },
+    {
+      "id": "topic_119:detallado",
+      "ru": "детальный",
+      "target": "detallado"
+    },
+    {
+      "id": "topic_119:encima",
+      "ru": "сверху",
+      "target": "encima"
+    },
+    {
+      "id": "topic_119:estar de moda",
+      "ru": "быть в моде",
+      "target": "estar de moda"
+    },
+    {
+      "id": "topic_119:flequillo",
+      "ru": "челка",
+      "target": "flequillo"
+    },
+    {
+      "id": "topic_119:forma",
+      "ru": "форма",
+      "target": "forma"
+    },
+    {
+      "id": "topic_119:gastar",
+      "ru": "тратить",
+      "target": "gastar"
+    },
+    {
+      "id": "topic_119:liso",
+      "ru": "прямой",
+      "target": "liso"
+    },
+    {
+      "id": "topic_119:me tiño",
+      "ru": "я крашу себе волосы",
+      "target": "me tiño"
+    },
+    {
+      "id": "topic_119:peine",
+      "ru": "расчёска",
+      "target": "peine"
+    },
+    {
+      "id": "topic_119:peluquero",
+      "ru": "парикмахер",
+      "target": "peluquero"
+    },
+    {
+      "id": "topic_119:recortar",
+      "ru": "обрезать; сокращать",
+      "target": "recortar"
+    },
+    {
+      "id": "topic_119:reseña",
+      "ru": "краткая рецензия",
+      "target": "reseña"
+    },
+    {
+      "id": "topic_119:secador",
+      "ru": "фен",
+      "target": "secador"
+    },
+    {
+      "id": "topic_119:tardar",
+      "ru": "медлить",
+      "target": "tardar"
+    },
+    {
+      "id": "topic_119:teñirse",
+      "ru": "красить себе волосы",
+      "target": "teñirse"
+    },
+    {
+      "id": "topic_119:volumen",
+      "ru": "объём",
+      "target": "volumen"
+    },
+    {
+      "id": "topic_119:último",
+      "ru": "последний",
+      "target": "último"
+    }
+  ]
+}

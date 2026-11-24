@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_096",
+  "description": "Обсудите стоимость жилья",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_096:ahorro",
+      "ru": "сбережение",
+      "target": "ahorro"
+    },
+    {
+      "id": "topic_096:alquiler",
+      "ru": "аренда",
+      "target": "alquiler"
+    },
+    {
+      "id": "topic_096:ciento veinte",
+      "ru": "сто двадцать",
+      "target": "ciento veinte"
+    },
+    {
+      "id": "topic_096:condición",
+      "ru": "положение",
+      "target": "condición"
+    },
+    {
+      "id": "topic_096:confirmar",
+      "ru": "подтверждать",
+      "target": "confirmar"
+    },
+    {
+      "id": "topic_096:contrato",
+      "ru": "договор",
+      "target": "contrato"
+    },
+    {
+      "id": "topic_096:conveniente",
+      "ru": "нужный",
+      "target": "conveniente"
+    },
+    {
+      "id": "topic_096:cuadrado",
+      "ru": "квадрат",
+      "target": "cuadrado"
+    },
+    {
+      "id": "topic_096:cuanto antes",
+      "ru": "как можно скорее",
+      "target": "cuanto antes"
+    },
+    {
+      "id": "topic_096:depositar",
+      "ru": "вносить на хранение",
+      "target": "depositar"
+    },
+    {
+      "id": "topic_096:detalle",
+      "ru": "подробность",
+      "target": "detalle"
+    },
+    {
+      "id": "topic_096:en efectivo",
+      "ru": "наличными",
+      "target": "en efectivo"
+    },
+    {
+      "id": "topic_096:en las afueras",
+      "ru": "на окраине; в пригороде",
+      "target": "en las afueras"
+    },
+    {
+      "id": "topic_096:limitado",
+      "ru": "ограничено",
+      "target": "limitado"
+    },
+    {
+      "id": "topic_096:mediano",
+      "ru": "средний",
+      "target": "mediano"
+    },
+    {
+      "id": "topic_096:presupuesto",
+      "ru": "бюджет",
+      "target": "presupuesto"
+    },
+    {
+      "id": "topic_096:recorrer",
+      "ru": "проходить или проезжать по чему-либо",
+      "target": "recorrer"
+    },
+    {
+      "id": "topic_096:tamaño",
+      "ru": "размер",
+      "target": "tamaño"
+    },
+    {
+      "id": "topic_096:vivienda",
+      "ru": "жильё",
+      "target": "vivienda"
+    },
+    {
+      "id": "topic_096:volver a",
+      "ru": "снова",
+      "target": "volver a"
+    },
+    {
+      "id": "topic_096:ya mismo",
+      "ru": "прямо сейчас",
+      "target": "ya mismo"
+    }
+  ]
+}

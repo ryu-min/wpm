@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_252",
+  "description": "Обсудить покупку дома",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_252:asegurarse",
+      "ru": "заручиться",
+      "target": "asegurarse"
+    },
+    {
+      "id": "topic_252:cañería",
+      "ru": "труба",
+      "target": "cañería"
+    },
+    {
+      "id": "topic_252:cerradura",
+      "ru": "замок дверной",
+      "target": "cerradura"
+    },
+    {
+      "id": "topic_252:confianza",
+      "ru": "доверие",
+      "target": "confianza"
+    },
+    {
+      "id": "topic_252:cuidadoso",
+      "ru": "осторожный",
+      "target": "cuidadoso"
+    },
+    {
+      "id": "topic_252:gotear",
+      "ru": "капать",
+      "target": "gotear"
+    },
+    {
+      "id": "topic_252:grieta",
+      "ru": "трещина",
+      "target": "grieta"
+    },
+    {
+      "id": "topic_252:hace falta",
+      "ru": "Нужно",
+      "target": "hace falta"
+    },
+    {
+      "id": "topic_252:haya sido",
+      "ru": "было",
+      "target": "haya sido"
+    },
+    {
+      "id": "topic_252:interruptor",
+      "ru": "выключатель",
+      "target": "interruptor"
+    },
+    {
+      "id": "topic_252:inundado",
+      "ru": "затопленный",
+      "target": "inundado"
+    },
+    {
+      "id": "topic_252:inversión",
+      "ru": "инвестиция",
+      "target": "inversión"
+    },
+    {
+      "id": "topic_252:ladrillo",
+      "ru": "кирпич",
+      "target": "ladrillo"
+    },
+    {
+      "id": "topic_252:maleza",
+      "ru": "сорняки",
+      "target": "maleza"
+    },
+    {
+      "id": "topic_252:para colmo",
+      "ru": "в довершение всего",
+      "target": "para colmo"
+    },
+    {
+      "id": "topic_252:por dentro",
+      "ru": "изнутри",
+      "target": "por dentro"
+    },
+    {
+      "id": "topic_252:por fuera",
+      "ru": "снаружи",
+      "target": "por fuera"
+    },
+    {
+      "id": "topic_252:tapado",
+      "ru": "засоренный",
+      "target": "tapado"
+    },
+    {
+      "id": "topic_252:torcido",
+      "ru": "кривой; искривлённый",
+      "target": "torcido"
+    }
+  ]
+}

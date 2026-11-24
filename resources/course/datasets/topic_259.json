@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_259",
+  "description": "Обсуди учёбу за рубежом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_259:amigable",
+      "ru": "дружелюбный",
+      "target": "amigable"
+    },
+    {
+      "id": "topic_259:como mínimo",
+      "ru": "по крайней мере",
+      "target": "como mínimo"
+    },
+    {
+      "id": "topic_259:dar la mano",
+      "ru": "пожать руку",
+      "target": "dar la mano"
+    },
+    {
+      "id": "topic_259:desde ahora",
+      "ru": "отныне",
+      "target": "desde ahora"
+    },
+    {
+      "id": "topic_259:dicho esto",
+      "ru": "сказав это",
+      "target": "dicho esto"
+    },
+    {
+      "id": "topic_259:doctorado",
+      "ru": "докторская степень; докторантура",
+      "target": "doctorado"
+    },
+    {
+      "id": "topic_259:estudios",
+      "ru": "учёба",
+      "target": "estudios"
+    },
+    {
+      "id": "topic_259:familiarizado",
+      "ru": "знакомый",
+      "target": "familiarizado"
+    },
+    {
+      "id": "topic_259:fascinante",
+      "ru": "увлекательный",
+      "target": "fascinante"
+    },
+    {
+      "id": "topic_259:problemita",
+      "ru": "небольшая проблема",
+      "target": "problemita"
+    },
+    {
+      "id": "topic_259:qué te pareció",
+      "ru": "что ты об этом подумал; как тебе это показалось",
+      "target": "qué te pareció"
+    },
+    {
+      "id": "topic_259:relativamente",
+      "ru": "относительно",
+      "target": "relativamente"
+    },
+    {
+      "id": "topic_259:socializar",
+      "ru": "Общаться",
+      "target": "socializar"
+    },
+    {
+      "id": "topic_259:tomar en cuenta",
+      "ru": "учитывать",
+      "target": "tomar en cuenta"
+    },
+    {
+      "id": "topic_259:trasladar",
+      "ru": "перемещать",
+      "target": "trasladar"
+    },
+    {
+      "id": "topic_259:tratar",
+      "ru": "обращаться с кем-либо",
+      "target": "tratar"
+    },
+    {
+      "id": "topic_259:tratar de usted",
+      "ru": "обращаться на Вы",
+      "target": "tratar de usted"
+    },
+    {
+      "id": "topic_259:tutear",
+      "ru": "обращаться на «ты»",
+      "target": "tutear"
+    }
+  ]
+}

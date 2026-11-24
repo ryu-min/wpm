@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "topic_275",
+  "description": "Предскажи исход матча",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_275:clasificar",
+      "ru": "классифицировать",
+      "target": "clasificar"
+    },
+    {
+      "id": "topic_275:copa",
+      "ru": "бокал",
+      "target": "copa"
+    },
+    {
+      "id": "topic_275:defensa",
+      "ru": "защитник",
+      "target": "defensa"
+    },
+    {
+      "id": "topic_275:delantero",
+      "ru": "нападающий",
+      "target": "delantero"
+    },
+    {
+      "id": "topic_275:desgraciadamente",
+      "ru": "к сожалению",
+      "target": "desgraciadamente"
+    },
+    {
+      "id": "topic_275:eliminatoria",
+      "ru": "отборочный тур",
+      "target": "eliminatoria"
+    },
+    {
+      "id": "topic_275:fallar",
+      "ru": "давать сбой",
+      "target": "fallar"
+    },
+    {
+      "id": "topic_275:femenino",
+      "ru": "женскому, женская, женственная, женский, женское, женским, женственная (-ый, -ое), женского, женской",
+      "target": "femenino"
+    },
+    {
+      "id": "topic_275:hacerlo",
+      "ru": "это сделать",
+      "target": "hacerlo"
+    },
+    {
+      "id": "topic_275:hábil",
+      "ru": "умелый",
+      "target": "hábil"
+    },
+    {
+      "id": "topic_275:seguidos",
+      "ru": "подряд",
+      "target": "seguidos"
+    },
+    {
+      "id": "topic_275:selección",
+      "ru": "выбор",
+      "target": "selección"
+    }
+  ]
+}

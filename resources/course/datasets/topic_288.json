@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_288",
+  "description": "Расскажи о будущих целях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_288:ambición",
+      "ru": "амбиция",
+      "target": "ambición"
+    },
+    {
+      "id": "topic_288:apasionado",
+      "ru": "азартный",
+      "target": "apasionado"
+    },
+    {
+      "id": "topic_288:ascender",
+      "ru": "подниматься",
+      "target": "ascender"
+    },
+    {
+      "id": "topic_288:billón",
+      "ru": "триллион",
+      "target": "billón"
+    },
+    {
+      "id": "topic_288:bola de cristal",
+      "ru": "хрустальном шаре, хрустальный шар, хрустального шара",
+      "target": "bola de cristal"
+    },
+    {
+      "id": "topic_288:comprometerse",
+      "ru": "обручиться",
+      "target": "comprometerse"
+    },
+    {
+      "id": "topic_288:dar a elegir",
+      "ru": "дать выбрать",
+      "target": "dar a elegir"
+    },
+    {
+      "id": "topic_288:destacarse",
+      "ru": "выделяться",
+      "target": "destacarse"
+    },
+    {
+      "id": "topic_288:el tiempo dirá",
+      "ru": "время покажет, только время покажет, Время покажет",
+      "target": "el tiempo dirá"
+    },
+    {
+      "id": "topic_288:envejecer",
+      "ru": "стареть",
+      "target": "envejecer"
+    },
+    {
+      "id": "topic_288:fama",
+      "ru": "слава",
+      "target": "fama"
+    },
+    {
+      "id": "topic_288:formar",
+      "ru": "формировать",
+      "target": "formar"
+    },
+    {
+      "id": "topic_288:jubilación",
+      "ru": "выход на пенсию; пенсия",
+      "target": "jubilación"
+    },
+    {
+      "id": "topic_288:mellizos",
+      "ru": "двойняшки",
+      "target": "mellizos"
+    },
+    {
+      "id": "topic_288:productivo",
+      "ru": "продуктивный",
+      "target": "productivo"
+    },
+    {
+      "id": "topic_288:re",
+      "ru": "повторял",
+      "target": "re"
+    },
+    {
+      "id": "topic_288:sin descanso",
+      "ru": "без отдыха",
+      "target": "sin descanso"
+    },
+    {
+      "id": "topic_288:uno tras otro",
+      "ru": "одно за другим, одну за другой, одна за другой",
+      "target": "uno tras otro"
+    },
+    {
+      "id": "topic_288:vivir de",
+      "ru": "жить за счёт",
+      "target": "vivir de"
+    }
+  ]
+}

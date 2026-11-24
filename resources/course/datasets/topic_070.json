@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_070",
+  "description": "Решайте проблемы на почте",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_070:acabar de",
+      "ru": "только что",
+      "target": "acabar de"
+    },
+    {
+      "id": "topic_070:afortunadamente",
+      "ru": "к счастью",
+      "target": "afortunadamente"
+    },
+    {
+      "id": "topic_070:ahora sí",
+      "ru": "теперь да",
+      "target": "ahora sí"
+    },
+    {
+      "id": "topic_070:almacén",
+      "ru": "склад",
+      "target": "almacén"
+    },
+    {
+      "id": "topic_070:bolígrafo",
+      "ru": "ручка",
+      "target": "bolígrafo"
+    },
+    {
+      "id": "topic_070:buenas noticias",
+      "ru": "хорошие новости",
+      "target": "buenas noticias"
+    },
+    {
+      "id": "topic_070:camión",
+      "ru": "грузовик",
+      "target": "camión"
+    },
+    {
+      "id": "topic_070:firma",
+      "ru": "подпись",
+      "target": "firma"
+    },
+    {
+      "id": "topic_070:gerente",
+      "ru": "менеджер",
+      "target": "gerente"
+    },
+    {
+      "id": "topic_070:hacer fila",
+      "ru": "стоять в очереди",
+      "target": "hacer fila"
+    },
+    {
+      "id": "topic_070:identificación",
+      "ru": "удостоверение личности",
+      "target": "identificación"
+    },
+    {
+      "id": "topic_070:incorrecto",
+      "ru": "неверный",
+      "target": "incorrecto"
+    },
+    {
+      "id": "topic_070:mandar",
+      "ru": "посылать",
+      "target": "mandar"
+    },
+    {
+      "id": "topic_070:mostrar",
+      "ru": "показывать",
+      "target": "mostrar"
+    },
+    {
+      "id": "topic_070:nota",
+      "ru": "оценка",
+      "target": "nota"
+    },
+    {
+      "id": "topic_070:pesado",
+      "ru": "тяжёлый",
+      "target": "pesado"
+    },
+    {
+      "id": "topic_070:recoger",
+      "ru": "собирать",
+      "target": "recoger"
+    },
+    {
+      "id": "topic_070:retrasado",
+      "ru": "задерживаться",
+      "target": "retrasado"
+    },
+    {
+      "id": "topic_070:sistema",
+      "ru": "система",
+      "target": "sistema"
+    },
+    {
+      "id": "topic_070:verificar",
+      "ru": "проверять",
+      "target": "verificar"
+    }
+  ]
+}

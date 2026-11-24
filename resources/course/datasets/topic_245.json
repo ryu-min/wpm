@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_245",
+  "description": "Расскажи о сожалениях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_245:aclarar",
+      "ru": "прояснять",
+      "target": "aclarar"
+    },
+    {
+      "id": "topic_245:alma gemela",
+      "ru": "родственной душой, родственная душа, родственную душу",
+      "target": "alma gemela"
+    },
+    {
+      "id": "topic_245:armar una escena",
+      "ru": "устроить сцену",
+      "target": "armar una escena"
+    },
+    {
+      "id": "topic_245:celo",
+      "ru": "ревность",
+      "target": "celo"
+    },
+    {
+      "id": "topic_245:cometer",
+      "ru": "совершать (ошибку или преступление)",
+      "target": "cometer"
+    },
+    {
+      "id": "topic_245:convivir",
+      "ru": "жить вместе",
+      "target": "convivir"
+    },
+    {
+      "id": "topic_245:desconfiado",
+      "ru": "недоверчивый",
+      "target": "desconfiado"
+    },
+    {
+      "id": "topic_245:fiel",
+      "ru": "верный",
+      "target": "fiel"
+    },
+    {
+      "id": "topic_245:lamentar",
+      "ru": "сожалеть",
+      "target": "lamentar"
+    },
+    {
+      "id": "topic_245:malentendido",
+      "ru": "недоразумение",
+      "target": "malentendido"
+    },
+    {
+      "id": "topic_245:motivo",
+      "ru": "причина",
+      "target": "motivo"
+    },
+    {
+      "id": "topic_245:patético",
+      "ru": "вызывающий сильное сочувствие",
+      "target": "patético"
+    },
+    {
+      "id": "topic_245:reconciliarse",
+      "ru": "примириться",
+      "target": "reconciliarse"
+    },
+    {
+      "id": "topic_245:reencontrarse",
+      "ru": "воссоединиться",
+      "target": "reencontrarse"
+    },
+    {
+      "id": "topic_245:remordimiento",
+      "ru": "угрызение совести",
+      "target": "remordimiento"
+    },
+    {
+      "id": "topic_245:rencor",
+      "ru": "злоба",
+      "target": "rencor"
+    },
+    {
+      "id": "topic_245:tarde o temprano",
+      "ru": "рано или поздно",
+      "target": "tarde o temprano"
+    }
+  ]
+}

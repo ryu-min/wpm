@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s01_cafe",
+  "description": "Заказывайте в кафе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:agua",
+      "ru": "вода",
+      "target": "agua"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:café",
+      "ru": "кофе",
+      "target": "café"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:chao",
+      "ru": "пока",
+      "target": "chao"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:con azúcar",
+      "ru": "с сахаром",
+      "target": "con azúcar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:con hielo",
+      "ru": "со льдом",
+      "target": "con hielo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:con leche",
+      "ru": "с молоком",
+      "target": "con leche"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:gracias",
+      "ru": "спасибо",
+      "target": "gracias"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:helado",
+      "ru": "мороженое",
+      "target": "helado"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:hola",
+      "ru": "привет",
+      "target": "hola"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:o",
+      "ru": "или",
+      "target": "o"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:pan",
+      "ru": "хлеб",
+      "target": "pan"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:perfecto",
+      "ru": "отлично",
+      "target": "perfecto"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:por favor",
+      "ru": "пожалуйста",
+      "target": "por favor"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:querer",
+      "ru": "хотеть",
+      "target": "querer"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:sándwich",
+      "ru": "сэндвич",
+      "target": "sándwich"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:taco",
+      "ru": "тако",
+      "target": "taco"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:té",
+      "ru": "чай",
+      "target": "té"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:uno",
+      "ru": "один",
+      "target": "uno"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:vaso de",
+      "ru": "стакан чего-либо",
+      "target": "vaso de"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s01_cafe:y",
+      "ru": "и",
+      "target": "y"
+    }
+  ]
+}

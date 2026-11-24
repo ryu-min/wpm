@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_125",
+  "description": "Обсудите здоровое питание",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_125:albahaca",
+      "ru": "базилик",
+      "target": "albahaca"
+    },
+    {
+      "id": "topic_125:albóndiga",
+      "ru": "фрикаделька",
+      "target": "albóndiga"
+    },
+    {
+      "id": "topic_125:aliño",
+      "ru": "заправка для салата",
+      "target": "aliño"
+    },
+    {
+      "id": "topic_125:berenjena",
+      "ru": "баклажан",
+      "target": "berenjena"
+    },
+    {
+      "id": "topic_125:caloría",
+      "ru": "калория",
+      "target": "caloría"
+    },
+    {
+      "id": "topic_125:cordero",
+      "ru": "ягнёнок",
+      "target": "cordero"
+    },
+    {
+      "id": "topic_125:de manera",
+      "ru": "образом",
+      "target": "de manera"
+    },
+    {
+      "id": "topic_125:grasoso",
+      "ru": "жирный",
+      "target": "grasoso"
+    },
+    {
+      "id": "topic_125:hervido",
+      "ru": "варёный",
+      "target": "hervido"
+    },
+    {
+      "id": "topic_125:lleno",
+      "ru": "полный",
+      "target": "lleno"
+    },
+    {
+      "id": "topic_125:menú",
+      "ru": "меню",
+      "target": "menú"
+    },
+    {
+      "id": "topic_125:merendar",
+      "ru": "полдничать",
+      "target": "merendar"
+    },
+    {
+      "id": "topic_125:merluza",
+      "ru": "хек",
+      "target": "merluza"
+    },
+    {
+      "id": "topic_125:perrito caliente",
+      "ru": "хот-дог",
+      "target": "perrito caliente"
+    },
+    {
+      "id": "topic_125:res",
+      "ru": "крупный рогатый скот; говядина",
+      "target": "res"
+    },
+    {
+      "id": "topic_125:sano",
+      "ru": "здоровый",
+      "target": "sano"
+    },
+    {
+      "id": "topic_125:sugerir",
+      "ru": "предложить",
+      "target": "sugerir"
+    },
+    {
+      "id": "topic_125:vegetal",
+      "ru": "овощной",
+      "target": "vegetal"
+    },
+    {
+      "id": "topic_125:zumo",
+      "ru": "сок",
+      "target": "zumo"
+    }
+  ]
+}

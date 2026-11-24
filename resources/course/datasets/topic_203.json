@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_203",
+  "description": "Расскажи о бандитах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_203:algunos de",
+      "ru": "Некоторые из, некоторых из, некоторые из",
+      "target": "algunos de"
+    },
+    {
+      "id": "topic_203:asesinato",
+      "ru": "убийство",
+      "target": "asesinato"
+    },
+    {
+      "id": "topic_203:atacar",
+      "ru": "атаковать",
+      "target": "atacar"
+    },
+    {
+      "id": "topic_203:atentado",
+      "ru": "теракт",
+      "target": "atentado"
+    },
+    {
+      "id": "topic_203:bomba",
+      "ru": "бомба; насос",
+      "target": "bomba"
+    },
+    {
+      "id": "topic_203:delincuente",
+      "ru": "преступник",
+      "target": "delincuente"
+    },
+    {
+      "id": "topic_203:delito",
+      "ru": "преступление",
+      "target": "delito"
+    },
+    {
+      "id": "topic_203:denunciar",
+      "ru": "подавать жалобу",
+      "target": "denunciar"
+    },
+    {
+      "id": "topic_203:la mayoría de",
+      "ru": "большинство",
+      "target": "la mayoría de"
+    },
+    {
+      "id": "topic_203:la mitad de",
+      "ru": "половина",
+      "target": "la mitad de"
+    },
+    {
+      "id": "topic_203:muchos de",
+      "ru": "Многие из, многих из, многие из",
+      "target": "muchos de"
+    },
+    {
+      "id": "topic_203:ninguno de",
+      "ru": "Никто из",
+      "target": "ninguno de"
+    },
+    {
+      "id": "topic_203:prensa",
+      "ru": "пресса",
+      "target": "prensa"
+    },
+    {
+      "id": "topic_203:terrorista",
+      "ru": "террорист",
+      "target": "terrorista"
+    },
+    {
+      "id": "topic_203:un grupo de",
+      "ru": "группа кого-либо или чего-либо",
+      "target": "un grupo de"
+    },
+    {
+      "id": "topic_203:un tercio de",
+      "ru": "треть чего-либо",
+      "target": "un tercio de"
+    },
+    {
+      "id": "topic_203:una parte de",
+      "ru": "часть",
+      "target": "una parte de"
+    }
+  ]
+}

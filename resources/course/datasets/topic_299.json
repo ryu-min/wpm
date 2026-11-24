@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_299",
+  "description": "Обсудить первое свидание",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_299:amorío",
+      "ru": "интрижка",
+      "target": "amorío"
+    },
+    {
+      "id": "topic_299:bostezar",
+      "ru": "зевать",
+      "target": "bostezar"
+    },
+    {
+      "id": "topic_299:defecto",
+      "ru": "недостаток",
+      "target": "defecto"
+    },
+    {
+      "id": "topic_299:enamoradizo",
+      "ru": "влюбчивый",
+      "target": "enamoradizo"
+    },
+    {
+      "id": "topic_299:herir",
+      "ru": "ранить",
+      "target": "herir"
+    },
+    {
+      "id": "topic_299:hilo dental",
+      "ru": "зубная нить",
+      "target": "hilo dental"
+    },
+    {
+      "id": "topic_299:justificar",
+      "ru": "оправдать",
+      "target": "justificar"
+    },
+    {
+      "id": "topic_299:manipular",
+      "ru": "манипулировать",
+      "target": "manipular"
+    },
+    {
+      "id": "topic_299:mentira piadosa",
+      "ru": "ложь во благо",
+      "target": "mentira piadosa"
+    },
+    {
+      "id": "topic_299:no será porque",
+      "ru": "разве это не потому, что",
+      "target": "no será porque"
+    },
+    {
+      "id": "topic_299:por culpa de",
+      "ru": "из-за",
+      "target": "por culpa de"
+    },
+    {
+      "id": "topic_299:por lo que",
+      "ru": "Судя по тому, что",
+      "target": "por lo que"
+    },
+    {
+      "id": "topic_299:reaccionar",
+      "ru": "отнестись",
+      "target": "reaccionar"
+    },
+    {
+      "id": "topic_299:sonámbulo",
+      "ru": "лунатик",
+      "target": "sonámbulo"
+    },
+    {
+      "id": "topic_299:sudar",
+      "ru": "потеть",
+      "target": "sudar"
+    },
+    {
+      "id": "topic_299:super",
+      "ru": "очень",
+      "target": "super"
+    }
+  ]
+}

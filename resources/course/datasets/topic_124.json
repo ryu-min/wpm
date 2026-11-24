@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "topic_124",
+  "description": "Обсуждайте искусство",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_124:a través de",
+      "ru": "сквозь, через",
+      "target": "a través de"
+    },
+    {
+      "id": "topic_124:abuelita",
+      "ru": "бабулечка",
+      "target": "abuelita"
+    },
+    {
+      "id": "topic_124:analizar",
+      "ru": "анализировать",
+      "target": "analizar"
+    },
+    {
+      "id": "topic_124:artístico",
+      "ru": "художественный",
+      "target": "artístico"
+    },
+    {
+      "id": "topic_124:cafecito",
+      "ru": "кофеек",
+      "target": "cafecito"
+    },
+    {
+      "id": "topic_124:cambiar",
+      "ru": "менять",
+      "target": "cambiar"
+    },
+    {
+      "id": "topic_124:contexto",
+      "ru": "контекст",
+      "target": "contexto"
+    },
+    {
+      "id": "topic_124:fascinar",
+      "ru": "очаровывать",
+      "target": "fascinar"
+    },
+    {
+      "id": "topic_124:frecuente",
+      "ru": "частый",
+      "target": "frecuente"
+    },
+    {
+      "id": "topic_124:grandecito",
+      "ru": "довольно большой",
+      "target": "grandecito"
+    },
+    {
+      "id": "topic_124:influencia",
+      "ru": "влияние",
+      "target": "influencia"
+    },
+    {
+      "id": "topic_124:mesita",
+      "ru": "столик",
+      "target": "mesita"
+    },
+    {
+      "id": "topic_124:origen",
+      "ru": "происхождение",
+      "target": "origen"
+    },
+    {
+      "id": "topic_124:palacio",
+      "ru": "дворец",
+      "target": "palacio"
+    },
+    {
+      "id": "topic_124:perfectamente",
+      "ru": "полностью",
+      "target": "perfectamente"
+    },
+    {
+      "id": "topic_124:recientemente",
+      "ru": "недавно",
+      "target": "recientemente"
+    },
+    {
+      "id": "topic_124:reina",
+      "ru": "королева",
+      "target": "reina"
+    },
+    {
+      "id": "topic_124:rey",
+      "ru": "король",
+      "target": "rey"
+    },
+    {
+      "id": "topic_124:rápidamente",
+      "ru": "быстро",
+      "target": "rápidamente"
+    },
+    {
+      "id": "topic_124:simplemente",
+      "ru": "просто",
+      "target": "simplemente"
+    },
+    {
+      "id": "topic_124:suponer",
+      "ru": "предполагать",
+      "target": "suponer"
+    },
+    {
+      "id": "topic_124:técnica",
+      "ru": "техника (метод), технику, приёмов, техникам, приеме, техникой, технике, приёму, техника, специалистка",
+      "target": "técnica"
+    },
+    {
+      "id": "topic_124:viejito",
+      "ru": "старичок",
+      "target": "viejito"
+    }
+  ]
+}

@@ -84,3 +84,21 @@ array-only JSON resources and their registry have been removed. Migration keeps
 the original sequences and text, including 4977 words in `ru_5000`; RU→EN
 entry ids preserve the old zero-based `<set id>:<index>` identity. Existing
 local SQLite sets without a descriptor still use their stored type/languages.
+
+## Spanish course data
+
+`resources/course/manifest.json` orders the modules and topics for `wpm-es`.
+Each nonempty topic references a Spanish phrase descriptor in
+`resources/course/datasets/`. The build validates references and ranges and
+embeds the course. An empty topic keeps its section number in the menu.
+The original 19 built-ins seed new `wpm` databases. Existing local Spanish sets,
+including customized copies of earlier course datasets, retain their ids and
+remain usable in `wpm`.
+
+[Course sources and reproduction instructions](../resources/course/README.md) describe the offline rebuild, snapshot versions, and completeness checks.
+
+
+Module `title` is the Spanish introductory phrase following that module's
+heading in the preserved `structure.html` snapshot. The generator extracts all
+eight phrases and the validator checks each phrase against its source module.
+These labels accompany stable module ids and leave the vocabulary unchanged.

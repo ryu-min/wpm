@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_035",
+  "description": "Обсуждайте жизнь других",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_035:actor",
+      "ru": "актёр",
+      "target": "actor"
+    },
+    {
+      "id": "topic_035:actriz",
+      "ru": "актриса",
+      "target": "actriz"
+    },
+    {
+      "id": "topic_035:coche",
+      "ru": "автомобиль",
+      "target": "coche"
+    },
+    {
+      "id": "topic_035:ducharse",
+      "ru": "принимать душ",
+      "target": "ducharse"
+    },
+    {
+      "id": "topic_035:hasta",
+      "ru": "до",
+      "target": "hasta"
+    },
+    {
+      "id": "topic_035:impaciente",
+      "ru": "нетерпеливый",
+      "target": "impaciente"
+    },
+    {
+      "id": "topic_035:limpio",
+      "ru": "чистый",
+      "target": "limpio"
+    },
+    {
+      "id": "topic_035:maleducado",
+      "ru": "невоспитанный",
+      "target": "maleducado"
+    },
+    {
+      "id": "topic_035:mexicano",
+      "ru": "мексиканец",
+      "target": "mexicano"
+    },
+    {
+      "id": "topic_035:muchas veces",
+      "ru": "много раз; часто",
+      "target": "muchas veces"
+    },
+    {
+      "id": "topic_035:no sé",
+      "ru": "я не знаю",
+      "target": "no sé"
+    },
+    {
+      "id": "topic_035:ocho",
+      "ru": "восемь",
+      "target": "ocho"
+    },
+    {
+      "id": "topic_035:peinarse",
+      "ru": "причесаться",
+      "target": "peinarse"
+    },
+    {
+      "id": "topic_035:por supuesto",
+      "ru": "конечно",
+      "target": "por supuesto"
+    },
+    {
+      "id": "topic_035:quedarse",
+      "ru": "остаться",
+      "target": "quedarse"
+    },
+    {
+      "id": "topic_035:regresar",
+      "ru": "возвращаться",
+      "target": "regresar"
+    },
+    {
+      "id": "topic_035:tampoco",
+      "ru": "тоже не",
+      "target": "tampoco"
+    }
+  ]
+}

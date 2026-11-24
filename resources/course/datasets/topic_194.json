@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_194",
+  "description": "Задавай вопросы о работе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_194:a dónde",
+      "ru": "куда",
+      "target": "a dónde"
+    },
+    {
+      "id": "topic_194:a quién",
+      "ru": "кого, кому",
+      "target": "a quién"
+    },
+    {
+      "id": "topic_194:a qué distancia",
+      "ru": "на каком расстоянии",
+      "target": "a qué distancia"
+    },
+    {
+      "id": "topic_194:capacitación",
+      "ru": "обучение; повышение квалификации",
+      "target": "capacitación"
+    },
+    {
+      "id": "topic_194:carta de presentación",
+      "ru": "сопроводительное письмо",
+      "target": "carta de presentación"
+    },
+    {
+      "id": "topic_194:cualidad",
+      "ru": "качество",
+      "target": "cualidad"
+    },
+    {
+      "id": "topic_194:desde cuándo",
+      "ru": "с каких пор",
+      "target": "desde cuándo"
+    },
+    {
+      "id": "topic_194:escáner",
+      "ru": "сканер",
+      "target": "escáner"
+    },
+    {
+      "id": "topic_194:hasta dónde",
+      "ru": "до какого места",
+      "target": "hasta dónde"
+    },
+    {
+      "id": "topic_194:mínimo",
+      "ru": "минимальный",
+      "target": "mínimo"
+    },
+    {
+      "id": "topic_194:por dónde",
+      "ru": "как пройти",
+      "target": "por dónde"
+    },
+    {
+      "id": "topic_194:qué tan",
+      "ru": "насколько",
+      "target": "qué tan"
+    },
+    {
+      "id": "topic_194:rechazar",
+      "ru": "отвергать",
+      "target": "rechazar"
+    },
+    {
+      "id": "topic_194:recursos humanos",
+      "ru": "отдел кадров",
+      "target": "recursos humanos"
+    }
+  ]
+}

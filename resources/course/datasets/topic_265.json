@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_265",
+  "description": "Спросите о наводнении",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_265:aislado",
+      "ru": "изолирован",
+      "target": "aislado"
+    },
+    {
+      "id": "topic_265:cada tanto",
+      "ru": "время от времени",
+      "target": "cada tanto"
+    },
+    {
+      "id": "topic_265:de la noche a la mañana",
+      "ru": "в одночасье",
+      "target": "de la noche a la mañana"
+    },
+    {
+      "id": "topic_265:derrumbarse",
+      "ru": "обрушиться",
+      "target": "derrumbarse"
+    },
+    {
+      "id": "topic_265:enfrentar",
+      "ru": "противопоставлять",
+      "target": "enfrentar"
+    },
+    {
+      "id": "topic_265:herido",
+      "ru": "раненый",
+      "target": "herido"
+    },
+    {
+      "id": "topic_265:incomodar",
+      "ru": "беспокоить",
+      "target": "incomodar"
+    },
+    {
+      "id": "topic_265:indiscreto",
+      "ru": "нескромный",
+      "target": "indiscreto"
+    },
+    {
+      "id": "topic_265:irreparable",
+      "ru": "невосполнимый",
+      "target": "irreparable"
+    },
+    {
+      "id": "topic_265:puedo saber",
+      "ru": "Могу я узнать, могу я узнать",
+      "target": "puedo saber"
+    },
+    {
+      "id": "topic_265:reacción",
+      "ru": "реакция",
+      "target": "reacción"
+    },
+    {
+      "id": "topic_265:reconstruir",
+      "ru": "реконструировать",
+      "target": "reconstruir"
+    },
+    {
+      "id": "topic_265:repartir",
+      "ru": "раздавать",
+      "target": "repartir"
+    },
+    {
+      "id": "topic_265:sobrevivir",
+      "ru": "пережить",
+      "target": "sobrevivir"
+    },
+    {
+      "id": "topic_265:temblor",
+      "ru": "землетрясение",
+      "target": "temblor"
+    }
+  ]
+}

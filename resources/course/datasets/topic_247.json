@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_247",
+  "description": "Расскажи о детстве",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_247:abuelito",
+      "ru": "дедушка",
+      "target": "abuelito"
+    },
+    {
+      "id": "topic_247:albergue",
+      "ru": "хостел",
+      "target": "albergue"
+    },
+    {
+      "id": "topic_247:anochecer",
+      "ru": "смеркаться",
+      "target": "anochecer"
+    },
+    {
+      "id": "topic_247:consentir",
+      "ru": "баловать",
+      "target": "consentir"
+    },
+    {
+      "id": "topic_247:dicho sea de paso",
+      "ru": "кстати",
+      "target": "dicho sea de paso"
+    },
+    {
+      "id": "topic_247:enojadísimo",
+      "ru": "очень сердитый",
+      "target": "enojadísimo"
+    },
+    {
+      "id": "topic_247:escondidas",
+      "ru": "прятки",
+      "target": "escondidas"
+    },
+    {
+      "id": "topic_247:finca",
+      "ru": "ферма",
+      "target": "finca"
+    },
+    {
+      "id": "topic_247:fogata",
+      "ru": "костер",
+      "target": "fogata"
+    },
+    {
+      "id": "topic_247:lo máximo",
+      "ru": "это максимум",
+      "target": "lo máximo"
+    },
+    {
+      "id": "topic_247:lugarcito",
+      "ru": "местечко",
+      "target": "lugarcito"
+    },
+    {
+      "id": "topic_247:madrugar",
+      "ru": "вставать",
+      "target": "madrugar"
+    },
+    {
+      "id": "topic_247:niñez",
+      "ru": "детство",
+      "target": "niñez"
+    },
+    {
+      "id": "topic_247:pasar el rato",
+      "ru": "проводить время",
+      "target": "pasar el rato"
+    },
+    {
+      "id": "topic_247:qué bueno que",
+      "ru": "как хорошо, что, Как хорошо, что",
+      "target": "qué bueno que"
+    },
+    {
+      "id": "topic_247:tristeza",
+      "ru": "грусть",
+      "target": "tristeza"
+    },
+    {
+      "id": "topic_247:unidos",
+      "ru": "соединённый",
+      "target": "unidos"
+    },
+    {
+      "id": "topic_247:verse con",
+      "ru": "видеться",
+      "target": "verse con"
+    }
+  ]
+}

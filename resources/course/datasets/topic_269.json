@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_269",
+  "description": "Опиши идеи дизайна",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_269:a simple vista",
+      "ru": "на первый взгляд",
+      "target": "a simple vista"
+    },
+    {
+      "id": "topic_269:arcoíris",
+      "ru": "радуга",
+      "target": "arcoíris"
+    },
+    {
+      "id": "topic_269:de calidad",
+      "ru": "хорошего качества",
+      "target": "de calidad"
+    },
+    {
+      "id": "topic_269:de por sí",
+      "ru": "само по себе",
+      "target": "de por sí"
+    },
+    {
+      "id": "topic_269:demoler",
+      "ru": "снести",
+      "target": "demoler"
+    },
+    {
+      "id": "topic_269:doble",
+      "ru": "двойной",
+      "target": "doble"
+    },
+    {
+      "id": "topic_269:en forma de",
+      "ru": "в форме",
+      "target": "en forma de"
+    },
+    {
+      "id": "topic_269:hierro",
+      "ru": "железо",
+      "target": "hierro"
+    },
+    {
+      "id": "topic_269:hoy por hoy",
+      "ru": "на данный момент",
+      "target": "hoy por hoy"
+    },
+    {
+      "id": "topic_269:indicado",
+      "ru": "указанный; подходящий",
+      "target": "indicado"
+    },
+    {
+      "id": "topic_269:inmenso",
+      "ru": "огромный",
+      "target": "inmenso"
+    },
+    {
+      "id": "topic_269:interior",
+      "ru": "внутренний; интерьер",
+      "target": "interior"
+    },
+    {
+      "id": "topic_269:jaula",
+      "ru": "клетка",
+      "target": "jaula"
+    },
+    {
+      "id": "topic_269:mármol",
+      "ru": "мрамор",
+      "target": "mármol"
+    },
+    {
+      "id": "topic_269:no le parece",
+      "ru": "разве вам не кажется",
+      "target": "no le parece"
+    },
+    {
+      "id": "topic_269:ovni",
+      "ru": "НЛО",
+      "target": "ovni"
+    },
+    {
+      "id": "topic_269:plano",
+      "ru": "план",
+      "target": "plano"
+    },
+    {
+      "id": "topic_269:poco común",
+      "ru": "необычный",
+      "target": "poco común"
+    },
+    {
+      "id": "topic_269:ser difícil de",
+      "ru": "трудным, трудно",
+      "target": "ser difícil de"
+    },
+    {
+      "id": "topic_269:ya nadie",
+      "ru": "уже никто",
+      "target": "ya nadie"
+    }
+  ]
+}

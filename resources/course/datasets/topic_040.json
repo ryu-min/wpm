@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_040",
+  "description": "Расскажите, как вы добираетесь",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_040:avión",
+      "ru": "самолёт",
+      "target": "avión"
+    },
+    {
+      "id": "topic_040:barco",
+      "ru": "корабль",
+      "target": "barco"
+    },
+    {
+      "id": "topic_040:bicicleta",
+      "ru": "велосипед",
+      "target": "bicicleta"
+    },
+    {
+      "id": "topic_040:boleto",
+      "ru": "билет",
+      "target": "boleto"
+    },
+    {
+      "id": "topic_040:cuando",
+      "ru": "когда",
+      "target": "cuando"
+    },
+    {
+      "id": "topic_040:día",
+      "ru": "день",
+      "target": "día"
+    },
+    {
+      "id": "topic_040:especialmente",
+      "ru": "особенно",
+      "target": "especialmente"
+    },
+    {
+      "id": "topic_040:estación",
+      "ru": "станция",
+      "target": "estación"
+    },
+    {
+      "id": "topic_040:extraño",
+      "ru": "странный",
+      "target": "extraño"
+    },
+    {
+      "id": "topic_040:horrible",
+      "ru": "ужасный",
+      "target": "horrible"
+    },
+    {
+      "id": "topic_040:jueves",
+      "ru": "четверг",
+      "target": "jueves"
+    },
+    {
+      "id": "topic_040:luego",
+      "ru": "потом",
+      "target": "luego"
+    },
+    {
+      "id": "topic_040:martes",
+      "ru": "вторник",
+      "target": "martes"
+    },
+    {
+      "id": "topic_040:mismo",
+      "ru": "тот же",
+      "target": "mismo"
+    },
+    {
+      "id": "topic_040:miércoles",
+      "ru": "среда",
+      "target": "miércoles"
+    },
+    {
+      "id": "topic_040:moto",
+      "ru": "мотоцикл",
+      "target": "moto"
+    },
+    {
+      "id": "topic_040:nueve",
+      "ru": "девять",
+      "target": "nueve"
+    },
+    {
+      "id": "topic_040:peso",
+      "ru": "вес",
+      "target": "peso"
+    },
+    {
+      "id": "topic_040:roto",
+      "ru": "сломан",
+      "target": "roto"
+    },
+    {
+      "id": "topic_040:trabajo",
+      "ru": "работа",
+      "target": "trabajo"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_282",
+  "description": "Обсуди конфузы на свадьбе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_282:antes de tiempo",
+      "ru": "преждевременно",
+      "target": "antes de tiempo"
+    },
+    {
+      "id": "topic_282:bautizo",
+      "ru": "крещение",
+      "target": "bautizo"
+    },
+    {
+      "id": "topic_282:camisón",
+      "ru": "ночная рубашка",
+      "target": "camisón"
+    },
+    {
+      "id": "topic_282:centro de mesa",
+      "ru": "настольная декоративная композиция",
+      "target": "centro de mesa"
+    },
+    {
+      "id": "topic_282:compromiso",
+      "ru": "помолвка",
+      "target": "compromiso"
+    },
+    {
+      "id": "topic_282:esmoquin",
+      "ru": "смокинг",
+      "target": "esmoquin"
+    },
+    {
+      "id": "topic_282:falta que",
+      "ru": "не хватает, чтобы",
+      "target": "falta que"
+    },
+    {
+      "id": "topic_282:funeral",
+      "ru": "похороны",
+      "target": "funeral"
+    },
+    {
+      "id": "topic_282:hacer de cuenta",
+      "ru": "сделать вид",
+      "target": "hacer de cuenta"
+    },
+    {
+      "id": "topic_282:maquillador",
+      "ru": "визажист",
+      "target": "maquillador"
+    },
+    {
+      "id": "topic_282:ni mucho menos",
+      "ru": "вовсе нет",
+      "target": "ni mucho menos"
+    },
+    {
+      "id": "topic_282:organizador",
+      "ru": "Организатор",
+      "target": "organizador"
+    },
+    {
+      "id": "topic_282:padrino",
+      "ru": "крёстный отец",
+      "target": "padrino"
+    },
+    {
+      "id": "topic_282:rabino",
+      "ru": "раввин",
+      "target": "rabino"
+    },
+    {
+      "id": "topic_282:respirar hondo",
+      "ru": "глубоко дышать",
+      "target": "respirar hondo"
+    },
+    {
+      "id": "topic_282:sacerdote",
+      "ru": "священник",
+      "target": "sacerdote"
+    },
+    {
+      "id": "topic_282:se supone",
+      "ru": "Предполагается, предполагается",
+      "target": "se supone"
+    },
+    {
+      "id": "topic_282:tenso",
+      "ru": "напряжённый",
+      "target": "tenso"
+    }
+  ]
+}

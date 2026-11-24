@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_103",
+  "description": "Поделитесь прошлым опытом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_103:al horno",
+      "ru": "запечённый",
+      "target": "al horno"
+    },
+    {
+      "id": "topic_103:así que",
+      "ru": "поэтому",
+      "target": "así que"
+    },
+    {
+      "id": "topic_103:atún",
+      "ru": "тунец",
+      "target": "atún"
+    },
+    {
+      "id": "topic_103:bien cocido",
+      "ru": "хорошо приготовленный; полностью проваренный",
+      "target": "bien cocido"
+    },
+    {
+      "id": "topic_103:bol",
+      "ru": "миска",
+      "target": "bol"
+    },
+    {
+      "id": "topic_103:brócoli",
+      "ru": "брокколи",
+      "target": "brócoli"
+    },
+    {
+      "id": "topic_103:cortar",
+      "ru": "резать",
+      "target": "cortar"
+    },
+    {
+      "id": "topic_103:crujiente",
+      "ru": "хрустящий",
+      "target": "crujiente"
+    },
+    {
+      "id": "topic_103:esconder",
+      "ru": "прятать",
+      "target": "esconder"
+    },
+    {
+      "id": "topic_103:guiso",
+      "ru": "тушёное блюдо",
+      "target": "guiso"
+    },
+    {
+      "id": "topic_103:hongo",
+      "ru": "грибок",
+      "target": "hongo"
+    },
+    {
+      "id": "topic_103:jamón",
+      "ru": "ветчина",
+      "target": "jamón"
+    },
+    {
+      "id": "topic_103:justo",
+      "ru": "справедливый",
+      "target": "justo"
+    },
+    {
+      "id": "topic_103:malcriado",
+      "ru": "избалованный",
+      "target": "malcriado"
+    },
+    {
+      "id": "topic_103:maní",
+      "ru": "арахис",
+      "target": "maní"
+    },
+    {
+      "id": "topic_103:mezclar",
+      "ru": "смешивать",
+      "target": "mezclar"
+    },
+    {
+      "id": "topic_103:recordar",
+      "ru": "помнить",
+      "target": "recordar"
+    },
+    {
+      "id": "topic_103:recuerdo",
+      "ru": "воспоминание",
+      "target": "recuerdo"
+    },
+    {
+      "id": "topic_103:tostada",
+      "ru": "тост",
+      "target": "tostada"
+    },
+    {
+      "id": "topic_103:trozo",
+      "ru": "кусочек",
+      "target": "trozo"
+    },
+    {
+      "id": "topic_103:una vez",
+      "ru": "один раз",
+      "target": "una vez"
+    }
+  ]
+}

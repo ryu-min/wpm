@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_041",
+  "description": "Обсуждайте дни рождения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_041:abril",
+      "ru": "апрель",
+      "target": "abril"
+    },
+    {
+      "id": "topic_041:año",
+      "ru": "год",
+      "target": "año"
+    },
+    {
+      "id": "topic_041:catorce",
+      "ru": "четырнадцать",
+      "target": "catorce"
+    },
+    {
+      "id": "topic_041:celebrar",
+      "ru": "праздновать",
+      "target": "celebrar"
+    },
+    {
+      "id": "topic_041:cumpleaños",
+      "ru": "день рождения",
+      "target": "cumpleaños"
+    },
+    {
+      "id": "topic_041:cuántos años",
+      "ru": "сколько лет",
+      "target": "cuántos años"
+    },
+    {
+      "id": "topic_041:dieciocho",
+      "ru": "восемнадцать",
+      "target": "dieciocho"
+    },
+    {
+      "id": "topic_041:diecisiete",
+      "ru": "семнадцать",
+      "target": "diecisiete"
+    },
+    {
+      "id": "topic_041:dieciséis",
+      "ru": "шестнадцать",
+      "target": "dieciséis"
+    },
+    {
+      "id": "topic_041:doce",
+      "ru": "двенадцать",
+      "target": "doce"
+    },
+    {
+      "id": "topic_041:febrero",
+      "ru": "февраль",
+      "target": "febrero"
+    },
+    {
+      "id": "topic_041:feliz cumpleaños",
+      "ru": "с днём рождения",
+      "target": "feliz cumpleaños"
+    },
+    {
+      "id": "topic_041:junio",
+      "ru": "июнь",
+      "target": "junio"
+    },
+    {
+      "id": "topic_041:mayo",
+      "ru": "май",
+      "target": "mayo"
+    },
+    {
+      "id": "topic_041:noviembre",
+      "ru": "ноябрь",
+      "target": "noviembre"
+    },
+    {
+      "id": "topic_041:quince",
+      "ru": "пятнадцать",
+      "target": "quince"
+    },
+    {
+      "id": "topic_041:todavía",
+      "ru": "ещё",
+      "target": "todavía"
+    },
+    {
+      "id": "topic_041:trece",
+      "ru": "тринадцать",
+      "target": "trece"
+    },
+    {
+      "id": "topic_041:vela",
+      "ru": "свеча",
+      "target": "vela"
+    }
+  ]
+}

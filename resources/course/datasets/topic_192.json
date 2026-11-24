@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_192",
+  "description": "Расскажи о своём полёте",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_192:asustar",
+      "ru": "пугать",
+      "target": "asustar"
+    },
+    {
+      "id": "topic_192:atardecer",
+      "ru": "закат",
+      "target": "atardecer"
+    },
+    {
+      "id": "topic_192:casi nunca",
+      "ru": "почти никогда",
+      "target": "casi nunca"
+    },
+    {
+      "id": "topic_192:coleccionar",
+      "ru": "коллекционировать",
+      "target": "coleccionar"
+    },
+    {
+      "id": "topic_192:con vista a",
+      "ru": "с видом на",
+      "target": "con vista a"
+    },
+    {
+      "id": "topic_192:de ida",
+      "ru": "в одну сторону",
+      "target": "de ida"
+    },
+    {
+      "id": "topic_192:despegar",
+      "ru": "взлетать",
+      "target": "despegar"
+    },
+    {
+      "id": "topic_192:dormirse",
+      "ru": "заснуть",
+      "target": "dormirse"
+    },
+    {
+      "id": "topic_192:embarcar",
+      "ru": "садиться на судно",
+      "target": "embarcar"
+    },
+    {
+      "id": "topic_192:escala",
+      "ru": "промежуточная остановка",
+      "target": "escala"
+    },
+    {
+      "id": "topic_192:juventud",
+      "ru": "юность",
+      "target": "juventud"
+    },
+    {
+      "id": "topic_192:leyenda",
+      "ru": "легенда",
+      "target": "leyenda"
+    },
+    {
+      "id": "topic_192:siempre que",
+      "ru": "всякий раз, когда",
+      "target": "siempre que"
+    },
+    {
+      "id": "topic_192:turbulencia",
+      "ru": "турбулентность",
+      "target": "turbulencia"
+    },
+    {
+      "id": "topic_192:viajero",
+      "ru": "путешественник",
+      "target": "viajero"
+    }
+  ]
+}

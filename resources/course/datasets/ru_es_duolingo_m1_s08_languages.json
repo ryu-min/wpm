@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s08_languages",
+  "description": "Говорите о языках",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:alemán",
+      "ru": "немецкий",
+      "target": "alemán"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:arte",
+      "ru": "искусство",
+      "target": "arte"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:casa",
+      "ru": "дом",
+      "target": "casa"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:escuela",
+      "ru": "школа",
+      "target": "escuela"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:español",
+      "ru": "испанский",
+      "target": "español"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:estudiar",
+      "ru": "учиться",
+      "target": "estudiar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:francés",
+      "ru": "французский",
+      "target": "francés"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:genial",
+      "ru": "здорово",
+      "target": "genial"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:guau",
+      "ru": "вау",
+      "target": "guau"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:hablar",
+      "ru": "говорить",
+      "target": "hablar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:inglés",
+      "ru": "английский",
+      "target": "inglés"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:italiano",
+      "ru": "итальянский",
+      "target": "italiano"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:muy bien",
+      "ru": "очень хорошо",
+      "target": "muy bien"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:música",
+      "ru": "музыка",
+      "target": "música"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:por la mañana",
+      "ru": "по утрам",
+      "target": "por la mañana"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:por la noche",
+      "ru": "по вечерам",
+      "target": "por la noche"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:portugués",
+      "ru": "португальский",
+      "target": "portugués"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:un poco de",
+      "ru": "немного",
+      "target": "un poco de"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s08_languages:y tú",
+      "ru": "а ты?",
+      "target": "y tú"
+    }
+  ]
+}

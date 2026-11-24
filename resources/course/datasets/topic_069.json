@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_069",
+  "description": "Действуйте в экстренной ситуации",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_069:antibiótico",
+      "ru": "антибиотик",
+      "target": "antibiótico"
+    },
+    {
+      "id": "topic_069:completar",
+      "ru": "заполнить",
+      "target": "completar"
+    },
+    {
+      "id": "topic_069:esperar a",
+      "ru": "ждать",
+      "target": "esperar a"
+    },
+    {
+      "id": "topic_069:evitar",
+      "ru": "избегать",
+      "target": "evitar"
+    },
+    {
+      "id": "topic_069:examen médico",
+      "ru": "медицинский осмотр",
+      "target": "examen médico"
+    },
+    {
+      "id": "topic_069:formulario",
+      "ru": "бланк",
+      "target": "formulario"
+    },
+    {
+      "id": "topic_069:hay que",
+      "ru": "надо",
+      "target": "hay que"
+    },
+    {
+      "id": "topic_069:jarabe",
+      "ru": "сироп",
+      "target": "jarabe"
+    },
+    {
+      "id": "topic_069:lentamente",
+      "ru": "медленно",
+      "target": "lentamente"
+    },
+    {
+      "id": "topic_069:levantar",
+      "ru": "поднимать",
+      "target": "levantar"
+    },
+    {
+      "id": "topic_069:llamar a",
+      "ru": "позвонить",
+      "target": "llamar a"
+    },
+    {
+      "id": "topic_069:mareado",
+      "ru": "головокружение",
+      "target": "mareado"
+    },
+    {
+      "id": "topic_069:mover",
+      "ru": "двигать",
+      "target": "mover"
+    },
+    {
+      "id": "topic_069:normal",
+      "ru": "обычный",
+      "target": "normal"
+    },
+    {
+      "id": "topic_069:poder",
+      "ru": "мочь",
+      "target": "poder"
+    },
+    {
+      "id": "topic_069:respirar",
+      "ru": "дышать",
+      "target": "respirar"
+    },
+    {
+      "id": "topic_069:sala de urgencias",
+      "ru": "отделение неотложной помощи, Отделение неотложной помощи, отделении неотложной помощи",
+      "target": "sala de urgencias"
+    },
+    {
+      "id": "topic_069:temperatura",
+      "ru": "температура",
+      "target": "temperatura"
+    },
+    {
+      "id": "topic_069:tener que",
+      "ru": "должен, быть должным, необходимо, нужно, приходиться",
+      "target": "tener que"
+    },
+    {
+      "id": "topic_069:tengo que",
+      "ru": "я должен, я должна, мне надо",
+      "target": "tengo que"
+    },
+    {
+      "id": "topic_069:tienes que",
+      "ru": "(ты) должна, (ты) должен, тебе надо",
+      "target": "tienes que"
+    },
+    {
+      "id": "topic_069:va a estar bien",
+      "ru": "всё будет хорошо; он или она будет в порядке",
+      "target": "va a estar bien"
+    }
+  ]
+}

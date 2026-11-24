@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "topic_068",
+  "description": "Выполняйте домашние дела",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_068:alfombra",
+      "ru": "ковёр",
+      "target": "alfombra"
+    },
+    {
+      "id": "topic_068:almorzar",
+      "ru": "обедать",
+      "target": "almorzar"
+    },
+    {
+      "id": "topic_068:armario",
+      "ru": "шкаф",
+      "target": "armario"
+    },
+    {
+      "id": "topic_068:aspiradora",
+      "ru": "пылесос",
+      "target": "aspiradora"
+    },
+    {
+      "id": "topic_068:balcón",
+      "ru": "балкон",
+      "target": "balcón"
+    },
+    {
+      "id": "topic_068:barrer",
+      "ru": "подметать",
+      "target": "barrer"
+    },
+    {
+      "id": "topic_068:bañera",
+      "ru": "ванна",
+      "target": "bañera"
+    },
+    {
+      "id": "topic_068:colgar",
+      "ru": "вешать",
+      "target": "colgar"
+    },
+    {
+      "id": "topic_068:detergente",
+      "ru": "моющее средство",
+      "target": "detergente"
+    },
+    {
+      "id": "topic_068:escoba",
+      "ru": "метла",
+      "target": "escoba"
+    },
+    {
+      "id": "topic_068:esforzarse",
+      "ru": "стараться",
+      "target": "esforzarse"
+    },
+    {
+      "id": "topic_068:esponja",
+      "ru": "губка",
+      "target": "esponja"
+    },
+    {
+      "id": "topic_068:estufa",
+      "ru": "плита",
+      "target": "estufa"
+    },
+    {
+      "id": "topic_068:habitación",
+      "ru": "комната",
+      "target": "habitación"
+    },
+    {
+      "id": "topic_068:inodoro",
+      "ru": "унитаз",
+      "target": "inodoro"
+    },
+    {
+      "id": "topic_068:lavaplatos",
+      "ru": "посудомоечная машина",
+      "target": "lavaplatos"
+    },
+    {
+      "id": "topic_068:lámpara",
+      "ru": "лампа",
+      "target": "lámpara"
+    },
+    {
+      "id": "topic_068:me esfuerzo",
+      "ru": "стараюсь",
+      "target": "me esfuerzo"
+    },
+    {
+      "id": "topic_068:planchar",
+      "ru": "гладить",
+      "target": "planchar"
+    },
+    {
+      "id": "topic_068:sala",
+      "ru": "гостиная",
+      "target": "sala"
+    },
+    {
+      "id": "topic_068:sartén",
+      "ru": "сковорода",
+      "target": "sartén"
+    },
+    {
+      "id": "topic_068:secar",
+      "ru": "сушить",
+      "target": "secar"
+    },
+    {
+      "id": "topic_068:taza",
+      "ru": "чашка",
+      "target": "taza"
+    },
+    {
+      "id": "topic_068:tendedero",
+      "ru": "сушилка",
+      "target": "tendedero"
+    }
+  ]
+}

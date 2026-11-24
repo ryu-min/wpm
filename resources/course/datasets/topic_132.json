@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_132",
+  "description": "Поговори о своем районе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_132:anual",
+      "ru": "ежегодный",
+      "target": "anual"
+    },
+    {
+      "id": "topic_132:circo",
+      "ru": "цирк",
+      "target": "circo"
+    },
+    {
+      "id": "topic_132:entero",
+      "ru": "целый",
+      "target": "entero"
+    },
+    {
+      "id": "topic_132:frutería",
+      "ru": "фруктовая лавка",
+      "target": "frutería"
+    },
+    {
+      "id": "topic_132:las afueras",
+      "ru": "окраина",
+      "target": "las afueras"
+    },
+    {
+      "id": "topic_132:mayoría",
+      "ru": "большинство",
+      "target": "mayoría"
+    },
+    {
+      "id": "topic_132:parque de atracciones",
+      "ru": "парк аттракционов, парке аттракционов",
+      "target": "parque de atracciones"
+    },
+    {
+      "id": "topic_132:pasado mañana",
+      "ru": "послезавтра",
+      "target": "pasado mañana"
+    }
+  ]
+}

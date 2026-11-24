@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_181",
+  "description": "Общайся с командой",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_181:apenas",
+      "ru": "едва, почти (не), еле",
+      "target": "apenas"
+    },
+    {
+      "id": "topic_181:arco",
+      "ru": "дуга",
+      "target": "arco"
+    },
+    {
+      "id": "topic_181:atajar",
+      "ru": "ловить",
+      "target": "atajar"
+    },
+    {
+      "id": "topic_181:echar",
+      "ru": "бросать; насыпать; наливать",
+      "target": "echar"
+    },
+    {
+      "id": "topic_181:fuerza",
+      "ru": "сила",
+      "target": "fuerza"
+    },
+    {
+      "id": "topic_181:pegar",
+      "ru": "приклеивать",
+      "target": "pegar"
+    },
+    {
+      "id": "topic_181:suavemente",
+      "ru": "мягко",
+      "target": "suavemente"
+    },
+    {
+      "id": "topic_181:tirar",
+      "ru": "бросать",
+      "target": "tirar"
+    }
+  ]
+}

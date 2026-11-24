@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_131",
+  "description": "Сообщите о преступлении",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_131:acá",
+      "ru": "тут",
+      "target": "acá"
+    },
+    {
+      "id": "topic_131:atrapar",
+      "ru": "ловить",
+      "target": "atrapar"
+    },
+    {
+      "id": "topic_131:crimen",
+      "ru": "преступление",
+      "target": "crimen"
+    },
+    {
+      "id": "topic_131:criminal",
+      "ru": "преступник",
+      "target": "criminal"
+    },
+    {
+      "id": "topic_131:cuidado",
+      "ru": "осторожно",
+      "target": "cuidado"
+    },
+    {
+      "id": "topic_131:de metal",
+      "ru": "из металла",
+      "target": "de metal"
+    },
+    {
+      "id": "topic_131:dentro",
+      "ru": "внутри",
+      "target": "dentro"
+    },
+    {
+      "id": "topic_131:detective",
+      "ru": "детектив",
+      "target": "detective"
+    },
+    {
+      "id": "topic_131:engañar",
+      "ru": "обманывать",
+      "target": "engañar"
+    },
+    {
+      "id": "topic_131:entrevistar",
+      "ru": "брать интервью",
+      "target": "entrevistar"
+    },
+    {
+      "id": "topic_131:esconderse",
+      "ru": "спрятаться",
+      "target": "esconderse"
+    },
+    {
+      "id": "topic_131:golpear",
+      "ru": "ударять",
+      "target": "golpear"
+    },
+    {
+      "id": "topic_131:gorro",
+      "ru": "колпак",
+      "target": "gorro"
+    },
+    {
+      "id": "topic_131:ilegal",
+      "ru": "незаконный",
+      "target": "ilegal"
+    },
+    {
+      "id": "topic_131:quiosco",
+      "ru": "киоск",
+      "target": "quiosco"
+    },
+    {
+      "id": "topic_131:valer",
+      "ru": "стоить",
+      "target": "valer"
+    },
+    {
+      "id": "topic_131:veinticinco",
+      "ru": "двадцать пять",
+      "target": "veinticinco"
+    },
+    {
+      "id": "topic_131:veinticuatro",
+      "ru": "двадцать четыре",
+      "target": "veinticuatro"
+    },
+    {
+      "id": "topic_131:veintitrés",
+      "ru": "двадцать три",
+      "target": "veintitrés"
+    },
+    {
+      "id": "topic_131:violento",
+      "ru": "жестокий",
+      "target": "violento"
+    },
+    {
+      "id": "topic_131:víctima",
+      "ru": "жертва",
+      "target": "víctima"
+    }
+  ]
+}

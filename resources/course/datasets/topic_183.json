@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_183",
+  "description": "Покупать средства гигиены",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_183:acondicionador",
+      "ru": "кондиционер",
+      "target": "acondicionador"
+    },
+    {
+      "id": "topic_183:antibacterial",
+      "ru": "антибактериальный",
+      "target": "antibacterial"
+    },
+    {
+      "id": "topic_183:belleza",
+      "ru": "красота",
+      "target": "belleza"
+    },
+    {
+      "id": "topic_183:cepillo de uñas",
+      "ru": "щётка для ногтей",
+      "target": "cepillo de uñas"
+    },
+    {
+      "id": "topic_183:corporal",
+      "ru": "телесный",
+      "target": "corporal"
+    },
+    {
+      "id": "topic_183:cortarse",
+      "ru": "подстричься",
+      "target": "cortarse"
+    },
+    {
+      "id": "topic_183:cortaúñas",
+      "ru": "щипчики для ногтей",
+      "target": "cortaúñas"
+    },
+    {
+      "id": "topic_183:crema de afeitar",
+      "ru": "крем для бритья, крема для бритья",
+      "target": "crema de afeitar"
+    },
+    {
+      "id": "topic_183:esmalte de uñas",
+      "ru": "лак для ногтей",
+      "target": "esmalte de uñas"
+    },
+    {
+      "id": "topic_183:gel",
+      "ru": "гель",
+      "target": "gel"
+    },
+    {
+      "id": "topic_183:loción",
+      "ru": "лосьон",
+      "target": "loción"
+    },
+    {
+      "id": "topic_183:lápiz labial",
+      "ru": "помада, помаду, помады, помадой",
+      "target": "lápiz labial"
+    },
+    {
+      "id": "topic_183:pasta de dientes",
+      "ru": "зубная паста",
+      "target": "pasta de dientes"
+    },
+    {
+      "id": "topic_183:secador de pelo",
+      "ru": "фен, Фен",
+      "target": "secador de pelo"
+    }
+  ]
+}

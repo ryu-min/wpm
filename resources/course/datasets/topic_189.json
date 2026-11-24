@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_189",
+  "description": "Расскажите о поездках",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_189:acostumbrarse",
+      "ru": "привыкнуть",
+      "target": "acostumbrarse"
+    },
+    {
+      "id": "topic_189:ciudad natal",
+      "ru": "родной город",
+      "target": "ciudad natal"
+    },
+    {
+      "id": "topic_189:con qué",
+      "ru": "с чем",
+      "target": "con qué"
+    },
+    {
+      "id": "topic_189:lo más divertido",
+      "ru": "самое веселое",
+      "target": "lo más divertido"
+    },
+    {
+      "id": "topic_189:poco a poco",
+      "ru": "постепенно",
+      "target": "poco a poco"
+    },
+    {
+      "id": "topic_189:por lo general",
+      "ru": "обычно",
+      "target": "por lo general"
+    },
+    {
+      "id": "topic_189:sexto",
+      "ru": "шестой",
+      "target": "sexto"
+    },
+    {
+      "id": "topic_189:vida nocturna",
+      "ru": "ночная жизнь",
+      "target": "vida nocturna"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_160",
+  "description": "Опиши обычаи за столом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_160:animado",
+      "ru": "оживлённый",
+      "target": "animado"
+    },
+    {
+      "id": "topic_160:carnaval",
+      "ru": "карнавал",
+      "target": "carnaval"
+    },
+    {
+      "id": "topic_160:se almuerza",
+      "ru": "обедают; принято обедать",
+      "target": "se almuerza"
+    },
+    {
+      "id": "topic_160:se baila",
+      "ru": "танцуют",
+      "target": "se baila"
+    },
+    {
+      "id": "topic_160:se celebra",
+      "ru": "Празднуется, празднуется",
+      "target": "se celebra"
+    },
+    {
+      "id": "topic_160:se celebran",
+      "ru": "празднуются, празднуется",
+      "target": "se celebran"
+    },
+    {
+      "id": "topic_160:se come",
+      "ru": "едят; принято есть",
+      "target": "se come"
+    },
+    {
+      "id": "topic_160:se desayuna",
+      "ru": "завтракают",
+      "target": "se desayuna"
+    },
+    {
+      "id": "topic_160:se puede cenar",
+      "ru": "поужинать, можно поужинать",
+      "target": "se puede cenar"
+    },
+    {
+      "id": "topic_160:se puede ir",
+      "ru": "можно идти",
+      "target": "se puede ir"
+    },
+    {
+      "id": "topic_160:se regala",
+      "ru": "отдаётся в подарок (одна вещь)",
+      "target": "se regala"
+    },
+    {
+      "id": "topic_160:se regalan",
+      "ru": "отдаются в подарок (несколько вещей)",
+      "target": "se regalan"
+    },
+    {
+      "id": "topic_160:se trabaja",
+      "ru": "работают",
+      "target": "se trabaja"
+    },
+    {
+      "id": "topic_160:se usa",
+      "ru": "используется",
+      "target": "se usa"
+    },
+    {
+      "id": "topic_160:se vive",
+      "ru": "живется",
+      "target": "se vive"
+    }
+  ]
+}

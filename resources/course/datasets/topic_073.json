@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_073",
+  "description": "Решайте технические проблемы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_073:aplicación",
+      "ru": "приложение",
+      "target": "aplicación"
+    },
+    {
+      "id": "topic_073:aún",
+      "ru": "ещё",
+      "target": "aún"
+    },
+    {
+      "id": "topic_073:cable",
+      "ru": "кабель",
+      "target": "cable"
+    },
+    {
+      "id": "topic_073:cargar",
+      "ru": "грузить",
+      "target": "cargar"
+    },
+    {
+      "id": "topic_073:conexión",
+      "ru": "соединение",
+      "target": "conexión"
+    },
+    {
+      "id": "topic_073:contraseña",
+      "ru": "пароль",
+      "target": "contraseña"
+    },
+    {
+      "id": "topic_073:desconectar",
+      "ru": "отключать",
+      "target": "desconectar"
+    },
+    {
+      "id": "topic_073:desde hace",
+      "ru": "уже",
+      "target": "desde hace"
+    },
+    {
+      "id": "topic_073:explicar",
+      "ru": "объяснять",
+      "target": "explicar"
+    },
+    {
+      "id": "topic_073:finalmente",
+      "ru": "наконец",
+      "target": "finalmente"
+    },
+    {
+      "id": "topic_073:pedir",
+      "ru": "просить",
+      "target": "pedir"
+    },
+    {
+      "id": "topic_073:presionar",
+      "ru": "нажимать; оказывать давление",
+      "target": "presionar"
+    },
+    {
+      "id": "topic_073:reparar",
+      "ru": "ремонтировать",
+      "target": "reparar"
+    },
+    {
+      "id": "topic_073:repetir",
+      "ru": "повторять",
+      "target": "repetir"
+    },
+    {
+      "id": "topic_073:servir",
+      "ru": "подавать; служить",
+      "target": "servir"
+    },
+    {
+      "id": "topic_073:simple",
+      "ru": "простой",
+      "target": "simple"
+    },
+    {
+      "id": "topic_073:sugerencia",
+      "ru": "предложение",
+      "target": "sugerencia"
+    },
+    {
+      "id": "topic_073:técnico",
+      "ru": "технический",
+      "target": "técnico"
+    },
+    {
+      "id": "topic_073:urgentemente",
+      "ru": "срочно",
+      "target": "urgentemente"
+    },
+    {
+      "id": "topic_073:virus",
+      "ru": "вирус",
+      "target": "virus"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_268",
+  "description": "Попроси разрешения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_268:berrinche",
+      "ru": "истерика",
+      "target": "berrinche"
+    },
+    {
+      "id": "topic_268:cómo que",
+      "ru": "как это",
+      "target": "cómo que"
+    },
+    {
+      "id": "topic_268:dar la razón",
+      "ru": "признать правоту; согласиться с (кем-либо)",
+      "target": "dar la razón"
+    },
+    {
+      "id": "topic_268:del todo",
+      "ru": "совсем",
+      "target": "del todo"
+    },
+    {
+      "id": "topic_268:demostrar",
+      "ru": "доказывать",
+      "target": "demostrar"
+    },
+    {
+      "id": "topic_268:digas lo que digas",
+      "ru": "говори что хочешь",
+      "target": "digas lo que digas"
+    },
+    {
+      "id": "topic_268:emoción",
+      "ru": "эмоция",
+      "target": "emoción"
+    },
+    {
+      "id": "topic_268:eso te pasa por",
+      "ru": "это с тобой происходит из-за того, что",
+      "target": "eso te pasa por"
+    },
+    {
+      "id": "topic_268:extremadamente",
+      "ru": "чрезвычайно",
+      "target": "extremadamente"
+    },
+    {
+      "id": "topic_268:incluso si",
+      "ru": "даже если",
+      "target": "incluso si"
+    },
+    {
+      "id": "topic_268:juegos mecánicos",
+      "ru": "аттракцион",
+      "target": "juegos mecánicos"
+    },
+    {
+      "id": "topic_268:montaña rusa",
+      "ru": "американскими горками, американские горки, американских горках, американских горок",
+      "target": "montaña rusa"
+    },
+    {
+      "id": "topic_268:negociar",
+      "ru": "вести переговоры",
+      "target": "negociar"
+    },
+    {
+      "id": "topic_268:obediente",
+      "ru": "послушный",
+      "target": "obediente"
+    },
+    {
+      "id": "topic_268:por haber",
+      "ru": "за то, что",
+      "target": "por haber"
+    },
+    {
+      "id": "topic_268:un no rotundo",
+      "ru": "решительное нет",
+      "target": "un no rotundo"
+    },
+    {
+      "id": "topic_268:vomitar",
+      "ru": "рвать",
+      "target": "vomitar"
+    }
+  ]
+}

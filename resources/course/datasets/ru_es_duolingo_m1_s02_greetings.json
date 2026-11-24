@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s02_greetings",
+  "description": "Приветствуйте и прощайтесь",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:bien",
+      "ru": "хорошо",
+      "target": "bien"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:bienvenido",
+      "ru": "добро пожаловать",
+      "target": "bienvenido"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:buenos días",
+      "ru": "доброе утро",
+      "target": "buenos días"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:ella",
+      "ru": "она",
+      "target": "ella"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:ser",
+      "ru": "быть",
+      "target": "ser"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:hasta luego",
+      "ru": "до свидания",
+      "target": "hasta luego"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:jugo",
+      "ru": "сок",
+      "target": "jugo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:mi mejor amiga",
+      "ru": "моя лучшая подруга",
+      "target": "mi mejor amiga"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:mi mejor amigo",
+      "ru": "мой лучший друг",
+      "target": "mi mejor amigo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:mucho gusto",
+      "ru": "очень приятно",
+      "target": "mucho gusto"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:qué tal",
+      "ru": "как дела",
+      "target": "qué tal"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:yo",
+      "ru": "я",
+      "target": "yo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s02_greetings:él",
+      "ru": "он",
+      "target": "él"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_142",
+  "description": "Советовать туристам",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_142:contaminado",
+      "ru": "загрязнённый",
+      "target": "contaminado"
+    },
+    {
+      "id": "topic_142:embajada",
+      "ru": "посольство",
+      "target": "embajada"
+    },
+    {
+      "id": "topic_142:florero",
+      "ru": "ваза",
+      "target": "florero"
+    },
+    {
+      "id": "topic_142:huracán",
+      "ru": "ураган",
+      "target": "huracán"
+    },
+    {
+      "id": "topic_142:temporada",
+      "ru": "сезон",
+      "target": "temporada"
+    },
+    {
+      "id": "topic_142:visa",
+      "ru": "виза",
+      "target": "visa"
+    }
+  ]
+}

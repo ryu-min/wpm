@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_091",
+  "description": "Объектные местоимения с командами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_091:agarrar",
+      "ru": "хватать",
+      "target": "agarrar"
+    },
+    {
+      "id": "topic_091:con fuerza",
+      "ru": "с силой",
+      "target": "con fuerza"
+    },
+    {
+      "id": "topic_091:empatar",
+      "ru": "сыграть вничью",
+      "target": "empatar"
+    },
+    {
+      "id": "topic_091:estadio",
+      "ru": "стадион",
+      "target": "estadio"
+    },
+    {
+      "id": "topic_091:futbolista",
+      "ru": "футболист",
+      "target": "futbolista"
+    },
+    {
+      "id": "topic_091:gol",
+      "ru": "гол",
+      "target": "gol"
+    },
+    {
+      "id": "topic_091:jugada",
+      "ru": "ход",
+      "target": "jugada"
+    },
+    {
+      "id": "topic_091:meter",
+      "ru": "класть внутрь",
+      "target": "meter"
+    },
+    {
+      "id": "topic_091:milagro",
+      "ru": "Чудо",
+      "target": "milagro"
+    },
+    {
+      "id": "topic_091:patear",
+      "ru": "пинать",
+      "target": "patear"
+    },
+    {
+      "id": "topic_091:pelota",
+      "ru": "мяч",
+      "target": "pelota"
+    },
+    {
+      "id": "topic_091:penal",
+      "ru": "пенальти",
+      "target": "penal"
+    },
+    {
+      "id": "topic_091:por la derecha",
+      "ru": "по правой стороне",
+      "target": "por la derecha"
+    },
+    {
+      "id": "topic_091:por lo menos",
+      "ru": "по крайней мере",
+      "target": "por lo menos"
+    },
+    {
+      "id": "topic_091:portero",
+      "ru": "вратарь",
+      "target": "portero"
+    },
+    {
+      "id": "topic_091:triunfo",
+      "ru": "победа",
+      "target": "triunfo"
+    }
+  ]
+}

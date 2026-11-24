@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "topic_036",
+  "description": "Обсудите свои интересы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_036:además",
+      "ru": "кроме того",
+      "target": "además"
+    },
+    {
+      "id": "topic_036:artista",
+      "ru": "художник",
+      "target": "artista"
+    },
+    {
+      "id": "topic_036:clásico",
+      "ru": "классический",
+      "target": "clásico"
+    },
+    {
+      "id": "topic_036:cosa",
+      "ru": "вещь",
+      "target": "cosa"
+    },
+    {
+      "id": "topic_036:de hecho",
+      "ru": "на самом деле",
+      "target": "de hecho"
+    },
+    {
+      "id": "topic_036:deporte",
+      "ru": "спорт",
+      "target": "deporte"
+    },
+    {
+      "id": "topic_036:exposición",
+      "ru": "выставка",
+      "target": "exposición"
+    },
+    {
+      "id": "topic_036:fotografía",
+      "ru": "фотография",
+      "target": "fotografía"
+    },
+    {
+      "id": "topic_036:golf",
+      "ru": "гольф",
+      "target": "golf"
+    },
+    {
+      "id": "topic_036:karate",
+      "ru": "карате",
+      "target": "karate"
+    },
+    {
+      "id": "topic_036:le gusta",
+      "ru": "(он/она) любит (что-то), вы любите (что-то), вам нравится (что-то), (ему/ей) нравится",
+      "target": "le gusta"
+    },
+    {
+      "id": "topic_036:le gustan",
+      "ru": "ему или ей нравятся (несколько вещей)",
+      "target": "le gustan"
+    },
+    {
+      "id": "topic_036:le interesa",
+      "ru": "ему или ей интересно (одна вещь)",
+      "target": "le interesa"
+    },
+    {
+      "id": "topic_036:le interesan",
+      "ru": "ему, ей или Вам интересны (несколько вещей)",
+      "target": "le interesan"
+    },
+    {
+      "id": "topic_036:me gustan",
+      "ru": "мне нравятся, я люблю (что-то)",
+      "target": "me gustan"
+    },
+    {
+      "id": "topic_036:me interesa",
+      "ru": "мне интересно (что-либо)",
+      "target": "me interesa"
+    },
+    {
+      "id": "topic_036:me interesan",
+      "ru": "мне интересны (несколько вещей)",
+      "target": "me interesan"
+    },
+    {
+      "id": "topic_036:pasatiempo",
+      "ru": "хобби",
+      "target": "pasatiempo"
+    },
+    {
+      "id": "topic_036:poesía",
+      "ru": "поэзия",
+      "target": "poesía"
+    },
+    {
+      "id": "topic_036:te gusta",
+      "ru": "тебе нравится (одна вещь)",
+      "target": "te gusta"
+    },
+    {
+      "id": "topic_036:te gustan",
+      "ru": "тебе нравятся (несколько вещей)",
+      "target": "te gustan"
+    },
+    {
+      "id": "topic_036:te interesa",
+      "ru": "тебе интересно (одна вещь)",
+      "target": "te interesa"
+    },
+    {
+      "id": "topic_036:te interesan",
+      "ru": "тебе интересны (несколько вещей)",
+      "target": "te interesan"
+    },
+    {
+      "id": "topic_036:videojuego",
+      "ru": "видеоигра",
+      "target": "videojuego"
+    }
+  ]
+}

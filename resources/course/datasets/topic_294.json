@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_294",
+  "description": "Расскажи о своих успехах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_294:alumbrado",
+      "ru": "освещение",
+      "target": "alumbrado"
+    },
+    {
+      "id": "topic_294:cada vez menos",
+      "ru": "все меньше",
+      "target": "cada vez menos"
+    },
+    {
+      "id": "topic_294:cifra",
+      "ru": "цифра",
+      "target": "cifra"
+    },
+    {
+      "id": "topic_294:comprobar",
+      "ru": "проверять",
+      "target": "comprobar"
+    },
+    {
+      "id": "topic_294:concluir",
+      "ru": "заключать",
+      "target": "concluir"
+    },
+    {
+      "id": "topic_294:considerablemente",
+      "ru": "значительно",
+      "target": "considerablemente"
+    },
+    {
+      "id": "topic_294:contradictorio",
+      "ru": "противоречивый",
+      "target": "contradictorio"
+    },
+    {
+      "id": "topic_294:dar la cara",
+      "ru": "отвечать за свои поступки; выступать открыто",
+      "target": "dar la cara"
+    },
+    {
+      "id": "topic_294:de más está decir",
+      "ru": "Само собой разумеется",
+      "target": "de más está decir"
+    },
+    {
+      "id": "topic_294:debatir",
+      "ru": "обсуждать",
+      "target": "debatir"
+    },
+    {
+      "id": "topic_294:defraudar",
+      "ru": "подвести кого-либо",
+      "target": "defraudar"
+    },
+    {
+      "id": "topic_294:diga lo que diga",
+      "ru": "говори что говори",
+      "target": "diga lo que diga"
+    },
+    {
+      "id": "topic_294:generar",
+      "ru": "порождать",
+      "target": "generar"
+    },
+    {
+      "id": "topic_294:indignante",
+      "ru": "возмутительный",
+      "target": "indignante"
+    },
+    {
+      "id": "topic_294:llevar a cabo",
+      "ru": "осуществить",
+      "target": "llevar a cabo"
+    },
+    {
+      "id": "topic_294:pese a todo",
+      "ru": "несмотря ни на что",
+      "target": "pese a todo"
+    },
+    {
+      "id": "topic_294:preocupante",
+      "ru": "вызывающий беспокойство",
+      "target": "preocupante"
+    },
+    {
+      "id": "topic_294:prestación laboral",
+      "ru": "трудовых пособий, трудовое пособие",
+      "target": "prestación laboral"
+    },
+    {
+      "id": "topic_294:sin techo",
+      "ru": "бездомный",
+      "target": "sin techo"
+    },
+    {
+      "id": "topic_294:tasa",
+      "ru": "ставка",
+      "target": "tasa"
+    },
+    {
+      "id": "topic_294:vice",
+      "ru": "вице- (приставка заместителя)",
+      "target": "vice"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_283",
+  "description": "Обсуди нашествие зомби",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_283:a salvo",
+      "ru": "в безопасности",
+      "target": "a salvo"
+    },
+    {
+      "id": "topic_283:apocalipsis",
+      "ru": "апокалипсис",
+      "target": "apocalipsis"
+    },
+    {
+      "id": "topic_283:autoridad",
+      "ru": "власть",
+      "target": "autoridad"
+    },
+    {
+      "id": "topic_283:cadáver",
+      "ru": "труп",
+      "target": "cadáver"
+    },
+    {
+      "id": "topic_283:caos",
+      "ru": "хаос",
+      "target": "caos"
+    },
+    {
+      "id": "topic_283:convertirse",
+      "ru": "стать",
+      "target": "convertirse"
+    },
+    {
+      "id": "topic_283:cueste lo que cueste",
+      "ru": "чего бы это ни стоило",
+      "target": "cueste lo que cueste"
+    },
+    {
+      "id": "topic_283:darse prisa",
+      "ru": "поторопиться",
+      "target": "darse prisa"
+    },
+    {
+      "id": "topic_283:defender",
+      "ru": "защищать",
+      "target": "defender"
+    },
+    {
+      "id": "topic_283:enemigo",
+      "ru": "враг",
+      "target": "enemigo"
+    },
+    {
+      "id": "topic_283:hacha",
+      "ru": "топор",
+      "target": "hacha"
+    },
+    {
+      "id": "topic_283:huir",
+      "ru": "убегать",
+      "target": "huir"
+    },
+    {
+      "id": "topic_283:infectado",
+      "ru": "заражённый",
+      "target": "infectado"
+    },
+    {
+      "id": "topic_283:mantener la calma",
+      "ru": "сохранять спокойствие",
+      "target": "mantener la calma"
+    },
+    {
+      "id": "topic_283:perseguir",
+      "ru": "преследовать",
+      "target": "perseguir"
+    },
+    {
+      "id": "topic_283:por si",
+      "ru": "на случай если",
+      "target": "por si"
+    },
+    {
+      "id": "topic_283:provisiones",
+      "ru": "провизия; припасы",
+      "target": "provisiones"
+    },
+    {
+      "id": "topic_283:recapacitar",
+      "ru": "пересмотреть",
+      "target": "recapacitar"
+    },
+    {
+      "id": "topic_283:refugiarse",
+      "ru": "укрыться",
+      "target": "refugiarse"
+    },
+    {
+      "id": "topic_283:supervivencia",
+      "ru": "выживание",
+      "target": "supervivencia"
+    },
+    {
+      "id": "topic_283:tener a la mano",
+      "ru": "иметь под рукой, держать под рукой",
+      "target": "tener a la mano"
+    },
+    {
+      "id": "topic_283:zombi",
+      "ru": "зомби",
+      "target": "zombi"
+    }
+  ]
+}

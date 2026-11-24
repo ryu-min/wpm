@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_195",
+  "description": "Выражать чувства и мнения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_195:celoso",
+      "ru": "ревнивый",
+      "target": "celoso"
+    },
+    {
+      "id": "topic_195:culpa",
+      "ru": "вина",
+      "target": "culpa"
+    },
+    {
+      "id": "topic_195:encantador",
+      "ru": "восхитительный",
+      "target": "encantador"
+    },
+    {
+      "id": "topic_195:envidioso",
+      "ru": "завистливый",
+      "target": "envidioso"
+    },
+    {
+      "id": "topic_195:es posible que",
+      "ru": "возможно, что",
+      "target": "es posible que"
+    },
+    {
+      "id": "topic_195:es probable que",
+      "ru": "вероятно, что",
+      "target": "es probable que"
+    },
+    {
+      "id": "topic_195:furioso",
+      "ru": "в ярости",
+      "target": "furioso"
+    },
+    {
+      "id": "topic_195:hacer una broma",
+      "ru": "пошутить",
+      "target": "hacer una broma"
+    },
+    {
+      "id": "topic_195:promesa",
+      "ru": "обещание",
+      "target": "promesa"
+    },
+    {
+      "id": "topic_195:puede que",
+      "ru": "Может быть",
+      "target": "puede que"
+    },
+    {
+      "id": "topic_195:seguro que",
+      "ru": "наверняка",
+      "target": "seguro que"
+    },
+    {
+      "id": "topic_195:sentimiento",
+      "ru": "чувство",
+      "target": "sentimiento"
+    },
+    {
+      "id": "topic_195:tomar con calma",
+      "ru": "воспринимать спокойно",
+      "target": "tomar con calma"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_271",
+  "description": "Обсудить видео о животных",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_271:a que no",
+      "ru": "Неужели",
+      "target": "a que no"
+    },
+    {
+      "id": "topic_271:avance",
+      "ru": "продвижение",
+      "target": "avance"
+    },
+    {
+      "id": "topic_271:barro",
+      "ru": "глина",
+      "target": "barro"
+    },
+    {
+      "id": "topic_271:discurso",
+      "ru": "речь",
+      "target": "discurso"
+    },
+    {
+      "id": "topic_271:envase",
+      "ru": "упаковка",
+      "target": "envase"
+    },
+    {
+      "id": "topic_271:eso me lo dijo",
+      "ru": "он или она мне это сказал или сказала",
+      "target": "eso me lo dijo"
+    },
+    {
+      "id": "topic_271:eso sí",
+      "ru": "однако",
+      "target": "eso sí"
+    },
+    {
+      "id": "topic_271:galaxia",
+      "ru": "галактика",
+      "target": "galaxia"
+    },
+    {
+      "id": "topic_271:impresionar",
+      "ru": "впечатлить",
+      "target": "impresionar"
+    },
+    {
+      "id": "topic_271:ito",
+      "ru": "это",
+      "target": "ito"
+    },
+    {
+      "id": "topic_271:obligar",
+      "ru": "заставлять",
+      "target": "obligar"
+    },
+    {
+      "id": "topic_271:placentero",
+      "ru": "приятный",
+      "target": "placentero"
+    },
+    {
+      "id": "topic_271:por si no",
+      "ru": "на случай, если не",
+      "target": "por si no"
+    },
+    {
+      "id": "topic_271:reciclable",
+      "ru": "перерабатываемый",
+      "target": "reciclable"
+    },
+    {
+      "id": "topic_271:risa",
+      "ru": "смех",
+      "target": "risa"
+    },
+    {
+      "id": "topic_271:senador",
+      "ru": "сенатор",
+      "target": "senador"
+    },
+    {
+      "id": "topic_271:silbar",
+      "ru": "свистеть",
+      "target": "silbar"
+    },
+    {
+      "id": "topic_271:utilizar",
+      "ru": "использовать",
+      "target": "utilizar"
+    }
+  ]
+}

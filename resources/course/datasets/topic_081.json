@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_081",
+  "description": "Найдите свои вещи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_081:agenda",
+      "ru": "ежедневник",
+      "target": "agenda"
+    },
+    {
+      "id": "topic_081:almohada",
+      "ru": "подушка",
+      "target": "almohada"
+    },
+    {
+      "id": "topic_081:apurado",
+      "ru": "в спешке",
+      "target": "apurado"
+    },
+    {
+      "id": "topic_081:audífono",
+      "ru": "наушники",
+      "target": "audífono"
+    },
+    {
+      "id": "topic_081:bebé",
+      "ru": "младенец",
+      "target": "bebé"
+    },
+    {
+      "id": "topic_081:cepillo de dientes",
+      "ru": "зубная щётка",
+      "target": "cepillo de dientes"
+    },
+    {
+      "id": "topic_081:dañado",
+      "ru": "повреждённый",
+      "target": "dañado"
+    },
+    {
+      "id": "topic_081:estantería",
+      "ru": "стеллаж",
+      "target": "estantería"
+    },
+    {
+      "id": "topic_081:gemelo",
+      "ru": "близнец",
+      "target": "gemelo"
+    },
+    {
+      "id": "topic_081:lentes de sol",
+      "ru": "солнечные очки",
+      "target": "lentes de sol"
+    },
+    {
+      "id": "topic_081:lo",
+      "ru": "ему",
+      "target": "lo"
+    },
+    {
+      "id": "topic_081:peluche",
+      "ru": "плюшевая игрушка",
+      "target": "peluche"
+    },
+    {
+      "id": "topic_081:perder",
+      "ru": "терять",
+      "target": "perder"
+    },
+    {
+      "id": "topic_081:por casualidad",
+      "ru": "случайно",
+      "target": "por casualidad"
+    },
+    {
+      "id": "topic_081:resulta que",
+      "ru": "Оказывается",
+      "target": "resulta que"
+    },
+    {
+      "id": "topic_081:robar",
+      "ru": "красть",
+      "target": "robar"
+    },
+    {
+      "id": "topic_081:sorprendentemente",
+      "ru": "удивительно",
+      "target": "sorprendentemente"
+    }
+  ]
+}

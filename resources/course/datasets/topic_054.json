@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "topic_054",
+  "description": "Обсудите свое здоровье",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_054:alcohol",
+      "ru": "алкоголь",
+      "target": "alcohol"
+    },
+    {
+      "id": "topic_054:alergia",
+      "ru": "аллергия",
+      "target": "alergia"
+    },
+    {
+      "id": "topic_054:ambulancia",
+      "ru": "скорая помощь",
+      "target": "ambulancia"
+    },
+    {
+      "id": "topic_054:aspirina",
+      "ru": "аспирин",
+      "target": "aspirina"
+    },
+    {
+      "id": "topic_054:auxilio",
+      "ru": "помогите",
+      "target": "auxilio"
+    },
+    {
+      "id": "topic_054:cabeza",
+      "ru": "голова",
+      "target": "cabeza"
+    },
+    {
+      "id": "topic_054:conducir",
+      "ru": "водить",
+      "target": "conducir"
+    },
+    {
+      "id": "topic_054:conocer a",
+      "ru": "познакомиться с",
+      "target": "conocer a"
+    },
+    {
+      "id": "topic_054:conozco a",
+      "ru": "я знаком с (кем-либо)",
+      "target": "conozco a"
+    },
+    {
+      "id": "topic_054:corazón",
+      "ru": "сердце",
+      "target": "corazón"
+    },
+    {
+      "id": "topic_054:eh",
+      "ru": "эм",
+      "target": "eh"
+    },
+    {
+      "id": "topic_054:emergencia",
+      "ru": "чрезвычайная ситуация",
+      "target": "emergencia"
+    },
+    {
+      "id": "topic_054:enfermedad",
+      "ru": "болезнь",
+      "target": "enfermedad"
+    },
+    {
+      "id": "topic_054:fumar",
+      "ru": "курить",
+      "target": "fumar"
+    },
+    {
+      "id": "topic_054:grave",
+      "ru": "опасный, серьёзном, серьёзный, опасная, опасно, серьёзная, опасное, серьёзное, опасной, (о болезни, ситуации), серьезная, тяжкое",
+      "target": "grave"
+    },
+    {
+      "id": "topic_054:idioma",
+      "ru": "язык",
+      "target": "idioma"
+    },
+    {
+      "id": "topic_054:instrucción",
+      "ru": "предварительное следствие",
+      "target": "instrucción"
+    },
+    {
+      "id": "topic_054:lento",
+      "ru": "медленный",
+      "target": "lento"
+    },
+    {
+      "id": "topic_054:no entiendo",
+      "ru": "я не понимаю",
+      "target": "no entiendo"
+    },
+    {
+      "id": "topic_054:paciente",
+      "ru": "пациент",
+      "target": "paciente"
+    },
+    {
+      "id": "topic_054:sentirse",
+      "ru": "чувствовать себя",
+      "target": "sentirse"
+    },
+    {
+      "id": "topic_054:tos",
+      "ru": "кашель",
+      "target": "tos"
+    },
+    {
+      "id": "topic_054:traducir",
+      "ru": "переводить",
+      "target": "traducir"
+    },
+    {
+      "id": "topic_054:urgente",
+      "ru": "срочный",
+      "target": "urgente"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_176",
+  "description": "Получи сдачу у кассира",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_176:cajero",
+      "ru": "кассир",
+      "target": "cajero"
+    },
+    {
+      "id": "topic_176:cuenta corriente",
+      "ru": "текущий банковский счёт",
+      "target": "cuenta corriente"
+    },
+    {
+      "id": "topic_176:depósito",
+      "ru": "вклад; депозит; хранилище",
+      "target": "depósito"
+    },
+    {
+      "id": "topic_176:límite",
+      "ru": "предел",
+      "target": "límite"
+    },
+    {
+      "id": "topic_176:móvil",
+      "ru": "мобильный телефон",
+      "target": "móvil"
+    },
+    {
+      "id": "topic_176:pago electrónico",
+      "ru": "электронный платеж",
+      "target": "pago electrónico"
+    },
+    {
+      "id": "topic_176:recomendación",
+      "ru": "рекомендация",
+      "target": "recomendación"
+    },
+    {
+      "id": "topic_176:registrarse",
+      "ru": "зарегистрироваться",
+      "target": "registrarse"
+    },
+    {
+      "id": "topic_176:retirar",
+      "ru": "убирать",
+      "target": "retirar"
+    },
+    {
+      "id": "topic_176:saldo",
+      "ru": "Остаток",
+      "target": "saldo"
+    },
+    {
+      "id": "topic_176:sucursal",
+      "ru": "филиал",
+      "target": "sucursal"
+    },
+    {
+      "id": "topic_176:tarjeta de débito",
+      "ru": "дебетовая карта",
+      "target": "tarjeta de débito"
+    },
+    {
+      "id": "topic_176:transferencia",
+      "ru": "перевод",
+      "target": "transferencia"
+    }
+  ]
+}

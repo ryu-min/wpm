@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_243",
+  "description": "Поговорить о малыше",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_243:al inicio",
+      "ru": "в начале",
+      "target": "al inicio"
+    },
+    {
+      "id": "topic_243:al tanto",
+      "ru": "в курсе",
+      "target": "al tanto"
+    },
+    {
+      "id": "topic_243:alimentar",
+      "ru": "кормить",
+      "target": "alimentar"
+    },
+    {
+      "id": "topic_243:biberón",
+      "ru": "детская бутылочка",
+      "target": "biberón"
+    },
+    {
+      "id": "topic_243:bisabuelo",
+      "ru": "прадед",
+      "target": "bisabuelo"
+    },
+    {
+      "id": "topic_243:cariño",
+      "ru": "привязанность",
+      "target": "cariño"
+    },
+    {
+      "id": "topic_243:caótico",
+      "ru": "хаотичный",
+      "target": "caótico"
+    },
+    {
+      "id": "topic_243:con el paso de",
+      "ru": "с течением",
+      "target": "con el paso de"
+    },
+    {
+      "id": "topic_243:crianza",
+      "ru": "воспитание",
+      "target": "crianza"
+    },
+    {
+      "id": "topic_243:cuna",
+      "ru": "колыбель",
+      "target": "cuna"
+    },
+    {
+      "id": "topic_243:dar a luz",
+      "ru": "рожать",
+      "target": "dar a luz"
+    },
+    {
+      "id": "topic_243:de sobra",
+      "ru": "с избытком",
+      "target": "de sobra"
+    },
+    {
+      "id": "topic_243:gatear",
+      "ru": "ползать",
+      "target": "gatear"
+    },
+    {
+      "id": "topic_243:muchísimo",
+      "ru": "очень много",
+      "target": "muchísimo"
+    },
+    {
+      "id": "topic_243:no hay por qué",
+      "ru": "Нет причин",
+      "target": "no hay por qué"
+    },
+    {
+      "id": "topic_243:pañal",
+      "ru": "подгузник",
+      "target": "pañal"
+    },
+    {
+      "id": "topic_243:pediatra",
+      "ru": "педиатр",
+      "target": "pediatra"
+    }
+  ]
+}

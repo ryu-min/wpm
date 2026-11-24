@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_087",
+  "description": "Управляйте рабочими задачами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_087:actualizar",
+      "ru": "обновить",
+      "target": "actualizar"
+    },
+    {
+      "id": "topic_087:breve",
+      "ru": "краткий",
+      "target": "breve"
+    },
+    {
+      "id": "topic_087:congelado",
+      "ru": "замороженный",
+      "target": "congelado"
+    },
+    {
+      "id": "topic_087:datos",
+      "ru": "данные",
+      "target": "datos"
+    },
+    {
+      "id": "topic_087:estrategia",
+      "ru": "стратегия",
+      "target": "estrategia"
+    },
+    {
+      "id": "topic_087:factura",
+      "ru": "счёт на оплату",
+      "target": "factura"
+    },
+    {
+      "id": "topic_087:funcionario",
+      "ru": "чиновник",
+      "target": "funcionario"
+    },
+    {
+      "id": "topic_087:futuro",
+      "ru": "будущее",
+      "target": "futuro"
+    },
+    {
+      "id": "topic_087:guardar",
+      "ru": "хранить",
+      "target": "guardar"
+    },
+    {
+      "id": "topic_087:impresora",
+      "ru": "принтер",
+      "target": "impresora"
+    },
+    {
+      "id": "topic_087:informe",
+      "ru": "сводка",
+      "target": "informe"
+    },
+    {
+      "id": "topic_087:lograr",
+      "ru": "добиваться",
+      "target": "lograr"
+    },
+    {
+      "id": "topic_087:media hora",
+      "ru": "полчаса",
+      "target": "media hora"
+    },
+    {
+      "id": "topic_087:opción",
+      "ru": "вариант",
+      "target": "opción"
+    },
+    {
+      "id": "topic_087:presentar",
+      "ru": "представлять",
+      "target": "presentar"
+    },
+    {
+      "id": "topic_087:resumen",
+      "ru": "пересказ",
+      "target": "resumen"
+    },
+    {
+      "id": "topic_087:sala de reuniones",
+      "ru": "зал для совещаний",
+      "target": "sala de reuniones"
+    },
+    {
+      "id": "topic_087:tener cuidado",
+      "ru": "быть осторожным",
+      "target": "tener cuidado"
+    },
+    {
+      "id": "topic_087:versión",
+      "ru": "версия",
+      "target": "versión"
+    }
+  ]
+}

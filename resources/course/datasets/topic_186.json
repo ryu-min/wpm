@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_186",
+  "description": "Заказывать в ресторане",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_186:carne de res",
+      "ru": "говядина",
+      "target": "carne de res"
+    },
+    {
+      "id": "topic_186:chuleta",
+      "ru": "отбивная",
+      "target": "chuleta"
+    },
+    {
+      "id": "topic_186:con gas",
+      "ru": "с газом",
+      "target": "con gas"
+    },
+    {
+      "id": "topic_186:manzanilla",
+      "ru": "ромашка",
+      "target": "manzanilla"
+    },
+    {
+      "id": "topic_186:me gustaría",
+      "ru": "мне понравился бы, мне хотелось бы",
+      "target": "me gustaría"
+    },
+    {
+      "id": "topic_186:me gustaría que",
+      "ru": "Мне бы хотелось, чтобы",
+      "target": "me gustaría que"
+    },
+    {
+      "id": "topic_186:no podría",
+      "ru": "не мог бы; не могла бы",
+      "target": "no podría"
+    },
+    {
+      "id": "topic_186:puede ser",
+      "ru": "может быть",
+      "target": "puede ser"
+    },
+    {
+      "id": "topic_186:se podría",
+      "ru": "можно ли",
+      "target": "se podría"
+    },
+    {
+      "id": "topic_186:sería posible",
+      "ru": "было бы возможно",
+      "target": "sería posible"
+    },
+    {
+      "id": "topic_186:tocino",
+      "ru": "бекон",
+      "target": "tocino"
+    }
+  ]
+}

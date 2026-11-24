@@ -88,3 +88,40 @@ Delete the config file only if it contains no other local settings.
 Every built-in set uses one JSON file in `resources/datasets/`. See
 [the dataset format and required checks](docs/datasets.md). Existing SQLite
 sets are preserved when a resource changes; new ids are added at startup.
+
+## Spanish course
+
+Start the Spanish tutor with `wpm-es` after installation, or run
+`cargo run --locked --bin wpm-es` from this checkout. `cargo run --locked`
+starts the original typing application.
+
+Use Up/Down to select the module, section or mode and Left/Right to change it.
+Module labels include their Spanish introduction from the preserved course
+structure, such as `1. ¡Hola!`. Long labels shorten to fit the terminal.
+Each change is saved immediately, including the last section visited in each
+module. Enter starts the activity. Escape returns home from an activity and
+exits from the home screen. Set `WPM_ES_DATA_DIR` to override the course's own
+data directory.
+
+Training uses the same typing screen as Translation. Type each full pair,
+Russian text followed by a space and Spanish text. Enter types the line break
+between pairs. Backspace can return to earlier pairs. The whole selected
+section is typed once in catalog order without a time limit. Completion is
+automatic at the last character, including when characters are incorrect.
+The result shows typing accuracy, WPM and elapsed time. Repeat starts with
+empty input and fresh statistics. Practice of exam mistakes types just those
+pairs and preserves that subset when repeated.
+
+Training uses Translation's default case-sensitive rules and physical layout
+conversion. Spanish positions accept simplified accents, including n for ñ.
+Canonical spelling is shown. The exam counts whole correct answers. Its centered input follows the cursor
+through wrapping and resizing. After the last question, the result offers
+"Посмотреть ошибки" to open a separate review with your answers and the correct
+translations. PgUp/PgDn scroll the review; Escape returns to the result menu.
+"Потренировать ошибки" starts practice directly. At 100%, the result offers
+repeat and return. Exam answers ignore case and surrounding
+spaces while preserving Spanish accents and ñ. Results last for the session.
+
+The offline course covers the published [Spanish from Russian vocabulary](https://duome.eu/vocabulary/ru/es/skills).
+Later topics span five consecutive sections sharing a vocabulary list. See the
+[dataset guide](docs/datasets.md) for sources and validation.

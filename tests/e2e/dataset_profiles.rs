@@ -494,3 +494,58 @@ fn five_profiles_route_settings_select_mode_quick_start_and_persist() {
         }
     }
 }
+
+#[test]
+fn module_one_update_preserves_legacy_choice_and_personal_data_on_two_startups() {
+    let data = TestDataDir::new();
+    data.seed_wordset("personal");
+    rusqlite::Connection::open(data.as_ref().join("wordset.db"))
+        .unwrap()
+        .execute(
+            "UPDATE word_sets SET name='personal' WHERE name='en_1000'",
+            [],
+        )
+        .unwrap();
+    data.seed_spanish("ru_es_duolingo_m1_s01_cafe", &[("мой кофе", "café")]);
+    data.write_settings(serde_json::json!({
+        "translation_set": "ru_es_duolingo_m1_s01_cafe",
+        "quick_start_translation_set": "ru_es_duolingo_m1_s01_cafe"
+    }));
+    for _ in 0..2 {
+        crate::common::run_wpm_capture(&[ESC], data.as_ref());
+    }
+    let conn = rusqlite::Connection::open(data.as_ref().join("wordset.db")).unwrap();
+    let legacy: String = conn
+        .query_row(
+            "SELECT ru FROM vocabulary_entries WHERE set_name='ru_es_duolingo_m1_s01_cafe'",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(legacy, "мой кофе");
+    let new_count: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM vocabulary_sets WHERE name LIKE 'ru_es_duolingo_m1_%'",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(new_count, 1);
+    let personal: i64 = conn
+        .query_row(
+            "SELECT count(*) FROM word_sets WHERE name='personal'",
+            [],
+            |row| row.get(0),
+        )
+        .unwrap();
+    assert_eq!(personal, 1);
+    let settings: serde_json::Value = serde_json::from_str(
+        &std::fs::read_to_string(data.as_ref().join("settings.json")).unwrap(),
+    )
+    .unwrap();
+    assert_eq!(settings["translation_set"], "ru_es_duolingo_m1_s01_cafe");
+    assert_eq!(
+        settings["quick_start_translation_set"],
+        "ru_es_duolingo_m1_s01_cafe"
+    );
+}

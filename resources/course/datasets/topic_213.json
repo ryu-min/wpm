@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_213",
+  "description": "Обсуди страховку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_213:adecuado",
+      "ru": "подходящий",
+      "target": "adecuado"
+    },
+    {
+      "id": "topic_213:atención médica",
+      "ru": "медицинская помощь",
+      "target": "atención médica"
+    },
+    {
+      "id": "topic_213:centro de salud",
+      "ru": "медицинский центр",
+      "target": "centro de salud"
+    },
+    {
+      "id": "topic_213:cobertura",
+      "ru": "покрытие",
+      "target": "cobertura"
+    },
+    {
+      "id": "topic_213:credencial",
+      "ru": "удостоверение",
+      "target": "credencial"
+    },
+    {
+      "id": "topic_213:cuidador",
+      "ru": "ухаживающий",
+      "target": "cuidador"
+    },
+    {
+      "id": "topic_213:discapacidad",
+      "ru": "инвалидность",
+      "target": "discapacidad"
+    },
+    {
+      "id": "topic_213:mayor de",
+      "ru": "больше, старше",
+      "target": "mayor de"
+    },
+    {
+      "id": "topic_213:menor de",
+      "ru": "младше; меньше (указанного количества)",
+      "target": "menor de"
+    },
+    {
+      "id": "topic_213:obtener",
+      "ru": "получать",
+      "target": "obtener"
+    },
+    {
+      "id": "topic_213:privado",
+      "ru": "частный",
+      "target": "privado"
+    },
+    {
+      "id": "topic_213:seguro social",
+      "ru": "социальное страхование",
+      "target": "seguro social"
+    },
+    {
+      "id": "topic_213:silla de ruedas",
+      "ru": "инвалидная коляска",
+      "target": "silla de ruedas"
+    },
+    {
+      "id": "topic_213:sin receta",
+      "ru": "без рецепта",
+      "target": "sin receta"
+    },
+    {
+      "id": "topic_213:solicitar",
+      "ru": "запрашивать",
+      "target": "solicitar"
+    },
+    {
+      "id": "topic_213:tarifa",
+      "ru": "тариф",
+      "target": "tarifa"
+    }
+  ]
+}

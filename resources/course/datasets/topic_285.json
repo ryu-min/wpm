@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_285",
+  "description": "Обсуждать наряды гостей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_285:ahijada",
+      "ru": "крестница",
+      "target": "ahijada"
+    },
+    {
+      "id": "topic_285:bufé",
+      "ru": "буфет",
+      "target": "bufé"
+    },
+    {
+      "id": "topic_285:cangrejo",
+      "ru": "краб",
+      "target": "cangrejo"
+    },
+    {
+      "id": "topic_285:coreógrafa",
+      "ru": "хореографка",
+      "target": "coreógrafa"
+    },
+    {
+      "id": "topic_285:descalzo",
+      "ru": "босиком",
+      "target": "descalzo"
+    },
+    {
+      "id": "topic_285:discreto",
+      "ru": "сдержанный",
+      "target": "discreto"
+    },
+    {
+      "id": "topic_285:emotivo",
+      "ru": "трогательный",
+      "target": "emotivo"
+    },
+    {
+      "id": "topic_285:empalagoso",
+      "ru": "приторный",
+      "target": "empalagoso"
+    },
+    {
+      "id": "topic_285:excesivo",
+      "ru": "чрезмерный",
+      "target": "excesivo"
+    },
+    {
+      "id": "topic_285:fiesta de quince",
+      "ru": "вечеринке на пятнадцатилетие, вечеринки на пятнадцатилетие",
+      "target": "fiesta de quince"
+    },
+    {
+      "id": "topic_285:modista",
+      "ru": "портниха",
+      "target": "modista"
+    },
+    {
+      "id": "topic_285:ostra",
+      "ru": "устрица",
+      "target": "ostra"
+    },
+    {
+      "id": "topic_285:pobre",
+      "ru": "бедный",
+      "target": "pobre"
+    },
+    {
+      "id": "topic_285:postizo",
+      "ru": "накладной; искусственный",
+      "target": "postizo"
+    },
+    {
+      "id": "topic_285:quinceañera",
+      "ru": "именинница",
+      "target": "quinceañera"
+    },
+    {
+      "id": "topic_285:recepción",
+      "ru": "стойка регистрации",
+      "target": "recepción"
+    },
+    {
+      "id": "topic_285:sacar a bailar",
+      "ru": "пригласить на танец",
+      "target": "sacar a bailar"
+    },
+    {
+      "id": "topic_285:tal cual",
+      "ru": "именно так",
+      "target": "tal cual"
+    },
+    {
+      "id": "topic_285:trago",
+      "ru": "глоток; порция алкоголя",
+      "target": "trago"
+    },
+    {
+      "id": "topic_285:vals",
+      "ru": "вальс",
+      "target": "vals"
+    },
+    {
+      "id": "topic_285:vergüenza",
+      "ru": "стыд",
+      "target": "vergüenza"
+    }
+  ]
+}

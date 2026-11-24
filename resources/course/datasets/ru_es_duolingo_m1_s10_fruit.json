@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s10_fruit",
+  "description": "Покупайте фрукты",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:bolsa",
+      "ru": "пакет",
+      "target": "bolsa"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:botella de",
+      "ru": "бутылка чего-либо",
+      "target": "botella de"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:cuánto cuesta",
+      "ru": "сколько стоит",
+      "target": "cuánto cuesta"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:dos",
+      "ru": "два",
+      "target": "dos"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:durazno",
+      "ru": "персик",
+      "target": "durazno"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:este",
+      "ru": "этот",
+      "target": "este"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:kilo de",
+      "ru": "килограмм чего-либо",
+      "target": "kilo de"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:mango",
+      "ru": "манго",
+      "target": "mango"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:mercado",
+      "ru": "рынок",
+      "target": "mercado"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:más",
+      "ru": "больше",
+      "target": "más"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:naranja",
+      "ru": "апельсин",
+      "target": "naranja"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:necesitar",
+      "ru": "нуждаться",
+      "target": "necesitar"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:piña",
+      "ru": "ананас",
+      "target": "piña"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:sandía",
+      "ru": "арбуз",
+      "target": "sandía"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s10_fruit:tres",
+      "ru": "три",
+      "target": "tres"
+    }
+  ]
+}

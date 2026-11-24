@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_092",
+  "description": "Выполняйте домашние дела",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_092:afuera",
+      "ru": "снаружи",
+      "target": "afuera"
+    },
+    {
+      "id": "topic_092:así",
+      "ru": "вот так, таким, таких, такие, такими, так, такой (же), таково",
+      "target": "así"
+    },
+    {
+      "id": "topic_092:colcha",
+      "ru": "покрывало",
+      "target": "colcha"
+    },
+    {
+      "id": "topic_092:cuarto de huéspedes",
+      "ru": "комната для гостей",
+      "target": "cuarto de huéspedes"
+    },
+    {
+      "id": "topic_092:di",
+      "ru": "скажи; я дал или дала",
+      "target": "di"
+    },
+    {
+      "id": "topic_092:dormitorio",
+      "ru": "спальня",
+      "target": "dormitorio"
+    },
+    {
+      "id": "topic_092:enseguida",
+      "ru": "немедленно",
+      "target": "enseguida"
+    },
+    {
+      "id": "topic_092:olla",
+      "ru": "кастрюля",
+      "target": "olla"
+    },
+    {
+      "id": "topic_092:por último",
+      "ru": "наконец",
+      "target": "por último"
+    },
+    {
+      "id": "topic_092:propietario",
+      "ru": "владелец",
+      "target": "propietario"
+    },
+    {
+      "id": "topic_092:recogedor",
+      "ru": "совок",
+      "target": "recogedor"
+    },
+    {
+      "id": "topic_092:sofá",
+      "ru": "диван",
+      "target": "sofá"
+    },
+    {
+      "id": "topic_092:sábana",
+      "ru": "простыня",
+      "target": "sábana"
+    },
+    {
+      "id": "topic_092:ten cuidado",
+      "ru": "будь осторожен",
+      "target": "ten cuidado"
+    },
+    {
+      "id": "topic_092:toalla",
+      "ru": "полотенце",
+      "target": "toalla"
+    },
+    {
+      "id": "topic_092:ve",
+      "ru": "иди; смотри (обращение на «ты»)",
+      "target": "ve"
+    },
+    {
+      "id": "topic_092:ven",
+      "ru": "приди, подойди, видите, видятся, приходи, (они) видят, иди, увидят",
+      "target": "ven"
+    },
+    {
+      "id": "topic_092:video",
+      "ru": "видео",
+      "target": "video"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+pub(crate) mod course;
 use crate::{
     domain::{TestMode, TypingSession},
     storage::Configuration,
@@ -6,6 +7,7 @@ use crate::{
         SettingsAction, SettingsWidget, TypingWidget,
     },
 };
+pub use course::run_spanish_course;
 use crossterm::event::{self, Event, KeyCode, KeyEvent, KeyEventKind, KeyModifiers};
 use ratatui::{DefaultTerminal, Frame, widgets::Paragraph};
 use std::time::Duration;

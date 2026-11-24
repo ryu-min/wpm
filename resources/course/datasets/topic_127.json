@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_127",
+  "description": "Обсудите проблемы со здоровьем",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_127:acostado",
+      "ru": "лежащий",
+      "target": "acostado"
+    },
+    {
+      "id": "topic_127:bastón",
+      "ru": "трость",
+      "target": "bastón"
+    },
+    {
+      "id": "topic_127:codo",
+      "ru": "локоть",
+      "target": "codo"
+    },
+    {
+      "id": "topic_127:descubierto",
+      "ru": "обнаружена",
+      "target": "descubierto"
+    },
+    {
+      "id": "topic_127:descubrir",
+      "ru": "открывать",
+      "target": "descubrir"
+    },
+    {
+      "id": "topic_127:dicho",
+      "ru": "сказано",
+      "target": "dicho"
+    },
+    {
+      "id": "topic_127:disponible",
+      "ru": "доступный",
+      "target": "disponible"
+    },
+    {
+      "id": "topic_127:divorciado",
+      "ru": "разведённый (брак расторгнут)",
+      "target": "divorciado"
+    },
+    {
+      "id": "topic_127:documento de identidad",
+      "ru": "удостоверение личности",
+      "target": "documento de identidad"
+    },
+    {
+      "id": "topic_127:estado civil",
+      "ru": "семейное положение",
+      "target": "estado civil"
+    },
+    {
+      "id": "topic_127:gripe",
+      "ru": "грипп",
+      "target": "gripe"
+    },
+    {
+      "id": "topic_127:lastimar",
+      "ru": "поранить",
+      "target": "lastimar"
+    },
+    {
+      "id": "topic_127:lengua",
+      "ru": "язык",
+      "target": "lengua"
+    },
+    {
+      "id": "topic_127:medicamento",
+      "ru": "лекарство",
+      "target": "medicamento"
+    },
+    {
+      "id": "topic_127:pecho",
+      "ru": "грудь",
+      "target": "pecho"
+    },
+    {
+      "id": "topic_127:recetar",
+      "ru": "выписывать лекарство",
+      "target": "recetar"
+    },
+    {
+      "id": "topic_127:sentada",
+      "ru": "сидите",
+      "target": "sentada"
+    },
+    {
+      "id": "topic_127:separado",
+      "ru": "живущий отдельно (после расставания)",
+      "target": "separado"
+    },
+    {
+      "id": "topic_127:suave",
+      "ru": "мягкий",
+      "target": "suave"
+    },
+    {
+      "id": "topic_127:uña",
+      "ru": "ноготь",
+      "target": "uña"
+    },
+    {
+      "id": "topic_127:viudo",
+      "ru": "вдовец",
+      "target": "viudo"
+    }
+  ]
+}

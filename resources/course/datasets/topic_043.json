@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_043",
+  "description": "Обсуждайте занятия",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_043:cerveza",
+      "ru": "пиво",
+      "target": "cerveza"
+    },
+    {
+      "id": "topic_043:delicioso",
+      "ru": "очень вкусный",
+      "target": "delicioso"
+    },
+    {
+      "id": "topic_043:frito",
+      "ru": "жареный",
+      "target": "frito"
+    },
+    {
+      "id": "topic_043:fuera",
+      "ru": "снаружи",
+      "target": "fuera"
+    },
+    {
+      "id": "topic_043:gracias por",
+      "ru": "спасибо за",
+      "target": "gracias por"
+    },
+    {
+      "id": "topic_043:juego",
+      "ru": "игра",
+      "target": "juego"
+    },
+    {
+      "id": "topic_043:lista",
+      "ru": "список",
+      "target": "lista"
+    },
+    {
+      "id": "topic_043:música en vivo",
+      "ru": "живая музыка",
+      "target": "música en vivo"
+    },
+    {
+      "id": "topic_043:no importa",
+      "ru": "не важно",
+      "target": "no importa"
+    },
+    {
+      "id": "topic_043:noche",
+      "ru": "ночь",
+      "target": "noche"
+    },
+    {
+      "id": "topic_043:pollo",
+      "ru": "курица",
+      "target": "pollo"
+    },
+    {
+      "id": "topic_043:reserva",
+      "ru": "бронирование",
+      "target": "reserva"
+    },
+    {
+      "id": "topic_043:tener hambre",
+      "ru": "быть голодным",
+      "target": "tener hambre"
+    },
+    {
+      "id": "topic_043:venir",
+      "ru": "приходить",
+      "target": "venir"
+    },
+    {
+      "id": "topic_043:útil",
+      "ru": "полезный",
+      "target": "útil"
+    }
+  ]
+}

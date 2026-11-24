@@ -22,30 +22,37 @@ impl VocabularySet {
         debug_assert!(!self.id.is_empty());
         debug_assert_eq!(self.source_language, "ru");
         debug_assert!(!self.level.is_empty());
-        let mut text = String::new();
-        let mut policies = Vec::new();
-        for entry in &self.entries {
-            if !text.is_empty() {
-                text.push('\n');
-                policies.push(Language::Exact);
-            }
-            text.push_str(&entry.ru);
-            policies.extend(vec![
-                Language::Layout;
-                language_input::units(&entry.ru).len()
-            ]);
-            text.push(' ');
-            policies.push(Language::Exact);
-            text.push_str(&entry.es);
-            policies.extend(vec![
-                if self.target_language == "es" {
-                    Language::Spanish
-                } else {
-                    Language::Layout
-                };
-                language_input::units(&entry.es).len()
-            ]);
-        }
-        (text, policies)
+        translation_text(
+            self.entries.iter().map(|e| (e.ru.as_str(), e.es.as_str())),
+            self.target_language == "es",
+        )
     }
+}
+
+pub(crate) fn translation_text<'a>(
+    entries: impl IntoIterator<Item = (&'a str, &'a str)>,
+    spanish: bool,
+) -> (String, Vec<Language>) {
+    let mut text = String::new();
+    let mut policies = Vec::new();
+    for (ru, es) in entries {
+        if !text.is_empty() {
+            text.push('\n');
+            policies.push(Language::Exact);
+        }
+        text.push_str(ru);
+        policies.extend(vec![Language::Layout; language_input::units(ru).len()]);
+        text.push(' ');
+        policies.push(Language::Exact);
+        text.push_str(es);
+        policies.extend(vec![
+            if spanish {
+                Language::Spanish
+            } else {
+                Language::Layout
+            };
+            language_input::units(es).len()
+        ]);
+    }
+    (text, policies)
 }

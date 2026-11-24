@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_204",
+  "description": "Предлагать еду и закуски",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_204:avena",
+      "ru": "овёс",
+      "target": "avena"
+    },
+    {
+      "id": "topic_204:calentar",
+      "ru": "нагревать",
+      "target": "calentar"
+    },
+    {
+      "id": "topic_204:casero",
+      "ru": "домашний",
+      "target": "casero"
+    },
+    {
+      "id": "topic_204:cucharada",
+      "ru": "столовая ложка",
+      "target": "cucharada"
+    },
+    {
+      "id": "topic_204:despertar",
+      "ru": "будить",
+      "target": "despertar"
+    },
+    {
+      "id": "topic_204:hierba",
+      "ru": "трава",
+      "target": "hierba"
+    },
+    {
+      "id": "topic_204:huevos revueltos",
+      "ru": "яичница-болтунья",
+      "target": "huevos revueltos"
+    },
+    {
+      "id": "topic_204:jugoso",
+      "ru": "сочный",
+      "target": "jugoso"
+    },
+    {
+      "id": "topic_204:lasaña",
+      "ru": "лазанья",
+      "target": "lasaña"
+    },
+    {
+      "id": "topic_204:mantequilla de maní",
+      "ru": "арахисовое масло",
+      "target": "mantequilla de maní"
+    },
+    {
+      "id": "topic_204:palomitas de maíz",
+      "ru": "попкорн",
+      "target": "palomitas de maíz"
+    },
+    {
+      "id": "topic_204:para que",
+      "ru": "чтобы",
+      "target": "para que"
+    },
+    {
+      "id": "topic_204:poco después",
+      "ru": "немного позже",
+      "target": "poco después"
+    },
+    {
+      "id": "topic_204:recordar a",
+      "ru": "вспомнить",
+      "target": "recordar a"
+    }
+  ]
+}

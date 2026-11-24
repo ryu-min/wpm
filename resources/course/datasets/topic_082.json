@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_082",
+  "description": "Покупайте продукты",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_082:aderezo",
+      "ru": "заправка для салата",
+      "target": "aderezo"
+    },
+    {
+      "id": "topic_082:almendra",
+      "ru": "миндаль",
+      "target": "almendra"
+    },
+    {
+      "id": "topic_082:cien",
+      "ru": "сто",
+      "target": "cien"
+    },
+    {
+      "id": "topic_082:cilantro",
+      "ru": "кориандр",
+      "target": "cilantro"
+    },
+    {
+      "id": "topic_082:espinaca",
+      "ru": "шпинат",
+      "target": "espinaca"
+    },
+    {
+      "id": "topic_082:fresco",
+      "ru": "прохладный",
+      "target": "fresco"
+    },
+    {
+      "id": "topic_082:fruto seco",
+      "ru": "орех; сушёный плод",
+      "target": "fruto seco"
+    },
+    {
+      "id": "topic_082:gramo",
+      "ru": "грамм",
+      "target": "gramo"
+    },
+    {
+      "id": "topic_082:llamar",
+      "ru": "звать",
+      "target": "llamar"
+    },
+    {
+      "id": "topic_082:melón",
+      "ru": "дыня",
+      "target": "melón"
+    },
+    {
+      "id": "topic_082:nuez",
+      "ru": "грецкий орех",
+      "target": "nuez"
+    },
+    {
+      "id": "topic_082:olvidar",
+      "ru": "забывать",
+      "target": "olvidar"
+    },
+    {
+      "id": "topic_082:orégano",
+      "ru": "душица",
+      "target": "orégano"
+    },
+    {
+      "id": "topic_082:qué más",
+      "ru": "что ещё",
+      "target": "qué más"
+    },
+    {
+      "id": "topic_082:salado",
+      "ru": "солёный",
+      "target": "salado"
+    },
+    {
+      "id": "topic_082:vainilla",
+      "ru": "ваниль",
+      "target": "vainilla"
+    },
+    {
+      "id": "topic_082:vinagre",
+      "ru": "уксус",
+      "target": "vinagre"
+    },
+    {
+      "id": "topic_082:volver",
+      "ru": "возвращаться",
+      "target": "volver"
+    }
+  ]
+}

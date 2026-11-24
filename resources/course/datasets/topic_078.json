@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_078",
+  "description": "Общайтесь на работе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_078:aceptar",
+      "ru": "принимать",
+      "target": "aceptar"
+    },
+    {
+      "id": "topic_078:alarma",
+      "ru": "будильник",
+      "target": "alarma"
+    },
+    {
+      "id": "topic_078:anoche",
+      "ru": "вчера вечером",
+      "target": "anoche"
+    },
+    {
+      "id": "topic_078:asistente",
+      "ru": "помощник",
+      "target": "asistente"
+    },
+    {
+      "id": "topic_078:ayer",
+      "ru": "вчера",
+      "target": "ayer"
+    },
+    {
+      "id": "topic_078:dejar",
+      "ru": "оставлять; позволять",
+      "target": "dejar"
+    },
+    {
+      "id": "topic_078:empresario",
+      "ru": "предприниматель",
+      "target": "empresario"
+    },
+    {
+      "id": "topic_078:especialista",
+      "ru": "специалист",
+      "target": "especialista"
+    },
+    {
+      "id": "topic_078:faltar",
+      "ru": "недоставать",
+      "target": "faltar"
+    },
+    {
+      "id": "topic_078:fecha",
+      "ru": "дата",
+      "target": "fecha"
+    },
+    {
+      "id": "topic_078:flexible",
+      "ru": "гибкий",
+      "target": "flexible"
+    },
+    {
+      "id": "topic_078:hasta tarde",
+      "ru": "до позднего времени",
+      "target": "hasta tarde"
+    },
+    {
+      "id": "topic_078:hoja",
+      "ru": "лист",
+      "target": "hoja"
+    },
+    {
+      "id": "topic_078:intentar",
+      "ru": "пытаться",
+      "target": "intentar"
+    },
+    {
+      "id": "topic_078:preguntar",
+      "ru": "спрашивать",
+      "target": "preguntar"
+    },
+    {
+      "id": "topic_078:profesión",
+      "ru": "профессия",
+      "target": "profesión"
+    },
+    {
+      "id": "topic_078:puntual",
+      "ru": "пунктуальный",
+      "target": "puntual"
+    },
+    {
+      "id": "topic_078:tomarse",
+      "ru": "относиться",
+      "target": "tomarse"
+    },
+    {
+      "id": "topic_078:tráfico",
+      "ru": "дорожное движение",
+      "target": "tráfico"
+    }
+  ]
+}

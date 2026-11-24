@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_057",
+  "description": "Выбирайте товары при покупках",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_057:carrito",
+      "ru": "коляска",
+      "target": "carrito"
+    },
+    {
+      "id": "topic_057:cepillo",
+      "ru": "щётка",
+      "target": "cepillo"
+    },
+    {
+      "id": "topic_057:crema",
+      "ru": "крем",
+      "target": "crema"
+    },
+    {
+      "id": "topic_057:desodorante",
+      "ru": "дезодорант",
+      "target": "desodorante"
+    },
+    {
+      "id": "topic_057:fila",
+      "ru": "очередь",
+      "target": "fila"
+    },
+    {
+      "id": "topic_057:lista de la compra",
+      "ru": "список покупок",
+      "target": "lista de la compra"
+    },
+    {
+      "id": "topic_057:mayonesa",
+      "ru": "майонез",
+      "target": "mayonesa"
+    },
+    {
+      "id": "topic_057:mermelada",
+      "ru": "варенье",
+      "target": "mermelada"
+    },
+    {
+      "id": "topic_057:pasillo",
+      "ru": "коридор",
+      "target": "pasillo"
+    },
+    {
+      "id": "topic_057:producto",
+      "ru": "продукт",
+      "target": "producto"
+    }
+  ]
+}

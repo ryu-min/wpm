@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_246",
+  "description": "Обсуди курсы и экзамены",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_246:acaso",
+      "ru": "разве",
+      "target": "acaso"
+    },
+    {
+      "id": "topic_246:al fin y al cabo",
+      "ru": "в конце концов",
+      "target": "al fin y al cabo"
+    },
+    {
+      "id": "topic_246:comentar",
+      "ru": "комментировать",
+      "target": "comentar"
+    },
+    {
+      "id": "topic_246:concepto",
+      "ru": "понятие",
+      "target": "concepto"
+    },
+    {
+      "id": "topic_246:confuso",
+      "ru": "неясный; запутанный",
+      "target": "confuso"
+    },
+    {
+      "id": "topic_246:copiar",
+      "ru": "копировать",
+      "target": "copiar"
+    },
+    {
+      "id": "topic_246:cursar",
+      "ru": "проходить (учебный курс)",
+      "target": "cursar"
+    },
+    {
+      "id": "topic_246:egresado",
+      "ru": "выпускник",
+      "target": "egresado"
+    },
+    {
+      "id": "topic_246:ensayo",
+      "ru": "эссе; репетиция; испытание",
+      "target": "ensayo"
+    },
+    {
+      "id": "topic_246:evaluar",
+      "ru": "оценивать",
+      "target": "evaluar"
+    },
+    {
+      "id": "topic_246:examen parcial",
+      "ru": "промежуточный экзамен",
+      "target": "examen parcial"
+    },
+    {
+      "id": "topic_246:facultad",
+      "ru": "факультет",
+      "target": "facultad"
+    },
+    {
+      "id": "topic_246:había que",
+      "ru": "надо было",
+      "target": "había que"
+    },
+    {
+      "id": "topic_246:horas de consulta",
+      "ru": "часы приема",
+      "target": "horas de consulta"
+    },
+    {
+      "id": "topic_246:ni jota",
+      "ru": "ни йоты; ни капли",
+      "target": "ni jota"
+    },
+    {
+      "id": "topic_246:o sea",
+      "ru": "то есть",
+      "target": "o sea"
+    },
+    {
+      "id": "topic_246:práctica",
+      "ru": "практика",
+      "target": "práctica"
+    },
+    {
+      "id": "topic_246:referirse",
+      "ru": "отнестись",
+      "target": "referirse"
+    },
+    {
+      "id": "topic_246:sabático",
+      "ru": "связанный с длительным творческим отпуском",
+      "target": "sabático"
+    },
+    {
+      "id": "topic_246:teórico",
+      "ru": "теоретический",
+      "target": "teórico"
+    }
+  ]
+}

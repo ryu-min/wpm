@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_224",
+  "description": "Обсуждать проблемы семьи",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_224:adolescencia",
+      "ru": "подростковый возраст",
+      "target": "adolescencia"
+    },
+    {
+      "id": "topic_224:animar",
+      "ru": "воодушевлять",
+      "target": "animar"
+    },
+    {
+      "id": "topic_224:brevemente",
+      "ru": "кратко",
+      "target": "brevemente"
+    },
+    {
+      "id": "topic_224:colorear",
+      "ru": "раскрашивать",
+      "target": "colorear"
+    },
+    {
+      "id": "topic_224:comportamiento",
+      "ru": "поведение",
+      "target": "comportamiento"
+    },
+    {
+      "id": "topic_224:controlar",
+      "ru": "контролировать",
+      "target": "controlar"
+    },
+    {
+      "id": "topic_224:existir",
+      "ru": "существовать",
+      "target": "existir"
+    },
+    {
+      "id": "topic_224:familiar",
+      "ru": "семейный",
+      "target": "familiar"
+    },
+    {
+      "id": "topic_224:hacer caso",
+      "ru": "слушаться; обращать внимание",
+      "target": "hacer caso"
+    },
+    {
+      "id": "topic_224:hábito",
+      "ru": "привычка",
+      "target": "hábito"
+    },
+    {
+      "id": "topic_224:marcharse",
+      "ru": "уйти",
+      "target": "marcharse"
+    },
+    {
+      "id": "topic_224:meterse en problemas",
+      "ru": "попасть в неприятности",
+      "target": "meterse en problemas"
+    },
+    {
+      "id": "topic_224:par",
+      "ru": "пара",
+      "target": "par"
+    },
+    {
+      "id": "topic_224:presente",
+      "ru": "настоящее",
+      "target": "presente"
+    },
+    {
+      "id": "topic_224:relajación",
+      "ru": "расслабление",
+      "target": "relajación"
+    },
+    {
+      "id": "topic_224:sensible",
+      "ru": "чувствительный",
+      "target": "sensible"
+    }
+  ]
+}

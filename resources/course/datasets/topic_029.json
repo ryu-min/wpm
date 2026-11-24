@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_029",
+  "description": "Определенные артикли с временами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_029:a las",
+      "ru": "в",
+      "target": "a las"
+    },
+    {
+      "id": "topic_029:cena",
+      "ru": "ужин",
+      "target": "cena"
+    },
+    {
+      "id": "topic_029:concierto",
+      "ru": "концерт",
+      "target": "concierto"
+    },
+    {
+      "id": "topic_029:entrada",
+      "ru": "вход",
+      "target": "entrada"
+    },
+    {
+      "id": "topic_029:fin de semana",
+      "ru": "выходные",
+      "target": "fin de semana"
+    },
+    {
+      "id": "topic_029:invitación",
+      "ru": "приглашение",
+      "target": "invitación"
+    },
+    {
+      "id": "topic_029:lunes",
+      "ru": "понедельник",
+      "target": "lunes"
+    },
+    {
+      "id": "topic_029:ocupado",
+      "ru": "занятый",
+      "target": "ocupado"
+    },
+    {
+      "id": "topic_029:partido",
+      "ru": "матч",
+      "target": "partido"
+    },
+    {
+      "id": "topic_029:pizzería",
+      "ru": "пиццерия",
+      "target": "pizzería"
+    },
+    {
+      "id": "topic_029:plan",
+      "ru": "план",
+      "target": "plan"
+    },
+    {
+      "id": "topic_029:por la",
+      "ru": "по; через; в течение (перед существительным женского рода)",
+      "target": "por la"
+    },
+    {
+      "id": "topic_029:seis",
+      "ru": "шесть",
+      "target": "seis"
+    },
+    {
+      "id": "topic_029:sábado",
+      "ru": "суббота",
+      "target": "sábado"
+    },
+    {
+      "id": "topic_029:tarde",
+      "ru": "вечер",
+      "target": "tarde"
+    },
+    {
+      "id": "topic_029:temprano",
+      "ru": "рано",
+      "target": "temprano"
+    },
+    {
+      "id": "topic_029:tiempo",
+      "ru": "время",
+      "target": "tiempo"
+    },
+    {
+      "id": "topic_029:vegetariano",
+      "ru": "вегетарианец",
+      "target": "vegetariano"
+    },
+    {
+      "id": "topic_029:viernes",
+      "ru": "пятница",
+      "target": "viernes"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_175",
+  "description": "Обсудим литературу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_175:acción",
+      "ru": "действие",
+      "target": "acción"
+    },
+    {
+      "id": "topic_175:anteriormente",
+      "ru": "раньше",
+      "target": "anteriormente"
+    },
+    {
+      "id": "topic_175:banda",
+      "ru": "музыкальная группа",
+      "target": "banda"
+    },
+    {
+      "id": "topic_175:confirmado",
+      "ru": "подтверждено",
+      "target": "confirmado"
+    },
+    {
+      "id": "topic_175:contemporáneo",
+      "ru": "современный",
+      "target": "contemporáneo"
+    },
+    {
+      "id": "topic_175:encendido",
+      "ru": "включённый",
+      "target": "encendido"
+    },
+    {
+      "id": "topic_175:orquesta",
+      "ru": "оркестр",
+      "target": "orquesta"
+    },
+    {
+      "id": "topic_175:recomendado",
+      "ru": "рекомендованный",
+      "target": "recomendado"
+    },
+    {
+      "id": "topic_175:reconocido",
+      "ru": "признанный",
+      "target": "reconocido"
+    }
+  ]
+}

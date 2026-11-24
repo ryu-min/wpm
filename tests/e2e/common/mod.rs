@@ -117,14 +117,142 @@ pub fn run_wpm_capture_geometry(
     responses: &[ScreenResponse],
     geometry: (usize, usize),
 ) -> TestRun {
+    run_binary_capture(
+        keys,
+        data_dir,
+        environment,
+        pauses,
+        expectations,
+        responses,
+        geometry,
+        false,
+        false,
+    )
+}
+
+pub fn run_course_capture(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    geometry: (usize, usize),
+    responses: &[ScreenResponse],
+) -> TestRun {
+    run_binary_capture(
+        keys,
+        data_dir,
+        &[],
+        &[],
+        &[],
+        responses,
+        geometry,
+        true,
+        false,
+    )
+}
+
+pub fn run_course_waiting(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    geometry: (usize, usize),
+    expectations: &[(usize, &str)],
+) -> TestRun {
+    run_binary_capture(
+        keys,
+        data_dir,
+        &[],
+        &[],
+        expectations,
+        &[],
+        geometry,
+        true,
+        false,
+    )
+}
+
+pub fn run_course_interrupted(keys: &[&[u8]], data_dir: &Path) -> TestRun {
+    run_binary_capture(keys, data_dir, &[], &[], &[], &[], (80, 24), true, true)
+}
+
+fn run_binary_capture(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+    expectations: &[(usize, &str)],
+    responses: &[ScreenResponse],
+    geometry: (usize, usize),
+    course: bool,
+    interrupt: bool,
+) -> TestRun {
+    run_binary_observing(
+        keys,
+        data_dir,
+        environment,
+        pauses,
+        expectations,
+        responses,
+        geometry,
+        course,
+        interrupt,
+        &[],
+    )
+}
+
+pub type CellObservation = (
+    usize,
+    fn(&str, &[(String, termwiz::cell::CellAttributes)]) -> bool,
+);
+
+pub fn run_course_observing(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    responses: &[ScreenResponse],
+    observations: &[CellObservation],
+) -> TestRun {
+    run_binary_observing(
+        keys,
+        data_dir,
+        &[],
+        &[],
+        &[],
+        responses,
+        (80, 24),
+        true,
+        false,
+        observations,
+    )
+}
+
+fn run_binary_observing(
+    keys: &[&[u8]],
+    data_dir: &Path,
+    environment: &[(&str, &Path)],
+    pauses: &[(usize, Duration)],
+    expectations: &[(usize, &str)],
+    responses: &[ScreenResponse],
+    geometry: (usize, usize),
+    course: bool,
+    interrupt: bool,
+    observations: &[CellObservation],
+) -> TestRun {
     let mut command = script_command(geometry);
+    if interrupt {
+        command.env("WPM_PID_PATH", data_dir.join("process.pid"));
+    }
     for (name, value) in environment {
         command.env(name, value);
     }
     command
         .env_remove("NO_COLOR")
         .env("TERM", "xterm-256color")
-        .env("WPM_BIN", env!("CARGO_BIN_EXE_wpm"))
+        .env(
+            "WPM_BIN",
+            if course {
+                env!("CARGO_BIN_EXE_wpm-es")
+            } else {
+                env!("CARGO_BIN_EXE_wpm")
+            },
+        )
+        .env("WPM_ES_DATA_DIR", data_dir)
         .env("WPM_DATA_DIR", data_dir)
         .stdin(Stdio::piped())
         .stdout(Stdio::piped())
@@ -151,7 +279,15 @@ pub fn run_wpm_capture_geometry(
     });
 
     let started = Instant::now();
-    while !String::from_utf8_lossy(&captured.lock().unwrap()).contains("> Quick Start") {
+    while !String::from_utf8_lossy(&captured.lock().unwrap()).contains(if course {
+        if geometry.1 < 18 {
+            "Увеличьте"
+        } else {
+            "Испанский"
+        }
+    } else {
+        "> Quick Start"
+    }) {
         if started.elapsed() >= Duration::from_secs(5) {
             let _ = child.kill();
             let _ = child.wait();
@@ -206,6 +342,32 @@ pub fn run_wpm_capture_geometry(
                 thread::sleep(Duration::from_millis(10));
             }
         }
+        for (_, ready) in observations.iter().filter(|(at, _)| *at == index) {
+            let deadline = Instant::now() + Duration::from_secs(5);
+            loop {
+                let output = captured.lock().unwrap();
+                let screen = screen_from_output(&output, geometry);
+                let mut surface = surface_from_output(&output, geometry);
+                let cells = surface
+                    .screen_cells()
+                    .into_iter()
+                    .flat_map(|row| {
+                        row.iter()
+                            .map(|c| (c.str().to_owned(), c.attrs().clone()))
+                            .collect::<Vec<_>>()
+                    })
+                    .collect::<Vec<_>>();
+                if ready(&screen, &cells) {
+                    break;
+                }
+                assert!(
+                    Instant::now() < deadline,
+                    "state observation failed after key {index}: {screen}"
+                );
+                drop(output);
+                thread::sleep(Duration::from_millis(10));
+            }
+        }
         let output = captured.lock().unwrap();
         screens.push(screen_from_output(&output, geometry));
         let mut surface = surface_from_output(&output, geometry);
@@ -221,13 +383,24 @@ pub fn run_wpm_capture_geometry(
                 .collect(),
         );
     }
+    if interrupt {
+        let pid = fs::read_to_string(data_dir.join("process.pid")).unwrap();
+        assert!(
+            Command::new("kill")
+                .arg("-KILL")
+                .arg(pid.trim())
+                .status()
+                .unwrap()
+                .success()
+        );
+    }
     drop(stdin);
 
     let output = wait_with_timeout(child, Duration::from_secs(5), &captured);
     reader.join().expect("failed to join stdout reader");
     let stdout = String::from_utf8_lossy(&captured.lock().unwrap()).into_owned();
     assert!(
-        output.status.success(),
+        interrupt || output.status.success(),
         "expected successful exit\nstatus: {}\nstdout:\n{}\nstderr:\n{}",
         output.status,
         stdout,
@@ -247,14 +420,23 @@ fn screen_from_output(output: &[u8], geometry: (usize, usize)) -> String {
 fn surface_from_output(output: &[u8], geometry: (usize, usize)) -> Surface {
     let mut parser = Parser::new();
     let mut surface = Surface::new(geometry.0, geometry.1);
+    let mut pending_text = String::new();
     for action in parser.parse_as_vec(output) {
-        match action {
+        match &action {
             Action::Print(ch) => {
-                surface.add_change(Change::Text(ch.to_string()));
+                pending_text.push(*ch);
+                continue;
             }
             Action::PrintString(text) => {
-                surface.add_change(Change::Text(text));
+                pending_text.push_str(text);
+                continue;
             }
+            _ => {}
+        }
+        if !pending_text.is_empty() {
+            surface.add_change(Change::Text(std::mem::take(&mut pending_text)));
+        }
+        match action {
             Action::CSI(CSI::Cursor(Cursor::Position { line, col })) => {
                 surface.add_change(Change::CursorPosition {
                     x: Position::Absolute(col.as_zero_based() as usize),
@@ -272,6 +454,9 @@ fn surface_from_output(output: &[u8], geometry: (usize, usize)) -> Surface {
                             color.into(),
                         )));
                     }
+                    Sgr::Underline(value) => {
+                        surface.add_change(Change::Attribute(AttributeChange::Underline(value)));
+                    }
                     Sgr::StrikeThrough(value) => {
                         surface
                             .add_change(Change::Attribute(AttributeChange::StrikeThrough(value)));
@@ -282,6 +467,9 @@ fn surface_from_output(output: &[u8], geometry: (usize, usize)) -> Surface {
             _ => {}
         }
     }
+    if !pending_text.is_empty() {
+        surface.add_change(Change::Text(pending_text));
+    }
     surface
 }
 
@@ -289,7 +477,9 @@ fn script_command(geometry: (usize, usize)) -> Command {
     let mut command = Command::new("script");
     let shell_command = format!(
         "stty rows {} cols {}; {}",
-        geometry.1, geometry.0, "exec \"$WPM_BIN\""
+        geometry.1,
+        geometry.0,
+        "if [ -n \"$WPM_PID_PATH\" ]; then echo $$ > \"$WPM_PID_PATH\"; fi; exec \"$WPM_BIN\""
     );
     if cfg!(target_os = "macos") {
         command

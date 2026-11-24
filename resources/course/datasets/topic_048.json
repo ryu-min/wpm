@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_048",
+  "description": "Исследуйте город",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_048:agradable",
+      "ru": "приятный",
+      "target": "agradable"
+    },
+    {
+      "id": "topic_048:ahí",
+      "ru": "там",
+      "target": "ahí"
+    },
+    {
+      "id": "topic_048:al final de",
+      "ru": "в конце",
+      "target": "al final de"
+    },
+    {
+      "id": "topic_048:avenida",
+      "ru": "проспект",
+      "target": "avenida"
+    },
+    {
+      "id": "topic_048:catedral",
+      "ru": "собор",
+      "target": "catedral"
+    },
+    {
+      "id": "topic_048:confundido",
+      "ru": "запутался",
+      "target": "confundido"
+    },
+    {
+      "id": "topic_048:enorme",
+      "ru": "огромный",
+      "target": "enorme"
+    },
+    {
+      "id": "topic_048:esa",
+      "ru": "эта",
+      "target": "esa"
+    },
+    {
+      "id": "topic_048:ese",
+      "ru": "тот",
+      "target": "ese"
+    },
+    {
+      "id": "topic_048:fuente",
+      "ru": "фонтан; источник",
+      "target": "fuente"
+    },
+    {
+      "id": "topic_048:monumento",
+      "ru": "памятник",
+      "target": "monumento"
+    },
+    {
+      "id": "topic_048:pastelería",
+      "ru": "кондитерская",
+      "target": "pastelería"
+    },
+    {
+      "id": "topic_048:perdido",
+      "ru": "потерялся",
+      "target": "perdido"
+    },
+    {
+      "id": "topic_048:pescadería",
+      "ru": "рыбная лавка",
+      "target": "pescadería"
+    },
+    {
+      "id": "topic_048:por",
+      "ru": "через",
+      "target": "por"
+    }
+  ]
+}

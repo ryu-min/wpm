@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_122",
+  "description": "Обсуждайте новости",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_122:artículo",
+      "ru": "статья; артикль",
+      "target": "artículo"
+    },
+    {
+      "id": "topic_122:corrupto",
+      "ru": "коррумпированный",
+      "target": "corrupto"
+    },
+    {
+      "id": "topic_122:crisis",
+      "ru": "кризис",
+      "target": "crisis"
+    },
+    {
+      "id": "topic_122:decisión",
+      "ru": "решение",
+      "target": "decisión"
+    },
+    {
+      "id": "topic_122:divorciarse",
+      "ru": "разводиться",
+      "target": "divorciarse"
+    },
+    {
+      "id": "topic_122:economía",
+      "ru": "экономика",
+      "target": "economía"
+    },
+    {
+      "id": "topic_122:exmujer",
+      "ru": "бывшая жена",
+      "target": "exmujer"
+    },
+    {
+      "id": "topic_122:falso",
+      "ru": "ложный",
+      "target": "falso"
+    },
+    {
+      "id": "topic_122:fiable",
+      "ru": "надёжный",
+      "target": "fiable"
+    },
+    {
+      "id": "topic_122:imposible",
+      "ru": "невозможный",
+      "target": "imposible"
+    },
+    {
+      "id": "topic_122:mentir",
+      "ru": "лгать",
+      "target": "mentir"
+    },
+    {
+      "id": "topic_122:noticias",
+      "ru": "новости",
+      "target": "noticias"
+    },
+    {
+      "id": "topic_122:periodismo",
+      "ru": "журналистика",
+      "target": "periodismo"
+    },
+    {
+      "id": "topic_122:piloto",
+      "ru": "пилот",
+      "target": "piloto"
+    },
+    {
+      "id": "topic_122:renunciar",
+      "ru": "отказываться",
+      "target": "renunciar"
+    },
+    {
+      "id": "topic_122:reportero",
+      "ru": "репортёр",
+      "target": "reportero"
+    }
+  ]
+}

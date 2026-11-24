@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_214",
+  "description": "Расскажи о телезвёздах",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_214:a continuación",
+      "ru": "далее",
+      "target": "a continuación"
+    },
+    {
+      "id": "topic_214:aparecer",
+      "ru": "появляться",
+      "target": "aparecer"
+    },
+    {
+      "id": "topic_214:apodo",
+      "ru": "никнейм",
+      "target": "apodo"
+    },
+    {
+      "id": "topic_214:consistir",
+      "ru": "состоять",
+      "target": "consistir"
+    },
+    {
+      "id": "topic_214:cosmopolita",
+      "ru": "космополит; космополитичный",
+      "target": "cosmopolita"
+    },
+    {
+      "id": "topic_214:curiosidad",
+      "ru": "любопытство",
+      "target": "curiosidad"
+    },
+    {
+      "id": "topic_214:diseñador",
+      "ru": "дизайнер",
+      "target": "diseñador"
+    },
+    {
+      "id": "topic_214:estilista",
+      "ru": "стилист",
+      "target": "estilista"
+    },
+    {
+      "id": "topic_214:hablando de",
+      "ru": "говоря о",
+      "target": "hablando de"
+    },
+    {
+      "id": "topic_214:interrumpir",
+      "ru": "прерывать",
+      "target": "interrumpir"
+    },
+    {
+      "id": "topic_214:peinado",
+      "ru": "причёска",
+      "target": "peinado"
+    },
+    {
+      "id": "topic_214:reencarnación",
+      "ru": "реинкарнация",
+      "target": "reencarnación"
+    },
+    {
+      "id": "topic_214:sentido común",
+      "ru": "здравый смысл",
+      "target": "sentido común"
+    },
+    {
+      "id": "topic_214:soñar",
+      "ru": "видеть сны",
+      "target": "soñar"
+    },
+    {
+      "id": "topic_214:volviendo al tema",
+      "ru": "возвращаясь к теме",
+      "target": "volviendo al tema"
+    }
+  ]
+}

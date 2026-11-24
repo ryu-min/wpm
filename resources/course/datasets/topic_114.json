@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_114",
+  "description": "Обсуждайте культурные корни",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_114:Escocia",
+      "ru": "Шотландия",
+      "target": "Escocia"
+    },
+    {
+      "id": "topic_114:Tailandia",
+      "ru": "Таиланд",
+      "target": "Tailandia"
+    },
+    {
+      "id": "topic_114:academia",
+      "ru": "учебный центр",
+      "target": "academia"
+    },
+    {
+      "id": "topic_114:acento",
+      "ru": "акцент",
+      "target": "acento"
+    },
+    {
+      "id": "topic_114:casualidad",
+      "ru": "случайность",
+      "target": "casualidad"
+    },
+    {
+      "id": "topic_114:cubano",
+      "ru": "кубинец",
+      "target": "cubano"
+    },
+    {
+      "id": "topic_114:darse cuenta",
+      "ru": "осознать, осознавая",
+      "target": "darse cuenta"
+    },
+    {
+      "id": "topic_114:de qué",
+      "ru": "о чём",
+      "target": "de qué"
+    },
+    {
+      "id": "topic_114:escocés",
+      "ru": "шотландский",
+      "target": "escocés"
+    },
+    {
+      "id": "topic_114:espectacular",
+      "ru": "впечатляющий",
+      "target": "espectacular"
+    },
+    {
+      "id": "topic_114:exquisito",
+      "ru": "изысканный",
+      "target": "exquisito"
+    },
+    {
+      "id": "topic_114:haitiano",
+      "ru": "гаитянин",
+      "target": "haitiano"
+    },
+    {
+      "id": "topic_114:me divierto",
+      "ru": "развлекаюсь",
+      "target": "me divierto"
+    },
+    {
+      "id": "topic_114:nicaragüense",
+      "ru": "никарагуанец; никарагуанский",
+      "target": "nicaragüense"
+    },
+    {
+      "id": "topic_114:nos divertimos",
+      "ru": "мы развлекаемся; мы повеселились",
+      "target": "nos divertimos"
+    },
+    {
+      "id": "topic_114:paisaje",
+      "ru": "пейзаж",
+      "target": "paisaje"
+    },
+    {
+      "id": "topic_114:preferido",
+      "ru": "любимый",
+      "target": "preferido"
+    },
+    {
+      "id": "topic_114:salvadoreño",
+      "ru": "сальвадорец",
+      "target": "salvadoreño"
+    },
+    {
+      "id": "topic_114:se divirtió",
+      "ru": "развлекалась, развлекался",
+      "target": "se divirtió"
+    },
+    {
+      "id": "topic_114:tailandés",
+      "ru": "тайский",
+      "target": "tailandés"
+    },
+    {
+      "id": "topic_114:tradición",
+      "ru": "традиция",
+      "target": "tradición"
+    },
+    {
+      "id": "topic_114:veintidós",
+      "ru": "двадцать два",
+      "target": "veintidós"
+    }
+  ]
+}

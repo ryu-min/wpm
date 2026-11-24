@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_235",
+  "description": "Попроси помощи у коллег",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_235:a última hora",
+      "ru": "в последний момент",
+      "target": "a última hora"
+    },
+    {
+      "id": "topic_235:ampliar",
+      "ru": "расширить",
+      "target": "ampliar"
+    },
+    {
+      "id": "topic_235:con rapidez",
+      "ru": "быстро",
+      "target": "con rapidez"
+    },
+    {
+      "id": "topic_235:costos",
+      "ru": "расходы",
+      "target": "costos"
+    },
+    {
+      "id": "topic_235:definir",
+      "ru": "определять",
+      "target": "definir"
+    },
+    {
+      "id": "topic_235:deuda",
+      "ru": "долг",
+      "target": "deuda"
+    },
+    {
+      "id": "topic_235:en equipo",
+      "ru": "в команде",
+      "target": "en equipo"
+    },
+    {
+      "id": "topic_235:estadística",
+      "ru": "статистика",
+      "target": "estadística"
+    },
+    {
+      "id": "topic_235:exportación",
+      "ru": "экспорт",
+      "target": "exportación"
+    },
+    {
+      "id": "topic_235:ganancia",
+      "ru": "прибыль",
+      "target": "ganancia"
+    },
+    {
+      "id": "topic_235:pago",
+      "ru": "платёж; оплата",
+      "target": "pago"
+    },
+    {
+      "id": "topic_235:porcentaje",
+      "ru": "процент",
+      "target": "porcentaje"
+    },
+    {
+      "id": "topic_235:proveedor",
+      "ru": "поставщик",
+      "target": "proveedor"
+    },
+    {
+      "id": "topic_235:resumir",
+      "ru": "подводить итог",
+      "target": "resumir"
+    },
+    {
+      "id": "topic_235:simultáneamente",
+      "ru": "одновременно",
+      "target": "simultáneamente"
+    },
+    {
+      "id": "topic_235:un vistazo",
+      "ru": "взгляд",
+      "target": "un vistazo"
+    }
+  ]
+}

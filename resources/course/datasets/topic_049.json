@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "topic_049",
+  "description": "Описывайте ситуации в путешествии",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_049:andén",
+      "ru": "платформа",
+      "target": "andén"
+    },
+    {
+      "id": "topic_049:aquel",
+      "ru": "вон тот",
+      "target": "aquel"
+    },
+    {
+      "id": "topic_049:aventura",
+      "ru": "приключение",
+      "target": "aventura"
+    },
+    {
+      "id": "topic_049:cajero automático",
+      "ru": "банкомат, банкомате",
+      "target": "cajero automático"
+    },
+    {
+      "id": "topic_049:cambiar dinero",
+      "ru": "обменять деньги",
+      "target": "cambiar dinero"
+    },
+    {
+      "id": "topic_049:campamento",
+      "ru": "лагерь",
+      "target": "campamento"
+    },
+    {
+      "id": "topic_049:capital",
+      "ru": "столица",
+      "target": "capital"
+    },
+    {
+      "id": "topic_049:castillo",
+      "ru": "замок",
+      "target": "castillo"
+    },
+    {
+      "id": "topic_049:desafortunadamente",
+      "ru": "к сожалению",
+      "target": "desafortunadamente"
+    },
+    {
+      "id": "topic_049:destino",
+      "ru": "место назначения",
+      "target": "destino"
+    },
+    {
+      "id": "topic_049:distraído",
+      "ru": "рассеянный",
+      "target": "distraído"
+    },
+    {
+      "id": "topic_049:dólar",
+      "ru": "доллар",
+      "target": "dólar"
+    },
+    {
+      "id": "topic_049:empleado",
+      "ru": "работник",
+      "target": "empleado"
+    },
+    {
+      "id": "topic_049:encontrar",
+      "ru": "находить",
+      "target": "encontrar"
+    },
+    {
+      "id": "topic_049:equivocado",
+      "ru": "неправильный",
+      "target": "equivocado"
+    },
+    {
+      "id": "topic_049:generoso",
+      "ru": "щедрый",
+      "target": "generoso"
+    },
+    {
+      "id": "topic_049:número",
+      "ru": "число",
+      "target": "número"
+    },
+    {
+      "id": "topic_049:optimista",
+      "ru": "оптимистичный",
+      "target": "optimista"
+    },
+    {
+      "id": "topic_049:pantalla",
+      "ru": "экран",
+      "target": "pantalla"
+    },
+    {
+      "id": "topic_049:por fin",
+      "ru": "наконец-то",
+      "target": "por fin"
+    },
+    {
+      "id": "topic_049:puerta",
+      "ru": "дверь",
+      "target": "puerta"
+    },
+    {
+      "id": "topic_049:qué mala suerte",
+      "ru": "какая неудача",
+      "target": "qué mala suerte"
+    },
+    {
+      "id": "topic_049:qué tonto",
+      "ru": "Какой глупый, какой глупый",
+      "target": "qué tonto"
+    },
+    {
+      "id": "topic_049:tener prisa",
+      "ru": "спешить",
+      "target": "tener prisa"
+    },
+    {
+      "id": "topic_049:turismo",
+      "ru": "туризм",
+      "target": "turismo"
+    }
+  ]
+}

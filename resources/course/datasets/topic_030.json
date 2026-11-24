@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_030",
+  "description": "Представьтесь официально",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_030:apellido",
+      "ru": "фамилия",
+      "target": "apellido"
+    },
+    {
+      "id": "topic_030:arquitecto",
+      "ru": "архитектор",
+      "target": "arquitecto"
+    },
+    {
+      "id": "topic_030:bailarín",
+      "ru": "танцор",
+      "target": "bailarín"
+    },
+    {
+      "id": "topic_030:chef",
+      "ru": "шеф-повар",
+      "target": "chef"
+    },
+    {
+      "id": "topic_030:contador",
+      "ru": "бухгалтер",
+      "target": "contador"
+    },
+    {
+      "id": "topic_030:escritor",
+      "ru": "писатель",
+      "target": "escritor"
+    },
+    {
+      "id": "topic_030:famoso",
+      "ru": "знаменитый",
+      "target": "famoso"
+    },
+    {
+      "id": "topic_030:fotógrafo",
+      "ru": "фотограф",
+      "target": "fotógrafo"
+    },
+    {
+      "id": "topic_030:importante",
+      "ru": "важный",
+      "target": "importante"
+    },
+    {
+      "id": "topic_030:nombre",
+      "ru": "имя",
+      "target": "nombre"
+    },
+    {
+      "id": "topic_030:novela",
+      "ru": "роман",
+      "target": "novela"
+    },
+    {
+      "id": "topic_030:original",
+      "ru": "оригинальный",
+      "target": "original"
+    },
+    {
+      "id": "topic_030:profesor",
+      "ru": "учитель",
+      "target": "profesor"
+    },
+    {
+      "id": "topic_030:reunión",
+      "ru": "встреча",
+      "target": "reunión"
+    },
+    {
+      "id": "topic_030:usted",
+      "ru": "Вы",
+      "target": "usted"
+    },
+    {
+      "id": "topic_030:y usted",
+      "ru": "а вы",
+      "target": "y usted"
+    }
+  ]
+}

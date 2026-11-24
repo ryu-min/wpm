@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "ru_es_duolingo_m1_s04_family",
+  "description": "Представьте семью и друзей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "ru_es_duolingo_m1_s04_family:amiga",
+      "ru": "подруга",
+      "target": "amiga"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:amigo",
+      "ru": "друг",
+      "target": "amigo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:compañero de trabajo",
+      "ru": "коллега по работе",
+      "target": "compañero de trabajo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:en realidad",
+      "ru": "на самом деле",
+      "target": "en realidad"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:hermana",
+      "ru": "сестра",
+      "target": "hermana"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:hermano",
+      "ru": "брат",
+      "target": "hermano"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:hija",
+      "ru": "дочь",
+      "target": "hija"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:hijo",
+      "ru": "сын",
+      "target": "hijo"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:solamente",
+      "ru": "только",
+      "target": "solamente"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:también",
+      "ru": "тоже",
+      "target": "también"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:tener",
+      "ru": "иметь",
+      "target": "tener"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:tía",
+      "ru": "тётя",
+      "target": "tía"
+    },
+    {
+      "id": "ru_es_duolingo_m1_s04_family:tío",
+      "ru": "дядя",
+      "target": "tío"
+    }
+  ]
+}

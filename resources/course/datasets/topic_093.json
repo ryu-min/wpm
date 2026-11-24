@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_093",
+  "description": "Поделитесь своей историей жизни",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_093:agricultor",
+      "ru": "земледелец",
+      "target": "agricultor"
+    },
+    {
+      "id": "topic_093:andar",
+      "ru": "ходить",
+      "target": "andar"
+    },
+    {
+      "id": "topic_093:aula",
+      "ru": "учебный класс",
+      "target": "aula"
+    },
+    {
+      "id": "topic_093:broma",
+      "ru": "шутка",
+      "target": "broma"
+    },
+    {
+      "id": "topic_093:calmado",
+      "ru": "спокойный",
+      "target": "calmado"
+    },
+    {
+      "id": "topic_093:carnicería",
+      "ru": "мясная лавка",
+      "target": "carnicería"
+    },
+    {
+      "id": "topic_093:dar clases",
+      "ru": "преподавать; давать уроки",
+      "target": "dar clases"
+    },
+    {
+      "id": "topic_093:de niño",
+      "ru": "В детстве, в детстве",
+      "target": "de niño"
+    },
+    {
+      "id": "topic_093:divorcio",
+      "ru": "развод",
+      "target": "divorcio"
+    },
+    {
+      "id": "topic_093:graduación",
+      "ru": "выпускной; окончание учебного заведения",
+      "target": "graduación"
+    },
+    {
+      "id": "topic_093:guerra",
+      "ru": "война",
+      "target": "guerra"
+    },
+    {
+      "id": "topic_093:hijo único",
+      "ru": "единственный сын",
+      "target": "hijo único"
+    },
+    {
+      "id": "topic_093:hoy en día",
+      "ru": "в наши дни",
+      "target": "hoy en día"
+    },
+    {
+      "id": "topic_093:juntarse",
+      "ru": "собираться",
+      "target": "juntarse"
+    },
+    {
+      "id": "topic_093:rebelde",
+      "ru": "озорник",
+      "target": "rebelde"
+    },
+    {
+      "id": "topic_093:época",
+      "ru": "эпоха",
+      "target": "época"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_058",
+  "description": "Обсуждайте фильмы",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_058:actuar",
+      "ru": "действовать",
+      "target": "actuar"
+    },
+    {
+      "id": "topic_058:aquello",
+      "ru": "то (далеко)",
+      "target": "aquello"
+    },
+    {
+      "id": "topic_058:chileno",
+      "ru": "чилийский",
+      "target": "chileno"
+    },
+    {
+      "id": "topic_058:colombiano",
+      "ru": "колумбийский",
+      "target": "colombiano"
+    },
+    {
+      "id": "topic_058:diálogo",
+      "ru": "диалог",
+      "target": "diálogo"
+    },
+    {
+      "id": "topic_058:entretenido",
+      "ru": "занимательный",
+      "target": "entretenido"
+    },
+    {
+      "id": "topic_058:es mentira",
+      "ru": "ложь",
+      "target": "es mentira"
+    },
+    {
+      "id": "topic_058:eso",
+      "ru": "то (близко к собеседнику)",
+      "target": "eso"
+    },
+    {
+      "id": "topic_058:estadounidense",
+      "ru": "американец",
+      "target": "estadounidense"
+    },
+    {
+      "id": "topic_058:esto",
+      "ru": "это (близко ко мне)",
+      "target": "esto"
+    },
+    {
+      "id": "topic_058:final",
+      "ru": "конец",
+      "target": "final"
+    },
+    {
+      "id": "topic_058:magnífico",
+      "ru": "великолепный",
+      "target": "magnífico"
+    },
+    {
+      "id": "topic_058:perdonar",
+      "ru": "прощать",
+      "target": "perdonar"
+    },
+    {
+      "id": "topic_058:peruano",
+      "ru": "перуанский",
+      "target": "peruano"
+    },
+    {
+      "id": "topic_058:protagonista",
+      "ru": "главный герой",
+      "target": "protagonista"
+    },
+    {
+      "id": "topic_058:quizás",
+      "ru": "может быть",
+      "target": "quizás"
+    },
+    {
+      "id": "topic_058:sin duda",
+      "ru": "без сомнения",
+      "target": "sin duda"
+    },
+    {
+      "id": "topic_058:sorprendente",
+      "ru": "удивительный",
+      "target": "sorprendente"
+    }
+  ]
+}

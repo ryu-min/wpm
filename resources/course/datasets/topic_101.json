@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_101",
+  "description": "Планируйте мероприятие",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_101:adentro",
+      "ru": "внутри",
+      "target": "adentro"
+    },
+    {
+      "id": "topic_101:arroba",
+      "ru": "собака",
+      "target": "arroba"
+    },
+    {
+      "id": "topic_101:billetera",
+      "ru": "бумажник",
+      "target": "billetera"
+    },
+    {
+      "id": "topic_101:cancelar",
+      "ru": "отменять",
+      "target": "cancelar"
+    },
+    {
+      "id": "topic_101:casi",
+      "ru": "почти",
+      "target": "casi"
+    },
+    {
+      "id": "topic_101:coco",
+      "ru": "кокос",
+      "target": "coco"
+    },
+    {
+      "id": "topic_101:contactar",
+      "ru": "связаться",
+      "target": "contactar"
+    },
+    {
+      "id": "topic_101:correo",
+      "ru": "почта",
+      "target": "correo"
+    },
+    {
+      "id": "topic_101:costa rica",
+      "ru": "Коста-Рика",
+      "target": "costa rica"
+    },
+    {
+      "id": "topic_101:emoji",
+      "ru": "эмодзи",
+      "target": "emoji"
+    },
+    {
+      "id": "topic_101:encargarse de",
+      "ru": "заниматься",
+      "target": "encargarse de"
+    },
+    {
+      "id": "topic_101:falta",
+      "ru": "нехватка",
+      "target": "falta"
+    },
+    {
+      "id": "topic_101:grabar",
+      "ru": "записывать звук или видео",
+      "target": "grabar"
+    },
+    {
+      "id": "topic_101:mago",
+      "ru": "маг",
+      "target": "mago"
+    },
+    {
+      "id": "topic_101:me encargué de",
+      "ru": "я позаботился о (чём-либо); я взял на себя",
+      "target": "me encargué de"
+    },
+    {
+      "id": "topic_101:mensaje de texto",
+      "ru": "текстовое сообщение",
+      "target": "mensaje de texto"
+    },
+    {
+      "id": "topic_101:mensaje de voz",
+      "ru": "голосовое сообщение",
+      "target": "mensaje de voz"
+    },
+    {
+      "id": "topic_101:nube",
+      "ru": "облако",
+      "target": "nube"
+    },
+    {
+      "id": "topic_101:organizado",
+      "ru": "организованный",
+      "target": "organizado"
+    },
+    {
+      "id": "topic_101:pesimista",
+      "ru": "пессимистичный",
+      "target": "pesimista"
+    },
+    {
+      "id": "topic_101:sesenta",
+      "ru": "шестьдесят",
+      "target": "sesenta"
+    },
+    {
+      "id": "topic_101:tener suerte",
+      "ru": "быть удачливым; везти",
+      "target": "tener suerte"
+    }
+  ]
+}

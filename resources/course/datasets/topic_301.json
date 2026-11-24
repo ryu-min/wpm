@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_301",
+  "description": "Расскажи о детстве",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_301:a gusto",
+      "ru": "комфортно",
+      "target": "a gusto"
+    },
+    {
+      "id": "topic_301:complacer",
+      "ru": "угодить",
+      "target": "complacer"
+    },
+    {
+      "id": "topic_301:desde hacía",
+      "ru": "уже",
+      "target": "desde hacía"
+    },
+    {
+      "id": "topic_301:en pareja",
+      "ru": "в паре",
+      "target": "en pareja"
+    },
+    {
+      "id": "topic_301:expulsar",
+      "ru": "исключить",
+      "target": "expulsar"
+    },
+    {
+      "id": "topic_301:inquieto",
+      "ru": "неспокойный",
+      "target": "inquieto"
+    },
+    {
+      "id": "topic_301:no te creas",
+      "ru": "Не думай",
+      "target": "no te creas"
+    },
+    {
+      "id": "topic_301:prudente",
+      "ru": "осторожный",
+      "target": "prudente"
+    },
+    {
+      "id": "topic_301:que digamos",
+      "ru": "можно так сказать",
+      "target": "que digamos"
+    },
+    {
+      "id": "topic_301:rememorar",
+      "ru": "вспоминать",
+      "target": "rememorar"
+    },
+    {
+      "id": "topic_301:retomar",
+      "ru": "возобновить",
+      "target": "retomar"
+    },
+    {
+      "id": "topic_301:revoltoso",
+      "ru": "озорник",
+      "target": "revoltoso"
+    },
+    {
+      "id": "topic_301:saber nada",
+      "ru": "знать",
+      "target": "saber nada"
+    },
+    {
+      "id": "topic_301:trepar",
+      "ru": "взбираться",
+      "target": "trepar"
+    }
+  ]
+}

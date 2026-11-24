@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_264",
+  "description": "Выскажи мнение о политике",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_264:a la vez",
+      "ru": "одновременно",
+      "target": "a la vez"
+    },
+    {
+      "id": "topic_264:a partir de",
+      "ru": "Начиная с, начиная с",
+      "target": "a partir de"
+    },
+    {
+      "id": "topic_264:aunque sea",
+      "ru": "даже если это",
+      "target": "aunque sea"
+    },
+    {
+      "id": "topic_264:bastar",
+      "ru": "хватать; быть достаточным",
+      "target": "bastar"
+    },
+    {
+      "id": "topic_264:coincidir",
+      "ru": "совпадать",
+      "target": "coincidir"
+    },
+    {
+      "id": "topic_264:como decía",
+      "ru": "Как я говорил",
+      "target": "como decía"
+    },
+    {
+      "id": "topic_264:de una buena vez",
+      "ru": "наконец-то",
+      "target": "de una buena vez"
+    },
+    {
+      "id": "topic_264:diputado",
+      "ru": "депутат",
+      "target": "diputado"
+    },
+    {
+      "id": "topic_264:en qué estábamos",
+      "ru": "На чём мы остановились?, на чём мы остановились?",
+      "target": "en qué estábamos"
+    },
+    {
+      "id": "topic_264:momentito",
+      "ru": "минутка",
+      "target": "momentito"
+    },
+    {
+      "id": "topic_264:obsesionado",
+      "ru": "одержимый",
+      "target": "obsesionado"
+    },
+    {
+      "id": "topic_264:perder el hilo",
+      "ru": "потерять нить",
+      "target": "perder el hilo"
+    },
+    {
+      "id": "topic_264:perderse",
+      "ru": "сбиться",
+      "target": "perderse"
+    },
+    {
+      "id": "topic_264:puré",
+      "ru": "пюре",
+      "target": "puré"
+    },
+    {
+      "id": "topic_264:sea como sea",
+      "ru": "так или иначе",
+      "target": "sea como sea"
+    },
+    {
+      "id": "topic_264:sobras",
+      "ru": "остатки еды",
+      "target": "sobras"
+    }
+  ]
+}

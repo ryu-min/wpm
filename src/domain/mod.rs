@@ -1,3 +1,4 @@
+pub(crate) mod course;
 mod language;
 mod mode;
 mod settings;
@@ -7,4 +8,4 @@ pub(crate) use language::{Language, units};
 pub(crate) use mode::TestMode;
 pub(crate) use settings::Settings;
 pub(crate) use typing::TypingSession;
-pub(crate) use vocabulary::{VocabularyEntry, VocabularySet};
+pub(crate) use vocabulary::{VocabularyEntry, VocabularySet, translation_text};

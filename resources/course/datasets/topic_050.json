@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "topic_050",
+  "description": "Используйте указательные прилагательные",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_050:africano",
+      "ru": "африканский",
+      "target": "africano"
+    },
+    {
+      "id": "topic_050:alérgico",
+      "ru": "страдающий аллергией",
+      "target": "alérgico"
+    },
+    {
+      "id": "topic_050:asado",
+      "ru": "жареный; жаркое",
+      "target": "asado"
+    },
+    {
+      "id": "topic_050:camarón",
+      "ru": "креветка",
+      "target": "camarón"
+    },
+    {
+      "id": "topic_050:cerdo",
+      "ru": "свинья",
+      "target": "cerdo"
+    },
+    {
+      "id": "topic_050:chile",
+      "ru": "перец чили",
+      "target": "chile"
+    },
+    {
+      "id": "topic_050:de ahí",
+      "ru": "оттуда (от указанного места)",
+      "target": "de ahí"
+    },
+    {
+      "id": "topic_050:de allá",
+      "ru": "оттуда (издалека)",
+      "target": "de allá"
+    },
+    {
+      "id": "topic_050:dolor de estómago",
+      "ru": "боль в животе",
+      "target": "dolor de estómago"
+    },
+    {
+      "id": "topic_050:en vez de",
+      "ru": "вместо",
+      "target": "en vez de"
+    },
+    {
+      "id": "topic_050:especia",
+      "ru": "специя",
+      "target": "especia"
+    },
+    {
+      "id": "topic_050:está bueno",
+      "ru": "это вкусно",
+      "target": "está bueno"
+    },
+    {
+      "id": "topic_050:exótico",
+      "ru": "экзотический",
+      "target": "exótico"
+    },
+    {
+      "id": "topic_050:hacer la compra",
+      "ru": "делать покупки",
+      "target": "hacer la compra"
+    },
+    {
+      "id": "topic_050:infusión",
+      "ru": "травяной чай",
+      "target": "infusión"
+    },
+    {
+      "id": "topic_050:marca",
+      "ru": "торговая марка",
+      "target": "marca"
+    },
+    {
+      "id": "topic_050:maíz",
+      "ru": "кукуруза",
+      "target": "maíz"
+    },
+    {
+      "id": "topic_050:me puede ayudar",
+      "ru": "вы можете помочь мне",
+      "target": "me puede ayudar"
+    },
+    {
+      "id": "topic_050:necesario",
+      "ru": "необходимый",
+      "target": "necesario"
+    },
+    {
+      "id": "topic_050:odiar",
+      "ru": "ненавидеть",
+      "target": "odiar"
+    },
+    {
+      "id": "topic_050:rellenar",
+      "ru": "наполнять",
+      "target": "rellenar"
+    },
+    {
+      "id": "topic_050:tarta",
+      "ru": "торт",
+      "target": "tarta"
+    },
+    {
+      "id": "topic_050:típico",
+      "ru": "типичный",
+      "target": "típico"
+    },
+    {
+      "id": "topic_050:vendedor",
+      "ru": "продавец",
+      "target": "vendedor"
+    }
+  ]
+}

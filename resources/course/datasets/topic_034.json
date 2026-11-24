@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_034",
+  "description": "Используйте возвратные глаголы в быту",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_034:a qué hora",
+      "ru": "во сколько",
+      "target": "a qué hora"
+    },
+    {
+      "id": "topic_034:antes de",
+      "ru": "перед",
+      "target": "antes de"
+    },
+    {
+      "id": "topic_034:bañarse",
+      "ru": "купаться",
+      "target": "bañarse"
+    },
+    {
+      "id": "topic_034:blog",
+      "ru": "блог",
+      "target": "blog"
+    },
+    {
+      "id": "topic_034:cada",
+      "ru": "каждый",
+      "target": "cada"
+    },
+    {
+      "id": "topic_034:cara",
+      "ru": "лицо",
+      "target": "cara"
+    },
+    {
+      "id": "topic_034:cepillarse",
+      "ru": "чистить",
+      "target": "cepillarse"
+    },
+    {
+      "id": "topic_034:después de",
+      "ru": "после",
+      "target": "después de"
+    },
+    {
+      "id": "topic_034:diente",
+      "ru": "зуб",
+      "target": "diente"
+    },
+    {
+      "id": "topic_034:domingo",
+      "ru": "воскресенье",
+      "target": "domingo"
+    },
+    {
+      "id": "topic_034:lavarse",
+      "ru": "мыться",
+      "target": "lavarse"
+    },
+    {
+      "id": "topic_034:levantarse",
+      "ru": "вставать",
+      "target": "levantarse"
+    },
+    {
+      "id": "topic_034:llamarse",
+      "ru": "называться",
+      "target": "llamarse"
+    },
+    {
+      "id": "topic_034:mano",
+      "ru": "кисть руки",
+      "target": "mano"
+    },
+    {
+      "id": "topic_034:mes",
+      "ru": "месяц",
+      "target": "mes"
+    },
+    {
+      "id": "topic_034:normalmente",
+      "ru": "обычно",
+      "target": "normalmente"
+    },
+    {
+      "id": "topic_034:once",
+      "ru": "одиннадцать",
+      "target": "once"
+    },
+    {
+      "id": "topic_034:relajarse",
+      "ru": "расслабляться",
+      "target": "relajarse"
+    },
+    {
+      "id": "topic_034:siete",
+      "ru": "семь",
+      "target": "siete"
+    },
+    {
+      "id": "topic_034:televisión",
+      "ru": "телевидение",
+      "target": "televisión"
+    },
+    {
+      "id": "topic_034:todo el tiempo",
+      "ru": "всё время",
+      "target": "todo el tiempo"
+    },
+    {
+      "id": "topic_034:y media",
+      "ru": "и половина; тридцать минут (при указании времени)",
+      "target": "y media"
+    }
+  ]
+}

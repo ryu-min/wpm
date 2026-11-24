@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_027",
+  "description": "Представьтесь на вечеринке",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_027:alto",
+      "ru": "высокий",
+      "target": "alto"
+    },
+    {
+      "id": "topic_027:bajo",
+      "ru": "низкий",
+      "target": "bajo"
+    },
+    {
+      "id": "topic_027:bigote",
+      "ru": "усы",
+      "target": "bigote"
+    },
+    {
+      "id": "topic_027:camiseta",
+      "ru": "футболка",
+      "target": "camiseta"
+    },
+    {
+      "id": "topic_027:chica",
+      "ru": "девушка",
+      "target": "chica"
+    },
+    {
+      "id": "topic_027:chico",
+      "ru": "юноша",
+      "target": "chico"
+    },
+    {
+      "id": "topic_027:colega",
+      "ru": "коллега",
+      "target": "colega"
+    },
+    {
+      "id": "topic_027:cómo estás",
+      "ru": "как ты себя чувствуешь; как твои дела",
+      "target": "cómo estás"
+    },
+    {
+      "id": "topic_027:cómo te llamas",
+      "ru": "как тебя зовут",
+      "target": "cómo te llamas"
+    },
+    {
+      "id": "topic_027:divertido",
+      "ru": "весёлый",
+      "target": "divertido"
+    },
+    {
+      "id": "topic_027:ex",
+      "ru": "бывший",
+      "target": "ex"
+    },
+    {
+      "id": "topic_027:extranjero",
+      "ru": "иностранец",
+      "target": "extranjero"
+    },
+    {
+      "id": "topic_027:introvertido",
+      "ru": "интровертный",
+      "target": "introvertido"
+    },
+    {
+      "id": "topic_027:invitado",
+      "ru": "гость",
+      "target": "invitado"
+    },
+    {
+      "id": "topic_027:otro",
+      "ru": "другой",
+      "target": "otro"
+    },
+    {
+      "id": "topic_027:prima",
+      "ru": "двоюродная сестра",
+      "target": "prima"
+    },
+    {
+      "id": "topic_027:primo",
+      "ru": "двоюродный брат",
+      "target": "primo"
+    },
+    {
+      "id": "topic_027:sociable",
+      "ru": "общительный",
+      "target": "sociable"
+    },
+    {
+      "id": "topic_027:uno de",
+      "ru": "один из",
+      "target": "uno de"
+    },
+    {
+      "id": "topic_027:verde",
+      "ru": "зелёный",
+      "target": "verde"
+    },
+    {
+      "id": "topic_027:ya",
+      "ru": "уже",
+      "target": "ya"
+    },
+    {
+      "id": "topic_027:zapato",
+      "ru": "ботинок",
+      "target": "zapato"
+    }
+  ]
+}

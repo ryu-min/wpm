@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_177",
+  "description": "Расскажи о прогнозе погоды",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_177:brisa",
+      "ru": "бриз",
+      "target": "brisa"
+    },
+    {
+      "id": "topic_177:caer granizo",
+      "ru": "идти (о граде)",
+      "target": "caer granizo"
+    },
+    {
+      "id": "topic_177:cubierto",
+      "ru": "покрытый; затянутый облаками",
+      "target": "cubierto"
+    },
+    {
+      "id": "topic_177:en cualquier momento",
+      "ru": "в любой момент",
+      "target": "en cualquier momento"
+    },
+    {
+      "id": "topic_177:humedad",
+      "ru": "влажность",
+      "target": "humedad"
+    },
+    {
+      "id": "topic_177:inundación",
+      "ru": "наводнение",
+      "target": "inundación"
+    },
+    {
+      "id": "topic_177:lloviznar",
+      "ru": "моросить",
+      "target": "lloviznar"
+    },
+    {
+      "id": "topic_177:neblina",
+      "ru": "туман",
+      "target": "neblina"
+    },
+    {
+      "id": "topic_177:nevada",
+      "ru": "снегопад",
+      "target": "nevada"
+    },
+    {
+      "id": "topic_177:pronóstico",
+      "ru": "прогноз",
+      "target": "pronóstico"
+    },
+    {
+      "id": "topic_177:rayo",
+      "ru": "молния как разряд",
+      "target": "rayo"
+    },
+    {
+      "id": "topic_177:templado",
+      "ru": "тёплый",
+      "target": "templado"
+    },
+    {
+      "id": "topic_177:temporal",
+      "ru": "шторм",
+      "target": "temporal"
+    },
+    {
+      "id": "topic_177:tormenta eléctrica",
+      "ru": "гроза",
+      "target": "tormenta eléctrica"
+    },
+    {
+      "id": "topic_177:tronar",
+      "ru": "греметь",
+      "target": "tronar"
+    }
+  ]
+}

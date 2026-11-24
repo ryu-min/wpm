@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_072",
+  "description": "Планируйте социальные мероприятия",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_072:bingo",
+      "ru": "бинго",
+      "target": "bingo"
+    },
+    {
+      "id": "topic_072:chismoso",
+      "ru": "сплетник",
+      "target": "chismoso"
+    },
+    {
+      "id": "topic_072:comenzar",
+      "ru": "начаться",
+      "target": "comenzar"
+    },
+    {
+      "id": "topic_072:comienzo",
+      "ru": "началом, (я) начинаю, начало, началу",
+      "target": "comienzo"
+    },
+    {
+      "id": "topic_072:concurso",
+      "ru": "конкурс",
+      "target": "concurso"
+    },
+    {
+      "id": "topic_072:confiar en",
+      "ru": "доверять",
+      "target": "confiar en"
+    },
+    {
+      "id": "topic_072:conseguir",
+      "ru": "добиваться; получать",
+      "target": "conseguir"
+    },
+    {
+      "id": "topic_072:espectáculo",
+      "ru": "представление",
+      "target": "espectáculo"
+    },
+    {
+      "id": "topic_072:mientras",
+      "ru": "пока",
+      "target": "mientras"
+    },
+    {
+      "id": "topic_072:orgánico",
+      "ru": "органический",
+      "target": "orgánico"
+    },
+    {
+      "id": "topic_072:parece que",
+      "ru": "кажется, что, кажется, похоже, (что)",
+      "target": "parece que"
+    },
+    {
+      "id": "topic_072:principal",
+      "ru": "основной",
+      "target": "principal"
+    },
+    {
+      "id": "topic_072:probar",
+      "ru": "пробовать",
+      "target": "probar"
+    },
+    {
+      "id": "topic_072:programa",
+      "ru": "программа",
+      "target": "programa"
+    },
+    {
+      "id": "topic_072:puesto",
+      "ru": "пост",
+      "target": "puesto"
+    },
+    {
+      "id": "topic_072:quedarse dormido",
+      "ru": "заснуть",
+      "target": "quedarse dormido"
+    },
+    {
+      "id": "topic_072:recomendar",
+      "ru": "рекомендовать",
+      "target": "recomendar"
+    },
+    {
+      "id": "topic_072:resolver",
+      "ru": "решать проблему",
+      "target": "resolver"
+    },
+    {
+      "id": "topic_072:taller",
+      "ru": "мастерская",
+      "target": "taller"
+    },
+    {
+      "id": "topic_072:varios",
+      "ru": "несколько",
+      "target": "varios"
+    },
+    {
+      "id": "topic_072:veintiuno",
+      "ru": "двадцать один",
+      "target": "veintiuno"
+    }
+  ]
+}

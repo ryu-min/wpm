@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_063",
+  "description": "Спросите, как люди себя чувствуют",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_063:aliviado",
+      "ru": "чувствовать облегчение",
+      "target": "aliviado"
+    },
+    {
+      "id": "topic_063:apoyo",
+      "ru": "поддержка",
+      "target": "apoyo"
+    },
+    {
+      "id": "topic_063:ascensor",
+      "ru": "лифт",
+      "target": "ascensor"
+    },
+    {
+      "id": "topic_063:ayudar",
+      "ru": "помогать",
+      "target": "ayudar"
+    },
+    {
+      "id": "topic_063:complicado",
+      "ru": "сложный",
+      "target": "complicado"
+    },
+    {
+      "id": "topic_063:egoísta",
+      "ru": "эгоистичный",
+      "target": "egoísta"
+    },
+    {
+      "id": "topic_063:empezar a",
+      "ru": "начинать",
+      "target": "empezar a"
+    },
+    {
+      "id": "topic_063:empiezo a",
+      "ru": "начинаю",
+      "target": "empiezo a"
+    },
+    {
+      "id": "topic_063:en este momento",
+      "ru": "в данный момент",
+      "target": "en este momento"
+    },
+    {
+      "id": "topic_063:entregar",
+      "ru": "вручать",
+      "target": "entregar"
+    },
+    {
+      "id": "topic_063:estrés",
+      "ru": "стресс",
+      "target": "estrés"
+    },
+    {
+      "id": "topic_063:firmar",
+      "ru": "подписывать",
+      "target": "firmar"
+    },
+    {
+      "id": "topic_063:frustrado",
+      "ru": "расстроен",
+      "target": "frustrado"
+    },
+    {
+      "id": "topic_063:libre",
+      "ru": "свободный",
+      "target": "libre"
+    },
+    {
+      "id": "topic_063:llave",
+      "ru": "ключ",
+      "target": "llave"
+    },
+    {
+      "id": "topic_063:me despierto",
+      "ru": "просыпаюсь",
+      "target": "me despierto"
+    },
+    {
+      "id": "topic_063:meta",
+      "ru": "цель",
+      "target": "meta"
+    },
+    {
+      "id": "topic_063:por ejemplo",
+      "ru": "например",
+      "target": "por ejemplo"
+    },
+    {
+      "id": "topic_063:profesional",
+      "ru": "профессиональный",
+      "target": "profesional"
+    },
+    {
+      "id": "topic_063:respuesta",
+      "ru": "ответ",
+      "target": "respuesta"
+    },
+    {
+      "id": "topic_063:sin parar",
+      "ru": "без остановки",
+      "target": "sin parar"
+    },
+    {
+      "id": "topic_063:solución",
+      "ru": "решение",
+      "target": "solución"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_211",
+  "description": "Спроси о ремонте дома",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_211:antes de que",
+      "ru": "прежде чем",
+      "target": "antes de que"
+    },
+    {
+      "id": "topic_211:aproximado",
+      "ru": "приблизительный",
+      "target": "aproximado"
+    },
+    {
+      "id": "topic_211:calentador",
+      "ru": "обогреватель",
+      "target": "calentador"
+    },
+    {
+      "id": "topic_211:caño",
+      "ru": "труба",
+      "target": "caño"
+    },
+    {
+      "id": "topic_211:clavo",
+      "ru": "гвоздь",
+      "target": "clavo"
+    },
+    {
+      "id": "topic_211:cortarse la luz",
+      "ru": "отключаться электричество",
+      "target": "cortarse la luz"
+    },
+    {
+      "id": "topic_211:desenchufar",
+      "ru": "отключить",
+      "target": "desenchufar"
+    },
+    {
+      "id": "topic_211:después de que",
+      "ru": "после того как",
+      "target": "después de que"
+    },
+    {
+      "id": "topic_211:destornillador",
+      "ru": "отвёртка",
+      "target": "destornillador"
+    },
+    {
+      "id": "topic_211:ferretería",
+      "ru": "хозяйственный магазин",
+      "target": "ferretería"
+    },
+    {
+      "id": "topic_211:gas",
+      "ru": "газ",
+      "target": "gas"
+    },
+    {
+      "id": "topic_211:gotera",
+      "ru": "протечка",
+      "target": "gotera"
+    },
+    {
+      "id": "topic_211:hasta que",
+      "ru": "до тех пор, пока",
+      "target": "hasta que"
+    },
+    {
+      "id": "topic_211:mano de obra",
+      "ru": "рабочая сила",
+      "target": "mano de obra"
+    },
+    {
+      "id": "topic_211:mantenimiento",
+      "ru": "обслуживание",
+      "target": "mantenimiento"
+    },
+    {
+      "id": "topic_211:pérdida",
+      "ru": "убыток",
+      "target": "pérdida"
+    }
+  ]
+}

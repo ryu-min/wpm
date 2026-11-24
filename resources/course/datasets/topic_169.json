@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_169",
+  "description": "Просить всех читать книги",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_169:campus",
+      "ru": "кампус",
+      "target": "campus"
+    },
+    {
+      "id": "topic_169:es importante que",
+      "ru": "важно, чтобы",
+      "target": "es importante que"
+    },
+    {
+      "id": "topic_169:es necesario que",
+      "ru": "необходимо, чтобы, Необходимо, чтобы",
+      "target": "es necesario que"
+    },
+    {
+      "id": "topic_169:es urgente que",
+      "ru": "срочно нужно, чтобы",
+      "target": "es urgente que"
+    },
+    {
+      "id": "topic_169:materia",
+      "ru": "материя, (учебный) предмет",
+      "target": "materia"
+    },
+    {
+      "id": "topic_169:método",
+      "ru": "метод",
+      "target": "método"
+    },
+    {
+      "id": "topic_169:recomendable",
+      "ru": "рекомендуемый",
+      "target": "recomendable"
+    },
+    {
+      "id": "topic_169:sociología",
+      "ru": "социология",
+      "target": "sociología"
+    },
+    {
+      "id": "topic_169:universitario",
+      "ru": "университетский",
+      "target": "universitario"
+    }
+  ]
+}

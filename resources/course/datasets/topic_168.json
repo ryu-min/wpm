@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "topic_168",
+  "description": "Опиши выставку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_168:callado",
+      "ru": "молчаливый",
+      "target": "callado"
+    },
+    {
+      "id": "topic_168:cansador",
+      "ru": "утомительный",
+      "target": "cansador"
+    },
+    {
+      "id": "topic_168:conversador",
+      "ru": "разговорчивый",
+      "target": "conversador"
+    },
+    {
+      "id": "topic_168:escena",
+      "ru": "сцена",
+      "target": "escena"
+    },
+    {
+      "id": "topic_168:extrovertido",
+      "ru": "экстраверт",
+      "target": "extrovertido"
+    },
+    {
+      "id": "topic_168:hace un rato",
+      "ru": "некоторое время назад",
+      "target": "hace un rato"
+    },
+    {
+      "id": "topic_168:húmedo",
+      "ru": "влажный",
+      "target": "húmedo"
+    },
+    {
+      "id": "topic_168:obra de arte",
+      "ru": "произведение искусства",
+      "target": "obra de arte"
+    },
+    {
+      "id": "topic_168:qué raro",
+      "ru": "как странно",
+      "target": "qué raro"
+    },
+    {
+      "id": "topic_168:radiante",
+      "ru": "сияющий",
+      "target": "radiante"
+    },
+    {
+      "id": "topic_168:razonable",
+      "ru": "разумный",
+      "target": "razonable"
+    }
+  ]
+}

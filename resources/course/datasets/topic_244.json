@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_244",
+  "description": "Расскажи о суевериях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_244:absurdo",
+      "ru": "абсурдный",
+      "target": "absurdo"
+    },
+    {
+      "id": "topic_244:caldo",
+      "ru": "Бульон",
+      "target": "caldo"
+    },
+    {
+      "id": "topic_244:cinta",
+      "ru": "лента",
+      "target": "cinta"
+    },
+    {
+      "id": "topic_244:con sinceridad",
+      "ru": "искренне",
+      "target": "con sinceridad"
+    },
+    {
+      "id": "topic_244:creencia popular",
+      "ru": "поверье, поверью",
+      "target": "creencia popular"
+    },
+    {
+      "id": "topic_244:curar",
+      "ru": "лечить",
+      "target": "curar"
+    },
+    {
+      "id": "topic_244:de boca en boca",
+      "ru": "из уст в уста",
+      "target": "de boca en boca"
+    },
+    {
+      "id": "topic_244:dolor de garganta",
+      "ru": "боли в горле, болью в горле, боль в горле",
+      "target": "dolor de garganta"
+    },
+    {
+      "id": "topic_244:hipo",
+      "ru": "икота",
+      "target": "hipo"
+    },
+    {
+      "id": "topic_244:mal de ojo",
+      "ru": "дурной глаз",
+      "target": "mal de ojo"
+    },
+    {
+      "id": "topic_244:masticar",
+      "ru": "жевать",
+      "target": "masticar"
+    },
+    {
+      "id": "topic_244:mito",
+      "ru": "миф",
+      "target": "mito"
+    },
+    {
+      "id": "topic_244:picadura",
+      "ru": "укус",
+      "target": "picadura"
+    },
+    {
+      "id": "topic_244:sabelotodo",
+      "ru": "всезнайка",
+      "target": "sabelotodo"
+    },
+    {
+      "id": "topic_244:si mal no recuerdo",
+      "ru": "если я не ошибаюсь",
+      "target": "si mal no recuerdo"
+    },
+    {
+      "id": "topic_244:sonar",
+      "ru": "звучать",
+      "target": "sonar"
+    }
+  ]
+}

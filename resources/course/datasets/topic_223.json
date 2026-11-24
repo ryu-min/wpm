@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "topic_223",
+  "description": "Опиши своих соседей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_223:de al lado",
+      "ru": "по соседству",
+      "target": "de al lado"
+    },
+    {
+      "id": "topic_223:en voz baja",
+      "ru": "тихо",
+      "target": "en voz baja"
+    },
+    {
+      "id": "topic_223:gallo",
+      "ru": "петух",
+      "target": "gallo"
+    },
+    {
+      "id": "topic_223:inapropiado",
+      "ru": "неуместный",
+      "target": "inapropiado"
+    },
+    {
+      "id": "topic_223:lo es",
+      "ru": "так ли это, это так",
+      "target": "lo es"
+    },
+    {
+      "id": "topic_223:lo está",
+      "ru": "он или она находится в таком состоянии (замена ранее названного признака)",
+      "target": "lo está"
+    },
+    {
+      "id": "topic_223:loro",
+      "ru": "попугай",
+      "target": "loro"
+    },
+    {
+      "id": "topic_223:mellizo",
+      "ru": "брат-близнец",
+      "target": "mellizo"
+    },
+    {
+      "id": "topic_223:panadero",
+      "ru": "пекарь",
+      "target": "panadero"
+    },
+    {
+      "id": "topic_223:psicólogo",
+      "ru": "психолог",
+      "target": "psicólogo"
+    },
+    {
+      "id": "topic_223:qué horror",
+      "ru": "ужас",
+      "target": "qué horror"
+    },
+    {
+      "id": "topic_223:soportar",
+      "ru": "терпеть",
+      "target": "soportar"
+    },
+    {
+      "id": "topic_223:séptimo",
+      "ru": "седьмой",
+      "target": "séptimo"
+    }
+  ]
+}

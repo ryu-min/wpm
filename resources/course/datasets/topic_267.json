@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_267",
+  "description": "Оцени и улучши блюдо",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_267:al vapor",
+      "ru": "на пару",
+      "target": "al vapor"
+    },
+    {
+      "id": "topic_267:con todo respeto",
+      "ru": "со всем уважением",
+      "target": "con todo respeto"
+    },
+    {
+      "id": "topic_267:condimentar",
+      "ru": "приправить",
+      "target": "condimentar"
+    },
+    {
+      "id": "topic_267:cómo puede ser que",
+      "ru": "Как может быть, что, как может быть, что",
+      "target": "cómo puede ser que"
+    },
+    {
+      "id": "topic_267:dar el gusto",
+      "ru": "доставить удовольствие",
+      "target": "dar el gusto"
+    },
+    {
+      "id": "topic_267:desabrido",
+      "ru": "безвкусный",
+      "target": "desabrido"
+    },
+    {
+      "id": "topic_267:desde cero",
+      "ru": "с нуля",
+      "target": "desde cero"
+    },
+    {
+      "id": "topic_267:incapaz",
+      "ru": "неспособный",
+      "target": "incapaz"
+    },
+    {
+      "id": "topic_267:incomible",
+      "ru": "несъедобный",
+      "target": "incomible"
+    },
+    {
+      "id": "topic_267:langosta",
+      "ru": "лангуст",
+      "target": "langosta"
+    },
+    {
+      "id": "topic_267:marinar",
+      "ru": "мариновать",
+      "target": "marinar"
+    },
+    {
+      "id": "topic_267:masa",
+      "ru": "тесто",
+      "target": "masa"
+    },
+    {
+      "id": "topic_267:meterse",
+      "ru": "забираться внутрь",
+      "target": "meterse"
+    },
+    {
+      "id": "topic_267:negarse",
+      "ru": "отказаться",
+      "target": "negarse"
+    },
+    {
+      "id": "topic_267:ni pienso",
+      "ru": "я и не думаю; я и не собираюсь",
+      "target": "ni pienso"
+    },
+    {
+      "id": "topic_267:nuera",
+      "ru": "невестка",
+      "target": "nuera"
+    },
+    {
+      "id": "topic_267:pulpo",
+      "ru": "осьминог",
+      "target": "pulpo"
+    },
+    {
+      "id": "topic_267:recetario",
+      "ru": "сборник рецептов",
+      "target": "recetario"
+    },
+    {
+      "id": "topic_267:subestimar",
+      "ru": "недооценивать",
+      "target": "subestimar"
+    },
+    {
+      "id": "topic_267:yerno",
+      "ru": "зять",
+      "target": "yerno"
+    }
+  ]
+}

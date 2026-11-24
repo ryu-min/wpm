@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "topic_144",
+  "description": "Уточнить детали поездки",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_144:agencia",
+      "ru": "агентство",
+      "target": "agencia"
+    },
+    {
+      "id": "topic_144:directo",
+      "ru": "прямой",
+      "target": "directo"
+    },
+    {
+      "id": "topic_144:distancia",
+      "ru": "расстояние",
+      "target": "distancia"
+    },
+    {
+      "id": "topic_144:distrito",
+      "ru": "район",
+      "target": "distrito"
+    },
+    {
+      "id": "topic_144:frontera",
+      "ru": "граница",
+      "target": "frontera"
+    },
+    {
+      "id": "topic_144:guiar",
+      "ru": "вести",
+      "target": "guiar"
+    },
+    {
+      "id": "topic_144:hispanohablante",
+      "ru": "испаноязычный",
+      "target": "hispanohablante"
+    },
+    {
+      "id": "topic_144:itinerario",
+      "ru": "маршрут",
+      "target": "itinerario"
+    },
+    {
+      "id": "topic_144:llegada",
+      "ru": "прибытие",
+      "target": "llegada"
+    }
+  ]
+}

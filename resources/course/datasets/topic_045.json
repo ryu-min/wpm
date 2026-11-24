@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_045",
+  "description": "Используйте условные в настоящем простом",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_045:aproximadamente",
+      "ru": "примерно",
+      "target": "aproximadamente"
+    },
+    {
+      "id": "topic_045:chicos",
+      "ru": "ребята",
+      "target": "chicos"
+    },
+    {
+      "id": "topic_045:comida rápida",
+      "ru": "фастфуд",
+      "target": "comida rápida"
+    },
+    {
+      "id": "topic_045:descanso",
+      "ru": "отдых",
+      "target": "descanso"
+    },
+    {
+      "id": "topic_045:después",
+      "ru": "после",
+      "target": "después"
+    },
+    {
+      "id": "topic_045:estar de acuerdo",
+      "ru": "быть согласным",
+      "target": "estar de acuerdo"
+    },
+    {
+      "id": "topic_045:estresado",
+      "ru": "напряжён",
+      "target": "estresado"
+    },
+    {
+      "id": "topic_045:examen",
+      "ru": "экзамен",
+      "target": "examen"
+    },
+    {
+      "id": "topic_045:idea",
+      "ru": "идея",
+      "target": "idea"
+    },
+    {
+      "id": "topic_045:karaoke",
+      "ru": "караоке",
+      "target": "karaoke"
+    },
+    {
+      "id": "topic_045:primero",
+      "ru": "первый",
+      "target": "primero"
+    },
+    {
+      "id": "topic_045:recital",
+      "ru": "выступление",
+      "target": "recital"
+    },
+    {
+      "id": "topic_045:si",
+      "ru": "если",
+      "target": "si"
+    },
+    {
+      "id": "topic_045:sushi",
+      "ru": "суши",
+      "target": "sushi"
+    },
+    {
+      "id": "topic_045:tan",
+      "ru": "такой",
+      "target": "tan"
+    },
+    {
+      "id": "topic_045:un par de",
+      "ru": "пара чего-либо",
+      "target": "un par de"
+    },
+    {
+      "id": "topic_045:un rato",
+      "ru": "недолго",
+      "target": "un rato"
+    }
+  ]
+}

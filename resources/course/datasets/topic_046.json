@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "topic_046",
+  "description": "Планируйте поездку",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_046:al norte",
+      "ru": "на севере",
+      "target": "al norte"
+    },
+    {
+      "id": "topic_046:allá",
+      "ru": "там далеко",
+      "target": "allá"
+    },
+    {
+      "id": "topic_046:celular",
+      "ru": "мобильный телефон",
+      "target": "celular"
+    },
+    {
+      "id": "topic_046:de ida y vuelta",
+      "ru": "туда и обратно",
+      "target": "de ida y vuelta"
+    },
+    {
+      "id": "topic_046:dinero",
+      "ru": "деньги",
+      "target": "dinero"
+    },
+    {
+      "id": "topic_046:dirección",
+      "ru": "адрес",
+      "target": "dirección"
+    },
+    {
+      "id": "topic_046:gente",
+      "ru": "люди",
+      "target": "gente"
+    },
+    {
+      "id": "topic_046:guía",
+      "ru": "путеводитель",
+      "target": "guía"
+    },
+    {
+      "id": "topic_046:hace sol",
+      "ru": "солнечно",
+      "target": "hace sol"
+    },
+    {
+      "id": "topic_046:hacer las maletas",
+      "ru": "собирать чемоданы",
+      "target": "hacer las maletas"
+    },
+    {
+      "id": "topic_046:hacer un viaje",
+      "ru": "совершить поездку",
+      "target": "hacer un viaje"
+    },
+    {
+      "id": "topic_046:isla",
+      "ru": "остров",
+      "target": "isla"
+    },
+    {
+      "id": "topic_046:paraguas",
+      "ru": "зонт",
+      "target": "paraguas"
+    },
+    {
+      "id": "topic_046:planear",
+      "ru": "планировать",
+      "target": "planear"
+    },
+    {
+      "id": "topic_046:popular",
+      "ru": "популярный",
+      "target": "popular"
+    },
+    {
+      "id": "topic_046:reservar",
+      "ru": "бронировать",
+      "target": "reservar"
+    },
+    {
+      "id": "topic_046:responsable",
+      "ru": "ответственный",
+      "target": "responsable"
+    },
+    {
+      "id": "topic_046:souvenir",
+      "ru": "сувенир",
+      "target": "souvenir"
+    },
+    {
+      "id": "topic_046:tal vez",
+      "ru": "возможно",
+      "target": "tal vez"
+    },
+    {
+      "id": "topic_046:va a",
+      "ru": "(она) будет, (он) собирается, будет, (она) собирается, (он) будет, собираетесь",
+      "target": "va a"
+    },
+    {
+      "id": "topic_046:vamos a",
+      "ru": "давай, (мы) будем, (мы) собираемся, давайте",
+      "target": "vamos a"
+    },
+    {
+      "id": "topic_046:van a",
+      "ru": "(они) будут, (они) собираются, (вы) собираетесь, (вы) будете, будут, будете, собираетесь, идут в",
+      "target": "van a"
+    },
+    {
+      "id": "topic_046:vas a",
+      "ru": "(ты) собираешься, (ты) будешь",
+      "target": "vas a"
+    },
+    {
+      "id": "topic_046:visitar",
+      "ru": "посещать",
+      "target": "visitar"
+    },
+    {
+      "id": "topic_046:voy a",
+      "ru": "(я) буду, (я) собираюсь",
+      "target": "voy a"
+    },
+    {
+      "id": "topic_046:vuelo",
+      "ru": "полёт",
+      "target": "vuelo"
+    }
+  ]
+}

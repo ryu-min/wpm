@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_232",
+  "description": "Попроси разрешения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_232:en ese caso",
+      "ru": "в этом случае",
+      "target": "en ese caso"
+    },
+    {
+      "id": "topic_232:excepción",
+      "ru": "исключение",
+      "target": "excepción"
+    },
+    {
+      "id": "topic_232:hacer un trato",
+      "ru": "заключить сделку",
+      "target": "hacer un trato"
+    },
+    {
+      "id": "topic_232:lagartija",
+      "ru": "ящерица",
+      "target": "lagartija"
+    },
+    {
+      "id": "topic_232:ma",
+      "ru": "мама",
+      "target": "ma"
+    },
+    {
+      "id": "topic_232:no estoy seguro de que",
+      "ru": "не уверен, что",
+      "target": "no estoy seguro de que"
+    },
+    {
+      "id": "topic_232:pa",
+      "ru": "папа",
+      "target": "pa"
+    },
+    {
+      "id": "topic_232:para que quede claro",
+      "ru": "Чтобы было ясно",
+      "target": "para que quede claro"
+    },
+    {
+      "id": "topic_232:pensándolo bien",
+      "ru": "подумав",
+      "target": "pensándolo bien"
+    },
+    {
+      "id": "topic_232:posada",
+      "ru": "гостиница",
+      "target": "posada"
+    },
+    {
+      "id": "topic_232:que no",
+      "ru": "что не; чтобы не",
+      "target": "que no"
+    },
+    {
+      "id": "topic_232:que sea",
+      "ru": "чтобы было; пусть будет",
+      "target": "que sea"
+    },
+    {
+      "id": "topic_232:qué tal si",
+      "ru": "как насчёт того, чтобы",
+      "target": "qué tal si"
+    },
+    {
+      "id": "topic_232:qué te parece si",
+      "ru": "как насчёт того, если",
+      "target": "qué te parece si"
+    },
+    {
+      "id": "topic_232:si es así",
+      "ru": "если это так",
+      "target": "si es así"
+    },
+    {
+      "id": "topic_232:una y otra vez",
+      "ru": "снова и снова",
+      "target": "una y otra vez"
+    }
+  ]
+}

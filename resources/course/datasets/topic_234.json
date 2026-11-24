@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_234",
+  "description": "Найди себе новое жильё",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_234:a fin de",
+      "ru": "с целью; для того чтобы",
+      "target": "a fin de"
+    },
+    {
+      "id": "topic_234:a fondo",
+      "ru": "тщательно",
+      "target": "a fondo"
+    },
+    {
+      "id": "topic_234:agente inmobiliario",
+      "ru": "риэлтору, риэлтор, риэлтора",
+      "target": "agente inmobiliario"
+    },
+    {
+      "id": "topic_234:agrandar",
+      "ru": "увеличить",
+      "target": "agrandar"
+    },
+    {
+      "id": "topic_234:amueblar",
+      "ru": "обставить",
+      "target": "amueblar"
+    },
+    {
+      "id": "topic_234:azotea",
+      "ru": "плоская крыша; терраса на крыше",
+      "target": "azotea"
+    },
+    {
+      "id": "topic_234:azulejo",
+      "ru": "изразец",
+      "target": "azulejo"
+    },
+    {
+      "id": "topic_234:cerámica",
+      "ru": "керамика",
+      "target": "cerámica"
+    },
+    {
+      "id": "topic_234:dúplex",
+      "ru": "дуплекс",
+      "target": "dúplex"
+    },
+    {
+      "id": "topic_234:en alquiler",
+      "ru": "в аренду",
+      "target": "en alquiler"
+    },
+    {
+      "id": "topic_234:hipoteca",
+      "ru": "ипотека",
+      "target": "hipoteca"
+    },
+    {
+      "id": "topic_234:propiedad",
+      "ru": "собственность",
+      "target": "propiedad"
+    },
+    {
+      "id": "topic_234:trato",
+      "ru": "сделка",
+      "target": "trato"
+    },
+    {
+      "id": "topic_234:ubicado",
+      "ru": "расположено",
+      "target": "ubicado"
+    },
+    {
+      "id": "topic_234:vestidor",
+      "ru": "гардеробная",
+      "target": "vestidor"
+    },
+    {
+      "id": "topic_234:ía",
+      "ru": "бы",
+      "target": "ía"
+    }
+  ]
+}

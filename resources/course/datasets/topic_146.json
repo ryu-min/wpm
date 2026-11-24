@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_146",
+  "description": "Сравни привычки людей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_146:al mismo tiempo",
+      "ru": "одновременно",
+      "target": "al mismo tiempo"
+    },
+    {
+      "id": "topic_146:divertirse",
+      "ru": "развлекаться",
+      "target": "divertirse"
+    },
+    {
+      "id": "topic_146:maquillarse",
+      "ru": "краситься",
+      "target": "maquillarse"
+    },
+    {
+      "id": "topic_146:menos que",
+      "ru": "меньше чем",
+      "target": "menos que"
+    },
+    {
+      "id": "topic_146:más que",
+      "ru": "больше, чем",
+      "target": "más que"
+    },
+    {
+      "id": "topic_146:sacar",
+      "ru": "вывести",
+      "target": "sacar"
+    }
+  ]
+}

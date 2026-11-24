@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "topic_165",
+  "description": "Расскажи о своих желаниях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_165:aniversario",
+      "ru": "годовщина",
+      "target": "aniversario"
+    },
+    {
+      "id": "topic_165:en familia",
+      "ru": "в кругу семьи",
+      "target": "en familia"
+    },
+    {
+      "id": "topic_165:escultura",
+      "ru": "скульптура",
+      "target": "escultura"
+    },
+    {
+      "id": "topic_165:invitar",
+      "ru": "приглашать",
+      "target": "invitar"
+    },
+    {
+      "id": "topic_165:ojalá",
+      "ru": "хоть бы",
+      "target": "ojalá"
+    },
+    {
+      "id": "topic_165:poeta",
+      "ru": "поэт",
+      "target": "poeta"
+    },
+    {
+      "id": "topic_165:pronunciación",
+      "ru": "произношение",
+      "target": "pronunciación"
+    }
+  ]
+}

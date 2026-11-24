@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_286",
+  "description": "Расскажи о новом доме",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_286:a ver si",
+      "ru": "Посмотрим",
+      "target": "a ver si"
+    },
+    {
+      "id": "topic_286:adaptarse",
+      "ru": "адаптироваться",
+      "target": "adaptarse"
+    },
+    {
+      "id": "topic_286:afortunado",
+      "ru": "счастливец",
+      "target": "afortunado"
+    },
+    {
+      "id": "topic_286:al fin",
+      "ru": "наконец",
+      "target": "al fin"
+    },
+    {
+      "id": "topic_286:alentar",
+      "ru": "ободрять",
+      "target": "alentar"
+    },
+    {
+      "id": "topic_286:amplio",
+      "ru": "просторный",
+      "target": "amplio"
+    },
+    {
+      "id": "topic_286:de mi parte",
+      "ru": "от меня",
+      "target": "de mi parte"
+    },
+    {
+      "id": "topic_286:desaprovechar",
+      "ru": "упускать",
+      "target": "desaprovechar"
+    },
+    {
+      "id": "topic_286:despedida",
+      "ru": "прощание",
+      "target": "despedida"
+    },
+    {
+      "id": "topic_286:entusiasmado",
+      "ru": "воодушевлённый",
+      "target": "entusiasmado"
+    },
+    {
+      "id": "topic_286:envidiar",
+      "ru": "завидовать",
+      "target": "envidiar"
+    },
+    {
+      "id": "topic_286:eso espero",
+      "ru": "надеюсь на это, Надеюсь на это",
+      "target": "eso espero"
+    },
+    {
+      "id": "topic_286:incansable",
+      "ru": "неутомимый",
+      "target": "incansable"
+    },
+    {
+      "id": "topic_286:independizarse",
+      "ru": "стать независимой",
+      "target": "independizarse"
+    },
+    {
+      "id": "topic_286:que la pases",
+      "ru": "пусть у тебя всё будет отлично, пусть, пусть у тебя всё будет хорошо",
+      "target": "que la pases"
+    },
+    {
+      "id": "topic_286:que te vaya bien",
+      "ru": "Пусть у тебя всё будет хорошо, пусть у тебя всё будет хорошо",
+      "target": "que te vaya bien"
+    },
+    {
+      "id": "topic_286:rodeado de",
+      "ru": "окружённый",
+      "target": "rodeado de"
+    },
+    {
+      "id": "topic_286:saludo",
+      "ru": "приветствие",
+      "target": "saludo"
+    }
+  ]
+}

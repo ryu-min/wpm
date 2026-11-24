@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "topic_102",
+  "description": "Высказывайте мнение о здоровье",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_102:agua mineral",
+      "ru": "минеральная вода",
+      "target": "agua mineral"
+    },
+    {
+      "id": "topic_102:cafeína",
+      "ru": "кофеин",
+      "target": "cafeína"
+    },
+    {
+      "id": "topic_102:cantidad",
+      "ru": "количество",
+      "target": "cantidad"
+    },
+    {
+      "id": "topic_102:carne roja",
+      "ru": "красное мясо",
+      "target": "carne roja"
+    },
+    {
+      "id": "topic_102:definitivamente",
+      "ru": "определённо",
+      "target": "definitivamente"
+    },
+    {
+      "id": "topic_102:en forma",
+      "ru": "в форме",
+      "target": "en forma"
+    },
+    {
+      "id": "topic_102:esencial",
+      "ru": "существенный",
+      "target": "esencial"
+    },
+    {
+      "id": "topic_102:estricto",
+      "ru": "строгий",
+      "target": "estricto"
+    },
+    {
+      "id": "topic_102:inscribirse",
+      "ru": "записываться",
+      "target": "inscribirse"
+    },
+    {
+      "id": "topic_102:jengibre",
+      "ru": "имбирь",
+      "target": "jengibre"
+    },
+    {
+      "id": "topic_102:maratón",
+      "ru": "марафон",
+      "target": "maratón"
+    },
+    {
+      "id": "topic_102:meditar",
+      "ru": "Медитировать",
+      "target": "meditar"
+    },
+    {
+      "id": "topic_102:motivación",
+      "ru": "мотивация",
+      "target": "motivación"
+    },
+    {
+      "id": "topic_102:natural",
+      "ru": "природный",
+      "target": "natural"
+    },
+    {
+      "id": "topic_102:perder peso",
+      "ru": "терять вес",
+      "target": "perder peso"
+    },
+    {
+      "id": "topic_102:procesado",
+      "ru": "обработанный",
+      "target": "procesado"
+    },
+    {
+      "id": "topic_102:reducir",
+      "ru": "сокращать",
+      "target": "reducir"
+    },
+    {
+      "id": "topic_102:regularmente",
+      "ru": "регулярно",
+      "target": "regularmente"
+    },
+    {
+      "id": "topic_102:rutina",
+      "ru": "режим",
+      "target": "rutina"
+    },
+    {
+      "id": "topic_102:salud mental",
+      "ru": "психическое здоровье",
+      "target": "salud mental"
+    },
+    {
+      "id": "topic_102:tener éxito",
+      "ru": "добиться успеха",
+      "target": "tener éxito"
+    },
+    {
+      "id": "topic_102:tratar de",
+      "ru": "попытаться",
+      "target": "tratar de"
+    }
+  ]
+}

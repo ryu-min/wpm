@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_263",
+  "description": "Утешить грустного друга",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_263:autoestima",
+      "ru": "самооценка",
+      "target": "autoestima"
+    },
+    {
+      "id": "topic_263:brindar",
+      "ru": "произносить тост",
+      "target": "brindar"
+    },
+    {
+      "id": "topic_263:dar vueltas",
+      "ru": "ходить кругами",
+      "target": "dar vueltas"
+    },
+    {
+      "id": "topic_263:de pareja",
+      "ru": "в отношениях",
+      "target": "de pareja"
+    },
+    {
+      "id": "topic_263:desgastado",
+      "ru": "изношенный",
+      "target": "desgastado"
+    },
+    {
+      "id": "topic_263:distraer",
+      "ru": "отвлекать",
+      "target": "distraer"
+    },
+    {
+      "id": "topic_263:donde",
+      "ru": "где",
+      "target": "donde"
+    },
+    {
+      "id": "topic_263:fracasado",
+      "ru": "неудачник",
+      "target": "fracasado"
+    },
+    {
+      "id": "topic_263:infiel",
+      "ru": "неверный",
+      "target": "infiel"
+    },
+    {
+      "id": "topic_263:lo sé",
+      "ru": "я знаю, знаю",
+      "target": "lo sé"
+    },
+    {
+      "id": "topic_263:o no",
+      "ru": "или нет",
+      "target": "o no"
+    },
+    {
+      "id": "topic_263:pasajero",
+      "ru": "пассажир; временный",
+      "target": "pasajero"
+    },
+    {
+      "id": "topic_263:pelea",
+      "ru": "драка",
+      "target": "pelea"
+    },
+    {
+      "id": "topic_263:serenata",
+      "ru": "серенада",
+      "target": "serenata"
+    },
+    {
+      "id": "topic_263:sinceridad",
+      "ru": "искренность",
+      "target": "sinceridad"
+    },
+    {
+      "id": "topic_263:sospechar",
+      "ru": "подозревать",
+      "target": "sospechar"
+    },
+    {
+      "id": "topic_263:terminar con",
+      "ru": "закончить",
+      "target": "terminar con"
+    }
+  ]
+}

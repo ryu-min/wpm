@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_297",
+  "description": "Поговори о погоде",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_297:alimentación",
+      "ru": "питание",
+      "target": "alimentación"
+    },
+    {
+      "id": "topic_297:chubasco",
+      "ru": "ливень",
+      "target": "chubasco"
+    },
+    {
+      "id": "topic_297:con las manos en la masa",
+      "ru": "с поличным",
+      "target": "con las manos en la masa"
+    },
+    {
+      "id": "topic_297:desconfiar",
+      "ru": "не доверять",
+      "target": "desconfiar"
+    },
+    {
+      "id": "topic_297:descubrimiento",
+      "ru": "открытие",
+      "target": "descubrimiento"
+    },
+    {
+      "id": "topic_297:despido",
+      "ru": "увольнение",
+      "target": "despido"
+    },
+    {
+      "id": "topic_297:específico",
+      "ru": "конкретный",
+      "target": "específico"
+    },
+    {
+      "id": "topic_297:estafador",
+      "ru": "мошенник",
+      "target": "estafador"
+    },
+    {
+      "id": "topic_297:haga lo que haga",
+      "ru": "ни делали, ни делало, ни делал, ни делала",
+      "target": "haga lo que haga"
+    },
+    {
+      "id": "topic_297:indemnizar",
+      "ru": "возмещать",
+      "target": "indemnizar"
+    },
+    {
+      "id": "topic_297:primera plana",
+      "ru": "первая полоса газеты",
+      "target": "primera plana"
+    },
+    {
+      "id": "topic_297:rescate",
+      "ru": "выкуп",
+      "target": "rescate"
+    },
+    {
+      "id": "topic_297:salvarse de",
+      "ru": "спастись от",
+      "target": "salvarse de"
+    },
+    {
+      "id": "topic_297:sindicato",
+      "ru": "профсоюз",
+      "target": "sindicato"
+    },
+    {
+      "id": "topic_297:titular",
+      "ru": "заголовок",
+      "target": "titular"
+    },
+    {
+      "id": "topic_297:trasplante",
+      "ru": "пересадка органа",
+      "target": "trasplante"
+    }
+  ]
+}

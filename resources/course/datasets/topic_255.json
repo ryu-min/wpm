@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "topic_255",
+  "description": "Опиши внешность друзей",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_255:a lo largo de",
+      "ru": "на протяжении",
+      "target": "a lo largo de"
+    },
+    {
+      "id": "topic_255:agobiado",
+      "ru": "подавленный; перегруженный",
+      "target": "agobiado"
+    },
+    {
+      "id": "topic_255:al poco tiempo",
+      "ru": "вскоре",
+      "target": "al poco tiempo"
+    },
+    {
+      "id": "topic_255:alrededor",
+      "ru": "вокруг",
+      "target": "alrededor"
+    },
+    {
+      "id": "topic_255:ambicioso",
+      "ru": "амбициозный",
+      "target": "ambicioso"
+    },
+    {
+      "id": "topic_255:cotidiano",
+      "ru": "повседневный",
+      "target": "cotidiano"
+    },
+    {
+      "id": "topic_255:hace mucho que",
+      "ru": "уже давно… (до настоящего момента)",
+      "target": "hace mucho que"
+    },
+    {
+      "id": "topic_255:hacía mucho tiempo que",
+      "ru": "уже давно… (на тот момент в прошлом)",
+      "target": "hacía mucho tiempo que"
+    },
+    {
+      "id": "topic_255:maestría",
+      "ru": "магистратура",
+      "target": "maestría"
+    },
+    {
+      "id": "topic_255:maternidad",
+      "ru": "родильное отделение",
+      "target": "maternidad"
+    },
+    {
+      "id": "topic_255:para mejor",
+      "ru": "к лучшему",
+      "target": "para mejor"
+    },
+    {
+      "id": "topic_255:por completo",
+      "ru": "полностью",
+      "target": "por completo"
+    },
+    {
+      "id": "topic_255:progresar",
+      "ru": "прогрессировать",
+      "target": "progresar"
+    },
+    {
+      "id": "topic_255:pueblito",
+      "ru": "деревушка",
+      "target": "pueblito"
+    },
+    {
+      "id": "topic_255:que nunca",
+      "ru": "чем когда-либо",
+      "target": "que nunca"
+    },
+    {
+      "id": "topic_255:quién lo diría",
+      "ru": "Кто бы мог подумать, кто бы мог подумать",
+      "target": "quién lo diría"
+    },
+    {
+      "id": "topic_255:se ve que",
+      "ru": "Видно, что, видно, что",
+      "target": "se ve que"
+    },
+    {
+      "id": "topic_255:tacaño",
+      "ru": "скупой",
+      "target": "tacaño"
+    },
+    {
+      "id": "topic_255:teñir",
+      "ru": "красить ткань",
+      "target": "teñir"
+    },
+    {
+      "id": "topic_255:transporte",
+      "ru": "транспорт",
+      "target": "transporte"
+    }
+  ]
+}

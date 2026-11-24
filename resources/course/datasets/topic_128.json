@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_128",
+  "description": "Исследуйте культурные места",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_128:armar",
+      "ru": "собирать",
+      "target": "armar"
+    },
+    {
+      "id": "topic_128:brasileño",
+      "ru": "бразильский",
+      "target": "brasileño"
+    },
+    {
+      "id": "topic_128:budista",
+      "ru": "буддист; буддийский",
+      "target": "budista"
+    },
+    {
+      "id": "topic_128:cristiano",
+      "ru": "христианин; христианский",
+      "target": "cristiano"
+    },
+    {
+      "id": "topic_128:encender",
+      "ru": "включать",
+      "target": "encender"
+    },
+    {
+      "id": "topic_128:escenario",
+      "ru": "сцена",
+      "target": "escenario"
+    },
+    {
+      "id": "topic_128:fuego",
+      "ru": "огонь",
+      "target": "fuego"
+    },
+    {
+      "id": "topic_128:indio",
+      "ru": "индиец; индейский",
+      "target": "indio"
+    },
+    {
+      "id": "topic_128:mezquita",
+      "ru": "мечеть",
+      "target": "mezquita"
+    },
+    {
+      "id": "topic_128:misa",
+      "ru": "месса",
+      "target": "misa"
+    },
+    {
+      "id": "topic_128:musulmán",
+      "ru": "мусульманин; мусульманский",
+      "target": "musulmán"
+    },
+    {
+      "id": "topic_128:olor",
+      "ru": "запах",
+      "target": "olor"
+    },
+    {
+      "id": "topic_128:religioso",
+      "ru": "религиозный (-ая,-ое), религиозен, религиозном",
+      "target": "religioso"
+    },
+    {
+      "id": "topic_128:religión",
+      "ru": "религия",
+      "target": "religión"
+    },
+    {
+      "id": "topic_128:sinagoga",
+      "ru": "синагога",
+      "target": "sinagoga"
+    },
+    {
+      "id": "topic_128:templo",
+      "ru": "храм",
+      "target": "templo"
+    }
+  ]
+}

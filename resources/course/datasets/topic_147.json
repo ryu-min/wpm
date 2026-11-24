@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "topic_147",
+  "description": "Поделись мечтами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_147:competir",
+      "ru": "соперничать",
+      "target": "competir"
+    },
+    {
+      "id": "topic_147:en mi lugar",
+      "ru": "на моем месте",
+      "target": "en mi lugar"
+    },
+    {
+      "id": "topic_147:imaginar",
+      "ru": "воображать",
+      "target": "imaginar"
+    },
+    {
+      "id": "topic_147:planeta",
+      "ru": "планета",
+      "target": "planeta"
+    },
+    {
+      "id": "topic_147:u",
+      "ru": "или",
+      "target": "u"
+    },
+    {
+      "id": "topic_147:éxito",
+      "ru": "успех",
+      "target": "éxito"
+    }
+  ]
+}

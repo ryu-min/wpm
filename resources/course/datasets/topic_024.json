@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "topic_024",
+  "description": "Спросите, как кто-то себя чувствует",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_024:competencia",
+      "ru": "конкуренция",
+      "target": "competencia"
+    },
+    {
+      "id": "topic_024:contento",
+      "ru": "довольный",
+      "target": "contento"
+    },
+    {
+      "id": "topic_024:emocionado",
+      "ru": "рад",
+      "target": "emocionado"
+    },
+    {
+      "id": "topic_024:estás",
+      "ru": "(ты) находишься, стоишь",
+      "target": "estás"
+    },
+    {
+      "id": "topic_024:feria",
+      "ru": "ярмарка",
+      "target": "feria"
+    },
+    {
+      "id": "topic_024:festival",
+      "ru": "фестиваль",
+      "target": "festival"
+    },
+    {
+      "id": "topic_024:me alegro",
+      "ru": "я рад; я рада",
+      "target": "me alegro"
+    },
+    {
+      "id": "topic_024:muchas gracias",
+      "ru": "большое спасибо",
+      "target": "muchas gracias"
+    },
+    {
+      "id": "topic_024:nervioso",
+      "ru": "нервный",
+      "target": "nervioso"
+    },
+    {
+      "id": "topic_024:organizar",
+      "ru": "организовывать",
+      "target": "organizar"
+    },
+    {
+      "id": "topic_024:poco",
+      "ru": "мало",
+      "target": "poco"
+    },
+    {
+      "id": "topic_024:por qué",
+      "ru": "почему",
+      "target": "por qué"
+    },
+    {
+      "id": "topic_024:preocupado",
+      "ru": "обеспокоенный",
+      "target": "preocupado"
+    },
+    {
+      "id": "topic_024:qué pena",
+      "ru": "очень жаль",
+      "target": "qué pena"
+    },
+    {
+      "id": "topic_024:qué suerte",
+      "ru": "какая удача",
+      "target": "qué suerte"
+    },
+    {
+      "id": "topic_024:relajado",
+      "ru": "расслабленный",
+      "target": "relajado"
+    },
+    {
+      "id": "topic_024:sorprendido",
+      "ru": "удивлённый",
+      "target": "sorprendido"
+    },
+    {
+      "id": "topic_024:todo",
+      "ru": "всё",
+      "target": "todo"
+    },
+    {
+      "id": "topic_024:triste",
+      "ru": "грустный",
+      "target": "triste"
+    },
+    {
+      "id": "topic_024:voluntario",
+      "ru": "доброволец",
+      "target": "voluntario"
+    },
+    {
+      "id": "topic_024:yo también",
+      "ru": "я тоже",
+      "target": "yo también"
+    }
+  ]
+}

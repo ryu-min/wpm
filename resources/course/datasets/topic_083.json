@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_083",
+  "description": "Обсудите подарки",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_083:Navidad",
+      "ru": "Рождество",
+      "target": "Navidad"
+    },
+    {
+      "id": "topic_083:autor",
+      "ru": "автор",
+      "target": "autor"
+    },
+    {
+      "id": "topic_083:colección",
+      "ru": "коллекция",
+      "target": "colección"
+    },
+    {
+      "id": "topic_083:completamente",
+      "ru": "полностью",
+      "target": "completamente"
+    },
+    {
+      "id": "topic_083:devolver",
+      "ru": "возвращать",
+      "target": "devolver"
+    },
+    {
+      "id": "topic_083:dinosaurio",
+      "ru": "динозавр",
+      "target": "dinosaurio"
+    },
+    {
+      "id": "topic_083:espantoso",
+      "ru": "ужасный",
+      "target": "espantoso"
+    },
+    {
+      "id": "topic_083:etiqueta",
+      "ru": "этикетка",
+      "target": "etiqueta"
+    },
+    {
+      "id": "topic_083:gusto",
+      "ru": "приятно",
+      "target": "gusto"
+    },
+    {
+      "id": "topic_083:innecesario",
+      "ru": "ненужный",
+      "target": "innecesario"
+    },
+    {
+      "id": "topic_083:montón de",
+      "ru": "множество",
+      "target": "montón de"
+    },
+    {
+      "id": "topic_083:mí",
+      "ru": "меня",
+      "target": "mí"
+    },
+    {
+      "id": "topic_083:parecer",
+      "ru": "казаться",
+      "target": "parecer"
+    },
+    {
+      "id": "topic_083:perfume",
+      "ru": "духи",
+      "target": "perfume"
+    },
+    {
+      "id": "topic_083:póster",
+      "ru": "постер",
+      "target": "póster"
+    },
+    {
+      "id": "topic_083:regalar",
+      "ru": "дарить",
+      "target": "regalar"
+    },
+    {
+      "id": "topic_083:ti",
+      "ru": "тебя",
+      "target": "ti"
+    },
+    {
+      "id": "topic_083:tiene sentido",
+      "ru": "имеет смысл",
+      "target": "tiene sentido"
+    }
+  ]
+}

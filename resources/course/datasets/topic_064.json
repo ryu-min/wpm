@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_064",
+  "description": "Поиск пропавшего питомца",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_064:agotado",
+      "ru": "измученный",
+      "target": "agotado"
+    },
+    {
+      "id": "topic_064:cama",
+      "ru": "кровать",
+      "target": "cama"
+    },
+    {
+      "id": "topic_064:cerrar",
+      "ru": "закрывать",
+      "target": "cerrar"
+    },
+    {
+      "id": "topic_064:conductor",
+      "ru": "водитель",
+      "target": "conductor"
+    },
+    {
+      "id": "topic_064:escaparse",
+      "ru": "сбегать",
+      "target": "escaparse"
+    },
+    {
+      "id": "topic_064:especial",
+      "ru": "особенный",
+      "target": "especial"
+    },
+    {
+      "id": "topic_064:funcionar",
+      "ru": "работать исправно",
+      "target": "funcionar"
+    },
+    {
+      "id": "topic_064:jugar",
+      "ru": "играть",
+      "target": "jugar"
+    },
+    {
+      "id": "topic_064:patio",
+      "ru": "двор",
+      "target": "patio"
+    },
+    {
+      "id": "topic_064:perrito",
+      "ru": "щенок",
+      "target": "perrito"
+    },
+    {
+      "id": "topic_064:preocuparse",
+      "ru": "переживать",
+      "target": "preocuparse"
+    },
+    {
+      "id": "topic_064:taxista",
+      "ru": "таксист",
+      "target": "taxista"
+    },
+    {
+      "id": "topic_064:te quiero",
+      "ru": "я тебя люблю",
+      "target": "te quiero"
+    },
+    {
+      "id": "topic_064:ventana",
+      "ru": "окно",
+      "target": "ventana"
+    },
+    {
+      "id": "topic_064:y si",
+      "ru": "а если",
+      "target": "y si"
+    },
+    {
+      "id": "topic_064:zona",
+      "ru": "зона",
+      "target": "zona"
+    }
+  ]
+}

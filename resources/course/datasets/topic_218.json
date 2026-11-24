@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "topic_218",
+  "description": "Создай рекламный слоган",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_218:ahorrar",
+      "ru": "экономить",
+      "target": "ahorrar"
+    },
+    {
+      "id": "topic_218:comercial",
+      "ru": "торговый",
+      "target": "comercial"
+    },
+    {
+      "id": "topic_218:conforme",
+      "ru": "Довольный",
+      "target": "conforme"
+    },
+    {
+      "id": "topic_218:de regalo",
+      "ru": "в подарок",
+      "target": "de regalo"
+    },
+    {
+      "id": "topic_218:fenomenal",
+      "ru": "феноменальный",
+      "target": "fenomenal"
+    },
+    {
+      "id": "topic_218:hogar",
+      "ru": "домашний очаг",
+      "target": "hogar"
+    },
+    {
+      "id": "topic_218:maravilla",
+      "ru": "чудо",
+      "target": "maravilla"
+    },
+    {
+      "id": "topic_218:no te lo pierdas",
+      "ru": "не пропусти это",
+      "target": "no te lo pierdas"
+    },
+    {
+      "id": "topic_218:novedad",
+      "ru": "новшество",
+      "target": "novedad"
+    },
+    {
+      "id": "topic_218:realidad",
+      "ru": "реальность",
+      "target": "realidad"
+    }
+  ]
+}

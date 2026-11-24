@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "topic_020",
+  "description": "Обсуждайте работу",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_020:abogado",
+      "ru": "адвокат",
+      "target": "abogado"
+    },
+    {
+      "id": "topic_020:adiós",
+      "ru": "до свидания",
+      "target": "adiós"
+    },
+    {
+      "id": "topic_020:empresa",
+      "ru": "компания",
+      "target": "empresa"
+    },
+    {
+      "id": "topic_020:hombre",
+      "ru": "мужчина",
+      "target": "hombre"
+    },
+    {
+      "id": "topic_020:hospital",
+      "ru": "больница",
+      "target": "hospital"
+    },
+    {
+      "id": "topic_020:jefa",
+      "ru": "начальница",
+      "target": "jefa"
+    },
+    {
+      "id": "topic_020:jefe",
+      "ru": "начальник",
+      "target": "jefe"
+    },
+    {
+      "id": "topic_020:junto",
+      "ru": "соседний",
+      "target": "junto"
+    },
+    {
+      "id": "topic_020:moderno",
+      "ru": "современный",
+      "target": "moderno"
+    },
+    {
+      "id": "topic_020:mujer",
+      "ru": "женщина",
+      "target": "mujer"
+    },
+    {
+      "id": "topic_020:oficina",
+      "ru": "офис",
+      "target": "oficina"
+    },
+    {
+      "id": "topic_020:peluquería",
+      "ru": "парикмахерская",
+      "target": "peluquería"
+    },
+    {
+      "id": "topic_020:trabajador",
+      "ru": "трудолюбивый",
+      "target": "trabajador"
+    },
+    {
+      "id": "topic_020:universidad",
+      "ru": "университет",
+      "target": "universidad"
+    },
+    {
+      "id": "topic_020:viejo",
+      "ru": "старый",
+      "target": "viejo"
+    }
+  ]
+}

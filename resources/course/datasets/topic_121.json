@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "topic_121",
+  "description": "Ухаживайте за питомцами",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_121:acostarse",
+      "ru": "ложиться спать",
+      "target": "acostarse"
+    },
+    {
+      "id": "topic_121:alrededor de",
+      "ru": "около, у",
+      "target": "alrededor de"
+    },
+    {
+      "id": "topic_121:bote",
+      "ru": "банка",
+      "target": "bote"
+    },
+    {
+      "id": "topic_121:caliente",
+      "ru": "горячий",
+      "target": "caliente"
+    },
+    {
+      "id": "topic_121:cariñoso",
+      "ru": "ласковый",
+      "target": "cariñoso"
+    },
+    {
+      "id": "topic_121:conejo",
+      "ru": "кролик",
+      "target": "conejo"
+    },
+    {
+      "id": "topic_121:dar de comer",
+      "ru": "кормить",
+      "target": "dar de comer"
+    },
+    {
+      "id": "topic_121:de emergencia",
+      "ru": "аварийный",
+      "target": "de emergencia"
+    },
+    {
+      "id": "topic_121:escondido",
+      "ru": "спрятан",
+      "target": "escondido"
+    },
+    {
+      "id": "topic_121:ladrar",
+      "ru": "лаять",
+      "target": "ladrar"
+    },
+    {
+      "id": "topic_121:me acuesto",
+      "ru": "ложусь",
+      "target": "me acuesto"
+    },
+    {
+      "id": "topic_121:pata",
+      "ru": "лапа",
+      "target": "pata"
+    },
+    {
+      "id": "topic_121:quedar",
+      "ru": "оставаться",
+      "target": "quedar"
+    },
+    {
+      "id": "topic_121:redondo",
+      "ru": "круглый",
+      "target": "redondo"
+    },
+    {
+      "id": "topic_121:roncar",
+      "ru": "храпеть",
+      "target": "roncar"
+    },
+    {
+      "id": "topic_121:soltero",
+      "ru": "неженатый",
+      "target": "soltero"
+    },
+    {
+      "id": "topic_121:sótano",
+      "ru": "подвал",
+      "target": "sótano"
+    },
+    {
+      "id": "topic_121:tierno",
+      "ru": "нежный",
+      "target": "tierno"
+    }
+  ]
+}

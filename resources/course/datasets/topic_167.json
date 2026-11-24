@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_167",
+  "description": "Опишите офис и город",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_167:desempleado",
+      "ru": "безработный",
+      "target": "desempleado"
+    },
+    {
+      "id": "topic_167:gráfico",
+      "ru": "график",
+      "target": "gráfico"
+    },
+    {
+      "id": "topic_167:las afueras de la ciudad",
+      "ru": "окраина города",
+      "target": "las afueras de la ciudad"
+    },
+    {
+      "id": "topic_167:llevarse",
+      "ru": "ладить",
+      "target": "llevarse"
+    },
+    {
+      "id": "topic_167:primer piso",
+      "ru": "первый этаж",
+      "target": "primer piso"
+    },
+    {
+      "id": "topic_167:sala de reunión",
+      "ru": "зал для собраний",
+      "target": "sala de reunión"
+    },
+    {
+      "id": "topic_167:separarse",
+      "ru": "расстаться",
+      "target": "separarse"
+    },
+    {
+      "id": "topic_167:socio",
+      "ru": "партнёр",
+      "target": "socio"
+    }
+  ]
+}

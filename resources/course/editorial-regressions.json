@@ -1,0 +1,62 @@
+{
+  "queja": {
+    "target": "queja",
+    "ru": "жалоба"
+  },
+  "consciente": {
+    "target": "consciente",
+    "ru": "сознательный; осознающий"
+  },
+  "presionar": {
+    "target": "presionar",
+    "ru": "нажимать; оказывать давление"
+  },
+  "inteligencia artificial": {
+    "target": "inteligencia artificial",
+    "ru": "искусственный интеллект"
+  },
+  "más vale tarde que nunca": {
+    "target": "más vale tarde que nunca",
+    "ru": "лучше поздно, чем никогда"
+  },
+  "le interesa": {
+    "target": "le interesa",
+    "ru": "ему или ей интересно (одна вещь)"
+  },
+  "me interesan": {
+    "target": "me interesan",
+    "ru": "мне интересны (несколько вещей)"
+  },
+  "te interesa": {
+    "target": "te interesa",
+    "ru": "тебе интересно (одна вещь)"
+  },
+  "debe haber": {
+    "target": "debe haber",
+    "ru": "должно быть; должно иметься"
+  },
+  "debo haber": {
+    "target": "debo haber",
+    "ru": "я, должно быть, уже… (перед причастием)"
+  },
+  "sido": {
+    "target": "ser",
+    "ru": "быть"
+  },
+  "ido": {
+    "target": "ir",
+    "ru": "идти"
+  },
+  "hiciera": {
+    "target": "hacer",
+    "ru": "делать"
+  },
+  "estuviera": {
+    "target": "estar",
+    "ru": "находиться"
+  },
+  "tuviera": {
+    "target": "tener",
+    "ru": "иметь"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_039",
+  "description": "Используйте косвенные местоимения",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_039:amable",
+      "ru": "любезный",
+      "target": "amable"
+    },
+    {
+      "id": "topic_039:brazo",
+      "ru": "рука",
+      "target": "brazo"
+    },
+    {
+      "id": "topic_039:cuello",
+      "ru": "шея",
+      "target": "cuello"
+    },
+    {
+      "id": "topic_039:cuerpo",
+      "ru": "тело",
+      "target": "cuerpo"
+    },
+    {
+      "id": "topic_039:derecho",
+      "ru": "право",
+      "target": "derecho"
+    },
+    {
+      "id": "topic_039:doler",
+      "ru": "болеть",
+      "target": "doler"
+    },
+    {
+      "id": "topic_039:enfermero",
+      "ru": "медбрат",
+      "target": "enfermero"
+    },
+    {
+      "id": "topic_039:enfermo",
+      "ru": "больной",
+      "target": "enfermo"
+    },
+    {
+      "id": "topic_039:espalda",
+      "ru": "спина",
+      "target": "espalda"
+    },
+    {
+      "id": "topic_039:esta",
+      "ru": "эта",
+      "target": "esta"
+    },
+    {
+      "id": "topic_039:estómago",
+      "ru": "желудок",
+      "target": "estómago"
+    },
+    {
+      "id": "topic_039:garganta",
+      "ru": "горло",
+      "target": "garganta"
+    },
+    {
+      "id": "topic_039:hombro",
+      "ru": "плечо",
+      "target": "hombro"
+    },
+    {
+      "id": "topic_039:izquierdo",
+      "ru": "левый",
+      "target": "izquierdo"
+    },
+    {
+      "id": "topic_039:medicina",
+      "ru": "лекарство",
+      "target": "medicina"
+    },
+    {
+      "id": "topic_039:médico",
+      "ru": "врач",
+      "target": "médico"
+    },
+    {
+      "id": "topic_039:otra vez",
+      "ru": "снова",
+      "target": "otra vez"
+    },
+    {
+      "id": "topic_039:pierna",
+      "ru": "нога",
+      "target": "pierna"
+    },
+    {
+      "id": "topic_039:rodilla",
+      "ru": "колено",
+      "target": "rodilla"
+    }
+  ]
+}

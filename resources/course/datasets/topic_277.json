@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_277",
+  "description": "Что тебя бесит",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_277:agotador",
+      "ru": "утомительный",
+      "target": "agotador"
+    },
+    {
+      "id": "topic_277:agujero",
+      "ru": "дырка",
+      "target": "agujero"
+    },
+    {
+      "id": "topic_277:bloquear",
+      "ru": "блокировать",
+      "target": "bloquear"
+    },
+    {
+      "id": "topic_277:conmigo mismo",
+      "ru": "с самим собой",
+      "target": "conmigo mismo"
+    },
+    {
+      "id": "topic_277:dicho y hecho",
+      "ru": "Сказано - сделано, сказано - сделано",
+      "target": "dicho y hecho"
+    },
+    {
+      "id": "topic_277:día libre",
+      "ru": "выходной",
+      "target": "día libre"
+    },
+    {
+      "id": "topic_277:frustrar",
+      "ru": "расстраиваться",
+      "target": "frustrar"
+    },
+    {
+      "id": "topic_277:impuntual",
+      "ru": "непунктуальный",
+      "target": "impuntual"
+    },
+    {
+      "id": "topic_277:inaceptable",
+      "ru": "недопустимый",
+      "target": "inaceptable"
+    },
+    {
+      "id": "topic_277:lo de",
+      "ru": "про",
+      "target": "lo de"
+    },
+    {
+      "id": "topic_277:lo que faltaba",
+      "ru": "вот чего не хватало",
+      "target": "lo que faltaba"
+    },
+    {
+      "id": "topic_277:malhumorado",
+      "ru": "в плохом настроении",
+      "target": "malhumorado"
+    },
+    {
+      "id": "topic_277:papel higiénico",
+      "ru": "туалетная бумага",
+      "target": "papel higiénico"
+    },
+    {
+      "id": "topic_277:tocar la bocina",
+      "ru": "посигналит, сигналить",
+      "target": "tocar la bocina"
+    },
+    {
+      "id": "topic_277:tolerar",
+      "ru": "терпеть",
+      "target": "tolerar"
+    },
+    {
+      "id": "topic_277:tropezar",
+      "ru": "спотыкаться",
+      "target": "tropezar"
+    }
+  ]
+}

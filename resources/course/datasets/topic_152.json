@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "topic_152",
+  "description": "Расскажи о жизни в селе",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_152:al fondo de",
+      "ru": "в конце",
+      "target": "al fondo de"
+    },
+    {
+      "id": "topic_152:criar",
+      "ru": "воспитывать",
+      "target": "criar"
+    },
+    {
+      "id": "topic_152:luminoso",
+      "ru": "светлый",
+      "target": "luminoso"
+    },
+    {
+      "id": "topic_152:papelería",
+      "ru": "канцелярский магазин",
+      "target": "papelería"
+    }
+  ]
+}

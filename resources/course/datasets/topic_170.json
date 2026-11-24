@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "topic_170",
+  "description": "Угощать и просить добавки",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_170:me reí",
+      "ru": "засмеялся",
+      "target": "me reí"
+    },
+    {
+      "id": "topic_170:me sentí",
+      "ru": "(я) почувствовала себя",
+      "target": "me sentí"
+    },
+    {
+      "id": "topic_170:me vestí",
+      "ru": "оделся",
+      "target": "me vestí"
+    },
+    {
+      "id": "topic_170:plato principal",
+      "ru": "главное блюдо",
+      "target": "plato principal"
+    },
+    {
+      "id": "topic_170:sabroso",
+      "ru": "вкусный",
+      "target": "sabroso"
+    },
+    {
+      "id": "topic_170:se rió",
+      "ru": "смеялся, засмеялся, смеялась",
+      "target": "se rió"
+    },
+    {
+      "id": "topic_170:se sintió",
+      "ru": "(он) почувствовал себя, (она) почувствовала себя",
+      "target": "se sintió"
+    },
+    {
+      "id": "topic_170:se vistió",
+      "ru": "оделась, оделся",
+      "target": "se vistió"
+    }
+  ]
+}

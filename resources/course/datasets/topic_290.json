@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "topic_290",
+  "description": "Выбери тему проекта",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_290:ahora sí que",
+      "ru": "теперь уж",
+      "target": "ahora sí que"
+    },
+    {
+      "id": "topic_290:argumento",
+      "ru": "сюжет",
+      "target": "argumento"
+    },
+    {
+      "id": "topic_290:asignar",
+      "ru": "назначать",
+      "target": "asignar"
+    },
+    {
+      "id": "topic_290:como sea",
+      "ru": "во что бы то ни стало",
+      "target": "como sea"
+    },
+    {
+      "id": "topic_290:constelación",
+      "ru": "созвездие",
+      "target": "constelación"
+    },
+    {
+      "id": "topic_290:coordinar",
+      "ru": "координировать",
+      "target": "coordinar"
+    },
+    {
+      "id": "topic_290:cuestionario",
+      "ru": "опросник",
+      "target": "cuestionario"
+    },
+    {
+      "id": "topic_290:hacerse cargo",
+      "ru": "взять на себя ответственность",
+      "target": "hacerse cargo"
+    },
+    {
+      "id": "topic_290:indiferente",
+      "ru": "безразличный",
+      "target": "indiferente"
+    },
+    {
+      "id": "topic_290:maqueta",
+      "ru": "макет",
+      "target": "maqueta"
+    },
+    {
+      "id": "topic_290:mitad",
+      "ru": "половина",
+      "target": "mitad"
+    },
+    {
+      "id": "topic_290:por mí",
+      "ru": "что касается меня",
+      "target": "por mí"
+    },
+    {
+      "id": "topic_290:que lo haga",
+      "ru": "пусть это сделает",
+      "target": "que lo haga"
+    },
+    {
+      "id": "topic_290:redactar",
+      "ru": "переписать",
+      "target": "redactar"
+    },
+    {
+      "id": "topic_290:renovable",
+      "ru": "возобновляемый",
+      "target": "renovable"
+    },
+    {
+      "id": "topic_290:volador",
+      "ru": "летающий",
+      "target": "volador"
+    }
+  ]
+}

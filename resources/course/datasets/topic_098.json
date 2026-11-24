@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "topic_098",
+  "description": "Делитесь впечатлениями о путешествиях",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_098:Brasil",
+      "ru": "Бразилия",
+      "target": "Brasil"
+    },
+    {
+      "id": "topic_098:Caribe",
+      "ru": "Карибы",
+      "target": "Caribe"
+    },
+    {
+      "id": "topic_098:alguna vez",
+      "ru": "когда-нибудь",
+      "target": "alguna vez"
+    },
+    {
+      "id": "topic_098:de todas maneras",
+      "ru": "в любом случае",
+      "target": "de todas maneras"
+    },
+    {
+      "id": "topic_098:escalar",
+      "ru": "взбираться",
+      "target": "escalar"
+    },
+    {
+      "id": "topic_098:excursión",
+      "ru": "экскурсия",
+      "target": "excursión"
+    },
+    {
+      "id": "topic_098:hormiga",
+      "ru": "муравей",
+      "target": "hormiga"
+    },
+    {
+      "id": "topic_098:impactante",
+      "ru": "впечатляющий",
+      "target": "impactante"
+    },
+    {
+      "id": "topic_098:local",
+      "ru": "местный",
+      "target": "local"
+    },
+    {
+      "id": "topic_098:mochilero",
+      "ru": "бэкпекер",
+      "target": "mochilero"
+    },
+    {
+      "id": "topic_098:mundo",
+      "ru": "мир",
+      "target": "mundo"
+    },
+    {
+      "id": "topic_098:ni",
+      "ru": "ни",
+      "target": "ni"
+    },
+    {
+      "id": "topic_098:tapa",
+      "ru": "тапас",
+      "target": "tapa"
+    },
+    {
+      "id": "topic_098:volcán",
+      "ru": "вулкан",
+      "target": "volcán"
+    }
+  ]
+}

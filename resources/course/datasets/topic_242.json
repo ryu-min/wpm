@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "topic_242",
+  "description": "Присмотри за ребёнком",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_242:arriesgado",
+      "ru": "рискованный",
+      "target": "arriesgado"
+    },
+    {
+      "id": "topic_242:chaleco salvavidas",
+      "ru": "спасательного жилета, спасательном жилете, спасательный жилет",
+      "target": "chaleco salvavidas"
+    },
+    {
+      "id": "topic_242:consciente",
+      "ru": "сознательный; осознающий",
+      "target": "consciente"
+    },
+    {
+      "id": "topic_242:gana",
+      "ru": "желание",
+      "target": "gana"
+    },
+    {
+      "id": "topic_242:madurar",
+      "ru": "повзрослеть",
+      "target": "madurar"
+    },
+    {
+      "id": "topic_242:mojarse",
+      "ru": "промокнуть",
+      "target": "mojarse"
+    },
+    {
+      "id": "topic_242:más te vale que",
+      "ru": "тебе лучше, чтобы",
+      "target": "más te vale que"
+    },
+    {
+      "id": "topic_242:no me extraña que",
+      "ru": "меня не удивляет, что",
+      "target": "no me extraña que"
+    },
+    {
+      "id": "topic_242:ponerse a",
+      "ru": "начать",
+      "target": "ponerse a"
+    },
+    {
+      "id": "topic_242:por tu bien",
+      "ru": "ради твоего блага",
+      "target": "por tu bien"
+    },
+    {
+      "id": "topic_242:que no se",
+      "ru": "чтобы не (с возвратной или безличной конструкцией)",
+      "target": "que no se"
+    },
+    {
+      "id": "topic_242:quieto",
+      "ru": "неподвижный",
+      "target": "quieto"
+    },
+    {
+      "id": "topic_242:responsabilidad",
+      "ru": "ответственность",
+      "target": "responsabilidad"
+    },
+    {
+      "id": "topic_242:sacar a pasear",
+      "ru": "выгулять",
+      "target": "sacar a pasear"
+    },
+    {
+      "id": "topic_242:siempre y cuando",
+      "ru": "если только",
+      "target": "siempre y cuando"
+    },
+    {
+      "id": "topic_242:tender",
+      "ru": "развешивать; расстилать",
+      "target": "tender"
+    },
+    {
+      "id": "topic_242:terco",
+      "ru": "упрямый",
+      "target": "terco"
+    }
+  ]
+}

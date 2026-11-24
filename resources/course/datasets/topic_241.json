@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "topic_241",
+  "description": "Обсуди изменение климата",
+  "profile": "spanish-phrases",
+  "level": "course",
+  "entries": [
+    {
+      "id": "topic_241:cada vez más",
+      "ru": "все больше и больше",
+      "target": "cada vez más"
+    },
+    {
+      "id": "topic_241:calentamiento",
+      "ru": "разминка",
+      "target": "calentamiento"
+    },
+    {
+      "id": "topic_241:consumo",
+      "ru": "потребление",
+      "target": "consumo"
+    },
+    {
+      "id": "topic_241:drástico",
+      "ru": "решительный",
+      "target": "drástico"
+    },
+    {
+      "id": "topic_241:ecológico",
+      "ru": "экологический",
+      "target": "ecológico"
+    },
+    {
+      "id": "topic_241:empeorar",
+      "ru": "ухудшать",
+      "target": "empeorar"
+    },
+    {
+      "id": "topic_241:exagerar",
+      "ru": "преувеличивать",
+      "target": "exagerar"
+    },
+    {
+      "id": "topic_241:global",
+      "ru": "глобальный",
+      "target": "global"
+    },
+    {
+      "id": "topic_241:invertir",
+      "ru": "вкладывать деньги",
+      "target": "invertir"
+    },
+    {
+      "id": "topic_241:ola de calor",
+      "ru": "волна жары",
+      "target": "ola de calor"
+    },
+    {
+      "id": "topic_241:panel solar",
+      "ru": "солнечная панель",
+      "target": "panel solar"
+    },
+    {
+      "id": "topic_241:poner fin",
+      "ru": "положить конец",
+      "target": "poner fin"
+    },
+    {
+      "id": "topic_241:provocar",
+      "ru": "вызвать",
+      "target": "provocar"
+    },
+    {
+      "id": "topic_241:reciclaje",
+      "ru": "переработка отходов",
+      "target": "reciclaje"
+    },
+    {
+      "id": "topic_241:seguido",
+      "ru": "часто",
+      "target": "seguido"
+    },
+    {
+      "id": "topic_241:sequía",
+      "ru": "засуха",
+      "target": "sequía"
+    },
+    {
+      "id": "topic_241:sostenible",
+      "ru": "устойчивый",
+      "target": "sostenible"
+    },
+    {
+      "id": "topic_241:talar",
+      "ru": "вырубать деревья",
+      "target": "talar"
+    },
+    {
+      "id": "topic_241:tecnológico",
+      "ru": "технологический",
+      "target": "tecnológico"
+    }
+  ]
+}
