@@ -80,11 +80,24 @@ pub(crate) fn case_variants(text: &str) -> Vec<String> {
     variants
 }
 
-#[cfg(test)]
-pub(crate) fn matches(input: &str, target: &str, language: Language) -> bool {
-    let i = units(input);
-    let t = units(target);
-    i.len() == t.len() && i.iter().zip(t).all(|(a, b)| equivalent(a, &b, language))
+pub(crate) fn accepts(input: &str, target: &str, language: Language, ignore_case: bool) -> bool {
+    equivalent(input, target, language)
+        || (ignore_case
+            && case_variants(input).iter().any(|input| {
+                case_variants(target)
+                    .iter()
+                    .any(|target| equivalent(input, target, language))
+            }))
+}
+
+pub(crate) fn matches(input: &str, target: &str, language: Language, ignore_case: bool) -> bool {
+    let input = units(input);
+    let target = units(target);
+    input.len() == target.len()
+        && input
+            .iter()
+            .zip(target)
+            .all(|(input, target)| accepts(input, &target, language, ignore_case))
 }
 
 pub(crate) fn interpret_char_for_target_layout(input: char, target: char) -> char {
@@ -178,8 +191,8 @@ mod tests {
                 Language::Layout
             ));
         }
-        assert!(matches("рщдф", "hola", Language::Spanish));
-        assert!(!matches("хола", "hola", Language::Spanish));
+        assert!(matches("рщдф", "hola", Language::Spanish, false));
+        assert!(!matches("хола", "hola", Language::Spanish, false));
     }
     #[test]
     fn case_variants_cover_every_layout_key_in_both_directions() {
@@ -199,6 +212,52 @@ mod tests {
         }
     }
     #[test]
+    fn whole_spanish_answers_cover_case_unicode_and_length() {
+        for (plain, accented) in [
+            ("n", "ñ"),
+            ("a", "á"),
+            ("e", "é"),
+            ("i", "í"),
+            ("o", "ó"),
+            ("u", "ú"),
+            ("u", "ü"),
+            ("ú", "ü"),
+        ] {
+            for (input, target) in [(plain, accented), (accented, plain)] {
+                assert!(matches(
+                    &input.to_uppercase(),
+                    target,
+                    Language::Spanish,
+                    true
+                ));
+                assert!(matches(
+                    input,
+                    &target.to_uppercase(),
+                    Language::Spanish,
+                    true
+                ));
+            }
+        }
+        assert!(matches("CAFE\u{301}", "café", Language::Spanish, true));
+        for input in ["", "caf", "cafee", "cafi"] {
+            assert!(!matches(input, "café", Language::Spanish, true));
+        }
+    }
+
+    #[test]
+    fn case_policy_preserves_physical_punctuation_keys() {
+        for (input, target) in [(".", "."), ("ю", "."), ("Ю", ">"), ("Ж", ";")] {
+            assert!(matches(input, target, Language::Spanish, true));
+        }
+        for (input, target) in [(">", "."), (":", ";")] {
+            assert!(!matches(input, target, Language::Spanish, true));
+        }
+        assert!(!matches("A", "a", Language::Spanish, false));
+        assert!(!matches("Ж", ";", Language::Spanish, false));
+        assert!(matches("Ю", ">", Language::Spanish, false));
+    }
+
+    #[test]
     fn spanish_contract() {
         for (target, eng, ru) in [
             ("ñ", "n", "т"),
@@ -210,22 +269,28 @@ mod tests {
             ("ü", "u", "г"),
         ] {
             for input in [target, eng, ru] {
-                assert!(matches(input, target, Language::Spanish));
+                assert!(matches(input, target, Language::Spanish, false));
             }
-            assert!(!matches(eng, target, Language::Layout));
-            assert!(!matches("x", target, Language::Spanish));
-            assert!(!matches(&eng.to_uppercase(), target, Language::Spanish));
+            assert!(!matches(eng, target, Language::Layout, false));
+            assert!(!matches("x", target, Language::Spanish, false));
+            assert!(!matches(
+                &eng.to_uppercase(),
+                target,
+                Language::Spanish,
+                false
+            ));
             assert!(matches(
                 &eng.to_uppercase(),
                 &target.to_uppercase(),
-                Language::Spanish
+                Language::Spanish,
+                false
             ));
         }
-        assert!(matches("si", "sí", Language::Spanish));
-        assert!(matches("sí", "si", Language::Spanish));
-        assert!(matches("ú", "ü", Language::Spanish));
-        assert!(matches("ano", "año", Language::Spanish));
-        assert!(matches("a\u{301}", "á", Language::Exact));
+        assert!(matches("si", "sí", Language::Spanish, false));
+        assert!(matches("sí", "si", Language::Spanish, false));
+        assert!(matches("ú", "ü", Language::Spanish, false));
+        assert!(matches("ano", "año", Language::Spanish, false));
+        assert!(matches("a\u{301}", "á", Language::Exact, false));
         let mut text = "a\u{301}".to_string();
         pop_grapheme(&mut text);
         assert!(text.is_empty());

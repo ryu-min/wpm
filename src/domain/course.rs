@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use unicode_normalization::UnicodeNormalization;
 use unicode_segmentation::UnicodeSegmentation;
 
 #[derive(Clone, Deserialize)]
@@ -43,9 +42,6 @@ impl Mode {
         }
     }
 }
-pub(crate) fn normalized(s: &str) -> String {
-    s.trim().nfc().collect::<String>().to_lowercase()
-}
 impl Topic {
     pub fn empty_reason(&self) -> &'static str {
         if self.unavailable {
@@ -57,10 +53,18 @@ impl Topic {
 }
 impl Entry {
     pub fn accepts(&self, answer: &str) -> bool {
-        let answer = normalized(answer);
-        std::iter::once(&self.target)
-            .chain(self.alternatives.iter())
-            .any(|s| normalized(s) == answer)
+        let answer = answer.trim();
+        !answer.is_empty()
+            && std::iter::once(&self.target)
+                .chain(self.alternatives.iter())
+                .any(|target| {
+                    super::language::matches(
+                        answer,
+                        target.trim(),
+                        super::language::Language::Spanish,
+                        true,
+                    )
+                })
     }
 }
 pub(crate) fn backspace(s: &mut String) {
@@ -80,19 +84,53 @@ pub(crate) fn shuffle<T>(items: &mut [T], mut seed: u64) {
 mod tests {
     use super::*;
     #[test]
-    fn whole_answers_preserve_spanish_spelling() {
+    fn whole_answers_use_spanish_correspondences() {
         let e = Entry {
             ru: "кофе".into(),
             target: "café".into(),
             alternatives: vec![],
         };
         assert!(e.accepts(" CAFE\u{301} "));
-        assert!(!e.accepts("cafe"));
-        assert_ne!(normalized("ano"), normalized("año"));
+        assert!(e.accepts("cafe"));
+        assert!(e.accepts("СФАУ"));
+        assert!(e.accepts("cфfУ"));
+        for answer in ["", "caf", "cafee", "cafi"] {
+            assert!(!e.accepts(answer), "{answer:?}");
+        }
         let mut s = "cafe\u{301}".to_string();
         backspace(&mut s);
         assert_eq!(s, "caf");
     }
+    #[test]
+    fn alternatives_spaces_and_punctuation_use_full_comparison() {
+        let mut entry = Entry {
+            ru: "квартира".into(),
+            target: "apartamento".into(),
+            alternatives: vec![" piso ".into()],
+        };
+        assert!(entry.accepts(" ЗШЫЩ "));
+        entry.alternatives.push(" ".into());
+        assert!(!entry.accepts(" "));
+        entry.target = "con leche".into();
+        entry.alternatives.clear();
+        for answer in ["con  leche", "conleche", "con leche!"] {
+            assert!(!entry.accepts(answer), "{answer}");
+        }
+        for (target, answer) in [(".", "ю"), (">", "Ю"), (";", "Ж")] {
+            entry.target = target.into();
+            assert!(entry.accepts(answer));
+        }
+        for (target, answer) in [(".", ">"), (";", ":")] {
+            entry.target = target.into();
+            assert!(!entry.accepts(answer));
+        }
+        let mut session = Session::new(vec![entry], Mode::Exam, "Проверка".into());
+        let answer = "  WrOnG  ".to_string();
+        session.answers.push(answer.clone());
+        assert_eq!(session.mistakes(), vec![0]);
+        assert_eq!(session.answers, vec![answer]);
+    }
+
     #[test]
     fn shuffle_is_a_permutation() {
         let mut a: Vec<_> = (0..20).collect();

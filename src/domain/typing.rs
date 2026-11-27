@@ -52,14 +52,7 @@ impl TypingSession {
     }
 
     pub(crate) fn accepts(&self, index: usize, input: &str, target: &str) -> bool {
-        let policy = self.policy(index);
-        language_input::equivalent(input, target, policy)
-            || (self.ignore_case
-                && language_input::case_variants(input).iter().any(|input| {
-                    language_input::case_variants(target)
-                        .iter()
-                        .any(|target| language_input::equivalent(input, target, policy))
-                }))
+        language_input::accepts(input, target, self.policy(index), self.ignore_case)
     }
 
     pub(crate) fn with_languages(mut self, languages: Vec<Language>) -> Self {
@@ -348,7 +341,12 @@ mod case_tests {
             );
         }
         assert!(!language_input::equivalent("a", "A", Language::Spanish));
-        assert!(!language_input::matches("ANO", "año", Language::Spanish));
+        assert!(!language_input::matches(
+            "ANO",
+            "año",
+            Language::Spanish,
+            false
+        ));
     }
 
     #[test]

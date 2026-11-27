@@ -566,7 +566,7 @@ fn exam_two_errors_train_and_repeat_only_the_missed_pairs() {
 }
 
 #[test]
-fn exam_remains_strict_for_missing_accent() {
+fn exam_accepts_missing_accent_and_repeat_uses_empty_answers() {
     fn no_accent(screen: &str) -> Vec<u8> {
         if screen.lines().any(|l| l.trim() == "кофе") {
             b"cafe".to_vec()
@@ -582,13 +582,351 @@ fn exam_remains_strict_for_missing_accent() {
         keys.extend([b"".as_slice(), ENTER]);
     }
     let at = keys.len() - 1;
+    keys.push(ENTER);
+    let repeat = keys.len() - 1;
+    for _ in 0..count() {
+        responses.push((keys.len(), no_accent as fn(&str) -> Vec<u8>));
+        keys.extend([b"".as_slice(), ENTER]);
+    }
+    let repeated_result = keys.len() - 1;
     keys.extend([ESC, ESC]);
     let r = run_course_capture(&keys, data.as_ref(), (80, 24), &responses);
     assert!(
-        r.screens[at].contains("Правильно 19 из 20"),
+        r.screens[at].contains("Правильно 20 из 20 (100 %)"),
         "{}",
         r.screens[at]
     );
+    for index in [at, repeated_result] {
+        let screen = &r.screens[index];
+        assert!(screen.contains("Правильно 20 из 20 (100 %)"), "{screen}");
+        assert!(screen.contains("Сдать экзамен ещё раз"));
+        assert!(screen.contains("К выбору режима"));
+        assert!(!screen.contains("Посмотреть ошибки"));
+        assert!(!screen.contains("Потренировать ошибки"));
+    }
+    let screen = &r.screens[repeat];
+    assert!(screen.contains("1 из 20"), "{screen}");
+    let input = screen
+        .lines()
+        .find(|line| line.trim().ends_with('_'))
+        .unwrap();
+    assert_eq!(input.trim(), "_");
+}
+
+fn selected_exam(data: &TestDataDir, module: &Value, topic: &Value) {
+    std::fs::write(
+        data.as_ref().join("course-settings.json"),
+        serde_json::to_vec(&serde_json::json!({
+            "module": module["id"],
+            "topics": {module["id"].as_str().unwrap(): topic["id"]},
+            "mode": "Exam"
+        }))
+        .unwrap(),
+    )
+    .unwrap();
+}
+
+fn current_exam_entry(screen: &str) -> Value {
+    for module in catalog()["modules"].as_array().unwrap() {
+        for topic in module["topics"].as_array().unwrap() {
+            if screen.contains(&format!("Экзамен · {}", topic["title"].as_str().unwrap())) {
+                for entry in topic["entries"].as_array().unwrap() {
+                    if screen
+                        .lines()
+                        .any(|line| line.trim() == entry["ru"].as_str().unwrap())
+                    {
+                        return entry.clone();
+                    }
+                }
+            }
+        }
+    }
+    panic!("cannot identify exam entry: {screen}");
+}
+
+fn spanish_replacements(target: &str) -> String {
+    target
+        .chars()
+        .map(|c| match c {
+            'ñ' => 'n',
+            'á' => 'a',
+            'é' => 'e',
+            'í' => 'i',
+            'ó' => 'o',
+            'ú' => 'ü',
+            'ü' => 'ú',
+            'a' => 'á',
+            'e' => 'é',
+            'i' => 'í',
+            'o' => 'ó',
+            'u' => 'ú',
+            'n' => 'ñ',
+            c => c,
+        })
+        .collect()
+}
+
+fn mixed_layout(target: &str) -> String {
+    let latin = "qwertyuiopasdfghjklzxcvbnm";
+    let russian = "йцукенгшщзфывапролдячсмить";
+    target
+        .chars()
+        .enumerate()
+        .map(|(index, c)| {
+            if index % 2 == 0 {
+                latin
+                    .chars()
+                    .position(|key| key == c)
+                    .map(|position| russian.chars().nth(position).unwrap())
+                    .unwrap_or(c)
+            } else {
+                c
+            }
+        })
+        .collect()
+}
+
+fn replaced_exam_answer(screen: &str) -> Vec<u8> {
+    let entry = current_exam_entry(screen);
+    let target = entry["target"].as_str().unwrap();
+    let input = match target {
+        "café" => " СФАУ ".to_string(),
+        "té" => " TE\u{301} ".to_string(),
+        "con azúcar" => " CON AZUCAR ".to_string(),
+        _ => format!(
+            " {} ",
+            mixed_layout(&spanish_replacements(target)).to_uppercase()
+        ),
+    };
+    input.into_bytes()
+}
+
+fn append_exam_answers(
+    keys: &mut Vec<&'static [u8]>,
+    responses: &mut Vec<super::common::ScreenResponse>,
+    count: usize,
+    respond: fn(&str) -> Vec<u8>,
+) -> usize {
+    for _ in 0..count {
+        responses.push((keys.len(), respond));
+        keys.extend([b"".as_slice(), ENTER]);
+    }
+    keys.len() - 1
+}
+
+#[test]
+fn exam_accepts_spanish_replacements_layout_case_and_unicode_across_topics() {
+    fn plain_u(screen: &str) -> Vec<u8> {
+        if current_exam_entry(screen)["target"] == "pingüino" {
+            b" PINGUINO ".to_vec()
+        } else {
+            replaced_exam_answer(screen)
+        }
+    }
+    let catalog = catalog();
+    let mut covered = String::new();
+    for (module_index, topic_id, respond) in [
+        (0, "topic-001", replaced_exam_answer as fn(&str) -> Vec<u8>),
+        (0, "topic-002", replaced_exam_answer),
+        (0, "topic-003", replaced_exam_answer),
+        (1, "topic-033", replaced_exam_answer),
+        (1, "topic-033", plain_u),
+    ] {
+        let module = &catalog["modules"][module_index];
+        let topic = module["topics"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .find(|topic| topic["id"] == topic_id)
+            .unwrap();
+        let entries = topic["entries"].as_array().unwrap();
+        for entry in entries {
+            covered.push_str(entry["target"].as_str().unwrap());
+        }
+        let data = TestDataDir::new();
+        selected_exam(&data, module, topic);
+        let mut keys = vec![ENTER];
+        let mut responses = vec![];
+        let finish = append_exam_answers(&mut keys, &mut responses, entries.len(), respond);
+        keys.extend([ESC, ESC]);
+        let result = run_course_capture(&keys, data.as_ref(), (120, 30), &responses);
+        let screen = &result.screens[finish];
+        assert!(
+            screen.contains(&format!(
+                "Правильно {} из {} (100 %)",
+                entries.len(),
+                entries.len()
+            )),
+            "{topic_id}: {screen}"
+        );
+        assert!(!screen.contains("Посмотреть ошибки"), "{screen}");
+        assert!(!screen.contains("Потренировать ошибки"), "{screen}");
+    }
+    for letter in "ñáéíóúü".chars() {
+        assert!(covered.contains(letter), "missing {letter}");
+    }
+}
+
+#[test]
+fn exam_accepts_catalog_alternative_with_russian_layout() {
+    fn alternative(screen: &str) -> Vec<u8> {
+        let entry = current_exam_entry(screen);
+        if entry["target"] == "apartamento" {
+            assert!(
+                entry["alternatives"]
+                    .as_array()
+                    .unwrap()
+                    .iter()
+                    .any(|answer| answer == "piso")
+            );
+            " ЗШЫЩ ".as_bytes().to_vec()
+        } else {
+            replaced_exam_answer(screen)
+        }
+    }
+    let catalog = catalog();
+    let module = &catalog["modules"][1];
+    let topic = module["topics"]
+        .as_array()
+        .unwrap()
+        .iter()
+        .find(|topic| topic["id"] == "topic-011")
+        .unwrap();
+    assert!(
+        topic["entries"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .any(|entry| entry["target"] == "apartamento")
+    );
+    let data = TestDataDir::new();
+    selected_exam(&data, module, topic);
+    let mut keys = vec![ENTER];
+    let mut responses = vec![];
+    let count = topic["entries"].as_array().unwrap().len();
+    let finish = append_exam_answers(&mut keys, &mut responses, count, alternative);
+    keys.extend([ESC, ESC]);
+    let result = run_course_capture(&keys, data.as_ref(), (120, 30), &responses);
+    assert!(
+        result.screens[finish].contains(&format!("Правильно {count} из {count} (100 %)")),
+        "{}",
+        result.screens[finish]
+    );
+}
+
+#[test]
+fn exam_one_real_error_among_replacements_drives_review_and_training() {
+    fn one_error(screen: &str) -> Vec<u8> {
+        if current_exam_entry(screen)["target"] == "café" {
+            b" CaFi ".to_vec()
+        } else {
+            replaced_exam_answer(screen)
+        }
+    }
+    let data = TestDataDir::new();
+    let mut keys = vec![DOWN, DOWN, RIGHT, ENTER];
+    let mut responses = vec![];
+    let finish = append_exam_answers(&mut keys, &mut responses, count(), one_error);
+    keys.extend([
+        ENTER,
+        ESC,
+        DOWN,
+        ENTER,
+        "кофе cafe".as_bytes(),
+        ENTER,
+        "кофе cafe".as_bytes(),
+        ESC,
+        ESC,
+    ]);
+    let result = super::common::run_course_observing(
+        &keys,
+        data.as_ref(),
+        &responses,
+        &[
+            (finish, |s, _| s.contains("Правильно 19 из 20 (95 %)")),
+            (finish + 1, |s, _| s.contains("Верный ответ")),
+            (finish + 4, |s, _| s.contains("wpm")),
+            (finish + 5, |s, _| s.contains("Точность печати")),
+            (finish + 6, |s, _| s.contains("wpm")),
+            (finish + 7, |s, _| s.contains("Точность печати")),
+        ],
+    );
+    let review = &result.screens[finish + 1];
+    assert!(
+        review.contains("CaFi") && review.contains("café"),
+        "{review}"
+    );
+    assert_eq!(review.matches("Верный ответ").count(), 1, "{review}");
+    assert!(!review.contains("agua"), "{review}");
+    for index in [finish + 4, finish + 6] {
+        let training = &result.screens[index];
+        assert!(training.contains("кофе café"), "{training}");
+        assert!(!training.contains("вода agua"), "{training}");
+    }
+    for index in [finish + 5, finish + 7] {
+        assert!(
+            result.screens[index].contains("100.0%"),
+            "{}",
+            result.screens[index]
+        );
+    }
+}
+
+#[test]
+fn exam_rejects_incomplete_wrong_and_extra_content_in_full_answers() {
+    fn invalid(screen: &str) -> Vec<u8> {
+        let entry = current_exam_entry(screen);
+        let target = entry["target"].as_str().unwrap();
+        match target {
+            "agua" => b"".to_vec(),
+            "café" => b"caf".to_vec(),
+            "chao" => b"chaoo".to_vec(),
+            "gracias" => b"gracixs".to_vec(),
+            "con leche" => b"conleche".to_vec(),
+            "con hielo" => b"con  hielo".to_vec(),
+            "hola" => b"hola!".to_vec(),
+            _ => replaced_exam_answer(screen),
+        }
+    }
+    let data = TestDataDir::new();
+    let mut keys = vec![DOWN, DOWN, RIGHT, ENTER];
+    let mut responses = vec![];
+    let finish = append_exam_answers(&mut keys, &mut responses, count(), invalid);
+    keys.push(ENTER);
+    for _ in 0..8 {
+        keys.push(b"\x1b[6~");
+    }
+    let last_review = keys.len() - 1;
+    keys.extend([ESC, ESC, ESC]);
+    let result = run_course_capture(&keys, data.as_ref(), (120, 40), &responses);
+    assert!(
+        result.screens[finish].contains("Правильно 13 из 20 (65 %)"),
+        "{}",
+        result.screens[finish]
+    );
+    let review = result.screens[finish + 1..=last_review].join("\n");
+    for answer in [
+        "(пустой ответ)",
+        "caf",
+        "chaoo",
+        "gracixs",
+        "conleche",
+        "con  hielo",
+        "hola!",
+    ] {
+        assert!(review.contains(answer), "missing {answer}: {review}");
+    }
+    for target in [
+        "agua",
+        "café",
+        "chao",
+        "gracias",
+        "con leche",
+        "con hielo",
+        "hola",
+    ] {
+        assert!(review.contains(target), "missing {target}: {review}");
+    }
 }
 
 #[test]
